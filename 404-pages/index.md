@@ -62,7 +62,7 @@ ErrorDocument 500 /500.html
 
 ---
 
-## Links
+## Supplemental links
 
 - [A List Apart: The Perfect 404](http://www.alistapart.com/articles/perfect404/)
 - [A List Apart: A More Useful 404](http://www.alistapart.com/articles/amoreuseful404/)

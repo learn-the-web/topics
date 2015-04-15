@@ -1,8 +1,8 @@
 ---
 group: web-dev-3
 playlist: PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm
-download: https://github.com/acgd-learn-the-web/css-animations-effects/archive/master.zip
-github: https://github.com/acgd-learn-the-web/css-animations-effects
+download: https://github.com/acgd-learn-the-web/css-animations-effects-code/archive/master.zip
+github: https://github.com/acgd-learn-the-web/css-animations-effects-code
 ---
 
 Different interaction methods for websites (without Javascript) and triggering animations and transitions with those interactions.

@@ -1,11 +1,8 @@
 ---
-title: HTML semantics
+group: web-dev-1
 playlist: PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1
 download: https://github.com/algonquindesign/html-css/archive/gh-pages.zip
 github: https://github.com/algonquindesign/html-css
-next:
-  title: Marking up a webpage
-  url: marking-up-a-webpage
 ---
 
 HTML (Hypertext Markup Language) is the coding language used to describe the content of websites.

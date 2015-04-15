@@ -69,11 +69,11 @@ That’s what the `text-size-adjust` property does.
 
 ---
 
-## Videos
+## Video list
 
-1. [All devices setup](http://www.youtube.com/watch?v=nbqnFZFQxd0)
+1. [All devices setup](https://www.youtube.com/watch?v=nbqnFZFQxd0&list=PLWjCJDeWfDdfU7nLY0WOFXq3Q7n5ZyEuZ&index=1)
 
-## Links
+## Supplemental links
 
 - [Mozilla Docs: Meta Viewport Tag](https://developer.mozilla.org/en/Mobile/Viewport_meta_tag/)
 - [Opera Dev: An Introduction to Meta Viewport and CSS Viewport](http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/)

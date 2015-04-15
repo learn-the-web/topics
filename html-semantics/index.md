@@ -21,7 +21,7 @@ The only thing that turns a plain text HTML file into a website is the web brows
 
 When writing HTML, the tags used to define the purpose of the text follow a specific syntax.
 
-![](images/html-tag-parts.png)
+![](html-tag-parts.png)
 
 - `element` — the combination of an open tag, the content, and a close tag
 - `open tag` — the part to an element that defines where this type of content starts

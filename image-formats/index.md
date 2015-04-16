@@ -52,7 +52,7 @@ You can open them up in your text editor—because they are just XML—and edit 
 
 ![](svg-code.jpg)
 
-#### [☛ Check out the tutorials on advanced SVG](https://github.com/algonquindesign/html-css/blob/gh-pages/advanced-svg)
+**[☛ Check out the tutorials on advanced SVG](/topics/advanced-svg/)**
 
 **Links**
 
@@ -88,7 +88,7 @@ There are a few other options to watch out for in the “Save for Web” dialogu
 
 JPG graphics don’t have transparency built in, but we can use SVG Masks and two images to create a transparent JPG. This technique is helpful if the transparent PNG version creates too large of file size.
 
-**[☛ Advanced SVG: masking images](../advanced-svg#masks)**
+**[☛ Advanced SVG: masking images](/topics/advanced-svg/#masks)**
 
 ---
 

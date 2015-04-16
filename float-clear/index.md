@@ -245,7 +245,7 @@ Adding `overflow: hidden` to the `.wrapper` will totally solve the problem and w
 
 When creating floating columns in CSS with `width` and `padding` make sure to include `box-sizing: border-box` or your columns won’t fit on the same line because of the box-model math.
 
-#### [☛ Box model: adjusting layout math with border box](../box-model#adjusting-layout-math-with-border-box)
+**[☛ Box model: adjusting layout math with border box](/topics/box-model/#adjusting-layout-math-with-border-box)**
 
 ---
 

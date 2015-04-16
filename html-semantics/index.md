@@ -1,8 +1,8 @@
 ---
 group: web-dev-1
 playlist: PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1
-download: https://github.com/algonquindesign/html-css/archive/gh-pages.zip
-github: https://github.com/algonquindesign/html-css
+download: https://github.com/acgd-learn-the-web/html-semantics-code/archive/master.zip
+github: https://github.com/acgd-learn-the-web/html-semantics-code
 ---
 
 HTML (Hypertext Markup Language) is the coding language used to describe the content of websites.

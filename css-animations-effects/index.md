@@ -13,10 +13,10 @@ Different interaction methods for websites (without Javascript) and triggering a
 
 ![](effect-flow-chart.png)
 
-1. **Does it start automatically, without user interaction?**<br>
+1. **Does it start automatically, without user interaction?**
 	*Yes:* `animation`
-2. **More states and keyframes that just start & end?**<br>
-	*Yes:* `animation`<br>
+2. **More states and keyframes that just start & end?**
+	*Yes:* `animation`
 	*No:* `transition`
 
 ---

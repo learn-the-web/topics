@@ -356,24 +356,24 @@ h1 {
 
 CSS provides a bunch of different units for sizes and lengths, e.g. `width: 100px;`
 
-- **px** — pixels<br>
+- **px** — pixels
 	`100px` is exactly 100 pixels in all situations
 
-- **em** — based on the font-size of the parent (or current element)<br>
-	`1em` is 1 × the parent element’s size<br>
-	`0.5em` is 0.5 × the parent element’s size<br>
-	[☛ Refer to CSS typography](/algonquindesign/html-css/tree/gh-pages/basic-typography#font-sizing-units-rem-vs-em-vs-px)
+- **em** — based on the font-size of the parent (or current element)
+	`1em` is 1 × the parent element’s size
+	`0.5em` is 0.5 × the parent element’s size
+	[☛ Refer to CSS typography](/topics/basic-typography#font-sizing-units-rem-vs-em-vs-px)
 
-- **rem** — based on the font-size set in the `html` element<br>
-	`1.5rem` is 1.5 × the `html` element’s font size<br>
-	[☛ Refer to CSS typography](/algonquindesign/html-css/tree/gh-pages/basic-typography#font-sizing-units-rem-vs-em-vs-px)
+- **rem** — based on the font-size set in the `html` element
+	`1.5rem` is 1.5 × the `html` element’s font size
+	[☛ Refer to CSS typography](/topics/basic-typography#font-sizing-units-rem-vs-em-vs-px)
 
-- **%** — a percentage of the parent element<br>
-	`100%` is to whole width of the parent element<br>
+- **%** — a percentage of the parent element
+	`100%` is to whole width of the parent element
 	If the parent element is `50%` wide, and this element is `50%` wide, then it only takes up `25%` of the original grand parent element
 
-- **vh** — like percentage, but based on the height of the window<br>
-	`100vh` is the whole height of the window<br>
+- **vh** — like percentage, but based on the height of the window
+	`100vh` is the whole height of the window
 	`50vh` is half the height of the window
 
 - **vw** — like percentage, but based on the width of the window

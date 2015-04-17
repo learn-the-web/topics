@@ -13,10 +13,10 @@ Images are a very critical part of modern web design—and there’s lots of dif
 
 ![](image-choice-flow-chart.png)
 
-1. **Does the image require a caption?**<br>
+1. **Does the image require a caption?**
 	*Yes*: Use a `<figure>` & `<figcaption>`.
-2. **Is the image an important part of the content?**<br>
-	*Yes*: Use an `<img>` tag with an appropriate `alt` attribute.<br>
+2. **Is the image an important part of the content?**
+	*Yes*: Use an `<img>` tag with an appropriate `alt` attribute.
 	*No*: Use a CSS `background-image`.
 
 *Any image that is purely decoration should be in CSS. If that can’t accomplish what you want an `<img>` tag with an empty `alt` attribute will suffice.*

@@ -13,13 +13,13 @@ There are a few types of images that can be used on the web: JPGs, PNGs, SVGs, f
 
 ![](flow-chart.png)
 
-1. **Is it a photo or really complex?**<br>
+1. **Is it a photo or really complex?**
 	*Yes:* JPG
-2. **Does it need to be animated?**<br>
-	*Yes:* SVGs with CSS animations<br>
+2. **Does it need to be animated?**
+	*Yes:* SVGs with CSS animations
 	*Or:* GIF
-3. **Does SVG produce good results?**<br>
-	*Yes:* SVG<br>
+3. **Does SVG produce good results?**
+	*Yes:* SVG
 	*No:* PNG-24 or PNG-8 if there’s very few colours
 
 ---

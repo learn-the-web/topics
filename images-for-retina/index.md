@@ -15,14 +15,14 @@ There are a few techniques we can use for hi-res screens.
 
 ![](flow-chart.png)
 
-1. **Can the look be accomplished practically in CSS?**<br>
+1. **Can the look be accomplished practically in CSS?**
 	*Yes:* Use CSS.
-2. **Is it a simple vector-like graphic (logo, icon, illustration)?**<br>
-	1. *Yes*: **Can the look be accomplished with SVG?**<br>
-		*Yes*: Use SVG.<br>
+2. **Is it a simple vector-like graphic (logo, icon, illustration)?**
+	1. *Yes*: **Can the look be accomplished with SVG?**
+		*Yes*: Use SVG.
 		*No*: Use a double-size PNG and scale it down.
-3. **Is it a photo that’s always cropped the same?**<br>
-	*Yes:* Use compressive JPGs.<br>
+3. **Is it a photo that’s always cropped the same?**
+	*Yes:* Use compressive JPGs.
 	*No*: Try: `<img srcset="">`, `<picture>`, `image-set()`, or `@media` to provide different versions of the image.
 
 ---

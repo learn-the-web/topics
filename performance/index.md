@@ -5,7 +5,7 @@ playlist: PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD
 
 Making your website fast is extremely important for usability and probably one of *the* most important design considerations for the web.
 
-> “Good performance *is* good design”<br>
+> “Good performance *is* good design”
 > — Brad Frost
 
 ---
@@ -121,8 +121,8 @@ Use these in conjunction with a performance budget to get the fastest website po
 - ❏ Put JS `<script>` tags at the bottom, right before the closing `</body>`
 - ❏ Remove any unused or duplicate CSS and JS
 - ❏ [Use CSS sprites or DataURIs where appropriate](../images-formats/#css-sprites)
-- ❏ Concatenate & minify HTML, CSS, and JS<br>
-	Concatenate automatically with a tool: [Grunt](http://gruntjs.com/), [Gulp](http://gulpjs.com/), [Prepros](https://prepros.io/), [CodeKit](http://incident57.com/codekit/), [ProCSSor](http://procssorapp.com/)<br>
+- ❏ Concatenate & minify HTML, CSS, and JS
+	Concatenate automatically with a tool: [Grunt](http://gruntjs.com/), [Gulp](http://gulpjs.com/), [Prepros](https://prepros.io/), [CodeKit](http://incident57.com/codekit/), [ProCSSor](http://procssorapp.com/)
 	Minify automatically with one of those tools or use CloudFlare
 
 ### Server considerations

@@ -136,26 +136,29 @@ In the scenario above, we wouldn’t see the background image because the `<div>
 
 We could solve this problem in a few ways:
 
-1. Put something inside the `<div>`
-	```html
-	<div>
-		<h1>Dinosaurs!</h1>
-	</div>
-	```
+Put something inside the `<div>`:
 
-2. Add a height to the `<div>`—not a very good solution
-	```css
-	div {
-		height: 14em;
-	}
-	```
+```html
+<div>
+	<h1>Dinosaurs!</h1>
+</div>
+```
 
-3. Add `padding-top` to the `<div>` to expand it’s dimensions—a good solution for maintaining aspect ratio
-	```css
-	div {
-		padding-top: 4em;
-	}
-	```
+Add a height to the `<div>`—not a very good solution:
+
+```css
+div {
+	height: 14em;
+}
+```
+
+Add `padding-top` to the `<div>` to expand it’s dimensions—a good solution for maintaining aspect ratio:
+
+```css
+div {
+	padding-top: 4em;
+}
+```
 
 #### Maintaining aspect ratio
 

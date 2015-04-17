@@ -6,11 +6,13 @@ github: https://github.com/acgd-learn-the-web/media-queries-code
 ---
 
 Media queries allow us to change our layouts and designs based on the browser.
+
 We can change our layouts based on width, height, DPI, orientation, and lots more.
 
 ---
 
 When creating our media queries it’s always best to use em-based media queries.
+
 It helps us to not think in device specific widths and concentrate more on our content.
 
 - [The Ems Have It: Proportional Media Queries](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
@@ -25,6 +27,7 @@ It helps us to not think in device specific widths and concentrate more on our c
 ## Larger screens
 
 On larger screens we want to capitalize on the greater horizontal real estate by making multi-column layouts.
+
 And it’s always beneficial to bump up our font sizes.
 
 ---

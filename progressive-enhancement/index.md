@@ -6,6 +6,8 @@ Form into pairs; each group will be assigned a progressive enhancement topic.
 
 **Come up with as many solutions—as crazy as you want—that could solve the problem your question proposes.**
 
+---
+
 ## Topics
 
 **In your group, answer the topic questions, and present it to the class.**

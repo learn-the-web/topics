@@ -28,7 +28,7 @@ Creating a modular typography system in CSS creates an extremely reusable font-s
 
 - [A List Apart: More Meaningful Typography](http://alistapart.com/article/more-meaningful-typography)
 - [24 Ways: Composing the New Canon](http://24ways.org/2011/composing-the-new-canon/)
-- [R(a|ela)tional Design](http://blog.8thlight.com/billy-whited/2011/10/28/r-a-ela-tional-design.html)
+- [Raelational Design](http://blog.8thlight.com/billy-whited/2011/10/28/r-a-ela-tional-design.html)
 - [Typographic Scale](http://spencermortensen.com/articles/typographic-scale/)
 
 **Tools**

@@ -5,8 +5,6 @@ download: https://github.com/acgd-learn-the-web/tables-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/tables-code
 ---
 
-# Tables
-
 Making data tables in HTML that are completely accessible
 
 ---

@@ -20,7 +20,7 @@ Design and production files should not go inside the GitHub repository, but inst
 - The Creative Suite files should always be kept because they will need to be changed in the future.
 - The files used in a website should be [compressed and smushed for the best performance](../performance/)—and therefore cannot be edited.
 
-![](readme-screenshots/project.jpg)
+![](project.jpg)
 
 First, create a folder that will hold all your project files—name it descriptively.
 
@@ -28,7 +28,7 @@ Inside this folder create 4 more directories: `assets`, `content`, `design`, `pr
 
 ### assets
 
-![](readme-screenshots/assets.jpg)
+![](assets.jpg)
 
 *For anything you **didn’t** create:*
 
@@ -38,7 +38,7 @@ Inside this folder create 4 more directories: `assets`, `content`, `design`, `pr
 
 ### content
 
-![](readme-screenshots/content.jpg)
+![](content.jpg)
 
 *For the website’s text-based content:*
 
@@ -49,7 +49,7 @@ Inside this folder create 4 more directories: `assets`, `content`, `design`, `pr
 
 ### design
 
-![](readme-screenshots/design.jpg)
+![](design.jpg)
 
 *For design related things you **did** create:*
 
@@ -63,7 +63,7 @@ Inside this folder create 4 more directories: `assets`, `content`, `design`, `pr
 
 ### production
 
-![](readme-screenshots/prod.jpg)
+![](prod.jpg)
 
 (I’m often lazy and just name this folder `prod`.)
 
@@ -83,7 +83,7 @@ Inside this folder create 4 more directories: `assets`, `content`, `design`, `pr
 
 ### www
 
-![](readme-screenshots/www.jpg)
+![](www.jpg)
 
 *This is your GitHub repository—it doesn’t necessarily need to be named `www`.*
 
@@ -97,7 +97,7 @@ Inside this folder create 4 more directories: `assets`, `content`, `design`, `pr
 
 #### www/images
 
-![](readme-screenshots/www-images.jpg)
+![](www-images.jpg)
 
 *The extracted & smushed**—non-editable—**images for the website:*
 

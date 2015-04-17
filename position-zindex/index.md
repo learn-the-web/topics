@@ -20,7 +20,7 @@ The `position` property has a few different values, each doing something slightl
 - `absolute` — complete removal from the flow, movement with the coordinate system
 - `fixed` — complete removal from the flow, attached to the window, doesn’t move when the browser scrolls
 
-![](readme-screenshots/static-default.png)
+![](static-default.png)
 
 ```html
 <div class="blue">…</div>
@@ -32,7 +32,7 @@ The `position` property has a few different values, each doing something slightl
 
 Position `absolute` completely removes the element from the flow, allowing all other boxes to fill in the space.
 
-![](readme-screenshots/absolute.png)
+![](absolute.png)
 
 ```css
 .purple {
@@ -57,7 +57,7 @@ When using `position: absolute`, the primary reason is to be able to position so
 - `left` — move the element in from the left, can use negative numbers
 - `right` — move the element in from the right, can use negative numbers
 
-![](readme-screenshots/coordinates.png)
+![](coordinates.png)
 
 The only time we want to specify opposing coordinates, like `top` & `bottom`, at the same time is if we want to stretch the element to fill some space.
 
@@ -65,7 +65,7 @@ The only time we want to specify opposing coordinates, like `top` & `bottom`, at
 
 The default coordinate system is based on the `body`—so any positioning we do will always be in relation to the edges of the `body` element.
 
-![](readme-screenshots/against-body.png)
+![](against-body.png)
 
 ```html
 <div class="grey-border">
@@ -83,7 +83,7 @@ The default coordinate system is based on the `body`—so any positioning we do 
 
 We can reset the coordinate system by adding `position: relative` to a parent of the element. After setting `relative`, a new positioning context is created, and the coordinates will automatically be positioned against the parent element instead.
 
-![](readme-screenshots/against-relative.png)
+![](against-relative.png)
 
 ```css
 .grey-border {
@@ -95,7 +95,7 @@ We can reset the coordinate system by adding `position: relative` to a parent of
 
 Though `relative` creates a new positioning context, reseting the coordinate system, it also allows the element to take up space in the flow while adjusting its position slightly with the coordinates.
 
-![](readme-screenshots/relative.png)
+![](relative.png)
 
 ```html
 <div class="blue">…</div>
@@ -137,7 +137,7 @@ As soon as an element has a `position` set on it we can control the layering usi
 
 The default stacking order for `position: absolute` elements is: *the further down the page the HTML is, the higher up, or closer to the viewer, the element will appear.*
 
-![](readme-screenshots/default-stacking.png)
+![](default-stacking.png)
 
 ```html
 <div class="blue">…</div>
@@ -162,7 +162,7 @@ By adding `z-index` to the elements we can control their layering.
 
 The `z-index` is a number, with no unit, that controls the layer. The higher the number, the closer to the viewer. The number only needs to be as high as how many other elements there are in the context.
 
-![](readme-screenshots/z-index.png)
+![](z-index.png)
 
 ```css
 .purple {

@@ -35,7 +35,7 @@ Foreground images, or images inserted into HTML, use the HTML `<img>` tag.
 <img src="../images/photo.jpg">
 ```
 
-#### [☛ Refer to the tutorial on paths](https://github.com/algonquindesign/resources/tree/master/paths-folders)
+**[☛ Refer to the tutorial on paths](/topics/paths-folders/)**
 
 **Links**
 
@@ -108,7 +108,7 @@ body {
 
 The `url()` function requires you to specify the image in relation to the CSS document. If your CSS file is inside a folder the path will need to exit that folder using `../`.
 
-#### [☛ Refer to the tutorial on paths](https://github.com/algonquindesign/resources/tree/master/paths-folders)
+**[☛ Refer to the tutorial on paths](/topics/paths-folders/)**
 
 **Links**
 

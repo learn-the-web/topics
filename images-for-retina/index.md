@@ -170,4 +170,4 @@ We can use a media query for detecting hi-res screens and supply two different i
 
 - **[A List Apart: Responsive Images in Practice](http://alistapart.com/article/responsive-images-in-practice)**
 - **Responsive Images 101: [Part 1](http://blog.cloudfour.com/responsive-images-101-definitions/), [Part 2](http://blog.cloudfour.com/responsive-images-101-part-2-img-required/), [Part 3](http://blog.cloudfour.com/responsive-images-101-part-3-srcset-display-density/), [Part 4](http://blog.cloudfour.com/responsive-images-101-part-4-srcset-width-descriptors/), [Part 5](http://blog.cloudfour.com/responsive-images-101-part-5-sizes/), [Part 6](http://blog.cloudfour.com/responsive-images-101-part-6-picture-element/), Part 7, Part 8, Part 9**
-- [Smashing Magazine: Responsive Images Done Right: A Guide To <picture> And srcset](http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/)
+- [Smashing Magazine: Responsive Images Done Right: A Guide To picture And srcset](http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/)

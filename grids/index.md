@@ -36,7 +36,9 @@ Within CSS, we can then float of each of the units to fit beside each other.
 ```
 
 This will create a grid row with three columns inside that flex with the width of the browser.
+
 The major problem is that there is no space, or gutter, between each column.
+
 To solve the problem in the most flexible manner, we can put another class on the unit to add the gutter’s padding.
 
 ```html
@@ -55,6 +57,7 @@ To solve the problem in the most flexible manner, we can put another class on th
 ```
 
 Using a `.gutter` gives us the flexibility to choose whether we want padding or not.
+
 So we could create grid units with full bleed images.
 
 ```html
@@ -98,6 +101,7 @@ We can extend our flexible grids to be responsive using a technique with multipl
 ```
 
 You’ll notice multiple classes on each of the `.unit` `<div>` elements.
+
 Each class represents the position the `<div>` will be in at each different screen size.
 
 - `unit-s-1`—means the unit takes up 100% of the space on small screens

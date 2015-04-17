@@ -68,7 +68,7 @@ From the `dinosaurs/` folder, we would have to write the below navigation, using
 </nav>
 ```
 
-#### [☛ Refer to the tutorial on paths](https://github.com/algonquindesign/resources/tree/master/paths-folders)
+**[☛ Refer to the tutorial on paths](/topics/paths-folders)**
 
 ### Highlighting the current page
 

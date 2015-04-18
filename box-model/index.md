@@ -321,7 +321,7 @@ div {
 
 - [MDN: Box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
-**[☛ Decorations with images are covered in the “Using images” tutorial.](/topics/using-images/)**
+**[☛ Decorations with images are covered in the “Using images” tutorial](/topics/using-images/)**
 
 ---
 

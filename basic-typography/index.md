@@ -21,7 +21,7 @@ Most computers have a few default fonts that we can almost guarantee to be there
 
 ```css
 html {
-	font-family: Georgia;
+  font-family: Georgia;
 }
 ```
 
@@ -31,8 +31,8 @@ We really can’t guarantee that Georgia will be installed on the person’s com
 
 ```css
 html {
-	/* Try to load Georgia, if it doesn't exist load another serif font */
-	font-family: Georgia, serif;
+  /* Try to load Georgia, if it doesn't exist load another serif font */
+  font-family: Georgia, serif;
 }
 ```
 
@@ -40,7 +40,7 @@ When specifying a font family that has a space in its name we must surround it w
 
 ```css
 html {
-	font-family: "Comic Sans MS", sans-serif;
+  font-family: "Comic Sans MS", sans-serif;
 }
 ```
 
@@ -54,15 +54,15 @@ Here’s a bunch of other font properties we can use to adjust our typography.
 
 ```css
 h1 {
-	font-size: 2rem;
-	font-weight: bold;
-	font-style: italic;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
 
-	/*
-		On the web a loose line-height has been shown to be more readable
-		1.5 is good for body copy
-	*/
-	line-height: 1.5;
+  /*
+    On the web a loose line-height has been shown to be more readable
+    1.5 is good for body copy
+  */
+  line-height: 1.5;
 }
 ```
 
@@ -77,8 +77,8 @@ For fonts, we can actually specify a bunch of CSS properties on a single line in
 
 ```css
 html {
-	/* font: font-style (optional) font-weight font-size/line-height font-family; */
-	font: normal 1rem/1.5 Georgia, serif;
+  /* font: font-style (optional) font-weight font-size/line-height font-family; */
+  font: normal 1rem/1.5 Georgia, serif;
 }
 ```
 
@@ -88,20 +88,20 @@ There are a bunch of decorative things we can do to our text.
 
 ```css
 p {
-	text-transform: uppercase;
-	text-decoration: line-through;
-	text-align: center;
-	text-indent: 1em;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  text-align: center;
+  text-indent: 1em;
 
-	/* text-shadow: horizontal-offset vertical-offset blur-radius colour */
-	text-shadow: 2px -4px 6px red;
+  /* text-shadow: horizontal-offset vertical-offset blur-radius colour */
+  text-shadow: 2px -4px 6px red;
 }
 ```
 
 - `text-transform` — change capitalization: `uppercase`, `lowercase`, `capitalize`
-	It’s a good idea to use CSS to make all caps instead of writing it directly in HTML for accessibility reasons.
+  It’s a good idea to use CSS to make all caps instead of writing it directly in HTML for accessibility reasons.
 - `text-decoration` — add line-decorations: `none`, `underline`, `line-through`, `overline`
-	The only things in a website that should be underlined are links.
+  The only things in a website that should be underlined are links.
 - `text-align` — alignment of the text: `left`, `center` (American spelling), `right`, `justify`
 - `text-indent` — indent the first line of text like traditionally printed materials
 - `text-shadow` — adding a shadow to the text: specified like this: `text-shadow: horizontal-offset vertical-offset blur-radius colour`
@@ -128,7 +128,7 @@ Rems and ems are a great solution that allow relative font sizes. They are basic
 <p>Some text.</p>
 
 <div>
-	<p>Some inner text.</p>
+  <p>Some inner text.</p>
 </div>
 ```
 
@@ -146,13 +146,13 @@ Styling links in websites is not really different from other elements, but they 
 
 ```css
 a {
-	color: darkgreen;
+  color: darkgreen;
 
-	/*
-		Be careful when removing the underline from links
-		Make sure there is still enough contrast to understand the text as a link
-	*/
-	text-decoration: none;
+  /*
+    Be careful when removing the underline from links
+    Make sure there is still enough contrast to understand the text as a link
+  */
+  text-decoration: none;
 }
 ```
 
@@ -206,14 +206,14 @@ But, those are just the defaults and we can completely overwrite those bullets a
 
 ```css
 ul, ol {
-	list-style-type: decimal; /* Simple numbers (1, 2, 3, etc.) */
-	list-style-type: lower-alpha; /* Lowercase letters (a, b, c, d, etc.) */
-	list-style-type: lower-roman; /* Lowercase Roman numerals (i, ii, iii, etc.) */
-	list-style-type: lower-greek; /* Lowercase Greek letters (α, β, ɣ, etc.) */
-	list-style-type: disc; /* The default filled bullet (•)*/
-	list-style-type: circle; /* Add empty circle bullets (◦) */
-	list-style-type: square; /* Add square shaped bullets (■) */
-	list-style-type: none; /* Remove all bullets and numbers */
+  list-style-type: decimal; /* Simple numbers (1, 2, 3, etc.) */
+  list-style-type: lower-alpha; /* Lowercase letters (a, b, c, d, etc.) */
+  list-style-type: lower-roman; /* Lowercase Roman numerals (i, ii, iii, etc.) */
+  list-style-type: lower-greek; /* Lowercase Greek letters (α, β, ɣ, etc.) */
+  list-style-type: disc; /* The default filled bullet (•)*/
+  list-style-type: circle; /* Add empty circle bullets (◦) */
+  list-style-type: square; /* Add square shaped bullets (■) */
+  list-style-type: none; /* Remove all bullets and numbers */
 }
 ```
 
@@ -231,7 +231,7 @@ Beyond the core web fonts for font family we can use custom typefaces that get d
 
 There are lots of different services for Web Fonts—Google Fonts is a simple one to start with and uses open fonts that are licensed for any situation.
 
-**[☛ Follow this tutorial to see how to use Google Fonts.](/topics/google-fonts/)**
+**[☛ Follow this tutorial to see how to use Google Fonts](/topics/google-fonts/)**
 
 **Links**
 

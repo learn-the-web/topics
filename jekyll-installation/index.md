@@ -8,9 +8,7 @@ On a Mac we need to install the Command Line Tools before installing Jekyll usin
 
 ## Installing the command line tools
 
-**If you have Mac OS X 10.9 “Mavericks” or later you can install the command line tools directly from Terminal.**
-
-*If you have an older version of Mac OS , follow the [pre-Mavericks installation process](pre-mavericks-install.md).*
+You can install the command line tools directly from Terminal.
 
 ```bash
 xcode-select --install

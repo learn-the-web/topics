@@ -1,37 +1,48 @@
 all-devices-setup:
   title: "All devices setup"
   highlight: true
+  tags: "all devices setup meta viewport width device width initial scale border box"
 
 media-queries:
   title: "Media queries"
+  tags: "media query queries responsive web design em based larger screens adjustments"
 
 media-query-layout:
   title: "Media query layout"
   fullsite: true
   disabled: true
+  tags: "full website media queries responsive web design em screens adjustments"
 
 grids:
   title: "Grids"
+  tags: "grids modular columns rows units responsive web design screens adjustments"
 
 modular-typography:
   title: "Modular typography"
+  tags: "modular typography baseline vertical rhythm gutter island push pad kilo mega giga tera yotta zetta"
 
 interactive-wireframes:
   title: "Interactive wireframes"
   fullsite: true
+  tags: "full website interactive wireframes prototypes grids modular typography"
 
 modules:
   title: "Modules"
+  tags: "modules object oriented css reuse list group buttons icons media object embed containers bem smacss"
 
 modular-layout:
   title: "Modular website layout"
   fullsite: true
+  tags: "full website modular layout grids typography modules embed"
 
 accessibility:
   title: "Accessibility"
+  tags: "accessibility humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers voice over braille"
 
 tables:
   title: "Tables"
+  tags: "table chart cells rows columns headings border captions"
 
 forms:
   title: "Forms"
+  tags: "forms contact input text user entry textarea button submit radio select"

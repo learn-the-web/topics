@@ -1,72 +1,87 @@
 learning-resources:
   title: "Learning resources"
   tags: "learning resources tutorials documentations blogs videos"
+  desc: "Different learning resources and documentation for the open web."
 
 blogs-companies-people:
   title: "Blogs, companies & people"
   indent: 1
   tags: "blogs companies people twitter rss feeds who to follow"
+  desc: "A big list of blogs, companies, and people to follow in the web field."
 
 staying-up-to-date:
   title: "Staying up to date"
   indent: 1
   highlight: true
   tags: "up to date feeds email newsletters blogs tutorials rss save for later bookmarks twitter"
+  desc: "How to keep your knowledge current with feeds, newsletters, and blogs."
 
 licenses-copyright:
   title: "Licenses & copyright"
   tags: "licensing copyrights creative commons gpl mit public domain open source property"
+  desc: "Understanding the different licensing and copyright systems for code and content."
 
 the-open-web:
   title: "The Open Web"
   tags: "open web development standards agreement browsers urls hyperlinks internet domain dns ip address url server host http html css javascript layers"
+  desc: "A quick introduction to the Open Web."
 
 web-terminology:
   title: "Web terminology"
   indent: 1
   tags: "terminology definitions browsers urls hyperlinks internet domain dns ip address url server host http html css javascript layers square angle backet curly brace double single quote semi colon"
+  desc: "Common words and definitions that you’ll hear with developing websites."
 
 history-of-the-web:
   title: "History of the Web"
   indent: 1
   tags: "history timeline bbs network tim berners-lee www html cern mosaic w3c netscape navigator microsoft internet explorer jeffery zeldman css xhtml html5 firefox"
+  desc: "A super quick history of the web and important dates."
 
 javascript-history:
   title: "Javascript history"
   indent: 1
   disabled: true
   tags: "livescript netscape brendan eich java ecmascript"
+  desc: "A super quick history of Javascript and how it was created."
 
 markdown:
   title: "Markdown"
   tags: "markdown processor html headings daring fireball john gruber commonmark"
+  desc: "Understanding the Markdown markup language that’s used in many locations including GitHub."
 
 launch-checklist:
   title: "Launch checklist"
   highlight: true
   tags: "launch checklist double check validators link checkers usability browser testing analytics monitoring"
+  desc: "A big checklist of things to check on your website before you launch it."
 
 ajax:
   title: "AJAX"
   disabled: true
   tags: "javascript ajax asynchronous load content xml external file json html"
+  desc: "Loading external content and files into your website using Javascript."
 
 javascript-templates:
   title: "Javascript templates"
   disabled: true
   tags: "javascript templates mustache handlebars separate separation concerns external html"
+  desc: "Separating the HTML and Javascript by using templates."
 
 efficiency-tools:
   title: "Efficiency tools"
   disabled: true
   tags: "keyboard shortcuts command line terminal alfred xscope shortcat dash window managers vim keybindings"
+  desc: "Ways to get more out of your computer, including different keyboard-based tools."
 
 php:
   title: "PHP"
   disabled: true
   tags: "php includes headers footers database contact forms emails"
+  desc: "A quick introduction to PHP and how to use it for your website."
 
 wordpress:
   title: "WordPress"
   disabled: true
   tags: "wordpress custom theme blog php setup content management system database"
+  desc: "A quick introduction to setting up a custom WordPress theme for a client."

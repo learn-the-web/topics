@@ -1,5 +1,5 @@
 ---
-group: web-dev-2
+group: whats-next
 download: https://github.com/acgd-learn-the-web/staying-up-to-date-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/staying-up-to-date-code
 ---

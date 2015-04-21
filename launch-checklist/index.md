@@ -1,5 +1,5 @@
 ---
-group: what-next
+group: whats-next
 ---
 
 Here’s a bunch of different things to check on your website before & after launching it.

@@ -12,7 +12,7 @@ Paths are the syntax we write to link and find files and folders on our computer
 
 When it comes to paths for a website they also turn into URLs. **So paths and URLs are exactly the same when making websites.**
 
-#### [☛ Refer to the naming conventions](../naming-conventions)
+**[☛ Refer to the naming conventions](/topics/naming-conventions)**
 
 ---
 

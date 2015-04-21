@@ -1,5 +1,5 @@
 ---
-group: web-dev-1
+group: setup
 playlist: PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB
 ---
 

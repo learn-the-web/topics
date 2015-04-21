@@ -32,7 +32,7 @@ When writing issues it’s always a good idea to be as descriptive as possible. 
 
 In writing area of the issue, you can use Markdown to format your description, including: bold, italic, lists, and more.
 
-#### [☛ Learn about Markdown formatting](../markdown/)
+**[☛ Learn about Markdown formatting](/topics/markdown/)**
 
 ### Writing code inline
 
@@ -40,7 +40,7 @@ When describing problems in the code it’s often a good idea to provide code sa
 
 Using Markdown you can embed code samples with backticks.
 
-#### [☛ Learn about writing code in Markdown](../markdown/#code)
+**[☛ Learn about writing code in Markdown](/topics/markdown/#code)**
 
 ### Attaching files
 
@@ -144,7 +144,7 @@ If you want a specific person to deal with an issue, instead of mentioning them 
 
 Using Markdown-like task lists in GitHub Issues is good way to denote the order that issues should be completed, and maybe who should look into them.
 
-#### [☛ Learn how to make task lists](../markdown/#task-lists)
+**[☛ Learn how to make task lists](/topics/markdown/#task-lists)**
 
 ![](tasks.jpg)
 

@@ -1,57 +1,72 @@
 learning-resources:
   title: "Learning resources"
+  tags: "learning resources tutorials documentations blogs videos"
 
 blogs-companies-people:
   title: "Blogs, companies & people"
   indent: 1
+  tags: "blogs companies people twitter rss feeds who to follow"
 
 staying-up-to-date:
   title: "Staying up to date"
   indent: 1
   highlight: true
+  tags: "up to date feeds email newsletters blogs tutorials rss save for later bookmarks twitter"
 
 licenses-copyright:
   title: "Licenses & copyright"
+  tags: "licensing copyrights creative commons gpl mit public domain open source property"
 
 the-open-web:
   title: "The Open Web"
+  tags: "open web development standards agreement browsers urls hyperlinks internet domain dns ip address url server host http html css javascript layers"
 
 web-terminology:
   title: "Web terminology"
   indent: 1
+  tags: "terminology definitions browsers urls hyperlinks internet domain dns ip address url server host http html css javascript layers square angle backet curly brace double single quote semi colon"
 
 history-of-the-web:
   title: "History of the Web"
   indent: 1
+  tags: "history timeline bbs network tim berners-lee www html cern mosaic w3c netscape navigator microsoft internet explorer jeffery zeldman css xhtml html5 firefox"
 
 javascript-history:
   title: "Javascript history"
   indent: 1
   disabled: true
+  tags: "livescript netscape brendan eich java ecmascript"
 
 markdown:
   title: "Markdown"
+  tags: "markdown processor html headings daring fireball john gruber commonmark"
 
 launch-checklist:
   title: "Launch checklist"
   highlight: true
+  tags: "launch checklist double check validators link checkers usability browser testing analytics monitoring"
 
 ajax:
   title: "AJAX"
   disabled: true
+  tags: "javascript ajax asynchronous load content xml external file json html"
 
 javascript-templates:
   title: "Javascript templates"
   disabled: true
+  tags: "javascript templates mustache handlebars separate separation concerns external html"
 
 efficiency-tools:
   title: "Efficiency tools"
   disabled: true
-
-wordpress:
-  title: "WordPress"
-  disabled: true
+  tags: "keyboard shortcuts command line terminal alfred xscope shortcat dash window managers vim keybindings"
 
 php:
   title: "PHP"
   disabled: true
+  tags: "php includes headers footers database contact forms emails"
+
+wordpress:
+  title: "WordPress"
+  disabled: true
+  tags: "wordpress custom theme blog php setup content management system database"

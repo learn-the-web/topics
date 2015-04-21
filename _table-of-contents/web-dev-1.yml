@@ -1,88 +1,114 @@
 naming-conventions:
   title: "Naming conventions"
   highlight: true
+  tags: "naming conventions lower case dashes no spaces underscore folders files structure"
 
 paths-folders:
   title: "Using paths & folders"
+  tags: "paths folders directories directory link css image source href"
 
 html-semantics:
   title: "HTML semantics"
+  tags: "html semantics meaning purpose tags elements syntax document body head setup headings paragraphs unordered ordered lists internal jump links images figures captions break horizontal rule"
 
 html-indentation:
   title: "HTML indentation"
+  disabled: true
+  tags: "html indentation tabs spaces hierarchy vertical alignment monospace fonts"
 
 marking-up-a-webpage:
   title: "Marking up a webpage"
   fullsite: true
   disabled: true
+  tags: "full html semantics website webpage header footer navigation main"
 
 using-css:
   title: "Using CSS"
+  tags: "using css link targeting selecting elements children multiple naming classes ids colours transparency rgba hsla units rems px vh vw"
 
 basic-typography:
   title: "Basic typography"
+  tags: "typography styling font family weight style bold italic size line-height text decoration transform uppercase lowercase align center right left indent shadow rems px links colour list style type web fonts custom fonts google"
 
 google-fonts:
   title: "Using Google Fonts"
   indent: 1
+  tags: "google web custom fonts link use"
 
 browser-developer-tools:
   title: "Browser developer tools"
   disabled: true
+  tags: "browser developer tools inspect element google chrome safari firefox opera elements styles"
 
 validators:
   title: "Validators"
+  tags: "html css javascript validators checkers test w3c confirm semantics standards"
 
 browser-testing:
   title: "Browser testing"
   highlight: true
   disabled: true
+  tags: "mozilla firefox opera safari google chrome microsoft internet explorer ios safari android mini windows phone browser testing"
 
 box-model:
   title: "Everything is a box"
+  tags: "box model width height margin padding border collapsing box background colour radius shadow"
 
 flow-display:
   title: "Flow & display"
+  tags: "browser flow layout display inline block hiding elements tags centering horizontal stacked flexbox"
 
 basic-website-layout:
   title: "Basic website layout"
   fullsite: true
   disabled: true
+  tags: "full basic website layout flow display margin padding"
 
 float-clear:
   title: "Float & clear"
+  tags: "float clear text wrap clearfix columns overflow hidden scrollbars"
 
 position-zindex:
   title: "Position & z-index"
+  tags: "position z index in front behind absolute static relative fixed top left bottom right coordinates"
 
 navigation:
   title: "Navigation"
+  tags: "navigation styles links multiple pages highlight current page inline list footer anchor grid toggle drop down menu navigation"
 
 small-screen-layout:
   title: "Small screen layout"
   fullsite: true
+  tags: "full small screen layout display box float position columns"
 
 organization:
   title: "Website file organization"
+  tags: "on off github assets production design content www version control dropbox invision"
 
 image-formats:
   title: "Images for the web"
+  tags: "images web jpeg png svg gif saving exporting save for web compression smushing optimization performance speed filesize imageoptim alpha favicons download"
 
 using-images:
   title: "Using images"
   indent: 1
+  tags: "using images figures captions background foreground url aspect ratio size attachment repeat multiple linear radial repeating gradients sprites replacement hide text patterns border images"
 
 images-for-retina:
   title: "Images for retina screens"
   indent: 1
+  tags: "retina hi dpi compression compressive save for web double size source sets picture source jpeg png svg images"
 
 before-after:
   title: "Before & after pseudo elements"
+  tags: "before after pseudo elements content hidden bullets quotations marks clearfix border box "
 
 from-mockup-to-website:
   title: "From mockup to website"
   fullsite: true
   disabled: true
+  tags: "full website mockup production assets exporting saving save for web images layouts"
 
 performance:
   title: "Performance"
+  tags: "performance speed images web page test page speed yslow cost download time mobile friendly validation"

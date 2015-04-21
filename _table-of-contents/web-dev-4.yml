@@ -1,41 +1,54 @@
 domains:
   title: "Domains & DNS"
   highlight: true
+  tags: "domains dns tld ca com internet web ip works a ns mx cname email hover fastmail github cloudflare apex"
 
 writing-for-the-web:
   title: "Writing for the Web"
+  disabled: true
+  tags: "writing web why short length style keywords personality emotion connection adaptive content"
 
 video:
   title: "Video"
+  tags: "video web tag element export save formats hover source mp4 webm ogg"
 
 jekyll:
   title: "Jekyll"
   fullsite: true
+  tags: "jekyll layouts templates header footer github combine separate"
 
 jekyll-installation:
   title: "Jekyll installation"
   indent: 1
+  tags: "jekyll sudo gem installation terminal command line mac"
 
 jekyll-terminal-guide:
   title: "Jekyll terminal guide"
   indent: 1
+  tags: "jekyll terminal command line serve watch base url"
 
 search-engine-optimization:
   title: "Search engine optimization"
+  tags: "search engine optimization honest seo content tags meta description keywords sitemap robots humans txt"
 
 metadata-enhanced-semantics:
   title: "Metadata & enhanced semantics"
   indent: 1
+  tags: "metadata enhanced semantics structured rich snippets search engine optimization microdata microformats rdfa schema org social semantics facebook twitter pinterest open graph"
 
 404-pages:
   title: "404 pages"
+  tags: "404 500 error pages not found codes github apache"
 
 progressive-enhancement:
   title: "Progressive enhancement"
+  tags: "progressive enhancement graceful degradation internet web download failure older browser testing user font size print disabled"
 
 css-minification:
   title: "CSS minification"
   disabled: true
+  tags: "css minification combine performance multiple single files css"
 
 analytics-monitoring:
   title: "Analytics & monitoring"
+  tags: "analytics stats monitoring website google uptime users search terms keywords"

@@ -1,26 +1,34 @@
 css-animations-effects:
   title: "CSS animations & effects"
+  tags: "css animations effects transitions transform rotate skew translate target step keyframes webkit vendor prefixes parallax scrolling"
 
 javascript-intro:
   title: "Javascript: introduction"
+  tags: "javascript introduction syntax flow comments variables strings numbers booleans arrays objects functions arguments if statement for while foreach loops switch debugging"
 
 javascript-debugging:
   title: "Javascript debugging"
   disabled: true
+  tags: "javascript debugging jshint jslint developer tools inspect element console log"
 
 dom:
   title: "Document object model (DOM)"
+  tags: "javascript html elements tags manipulate document object model jquery events click propagation delegation classes forms html"
 
 javascript-components:
   title: "Common Javascript components"
+  tags: "javascript common components tabs toggle panels buttons lightbox data filter"
 
 advanced-svg:
   title: "Advanced SVG"
+  tags: "writing advance svg embedding html hover transition animations masks filters patterns text webfonts gradients icons symbols"
 
 javascript-effects:
   title: "Javascript effects"
+  tags: "javascript effects scrolling transitions animations end events waypoints smooth scroll manipulating svg"
 
 responsive-animated-info-graphic:
   title: "Responsive animated info graphic"
   fullsite: true
   disabled: true
+  tags: "full website responsive javascript info graphic animations transitions effects svg"

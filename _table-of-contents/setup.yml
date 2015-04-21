@@ -1,66 +1,79 @@
 web-browsers:
   title: "Web browsers"
   tags: "web browsers chrome safari mozilla firefox opera install"
+  desc: "Understanding how web browsers work and their features"
   disabled: true
 
 using-urls:
   title: "Using URLs"
   tags: "urls addresses web paths"
+  desc: "Understanding and using URLs in the web browser for faster navigation"
   indent: 1
   disabled: true
 
 code-editors:
   title: "Code editors"
   tags: "code text editors atom sublime install configuration options settings"
+  desc: "Setting up and choosing a code editor"
 
 keyboard-shortcuts:
   title: "Keyboard shortcut reference"
   tags: "keyboard shortcuts start end line word file document"
+  desc: "Common keyboard shortcuts to move around text and applications on your Mac"
   indent: 1
 
 sublime-text:
   title: "Sublime Text setup"
   tags: "sublime text code editors install setup configuration options settings packages plugins"
+  desc: "Installing and setting up Sublime Text as your code editor"
   indent: 1
   highlight: true
 
 atom:
   title: "Atom setup"
   tags: "github atom text code editors install setup configuration options settings packages plugins"
+  desc: "Installing and setting up GitHub’s Atom text editor"
   indent: 1
 
 version-control:
   title: "Version control"
   tags: "github version control history undo saving"
+  desc: "Understanding the value of version control and how it helps us"
 
 installing-github:
   title: "Installing GitHub"
   tags: "github installing mac windows setup application"
+  desc: "Installing and setting up GitHub on your computer"
   indent: 1
   disabled: true
 
 github-pages:
   title: "Hosting with GitHub Pages"
   tags: "github hosting gh pages master branches"
+  desc: "Understanding how to use GitHub Pages to host your website"
   indent: 1
 
 github-use-and-committing:
   title: "GitHub use & committing"
   tags: "github use committing syncing undo saving history messages descriptions"
+  desc: "Using GitHub to store the code’s history and undo states and synchronize"
   indent: 1
   disabled: true
 
 commit-messages:
   title: "Commit message conventions"
   tags: "github use committing messages conventions descriptions system"
+  desc: "Writing commit messages that the whole team understands"
   indent: 2
 
 branching-github-flow:
   title: "Branching & GitHub Flow"
   tags: "github hosting system branches master gh pages flow issues pull requests"
+  desc: "Understanding the GitHub Flow when using branches and pull requests with your team"
   indent: 1
 
 github-issues:
   title: "GitHub Issues"
   tags: "github issues labels descriptions project management problems help"
+  desc: "What GitHub Issues do for use and how to use them for getting feedback, tracking progress, and more"
   indent: 1

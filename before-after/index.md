@@ -153,7 +153,7 @@ blockquote::after {
 
 ---
 
-### Other ideas
+## Other ideas
 
 - You can use `background-image` to insert images into before and after
 - Check out CSS counters to generate numbers

@@ -1,34 +1,42 @@
 css-animations-effects:
   title: "CSS animations & effects"
   tags: "css animations effects transitions transform rotate skew translate target step keyframes webkit vendor prefixes parallax scrolling"
+  desc: "Adding more pizazz a website with animations, transitions, and effects."
 
 javascript-intro:
   title: "Javascript: introduction"
   tags: "javascript introduction syntax flow comments variables strings numbers booleans arrays objects functions arguments if statement for while foreach loops switch debugging"
+  desc: "Looking at understanding how to write Javascript code."
 
 javascript-debugging:
   title: "Javascript debugging"
   disabled: true
   tags: "javascript debugging jshint jslint developer tools inspect element console log"
+  desc: "Some simple techniques to debug Javascript code in your browser."
 
 dom:
   title: "Document object model (DOM)"
   tags: "javascript html elements tags manipulate document object model jquery events click propagation delegation classes forms html"
+  desc: "Understanding how Javascript interfaces and manipulates with HTML."
 
 javascript-components:
   title: "Common Javascript components"
   tags: "javascript common components tabs toggle panels buttons lightbox data filter"
+  desc: "Creating common Javascript webpage components like tabs, lightboxes, and panels."
 
 advanced-svg:
   title: "Advanced SVG"
   tags: "writing advance svg embedding html hover transition animations masks filters patterns text webfonts gradients icons symbols"
+  desc: "Writing and using SVG in more complex scenarios with animations, transitions, and other effects."
 
 javascript-effects:
   title: "Javascript effects"
   tags: "javascript effects scrolling transitions animations end events waypoints smooth scroll manipulating svg"
+  desc: "Using Javascript to trigger and create lots of effects on a website like animations and scrolling effects."
 
 responsive-animated-info-graphic:
   title: "Responsive animated info graphic"
   fullsite: true
   disabled: true
   tags: "full website responsive javascript info graphic animations transitions effects svg"
+  desc: "Walking through creating a complex, responsive, interactive, and animated info graphic."

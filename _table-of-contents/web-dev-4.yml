@@ -44,11 +44,6 @@ metadata-enhanced-semantics:
   tags: "metadata enhanced semantics structured rich snippets search engine optimization microdata microformats rdfa schema org social semantics facebook twitter pinterest open graph"
   desc: "Extra semantics for website to help with SEO and display properly in social media platforms."
 
-404-pages:
-  title: "404 pages"
-  tags: "404 500 error pages not found codes github apache"
-  desc: "Creating fun and engaging not found pages to help and engage users."
-
 progressive-enhancement:
   title: "Progressive enhancement"
   tags: "progressive enhancement graceful degradation internet web download failure older browser testing user font size print disabled"
@@ -59,6 +54,11 @@ css-minification:
   disabled: true
   tags: "css minification combine performance multiple single files css"
   desc: "Making our CSS files smaller and more performant by combining them together and removing extra stuff."
+
+404-pages:
+  title: "404 pages"
+  tags: "404 500 error pages not found codes github apache"
+  desc: "Creating fun and engaging not found pages to help and engage users."
 
 analytics-monitoring:
   title: "Analytics & monitoring"

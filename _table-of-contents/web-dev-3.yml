@@ -3,6 +3,11 @@ css-animations-effects:
   tags: "css animations effects transitions transform rotate skew translate target step keyframes webkit vendor prefixes parallax scrolling"
   desc: "Adding more pizazz a website with animations, transitions, and effects."
 
+advanced-svg:
+  title: "Advanced SVG"
+  tags: "writing advance svg embedding html hover transition animations masks filters patterns text webfonts gradients icons symbols"
+  desc: "Writing and using SVG in more complex scenarios with animations, transitions, and other effects."
+
 javascript-intro:
   title: "Javascript: introduction"
   tags: "javascript introduction syntax flow comments variables strings numbers booleans arrays objects functions arguments if statement for while foreach loops switch debugging"
@@ -23,11 +28,6 @@ javascript-components:
   title: "Common Javascript components"
   tags: "javascript common components tabs toggle panels buttons lightbox data filter"
   desc: "Creating common Javascript webpage components like tabs, lightboxes, and panels."
-
-advanced-svg:
-  title: "Advanced SVG"
-  tags: "writing advance svg embedding html hover transition animations masks filters patterns text webfonts gradients icons symbols"
-  desc: "Writing and using SVG in more complex scenarios with animations, transitions, and other effects."
 
 javascript-effects:
   title: "Javascript effects"

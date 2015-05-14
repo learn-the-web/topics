@@ -78,27 +78,6 @@ basic-website-layout:
   tags: "full basic website layout flow display margin padding"
   desc: "Walking through making a full single-page website with a basic layout."
 
-float-clear:
-  title: "Float & clear"
-  tags: "float clear text wrap clearfix columns overflow hidden scrollbars"
-  desc: "Understanding how float allows text to wrap around elements and advanced uses for float."
-
-position-zindex:
-  title: "Position & z-index"
-  tags: "position z index in front behind absolute static relative fixed top left bottom right coordinates"
-  desc: "Learning how to layer elements on top of each other and control their layering."
-
-navigation:
-  title: "Navigation"
-  tags: "navigation styles links multiple pages highlight current page inline list footer anchor grid toggle drop down menu navigation"
-  desc: "Different navigation styles for small screen websites and how to code them."
-
-small-screen-layout:
-  title: "Small screen layout"
-  fullsite: true
-  tags: "full small screen layout display box float position columns"
-  desc: "A walk-through creating a complete, small screen website."
-
 organization:
   title: "Website file organization"
   tags: "on off github assets production design content www version control dropbox invision"
@@ -121,10 +100,36 @@ images-for-retina:
   tags: "retina hi dpi compression compressive save for web double size source sets picture source jpeg png svg images"
   desc: "How to properly set up images for retina screens."
 
+float-clear:
+  title: "Float & clear"
+  tags: "float clear text wrap clearfix columns overflow hidden scrollbars"
+  desc: "Understanding how float allows text to wrap around elements and advanced uses for float."
+
+position-zindex:
+  title: "Position & z-index"
+  tags: "position z index in front behind absolute static relative fixed top left bottom right coordinates"
+  desc: "Learning how to layer elements on top of each other and control their layering."
+
+navigation:
+  title: "Navigation"
+  tags: "navigation styles links multiple pages highlight current page inline list footer anchor grid toggle drop down menu navigation"
+  desc: "Different navigation styles for small screen websites and how to code them."
+
+small-screen-layout:
+  title: "Small screen layout"
+  fullsite: true
+  tags: "full small screen layout display box float position columns"
+  desc: "A walk-through creating a complete, small screen website."
+
 before-after:
   title: "Before & after pseudo elements"
   tags: "before after pseudo elements content hidden bullets quotations marks clearfix border box "
   desc: "Understanding the hidden before and after pseudo elements, how to style them, and what they’re helpful for."
+
+performance:
+  title: "Performance"
+  tags: "performance speed images web page test page speed yslow cost download time mobile friendly validation"
+  desc: "Making the fastest website possible and understanding what impacts the speed of your website."
 
 from-mockup-to-website:
   title: "From mockup to website"
@@ -132,8 +137,3 @@ from-mockup-to-website:
   disabled: true
   tags: "full website mockup production assets exporting saving save for web images layouts"
   desc: "A full small screen website creation walk-through starting with a mockup."
-
-performance:
-  title: "Performance"
-  tags: "performance speed images web page test page speed yslow cost download time mobile friendly validation"
-  desc: "Making the fastest website possible and understanding what impacts the speed of your website."

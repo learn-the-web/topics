@@ -33,6 +33,14 @@ jekyll-terminal-guide:
   tags: "jekyll terminal command line serve watch base url"
   desc: "A guide to Jekyl’s terminal commends on yoyr Mac."
 
+jekyll-cheat-sheet:
+  title: "Jekyll cheat sheet"
+  tags: "jekyll terminal layouts templates cheat sheet"
+  desc: "A cheat sheet covering the basics of Jekyll use and code."
+  cheatsheet: true
+  disabled: true
+  indent: 1
+
 search-engine-optimization:
   title: "Search engine optimization"
   tags: "search engine optimization honest seo content tags meta description keywords sitemap robots humans txt"
@@ -44,23 +52,40 @@ metadata-enhanced-semantics:
   tags: "metadata enhanced semantics structured rich snippets search engine optimization microdata microformats rdfa schema org social semantics facebook twitter pinterest open graph"
   desc: "Extra semantics for website to help with SEO and display properly in social media platforms."
 
+analytics-monitoring:
+  title: "Analytics & monitoring"
+  tags: "analytics stats monitoring website google uptime users search terms keywords"
+  desc: "Monitoring our website for the types of visitors we get and watching for downtime."
+  indent: 1
+
+seo-checklist:
+  title: "SEO checklist"
+  tags: "search engine optimization checklist"
+  desc: "A checklist covering the basics of honest SEO for websites."
+  checklist: true
+  disabled: true
+  indent: 1
+
 progressive-enhancement:
   title: "Progressive enhancement"
   tags: "progressive enhancement graceful degradation internet web download failure older browser testing user font size print disabled"
   desc: "Looking at how the web is not within our control and how we can make our websites work."
 
-css-minification:
-  title: "CSS minification"
+advanced-performance:
+  title: "Advanced performance"
   disabled: true
-  tags: "css minification combine performance multiple single files css"
-  desc: "Making our CSS files smaller and more performant by combining them together and removing extra stuff."
+  tags: "advanced performance css minification combine performance content delivery network cloudflare security"
+  desc: "Making our websites more performant with minification, content delivery networks, and other optimizations."
 
 404-pages:
   title: "404 pages"
   tags: "404 500 error pages not found codes github apache"
   desc: "Creating fun and engaging not found pages to help and engage users."
 
-analytics-monitoring:
-  title: "Analytics & monitoring"
-  tags: "analytics stats monitoring website google uptime users search terms keywords"
-  desc: "Monitoring our website for the types of visitors we get and watching for downtime."
+launch-checklist-web-dev-4:
+  title: "Launch checklist, Web Dev 4"
+  highlight: true
+  tags: "launch checklist double check validators link checkers usability browser testing analytics monitoring"
+  desc: "A checklist of things to check on your website before you launch it, for Web Dev 4."
+  checklist: true
+  disabled: true

@@ -50,12 +50,6 @@ markdown:
   tags: "markdown processor html headings daring fireball john gruber commonmark"
   desc: "Understanding the Markdown markup language that’s used in many locations including GitHub."
 
-launch-checklist:
-  title: "Launch checklist"
-  highlight: true
-  tags: "launch checklist double check validators link checkers usability browser testing analytics monitoring"
-  desc: "A big checklist of things to check on your website before you launch it."
-
 ajax:
   title: "AJAX"
   disabled: true

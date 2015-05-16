@@ -40,3 +40,11 @@ responsive-animated-info-graphic:
   disabled: true
   tags: "full website responsive javascript info graphic animations transitions effects svg"
   desc: "Walking through creating a complex, responsive, interactive, and animated info graphic."
+
+launch-checklist-web-dev-3:
+  title: "Launch checklist, Web Dev 3"
+  highlight: true
+  tags: "launch checklist double check validators link checkers usability browser testing analytics monitoring"
+  desc: "A checklist of things to check on your website before you launch it, for Web Dev 3."
+  checklist: true
+  disabled: true

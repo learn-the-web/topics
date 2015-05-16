@@ -4,6 +4,14 @@ naming-conventions:
   tags: "naming conventions lower case dashes no spaces underscore folders files structure"
   desc: "Writing the proper file name for consistency on the web."
 
+naming-indentation-cheat-sheet:
+  title: "Naming & indentation cheat sheet"
+  tags: "naming conventions indentation cheat sheet"
+  desc: "A cheat sheet describing the naming conventions for files and folders and proper indentation."
+  cheatsheet: true
+  disabled: true
+  indent: 1
+
 paths-folders:
   title: "Using paths & folders"
   tags: "paths folders directories directory link css image source href"
@@ -13,6 +21,22 @@ html-semantics:
   title: "HTML semantics"
   tags: "html semantics meaning purpose tags elements syntax document body head setup headings paragraphs unordered ordered lists internal jump links images figures captions break horizontal rule"
   desc: "Writing HTML by choosing the most appropriate tag for the content."
+
+html-semantics-cheat-sheet:
+  title: "HTML semantics cheat sheet"
+  tags: "html semantics elements tags cheat sheet"
+  desc: "A cheat sheet covering the basic HTML elements and their purpose."
+  cheatsheet: true
+  disabled: true
+  indent: 1
+
+html-semantics-checklist:
+  title: "HTML semantics checklist"
+  tags: "html semantics elements tags checklist"
+  desc: "A checklist covering HTML semantics for double checking specific tags are used properly."
+  checklist: true
+  disabled: true
+  indent: 1
 
 html-indentation:
   title: "HTML indentation"
@@ -32,10 +56,26 @@ using-css:
   tags: "using css link targeting selecting elements children multiple naming classes ids colours transparency rgba hsla units rems px vh vw"
   desc: "Adding and writing CSS to design a website."
 
+css-selectors-units-cheat-sheet:
+  title: "CSS selectors & units cheat sheet"
+  tags: "css selectors class id units rem px percent cheat sheet"
+  desc: "A cheat sheet covering the basics of CSS selectors and units."
+  cheatsheet: true
+  disabled: true
+  indent: 1
+
 basic-typography:
   title: "Basic typography"
   tags: "typography styling font family weight style bold italic size line-height text decoration transform uppercase lowercase align center right left indent shadow rems px links colour list style type web fonts custom fonts google"
   desc: "Understanding how to style and format text on a website."
+
+css-typography-cheat-sheet:
+  title: "CSS typography cheat sheet"
+  tags: "css typography styling font family cheat sheet"
+  desc: "A cheat sheet listing the important properties for CSS typography."
+  cheatsheet: true
+  disabled: true
+  indent: 1
 
 google-fonts:
   title: "Using Google Fonts"
@@ -61,6 +101,14 @@ browser-testing:
   tags: "mozilla firefox opera safari google chrome microsoft internet explorer ios safari android mini windows phone browser testing"
   desc: "Testing your website in the myriad of browsers that are connected to the web."
 
+brower-testing-checklist:
+  title: "Browser testing checklist"
+  tags: "browser testing checklist"
+  desc: "A checklist covering what to look for and how to test in other browsers."
+  checklist: true
+  disabled: true
+  indent: 1
+
 box-model:
   title: "Everything is a box"
   tags: "box model width height margin padding border collapsing box background colour radius shadow"
@@ -70,6 +118,13 @@ flow-display:
   title: "Flow & display"
   tags: "browser flow layout display inline block hiding elements tags centering horizontal stacked flexbox"
   desc: "Understanding and using the flow system that a browser uses to lay out a website."
+
+css-layout-cheat-sheet:
+  title: "CSS layout cheat sheet"
+  tags: "layout position float columns box model margin padding cheat sheet"
+  desc: "A cheat sheet for the basics of CSS layout properties."
+  cheatsheet: true
+  disabled: true
 
 basic-website-layout:
   title: "Basic website layout"
@@ -99,6 +154,14 @@ images-for-retina:
   indent: 1
   tags: "retina hi dpi compression compressive save for web double size source sets picture source jpeg png svg images"
   desc: "How to properly set up images for retina screens."
+
+images-cheat-sheet:
+  title: "Images cheat sheet"
+  tags: "images png jpg svg gif web compression cheat sheet"
+  desc: "A cheat sheet covering the basics of web image formats, compression, and use."
+  cheatsheet: true
+  disabled: true
+  indent: 1
 
 float-clear:
   title: "Float & clear"
@@ -131,9 +194,25 @@ performance:
   tags: "performance speed images web page test page speed yslow cost download time mobile friendly validation"
   desc: "Making the fastest website possible and understanding what impacts the speed of your website."
 
+performance-checklist:
+  title: "Performance checklist"
+  tags: "performance speed download checklist"
+  desc: "A checklist for website performance validation."
+  checklist: true
+  disabled: true
+  indent: 1
+
 from-mockup-to-website:
   title: "From mockup to website"
   fullsite: true
   disabled: true
   tags: "full website mockup production assets exporting saving save for web images layouts"
   desc: "A full small screen website creation walk-through starting with a mockup."
+
+launch-checklist-web-dev-1:
+  title: "Launch checklist, Web Dev 1"
+  highlight: true
+  tags: "launch checklist double check validators link checkers usability browser testing analytics monitoring"
+  desc: "A checklist of things to check on your website before you launch it, for Web Dev 1."
+  checklist: true
+  disabled: true

@@ -69,6 +69,12 @@ basic-typography:
   tags: "typography styling font family weight style bold italic size line-height text decoration transform uppercase lowercase align center right left indent shadow rems px links colour list style type web fonts custom fonts google"
   desc: "Understanding how to style and format text on a website."
 
+google-fonts:
+  title: "Using Google Fonts"
+  indent: 1
+  tags: "google web custom fonts link use"
+  desc: "Including a custom, non-standard web font on your website using Google Fonts."
+
 css-typography-cheat-sheet:
   title: "CSS typography cheat sheet"
   tags: "css typography styling font family cheat sheet"
@@ -76,12 +82,6 @@ css-typography-cheat-sheet:
   cheatsheet: true
   disabled: true
   indent: 1
-
-google-fonts:
-  title: "Using Google Fonts"
-  indent: 1
-  tags: "google web custom fonts link use"
-  desc: "Including a custom, non-standard web font on your website using Google Fonts."
 
 browser-developer-tools:
   title: "Browser developer tools"

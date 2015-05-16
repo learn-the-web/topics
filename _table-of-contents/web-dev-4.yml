@@ -14,6 +14,7 @@ video:
   title: "Video"
   tags: "video web tag element export save formats hover source mp4 webm ogg"
   desc: "Using video on websites and how to properly export the files."
+  disabled: true
 
 jekyll:
   title: "Jekyll"
@@ -76,6 +77,14 @@ advanced-performance:
   disabled: true
   tags: "advanced performance css minification combine performance content delivery network cloudflare security"
   desc: "Making our websites more performant with minification, content delivery networks, and other optimizations."
+
+performance-checklist:
+  title: "Performance checklist"
+  tags: "performance speed download checklist"
+  desc: "A checklist for website performance validation."
+  checklist: true
+  disabled: true
+  indent: 1
 
 404-pages:
   title: "404 pages"

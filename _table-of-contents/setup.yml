@@ -16,12 +16,6 @@ code-editors:
   tags: "code text editors atom sublime install configuration options settings"
   desc: "Setting up and choosing a code editor."
 
-keyboard-shortcuts:
-  title: "Keyboard shortcut reference"
-  tags: "keyboard shortcuts start end line word file document"
-  desc: "Common keyboard shortcuts to move around text and applications on your Mac."
-  indent: 1
-
 sublime-text:
   title: "Sublime Text setup"
   tags: "sublime text code editors install setup configuration options settings packages plugins"
@@ -34,6 +28,13 @@ atom:
   tags: "github atom text code editors install setup configuration options settings packages plugins"
   desc: "Installing and setting up GitHub’s Atom text editor."
   indent: 1
+
+keyboard-shortcut-cheat-sheet:
+  title: "Keyboard shortcut cheat sheet"
+  tags: "keyboard shortcuts start end line word file document cheat sheet"
+  desc: "A cheat sheet for common keyboard shortcuts to move around text and applications on your Mac."
+  indent: 1
+  cheatsheet: true
 
 version-control:
   title: "Version control"

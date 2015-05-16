@@ -88,4 +88,3 @@ launch-checklist-web-dev-4:
   tags: "launch checklist double check validators link checkers usability browser testing analytics monitoring"
   desc: "A checklist of things to check on your website before you launch it, for Web Dev 4."
   checklist: true
-  disabled: true

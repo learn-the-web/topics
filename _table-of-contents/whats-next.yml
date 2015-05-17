@@ -45,11 +45,6 @@ javascript-history:
   tags: "livescript netscape brendan eich java ecmascript"
   desc: "A super quick history of Javascript and how it was created."
 
-markdown:
-  title: "Markdown"
-  tags: "markdown processor html headings daring fireball john gruber commonmark"
-  desc: "Understanding the Markdown markup language that’s used in many locations including GitHub."
-
 ajax:
   title: "AJAX"
   disabled: true

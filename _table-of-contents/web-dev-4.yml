@@ -10,6 +10,12 @@ writing-for-the-web:
   tags: "writing web why short length style keywords personality emotion connection adaptive content"
   desc: "Understanding how people read on the web and how to write text for better connections."
 
+markdown:
+  title: "Markdown"
+  tags: "markdown processor html headings daring fireball john gruber commonmark"
+  desc: "Understanding the Markdown markup language that’s used in many locations including GitHub."
+  indent: 1
+
 video:
   title: "Video"
   tags: "video web tag element export save formats hover source mp4 webm ogg"

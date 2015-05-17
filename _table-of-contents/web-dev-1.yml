@@ -43,6 +43,7 @@ html-indentation:
   disabled: true
   tags: "html indentation tabs spaces hierarchy vertical alignment monospace fonts"
   desc: "The proper method for indenting HTML to make it understandable by you and your team."
+  indent: 1
 
 marking-up-a-webpage:
   title: "Marking up a webpage"
@@ -61,6 +62,7 @@ css-indentation:
   disabled: true
   tags: "css indentation tabs spaces hierarchy vertical alignment monospace fonts"
   desc: "The proper method for indenting CSS to make it understandable by you and your team."
+  indent: 1
 
 css-selectors-units-cheat-sheet:
   title: "CSS selectors & units cheat sheet"
@@ -146,17 +148,17 @@ css-layout-cheat-sheet:
   disabled: true
   indent: 1
 
+navigation:
+  title: "Navigation"
+  tags: "navigation styles links multiple pages highlight current page inline list footer anchor grid toggle drop down menu navigation"
+  desc: "Different navigation styles for small screen websites and how to code them."
+
 basic-website-layout:
   title: "Basic website layout"
   fullsite: true
   disabled: true
   tags: "full basic website layout flow display margin padding"
   desc: "Walking through making a full single-page website with a basic layout."
-
-navigation:
-  title: "Navigation"
-  tags: "navigation styles links multiple pages highlight current page inline list footer anchor grid toggle drop down menu navigation"
-  desc: "Different navigation styles for small screen websites and how to code them."
 
 organization:
   title: "Website file organization"

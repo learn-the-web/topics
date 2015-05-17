@@ -9,7 +9,7 @@ advanced-svg:
   desc: "Writing and using SVG in more complex scenarios with animations, transitions, and other effects."
 
 javascript-intro:
-  title: "Javascript: introduction"
+  title: "Javascript introduction"
   tags: "javascript introduction syntax flow comments variables strings numbers booleans arrays objects functions arguments if statement for while foreach loops switch debugging"
   desc: "Looking at understanding how to write Javascript code."
 

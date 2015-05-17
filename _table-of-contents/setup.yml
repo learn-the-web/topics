@@ -54,7 +54,7 @@ github-pages:
   tags: "github hosting gh pages master branches"
   desc: "Understanding how to use GitHub Pages to host your website."
   indent: 1
-  hightlight: true
+  highlight: true
 
 github-use-and-committing:
   title: "GitHub use & committing"

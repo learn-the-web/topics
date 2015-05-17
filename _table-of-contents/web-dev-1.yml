@@ -124,6 +124,19 @@ flow-display:
   title: "Flow & display"
   tags: "browser flow layout display inline block hiding elements tags centering horizontal stacked flexbox"
   desc: "Understanding and using the flow system that a browser uses to lay out a website."
+  indent: 1
+
+float-clear:
+  title: "Float & clear"
+  tags: "float clear text wrap clearfix columns overflow hidden scrollbars"
+  desc: "Understanding how float allows text to wrap around elements and advanced uses for float."
+  indent: 1
+
+position-zindex:
+  title: "Position & z-index"
+  tags: "position z index in front behind absolute static relative fixed top left bottom right coordinates"
+  desc: "Learning how to layer elements on top of each other and control their layering."
+  indent: 1
 
 css-layout-cheat-sheet:
   title: "CSS layout cheat sheet"
@@ -131,6 +144,7 @@ css-layout-cheat-sheet:
   desc: "A cheat sheet for the basics of CSS layout properties."
   cheatsheet: true
   disabled: true
+  indent: 1
 
 basic-website-layout:
   title: "Basic website layout"
@@ -138,6 +152,11 @@ basic-website-layout:
   disabled: true
   tags: "full basic website layout flow display margin padding"
   desc: "Walking through making a full single-page website with a basic layout."
+
+navigation:
+  title: "Navigation"
+  tags: "navigation styles links multiple pages highlight current page inline list footer anchor grid toggle drop down menu navigation"
+  desc: "Different navigation styles for small screen websites and how to code them."
 
 organization:
   title: "Website file organization"
@@ -168,21 +187,6 @@ images-cheat-sheet:
   cheatsheet: true
   disabled: true
   indent: 1
-
-float-clear:
-  title: "Float & clear"
-  tags: "float clear text wrap clearfix columns overflow hidden scrollbars"
-  desc: "Understanding how float allows text to wrap around elements and advanced uses for float."
-
-position-zindex:
-  title: "Position & z-index"
-  tags: "position z index in front behind absolute static relative fixed top left bottom right coordinates"
-  desc: "Learning how to layer elements on top of each other and control their layering."
-
-navigation:
-  title: "Navigation"
-  tags: "navigation styles links multiple pages highlight current page inline list footer anchor grid toggle drop down menu navigation"
-  desc: "Different navigation styles for small screen websites and how to code them."
 
 small-screen-layout:
   title: "Small screen layout"

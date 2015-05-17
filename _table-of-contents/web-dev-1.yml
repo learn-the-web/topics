@@ -56,6 +56,12 @@ using-css:
   tags: "using css link targeting selecting elements children multiple naming classes ids colours transparency rgba hsla units rems px vh vw"
   desc: "Adding and writing CSS to design a website."
 
+css-indentation:
+  title: "CSS indentation"
+  disabled: true
+  tags: "css indentation tabs spaces hierarchy vertical alignment monospace fonts"
+  desc: "The proper method for indenting CSS to make it understandable by you and your team."
+
 css-selectors-units-cheat-sheet:
   title: "CSS selectors & units cheat sheet"
   tags: "css selectors class id units rem px percent cheat sheet"

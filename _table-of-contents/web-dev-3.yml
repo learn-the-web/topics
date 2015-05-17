@@ -12,6 +12,7 @@ javascript-syntax:
   title: "Javascript syntax"
   tags: "javascript introduction syntax flow comments variables strings numbers booleans arrays objects functions arguments if statement for while foreach loops switch debugging"
   desc: "Looking at understanding how to write Javascript code."
+  highlight: true
 
 dom:
   title: "Document object model (DOM)"

@@ -10,6 +10,7 @@ using-urls:
   desc: "Understanding and using URLs in the web browser for faster navigation."
   indent: 1
   disabled: true
+  highlight: true
 
 code-editors:
   title: "Code editors"
@@ -53,6 +54,7 @@ github-pages:
   tags: "github hosting gh pages master branches"
   desc: "Understanding how to use GitHub Pages to host your website."
   indent: 1
+  hightlight: true
 
 github-use-and-committing:
   title: "GitHub use & committing"

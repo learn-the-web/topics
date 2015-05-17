@@ -2,6 +2,7 @@ licenses-copyright:
   title: "Licenses & copyright"
   tags: "licensing copyrights creative commons gpl mit public domain open source property"
   desc: "Understanding the different licensing and copyright systems for code and content."
+  highlight: true
 
 the-open-web:
   title: "The Open Web"

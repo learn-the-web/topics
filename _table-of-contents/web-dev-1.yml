@@ -21,6 +21,7 @@ html-semantics:
   title: "HTML semantics"
   tags: "html semantics meaning purpose tags elements syntax document body head setup headings paragraphs unordered ordered lists internal jump links images figures captions break horizontal rule"
   desc: "Writing HTML by choosing the most appropriate tag for the content."
+  highlight: true
 
 html-indentation:
   title: "HTML indentation"
@@ -101,6 +102,7 @@ validators:
   title: "Validators"
   tags: "html css javascript validators checkers test w3c confirm semantics standards"
   desc: "Using different validation tools to check for common errors in your code."
+  highlight: true
 
 browser-testing:
   title: "Browser testing"
@@ -205,6 +207,7 @@ performance:
   title: "Performance"
   tags: "performance speed images web page test page speed yslow cost download time mobile friendly validation"
   desc: "Making the fastest website possible and understanding what impacts the speed of your website."
+  highlight: true
 
 performance-checklist:
   title: "Performance checklist"

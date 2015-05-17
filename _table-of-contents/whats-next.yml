@@ -1,21 +1,3 @@
-learning-resources:
-  title: "Learning resources"
-  tags: "learning resources tutorials documentations blogs videos"
-  desc: "Different learning resources and documentation for the open web."
-
-blogs-companies-people:
-  title: "Blogs, companies & people"
-  indent: 1
-  tags: "blogs companies people twitter rss feeds who to follow"
-  desc: "A big list of blogs, companies, and people to follow in the web field."
-
-staying-up-to-date:
-  title: "Staying up to date"
-  indent: 1
-  highlight: true
-  tags: "up to date feeds email newsletters blogs tutorials rss save for later bookmarks twitter"
-  desc: "How to keep your knowledge current with feeds, newsletters, and blogs."
-
 licenses-copyright:
   title: "Licenses & copyright"
   tags: "licensing copyrights creative commons gpl mit public domain open source property"
@@ -44,6 +26,24 @@ javascript-history:
   disabled: true
   tags: "livescript netscape brendan eich java ecmascript"
   desc: "A super quick history of Javascript and how it was created."
+
+learning-resources:
+  title: "Learning resources"
+  tags: "learning resources tutorials documentations blogs videos"
+  desc: "Different learning resources and documentation for the open web."
+
+blogs-companies-people:
+  title: "Blogs, companies & people"
+  indent: 1
+  tags: "blogs companies people twitter rss feeds who to follow"
+  desc: "A big list of blogs, companies, and people to follow in the web field."
+
+staying-up-to-date:
+  title: "Staying up to date"
+  indent: 1
+  highlight: true
+  tags: "up to date feeds email newsletters blogs tutorials rss save for later bookmarks twitter"
+  desc: "How to keep your knowledge current with feeds, newsletters, and blogs."
 
 ajax:
   title: "AJAX"

@@ -34,7 +34,11 @@ And it’s always beneficial to bump up our font sizes.
 
 ## Video list
 
-1. [Media queries: introduction](https://www.youtube.com/watch?v=X8sUiRemgqU&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=1)
+1. [Media queries: introduction](https://www.youtube.com/watch?v=X8sUiRemgqU&index=1&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI)
+2. [Media queries: columns](https://www.youtube.com/watch?v=eN6LiQBsHA8&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=2)
+3. [Media queries: banner](https://www.youtube.com/watch?v=n2LxnjT68gc&index=3&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI)
+4. [Media queries: toggle navigation](https://www.youtube.com/watch?v=ifhppwLzXwI&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=4)
+5. [Media queries: no media queries](https://www.youtube.com/watch?v=ig9pueXrl3o&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=5)
 
 ## Supplemental links
 

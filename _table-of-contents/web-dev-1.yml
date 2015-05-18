@@ -1,22 +1,3 @@
-naming-conventions:
-  title: "Naming conventions"
-  highlight: true
-  tags: "naming conventions lower case dashes no spaces underscore folders files structure"
-  desc: "Writing the proper file name for consistency on the web."
-
-naming-indentation-cheat-sheet:
-  title: "Naming & indentation cheat sheet"
-  tags: "naming conventions indentation cheat sheet"
-  desc: "A cheat sheet describing the naming conventions for files and folders and proper indentation."
-  cheatsheet: true
-  disabled: true
-  indent: 1
-
-paths-folders:
-  title: "Using paths & folders"
-  tags: "paths folders directories directory link css image source href"
-  desc: "Understanding how your computer, browsers and the web read paths .to different files"
-
 html-semantics:
   title: "HTML semantics"
   tags: "html semantics meaning purpose tags elements syntax document body head setup headings paragraphs unordered ordered lists internal jump links images figures captions break horizontal rule"

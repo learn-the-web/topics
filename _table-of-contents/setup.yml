@@ -80,3 +80,22 @@ github-issues:
   tags: "github issues labels descriptions project management problems help"
   desc: "What GitHub Issues do for use and how to use them for getting feedback, tracking progress, and more."
   indent: 1
+
+naming-conventions:
+  title: "Naming conventions"
+  highlight: true
+  tags: "naming conventions lower case dashes no spaces underscore folders files structure"
+  desc: "Writing the proper file name for consistency on the web."
+
+naming-indentation-cheat-sheet:
+  title: "Naming & indentation cheat sheet"
+  tags: "naming conventions indentation cheat sheet"
+  desc: "A cheat sheet describing the naming conventions for files and folders and proper indentation."
+  cheatsheet: true
+  disabled: true
+  indent: 1
+
+paths-folders:
+  title: "Using paths & folders"
+  tags: "paths folders directories directory link css image source href"
+  desc: "Understanding how your computer, browsers and the web read paths .to different files"

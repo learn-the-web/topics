@@ -1,6 +1,6 @@
 ---
 group: web-dev-2
-playlist: PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7
+playlist: PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI
 download: https://github.com/acgd-learn-the-web/media-queries-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/media-queries-code
 ---
@@ -35,11 +35,6 @@ And it’s always beneficial to bump up our font sizes.
 ## Video list
 
 1. [Media queries: introduction](https://www.youtube.com/watch?v=X8sUiRemgqU&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=1)
-2. [Media queries: navigation](https://www.youtube.com/watch?v=h3NDW1K2MzE&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=2)
-3. [Media queries: text and images](https://www.youtube.com/watch?v=t8rVXUb_IEA&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=3)
-4. [Media queries: statistics](https://www.youtube.com/watch?v=JTjFCQVdUaw&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=4)
-5. [Media queries: footer](https://www.youtube.com/watch?v=666RguQaq2k&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=5)
-5. [Media queries: larger screens](https://www.youtube.com/watch?v=Q-XS4dmQrK4&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=6)
 
 ## Supplemental links
 

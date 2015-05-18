@@ -25,10 +25,9 @@ screen-sizes-cheat-sheet:
   disabled: true
   indent: 1
 
-media-query-layout:
-  title: "Media query layout"
+media-queries-layout:
+  title: "Media queries layout"
   fullsite: true
-  disabled: true
   tags: "full website media queries responsive web design em screens adjustments"
   desc: "Creating a full, multi-screen website using media queries."
 

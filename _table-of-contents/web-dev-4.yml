@@ -16,6 +16,14 @@ markdown:
   desc: "Understanding the Markdown markup language that’s used in many locations including GitHub."
   indent: 1
 
+markdown-cheat-sheet:
+  title: "Markdown cheat sheet"
+  tags: "writing markdown syntax cheat sheet"
+  desc: "A cheat sheet for understanding and writing in the Markdown language."
+  indent: 2
+  cheatsheet: true
+  disabled: true
+
 video:
   title: "Video"
   tags: "video web tag element export save formats hover source mp4 webm ogg"

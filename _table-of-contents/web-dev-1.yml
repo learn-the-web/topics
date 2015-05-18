@@ -30,7 +30,6 @@ html-semantics-checklist:
 marking-up-a-webpage:
   title: "Marking up a webpage"
   fullsite: true
-  disabled: true
   tags: "full html semantics website webpage header footer navigation main"
   desc: "Create a full single webpage using only HTML."
 

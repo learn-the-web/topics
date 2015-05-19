@@ -23,7 +23,6 @@ html-semantics-checklist:
   tags: "html semantics elements tags checklist"
   desc: "A checklist covering HTML semantics for double checking specific tags are used properly."
   checklist: true
-  disabled: true
   indent: 1
 
 marking-up-a-webpage:

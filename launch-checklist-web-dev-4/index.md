@@ -18,7 +18,7 @@ groups:
       - 'Navigation is consistently placed.'
       - 'Shared page elements don’t shift from page to page.'
       - 'Responsiveness works well on all screen sizes: no weird spacing issues, no overlapping text, etc.'
-      - 'Follows good typography and graphic design conventions.<br>[Modular typography](/topics/modular-typography), [Grids](/topics/grids).'
+      - 'Follows good typography and graphic design conventions.<br>[Modular typography](/topics/modular-typography), [Grids](/topics/grids)'
       - 'Has consistent graphic design style and vision.'
 
   - title: 'Forms'

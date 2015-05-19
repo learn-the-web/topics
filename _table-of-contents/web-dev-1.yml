@@ -16,7 +16,6 @@ html-semantics-cheat-sheet:
   tags: "html semantics elements tags cheat sheet"
   desc: "A cheat sheet covering the basic HTML elements and their purpose."
   cheatsheet: true
-  disabled: true
   indent: 1
 
 html-semantics-checklist:

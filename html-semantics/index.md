@@ -3,6 +3,8 @@ group: web-dev-1
 playlist: PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1
 download: https://github.com/acgd-learn-the-web/html-semantics-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/html-semantics-code
+cheatsheet: html-semantics-cheat-sheet
+checklist: html-semantics-checklist
 ---
 
 HTML (Hypertext Markup Language) is the coding language used to describe the content of websites.

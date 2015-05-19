@@ -9,7 +9,7 @@ groups:
       - 'There’s no placeholder text or images on the website.'
       - 'Content has semantically appropriate elements.<br>[HTML semantics](/topics/html-semantics/)'
       - 'Footer includes copyright information, terms, privacy policy, cookie notice, etc.'
-      - 'All links work.<br>[W3C link checker](http://validator.w3.org/checklink).'
+      - 'All links work.<br>[W3C link checker](http://validator.w3.org/checklink)'
       - 'All images display properly.'
 
   - title: 'Design'

@@ -53,7 +53,7 @@ groups:
       - name: '`Shift+Arrows`'
         details:
           - 'Highlight text.'
-      - name: '`⌘ Tab`'
+      - name: '`⌘Tab`'
         details:
           - 'Go to previous application.'
       - name: '`⌘Q`'
@@ -80,6 +80,9 @@ groups:
       - name: '`⌘⇧[`'
         details:
           - 'Go to the previous tab.'
+      - name: '`Tab`'
+        details:
+          - 'Move around items in the website.'
       - name: '`Space`'
         details:
           - 'Scroll down a screen.'
@@ -96,7 +99,7 @@ groups:
       - name: '`⌘P`'
         details:
           - 'Quick open a file.'
-          - 'Works when you’ve opened a folder in the editor.'
+          - '*Works when you’ve opened a folder in the editor.*'
       - name: '`⌘1`, `⌘2`, etc'
         details:
           - 'Switch to tab by number.'

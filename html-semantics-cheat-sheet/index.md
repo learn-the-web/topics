@@ -2,7 +2,7 @@
 layout: cheatsheet
 group: web-dev-1
 
-cheats:
+groups:
   - title: Document
     items:
       - name: '`<title>`'

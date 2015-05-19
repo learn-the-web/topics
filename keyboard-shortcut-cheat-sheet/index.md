@@ -1,32 +1,119 @@
 ---
+layout: cheatsheet
 group: setup
+
+groups:
+  - title: Mac OS X
+    items:
+      - name: '`⌘N`'
+        details:
+          - 'Create a new file.'
+      - name: '`⌘C`'
+        details:
+          - 'Copy the selected text.'
+      - name: '`⌘X`'
+        details:
+          - 'Cut the selected text.'
+      - name: '`⌘V`'
+        details:
+          - 'Paste the previously copied item.'
+      - name: '`⌘Z`'
+        details:
+          - 'Undo the recent change.'
+      - name: '`⌘⇧Z`'
+        details:
+          - 'Redo the recent undo.'
+      - name: '`⌘O`'
+        details:
+          - 'Open a file.'
+      - name: '`⌘S`'
+        details:
+          - 'Save this file.'
+      - name: '`⌘W`'
+        details:
+          - 'Close this window or tab.'
+      - name: '`⌘→`'
+        details:
+          - 'Move to the end of the line.'
+      - name: '`⌘←`'
+        details:
+          - 'Move to the start of the line.'
+      - name: '`⌥→`'
+        details:
+          - 'Move to the next word.'
+      - name: '`⌥←`'
+        details:
+          - 'Move to the previous word.'
+      - name: '`⌘↑`'
+        details:
+          - 'Move to the top of the file.'
+      - name: '`⌘↓`'
+        details:
+          - 'Move to the bottom of the file.'
+      - name: '`Shift+Arrows`'
+        details:
+          - 'Highlight text.'
+      - name: '`⌘ Tab`'
+        details:
+          - 'Go to previous application.'
+      - name: '`⌘Q`'
+        details:
+          - 'Fully quit this application.'
+
+  - title: 'Web browser'
+    items:
+      - name: '`⌘L`'
+        details:
+          - 'Focus the URL bar.'
+      - name: '`⌘1`, `⌘2`, etc.'
+        details:
+          - 'Switch to tab by number.'
+      - name: '`Delete`, `⌘[`'
+        details:
+          - 'Go back.'
+      - name: '`⌘]`'
+        details:
+          - 'Go forward.'
+      - name: '`⌘⇧]`'
+        details:
+          - 'Go to the next tab.'
+      - name: '`⌘⇧[`'
+        details:
+          - 'Go to the previous tab.'
+      - name: '`Space`'
+        details:
+          - 'Scroll down a screen.'
+      - name: '`Shift+Space`'
+        details:
+          - 'Scroll up a screen.'
+
+  - title: 'Code editor'
+    items:
+      - name: '`⌘⌥N`'
+        details:
+          - 'New file in current folder.'
+          - '*If the advance new file package is installed.*'
+      - name: '`⌘P`'
+        details:
+          - 'Quick open a file.'
+          - 'Works when you’ve opened a folder in the editor.'
+      - name: '`⌘1`, `⌘2`, etc'
+        details:
+          - 'Switch to tab by number.'
+      - name: '`Tab`, `⌘]`'
+        details:
+          - 'Indent, works on multiple lines.'
+      - name: '`Shift+Tab`, `⌘[`'
+        details:
+          - 'Outdent, works on multiple lines.'
+      - name: '`⌘⇧]`'
+        details:
+          - 'Go to the next tab/file.'
+      - name: '`⌘⇧[`'
+        details:
+          - 'Go to the previous tab/file.'
+      - name: '`⌘⇧P`'
+        details:
+          - 'Execute a command in the editor.'
+
 ---
-
-Here’s a bunch of keyboard shortcuts for getting the most out of your code editor.
-
-- `⌘N` — new file
-- `⌘⌥N` — new file in current folder (if the advance new file package is installed)
-- `⌘C` — copy
-- `⌘X` — cut
-- `⌘V` — paste
-- `⌘Z` — undo
-- `⌘⇧Z` — redo
-- `⌘O` — open file
-- `⌘P` — quick open file (works when you’ve opened a folder in the editor)
-- `⌘S` — save file
-- `⌘→` — move to end of line
-- `⌘←` — move to start of line
-- `⌥→` — move to next word
-- `⌥←` — move to previous word
-- `⌘↑` — move to the top of the code
-- `⌘↓` — move to the bottom of the code
-- `Shift+Arrows` — highlight text
-- `⌘1`, `⌘2`, etc. — switch to tab by number
-- `Tab` + `⌘]` — Indent (works on multiple lines)
-- `Shift+Tab`, `⌘[` — Outdent (works on multiple lines)
-- `⌘⇧]` — Next tab/file
-- `⌘⇧[` — Previous tab/file
-- `⌘⇧P` — execute command
-- `⌘ Tab` — go to previous application
-- `⌘W` — close window
-- `⌘Q` — quit application

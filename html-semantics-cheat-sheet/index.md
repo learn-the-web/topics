@@ -166,7 +166,7 @@ groups:
       - name: '`<picture>`'
         details:
           - 'Responsive image insertion—allows developers to provide different images for different contexts.'
-      - name: '`<video poster="" autoplay loop muted controls>`'
+      - name: '`<video poster="…" autoplay loop muted controls>`'
         details:
           - 'For embedding movies into a website.'
           - '`poster` is the path to an image that’s displayed before the video plays.'

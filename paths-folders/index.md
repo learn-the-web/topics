@@ -1,5 +1,5 @@
 ---
-group: web-dev-1
+group: setup
 ---
 
 As a developer you need to become intimately familiar with how the directory system works.

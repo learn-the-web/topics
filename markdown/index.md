@@ -1,5 +1,5 @@
 ---
-group: whats-next
+group: web-dev-4
 ---
 
 Markdown is a lightweight syntax of markup for plain text documents. It allows us to add semantics and style to our documents without overpowering them with code and angle brackets.

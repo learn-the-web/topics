@@ -1,5 +1,5 @@
 ---
-group: web-dev-1
+group: setup
 ---
 
 Some common conventions to follow when developing websites.

@@ -1,6 +1,6 @@
 ---
 group: setup
-cheatsheet: naming-paths-indentation-cheat-sheet
+cheatsheet: naming-paths-cheat-sheet
 ---
 
 Some common conventions to follow when developing websites.

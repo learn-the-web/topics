@@ -18,3 +18,5 @@ groups:
         details:
           - 'Use dashes to separate words, e.g. super-duper.html.'
           - 'The only exception is the `.` before extensions.'
+
+---

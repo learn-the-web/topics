@@ -4,7 +4,10 @@ playlist: PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60
 download: https://github.com/acgd-learn-the-web/grids-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/grids-code
 cheatsheet: gridifier-cheat-sheet
----
+tool:
+  name: Gridifier
+  url: http://thomasjbradley.github.io/gridifier/
+  ---
 
 Making flexible and responsive grids using HTML & CSS.
 

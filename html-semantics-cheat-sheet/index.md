@@ -81,7 +81,7 @@ groups:
           - 'The *most* important piece of content on the page.'
           - 'On the homepage this should be the company’s name.'
           - 'On inside pages this should be the page title.'
-      - name: '`<h2>` `<h3>` `<h4>` `<h5>` `<h6>`'
+      - name: '`<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`'
         details:
           - 'Content headings, each a sub-heading of the one above.'
           - 'The `<h2>` is a sub-heading of `<h1>`, `<h3>` a sub-heading of `<h2>`, etc.'

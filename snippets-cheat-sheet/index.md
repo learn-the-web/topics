@@ -30,11 +30,40 @@ groups:
           - 'Adds the responsive viewport tags.'
           - |
             ```
-            <!-- First two tags optional, for older browsers -->
-            <meta name="handheldfriendly" content="true">
-            <meta name="mobileoptimized" content="240">
-            <!-- Required -->
             <meta name="viewport" content="width=device-width,initial-scale=1">
+            ```
+
+  - title: 'CSS'
+    items:
+      - name: '`cssviewport`'
+        details:
+          - 'Outputs the CSS viewport declarations.'
+          - |
+            ```
+            ⋮
+            @viewport { width: device-width; scale: 1; }
+            ```
+      - name: '`borderbox`'
+        details:
+          - 'Outputs the CSS border box declarations for changing the layout math.'
+          - |
+            ```
+            html {
+              box-sizing: border-box;
+            }
+
+            *, *::before, *::after {
+              box-sizing: inherit;
+            }
+            ```
+
+      - name: '`textsize`'
+        details:
+          - 'Outputs the text-size-adjust declarations to prevent mobile browsers from changing the font-size.'
+          - |
+            ```
+            ⋮
+            text-size-adjust: 100%;
             ```
 
 ---

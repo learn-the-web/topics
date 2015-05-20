@@ -14,7 +14,7 @@ screen-sizes-cheat-sheet:
   tags: "screen sizes width media queries em responsive web design cheat sheet"
   desc: "A cheat sheet with details on screen dimensions, common sizes, and testing."
   cheatsheet: true
-  disabled: true
+  indent: 1
 
 media-queries-layout:
   title: "Media queries layout"

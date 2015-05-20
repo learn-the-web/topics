@@ -3,6 +3,18 @@ layout: cheatsheet
 group: setup
 
 groups:
+  - title: 'Definitions'
+    items:
+      - name: '`⌘`'
+        details:
+          - 'Command'
+      - name: '`⌥`'
+        details:
+          - 'Option (Alt)'
+      - name: '`⇧`'
+        details:
+          - 'Shift'
+
   - title: Mac OS X
     items:
       - name: '`⌘N`'
@@ -32,6 +44,15 @@ groups:
       - name: '`⌘W`'
         details:
           - 'Close this window or tab.'
+      - name: '`⌘F`'
+        details:
+          - 'Find within this file.'
+      - name: '`⌘G`'
+        details:
+          - 'Find next matching item.'
+      - name: '`⌘⇧G`'
+        details:
+          - 'Find previous matching item.'
       - name: '`⌘→`'
         details:
           - 'Move to the end of the line.'
@@ -118,5 +139,14 @@ groups:
       - name: '`⌘⇧P`'
         details:
           - 'Execute a command in the editor.'
+      - name: '`⌘R`'
+        details:
+          - 'Filter & find by keyword in this file.'
+      - name: '`⌘⌥F`'
+        details:
+          - 'Find and replace within this file.'
+      - name: '`⌘⇧F`'
+        details:
+          - 'Find and replace within this folder.'
 
 ---

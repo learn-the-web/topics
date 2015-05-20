@@ -15,14 +15,17 @@ groups:
             <head>
               <meta charset="utf-8">
               <title></title>
-            ⋮
+            </head>
+            <body>
+            </body>
+            </html>
             ```
       - name: '`css`'
         details:
           - 'Creates a new CSS link tag.'
           - |
             ```
-            <link href="….css" rel="stylesheet">
+            <link href=".css" rel="stylesheet">
             ```
 
       - name: '`viewport`'
@@ -40,7 +43,6 @@ groups:
           - 'Outputs the CSS viewport declarations.'
           - |
             ```
-            ⋮
             @viewport { width: device-width; scale: 1; }
             ```
       - name: '`borderbox`'
@@ -62,7 +64,6 @@ groups:
           - 'Outputs the text-size-adjust declarations to prevent mobile browsers from changing the font-size.'
           - |
             ```
-            ⋮
             text-size-adjust: 100%;
             ```
 

@@ -27,6 +27,13 @@ grids:
   tags: "grids modular columns rows units responsive web design screens adjustments"
   desc: "Creating and using a modular, responsive grid system on a website to simplify layout."
 
+gridifier:
+  title: "Gridifier"
+  tags: "modular responsive grids tools generate gridifier"
+  tool: "http://thomasjbradley.github.io/gridifier/"
+  indent: 1
+  highlight: true
+
 gridifier-cheat-sheet:
   title: "Gridifier cheat sheet"
   tags: "grids gridifier modular columns units responsive cheat sheet"
@@ -38,6 +45,13 @@ modular-typography:
   title: "Modular typography"
   tags: "modular typography baseline vertical rhythm gutter island push pad kilo mega giga tera yotta zetta"
   desc: "Creating and using a modular typography system on a website for consistent alignment."
+
+typografier:
+  title: "Typografier"
+  tags: "modular responsive typography tools generate typografier"
+  tool: "http://thomasjbradley.github.io/typografier/"
+  indent: 1
+  highlight: true
 
 typografier-cheat-sheet:
   title: "Typografier cheat sheet"

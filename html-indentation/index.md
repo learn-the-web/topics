@@ -37,7 +37,7 @@ Whenever an element is unique and inside another element it should be indented:
 - Because the `<h1>` is inside the `<header>` it gets indented.
 - Because the `<header>` is inside the `<body>` it gets indented, as well as all the elements inside it.
 
-#### Not all children must be indented
+### Not all children must be indented
 
 We don’t always have to indent child elements if the line is understandable.
 

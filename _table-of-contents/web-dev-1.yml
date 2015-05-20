@@ -6,7 +6,6 @@ html-semantics:
 
 html-indentation:
   title: "HTML indentation"
-  disabled: true
   tags: "html indentation tabs spaces hierarchy vertical alignment monospace fonts"
   desc: "The proper method for indenting HTML to make it understandable by you and your team."
   indent: 1

@@ -64,27 +64,6 @@ Here’s what an empty HTML document looks like:
 
 ---
 
-## Indentation
-
-When writing HTML it’s a really great idea to indent elements.
-
-The indentation isn’t for the browser, browser’s don’t care. The indentation is for us to help us understand our code.
-
-Whenever an element is unique and inside another element it should be indented:
-
-```html
-<body>
-  <header>
-    <h1>All About Apatosaurus</h1>
-  </header>
-</body>
-```
-
-- Because the `<h1>` is inside the `<header>` it gets indented.
-- Because the `<header>` is inside the `<body>` it gets indented, as well as all the elements inside it.
-
----
-
 ## Parent-child relationship
 
 When referring to elements in HTML we talk about them in a parent-child relationship style.

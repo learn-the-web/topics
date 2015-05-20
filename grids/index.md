@@ -7,7 +7,7 @@ cheatsheet: gridifier-cheat-sheet
 tool:
   name: Gridifier
   url: http://thomasjbradley.github.io/gridifier/
-  ---
+---
 
 Making flexible and responsive grids using HTML & CSS.
 

@@ -41,35 +41,3 @@ website/
  |- index.html
 ```
 
----
-
-## Indentation
-
-### HTML
-
-All nested elements should be indented with 1 tab.
-
-#### Correct HTML indentation
-
-```html
-<body>
-	<div>
-		<h1>My Heading</h1>
-		<p>Lots of paragraph content.</p>
-	</div>
-</body>
-```
-
-### CSS
-
-All properties should be indented with 1 tab.
-
-#### Correct CSS indentation
-
-```css
-body {
-	background-color: #ccc;
-	font-size: 100%;
-	font-family: sans-serif;
-}
-```

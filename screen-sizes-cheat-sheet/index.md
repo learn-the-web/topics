@@ -3,7 +3,7 @@ layout: cheatsheet
 group: web-dev-2
 
 groups:
-  - title: 'All the sizes'
+  - title: 'The many sizes of the Web'
     items:
       - name: '![](screen-sizes.png)'
       - details:

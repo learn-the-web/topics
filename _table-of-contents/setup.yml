@@ -92,9 +92,8 @@ paths-folders:
   tags: "paths folders directories directory link css image source href"
   desc: "Understanding how your computer, browsers and the web read paths .to different files"
 
-naming-paths-indentation-cheat-sheet:
-  title: "Naming, paths & indentation cheat sheet"
-  tags: "naming conventions paths folders directories indentation cheat sheet"
-  desc: "A cheat sheet describing the naming conventions for files and folders, path structure & proper indentation."
+naming-paths-cheat-sheet:
+  title: "Naming & paths cheat sheet"
+  tags: "naming conventions paths folders directories cheat sheet"
+  desc: "A cheat sheet describing the naming conventions for files and folders & path structure."
   cheatsheet: true
-  disabled: true

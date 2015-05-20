@@ -130,16 +130,7 @@ If you want to get a few snippets to start out, you can download my snippets fro
 
 **[⬇ Download my snippets](https://github.com/thomasjbradley/sublime-snippets/archive/master.zip)**
 
-#### What’s included
-
-- `html5` — will output the `<!doctype html>…`
-- `css` — will create a `<link href=…` tag to attach a CSS file
-- `viewport` — will output the responsive design `<meta name="viewport"…` tags
-- `cssviewport` — will output the `@viewport {…` CSS declarations
-- `borderbox` — will output the `* { box-sizing: border-box…` CSS declarations
-- `textsize` — will output the `text-size-adjust: 100%` CSS declarations
-- `jss` — will output a Javascript `<script>` tag
-- *and probably others, so check out the folder…*
+**[☛ Check out the snippets cheat sheet](/topics/snippets-cheat-sheet/)**
 
 #### Installing
 

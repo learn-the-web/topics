@@ -99,16 +99,7 @@ For me, I type `html5` then hit **tab** and it will insert that code for me.
 
 If you want to get a few snippets to start out, you can download my snippets from GitHub.
 
-#### What’s included
-
-- `html5` — will output the `<!doctype html>…`
-- `css` — will create a `<link href=…` tag to attach a CSS file
-- `viewport` — will output the responsive design `<meta name="viewport"…` tags
-- `cssviewport` — will output the `@viewport {…` CSS declarations
-- `borderbox` — will output the `* { box-sizing: border-box…` CSS declarations
-- `textsize` — will output the `text-size-adjust: 100%` CSS declarations
-- `jss` — will output a Javascript `<script>` tag
-- *and probably others…*
+**[☛ Check out the snippets cheat sheet](/topics/snippets-cheat-sheet/)**
 
 #### Installing
 

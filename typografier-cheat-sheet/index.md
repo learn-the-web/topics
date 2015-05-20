@@ -49,6 +49,5 @@ groups:
       - name: '`.push-double`, `.push-2`, `.push-half`, `.push-1-2`, `.push-quarter`, `.push-1-4`'
         details:
           - 'Add differing sizes of margin to the bottom.'
-      - name: '``
 
 ---

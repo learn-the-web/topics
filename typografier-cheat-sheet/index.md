@@ -67,4 +67,15 @@ groups:
           - 'Adds padding to bottom of the box.'
           - 'Available as fully written out versions: `.pad-bottom`, `.pad-bottom-double`, `.pad-bottom-half`, `.pad-bottom-quarter`.'
 
+  - title: 'Utilities'
+    items:
+      - name: '`.text-left`, `.text-right`, `.text-center`'
+        details:
+          - 'Text alignment classes.'
+          - '*These are brute force and not responsive, so use only when it will always need that alignment.*'
+      - name: '`.normal`, `.bold`, `.italic`'
+        details:
+          - 'Font style and weight classes.'
+          - '*These are brute force and not responsive, so use only when it will always need that style or weight.*'
+
 ---

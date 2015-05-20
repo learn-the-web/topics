@@ -10,3 +10,5 @@ groups:
           - '*Sample of many screen sizes.*'
           - 'Ranging in size from 320 × 240 – 5120 × 2880 (5K)—or higher.'
           - 'It’s sometimes easier to simplify the sizes into classifications.'
+
+---

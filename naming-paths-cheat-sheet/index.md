@@ -32,9 +32,9 @@ groups:
           - '`dragon’s egg.jpg` — apostrophe is a non-standard charter.'
       - name: '*Be careful*'
         details:
-          - '`dragon.JPG` — some programs like to use uppercase extensions.'
+          - '`dragon.JPG` — some programs like to use uppercase extensions—*change them to lowercase*.'
           - '`full-site.tar.gz` — multiple extensions are okay.'
-          - '`_archive` — underscores at the start of folders is fine, but try to avoid.'
+          - '`_archive` — underscores are fine, but try to avoid them.'
 
   - title: 'Paths & folders'
     items:

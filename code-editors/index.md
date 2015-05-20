@@ -1,5 +1,6 @@
 ---
 group: setup
+cheatsheet: keyboard-shortcut-cheat-sheet
 ---
 
 Choosing a code editor is a highly personal choice—choose the one that you like the most.

@@ -2,6 +2,7 @@
 group: setup
 download: https://github.com/acgd-learn-the-web/atom-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/atom-code
+cheatsheet: snippets-cheat-sheet
 ---
 
 Atom is a fairly new code editor created by GitHub. It’s got lots of great features and the community is starting get really big.

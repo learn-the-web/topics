@@ -46,8 +46,25 @@ groups:
       - name: '`.push-none`, `.push-0`'
         details:
           - 'Remove the bottom margin.'
-      - name: '`.push-double`, `.push-2`, `.push-half`, `.push-1-2`, `.push-quarter`, `.push-1-4`'
+      - name: '`.push-2`, `.push-1-2`, `.push-1-4`'
         details:
           - 'Add differing sizes of margin to the bottom.'
+          - 'Available as fully written out versions: `.push-double`, `.push-half`, `.push-quarter`.'
+      - name: '`.gutter`,`.gutter-2`, `.gutter-1-2`, `.gutter-1-4`'
+        details:
+          - 'Adds padding to left and right sides.'
+          - 'Available as fully written out versions: `.gutter-double`, `.gutter-half`, `.gutter-quarter`.'
+      - name: '`.island`,`.island-2`, `.island-1-2`, `.island-1-4`'
+        details:
+          - 'Adds padding to all four sides.'
+          - 'Available as fully written out versions: `.island-double`, `.island-half`, `.island-quarter`.'
+      - name: '`.pad-t`,`.pad-t-2`, `.pad-t-1-2`, `.pad-t-1-4`'
+        details:
+          - 'Adds padding to top of the box.'
+          - 'Available as fully written out versions: `.pad-top`, `.pad-top-double`, `.pad-top-half`, `.pad-top-quarter`.'
+      - name: '`.pad-b`,`.pad-b-2`, `.pad-b-1-2`, `.pad-b-1-4`'
+        details:
+          - 'Adds padding to bottom of the box.'
+          - 'Available as fully written out versions: `.pad-bottom`, `.pad-bottom-double`, `.pad-bottom-half`, `.pad-bottom-quarter`.'
 
 ---

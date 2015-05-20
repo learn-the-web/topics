@@ -3,6 +3,7 @@ group: web-dev-2
 playlist: PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI
 download: https://github.com/acgd-learn-the-web/media-queries-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/media-queries-code
+cheatsheat: screen-sizes-cheat-sheet
 ---
 
 Media queries allow us to change our layouts and designs based on the browser.

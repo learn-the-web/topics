@@ -30,6 +30,14 @@ atom:
   desc: "Installing and setting up GitHub’s Atom text editor."
   indent: 1
 
+snippets-cheat-sheet:
+  title: "Snippets cheat sheet"
+  tags: "code editor atom sublime text snippets sample code cheat sheet"
+  desc: "A cheat sheet listing all the downloadable snippets for the code editors."
+  cheatsheet: true
+  disabled: true
+  indent: 1
+
 keyboard-shortcut-cheat-sheet:
   title: "Keyboard shortcut cheat sheet"
   tags: "keyboard shortcuts start end line word file document cheat sheet"

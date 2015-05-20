@@ -4,14 +4,6 @@ all-devices-setup:
   tags: "all devices setup meta viewport width device width initial scale border box"
   desc: "Setting up a website so it works well on any Web connected device."
 
-website-boilerplate-cheat-sheet:
-  title: "Website boilerplate cheat sheet"
-  tags: "website code template boilerplate cheat sheet"
-  desc: "A cheat sheet describing the different bits of a website template."
-  cheatsheet: true
-  disabled: true
-  indent: 1
-
 media-queries:
   title: "Media queries"
   tags: "media query queries responsive web design em based larger screens adjustments"

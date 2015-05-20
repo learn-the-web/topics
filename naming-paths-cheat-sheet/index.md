@@ -36,4 +36,32 @@ groups:
           - '`full-site.tar.gz` — multiple extensions are okay.'
           - '`_archive` — underscores at the start of folders is fine, but try to avoid.'
 
+  - title: 'Paths & folders'
+    items:
+      - name: '`./` or *nothing*'
+        details:
+          - 'Start in the same location.'
+          - '`./about.html` or `about.html`'
+      - name: '`../`'
+        details:
+          - 'Go out of this folder.'
+          - '`../index.html`'
+      - name: '`/`'
+        details:
+          - 'Start at the root of the computer.'
+          - 'Start at the root of the domain.'
+          - '`/index.html` or `/Dropbox/image.jpg`'
+      - name: '`//`'
+        details:
+          - 'Start immediately after the protocol, replace the domain.'
+          - '`//github.com`'
+      - name: '`https://`'
+        details:
+          - 'Start at the top level of the Internet, replace everything.'
+          - '`https://github.com`'
+      - name: '`~/`'
+        details:
+          - 'Start in your home folder.'
+          - '*Doesn’t work on the web.*'
+          - '`~/Desktop/todo.txt`'
 ---

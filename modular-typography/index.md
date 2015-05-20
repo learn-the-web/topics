@@ -3,6 +3,7 @@ group: web-dev-2
 playlist: PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l
 download: https://github.com/acgd-learn-the-web/modular-typography-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/modular-typography-code
+cheatsheet: typografier-cheat-sheet
 ---
 
 Creating a modular typography system in CSS creates an extremely reusable font-size system with a harmonious vertical rhythm.

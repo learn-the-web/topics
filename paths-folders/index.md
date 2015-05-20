@@ -1,5 +1,6 @@
 ---
 group: setup
+cheatsheet: indentation-paths-cheat-sheet
 ---
 
 As a developer you need to become intimately familiar with how the directory system works.

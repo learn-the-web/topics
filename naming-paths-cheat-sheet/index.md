@@ -44,12 +44,12 @@ groups:
           - '`./about.html` or `about.html`'
       - name: '`../`'
         details:
-          - 'Go out of this folder.'
+          - 'Go out of a folder.'
+          - 'Can be chained: `../../`.'
           - '`../index.html`'
       - name: '`/`'
         details:
-          - 'Start at the root of the computer.'
-          - 'Start at the root of the domain.'
+          - 'Start at the root of the computer or the root of the domain.'
           - '`/index.html` or `/Dropbox/image.jpg`'
       - name: '`//`'
         details:

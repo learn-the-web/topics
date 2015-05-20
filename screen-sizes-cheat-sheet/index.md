@@ -16,32 +16,32 @@ groups:
 
   - title: 'Size classifications'
     items:
-      - name: '*Extra small*'
+      - name: '*Extra small* (320)'
         details:
-          - '`(240px) 320px–400px`'
+          - '`(240px) 320px – 400px`'
           - 'Font-size: 1rem (16px)'
           - 'Line-height: 1.3 (130%)'
-      - name: '*Small*'
+      - name: '*Small* (400)'
         details:
-          - '`400px–600px`'
+          - '`400px – 600px`'
           - 'Em width: 25em'
           - 'Font-size: 1rem (16px)'
           - 'Line-height: 1.3 (130%)'
-      - name: '*Medium*'
+      - name: '*Medium* (600)'
         details:
-          - '**600px**–960px'
+          - '`600px – 960px`'
           - 'Em width: 38em'
           - 'Font-size: 1.1rem (17px)'
           - 'Line-height: 1.4 (140%)'
-      - name: '*Large*'
+      - name: '*Large* (960)'
         details:
-          - '**960px**–1500px'
+          - '`960px – 1500px`'
           - 'Em width: 60em'
           - 'Font-size: 1.2rem (19px)'
           - 'Line-height: 1.5 (150%)'
-      - name: '*Extra large*'
+      - name: '*Extra large* (1500)'
         details:
-          - '**1500px**+'
+          - '`1500px+`'
           - 'Em width: 90em'
           - 'Font-size: 1.3rem (20px)'
           - 'Line-height: 1.5 (150%)'

@@ -61,7 +61,7 @@ javascript-templates:
 efficiency-tools:
   title: "Efficiency tools"
   disabled: true
-  tags: "keyboard shortcuts command line terminal alfred xscope shortcat dash window managers vim keybindings"
+  tags: "efficiency tools keyboard shortcuts command line terminal alfred xscope shortcat dash window managers vim keybindings"
   desc: "Ways to get more out of your computer, including different keyboard-based tools."
 
 php:

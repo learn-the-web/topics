@@ -20,7 +20,7 @@ writing-a-readme:
   title: "Writing a readme"
   tags: "writing project readme .md markdown commonmark github plain text"
   desc: "A quick overview of writing a helpful readme for your web project."
-  indent: 1
+  indent: 2
   disabled: true
 
 markdown-cheat-sheet:

@@ -217,3 +217,8 @@ Very often a space will be shown as a tiny dot & tabs will be shown and little a
 2. [HTML indentation: spacing & comments](https://www.youtube.com/watch?v=9cCKhhmUppo&index=2&list=PLWjCJDeWfDdey4UwR8TkNLt6VZ2hlWyo-)
 3. [HTML indentation: attribute ordering](https://www.youtube.com/watch?v=CisOD-PXTKU&index=3&list=PLWjCJDeWfDdey4UwR8TkNLt6VZ2hlWyo-)
 4. [HTML indentation: tabs vs. spaces](https://www.youtube.com/watch?v=ee1Ox3zbKZs&list=PLWjCJDeWfDdey4UwR8TkNLt6VZ2hlWyo-&index=4)
+
+## Supplemental links
+
+- [Code Guide](http://codeguide.co/)
+- [Google HTML/CSS Style Guide](https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)

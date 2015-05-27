@@ -13,7 +13,7 @@ Indentation is a helpful practice when writing code—indentation is for develop
 
 When writing HTML it’s a really great idea to indent elements.
 
-The indentation isn’t for the browser—browser’s don’t care. The indentation is for us to help us understand our code.
+The indentation isn’t for the browser—browser’s don’t care. The indentation is for us to help understand our code.
 
 Indentation is extremely helpful for a few reasons:
 
@@ -21,6 +21,8 @@ Indentation is extremely helpful for a few reasons:
 - Helps us see validation errors more clearly
 - Helps maintain our code because it’ll be more obvious if we haven’t look at it in a while
 - Shows a sense of craftsmanship and care
+
+---
 
 ## Indent child elements
 

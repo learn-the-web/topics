@@ -70,7 +70,6 @@ css-typography-cheat-sheet:
 
 browser-developer-tools:
   title: "Browser developer tools"
-  disabled: true
   tags: "browser developer tools inspect element google chrome safari firefox opera elements styles"
   desc: "Using the browser’s developer tools to help debug and code a website."
 

@@ -45,6 +45,12 @@ javascript-effects:
   tags: "javascript effects scrolling transitions animations end events waypoints smooth scroll manipulating svg"
   desc: "Using Javascript to trigger and create lots of effects on a website like animations and scrolling effects."
 
+javascript-accessibility:
+  title: "Javascript & accessibility"
+  tags: "javascript animations events common components tabs toggle panels buttons lightbox accessibility focus keyboard wai aria"
+  desc: "Looking at common Javascript patterns & components and how we can make them more accessible."
+  disabled: true
+
 responsive-animated-info-graphic:
   title: "Responsive animated info graphic"
   fullsite: true

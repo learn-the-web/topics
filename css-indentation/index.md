@@ -95,7 +95,7 @@ To help us understand our HTML more clearly from inside our CSS, we can use inde
 
 Looking at this CSS, it’s more obvious for us that `.banner-img` is a child element of `.banner`.
 
-#### Media queries
+#### Indent media queries
 
 This indentation also makes sense for CSS inside media queries, to make it obvious that the CSS is inside.
 
@@ -104,7 +104,7 @@ This indentation also makes sense for CSS inside media queries, to make it obvio
   ⋮
 }
 
-@media only screen and (min-width: 38em) {
+@media print {
 
   .banner {
     ⋮

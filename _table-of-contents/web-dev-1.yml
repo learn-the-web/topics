@@ -110,6 +110,7 @@ typography-only-web-design:
   tags: "typography web design css font border background colour"
   desc: "A complete website layout looking at designing only the typography and ignoring images."
   disabled: true
+  fullsite: true
 
 float-clear:
   title: "Float & clear"

@@ -44,6 +44,13 @@ keyboard-shortcut-cheat-sheet:
   indent: 1
   cheatsheet: true
 
+code-character-cheat-sheet:
+  title: "Code character cheat sheet"
+  tags: "code character ascii keyboard square angle round bracket brace semi colon quote slash cheat sheet"
+  desc: "A cheat sheet for common keyboard characters typed in code and what they’re called."
+  indent: 1
+  cheatsheet: true
+
 version-control:
   title: "Version control"
   tags: "github version control history undo saving"

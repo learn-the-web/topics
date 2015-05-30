@@ -9,12 +9,6 @@ the-open-web:
   tags: "open web development standards agreement browsers urls hyperlinks internet domain dns ip address url server host http html css javascript layers"
   desc: "A quick introduction to the Open Web."
 
-web-terminology:
-  title: "Web terminology"
-  indent: 1
-  tags: "terminology definitions browsers urls hyperlinks internet domain dns ip address url server host http html css javascript layers square angle backet curly brace double single quote semi colon"
-  desc: "Common words and definitions that you’ll hear with developing websites."
-
 history-of-the-web:
   title: "History of the Web"
   indent: 1

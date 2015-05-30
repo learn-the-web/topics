@@ -21,43 +21,24 @@ For a website to be true, it must follow three simple rules:
 
 ---
 
-## Definitions
+## Web terminology
 
-- `The Internet` — a global computer network built on standardized protocols
-
-- `The Web` — is a series of technologies to allow computers to easily share information
-	*(World Wide Web, WWW)*
-
-- `browser` — a piece of software that allows you to browse The Web’s documents
-	*(Firefox, Internet Explorer, Chrome, Safari, Opera)*
-
-- `domain` — a human readable name or location of a document on The Web
-	*(google.com, github.com)*
-
-- `DNS` — a system for finding where computers exist on the network given their domain
-	*(Domain Name System)*
-
-- `IP address` — 	the real name of a computer on The Internet, all computers have a unique one, usually a large string of numbers
-	*(Internet Protocol Address — 125.0.0.1)*
-
-- `URL` — a name of a location plus file requested, [and more](#urls-and-links)
-	*(Uniform Resource Location — google.com/search?q=dinosaurs)*
-
-- `server` — a computer connected to The Internet that’s sole purpose is powering some internet functionality, like a website or chat
-
-- `host` — the same as a server, but generally a service directed at consumers purchasing web space
-
-- `HTTP` — the communication format for talking to web servers
-	*(Hypertext Transfer Protocol — HTTPS is the secure version)*
-
-- `HTML` — the coding language used to describe content of websites
-	*(Hypertext Markup Language)*
-
-- `CSS` — the coding language used to describe how websites look
-	*(Cascading Style Sheets)*
-
-- `Javascript` — the programming language used to write more advanced interactions on websites
-	*(Not to be confused with Java)*
+- `Internet` — A globally connected series of computers that runs lots of services including the Web, e-mail, chat, etc.
+- `Web, WWW` — The World Wide Web: a document and application service built with standardized technologies, allowing computers to share open information.
+- `DNS` — Domain Name System: a system that allows humans to find computers on the Internet by changing the human-readable URL into a machine readable IP address.
+- `Domain` — The human readable name of a website, or the name/address of a computer connected to the Web. *(algonquindesign.ca, github.com)*
+- `TLD` — Top Level Domain: the last part of a domain, found at the end, often used to describe the purpose or location of the domain: “.com”, “.ca”, “.edu”, etc.
+- `HTTP(S)` — Hypertext Transfer Protocol: the communication protocol that computers use to talk to each other on the Web. `HTTPS` is the encrypted version of the communication protocol.
+- `Server` — A computer connected to the Internet that contains lots of functionality to run Internet services and send websites.
+- `Host` — Pretty much the same as a server, but more targeted at consumers, a place to put your website online.
+- `IP` — Internet Protocol, used colloquially for IP Address: the computer-readable name/address of an Internet connected to computer. *(125.0.0.1)*
+- `URL` — Uniform Resource Locator: The human-readable address to a website, including the domain and the path. *(http://www.google.com/search?q=dinosaurs)*
+- `Path` — Part of a URL, the section that follows a domain, describing what resources to view on the server.
+- `Browser` — A piece of software on your computing device that allows you to use the Web, it renders your websites and allows you to interact with them. *(Firefox, Internet Explorer, Chrome, Safari, Opera)*
+- `W3C` — The World Wide Web Consortium: a group of companies and individuals who work on standardizing all the web technologies.
+- `HTML` — Hypertext Markup Language: the coding language used to describe the content on all webpages.
+- `CSS` — Cascading Style Sheets: the coding language used to describe how websites look.
+- `Javascript` — The programming language used to add extra interactivity to websites.
 
 ---
 

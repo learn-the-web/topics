@@ -81,9 +81,9 @@ Also, domains can be in other languages, with other characters, they don’t hav
 
 ## Exceptions
 
-As with all rules their are exceptions. When it comes to files there are a few files that—by convention—break our rules.
+As with all rules there are exceptions. When it comes to files & folders there are a few that—by convention—break our rules.
 
-- `README.md` — The description of your project; almost always all caps, with or without an extension.
+- `README.md` — The description of your project; always all caps, with or without an extension.
   Sometimes you may also see `CONTRIBUTING.md`, `CHANGELOG.md` and a few others.
   [☛ Learn more about Readmes](/topics/writing-a-readme/)
 - `LICENSE` — The license file for your project; always all caps, rarely an extension.

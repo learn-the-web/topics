@@ -16,20 +16,20 @@ There are a couple `<meta>` tags and a little bit of CSS to make all devices rec
 ```html
 ⋮
 <head>
-	⋮
-	<meta name="handheldfriendly" content="true">
-	<meta name="mobileoptimized" content="240">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	⋮
+  ⋮
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  ⋮
 </head>
 ⋮
 ```
 
 - **handheldfriendly** & **mobileoptimized** are for older devices
-	- The `240` states that our website is formatted for a minimum width of 240 pixels
+  - The `240` states that our website is formatted for a minimum width of 240 pixels
 - **viewport** is for newer smartphones. There are three arguments to specify:
-	- `width=device-width`—our website is formatted for the prime width of the device
-	- `initial-scale=1`—our website shouldn’t be zoomed in or out by default
+  - `width=device-width`—our website is formatted for the prime width of the device
+  - `initial-scale=1`—our website shouldn’t be zoomed in or out by default
 
 ---
 
@@ -43,16 +43,16 @@ There are a couple `<meta>` tags and a little bit of CSS to make all devices rec
 @viewport { width: device-width; scale: 1; }
 
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 ⋮
@@ -66,6 +66,22 @@ The `box-sizing` section changes the box model in CSS so that padding is inside 
 
 Since we are optimizing our sites for small screens, we want to stop small-screen browsers from inflating our font-size in an attempt to make our sites more readable.
 That’s what the `text-size-adjust` property does.
+
+---
+
+## Resets & normalizers
+
+In the past it was common practice to use a CSS reset. The reset would remove all the default styling provided by the browser so that it wouldn’t interfere with your development.
+
+There’s been lots of research and studies done on CSS resets and they’ve fallen out of practice for a few reasons, performance being one of the main reasons. My belief is that CSS resets aren’t necessary because they force you to fight against the browser, re-styling everything, instead of just embracing the medium.
+
+One piece of code that has become popular, replacing resets, is normalizers. Normalizers work differently: instead of removing all the default styles, forcing you to start fresh, they just make all the default styles consistent across browsers.
+
+The most common normalizer is [Normalize.css](https://necolas.github.io/normalize.css/). I often include `normalize.css` in my websites, or a modified version of it, to help with consistency across browsers.
+
+**Links**
+
+- **[Normalize.css](https://necolas.github.io/normalize.css/)**
 
 ---
 

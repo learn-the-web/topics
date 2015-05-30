@@ -104,11 +104,10 @@ flow-display:
   tags: "browser flow layout display inline block hiding elements tags centering horizontal stacked flexbox"
   desc: "Understanding and using the flow system that a browser uses to lay out a website."
 
-typography-only-web-design:
-  title: "Typography-only web design"
+typography-only-layout:
+  title: "Typography-only layout"
   tags: "typography web design css font border background colour"
   desc: "A complete website layout looking at designing only the typography and ignoring images."
-  disabled: true
   fullsite: true
 
 organization:

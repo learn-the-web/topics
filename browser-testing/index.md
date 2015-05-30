@@ -32,6 +32,8 @@ The web is about open information for all human beings—so we need to test in a
 ---
 
 ## Targeting specific browsers
+### Knowing what features are supported by browsers
+### Vendor prefixes
 ### Internet Explorer conditional comments
 
 ---

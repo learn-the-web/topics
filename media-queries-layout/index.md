@@ -17,6 +17,8 @@ This website combines together all the knowledge and skill from the following le
 1. [All devices setup](/topics/all-devices-setup/)
 2. [Media queries](/topics/media-queries/)
 
+*This layout uses a navigation called the Footer-Toggle Hybrid. It isn’t described in the [Navigation](/topics/navigation/) tutorial, but essentially takes the Footer-Anchor pattern, and adds some [progressively enhanced](/topics/progressive-enhacement/) Javascript to turn it into a Toggle navigation.*
+
 ---
 
 ## Video list

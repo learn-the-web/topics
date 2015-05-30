@@ -111,35 +111,6 @@ typography-only-web-design:
   disabled: true
   fullsite: true
 
-float-clear:
-  title: "Float & clear"
-  tags: "float clear text wrap clearfix columns overflow hidden scrollbars"
-  desc: "Understanding how float allows text to wrap around elements and advanced uses for float."
-
-position-zindex:
-  title: "Position & z-index"
-  tags: "position z index in front behind absolute static relative fixed top left bottom right coordinates"
-  desc: "Learning how to layer elements on top of each other and control their layering."
-
-css-layout-cheat-sheet:
-  title: "CSS layout cheat sheet"
-  tags: "layout position float columns box model margin padding cheat sheet"
-  desc: "A cheat sheet for the basics of CSS layout properties."
-  cheatsheet: true
-  disabled: true
-
-navigation:
-  title: "Navigation"
-  tags: "navigation styles links multiple pages highlight current page inline list footer anchor grid toggle drop down menu navigation"
-  desc: "Different navigation styles for small screen websites and how to code them."
-
-basic-website-layout:
-  title: "Basic website layout"
-  fullsite: true
-  disabled: true
-  tags: "full basic website layout flow display margin padding"
-  desc: "Walking through making a full single-page website with a basic layout."
-
 organization:
   title: "Website file organization"
   tags: "on off github assets production design content www version control dropbox invision"
@@ -169,6 +140,28 @@ images-cheat-sheet:
   cheatsheet: true
   disabled: true
   indent: 1
+
+float-clear:
+  title: "Float & clear"
+  tags: "float clear text wrap clearfix columns overflow hidden scrollbars"
+  desc: "Understanding how float allows text to wrap around elements and advanced uses for float."
+
+position-zindex:
+  title: "Position & z-index"
+  tags: "position z index in front behind absolute static relative fixed top left bottom right coordinates"
+  desc: "Learning how to layer elements on top of each other and control their layering."
+
+css-layout-cheat-sheet:
+  title: "CSS layout cheat sheet"
+  tags: "layout position float columns box model margin padding cheat sheet"
+  desc: "A cheat sheet for the basics of CSS layout properties."
+  cheatsheet: true
+  disabled: true
+
+navigation:
+  title: "Navigation"
+  tags: "navigation styles links multiple pages highlight current page inline list footer anchor grid toggle drop down menu navigation"
+  desc: "Different navigation styles for small screen websites and how to code them."
 
 small-screen-layout:
   title: "Small screen layout"

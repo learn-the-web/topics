@@ -68,20 +68,35 @@ Sometimes you can’t quite see the green. Don’t worry, but try to solve as ma
 
 ---
 
+## CSS tools
+
+*[Tutorial pending…]*
+
+**Links**
+
+- [CSS Lint](http://csslint.net/)
+- [CSS Stats](http://cssstats.com/)
+
+---
+
 ## Validating Javascript
 
 *[Tutorial pending…]*
+
+**Links**
+
+- **[JS Hint](http://jshint.com/)**
+- [JS Lint](http://jslint.com/)
 
 ---
 
 ## Video list
 
 1. [Validation: debugging HTML and CSS](https://www.youtube.com/watch?v=79qAXqE3Qz8&index=2&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM)
-2. Validation: debugging Javascript
+2. [CSS tools](https://www.youtube.com/watch?v=LN5P4SrRgeE&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=3)
+3. [Javascript validation](https://www.youtube.com/watch?v=4vXx5gClY6c&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=4)
 
 ## Supplemental links
 
 - **[HTML validator](http://validator.w3.org/)**
 - **[CSS validator](http://jigsaw.w3.org/css-validator/)**
-- **[JS Hint](http://jshint.com/)**
-- [JS Lint](http://jslint.com/)

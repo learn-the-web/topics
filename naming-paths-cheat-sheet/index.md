@@ -29,7 +29,7 @@ groups:
         details:
           - '`Index.html` — capital letters used.'
           - '`t rex.png` — space in filename.'
-          - '`dragon’s egg.jpg` — apostrophe is a non-standard charter.'
+          - '`dragon’s egg.jpg` — apostrophe is a non-standard character.'
       - name: '*Be careful*'
         details:
           - '`dragon.JPG` — some programs like to use uppercase extensions—*change them to lowercase*.'

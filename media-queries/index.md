@@ -40,6 +40,7 @@ And it’s always beneficial to bump up our font sizes.
 3. [Media queries: banner](https://www.youtube.com/watch?v=n2LxnjT68gc&index=3&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI)
 4. [Media queries: toggle navigation](https://www.youtube.com/watch?v=ifhppwLzXwI&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=4)
 5. [Media queries: no media queries](https://www.youtube.com/watch?v=ig9pueXrl3o&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=5)
+6. [Media queries: print styles](https://www.youtube.com/watch?v=krZXeORLXtM&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=6)
 
 ## Supplemental links
 

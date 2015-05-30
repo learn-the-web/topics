@@ -12,18 +12,15 @@ When coding websites there’s a restriction on how we must name our files and f
 When it comes to the web we have a few very specific rules for naming *every single file and folder* in our website.
 
 1. **All lowercase** — all files & folder must us only lowercase characters.
-
-  - This includes extensions, like .jpg, .png, etc.
+  This includes extensions, like .jpg, .png, etc.
 
 2. **No spaces** — no spaces allowed anywhere in file & folder names.
-
-  - Be careful their are spaces hidden at the end, after the extension.
-  - Use a dash (`-`) to separate words.
+  Be careful their are spaces hidden at the end, after the extension.
+  Use a dash (`-`) to separate words.
 
 3. **Only letters, numbers & dashes** — use dashes (`-`) to separate words.
-
-  - The only exception is the dot (`.`) before extensions.
-  - Underscores (`_`) are also acceptable, but not preferable.
+  The only exception is the dot (`.`) before extensions.
+  Underscores (`_`) are also acceptable, but not preferable.
 
 *These rules also apply to domains for your website.*
 
@@ -86,9 +83,12 @@ Also, domains can be in other languages, with other characters, they don’t hav
 
 As with all rules their are exceptions. When it comes to files there are a few files that—by convention—break our rules.
 
-- `README.md` — The description of your project; almost always all caps, with or without an extension. [☛ Learn more about Readmes](/topics/writing-a-readme/)
+- `README.md` — The description of your project; almost always all caps, with or without an extension.
   Sometimes you may also see `CONTRIBUTING.md`, `CHANGELOG.md` and a few others.
-- `LICENSE` — The license file for your project; always all caps, rarely an extension. [☛ Learn more about Licenses](/topics/licenses-copyright/)
-- `CNAME` — The file used by GitHub to associate a custom domain to your website; always all caps, no extension. [☛ Learn more about Custom domains](/topics/domains/)
+  [☛ Learn more about Readmes](/topics/writing-a-readme/)
+- `LICENSE` — The license file for your project; always all caps, rarely an extension.
+  [☛ Learn more about Licenses](/topics/licenses-copyright/)
+- `CNAME` — The file used by GitHub to associate a custom domain to your website; always all caps, no extension.
+  [☛ Learn more about Custom domains](/topics/domains/)
 
 As mentioned above, domains can also use non-English ASCII characters, but those get mapped back to the standard character set internally.

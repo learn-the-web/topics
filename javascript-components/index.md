@@ -17,17 +17,25 @@ There are a bunch of common components used on websites, so here are some tutori
 
 Toggle panels are small elements that can be opened and closed—exactly like the `<details>` element.
 
+- [See working toggle panels](http://learn-the-web.algonquindesign.ca/javascript-components-code/panels.html)
+
 ### Tabs
 
 Tabs are similar to toggle panels, except that there are many buttons and many connected panels.
+
+- [See working tabs](http://learn-the-web.algonquindesign.ca/javascript-components-code/tabs.html)
 
 ### Lightbox
 
 A lightbox is a popup display, often for enlarging information, like images.
 
+- [See a working lightbox](http://learn-the-web.algonquindesign.ca/javascript-components-code/lightbox.html)
+
 ### Data filter
 
 Looks at using a `<select>` element to picking specific pieces of information out of an array and to display.
+
+- [See the working data filter](http://learn-the-web.algonquindesign.ca/javascript-components-code/data-filter.html)
 
 ---
 

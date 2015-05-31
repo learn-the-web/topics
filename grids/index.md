@@ -175,13 +175,11 @@ Grid systems also have a series of other capabilities:
 3. `push` & `pull` classes allow you to move units around, reordering them.
 4. `top`, `bottom` & `middle` alignment classes for moving the units vertically.
 
-**[Check out Gridifier](http://tjb.io/grids)**, a tool I created for myself to generate the responsive grid code.
+**[Check out Gridifier](http://tjb.io/grids)**, a tool I created for myself to generate the code for a responsive grid system.
 
----
+### Pre-built grid frameworks
 
-## Grid frameworks
-
-There’s lots of grid & prototyping frameworks online that come setup with a themes, grids, and components to help you create a quick website.
+There’s lots of prototyping frameworks online that come setup with a themes, grids, type systems, and components to help you create a quick website.
 
 A few of the most common ones are:
 

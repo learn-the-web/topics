@@ -15,11 +15,12 @@ Creating a modular typography system in CSS creates an extremely reusable font-s
 
 ## Steps to creating a type system
 
-1. Choose the typeface for the body copy
-2. Choose an appropriate font-size; usually 16 px unless the typeface is larger
-3. Choose an appropriate line-height for the body text
-4. Choose a type scale, often based on a musical or other natural scale
-5. Set up the CSS font-sizes, line-heights, and margins to fit the scale
+1. Choose the typeface for the body copy.
+2. Choose an appropriate font-size the body copy—usually 16px (100%).
+3. Choose an appropriate line-height for the body text—usually between 1.3–1.5 (depending on screen size).
+4. Choose a type scale, often based on a musical or other natural scale.
+5. Set up the CSS font-sizes, line-heights, and margins to create the rhythm.
+6. Create a set of utility classes to be used throughout your design.
 
 **Example type choices**
 
@@ -35,11 +36,10 @@ Creating a modular typography system in CSS creates an extremely reusable font-s
 - [Raelational Design](http://blog.8thlight.com/billy-whited/2011/10/28/r-a-ela-tional-design.html)
 - [Typographic Scale](http://spencermortensen.com/articles/typographic-scale/)
 
-**Tools**
+**Links**
 
-- <http://type-scale.com/>
-- <http://modularscale.com/>
-- **[☛ Typografier](http://tjb.io/type)** — A tool I created for myself to generate the default CSS code
+- [Type Scale](http://type-scale.com/)
+- [Modular Scale](http://modularscale.com/)
 
 ---
 
@@ -57,11 +57,11 @@ So for the `h5`, it would be `1 × 1.125`.
 
 ```css
 h5 {
-	font-size: 1.125rem; /* (1 × 1.125) */
+  font-size: 1.125rem; /* (1 × 1.125) */
 }
 
 h6 {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 ```
 
@@ -75,8 +75,8 @@ Using the formula to calculate the `h1`:
 
 ```css
 h1 {
-	/* (1 × 1.125 ^ 5) - H1 is 5 steps away from the base font-size */
-	font-size: 1.8020rem;
+  /* (1 × 1.125 ^ 5) - H1 is 5 steps away from the base font-size */
+  font-size: 1.8020rem;
 }
 ```
 
@@ -91,14 +91,14 @@ So, we would then assign classes to all the significant font-sizes:
 ```css
 h1,
 .exa {
-	font-size: 1.8020rem;
+  font-size: 1.8020rem;
 }
 
 ⋮
 
 h6,
 .kilo {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 ```
 
@@ -106,23 +106,25 @@ Often we need larger font-sizes (for banners or hero graphics) and smaller font-
 
 ```css
 .yotta {
-	font-size: 2.2807rem;
+  font-size: 2.2807rem;
 }
 
 .zetta {
-	font-size: 2.0273rem;
+  font-size: 2.0273rem;
 }
 
 ⋮
 
 small, .milli {
-	font-size: 0.8889rem;
+  font-size: 0.8889rem;
 }
 
 .micro {
-	font-size: 0.7901rem;
+  font-size: 0.7901rem;
 }
 ```
+
+**Overall I want to have 10 type sizes: 7 bigger than the body copy and 2 smaller.**
 
 **Links**
 
@@ -137,16 +139,16 @@ We start by applying a consistent margin to all the typography related elements:
 
 ```css
 h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl, dd, figure
+p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
-	margin: 0 0 1.5rem;
+  margin: 0 0 1.5rem;
 }
 ```
 
 *The margin-bottom is the same size as our line-height.*
 
-Next, we assign a line-height to every font-size in our type-scale that aligns with our base line-height. The idea behind this alignment is create harmony between the text, especially when two columns of text are beside each other—we want the lines of text to align. [Illustrations and explanation here.](http://www.markboulton.co.uk/journal/incremental-leading)
+Next, we assign a line-height to every font-size in our type-scale that aligns with our base line-height. The idea behind this alignment is create harmony between the text, especially when two columns of text are beside each other—we want the lines of text to align.
 
 Here’s the formula to calculate the appropriate line-height:
 
@@ -158,9 +160,9 @@ To calculate the `h1` it would look like this:
 
 ```css
 h1, .exa {
-	/* line-height: ceil(1.802 ÷ 1.5) × (1.5 ÷ 1.802) */
-	font-size: 1.8020rem;
-	line-height: 1.6648;
+  /* line-height: ceil(1.802 ÷ 1.5) × (1.5 ÷ 1.802) */
+  font-size: 1.8020rem;
+  line-height: 1.6648;
 }
 ```
 
@@ -178,26 +180,30 @@ So, we can create a series of classes to add consistent margins:
 ```css
 /* Normal, line-height size space */
 .push {
-	margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* No space */
 .push-none {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* Double normal space */
 .push-double {
-	margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* Half normal space */
 .push-half {
-	margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 ```
 
-*We might even want to add a series of classes for consistent paddings for closed in boxes so they can conform to our baseline grid. [Check out the CSS file for a complete series of these classes.](css/typography.css)*
+*We might even want to add a series of classes for consistent paddings for closed in boxes so they can conform to our baseline grid:*
+
+- `gutter` padding on the left and right.
+- `island` padding on all four sides.
+- `pad-top`, `pad-bottom` for padding on the top and bottom.
 
 ### Adding branding
 
@@ -206,16 +212,16 @@ Often we want a different typeface and colours for the headings, it’s best to 
 ```css
 h1, h2, h3, h4, h5, h6,
 .brand {
-	font-family: Helvetica,sans-serif;
-	color: #393;
+  font-family: Helvetica, sans-serif;
+  color: #393;
 }
 
 .brand-family {
-	font-family: Helvetica,sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 .brand-color {
-	color: #393;
+  color: #393;
 }
 ```
 
@@ -228,30 +234,42 @@ With responsive sites it’s usually a good idea to increase the font-size on la
 With a few media queries at the top of our `typography.css` file we can increase sizes incrementally for larger screens.
 
 ```css
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
-	html {
-		font-size: 110%;
-	}
-
-}
-
-@media only screen and (min-width: 90em) {
-
-	html {
-		font-size: 120%;
-	}
-
-}
-
-@media only screen and (min-width: 120em) {
-
-	html {
-		font-size: 130%;
-	}
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
 }
 ```
+
+---
+
+## Complete modular type systems
+
+You probably don’t want to create all the type sizes and scales every time you start a website. So using modular type generator is helpful.
+
+**[Check out Typografier](http://tjb.io/type)**, a tool I created for myself to generate the code for a responsive, modular type system.
+
+### Pre-built modular type frameworks
+
+There’s lots of prototyping frameworks online that come setup with a themes, grids, type systems, and components to help you create a quick website.
+
+A few of the most common ones are:
+
+- [Bootstrap](http://getbootstrap.com/)
+- [Foundation by Zurb](http://foundation.zurb.com/)
+- [Pure by Yahoo](http://purecss.io/)
 
 ---
 
@@ -259,7 +277,7 @@ With a few media queries at the top of our `typography.css` file we can increase
 
 When starting a new website it’s best to first consider the typography. I generally like to style all the typography related elements to create a mini styleguide.
 
-[⬇ Type styleguide](type-styleguide.html)
+**[See some sample HTML for a type style guide.](https://github.com/acgd-learn-the-web/modular-typography-code/blob/master/type-styleguide.html)**
 
 **Sample styleguides**
 

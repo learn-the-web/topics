@@ -30,7 +30,7 @@ When it comes to the web we have a few very specific rules for naming *every sin
 
 The reasons for the above rules are purely technical—they aren’t about personal preference.
 
-### Why lowercase
+### Why lowercase?
 
 **Because different operating systems treat capitalization differently.**
 
@@ -54,7 +54,7 @@ This creates a slight annoyance, because if you accidentally link to file in you
 
 So, it’s much easier to standardize on lowercase, we then don’t run into any unnecessary problems.
 
-### Why no spaces
+### Why no spaces?
 
 **Because URLs cannot have spaces in them.**
 
@@ -62,7 +62,19 @@ URLs in browsers just cannot have spaces in them, they must be escaped with a ch
 
 So unless you want to go around writing `%20` everywhere you link to files with spaces—don’t use spaces.
 
-### Why only numbers letters and underscores
+### Why separate words with dashes?
+
+**Because, for search engines, dashes are word separators and underscores are word connectors.**
+
+If you’d like to separate words (which is a good idea for clarity), instead of a space, use a dash (`-`). Dashes are preferable to underscores because search engines treat underscores as word connectors, where dashes are treated was word separators.
+
+Some examples of how dashes vs. underscores work:
+
+- `photo-1.jpg` — Using a dash as a word separator.
+- `meat-eating-dinosaurs.html` — Each word will be separated for searching: “meat”, “eating” & “dinosaurs”.
+- `big_t_rex_dino` — Search engines will show results for exactly “big_t_rex_dino”, but not for “dino” or “t-rex” or “big”.
+
+### Why only numbers letters and dashes?
 
 **Because URLs use a limited set of characters.**
 

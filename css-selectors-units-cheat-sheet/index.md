@@ -70,7 +70,7 @@ groups:
           - 'Select an element when the URL matches its ID.'
           - 'Examples: `li:target`.'
 
-  - title: 'Link selectors'
+  - title: 'Interaction selectors'
     items:
       - name: '`:link`'
         details:
@@ -80,13 +80,14 @@ groups:
           - 'For styling a link that has been visited.'
       - name: '`:hover`'
         details:
-          - 'For styling a link when the mouse hovers over it.'
+          - 'For styling an element when the mouse hovers over it.'
       - name: '`:focus`'
         details:
-          - 'For styling a link for when the keyboard focuses it.'
+          - 'For styling an element for when the keyboard focuses it.'
+          - 'Only works on `<a>`, `<button>`, and form inputs by default.'
       - name: '`:active`'
         details:
-          - 'For styling a link when the mouse button is clicked down on it.'
+          - 'For styling an element when the mouse button is clicked down on it.'
 
   - title: 'Colours'
     items:

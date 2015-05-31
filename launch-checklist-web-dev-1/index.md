@@ -44,7 +44,7 @@ groups:
       - 'Has all the favicons.<br>[Favicons](/topics/images/#favicons)'
 
   - title: 'Performance'
-    full: advanced-performance-checklist
+    full: performance-checklist
     items:
       - 'Conforms to your performance budget.'
       - 'Code is organized for highest performance.'

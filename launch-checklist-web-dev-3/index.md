@@ -48,7 +48,6 @@ groups:
       - 'All code is indented appropriately.<br>[HTML indentation](/topics/html-indentation/), [CSS indentation](/topics/css-indentation)'
       - 'HTML is valid.<br>[W3C HTML Validator](http://validator.w3.org/)'
       - 'CSS is valid.<br>[W3C CSS Validator](http://jigsaw.w3.org/css-validator/), [CSS Lint](http://csslint.net/)'
-      - 'Javascript has been validated.<br>[JS Hint](http://www.jshint.com/), [JS Lint](http://jslint.com/)'
       - 'Validated for internationalization & world readiness.<br>[W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)'
       - 'Many and high quality commit messages.'
 
@@ -68,7 +67,7 @@ groups:
       - 'Print styles are included.<br>[Print styles](/topics/media-queries/#print-styles)'
 
   - title: 'Performance'
-    full: advanced-performance-checklist
+    full: performance-checklist
     items:
       - 'Conforms to your performance budget.'
       - 'Code is organized for highest performance.'

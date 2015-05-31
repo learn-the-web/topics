@@ -59,7 +59,7 @@ groups:
       - 'Print styles are included.<br>[Print styles](/topics/media-queries/#print-styles)'
 
   - title: 'Performance'
-    full: advanced-performance-checklist
+    full: performance-checklist
     items:
       - 'Conforms to your performance budget.'
       - 'Code is organized for highest performance.'

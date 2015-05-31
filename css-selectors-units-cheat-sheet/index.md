@@ -1,11 +1,86 @@
 ---
 layout: cheatsheet
-group: setup
+group: web-dev-1
 
 groups:
   - title: 'Selectors'
     items:
-      - name: '``'
+      - name: '`Tag`'
+        details:
+          - 'Select all the tags of the same type.'
+          - 'Examples: `html`, `h1`, `p`.'
+      - name: '`.` — Class'
+        details:
+          - 'Select an element that has a class.'
+          - 'Examples: `.masthead`, `.nav`, `.contact`.'
+      - name: '`#` — ID'
+        details:
+          - 'Select an element that has the id.'
+          - 'Examples: `#heading-1`, `#facebook`, `#top`.'
+      - name: '`Space` — Descendant'
+        details:
+          - 'Select an element that’s a child of another element.'
+          - 'Examples: `ul li`, `nav a`, `footer ul li`.'
+      - name: '`>` — Direct descendant'
+        details:
+          - 'Select an element directly inside another element.'
+          - 'Examples: `ul > li`, `h1 > span`, `footer > .copyright`.'
+      - name: '`+` — Adjacent sibling'
+        details:
+          - 'Select an element immediately beside another element.'
+          - 'Examples: `h1 + p`, `hr + p`, `li + li`.'
+      - name: '`~` — General sibling'
+        details:
+          - 'Select an element that’s at the same level.'
+          - 'Examples: `p ~ p`, `h1 ~ p`, `dd ~ dd`.'
+      - name: '`[]` — Attribute'
+        details:
+          - 'Select an element by it’s attribute.'
+          - 'Good for styling links different if they’re external.'
+          - 'Examples: `[data-state="active"]`, `[href^="http"]`, `[download]`.'
+      - name: '`:first-child`'
+        details:
+          - 'Select the element when it’s the first inside its parent.'
+          - 'Examples: `p:first-child`, `ul li:first-child`, `.person:first-child`.'
+      - name: '`:last-child`'
+        details:
+          - 'Select the element when it’s the last inside its parent.'
+          - 'Examples: `li:last-child`, `p:last-child`, `.item:last-child`.'
+      - name: '`:nth-child()`'
+        details:
+          - 'Select an element by it’s number.'
+          - 'Good for zebra striping table rows.'
+          - 'Examples: `li:nth-child(2)`, `tr:nth-child(odd)`, `div:nth-child(5n)`.'
+      - name: '`:first-line`'
+        details:
+          - 'Select the first line of text.'
+          - 'Good for highlighting the first line of a paragraph.'
+          - 'Examples: `p:first-line`.'
+      - name: '`:first-letter`'
+        details:
+          - 'Select the first character in the text.'
+          - 'Good for drop caps.'
+          - 'Examples: `p:first-letter`.'
+      - name: '`:target`'
+        details:
+          - 'Select an element when the URL matches its ID.'
+          - 'Examples: `li:target`.'
+
+  - title: 'Link selectors'
+    items:
+      - name: '`:link`'
+        details:
+          - ''
+      - name: '`:visited`'
+        details:
+          - ''
+      - name: '`:hover`'
+        details:
+          - ''
+      - name: '`:focus`'
+        details:
+          - ''
+      - name: '`:active`'
         details:
           - ''
 

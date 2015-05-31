@@ -46,7 +46,6 @@ css-selectors-units-cheat-sheet:
   tags: "css selectors class id units rem px percent cheat sheet"
   desc: "A cheat sheet covering the basics of CSS selectors and units."
   cheatsheet: true
-  disabled: true
   indent: 1
 
 basic-typography:

@@ -3,6 +3,7 @@ group: web-dev-1
 playlist: PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS
 download: https://github.com/acgd-learn-the-web/using-css-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/using-css-code
+cheatsheet: css-selectors-units-cheat-sheet
 ---
 
 Covering creating Cascading Style Sheets, attaching them to your HTML, and basic targeting and styling of websites.

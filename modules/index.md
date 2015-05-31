@@ -11,11 +11,11 @@ Thinking modularly in CSS allows us to create more reusable CSS.
 
 ## Examples
 
-- [List group](list-group.html): vertical & horizontal
-- [Buttons](buttons.html): small, medium, large, alternative, [buttons + modular typography](buttons-modular-type.html)
-- [Icons](icons.html): different sizes, stacked, inline, image replacement
-- [Media object](media-object.html): flexible image size, embeddable, with list group, stacked, reversed
-- [Embed containers](embed.html): for flexible images and videos, with specific aspect ratios—to prevent layout reflow after the image loads
+- [List group](http://learn-the-web.algonquindesign.ca/modules-code/list-group.html): vertical & horizontal
+- [Buttons](http://learn-the-web.algonquindesign.ca/modules-code/buttons.html): small, medium, large, alternative, [buttons + modular typography](buttons-modular-type.html)
+- [Icons](http://learn-the-web.algonquindesign.ca/modules-code/icons.html): different sizes, stacked, inline, image replacement
+- [Media object](http://learn-the-web.algonquindesign.ca/modules-code/media-object.html): flexible image size, embeddable, with list group, stacked, reversed
+- [Embed containers](http://learn-the-web.algonquindesign.ca/modules-code/embed.html): for flexible images and videos, with specific aspect ratios—to prevent layout reflow after the image loads
 
 *The `common.css` file used in the examples and videos could be replaced by your modular typography `typography.css` file for better results.*
 

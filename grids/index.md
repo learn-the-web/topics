@@ -9,19 +9,21 @@ tool:
   url: http://thomasjbradley.github.io/gridifier/
 ---
 
-Making flexible and responsive grids using HTML & CSS.
+Making flexible and responsive grids using HTML & CSS to simplify & systemize the creation of responsive websites.
 
 ---
 
 ## Flexible grids
 
-Flexible grids in CSS are composed of nested `<div>` elements within a row.
+Flexible grids in CSS are composed of nested `<div>` elements within a row. (Well you could use any element really.)
+
+We have one element, the “row”, that surrounds a bunch of other elements, the “columns”. Each of the columns are then positioned in CSS to be beside each other.
 
 ```html
 <div class="grid">
-	<div class="unit">Grid Unit 1</div>
-	<div class="unit">Grid Unit 2</div>
-	<div class="unit">Grid Unit 3</div>
+  <div class="unit">Grid Unit 1</div>
+  <div class="unit">Grid Unit 2</div>
+  <div class="unit">Grid Unit 3</div>
 </div>
 ```
 
@@ -29,17 +31,17 @@ Within CSS, we can then float of each of the units to fit beside each other.
 
 ```css
 .grid {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .unit {
-	float: left;
-	/* The width is set to 33% because we want to fit three columns in our row. */
-	width: 33.3333%;
+  float: left;
+  /* The width is set to 33% because we want to fit three columns in our row. */
+  width: 33.3333%;
 }
 ```
 
-This will create a grid row with three columns inside that flex with the width of the browser.
+This will create a grid row with three columns inside that flex with the width of the browser because they are sized using percentages.
 
 The major problem is that there is no space, or gutter, between each column.
 
@@ -48,15 +50,15 @@ To solve the problem in the most flexible manner, we can put another class on th
 ```html
 ⋮
 <div class="unit gutter">
-	Grid 1
+  Grid 1
 </div>
 ⋮
 ```
 
 ```css
 .gutter {
-	padding-left: 1em;
-	padding-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 ```
 
@@ -67,7 +69,7 @@ So we could create grid units with full bleed images.
 ```html
 ⋮
 <div class="unit">
-	<img src="http://placehold.it/500x500" alt="">
+  <img src="http://placehold.it/500x500" alt="">
 </div>
 ⋮
 ```
@@ -79,16 +81,18 @@ We can also create a column in our grid that takes up ⅔ of the available space
 ```html
 ⋮
 <div class="unit unit-2-3">
-	Double Width 1
+  Double Width 1
 </div>
 ⋮
 ```
 
 ```css
 .unit-2-3 {
-	width: 66.6667%;
+  width: 66.6667%;
 }
 ```
+
+Setting our grid systems in percentages give them flexibility because we can never guarantee what size a browser window is going to be.
 
 ---
 
@@ -98,15 +102,15 @@ We can extend our flexible grids to be responsive using a technique with multipl
 
 ```html
 <div class="grid">
-	<div class="unit unit-s-1 unit-m-1 unit-l-1-3">Grid Unit 1</div>
-	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">Grid Unit 2</div>
-	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">Grid Unit 3</div>
+  <div class="unit unit-s-1 unit-m-1 unit-l-1-3">Grid Unit 1</div>
+  <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">Grid Unit 2</div>
+  <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">Grid Unit 3</div>
 </div>
 ```
 
 You’ll notice multiple classes on each of the `.unit` `<div>` elements.
 
-Each class represents the position the `<div>` will be in at each different screen size.
+Each class represents the width the `<div>` will be in at each different screen size.
 
 - `unit-s-1`—means the unit takes up 100% of the space on small screens
 - `unit-m-1-2`—means the unit takes up ½ the available space on medium screens
@@ -116,34 +120,47 @@ In our CSS we would then create these classes and style them within different me
 
 ```css
 .unit {
-	float: left;
+  float: left;
 }
 
 .unit-s-1 {
-	width: 100%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 38em) {
 
-	.unit-m-1 {
-		width: 100%;
-	}
+  .unit-m-1 {
+    width: 100%;
+  }
 
-	.unit-m-1-2 {
-		width: 50%;
-	}
+  .unit-m-1-2 {
+    width: 50%;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-	.unit-l-1-3 {
-		width: 33.3333%;
-	}
+  .unit-l-1-3 {
+    width: 33.3333%;
+  }
 
 }
-
 ```
+
+Following the mobile-first approach we set the small sized units outside media queries and then add media queries for the larger screen sizes.
+
+As the screen changes size the units will fall into place beside each other or stack depending on the available screen space.
+
+I like to work in fractions for my grid sizes because, to me, it makes the most sense online. Lots of other designers like to use a set number of columns, like 12. But to me, I would never need 12 columns on a mobile screen so it doesn’t make sense.
+
+### Flexbox grid systems
+
+The grid system above uses `float` to get the units beside each other, but this isn’t as flexible as other layout methods.
+
+Using `display: inline-block` gives a little bit more flexibility, especially for vertical alignment of units, but adds extra spaces between units.
+
+So, in modern browsers, `display: flex`, aka: flexbox, is the best solution. It gives us lots of control over the placement of our units both horizontally and vertically. Many modern grid systems use a combination of flexbox with a fallback of inline-block of float.
 
 ---
 
@@ -153,33 +170,30 @@ A complete grid system would be composed of rows that can have thirds, quarters,
 
 Grid systems also have a series of other capabilities:
 
-1. `hidden` classes provide the ability to hide & show units in specific screen sizes
-2. `offset` classes provide the ability to push units way from the edge of the screen and other units
+1. `hidden` classes provide the ability to hide & show units in specific screen sizes.
+2. `offset` classes provide the ability to push units way from the edge of the screen and other units.
+3. `push` & `pull` classes allow you to move units around, reordering them.
+4. `top`, `bottom` & `middle` alignment classes for moving the units vertically.
 
-**Tools**
-
-- **[☛ Gridifier](http://tjb.io/grids)** — A tool I created for myself to generate the default CSS code
-- [Grid Builder for Stylus](https://gist.github.com/thomasjbradley/7186573)
+**[Check out Gridifier](http://tjb.io/grids)**, a tool I created for myself to generate the responsive grid code.
 
 ---
 
 ## Grid frameworks
 
-Bootstrap is a prototyping CSS framework that comes setup with a theme, grids, and components to help you create a quick prototype for any website.
+There’s lots of grid & prototyping frameworks online that come setup with a themes, grids, and components to help you create a quick website.
 
-- **<http://getbootstrap.com/>**
+A few of the most common ones are:
 
-*Helpful links*
-
-- [Net.Tuts+: Mobile First with Bootstrap 3](http://net.tutsplus.com/tutorials/html-css-techniques/mobile-first-with-bootstrap-3/)
-- [SitePoint: Understanding Twitter Bootstrap 3](http://www.sitepoint.com/understanding-twitter-bootstrap-3/)
-
-*Other frontend grid systems & libraries*
-
+- [Bootstrap](http://getbootstrap.com/)
 - [Foundation by Zurb](http://foundation.zurb.com/)
 - [Pure by Yahoo](http://purecss.io/)
 - [Gridset](https://gridsetapp.com/)
-- **[☛ Gridifier](http://tjb.io/grids)** — A tool I created for myself to generate the default CSS code
+
+**Links**
+
+- [Net.Tuts+: Mobile First with Bootstrap 3](http://net.tutsplus.com/tutorials/html-css-techniques/mobile-first-with-bootstrap-3/)
+- [SitePoint: Understanding Twitter Bootstrap 3](http://www.sitepoint.com/understanding-twitter-bootstrap-3/)
 
 ---
 

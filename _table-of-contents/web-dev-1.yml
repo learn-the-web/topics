@@ -59,10 +59,10 @@ google-fonts:
   tags: "google web custom fonts link use"
   desc: "Including a custom, non-standard web font on your website using Google Fonts."
 
-css-typography-cheat-sheet:
-  title: "CSS typography cheat sheet"
-  tags: "css typography styling font family cheat sheet"
-  desc: "A cheat sheet listing the important properties for CSS typography."
+web-typography-cheat-sheet:
+  title: "Web typography cheat sheet"
+  tags: "web css typography styling font family cheat sheet"
+  desc: "A cheat sheet listing the important concepts, standards & CSS properties for web typography."
   cheatsheet: true
   disabled: true
   indent: 1

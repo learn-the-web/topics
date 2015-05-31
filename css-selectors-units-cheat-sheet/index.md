@@ -74,19 +74,19 @@ groups:
     items:
       - name: '`:link`'
         details:
-          - ''
+          - 'For styling a link that hasn’t been visited.'
       - name: '`:visited`'
         details:
-          - ''
+          - 'For styling a link that has been visited.'
       - name: '`:hover`'
         details:
-          - ''
+          - 'For styling a link when the mouse hovers over it.'
       - name: '`:focus`'
         details:
-          - ''
+          - 'For styling a link for when the keyboard focuses it.'
       - name: '`:active`'
         details:
-          - ''
+          - 'For styling a link when the mouse button is clicked down on it.'
 
   - title: 'Colours'
     items:

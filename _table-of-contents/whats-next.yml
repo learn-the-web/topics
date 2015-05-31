@@ -40,6 +40,18 @@ staying-up-to-date:
   tags: "up to date feeds email newsletters blogs tutorials rss save for later bookmarks twitter"
   desc: "How to keep your knowledge current with feeds, newsletters, and blogs."
 
+security:
+  title: "Security"
+  disabled: true
+  tags: "security web https ssl certificates ddos cloudflare brute force"
+  desc: "A quick tutorial on website security with a bunch of helpful links."
+
+email-newsletters:
+  title: "Email newsletters"
+  disabled: true
+  tags: "html email newsletters code tables design mailchimp"
+  desc: "A quick tutorial on creating HTML email newsletters with a bunch of helpful links."
+
 ajax:
   title: "AJAX"
   disabled: true

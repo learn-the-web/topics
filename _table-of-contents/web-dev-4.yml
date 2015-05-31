@@ -99,8 +99,8 @@ advanced-performance:
   tags: "advanced performance css minification combine performance content delivery network cloudflare security"
   desc: "Making our websites more performant with minification, content delivery networks, and other optimizations."
 
-performance-checklist:
-  title: "Performance checklist"
+advanced-performance-checklist:
+  title: "Advanced performance checklist"
   tags: "performance speed download checklist"
   desc: "A checklist for website performance validation."
   checklist: true

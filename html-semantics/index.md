@@ -406,3 +406,4 @@ Some characters cannot be written in the text content of HTML because the charac
 - **[MDN: HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)**
 - [HTML5 Doctor: Element Index](http://html5doctor.com/element-index/)
 - [HTML Vocabulary](http://apps.workflower.fi/vocabs/html/en)
+- [About HTML semantics and front-end architecture](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)

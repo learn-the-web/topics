@@ -15,7 +15,7 @@ groups:
           - 'Examples: `.masthead`, `.nav`, `.contact`.'
       - name: '`#` — ID'
         details:
-          - 'Select an element that has the id.'
+          - 'Select an element that has the ID.'
           - 'Examples: `#heading-1`, `#facebook`, `#top`.'
       - name: '`Space` — Descendant'
         details:
@@ -36,8 +36,12 @@ groups:
       - name: '`[]` — Attribute'
         details:
           - 'Select an element by it’s attribute.'
-          - 'Good for styling links different if they’re external.'
+          - 'Good for styling links differently if they’re external.'
           - 'Examples: `[data-state="active"]`, `[href^="http"]`, `[download]`.'
+
+
+  - title: 'Pseudo classes'
+    items:
       - name: '`:first-child`'
         details:
           - 'Select the element when it’s the first inside its parent.'
@@ -49,7 +53,7 @@ groups:
       - name: '`:nth-child()`'
         details:
           - 'Select an element by it’s number.'
-          - 'Good for zebra striping table rows.'
+          - 'Good for zebra-striping table rows.'
           - 'Examples: `li:nth-child(2)`, `tr:nth-child(odd)`, `div:nth-child(5n)`.'
       - name: '`:first-line`'
         details:

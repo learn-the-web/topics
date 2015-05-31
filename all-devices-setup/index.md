@@ -7,11 +7,17 @@ github: https://github.com/acgd-learn-the-web/all-devices-setup-code
 
 Since we are making websites designed for all devices, we want to setup our HTML and CSS to show it.
 
-There are a couple `<meta>` tags and a little bit of CSS to make all devices recognize your website supports the device, whatever it is.
+The Open Web is about inclusion: about making our websites work for anybody in the world. There are just a couple `<meta>` tags and a little bit of CSS to make all devices recognize that our website supports any device.
 
 ---
 
 ## HTML
+
+First, we need to set up our HTML so it works best in all devices.
+
+HTML is fully cross platform, most elements will work in all browsers, but they may not be displayed exactly the same.
+
+*And remember that if our CSS doesn’t load, our HTML is still fully functional, readable, and understandable.*
 
 ```html
 ⋮
@@ -25,15 +31,17 @@ There are a couple `<meta>` tags and a little bit of CSS to make all devices rec
 ⋮
 ```
 
-- **handheldfriendly** & **mobileoptimized** are for older devices
-  - The `240` states that our website is formatted for a minimum width of 240 pixels
+- **handheldfriendly** & **mobileoptimized** are for older devices.
+  - The `240` states that our website is formatted for a minimum width of 240 pixels.
 - **viewport** is for newer smartphones. There are three arguments to specify:
-  - `width=device-width`—our website is formatted for the prime width of the device
-  - `initial-scale=1`—our website shouldn’t be zoomed in or out by default
+  - `width=device-width`—our website is formatted for the width of the device.
+  - `initial-scale=1`—our website shouldn’t be zoomed in or out by default.
 
 ---
 
 ## CSS
+
+In our CSS we adjust a few more things to help us create cross-device websites a little more consistently and easily.
 
 ```css
 @-moz-viewport { width: device-width; scale: 1; }
@@ -58,14 +66,11 @@ html {
 ⋮
 ```
 
-The `@viewport` rule is a replacement for the viewport meta tag but is new and only supported by a few browsers.
-Since we’re future thinking designers we want to put it in.
-**It’s probably best to put this at the very top of your CSS file.**
+The `@viewport` rule is a replacement for the viewport meta tag but is new and only supported by a few browsers. Since we’re future thinking designers we want to put it in. **It’s probably best to put this at the very top of your CSS file.**
 
 The `box-sizing` section changes the box model in CSS so that padding is inside the width—for many people this newer box model is easier to understand and use.
 
-Since we are optimizing our sites for small screens, we want to stop small-screen browsers from inflating our font-size in an attempt to make our sites more readable.
-That’s what the `text-size-adjust` property does.
+Since we are optimizing our sites for small screens, we want to stop small-screen browsers from inflating our font-size in an attempt to make our sites more readable. That’s what the `text-size-adjust` property does.
 
 ---
 

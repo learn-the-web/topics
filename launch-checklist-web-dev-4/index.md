@@ -9,7 +9,7 @@ groups:
       - 'There’s no placeholder text or images on the website.'
       - 'Content has semantically appropriate elements.<br>[HTML semantics](/topics/html-semantics/)'
       - 'Footer includes copyright information, terms, privacy policy, cookie notice, etc.'
-      - 'All links work.<br>[W3C link checker](http://validator.w3.org/checklink)'
+      - 'All links work.<br>[W3C link checker](http://validator.w3.org/checklink), [Integrity](http://peacockmedia.co.uk/integrity/)'
       - 'All images display properly.'
 
   - title: 'Design'
@@ -32,12 +32,15 @@ groups:
   - title: 'Accessibility'
     full: accessibility-checklist
     items:
-      - 'Images have appropriate alt attributes.<br>[Alt attributes](/topics/images#alt-attributes)'
-      - 'Focus styles for keyboard users work.<br>[Focus styles](/topics/accessibility#focus-styles)'
-      - 'Correct elements have WAI-ARIA landmark roles.<br>[Landmark roles](/topics/accessibility#wai-aria-roles)'
-      - 'Properly implemented skip links.<br>[Skip links](/topics/accessibility#skip-links)'
-      - 'Colour contrast issues have been resolved.<br>[Color Oracle](http://colororacle.org/)'
-      - 'Conforms to WCAG 2 AA or higher.<br>[TotalValidator](http://www.totalvalidator.com/index.html)'
+      - 'Images have appropriate alt attributes.'
+      - 'Focus styles for keyboard users work.'
+      - 'Correct elements have WAI-ARIA landmark roles.'
+      - 'Properly implemented skip links.'
+      - 'Colour contrast issues have been resolved.'
+      - 'Conforms to WCAG 2 AA or higher.'
+      - 'Appropriate elements have ARIA attributes.'
+      - 'Has been tested with accessibility tools.'
+      - 'Tested with keyboard only.'
 
   - title: 'Code quality'
     items:
@@ -46,43 +49,52 @@ groups:
       - 'HTML is valid.<br>[W3C HTML Validator](http://validator.w3.org/)'
       - 'CSS is valid.<br>[W3C CSS Validator](http://jigsaw.w3.org/css-validator/), [CSS Lint](http://csslint.net/)'
       - 'Javascript has been validated.<br>[JS Hint](http://www.jshint.com/), [JS Lint](http://jslint.com/)'
+      - 'Validated for internationalization & world readiness.<br>[W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)'
       - 'Many and high quality commit messages.'
 
-  - title: 'Testing'
+  - title: 'Browser testing'
     full: browser-testing-checklist
     items:
       - 'All major touch points have been user tested.'
-      - 'Has been tested with accessibility tools.<br>[VoiceOver](/topics/accessibility#voice-over)'
-      - 'Tested in many browsers including IE, FF, Safari, Chrome & Opera.'
+      - 'Tested in many desktop browsers.'
+      - 'Tested on different devices including phones, tablets, laptops, desktops, and televisions.'
       - 'Tested on screen sizes ranging from 240 px to ~2500 px.'
-      - 'Tested on different devices including phones, tablets, laptops, desktops, and televisions.<br>[BrowserStack](http://www.browserstack.com/), [RemoteIE](https://remote.modern.ie/)'
+      - 'Tested in low-bandwidth situations.'
+      - 'Tested with common ad blockers.'
 
   - title: 'Details'
     items:
-      - 'Has a 404 page.<br>[404 pages](/topics/404-pages)'
-      - 'Has all the favicons.<br>[Favicons](/topics/images#favicons)'
-      - 'GitHub project has a complete Readme.'
-      - 'Print stylesheet is included.'
+      - 'Has a 404 page.<br>[404 pages](/topics/404-pages/)'
+      - 'Has all the favicons.<br>[Favicons](/topics/images/#favicons)'
+      - 'GitHub project has a complete Readme.<br>[Favicons](/topics/writing-a-readme/)'
+      - 'Print styles are included.<br>[Print styles](/topics/media-queries/#print-styles)'
 
   - title: 'Performance'
     full: advanced-performance-checklist
     items:
-      - 'All images have been properly sized, compressed, and smushed.<br>[Compressing & smushing images](/topics/images#speed-of-images)'
-      - 'Gets a high grade—or green light—in web performance tests.<br>[MobileOK](http://validator.w3.org/mobile/), [Google Page Speed](https://developers.google.com/speed/pagespeed/insights/), [YSlow](http://yslow.org/)'
+      - 'Conforms to your performance budget.'
+      - 'Code is organized for highest performance.'
+      - 'All images have been properly sized, compressed, and smushed.'
+      - 'Gets a high grade—or green light—in web performance tests.'
+      - 'Redundant HTML, CSS, & Javascript have been removed.'
+      - 'CSS & JS have been concatenated & minified.'
+      - 'Sends appropriate caching headers.'
+      - 'Resources sent in a compressed format.'
+      - 'Content served from a CDN.'
 
   - title: 'Search engine optimization'
     full: seo-checklist
     items:
-      - 'Has been honestly search engine optimized.<br>[Honest SEO](/topics/search-engine-optimization)'
-      - 'Every page has a unique, descriptive title.<br>[Title formula](/topics/search-engine-optimization#page-title-formula)'
-      - 'Every page has a unique meta description.<br>[Meta descriptions](/topics/search-engine-optimization#meta-descriptions)'
+      - 'Has been honestly search engine optimized.'
+      - 'Every page has a unique, descriptive title.'
+      - 'Every page has a unique meta description.'
       - 'Every page has an obvious goal.'
-      - 'Has appropriate enhanced semantics.<br>[Metadata](/topics/metadata-enhanced-semantics#structured-data), [Google Rich Snippets](http://www.google.com/webmasters/tools/richsnippets), [Schema.org](http://schema.org)'
-      - 'Has all the social media meta tags.<br>[Social media tags](/topics/metadata-enhanced-semantics#social-semantics)'
-      - 'Has a robots.txt and complete humans.txt.<br>[Robots.txt & humans.txt](/topics/search-engine-optimization#robots--humans)'
-      - 'Has a sitemap.xml file.<br>[Sitemap.xml](/topics/search-engine-optimization#sitemaps)'
-      - 'Registered in search engine tools.<br>[Google Webmaster Central](http://www.google.ca/webmasters/), [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster)'
-      - 'Analytics package is set up.<br>[Google Analytics](http://www.google.com/analytics/?gclid=COC2_qf08MECFePyMgodb10AAQ)'
-      - 'Uptime monitoring package set up.<br>[UptimeRobot](http://uptimerobot.com/), [Pingdom](https://www.pingdom.com/pricing/), [updown.io](https://updown.io/)'
+      - 'Has appropriate enhanced semantics.'
+      - 'Has all the social media meta tags.'
+      - 'Has a robots.txt and complete humans.txt.'
+      - 'Has a sitemap.xml file.'
+      - 'Registered in search engine tools.'
+      - 'Analytics package is set up.'
+      - 'Uptime monitoring package set up.'
 
 ---

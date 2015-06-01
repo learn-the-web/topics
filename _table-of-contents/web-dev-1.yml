@@ -80,8 +80,6 @@ validators:
 
 browser-testing:
   title: "Browser testing"
-  highlight: true
-  disabled: true
   tags: "mozilla firefox opera safari google chrome microsoft internet explorer ios safari android mini windows phone browser testing"
   desc: "Testing your website in the myriad of browsers that are connected to the web."
 
@@ -90,6 +88,7 @@ browser-testing-checklist:
   tags: "browser testing checklist"
   desc: "A checklist covering what to look for and how to test in other browsers."
   indent: 1
+  highlight: true
   checklist: true
 
 box-model:

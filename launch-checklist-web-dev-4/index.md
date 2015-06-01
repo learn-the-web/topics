@@ -58,7 +58,7 @@ groups:
       - 'All user interactions have been user tested.'
       - 'Tested in many desktop browsers.'
       - 'Tested on different devices including phones, tablets, laptops, desktops, and televisions.'
-      - 'Tested on screen sizes ranging from 240 px to ~2500 px.'
+      - 'Tested on screen sizes ranging from 240px to ~2500px.'
       - 'Tested in low-bandwidth situations.'
       - 'Tested with common ad blockers.'
 

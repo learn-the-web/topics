@@ -18,7 +18,7 @@ The rendering engine is a big program that takes all the website’s code and tu
 
 ### Browser interfaces
 
-There are countless browser interfaces, some shared between other browsers.
+There are countless browser interfaces, some shared between other browsers. Some of them are <dfn><abbr>OSS</abbr> (Open Source Software)</dfn> and some of them are closed-source. Here’s a few popular ones:
 
 - **Chromium** — Chrome (big & small), Opera (big & small).
 - **Firefox** — big screen & small screen versions.
@@ -52,7 +52,7 @@ Many companies follow the rule above, including Google, GitHub and more. The ide
 
 ### Evergreen browsers
 
-Many browsers have become “evergreen” browsers (Chrome, Firefox, Opera, Edge), meaning they update themselves automatically. So it’s less necessary to test their older versions because most people have the newest versions because it was automatically updated.
+Many browsers have become “evergreen” browsers (Chrome, Firefox, Opera, Edge), meaning they update themselves automatically. So it’s less necessary to test their older versions since most people have the newest versions because of automatic updating.
 
 ### Big-screen browsers
 
@@ -115,26 +115,28 @@ After signing up for an account you have access to hundreds of devices and brows
 
 There are lots of screenshot services available too, **[BrowserStack has a great screenshot service](https://www.browserstack.com/screenshots)**.
 
-The screen shot services allow you to take an image of your website on the browser to check the look of layout, but you can’t interact with the website in any way. But they’re good for layout checks.
+The screen shot services allow you to take an image of your website on a specific browser to check the look of layout, but you can’t interact with the website in any way. They’re only good for visual layout checks.
 
 ### Testing Internet Explorer on Mac
 
 If you’re on a Mac, testing Internet Explorer isn’t the easiest because it doesn’t run on Mac. But thankfully Microsoft amazingly gives away [free copies of Windows and IE for testing](http://modern.ie/).
 
-Microsoft even provides a screenshot service and a quick browser validation scan for your site.
+Microsoft even provides a [screenshot service](http://dev.modern.ie/tools/screenshots/) and a quick [browser validation scan](http://dev.modern.ie/tools/staticscan/).
 
 *If you are on Windows and want to test Safari, well Apple isn’t as nice as Microsoft.*
 
 There are two ways to test IE on your Mac:
 
 1. [Use Remote IE and test on the Azure Cloud](https://remote.modern.ie/) — not as reliable, but quick to set up.
-2. Use [Virtual Machines](http://dev.modern.ie/tools/vms/) — most reliable, but huge size.
+2. [Use Virtual Machines](http://dev.modern.ie/tools/vms/) — most reliable, but huge download size.
 
 #### IE virtual machines
 
+Virtual machines are a way to emulate a completely other computer on yours. So you can run Windows or Linux in a screen on your Mac.
+
 Setting up the virtual machines is a little bit of a process, takes lots of hard drive space, and some patience.
 
-1. Download & install virtualization software, like [VirtualBox](https://www.virtualbox.org/).
+1. Download & install virtualization software, like open source [VirtualBox](https://www.virtualbox.org/).
 2. Download the VM that matches *your* operating system and virtualizer from [Microsoft’s download page](http://dev.modern.ie/tools/vms/).
   *You’ll have to download a different VM for every version of IE you want to test.*
 3. Install the VM onto your computer, which puts a whole copy of Windows on your computer to test IE in—and takes up lots of hard drive space.
@@ -143,7 +145,7 @@ Setting up the virtual machines is a little bit of a process, takes lots of hard
 
 ### Open device labs
 
-Your community may be an open device lab, where there’s just a bunch of computers and devices that are available for you to walk in and test your websites on.
+Your community may have an open device lab, where there’s just a bunch of computers and devices that are available for you to walk in and test your websites on.
 
 **Links**
 
@@ -161,7 +163,7 @@ When testing our websites in browsers we’re looking for any major inconsistenc
 
 **It is never our goal to make the designs pixel perfect if every browser—that’s impossible.**
 
-We want to make sure that our users can all access the same information, but not necessarily have that information look or function exactly the same.
+We want to make sure that our users can access all the same information, but not necessarily have that information look or function exactly the same.
 
 ### Some things to look for:
 
@@ -176,6 +178,8 @@ We want to make sure that our users can all access the same information, but not
 - Does it work when the font size is increased? Decreased?
 - Does it work on different operating systems? In different browsers?
 
+**[☛ Check out the browser testing checklist](/topics/browser-testing-checklist/)**
+
 **Links**
 
 - **[Do websites need to look exactly the same in every browser?](http://dowebsitesneedtolookexactlythesameineverybrowser.com/)**
@@ -186,7 +190,7 @@ We want to make sure that our users can all access the same information, but not
 
 It’s hard to tell what features are supported by what browsers, but there a few really good resources:
 
-- **[Can I Use](http://caniuse.com/)** — a huge library of features and what browser supports those features.
+- **[Can I Use](http://caniuse.com/)** — a huge library of features and what browsers support those features.
 - [Mozilla Developer Documentation](https://developer.mozilla.org/) — at the bottom of every element, property, function, etc. is a table of browser support.
 
 Some browser vendors even have platform feature lists, here’s a few of those:
@@ -197,23 +201,24 @@ Some browser vendors even have platform feature lists, here’s a few of those:
 
 ### Targeting specific browsers
 
-Sometimes—though it should be avoided as much as possible—you have to write different code to work around bugs in a specific browser that doesn’t happen in another browser.
+Sometimes—though it should be avoided as much as possible—you have to write different code to work around bugs in a specific browser.
 
 First always try to work around it so that it works in all browsers before writing browser specific code. *Try to avoid detecting the browser directly, instead try to detect the feature of bug.*
 
 #### Vendor prefixes
 
-Some CSS properties have to be written multiple times to support all browsers. Browsers sometimes implement the feature in a beta version before they release it to the general public.
-
-One way they do this is be adding a prefix onto the CSS property so it only works in their browser.
+Some CSS properties have to be written multiple times to support all browsers. Browsers sometimes implement the feature in a beta version before they release it to the general public. One way they do this is be adding a prefix onto the CSS property so it only works in their browser.
 
 Here are the common prefixes you’ll run into:
 
 - `-webkit-` — Webkit, Blink rendering engines.
 - `-moz-` — Gecko (Mozilla) rendering engines.
 - `-ms-` — Trident (Microsoft) rendering engine.
+  *Won’t exist in Microsoft Edge.*
 - `-o-` — Presto (Opera) rendering engine.
   *Only applies to Opera Mini.*
+
+**When writing vendor prefixes it’s extremely important to put the property without the vendor prefix last.** Because the non-vendor prefixed version is the one released to the public, not the beta testing version. If you put the vendor prefixed version last then the browser will use an older, buggy version of its code.
 
 ##### Vendor prefix examples
 
@@ -221,7 +226,7 @@ Here’s a couple examples of what vendor prefixes might look like:
 
 ```css
 div {
-  -webkit-transform: rotate(45deg); /* Safari still needs the prefix */
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -241,7 +246,7 @@ An alternative, better solution, is to use a build tool like [AutoPrefixer](http
 
 #### Browser hacks
 
-Many browsers have bugs, or singular features that we can use to exploit their rendering engines and provide CSS of Javascript directly to that browser—know as hacks.
+Many browsers have bugs, or singular features that we can use to exploit their rendering engines and provide CSS or Javascript directly to that browser—known as browser hacks.
 
 *Hacks should be avoided unless completely necessary.*
 

@@ -16,6 +16,8 @@ The interface is the piece that you interact with: the URL bar, the back button,
 
 The rendering engine is a big program that takes all the website’s code and turns it into the thing you can see and use.
 
+**[☛ Learn more about browsers](/topics/web-browsers/)**
+
 ### Browser interfaces
 
 There are countless browser interfaces, some shared between other browsers. Some of them are <dfn><abbr>OSS</abbr> (Open Source Software)</dfn> and some of them are closed-source. Here’s a few popular ones:

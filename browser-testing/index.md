@@ -99,7 +99,7 @@ There’s two really popular proxy browsers in the world:
 
 ---
 
-## Testing older versions of websites
+## Testing older versions of browsers
 
 Chances are you have the most up-to-date version of the browser on your computer. So, testing in older versions becomes a little more complicated.
 

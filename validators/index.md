@@ -68,7 +68,7 @@ Sometimes you can’t quite see the green. Don’t worry, but try to solve as ma
 
 ---
 
-## CSS tools
+## CSS linting & stats
 
 *[Tutorial pending…]*
 
@@ -92,9 +92,9 @@ Sometimes you can’t quite see the green. Don’t worry, but try to solve as ma
 
 ## Video list
 
-1. [Validation: debugging HTML and CSS](https://www.youtube.com/watch?v=79qAXqE3Qz8&index=2&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM)
-2. [CSS tools](https://www.youtube.com/watch?v=LN5P4SrRgeE&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=3)
-3. [Javascript validation](https://www.youtube.com/watch?v=4vXx5gClY6c&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=4)
+1. [Validation: HTML and CSS](https://www.youtube.com/watch?v=79qAXqE3Qz8&index=1&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM)
+2. [Validation: CSS linting & stats](https://www.youtube.com/watch?v=LN5P4SrRgeE&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=2)
+3. [Validation: Javascript](https://www.youtube.com/watch?v=4vXx5gClY6c&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=3)
 
 ## Supplemental links
 

@@ -9,11 +9,12 @@ groups:
       - 'Tested on all screen heights in all browsers.'
       - 'Portrait orientation tested.'
       - 'Landscape orientation tested.'
+      - 'Full screen browsers tested.'
 
   - title: 'Functionality'
     items:
       - 'All user interactions have been user tested.'
-      - 'Tested with a range of default font sizes: 2 bigger, 2 smaller.'
+      - 'Tested with a range of default font sizes:<br>2 bigger, 2 smaller.'
       - 'Tested with images disabled.'
       - 'Tested with CSS disabled.'
       - 'Standard resolution monitors tested.'
@@ -43,8 +44,6 @@ groups:
       - 'Internet Explorer, *10*.'
       - 'Safari, *8*.'
       - 'Safari, *7*.'
-      - 'Firefox, on *Linux*.'
-      - 'Chrome, on *Linux*.'
 
   - title: 'Mobile browsers'
     note: 'Current version & 1 version back.'

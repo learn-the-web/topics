@@ -1,6 +1,6 @@
 ---
 group: web-dev-1
-playlist: PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM
+playlist: PLWjCJDeWfDdenz3Q3vHl6n1b9sXyiBDpl
 ---
 
 All modern browser include large suite of tools to help you debug and understand the website you’re creating.
@@ -125,7 +125,7 @@ The **Resources** tab is helpful because it gives you more details about each of
 
 ## Video list
 
-1. [Developer tools](https://www.youtube.com/watch?v=09XV2psDAZ4&index=1&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM)
+1. [Tools: Browser developer tools](https://www.youtube.com/watch?v=09XV2psDAZ4&list=PLWjCJDeWfDdenz3Q3vHl6n1b9sXyiBDpl&index=1)
 
 ## Supplemental links
 

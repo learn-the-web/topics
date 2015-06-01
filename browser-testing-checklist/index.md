@@ -13,13 +13,25 @@ groups:
   - title: 'Functionality'
     items:
       - 'All user interactions have been user tested.'
-      - 'Tested with a range of default font sizes; 2 up, 2 down.'
+      - 'Tested with a range of default font sizes: 2 bigger, 2 smaller.'
       - 'Tested with images disabled.'
       - 'Tested with CSS disabled.'
       - 'Standard resolution monitors tested.'
       - 'Retina resolution monitors tested.'
       - 'Tested in low-bandwidth situations.'
       - 'Tested with common ad blockers.'
+
+  - title: 'Operating systems'
+    note: 'Test browsers in all OSes.'
+    items:
+      - 'Windows'
+      - 'Mac OS X'
+      - 'Linux'
+      - 'Android OS'
+      - 'iOS'
+      - 'Windows Phone'
+      - 'Blackberry OS'
+      - 'Symbian OS'
 
   - title: 'Desktop browsers'
     note: 'Current version & 1 version back.'
@@ -46,6 +58,8 @@ groups:
       - 'Windows Phone IE, *7*.'
       - 'Firefox Mobile, *current version*.'
       - 'Opera Mobile, *current version*.'
+      - 'Blackberry browser'
+      - 'Symbian browser'
 
   - title: 'Alternative browsers'
     items:

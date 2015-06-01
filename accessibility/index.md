@@ -5,15 +5,23 @@ download: https://github.com/acgd-learn-the-web/accessibility-code/archive/maste
 github: https://github.com/acgd-learn-the-web/accessibility-code
 ---
 
-Making websites work better for every human being.
+The Open Web is an amazingly empowering platform for every human being. It’s our job as web developers to make it work for everyone.
+
+---
+
+## It’s about everyone
+
+**Accessibility is about every human—not just extreme cases.** Sometimes it’s easier to think in terms of extremes because it gives us a goal, but making our website work better for extremes also makes it work better for everybody else.
+
+The great thing about the web and computers is that they empower everybody. *It’s our goal to help every human accomplish what they want on our website, regardless of their physical, mental, or technological capabilities.*
 
 ---
 
 ## Impairments
 
-There are lots of different impairments that can affect human beings—but the great thing about the web and computers is that they’re empowering to everybody. *It’s our job as designers to help people accomplish what they want.*
+Looking at specific impairments helps us narrow in on specific issues and fixing these issues helps our website work for everyone else.
 
-**One important thing to remember is that these impairments can be temporary—as an example: a broken arm.**
+There are lots of different impairments that can affect human beings. **But it’s important thing to remember is that these impairments can be temporary—as an example: a broken arm.**
 
 ### Visual
 

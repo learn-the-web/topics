@@ -89,7 +89,6 @@ brower-testing-checklist:
   title: "Browser testing checklist"
   tags: "browser testing checklist"
   desc: "A checklist covering what to look for and how to test in other browsers."
-  checklist: true
   disabled: true
   indent: 1
 

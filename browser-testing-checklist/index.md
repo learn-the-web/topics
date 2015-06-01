@@ -14,6 +14,7 @@ groups:
   - title: 'Functionality'
     items:
       - 'All user interactions have been user tested.'
+      - 'All different page layouts have been tested.'
       - 'Tested with a range of default font sizes:<br>2 bigger, 2 smaller.'
       - 'Tested with images disabled.'
       - 'Tested with CSS disabled.'

@@ -21,6 +21,7 @@ groups:
       - 'Responsiveness works well on all screen sizes: no weird spacing issues, no overlapping text, etc.'
       - 'Follows good typography and graphic design conventions.'
       - 'Has consistent graphic design style and vision.'
+      - 'All different page layouts have been tested.'
 
   - title: 'Accessibility'
     full: accessibility-checklist

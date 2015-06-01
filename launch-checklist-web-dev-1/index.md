@@ -20,6 +20,7 @@ groups:
       - 'Shared page elements don’t shift from page to page.'
       - 'Follows good typography and graphic design conventions.'
       - 'Has consistent graphic design style and vision.'
+      - 'All different page layouts have been tested.'
 
   - title: 'Code quality'
     items:

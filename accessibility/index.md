@@ -67,22 +67,26 @@ Generally considered something that affects a person’s brain, e.g. dyslexia, m
 
 ---
 
-## WAI-ARIA roles
+## WAI-ARIA roles & properties
 
-Adding ARIA roles to your website is a great way to provide navigational landmarks for people using accessibility tools like screen readers.
+The Accessible Rich Internet Application specification defines whole bunch of roles and attributes that can be assigned to HTML elements to help them be understood.
 
-With roles people using screen readers can jump directly to specific locations on the website.
+We may make tabs in HTML with lists and divs, and they may look like tabs, but to accessibility tools like screen readers they’re just lists and divs. ARIA allows us to turn them into functional and understandable tabs with a few extra properties & some Javascript.
+
+**[☛ Check out the tutorial on Javascript accessibility for more details.](/topics/javascript-accessibility/)**
 
 ### Landmark roles
 
+Adding ARIA landmark roles to your website is a great way to provide navigational landmarks for people using accessibility tools like screen readers. With roles people using screen readers can jump directly to specific locations on the website.
+
 The major landmark roles for websites are:
 
-- `banner` — for defining an element as the masthead, added to the primary `<header>`
-- `navigation` — for defining an element as the primary navigation, added the the top `<nav>`
-- `search` — for defining an element as being the search field, usually added to a `<form>`
-- `main` — for defining an element as being the main content of the page, same as the `<main>` element, and added to the `<main>`
-- `complementary` — for defining an element as being content related to the primary content, usually added to an `<aside>`
-- `contentinfo` — for defining an element as information about the content: e.g. copyright, terms, privacy policy
+- `banner` — for defining an element as the masthead, added to the primary `<header>`.
+- `navigation` — for defining an element as the primary navigation, added the the top `<nav>`.
+- `search` — for defining an element as being the search field, usually added to a `<form>`.
+- `main` — for defining an element as being the main content of the page, same as the `<main>` element, and added to the `<main>`.
+- `complementary` — for defining an element as being content related to the primary content, usually added to an `<aside>`.
+- `contentinfo` — for defining an element as information about the content: e.g. copyright, terms, privacy policy, usually added to a `<footer>`.
 
 Here’s an example of adding the landmark role to the masthead:
 
@@ -94,13 +98,18 @@ Here’s an example of adding the landmark role to the masthead:
 
 **Links**
 
+- [WAI-ARIA](http://www.w3.org/WAI/intro/aria)
 - [Using WAI-ARIA Landmarks](http://www.paciellogroup.com/blog/2013/02/using-wai-aria-landmarks-2013/)
 
 ---
 
-## Focus styles
+## Keyboard focus styles
 
-It’s important to not remove the keyboard focus rectangle from links, but it can be styled for better contrast or to match your website.
+Not everybody is capable of using a mouse, or even chooses not to use a mouse. But they still need to be able to navigate your website—and keep their position.
+
+Focus styles highlight the currently selected element on screen so it’s recognizable as keyboard focused control.
+
+*It’s important to not remove the keyboard focus rectangle from links, but it can be styled for better contrast or to match your website.*
 
 ```css
 a:focus {
@@ -147,12 +156,14 @@ There are a few things that you should check on every website—at least—to he
 
 *The tools are still no replacement for proper user and accessibility testing.*
 
-1. Bump the font-size up and down to make sure the layout doesn’t break: at least 2 sizes up and 2 sizes down
-2. Hide images and see what happens to the layout without them
-3. Disable the CSS to get an idea of what content is available to screen readers
-4. Check the website with [Color Oracle](http://colororacle.org/) to look for colour blindness related issues
-5. Run your website through one or all of the validators
-6. Check all the pages with a screen reader like [Voice Over](#voiceover)
+1. Bump the font-size up and down to make sure the layout doesn’t break: at least 2 sizes up and 2 sizes down; to make sure you site works with different default styles.
+2. Disabled images and see what happens to the layout without them.
+3. Disable the CSS to get an idea of what content is available to screen readers.
+4. Check the website with [Color Oracle](http://colororacle.org/) to look for colour blindness related issues.
+5. Run your website through one or all of the validators.
+6. Check all the pages with a screen reader like [Voice Over](#voiceover).
+
+**[☛ Review the accessibility checklist for more.](/topics/accessibility-checklist/)**
 
 **Tools**
 
@@ -170,6 +181,17 @@ There are a few things that you should check on every website—at least—to he
 ## Screen readers
 
 Screen readers are accessibility tools to help users with poor vision or complete blindness get the content of a website read out to them.
+
+They parse the content and understand the semantics and read the text out loud. The HTML semantics are interpreted and turned into understandable words.
+
+Many screen readers also present lots of features to help users move around the screen with their keyboard.
+
+Some popular screen readers:
+
+- [NVDA](http://www.nvaccess.org/)
+- [Jaws](http://www.freedomscientific.com/Products/Blindness/JAWS)
+- [ChromeVox](http://www.chromevox.com/)
+- [Voice Over](https://www.apple.com/accessibility/osx/voiceover/)
 
 ### Voice Over
 

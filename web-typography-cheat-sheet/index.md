@@ -56,71 +56,71 @@ groups:
       - name: '`color`'
         details:
           - 'The colour of the text.'
-          - 'Example: `color: red;`.'
+          - 'Example: `color: red;`'
           - '[☛ See CSS colour reference.](/topics/css-selectors-units-cheat-sheet/#colours)'
       - name: '`font-family`'
         details:
           - 'Change the typeface of the text.'
           - '*Always provide a fallback typeface.'
-          - 'Example: `font-family: "Open Sans", sans-serif;`.'
+          - 'Example: `font-family: "Open Sans", sans-serif;`'
           - '*Web safe fonts:* Georgia, Arial, Verdana, Times, Comic Sans, Courier.'
       - name: '`font-size`'
         details:
           - 'Change the size of the text.'
           - 'Prefer `rem` or `em` units.'
-          - 'Example: `font-size: 1.5rem;`.'
+          - 'Example: `font-size: 1.5rem;`'
       - name: '`font-weight`'
         details:
           - 'Change the thickness of the text.'
           - '`bold`, `normal`, number: `400`, `700`, etc.'
-          - 'Example: `font-weight: bold;`.'
+          - 'Example: `font-weight: bold;`'
       - name: '`font-style`'
         details:
           - 'Change the slanting of the text.'
           - '`italic`, `normal`'
-          - 'Example: `font-style: italic;`.'
+          - 'Example: `font-style: italic;`'
       - name: '`line-height`'
         details:
           - 'Adjust the space a line takes up, similar to leading.'
           - 'Set in a number, a multiplier of the font size.'
-          - 'Example: `line-height: 1.4;`.'
+          - 'Example: `line-height: 1.4;`'
       - name: '`text-align`'
         details:
           - 'Adjust the position of the text within its parent.'
-          - '`left`, `right`, `center`, `justify`.'
-          - 'Example: `text-align: center;`.'
+          - '`left`, `right`, `center`, `justify`'
+          - 'Example: `text-align: center;`'
       - name: '`text-decoration`'
         details:
           - 'Add or remove lines on the text.'
-          - '`none`, `underline`, `line-through`, `overline`.'
-          - 'Example: `text-decoration: underline;`.'
+          - '`none`, `underline`, `line-through`, `overline`'
+          - 'Example: `text-decoration: underline;`'
       - name: '`text-transform`'
         details:
           - 'Change the capitalization of the text.'
-          - '`uppercase`, `lowercase`, `capitalize`.'
-          - 'Example: `text-transform: uppercase;`.'
+          - '`uppercase`, `lowercase`, `capitalize`'
+          - 'Example: `text-transform: uppercase;`'
       - name: '`text-indent`'
         details:
           - 'Indent the first line of text.'
           - 'Set the number in ems.'
-          - 'Example: `text-indent: .8em;`.'
+          - 'Example: `text-indent: .8em;`'
       - name: '`text-shadow`'
         details:
           - 'Add a drop shadow to text.'
           - 'Needs four properties: *horizontal offset*, *vertical offset*, *blur radius*, *colour*.'
           - 'Use a comma after the colour to add more than one shadow.'
-          - 'Example: `text-shadow: 2px 2px 5px rgba(0,0,0,.5);`.'
+          - 'Example: `text-shadow: 2px 2px 5px rgba(0,0,0,.5);`'
       - name: '`text-overflow`'
         details:
           - 'Determine what happens to the text if it’s too wide for its box.'
           - 'Often requires `overflow: hidden;` to also be used.'
-          - '`ellipsis`, `clip`, custom: `"."`.'
-          - 'Example: `text-overflow: ellipsis;`.'
+          - '`ellipsis`, `clip`, custom: `"."`'
+          - 'Example: `text-overflow: ellipsis;`'
       - name: '`list-style-type`'
         details:
           - 'Control the style of bullets on a list.'
-          - '`none`, `circle`, `disc`, `square`, `decimal`, `lower-alpha`, `lower-roman`, `lower-greek`.'
-          - 'Example: `list-style-type: square;`.'
+          - '`none`, `circle`, `disc`, `square`, `decimal`, `lower-alpha`, `lower-roman`, `lower-greek`'
+          - 'Example: `list-style-type: square;`'
 
   - title: 'Experimental properties'
     note: 'These properties may not work in all browser and may have a major performance impact.'
@@ -159,70 +159,70 @@ groups:
       - name: '`“ ”`'
         details:
           - '*Double curly quote*.'
-          - '`“`— Mac:`⌥[`.'
-          - '`”`— Mac:`⌥⇧]`.'
+          - '`“`— Mac:`⌥[`'
+          - '`”`— Mac:`⌥⇧]`'
       - name: "`‘ ’`"
         details:
           - '*Single curly quote*, *apostrophe*.'
-          - '`‘`— Mac:`⌥]`.'
-          - '`’`— Mac:`⌥⇧]`.'
+          - '`‘`— Mac:`⌥]`'
+          - '`’`— Mac:`⌥⇧]`'
       - name: '`“ ”`'
         details:
           - '*Double guillemet*.'
-          - '`«`— Mac:`⌥\`.'
-          - '`»`— Mac:`⌥⇧\`.'
+          - '`«`— Mac:`⌥\`'
+          - '`»`— Mac:`⌥⇧\`'
       - name: "`‘ ’`"
         details:
           - '*Single guillemet*.'
-          - '`‹`— Mac:`⌥3`.'
-          - '`›`— Mac:`⌥⇧4`.'
+          - '`‹`— Mac:`⌥3`'
+          - '`›`— Mac:`⌥⇧4`'
       - name: '`–`'
         details:
           - '*En-dash*.'
-          - 'Mac:`⌥-`.'
+          - 'Mac:`⌥-`'
       - name: '`—`'
         details:
           - '*Em-dash*.'
-          - 'Mac:`⌥⇧-`.'
+          - 'Mac:`⌥⇧-`'
       - name: '`•`'
         details:
           - '*Bullet*.'
-          - 'Mac:`⌥8`.'
+          - 'Mac:`⌥8`'
       - name: '`·`'
         details:
           - '*Middle dot*.'
-          - 'Mac:`⌥⇧9`.'
+          - 'Mac:`⌥⇧9`'
       - name: '`°`'
         details:
           - '*Degree*.'
-          - 'Mac:`⌥⇧8`.'
+          - 'Mac:`⌥⇧8`'
       - name: '`…`'
         details:
           - '*Ellipsis*.'
-          - 'Mac:`⌥;`.'
+          - 'Mac:`⌥;`'
       - name: '`№`'
         details:
           - '*Numero*.'
-          - 'Mac:`⌥⇧;`.'
+          - 'Mac:`⌥⇧;`'
       - name: '`¶`'
         details:
           - '*Pilcrow*.'
-          - 'Mac:`⌥7;`.'
+          - 'Mac:`⌥7;`'
       - name: '`‡`'
         details:
           - '*Double dagger*.'
-          - 'Mac:`⌥⇧7;`.'
+          - 'Mac:`⌥⇧7;`'
       - name: '`¢`'
         details:
           - '*Cents*.'
-          - 'Mac:`⌥4`.'
+          - 'Mac:`⌥4`'
       - name: '`§`'
         details:
           - '*Section*.'
-          - 'Mac:`⌥5`.'
+          - 'Mac:`⌥5`'
       - name: '`©`'
         details:
           - '*Copyright*.'
-          - 'Mac:`⌥G`.'
+          - 'Mac:`⌥G`'
 
 ---

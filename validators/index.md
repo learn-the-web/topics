@@ -122,6 +122,7 @@ You can configure the linting, for instance to allow jQuery by pressing the “C
 
 - **[JS Hint](http://jshint.com/)**
 - [JS Lint](http://jslint.com/)
+- [A Comparison of JavaScript Linting Tools](http://www.sitepoint.com/comparison-javascript-linting-tools/)
 
 ---
 

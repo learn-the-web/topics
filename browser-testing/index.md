@@ -38,7 +38,7 @@ When it comes to rendering engines there’s a few big players that are shared b
 - **[Trident](https://en.wikipedia.org/wiki/Trident_%28layout_engine%29)** — closed source; used in Internet Explorer; to be replaced with [Edge](https://en.wikipedia.org/wiki/Microsoft_Edge).
 - **[Presto](https://en.wikipedia.org/wiki/Presto_%28layout_engine%29)** — closed source; Opera Mini, (used to power Opera too).
 
-![](browsers.png)
+![](browsers.svg)
 
 *Web browsers are a big—beautiful—mess of different forks, of shared engines, of shared interfaces. And let’s not get into all the different versions and variations.*
 

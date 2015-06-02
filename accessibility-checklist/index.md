@@ -39,7 +39,7 @@ groups:
       - 'Animations can be stopped.'
       - 'No presentational elements are read by accessibility tools.'
       - 'Timed functionality can be controlled.'
-      - 'Required form elements are denoted.'
+      - 'Required & optional form elements are denoted.'
 
   - title: 'Images & media'
     items:

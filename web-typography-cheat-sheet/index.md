@@ -8,6 +8,14 @@ groups:
       - name: '`1rem`, `100%`, `16px`'
         details:
           - '**Body copy** should *never* be smaller.'
+          - '`110%` for large screens.'
+          - '`120%` for extra large screens.'
+      - name: '`1.3` – `1.5`'
+        details:
+          - '**Body line-height** — looser on the web.'
+          - '`1.3` for small screens.'
+          - '`1.4` for medium screens.'
+          - '`1.5` for large screens.'
 
   - title: 'Units'
     items:
@@ -36,78 +44,78 @@ groups:
       - name: '`px`'
         details:
           - '*CSS pixels*—different sizes for every device.'
-          - '`16px` is exactly 100 pixels in all situations.'
+          - '`16px` is exactly 16 pixels in all situations.'
           - '**Avoid using pixels for font sizes unless absolutely necessary.**'
 
   - title: 'Keyboard shortcuts'
     items:
       - name: '`“ ”`'
         details:
-          - '**Double curly quote**.'
+          - '*Double curly quote*.'
           - '`“`— Mac:`⌥[`.'
           - '`”`— Mac:`⌥⇧]`.'
       - name: "`‘ ’`"
         details:
-          - '**Single curly quote**, **apostrophe**.'
+          - '*Single curly quote*, *apostrophe*.'
           - '`‘`— Mac:`⌥]`.'
           - '`’`— Mac:`⌥⇧]`.'
       - name: '`“ ”`'
         details:
-          - '**Double guillemet**.'
+          - '*Double guillemet*.'
           - '`«`— Mac:`⌥\`.'
           - '`»`— Mac:`⌥⇧\`.'
       - name: "`‘ ’`"
         details:
-          - '**Single guillemet**.'
+          - '*Single guillemet*.'
           - '`‹`— Mac:`⌥3`.'
           - '`›`— Mac:`⌥⇧4`.'
       - name: '`–`'
         details:
-          - '**En-dash**.'
+          - '*En-dash*.'
           - 'Mac:`⌥-`.'
       - name: '`—`'
         details:
-          - '**Em-dash**.'
+          - '*Em-dash*.'
           - 'Mac:`⌥⇧-`.'
       - name: '`•`'
         details:
-          - '**Bullet**.'
+          - '*Bullet*.'
           - 'Mac:`⌥8`.'
       - name: '`·`'
         details:
-          - '**Middle dot**.'
+          - '*Middle dot*.'
           - 'Mac:`⌥⇧9`.'
       - name: '`°`'
         details:
-          - '**Degree**.'
+          - '*Degree*.'
           - 'Mac:`⌥⇧8`.'
       - name: '`…`'
         details:
-          - '**Ellipsis**.'
+          - '*Ellipsis*.'
           - 'Mac:`⌥;`.'
       - name: '`№`'
         details:
-          - '**Numero**.'
+          - '*Numero*.'
           - 'Mac:`⌥⇧;`.'
       - name: '`¶`'
         details:
-          - '**Pilcrow**.'
+          - '*Pilcrow*.'
           - 'Mac:`⌥7;`.'
       - name: '`‡`'
         details:
-          - '**Double dagger**.'
+          - '*Double dagger*.'
           - 'Mac:`⌥⇧7;`.'
       - name: '`¢`'
         details:
-          - '**Cents**.'
+          - '*Cents*.'
           - 'Mac:`⌥4`.'
       - name: '`§`'
         details:
-          - '**Section**.'
+          - '*Section*.'
           - 'Mac:`⌥5`.'
       - name: '`©`'
         details:
-          - '**Copyright**.'
+          - '*Copyright*.'
           - 'Mac:`⌥G`.'
 
 ---

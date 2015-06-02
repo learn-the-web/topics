@@ -1,6 +1,6 @@
 ---
 layout: cheatsheet
-group: setup
+group: web-dev-1
 
 groups:
   - title: 'Metrics'

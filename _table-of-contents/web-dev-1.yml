@@ -64,7 +64,6 @@ web-typography-cheat-sheet:
   tags: "web css typography styling font family cheat sheet"
   desc: "A cheat sheet listing the important concepts, standards & CSS properties for web typography."
   cheatsheet: true
-  disabled: true
   indent: 1
 
 browser-developer-tools:

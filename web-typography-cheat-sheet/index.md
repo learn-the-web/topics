@@ -3,7 +3,7 @@ layout: cheatsheet
 group: setup
 
 groups:
-  - title: 'Sizes'
+  - title: 'Metrics'
     items:
       - name: '`1rem`, `100%`, `16px`'
         details:
@@ -16,6 +16,10 @@ groups:
           - '`1.3` for small screens.'
           - '`1.4` for medium screens.'
           - '`1.5` for large screens.'
+      - name: '`30em` – `40em`'
+        details:
+          - '**Body maximum line-length.**'
+          - 'Shorter on small screens is okay.'
 
   - title: 'Units'
     items:

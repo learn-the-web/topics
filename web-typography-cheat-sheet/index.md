@@ -107,14 +107,14 @@ groups:
           - '*Example:* `text-indent: .8em;`'
       - name: '`text-shadow`'
         details:
-          - 'Add a drop shadow to text.'
+          - 'Add a drop shadow to the text.'
           - 'Needs four properties: *horizontal offset*, *vertical offset*, *blur radius*, *colour*.'
           - 'Use a comma after the colour to add more than one shadow.'
           - '*Example:* `text-shadow: 2px 2px 5px rgba(0,0,0,.5);`'
       - name: '`text-overflow`'
         details:
           - 'Determine what happens to the text if it’s too wide for its box.'
-          - 'Often requires `overflow: hidden;` to also be used.'
+          - 'Often requires `overflow: hidden;` to be used.'
           - '`ellipsis`, `clip`, custom: `"."`'
           - '*Example:* `text-overflow: ellipsis;`'
       - name: '`list-style-type`'
@@ -164,6 +164,7 @@ groups:
           - '*Example:* `text-rendering: optimizeLegibility;`.'
 
   - title: 'Keyboard shortcuts'
+    note: 'Some of these keyboard shortcuts may required the U.S. Extended keyboard.'
     items:
       - name: '`“ ”`'
         details:

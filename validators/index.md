@@ -40,6 +40,10 @@ Sometimes you can’t quite achieve a green bar and that’s okay—but make sur
 - Ignore the two warnings: HTML conformance & UTF-8
 - Ignore the Google Font Error
 
+**Links**
+
+- **[HTML validator](http://validator.w3.org/)**
+
 ---
 
 ## Validating CSS
@@ -66,11 +70,27 @@ Sometimes you can’t quite see the green. Don’t worry, but try to solve as ma
 - The errors for `text-rendering`
 - Ignore anything with vendor prefixes, like `-webkit-`, `-moz-`, etc.
 
+**Links**
+
+- **[CSS validator](http://jigsaw.w3.org/css-validator/)**
+
 ---
 
 ## CSS linting & stats
 
-*[Tutorial pending…]*
+Beyond just validating our CSS we go a little further to find common issues and excess code.
+
+With **[CSS Lint](http://csslint.net/)**, we process our code looking for common problems: things that may cause browser inconsistencies, or things that may trip developers up.
+
+Using **[CSS Stats](http://cssstats.com/)** we can get a bunch of information including:
+
+- a list of all the colours we’re using,
+- a list of all the fonts we’re using,
+- how many font sizes we’re using,
+- how many rule sets there are,
+- etc.
+
+Then, armed with this information we can help make our CSS better by: combining similar colours, removing extra typefaces, reducing the number of font sizes used, and more.
 
 **Links**
 
@@ -81,7 +101,22 @@ Sometimes you can’t quite see the green. Don’t worry, but try to solve as ma
 
 ## Validating Javascript
 
-*[Tutorial pending…]*
+Validating Javascript, also called linting, allows us to find major bugs in our code, or things that often cause weirdness.
+
+There are two major linters: JS Hint & JS Lint:
+
+- **[JS Hint](http://jshint.com/)** — isn’t too strict and has lots of configurable options.
+- [JS Lint](http://jslint.com/) — is extremely strict, it will hurt your feelings.
+
+To use JS Hint, go to the website and select all the code on the left side. Paste your code in and it will automatically be validated. You can even make changes right then to pass the linting tests then copy and paste the code back into your website.
+
+![](jshint.jpg)
+
+You can configure the linting, for instance to allow jQuery by pressing the “Configure” button.
+
+![](jshint-config.jpg)
+
+*Consider doing this automatically with a build tool.*
 
 **Links**
 
@@ -95,8 +130,3 @@ Sometimes you can’t quite see the green. Don’t worry, but try to solve as ma
 1. [Validation: HTML and CSS](https://www.youtube.com/watch?v=79qAXqE3Qz8&index=1&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM)
 2. [Validation: CSS linting & stats](https://www.youtube.com/watch?v=LN5P4SrRgeE&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=2)
 3. [Validation: Javascript](https://www.youtube.com/watch?v=4vXx5gClY6c&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=3)
-
-## Supplemental links
-
-- **[HTML validator](http://validator.w3.org/)**
-- **[CSS validator](http://jigsaw.w3.org/css-validator/)**

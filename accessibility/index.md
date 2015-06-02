@@ -161,7 +161,7 @@ There are a few things that you should check on every website—at least—to he
 3. Disable the CSS to get an idea of what content is available to screen readers.
 4. Check the website with [Color Oracle](http://colororacle.org/) to look for colour blindness related issues.
 5. Run your website through one or all of the validators.
-6. Check all the pages with a screen reader like [Voice Over](#voiceover).
+6. Check all the pages with a screen reader like [VoiceOver](#voiceover).
 
 **[☛ Review the accessibility checklist for more.](/topics/accessibility-checklist/)**
 
@@ -191,11 +191,13 @@ Some popular screen readers:
 - [NVDA](http://www.nvaccess.org/)
 - [Jaws](http://www.freedomscientific.com/Products/Blindness/JAWS)
 - [ChromeVox](http://www.chromevox.com/)
-- [Voice Over](https://www.apple.com/accessibility/osx/voiceover/)
+- [VoiceOver](https://www.apple.com/accessibility/osx/voiceover/)
 
-### Voice Over
+### VoiceOver
 
-Here’s some shortcut keys for using Apple’s Voice Over:
+VoiceOver is the screen reader built into Apple’s operating systems, both desktop and mobile. It doesn’t require any installation, just needs to be turned on.
+
+Here’s some shortcut keys for using VoiceOver:
 
 - `Command + F5` — Turn VoiceOver on/off
 - `Control` — Pause VoiceOver
@@ -223,7 +225,7 @@ Here’s some shortcut keys for using Apple’s Voice Over:
 3. [Accessibility: skip links](https://www.youtube.com/watch?v=UnEItq289lU&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=3)
 4. [Accessibility: tools to help find issues](https://www.youtube.com/watch?v=xpqPctbDhnc&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=4)
 5. [Accessibility: validators](https://www.youtube.com/watch?v=FOVKDAt8-oI&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=5)
-6. [Accessibility: Voice Over](https://www.youtube.com/watch?v=G-EsQ_VHtVM&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=6)
+6. [Accessibility: VoiceOver](https://www.youtube.com/watch?v=G-EsQ_VHtVM&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=6)
 
 ## Supplemental links
 

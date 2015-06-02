@@ -255,4 +255,5 @@ There are lots of different services for Web Fonts—Google Fonts is a simple on
 ## Supplemental links
 
 - **[Five simple steps to better typography](http://www.markboulton.co.uk/journal/five-simple-steps-to-better-typography)**
+- **[The State of Web Type](http://stateofwebtype.com/)**
 - [CSS Typography: The Basics](http://sixrevisions.com/css/css-typography-01/)

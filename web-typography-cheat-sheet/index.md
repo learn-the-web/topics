@@ -7,7 +7,7 @@ groups:
     items:
       - name: '`1rem`, `100%`, `16px`'
         details:
-          - '**Body copy** should *never* be smaller.'
+          - '**Body copy size** — should *never* be smaller.'
           - '`110%` for large screens.'
           - '`120%` for extra large screens.'
       - name: '`1.3` – `1.5`'
@@ -50,6 +50,93 @@ groups:
           - '*CSS pixels*—different sizes for every device.'
           - '`16px` is exactly 16 pixels in all situations.'
           - '**Avoid using pixels for font sizes unless absolutely necessary.**'
+
+  - title: 'Properties'
+    items:
+      - name: '`color`'
+        details:
+          - ''
+          - ''
+      - name: '`font-family`'
+        details:
+          - ''
+          - ''
+      - name: '`font-size`'
+        details:
+          - ''
+          - ''
+      - name: '`font-weight`'
+        details:
+          - ''
+          - ''
+      - name: '`font-style`'
+        details:
+          - ''
+          - ''
+      - name: '`line-height`'
+        details:
+          - ''
+          - ''
+      - name: '`text-align`'
+        details:
+          - ''
+          - ''
+      - name: '`text-decoration`'
+        details:
+          - ''
+          - ''
+      - name: '`text-transform`'
+        details:
+          - ''
+          - ''
+      - name: '`text-indent`'
+        details:
+          - ''
+          - ''
+      - name: '`text-shadow`'
+        details:
+          - ''
+          - ''
+      - name: '`text-overflow`'
+        details:
+          - ''
+          - ''
+      - name: '`list-style-type`'
+        details:
+          - ''
+          - ''
+
+  - title: 'Experimental properties'
+    note: 'These properties may not work in all browser and may have a major performance impact.'
+    items:
+      - name: '`hyphens`'
+        details:
+          - ''
+          - ''
+      - name: '`font-kerning`'
+        details:
+          - ''
+          - ''
+      - name: '`font-variant-ligatures`'
+        details:
+          - ''
+          - ''
+      - name: '`font-variant-numeric`'
+        details:
+          - ''
+          - ''
+      - name: '`font-variant-caps`'
+        details:
+          - ''
+          - ''
+      - name: '`font-variant-alternates`'
+        details:
+          - ''
+          - ''
+      - name: '`text-rendering: optimizeLegibility`'
+        details:
+          - ''
+          - ''
 
   - title: 'Keyboard shortcuts'
     items:

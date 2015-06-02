@@ -129,7 +129,7 @@ groups:
           - '*Example:* `font: normal 100%/1.5 sans-serif;`'
 
   - title: 'Experimental properties'
-    note: 'These properties may not work in all browser and may have a major performance impact.'
+    note: 'These properties may not work in all browsers and may have a major performance impact.'
     items:
       - name: '`hyphens`'
         details:
@@ -164,7 +164,7 @@ groups:
           - '*Example:* `text-rendering: optimizeLegibility;`.'
 
   - title: 'Keyboard shortcuts'
-    note: 'Some of these keyboard shortcuts may required the U.S. Extended keyboard.'
+    note: 'Some of these keyboard shortcuts may require the U.S. Extended keyboard.'
     items:
       - name: '`“ ”`'
         details:

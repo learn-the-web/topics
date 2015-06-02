@@ -445,6 +445,48 @@ From a performance perspective this has caching issues because the SVG graphic m
 
 ---
 
+## Embedded SVG accessibility
+
+If you’re not embedding the SVG directly into your HTML then the standard accessibility rules apply.
+
+If you are embedding the SVG into your website we want to be able to provide a text alternative, like the `<img>` tag’s `alt` attribute.
+
+*If the purpose of your SVG is only the `<text>` inside it, like a fancy heading or something, then no need to go any further.*
+
+### Titles and descriptions
+
+Inside the SVG element, at the top, we can add two new elements to describe the contents of the image:
+
+- `<title>` — A short description of the image contents.
+- `<desc>` — A longer, in-depth explanation of the image contents.
+
+```xml
+<svg width="500" height="200" viewBox="0 0 500 200">
+  <title>Stegosaurus illustration</title>
+  <desc>A cute illustration of a stegosaurus cuddling a t-rex toy.</desc>
+
+  <!-- Rest of SVG goes here -->
+</svg>
+```
+
+Neither of these elements will be visible on screen, but will be used by accessibility tools, like screen readers, and presented to users.
+
+### Hiding it completely with ARIA
+
+If you are using the SVG `<text>` element inside your embedded SVG, but don’t want the text to be announced, because it’s purely decoration, add the `aria-hidden="true"` attribute to your SVG.
+
+```xml
+<svg aria-hidden="true" width="500" height="200" viewBox="0 0 500 200">
+  <text x="0" y="180">Splatter!</text>
+</svg>
+```
+
+**Links**
+
+- [Making SVG Accessible](http://demosthenes.info/blog/1026/Making-SVG-Accessible)
+
+---
+
 ## Video list
 
 1. [Advanced SVG: writing SVG code](https://www.youtube.com/watch?v=q_3Q9HHcXuA&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=1)
@@ -458,6 +500,7 @@ From a performance perspective this has caching issues because the SVG graphic m
 9. Advanced SVG: textures on text
 10. [Advanced SVG: icons](https://www.youtube.com/watch?v=EhNHe-f0LBI&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=5)
 11. [Advanced SVG: icon symbols](https://www.youtube.com/watch?v=BO13gECyiuE&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=6)
+12. Advanced SVG: accessibility
 
 ## Supplemental links
 

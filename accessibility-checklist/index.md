@@ -4,6 +4,7 @@ group: web-dev-2
 
 groups:
   - title: 'Content'
+    items:
       - 'Proper semantics are used for all content.<br>[HTML semantics](/topics/html-semantics/)'
       - 'Contents & HTML elements are in a logical order: most important at the top.'
       - 'Headings ordered properly.'
@@ -18,6 +19,7 @@ groups:
       - 'Language is defined on the HTML tag.'
 
   - title: 'Design'
+    items:
       - 'No primary text is smaller than 16px.'
       - 'Elements appear in the same location on every page visually and code-wise.'
       - 'Colour is not used as the sole method of conveying information.'
@@ -26,6 +28,7 @@ groups:
       - 'Website is readable and functional with in a range font sizes: 2 bigger, 2 smaller.'
 
   - title: 'Images & media'
+    items:
       - 'Images have appropriate alt attributes.<br>[Alt attributes](/topics/images#alt-attributes)'
       - 'SVGs have titles & descriptions.<br>[SVG accessibility](/topics/advanced-svg/#embedded-svg-accessibility)'
       - 'No audio or video plays automatically.'
@@ -33,6 +36,7 @@ groups:
       - 'Video files have captions or transcripts.'
 
   - title: 'Usability'
+    items:
       - 'The current page & location are highlighted.<br>[Highlighting the current page](/topics/navigation/#highlighting-the-current-page)'
       - 'Focus styles for keyboard users work.<br>[Focus styles](/topics/accessibility#focus-styles)'
       - 'Properly implemented skip links.<br>[Skip links](/topics/accessibility#skip-links)'
@@ -42,6 +46,7 @@ groups:
       - 'Timed functionality can be controlled.'
 
   - title: 'Testing'
+    items:
       - 'Conforms to WCAG 2 AA or higher.<br>[TotalValidator](http://www.totalvalidator.com/index.html)'
       - 'Has been tested with screen readers.<br>[VoiceOver](/topics/accessibility#voice-over)'
       - 'Tested with images disabled.'

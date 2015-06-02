@@ -122,6 +122,11 @@ groups:
           - 'Control the style of bullets on a list.'
           - '`none`, `circle`, `disc`, `square`, `decimal`, `lower-alpha`, `lower-roman`, `lower-greek`'
           - '*Example:* `list-style-type: square;`'
+      - name: '`font`'
+        details:
+          - 'Shorthand property for specifying lots of font details.'
+          - '*Syntax:* `font: [font-style] [font-variant] font-weight font-size/line-height font-family;`'
+          - '*Example:* `font: normal 100%/1.5 sans-serif;`'
 
   - title: 'Experimental properties'
     note: 'These properties may not work in all browser and may have a major performance impact.'

@@ -258,3 +258,4 @@ There are lots of different services for Web Fonts—Google Fonts is a simple on
 - **[The State of Web Type](http://stateofwebtype.com/)**
 - [CSS Typography: The Basics](http://sixrevisions.com/css/css-typography-01/)
 - [Common fonts to all versions of Windows & Mac equivalents](http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html)
+- [Text-rendering: optimizeLegibility is Decadent and Depraved](http://bocoup.com/weblog/text-rendering/)

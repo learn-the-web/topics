@@ -55,8 +55,9 @@ groups:
     items:
       - name: '`color`'
         details:
-          - ''
-          - ''
+          - 'The colour of the text.'
+          - 'Examples: `color: red;`, `color: #f33;`.'
+          - '[☛ See CSS colour reference.](/topics/css-selectors-units-cheat-sheet/#colours)'
       - name: '`font-family`'
         details:
           - ''
@@ -133,7 +134,7 @@ groups:
         details:
           - ''
           - ''
-      - name: '`text-rendering: optimizeLegibility`'
+      - name: '`text-rendering`'
         details:
           - ''
           - ''

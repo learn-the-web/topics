@@ -512,6 +512,7 @@ If you are using the SVG `<text>` element inside your embedded SVG, but don’t 
 - [The 4 Slice Scaling Technique for SVG](http://w3.eleqtriq.com/2014/02/the-4-slice-scaling-technique-for-svg/)
 - [CSS-Tricks: How SVG Fragment Identifiers Work](https://css-tricks.com/svg-fragment-identifiers-work/)
 - [Smashing Magazine: A Few Different Ways To Use SVG Sprites In Animation](http://www.smashingmagazine.com/2015/03/17/different-ways-to-use-svg-sprites-in-animation/)
+- [Smashing Magazine: The Art Of The SVG Filter And Why It Is Awesome](http://www.smashingmagazine.com/2015/05/26/why-the-svg-filter-is-awesome/)
 - [Masking SVG Animations](https://medium.com/@gordonnl/stylised-line-animations-ded23320ffe5)
 - [Building Better Interfaces with SVG](http://slides.com/sarasoueidan/building-better-interfaces-with-svg/)
 - [Circulus.SVG: The SVG Circular Menu Generator](http://sarasoueidan.com/tools/circulus/)

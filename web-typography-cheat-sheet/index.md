@@ -7,8 +7,37 @@ groups:
     items:
       - name: '`1rem`, `100%`, `16px`'
         details:
-          - 'Body copy should *never* be smaller.'
+          - '**Body copy** should *never* be smaller.'
 
+  - title: 'Units'
+    items:
+      - name: '`rem`'
+        details:
+          - 'Based on the font-size set in the `html` element.'
+          - '`1.5rem` is 1.5 × the `html` element’s font size.'
+      - name: '`em`'
+        details:
+          - 'Based on the font-size of the parent (or current element).'
+          - '`1em` is 1 × the parent element’s size.'
+          - '`0.5em` is 0.5 × the parent element’s size.'
+      - name: '`%`'
+        details:
+          - '*Percentage*'
+          - 'A percentage of the font-size of the parent element.'
+          - '`80%` is to 80% the size of the parent element.'
+      - name: '`vh`'
+        details:
+          - '*Viewport height*'
+          - 'Allows you to change the type size based on the height of the window.'
+      - name: '`vw`'
+        details:
+          - '*Viewport width*'
+          - 'Allows you to change the type size based on the width of the window.'
+      - name: '`px`'
+        details:
+          - '*CSS pixels*—different sizes for every device.'
+          - '`16px` is exactly 100 pixels in all situations.'
+          - '**Avoid using pixels for font sizes unless absolutely necessary.**'
 
   - title: 'Keyboard shortcuts'
     items:

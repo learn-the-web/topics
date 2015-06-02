@@ -51,6 +51,7 @@ groups:
 
   - title: 'Testing'
     items:
+      - 'Tested with many users of different needs.'
       - 'Conforms to WCAG 2 AA or higher.<br>[TotalValidator](http://www.totalvalidator.com/index.html)'
       - 'Has been tested with screen readers.<br>[VoiceOver](/topics/accessibility#voice-over)'
       - 'Tested with images disabled.'

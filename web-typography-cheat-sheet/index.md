@@ -61,9 +61,10 @@ groups:
       - name: '`font-family`'
         details:
           - 'Change the typeface of the text.'
+          - 'Put quotes around typefaces with spaces in their names.'
           - '*Always provide a fallback typeface.*'
-          - '*Example:* `font-family: "Open Sans", sans-serif;`'
           - '*Web safe fonts:* Georgia, Arial, Verdana, Times, Comic Sans, Courier.'
+          - '*Example:* `font-family: "Open Sans", sans-serif;`'
       - name: '`font-size`'
         details:
           - 'Change the size of the text.'
@@ -127,32 +128,35 @@ groups:
     items:
       - name: '`hyphens`'
         details:
-          - ''
-          - ''
+          - 'Control if the text will be hyphenated.'
+          - 'Usually requires `text-align: justify`.'
+          - '`none`, `auto`'
+          - '*Example:* `hyphens: auto;`.'
       - name: '`font-kerning`'
         details:
-          - ''
-          - ''
+          - 'Control a font’s built-in kerning metrics.'
+          - '`none`, `normal`, `auto`'
+          - '*Example:* `font-kerning: auto;`.'
       - name: '`font-variant-ligatures`'
         details:
-          - ''
-          - ''
+          - 'Control whether ligatures are used or not.'
+          - '`none`, `normal`, specific: `common-ligatures`, `contextual`, etc.'
+          - '*Example:* `font-variant-ligatures: normal;`.'
       - name: '`font-variant-numeric`'
         details:
-          - ''
-          - ''
+          - 'Enable/disabled alternative glyphs for numbers & fractions.'
+          - '`normal`, `ordinal`, `slashed-zero`, `oldstyle-nums`, `tabular-nums`, etc.'
+          - '*Example:* `font-variant-numeric: oldstyle-nums;`.'
       - name: '`font-variant-caps`'
         details:
-          - ''
-          - ''
-      - name: '`font-variant-alternates`'
-        details:
-          - ''
-          - ''
+          - 'Control whether small caps are used or not.'
+          - '`normal`, `small-caps`'
+          - '*Example:* `font-variant-caps: small-caps;`.'
       - name: '`text-rendering`'
         details:
-          - ''
-          - ''
+          - 'Controls a bunch of the `font-variant` properties automatically.'
+          - '**Has extreme performance issues.**'
+          - '*Example:* `text-rendering: optimizeLegibility;`.'
 
   - title: 'Keyboard shortcuts'
     items:

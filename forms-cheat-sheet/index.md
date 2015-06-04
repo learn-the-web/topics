@@ -11,7 +11,7 @@ groups:
           - '`action` points to where the data should be submitted.'
       - name: '`<fieldset>`'
         details:
-          - 'Used to group elements together, like radio button.'
+          - 'Used to group elements together, like radio buttons.'
           - '*Must always have a legend.*'
       - name: '`<legend>`'
         details:
@@ -41,11 +41,13 @@ groups:
       - name: '`<datalist id="…">`'
         details:
           - 'Creates a list of items for autocompletion.'
-          - 'Won’t be visible until the associated field is typed into.'
+          - 'Populate the choices with `<option>` tags.'
+          - '*Won’t be visible until the associated field is typed into.*'
       - name: '`<option>`'
         details:
           - 'Creates an entry inside `<select>` or `<datalist>`.'
-          - '*Attributes:* `checked`, ``'
+          - '*For datalist:* `<option value="Pteranodon">`'
+          - '*For select:* `<option>Triceratops</option>`'
       - name: '`<optgroup label="…">`'
         details:
           - 'Creates a group of options inside a `<select>`.'

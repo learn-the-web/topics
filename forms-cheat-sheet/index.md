@@ -38,7 +38,7 @@ groups:
           - 'Creates a drop-down choice input.'
           - 'Populate the choices with `<option>` tags.'
           - '*Must always have an `id` to associate a label.*'
-      - name: '`<datalist id="…">'
+      - name: '`<datalist id="…">`'
         details:
           - 'Creates a list of items for autocompletion.'
           - 'Won’t be visible until the associated field is typed into.'

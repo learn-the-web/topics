@@ -12,7 +12,7 @@ groups:
       - name: '`<tr>`'
         details:
           - 'Defines a row of cells in the table.'
-      - name: '`<th>`'
+      - name: '`<th scope="…">`'
         details:
           - 'Defines a heading cell to label a row or column.'
           - '`scope="row"` — for row labels.'

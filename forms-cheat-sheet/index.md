@@ -59,6 +59,7 @@ groups:
       - name: '`text` *default*'
         details:
           - 'Single line text field.'
+          - 'If you want, you can leave `type="text"` off the input.'
       - name: '`number`'
         details:
           - 'Accepts numbers; has a up/down switch.'
@@ -68,6 +69,7 @@ groups:
       - name: '`tel`'
         details:
           - 'For telephone numbers.'
+          - 'There is no restricted format to accommodate all different countries.'
       - name: '`url`'
         details:
           - 'Accepts a valid website URL.'
@@ -83,6 +85,7 @@ groups:
       - name: '`color`'
         details:
           - 'For picking a specific colour; shows a colour palette.'
+          - 'Outputs as a hex colour.'
       - name: '`range`'
         details:
           - 'For selecting from a range of numbers.'
@@ -138,7 +141,7 @@ groups:
           - '`verbatim`, `numeric`, etc.'
       - name: '`list="…"`'
         details:
-          - 'The `id` of an associated a `<datalist>`'
+          - 'The `id` of an associated `<datalist>`'
       - name: '`maxlength="…"`'
         details:
           - 'For setting a maximum number of characters.'

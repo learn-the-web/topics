@@ -12,11 +12,11 @@ groups:
       - name: '`<fieldset>`'
         details:
           - 'Used to group elements together, like radio button groups.'
-          - 'Must always have a legend.'
+          - '*Must always have a legend.*'
       - name: '`<legend>`'
         details:
           - 'Adds a title to the fieldset.'
-          - 'Must be inside a fieldset.'
+          - '*Must be inside a fieldset.*'
       - name: '`<button type="submit">`'
         details:
           - 'Every form needs a button.'
@@ -27,22 +27,29 @@ groups:
       - name: '`<input id="…" type="…">`'
         details:
           - 'Adds an input field of varying [types](#input-types).'
-          - 'Must always have an `id` to associate a label.'
+          - '*Must always have an `id` to associate a label.*'
           - 'The `type=""` attribute defaults to `text`.'
       - name: '`<textarea id="…">`'
         details:
           - 'Adds a large, multi-line text field.'
-          - 'Must always have an `id` to associate a label.'
+          - '*Must always have an `id` to associate a label.*'
       - name: '`<select id="…">`'
         details:
           - 'Creates a drop-down choice input.'
           - 'Populate the choices with `<option>` tags.'
-          - 'Must always have an `id` to associate a label.'
+          - '*Must always have an `id` to associate a label.*'
+      - name: '`<datalist id="…">'
+        details:
+          - 'Creates a list of items for autocompletion.'
+          - 'Won’t be visible until the associated field is typed into.'
       - name: '`<option>`'
         details:
-          - 'Creates an entry inside a select box.'
-          - 'Cannot be outside the `<select>` tag.'
+          - 'Creates an entry inside `<select>` or `<datalist>`.'
           - '*Attributes:* `checked`, ``'
+      - name: '`<optgroup label="…">`'
+        details:
+          - 'Creates a group of options inside a `<select>`.'
+          - '`label="…"` is used as a visible name for the group.'
 
   - title: 'Input types'
     items:

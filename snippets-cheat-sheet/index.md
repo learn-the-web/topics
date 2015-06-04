@@ -9,7 +9,7 @@ groups:
         details:
           - 'The HTML boilerplate code.'
           - |
-            ```
+            ```html
             <!DOCTYPE html>
             <html lang="en-ca">
             <head>
@@ -24,7 +24,7 @@ groups:
         details:
           - 'Creates a new CSS link tag.'
           - |
-            ```
+            ```html
             <link href=".css" rel="stylesheet">
             ```
 
@@ -32,7 +32,7 @@ groups:
         details:
           - 'Adds the responsive viewport tags.'
           - |
-            ```
+            ```html
             <meta name="viewport" content="width=device-width,initial-scale=1">
             ```
 
@@ -42,14 +42,14 @@ groups:
         details:
           - 'Outputs the CSS viewport declarations.'
           - |
-            ```
+            ```css
             @viewport { width: device-width; scale: 1; }
             ```
       - name: '`borderbox`'
         details:
           - 'Outputs the CSS border box declarations for changing the layout math.'
           - |
-            ```
+            ```css
             html {
               box-sizing: border-box;
             }
@@ -63,7 +63,7 @@ groups:
         details:
           - 'Outputs the text-size-adjust declarations to prevent mobile browsers from changing the font-size.'
           - |
-            ```
+            ```css
             text-size-adjust: 100%;
             ```
 

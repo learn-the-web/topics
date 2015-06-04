@@ -16,7 +16,7 @@ groups:
       - name: '*Example grid setup*'
         details:
           - |
-            ```
+            ```html
             <div class="grid">
               <div class="unit">…</div>
               <div class="unit">…</div>

@@ -3,6 +3,7 @@ group: web-dev-2
 playlist: PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY
 download: https://github.com/acgd-learn-the-web/forms-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/forms-code
+cheatsheet: forms-cheat-sheet
 ---
 
 Making forms in HTML isn’t too complex but without a backend server language like PHP or Python (or maybe a little Javascript) we can’t actually do anything with the form itself.

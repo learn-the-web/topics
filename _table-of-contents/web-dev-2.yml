@@ -100,7 +100,6 @@ forms-cheat-sheet:
   tags: "forms contact input text user cheat sheet"
   desc: "A cheat sheet explaining the tags and elements for creating HTML forms."
   cheatsheet: true
-  disabled: true
   indent: 1
 
 tables:

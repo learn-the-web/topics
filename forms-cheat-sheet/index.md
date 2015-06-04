@@ -11,7 +11,7 @@ groups:
           - '`action` points to where the data should be submitted.'
       - name: '`<fieldset>`'
         details:
-          - 'Used to group elements together, like radio button groups.'
+          - 'Used to group elements together, like radio button.'
           - '*Must always have a legend.*'
       - name: '`<legend>`'
         details:
@@ -28,7 +28,7 @@ groups:
         details:
           - 'Adds an input field of varying [types](#input-types).'
           - '*Must always have an `id` to associate a label.*'
-          - 'The `type=""` attribute defaults to `text`.'
+          - 'The `type="…"` attribute defaults to `text`.'
       - name: '`<textarea id="…">`'
         details:
           - 'Adds a large, multi-line text field.'
@@ -149,4 +149,43 @@ groups:
           - ''
           - ''
 
+  - title: 'Examples'
+    items:
+      - name: '*Simple form*'
+        details:
+          - |
+            ```
+            <form method="post" action="//formspree.io/dino@extinct.com">
+              <label for="email">Email address</label>
+              <input type="email" id="email" required>
+              <button type="submit">Sign up!</button>
+            </form>
+            ```
+      - name: '*Radio button group*'
+        details:
+          - |
+            ```
+            <fieldset>
+              <legend>Favourite dinosaur</legend>
+              <input type="radio" id="trex" name="dinos">
+              <label for="trex">T. rex</label>
+              <input type="radio" id="tri" name="dinos">
+              <label for="tri">Triceratops</label>
+              <input type="radio" id="stego" name="dinos">
+              <label for="stego">Stegosaurus</label>
+            </fieldset>
+            ```
+      - name: '*Autocomplete field*'
+        details:
+          - |
+            ```
+            <label for="province">Province</label>
+            <input id="province" list="province-list" required>
+            <datalist id="province-list">
+              <option value="Alberta">
+              <option value="Ontario">
+              <option value="Quebec">
+              <option value="Nova Scotia">
+            </datalist>
+            ```
 ---

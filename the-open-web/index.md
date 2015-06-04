@@ -66,7 +66,6 @@ scheme://hostname:port/path?query#fragment
 
 - [How many ways to slice a URL](http://tantek.com/2011/238/b1/many-ways-slice-url-name-pieces)
 - [URLs Matter](http://paulrobertlloyd.com/2009/12/urls_matter/)
-- [Do URLs Matter?](http://phpadvent.org/2009/do-urls-matter-by-david-sklar)
 - [URL Design](http://warpspire.com/posts/url-design/)
 
 ---
@@ -81,7 +80,6 @@ Every website relies on open source code, open technologies, and as web designer
 
 **Links**
 
-- [Understanding The Open Web Stack](http://www.softwarequalityconnection.com/2011/08/understanding-the-open-web-stack/)
 - [The Web Platform](http://platform.html5.org/)
 
 ---

@@ -43,7 +43,7 @@ groups:
 
   - title: 'Images & media'
     items:
-      - 'Images have appropriate alt attributes.<br>[Alt attributes](/topics/images#alt-attributes)'
+      - 'Images have appropriate alt attributes.<br>[Alt attributes](/topics/using-images/#alt-attributes)'
       - 'SVGs have titles & descriptions.<br>[SVG accessibility](/topics/advanced-svg/#embedded-svg-accessibility)'
       - 'No audio or video plays automatically.'
       - 'Audio files have written transcripts.'

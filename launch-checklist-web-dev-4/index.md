@@ -46,7 +46,7 @@ groups:
 
   - title: 'Code quality'
     items:
-      - 'All files follow naming conventions.<br>[Naming conventions](/topics/naming-conventions.md)'
+      - 'All files follow naming conventions.<br>[Naming conventions](/topics/naming-paths-cheat-sheet/)'
       - 'All code is indented appropriately.<br>[HTML indentation](/topics/html-indentation/), [CSS indentation](/topics/css-indentation)'
       - 'HTML is valid.<br>[W3C HTML Validator](http://validator.w3.org/)'
       - 'CSS is valid.<br>[W3C CSS Validator](http://jigsaw.w3.org/css-validator/), [CSS Lint](http://csslint.net/)'
@@ -66,8 +66,8 @@ groups:
   - title: 'Details'
     items:
       - 'Has a 404 page.<br>[404 pages](/topics/404-pages/)'
-      - 'Has all the favicons.<br>[Favicons](/topics/images/#favicons)'
-      - 'GitHub project has a complete Readme.<br>[Favicons](/topics/writing-a-readme/)'
+      - 'Has all the favicons.<br>[Favicons](/topics/image-formats/#favicons)'
+      - 'GitHub project has a complete Readme.<br>[Writing a readme](/topics/writing-a-readme/)'
       - 'Print styles are included.<br>[Print styles](/topics/media-queries/#print-styles)'
 
   - title: 'Performance'

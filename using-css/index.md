@@ -14,7 +14,7 @@ Covering creating Cascading Style Sheets, attaching them to your HTML, and basic
 
 A CSS file isn’t anything special, it’s just a basic plain-text file like HTML.
 
-In your code editor, just create a new file, and save it with the extension `.css`. Name the file whatever you want—following our [naming conventions](https://github.com/algonquindesign/resources/blob/master/naming-conventions.md).
+In your code editor, just create a new file, and save it with the extension `.css`. Name the file whatever you want—following our [naming conventions](/topics/naming-conventions/).
 
 *It’s always a good idea to put your CSS into a `css` folder, for better organization.*
 
@@ -159,7 +159,7 @@ If we want to be extremely specific about what element we select we can assign a
 </ol>
 ```
 
-We can add a new attribute to any HTML element we want, the `class` attribute, and completely make up a name—following our [naming conventions](https://github.com/algonquindesign/resources/blob/master/naming-conventions.md).
+We can add a new attribute to any HTML element we want, the `class` attribute, and completely make up a name—following our [naming conventions](/topics/naming-conventions/).
 
 Now that we have given the element a class, we can target that class directly in our CSS:
 

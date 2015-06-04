@@ -1,7 +1,7 @@
 ---
 group: web-dev-1
 playlist: PLWjCJDeWfDdcei65OaWx1yn6Oc8wIyyyz
-download: https://github.com/acgd-learn-the-web/small-screen-layout-code/archive/master.zip
+download: https://github.com/acgd-learn-the-web/small-screen-layout-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/small-screen-layout-code
 livewebsite: /small-screen-layout-code/
 ---

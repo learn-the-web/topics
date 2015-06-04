@@ -30,10 +30,6 @@ When writing HTML, the tags used to define the purpose of the text follow a spec
 - `close tag` — the part of an element that defines where this type of content ends
 - `attribute` — a piece of metadata that isn’t usually visible in the browser but defines extra information about the element
 
-*Links*
-
-- [Web terminology](https://github.com/algonquindesign/resources/blob/master/web-terminology.md)
-
 ## HTML document setup
 
 To create a valid HTML document we need to put some default code into the file.
@@ -236,7 +232,7 @@ Images need two attributes to specify extra details about the image: the locatio
 ```
 
 - `src` — is used to specify where to find the image
-- `alt` — is used to describe the image—[learn more about the alt attributes](images#alt-attributes)
+- `alt` — is used to describe the image—[learn more about the alt attributes](/topics/using-images/#alt-attributes)
 
 The attributes in HTML tags don’t have to be in a specific order. Reversing the order of the attributes makes no difference to the browser.
 

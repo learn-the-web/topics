@@ -8,7 +8,7 @@ By no way is this exhaustive—it’s just a quick sampling and is likely outdat
 
 ## Blogs
 
-Check out the tutorial on [Staying up to date](./staying-up-to-date.md) to see how to subscribe to these blogs and get an import file with a bunch more.
+Check out the tutorial on [Staying up to date](/topics/staying-up-to-date/) to see how to subscribe to these blogs and get an import file with a bunch more.
 
 - [A List Apart](http://www.alistapart.com/)
 - [Smashing Magazine](http://www.smashingmagazine.com)
@@ -60,7 +60,7 @@ Check out the tutorial on [Staying up to date](./staying-up-to-date.md) to see h
 [@ryancarson](https://twitter.com/ryancarson)
 - [Dan Cederholm](http://simplebits.com/)
 [@simplebits](https://twitter.com/simplebits)
-- [Frank Chimero](http://blog.frankchimero.com/)
+- [Frank Chimero](http://frankchimero.com/)
 [@fchimero](https://twitter.com/fchimero)
 - [Andy Clark](http://forabeautifulweb.com/)
 [@Malarkey](https://twitter.com/Malarkey)
@@ -74,7 +74,7 @@ Check out the tutorial on [Staying up to date](./staying-up-to-date.md) to see h
 [@leahculver](https://twitter.com/leahculver)
 - [Hannah Donovan](http://blog.hannahdonovan.com/)
 [@han](https://twitter.com/han)
-- [Derek Featherstone](http://furtherahead.com/)
+- [Derek Featherstone](http://simplyaccessible.com/)
 [@feather](https://twitter.com/feather)
 - [Meagan Fisher](http://owltastic.com/)
 [@owltastic](https://twitter.com/owltastic)
@@ -142,7 +142,7 @@ Check out the tutorial on [Staying up to date](./staying-up-to-date.md) to see h
 [@squaredeye](https://twitter.com/squaredeye)
 - [Jonathan Snook](http://snook.ca/)
 [@snookca](https://twitter.com/snookca)
-- [Sara Soueidan](Sara Soueidan)
+- [Sara Soueidan](http://sarasoueidan.com/)
 [@SaraSoueidan](https://twitter.com/SaraSoueidan)
 - [Jon Tan](http://jontangerine.com/)
 [@jontangerine](https://twitter.com/jontangerine)

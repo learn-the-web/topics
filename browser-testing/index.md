@@ -276,4 +276,4 @@ Now we can use the IE only CSS file for fixes specifically targeted at older ver
 ## Supplemental links
 
 - [Wikipedia: Comparison of web browsers](https://en.wikipedia.org/wiki/Comparison_of_web_browsers)
-- [Brad Frost: Accessibility and low-powered devices](bradfrost.com/blog/post/accessibility-and-low-powered-devices/)
+- [Brad Frost: Accessibility and low-powered devices](http://bradfrost.com/blog/post/accessibility-and-low-powered-devices/)

@@ -257,10 +257,10 @@ Here’s some shortcut keys for using VoiceOver:
 
 ### Videos
 
-- **[How A Blind Person Uses A Computer](http://www.youtube.com/watch?v=UzffnbBex6c)**
-- **[How Blind People Use Twitter & You Tube on the iPhone 4S](http://www.youtube.com/watch?v=c0nvdiRdehw)**
-- [iPhone, iPad and Apple VoiceOver](http://www.youtube.com/watch?v=QEDzitE2w_0)
-- [Christopher Hills: One Switch. One Head. The World.](http://www.youtube.com/watch?v=cSSgndQ5mVs)
+- **[How A Blind Person Uses A Computer](https://www.youtube.com/watch?v=UzffnbBex6c)**
+- **[How Blind People Use Twitter & You Tube on the iPhone 4S](https://www.youtube.com/watch?v=c0nvdiRdehw)**
+- [iPhone, iPad and Apple VoiceOver](https://www.youtube.com/watch?v=QEDzitE2w_0)
+- [Christopher Hills: One Switch. One Head. The World.](https://www.youtube.com/watch?v=cSSgndQ5mVs)
 - [No Hands Ken](https://www.youtube.com/watch?v=XrMivdZ-mbI)
 - [WebAxe: Accessibility Videos](http://www.webaxe.org/accessibility-videos/)
 - [Videos of Screen Readers Using ARIA](http://zomigi.com/blog/videos-of-screen-readers-using-aria/)

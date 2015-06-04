@@ -174,9 +174,9 @@ The `z-index` is a number, with no unit, that controls the layer. The higher the
 
 ## Video list
 
-1. [Position: introduction](http://www.youtube.com/watch?v=jVWnfwOZPDI&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=1)
-2. [Position: polariod](http://www.youtube.com/watch?v=kNJuF4aVHEA&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=2)
-3. [Posiiton: planet list](http://www.youtube.com/watch?v=LU3BkaRVf_8&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=3)
+1. [Position: introduction](https://www.youtube.com/watch?v=jVWnfwOZPDI&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=1)
+2. [Position: polariod](https://www.youtube.com/watch?v=kNJuF4aVHEA&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=2)
+3. [Posiiton: planet list](https://www.youtube.com/watch?v=LU3BkaRVf_8&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=3)
 4. [Position: layering with z-index](https://www.youtube.com/watch?v=6VK4KLW0gS8&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=4)
 5. [Position: hero banner](https://www.youtube.com/watch?v=3MpEnd_rRuY&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=5)
 6. [Position: position and float](https://www.youtube.com/watch?v=wydLbIagYsI&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=6)

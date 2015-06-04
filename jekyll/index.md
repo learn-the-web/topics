@@ -1,7 +1,7 @@
 ---
 group: web-dev-4
 playlist: PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-
-download: https://github.com/acgd-learn-the-web/jekyll-code/archive/master.zip
+download: https://github.com/acgd-learn-the-web/jekyll-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/jekyll-code
 livewebsite: /jekyll-code/
 ---
@@ -77,7 +77,7 @@ Control + C
 
 **Links**
 
-- **[Jekyll terminal cheat sheet](terminal-cheat-sheet)**
+- **[Jekyll terminal cheat sheet](/topics/jekyll-terminal-guide/)**
 - [Jekyll Docs: Quick-start guide](http://jekyllrb.com/docs/quickstart/)
 - [Jekyll Docs: Usage](http://jekyllrb.com/docs/usage/)
 
@@ -198,4 +198,4 @@ To display a list of posts in your website, you can use Jekyll’s loop:
 - [Jekyll Setting Up on GitHub Pages](http://jekyllrb.com/docs/github-pages/)
 - [Shopify: Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
 - [Shopify: Liquid Basics](http://docs.shopify.com/themes/liquid-basics)
-- [Jekyll by Example](http://www.andrewmunsell.com/tutorials/jekyll-by-example/index.html)
+- [Jekyll by Example](http://www.andrewmunsell.com/tutorials/jekyll-by-example/)

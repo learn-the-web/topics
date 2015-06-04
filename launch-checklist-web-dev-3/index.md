@@ -46,7 +46,7 @@ groups:
 
   - title: 'Code quality'
     items:
-      - 'All files follow naming conventions.<br>[Naming conventions](/topics/naming-conventions.md)'
+      - 'All files follow naming conventions.<br>[Naming conventions](/topics/naming-paths-cheat-sheet/)'
       - 'All code is indented appropriately.<br>[HTML indentation](/topics/html-indentation/), [CSS indentation](/topics/css-indentation)'
       - 'HTML is valid.<br>[W3C HTML Validator](http://validator.w3.org/)'
       - 'CSS is valid.<br>[W3C CSS Validator](http://jigsaw.w3.org/css-validator/), [CSS Lint](http://csslint.net/)'
@@ -65,7 +65,7 @@ groups:
 
   - title: 'Details'
     items:
-      - 'Has all the favicons.<br>[Favicons](/topics/images/#favicons)'
+      - 'Has all the favicons.<br>[Favicons](/topics/image-formats/#favicons)'
       - 'Print styles are included.<br>[Print styles](/topics/media-queries/#print-styles)'
 
   - title: 'Performance'

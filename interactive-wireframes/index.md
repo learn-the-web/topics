@@ -1,7 +1,7 @@
 ---
 group: web-dev-2
 playlist: PLWjCJDeWfDdeeD7gMjX8VTj-y6EFRMlkA
-download: https://github.com/acgd-learn-the-web/interactive-wireframes-code/archive/master.zip
+download: https://github.com/acgd-learn-the-web/interactive-wireframes-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/interactive-wireframes-code
 livewebsite: /interactive-wireframes-code/
 ---

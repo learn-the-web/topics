@@ -64,11 +64,11 @@ A proper code editor will provide a bunch of features to help you write and see 
 
 - **[Atom (by GitHub)](https://atom.io/)** (free)<br>
 	Simplest to get into, tightly integrated with GitHub, good community.<br>
-	**[☛ Atom setup guide](atom)**
+	**[☛ Atom setup guide](/topics/atom/)**
 
 - **[Sublime Text 3](http://www.sublimetext.com/)** (freemium)<br>
 	Most complex listed, requires a little setup, has greatest long term potential, huge community.<br>
-	**[☛ Sublime Text setup guide](sublime-text)**
+	**[☛ Sublime Text setup guide](/topics/sublime-text/)**
 
 - [Textmate 2](http://macromates.com/) (free, right now)<br>
 	Going through a revival, decent community, may have to eventually pay.

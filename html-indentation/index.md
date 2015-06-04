@@ -1,7 +1,7 @@
 ---
 group: web-dev-1
 playlist: PLWjCJDeWfDdey4UwR8TkNLt6VZ2hlWyo-
-download: https://github.com/acgd-learn-the-web/html-indentation/archive/master.zip
+download: https://github.com/acgd-learn-the-web/html-indentation-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/html-indentation-code
 ---
 

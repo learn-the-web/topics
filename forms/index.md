@@ -228,6 +228,6 @@ Most often the button’s type should be set to “submit”. But if you don’t
 
 ### Accessibility links
 
-- [Simply Accessible: Including error messages in labels](http://simplyaccessible.com/bpow/error-messages-in-labels/)
-- [Simply Accessible: Displaying multiple errors on a form](http://simplyaccessible.com/bpow/error-summary/)
-- [Simply Accessible: One error message does not fit all](http://simplyaccessible.com/bpow/error-message-content/)
+- [Simply Accessible: Including error messages in labels](http://simplyaccessible.com/article/error-messages-in-labels/)
+- [Simply Accessible: Displaying multiple errors on a form](http://simplyaccessible.com/article/error-summary/)
+- [Simply Accessible: One error message does not fit all](http://simplyaccessible.com/article/error-message-content/)

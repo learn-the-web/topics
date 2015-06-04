@@ -129,7 +129,7 @@ Now you have a litter of different files for different features you’ve tried o
 
 Git branching solves this problem by providing a clean way to make copies of your code to work on a specific feature.
 
-**[☛ Git Branching + GitHub Flow](branching-github-flow)**
+**[☛ Git Branching + GitHub Flow](/topics/branching-github-flow/)**
 
 ---
 
@@ -138,8 +138,8 @@ Git branching solves this problem by providing a clean way to make copies of you
 ### Videos
 
 - [Git + GitHub](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB)
-- [Replacing FTP with Git + GitHub](http://www.youtube.com/watch?v=24NGu1vGBiw)
-- [GitHub Guides](http://www.youtube.com/user/GitHubGuides)
+- [Replacing FTP with Git + GitHub](https://www.youtube.com/watch?v=24NGu1vGBiw)
+- [GitHub Guides](https://www.youtube.com/user/GitHubGuides)
 
 ### Version control
 

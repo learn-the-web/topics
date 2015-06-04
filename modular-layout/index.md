@@ -1,7 +1,7 @@
 ---
 group: web-dev-2
 playlist: PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany
-download: https://github.com/acgd-learn-the-web/modular-layout-code/archive/master.zip
+download: https://github.com/acgd-learn-the-web/modular-layout-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/modular-layout-code
 livewebsite: /modular-layout-code/
 ---

@@ -112,7 +112,6 @@ tables-cheat-sheet:
   tags: "table chart cells data cheat sheet"
   desc: "A cheat sheet explaining the tags and elements for creating HTML tables."
   cheatsheet: true
-  disabled: true
   indent: 1
 
 launch-checklist-web-dev-2:

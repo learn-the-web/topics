@@ -5,10 +5,10 @@ group: web-dev-2
 groups:
   - title: 'Tags'
     items:
-      - name: '`<form>`'
+      - name: '`<form method="post" action="…">`'
         details:
           - 'Tag that wraps around all the form elements.'
-          - '*Attributes:* `method="post"`, `action`'
+          - '`action` points to where the data should be submitted.'
       - name: '`<fieldset>`'
         details:
           - 'Used to group elements together, like radio button groups.'
@@ -17,25 +17,23 @@ groups:
         details:
           - 'Adds a title to the fieldset.'
           - 'Must be inside a fieldset.'
-      - name: '`<button>`'
+      - name: '`<button type="submit">`'
         details:
           - 'Every form needs a button.'
-          - 'Should always have the attribute `type="submit"`.'
-      - name: '`<label>`'
+      - name: '`<label for="…">`'
         details:
           - 'Adds a name to any field.'
           - '**Every field must have a label.**'
-          - '`for=""` attribute points to the `id` of the field.'
-      - name: '`<input>`'
+      - name: '`<input id="…" type="…">`'
         details:
           - 'Adds an input field of varying [types](#input-types).'
           - 'Must always have an `id` to associate a label.'
           - 'The `type=""` attribute defaults to `text`.'
-      - name: '`<textarea>`'
+      - name: '`<textarea id="…">`'
         details:
           - 'Adds a large, multi-line text field.'
           - 'Must always have an `id` to associate a label.'
-      - name: '`<select>`'
+      - name: '`<select id="…">`'
         details:
           - 'Creates a drop-down choice input.'
           - 'Populate the choices with `<option>` tags.'

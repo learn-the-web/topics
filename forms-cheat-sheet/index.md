@@ -73,7 +73,7 @@ groups:
           - 'Accepts a valid website URL.'
       - name: '`password`'
         details:
-          - 'For passwords; hides type characters.'
+          - 'For passwords; hides typed characters.'
       - name: '`time`'
         details:
           - 'For accepting time: hours, minutes, seconds.'
@@ -123,11 +123,11 @@ groups:
         details:
           - 'Adds a temporary, helpful hint into the field.'
           - '`<input type="email" placeholder="dino@extinct.com" id="email">`'
-          - '**Do not use this as a replacement for `<label>`'
-      - name: 'autocomplete="off"`'
+          - '**Do not use this as a replacement for `<label>`**'
+      - name: '`autocomplete="off"`'
         details:
           - 'Disable auto completion in the field.'
-      - name: 'autocapitalize="none"`'
+      - name: '`autocapitalize="none"`'
         details:
           - 'Disable auto capitalization in the field.'
           - '*Non-standard: only works in iOS.*'
@@ -152,11 +152,11 @@ groups:
           - '`<input type="range" max="100" id="dino">`'
       - name: '`step="…"`'
         details:
-          - 'Controls how the number can increment in `range` & `number`.'
+          - 'Controls how the number will increment in `range` & `number`.'
           - '`<input type="number" step="0.1" id="dino">`'
       - name: '`pattern="…"`'
         details:
-          - 'Allows a Javascript regular expression to control what is valid input.'
+          - 'A Javascript regular expression to control what is valid input.'
           - '`<input type="text" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" id="postal-code">`'
       - name: '`multiple`'
         details:

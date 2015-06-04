@@ -222,7 +222,7 @@ groups:
       - name: '*Simple form*'
         details:
           - |
-            ```
+            ```html
             <form method="post" action="//formspree.io/dino@extinct.com">
               <label for="email">Email address</label>
               <input type="email" id="email" required>
@@ -232,7 +232,7 @@ groups:
       - name: '*Radio button group*'
         details:
           - |
-            ```
+            ```html
             <fieldset>
               <legend>Favourite dinosaur</legend>
               <input type="radio" id="trex" name="dinos">
@@ -246,7 +246,7 @@ groups:
       - name: '*Autocomplete field*'
         details:
           - |
-            ```
+            ```html
             <label for="province">Province</label>
             <input id="province" list="province-list" required>
             <datalist id="province-list">

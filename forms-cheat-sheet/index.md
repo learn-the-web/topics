@@ -89,10 +89,11 @@ groups:
       - name: '`file`'
         details:
           - 'For choosing a file to upload.'
+          - 'Use `accept="…"` to limit filetypes.'
+          - '`<input type="file" accept=".jpg,.png,.gif" id="photo">`'
       - name: '`search`'
         details:
           - 'Specifies the input as a search field.'
-          - ''
       - name: '`checkbox`'
         details:
           - 'Turns the input into a check toggle.'
@@ -131,6 +132,10 @@ groups:
         details:
           - 'Disable auto capitalization in the field.'
           - '*Non-standard: only works in iOS.*'
+      - name: '`inputmode="…"`'
+        details:
+          - 'Hint the browser to display a specific keyboard.'
+          - '`verbatim`, `numeric`, etc.'
       - name: '`list="…"`'
         details:
           - 'The `id` of an associated a `<datalist>`'
@@ -162,6 +167,9 @@ groups:
         details:
           - 'For allowing multiple entries in the field.'
           - '*Works for:* `<select>`, `email`, `file`'
+      - name: '`spellcheck`'
+        details:
+          - 'Trigger the browser to perform spell checking in the field.'
       - name: '`readonly`'
         details:
           - 'Stops the user from modifying the value of the field.'
@@ -177,40 +185,37 @@ groups:
     items:
       - name: '`:focus`'
         details:
-          - ''
-          - ''
+          - 'Style an element when its keyboard focused.'
       - name: '`:optional`'
         details:
-          - ''
-          - ''
+          - 'Style an element when it doesn’t have the `required` attribute.'
       - name: '`:required`'
         details:
-          - ''
-          - ''
+          - 'Style an element when it does have the `required` attribute.'
       - name: '`:valid`'
         details:
-          - ''
-          - ''
+          - 'Style an element when its contents are a acceptable (email, url, pattern, etc.)'
       - name: '`:invalid`'
         details:
-          - ''
-          - ''
+          - 'Style an element when its contents are not acceptable.'
       - name: '`:checked`'
         details:
-          - ''
-          - ''
+          - 'Style a checkbox or radio button when it is selected.'
       - name: '`:disabled`'
         details:
-          - ''
-          - ''
+          - 'Style an input when it has the `disabled` attribute.'
       - name: '`:enabled`'
         details:
-          - ''
-          - ''
+          - 'Style an element when it doesn’t have the `disabled` attribute.'
       - name: '`:in-range`'
         details:
-          - ''
-          - ''
+          - 'Style a `number` or `range` when the selected value is within the `min` and `max`.'
+      - name: '`:out-of-range`'
+        details:
+          - 'Style a `number` or `range` when the selected value is outside the `min` and `max`.'
+      - name: '`:indeterminate`'
+        details:
+          - 'Style a checkbox when its set to an undetermined state by Javascript.'
 
   - title: 'Examples'
     items:

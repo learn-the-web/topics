@@ -53,6 +53,10 @@ groups:
         details:
           - 'Creates a group of options inside a `<select>`.'
           - '`label="…"` is used as a visible name for the group.'
+      - name: '`<output for="…">`'
+        details:
+          - 'Represents the result of a calculation performed by Javascript.'
+          - '`for="…"` is a space-separate list of input `id`s that contributed to the calculation.'
 
   - title: 'Input types'
     items:

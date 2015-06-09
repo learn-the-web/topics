@@ -40,6 +40,12 @@ staying-up-to-date:
   tags: "up to date feeds email newsletters blogs tutorials rss save for later bookmarks twitter"
   desc: "How to keep your knowledge current with feeds, newsletters, and blogs."
 
+style-guides:
+  title: "Style guides"
+  disabled: true
+  tags: "css style guides templates themes tiles components modules systems mood boards"
+  desc: "A quick tutorial on making style guides & systems for websites with a bunch of helpful links."
+
 security:
   title: "Security"
   disabled: true

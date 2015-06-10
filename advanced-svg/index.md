@@ -23,7 +23,7 @@ Inside the code file, write this:
 
 ```xml
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<!-- Write all the SVG code in here -->
+  <!-- Write all the SVG code in here -->
 </svg>
 ```
 
@@ -31,7 +31,7 @@ It’s also good for browser compatibility to add these attributes: `width`, `he
 
 ```xml
 <svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<!-- Write all the SVG code in here -->
+  <!-- Write all the SVG code in here -->
 </svg>
 ```
 
@@ -41,7 +41,7 @@ Here’s a **rectangle**:
 
 ```xml
 <svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect x="10" y="10" width="75" height="50" />
+  <rect x="10" y="10" width="75" height="50" />
 </svg>
 ```
 
@@ -49,7 +49,7 @@ Add rounded corners with `rx` & `ry`:
 
 ```xml
 <svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<rect x="10" y="10" width="75" height="50" rx="8" ry="8" />
+  <rect x="10" y="10" width="75" height="50" rx="8" ry="8" />
 </svg>
 ```
 
@@ -57,7 +57,7 @@ Here’s a **circle**:
 
 ```xml
 <svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<circle cx="175" cy="75" r="75" />
+  <circle cx="175" cy="75" r="75" />
 </svg>
 ```
 
@@ -69,12 +69,12 @@ We can use CSS in our SVG, but the [properties are just a little different](http
 
 ```xml
 <svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<style>
-		rect {
-			fill: #f33;
-		}
-	</style>
-	<rect x="10" y="10" width="75" height="50" />
+  <style>
+    rect {
+      fill: #f33;
+    }
+  </style>
+  <rect x="10" y="10" width="75" height="50" />
 </svg>
 ```
 
@@ -84,13 +84,13 @@ We can even use classes and IDs on elements.
 
 ```xml
 <svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
-	<style>
-		.my-rect {
-			fill: #3f3;
-			stroke: #000;
-		}
-	</style>
-	<rect class="my-rect" x="10" y="10" width="75" height="50" />
+  <style>
+    .my-rect {
+      fill: #3f3;
+      stroke: #000;
+    }
+  </style>
+  <rect class="my-rect" x="10" y="10" width="75" height="50" />
 </svg>
 ```
 
@@ -101,9 +101,9 @@ SVG can be embedded directly into HTML, which gives us a bunch of extra control.
 ```html
 ⋮
 <body>
-	<svg width="256" height="256" viewBox="0 0 256 256">
-		<rect class="my-rect" x="10" y="10" width="75" height="50" />
-	</svg>
+  <svg width="256" height="256" viewBox="0 0 256 256">
+    <rect class="my-rect" x="10" y="10" width="75" height="50" />
+  </svg>
 </body>
 ⋮
 ```
@@ -116,7 +116,7 @@ As soon as the SVG is inside your HTML you can even move the CSS into your separ
 
 ```css
 .my-rect {
-	fill: #f33;
+  fill: #f33;
 }
 ```
 
@@ -165,7 +165,7 @@ Adding a hover state to an SVG graphic is no different than other HTML elements.
 
 ```xml
 <svg width="256" height="256" viewBox="0 0 256 256">
-	<rect class="my-rect" x="10" y="10" width="75" height="50" />
+  <rect class="my-rect" x="10" y="10" width="75" height="50" />
 </svg>
 ```
 
@@ -173,11 +173,11 @@ Then in CSS, we can do this:
 
 ```css
 .my-rect {
-	fill: #f33;
+  fill: #f33;
 }
 
 .my-rect:hover {
-	fill: #000;
+  fill: #000;
 }
 ```
 
@@ -187,12 +187,12 @@ Adding CSS transitions to SVGs are no different than any other HTML element.
 
 ```css
 .my-rect {
-	fill: #f33;
-	transition: all 250ms linear;
+  fill: #f33;
+  transition: all 250ms linear;
 }
 
 .my-rect:hover {
-	fill: #000;
+  fill: #000;
 }
 ```
 
@@ -204,12 +204,12 @@ Just treat your SVG elements just like any other HTML elements.
 
 ```css
 .my-rect {
-	animation: rotate-box 250ms linear infinite;
+  animation: rotate-box 250ms linear infinite;
 }
 
 @keyframes rotate-box {
-	0% { transform: rotate(0); }
-	100% { transform: rotate(360deg); }
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
 }
 ```
 
@@ -221,12 +221,12 @@ SVGs allow us to mask things. It works really well for creating transparent zone
 
 ```xml
 <svg width="500" height="500" viewBox="0 0 500 500">
-	<defs>
-		<mask id="mask">
-			<image width="500" height="500" xlink:href="images/mars-mask.png" />
-		</mask>
-	</defs>
-	<image mask="url(#mask)" width="500" height="500" xlink:href="images/mars.jpg" />
+  <defs>
+    <mask id="mask">
+      <image width="500" height="500" xlink:href="images/mars-mask.png" />
+    </mask>
+  </defs>
+  <image mask="url(#mask)" width="500" height="500" xlink:href="images/mars.jpg" />
 </svg>
 ```
 
@@ -234,7 +234,20 @@ The mask graphic must be black & white: black being the areas that will be hidde
 
 ### Filters
 
-If you want to add filters like drop shadows and blurring to SVGs from Adobe Illustrator, make sure to use the SVG filters specifically.
+There are lots of effects that can be applied to SVG vector and bitmap graphics using SVG filters. Some filter examples are: drop shadows, gaussian blur, blend modes, colour transformations and more.
+
+Here’s a quick example of a blur on an SVG element:
+
+```xml
+<svg width="500" height="500" viewBox="0 0 500 500">
+  <filter id="blur">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+  </filter>
+  <circle cx="170" cy="60" r="50" fill="green" filter="url(#blur)" />
+</svg>
+```
+
+You can also add filters to SVGs from Adobe Illustrator, make sure to use the SVG filters specifically.
 
 ```
 Effect > SVG Filters
@@ -264,7 +277,7 @@ Inside our SVG graphic we can add a `<text>` element, like this:
 
 ```xml
 <svg width="500" height="200" viewBox="0 0 500 200">
-	<text x="0" y="180">Mars!</text>
+  <text x="0" y="180">Mars!</text>
 </svg>
 ```
 
@@ -274,7 +287,7 @@ Here’s how to center text:
 
 ```xml
 <svg width="500" height="200" viewBox="0 0 500 200">
-	<text x="50%" y="180" text-anchor="middle">Mars!</text>
+  <text x="50%" y="180" text-anchor="middle">Mars!</text>
 </svg>
 ```
 
@@ -285,21 +298,21 @@ SVG `<text>` that’s embedded directly into HTML can take advantage of web font
 ```html
 <!DOCTYPE html>
 <html lang="en-ca">
-	<head>
-		⋮
-		<link href="http://fonts.googleapis.com/css?family=Denk+One" rel="stylesheet">
-		⋮
-	</head>
-	<body>
-		<svg width="256" height="256" viewBox="0 0 256 256">
-			<style>
-				text {
-					font-family: "Denk One";
-				}
-			</style>
-			<text x="10" y="100">Dinosaurs!</text>
-		</svg>
-	</body>
+  <head>
+    ⋮
+    <link href="http://fonts.googleapis.com/css?family=Denk+One" rel="stylesheet">
+    ⋮
+  </head>
+  <body>
+    <svg width="256" height="256" viewBox="0 0 256 256">
+      <style>
+        text {
+          font-family: "Denk One";
+        }
+      </style>
+      <text x="10" y="100">Dinosaurs!</text>
+    </svg>
+  </body>
 </html>
 ```
 
@@ -333,18 +346,18 @@ Using the `<mask>` element we can mask out pieces of text to create different ef
 
 ```xml
 <svg width="500" height="200" viewBox="0 0 500 200">
-	<style>
-		text {
-			font-size: 120px;
-			font-weight: bold;
-		}
-	</style>
-	<defs>
-		<mask id="mask">
-			<image width="500" height="200" xlink:href="images/text-mask.png" />
-		</mask>
-	</defs>
-	<text x="0" y="180" mask="url(#mask)">Splatter!</text>
+  <style>
+    text {
+      font-size: 120px;
+      font-weight: bold;
+    }
+  </style>
+  <defs>
+    <mask id="mask">
+      <image width="500" height="200" xlink:href="images/text-mask.png" />
+    </mask>
+  </defs>
+  <text x="0" y="180" mask="url(#mask)">Splatter!</text>
 </svg>
 ```
 
@@ -356,19 +369,19 @@ We can also add textures to text using SVG and the `<pattern>` tag. Normally the
 
 ```xml
 <svg width="500" height="200" viewBox="0 0 500 200">
-	<style>
-		text {
-			font-size: 200px;
-			font-weight: bold;
-			fill: url(#texture);
-		}
-	</style>
-	<defs>
-		<pattern width="500" patternUnits="userSpaceOnUse" height="200" id="texture">
-			<image xlink:href="images/mars.jpg" width="800" height="500" />
-		</pattern>
-	</defs>
-	<text x="0" y="180">Mars</text>
+  <style>
+    text {
+      font-size: 200px;
+      font-weight: bold;
+      fill: url(#texture);
+    }
+  </style>
+  <defs>
+    <pattern width="500" patternUnits="userSpaceOnUse" height="200" id="texture">
+      <image xlink:href="images/mars.jpg" width="800" height="500" />
+    </pattern>
+  </defs>
+  <text x="0" y="180">Mars</text>
 </svg>
 ```
 
@@ -387,7 +400,7 @@ SVGs are perfect for icons sets in our websites. We can even get their colour to
 
 ```html
 <a class="icon-link" href="#">
-	<svg class="icon">…</svg>
+  <svg class="icon">…</svg>
 </a>
 ```
 
@@ -395,16 +408,16 @@ If we remove all the `fill` attributes and CSS from the SVG we can control it wi
 
 ```css
 svg {
-	/* `currentColor` allows the color to inherit from the `color` attribute */
-	fill: currentColor;
+  /* `currentColor` allows the color to inherit from the `color` attribute */
+  fill: currentColor;
 }
 
 .icon-link {
-	color: #33f;
+  color: #33f;
 }
 
 .icon-link:hover {
-	color: #000;
+  color: #000;
 }
 ```
 
@@ -419,12 +432,12 @@ At the top of our HTML file—the very top—we can define the SVG icons.
 ```html
 ⋮
 <body>
-	<!-- Make sure to use `display: none` to hide the icons until use -->
-	<svg style="display:none;">
-		<symbol id="symbol-icon" viewBox="0 0 256 256">
-			<path d="M188.5…" />
-		</symbol>
-	</svg>
+  <!-- Make sure to use `display: none` to hide the icons until use -->
+  <svg style="display:none;">
+    <symbol id="symbol-icon" viewBox="0 0 256 256">
+      <path d="M188.5…" />
+    </symbol>
+  </svg>
 ⋮
 ```
 
@@ -432,8 +445,8 @@ After the definition above, further down the HTML document we can use the SVG gr
 
 ```html
 <a class="icon-link" href="#">
-	<!-- Use the ID above to link this symbol -->
-	<svg class="icon"><use xlink:href="#symbol-icon"/></svg>
+  <!-- Use the ID above to link this symbol -->
+  <svg class="icon"><use xlink:href="#symbol-icon"/></svg>
 </a>
 ```
 

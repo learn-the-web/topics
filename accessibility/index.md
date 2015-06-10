@@ -74,8 +74,6 @@ The Accessible Rich Internet Application specification defines whole bunch of ro
 
 We may make tabs in HTML with lists and divs, and they may look like tabs, but to accessibility tools like screen readers they’re just lists and divs. ARIA allows us to turn them into functional and understandable tabs with a few extra properties & some Javascript.
 
-**[☛ Check out the tutorial on Javascript accessibility for more details.](/topics/javascript-accessibility/)**
-
 ### Landmark roles
 
 Adding ARIA landmark roles to your website is a great way to provide navigational landmarks for people using accessibility tools like screen readers. With roles people using screen readers can jump directly to specific locations on the website.
@@ -97,10 +95,66 @@ Here’s an example of adding the landmark role to the masthead:
 </header>
 ```
 
+### Properties
+
+You can use the ARIA properties to help define extra information about your content so that accessibility tools can more fully understand it.
+
+#### Labeling links
+
+Here’s an example: you have a list of blog posts on your page and they all have a “Read more” link. Since all the links say the same thing they aren’t good for accessibility because, by themselves, they don’t mean anything.
+
+Ideally you could change the link to say something else, by adding the title of the blog post in, like “Read more about of Extinct Animals”. This can become a little visually cumbersome on the page, so we can use ARIA to provide that information without it being visual.
+
+Add the `aria-label` attribute to the item to give it a non-visual label that can be used by accessibility tools, like screen readers that will announce the information.
+
+```html
+<ul>
+  <li>
+    <h2>…</h2>
+    <p>…</p>
+    <a href="…" aria-label="Read more about of Extinct Animals">Read more</a>
+  </li>
+  ⋮
+</ul>
+```
+
+#### Extended descriptions for images
+
+Often there’s complex graphics on your page that need accessible descriptions. The `alt` doesn’t provide a place for complex descriptions, only short overviews.
+
+As an example, say you have an infographic on your website. First, if it can be done in HTML & CSS with real text do that. If it must be a raster image, then use `aria-describedat` to write HTML describing the content of the image.
+
+```html
+<img aria-describedat="#infographic-desc" src="big-complex-infographic.jpg" alt="">
+
+<div id="infographic-desc">
+<h2>All about dinosaurs</h2>
+<h3>Meat eaters</h3>
+<ul>
+  <li>…</li>
+  ⋮
+</div>
+```
+
+The `aria-describedat` attribute can point to a location on the current page or a location on another page.
+
+It is best to keep that information visible on the screen, but if you must hide it the `hidden` attribute should work okay.
+
+There’s a similar ARIA property: `aria-describedby`—the difference is that `describedat` allows multiple HTML elements that are navigable where `describedby` will mash all the elements into a single sentence stream.
+
+**[☛ Check out the tutorial on Javascript for more ARIA examples.](/topics/javascript-accessibility/)**
+
 **Links**
 
-- [WAI-ARIA](http://www.w3.org/WAI/intro/aria)
+- **[UX accessibility with aria-label](https://dev.opera.com/articles/ux-accessibility-aria-label/)**
+- [Periodic Table of ARIA 1.0 attributes](https://dylanb.github.io/periodic-aria-attributes.html)
+- [Periodic Table of ARIA 1.0 Roles](https://dylanb.github.io/periodic-aria-roles.html)
+- [WAI-ARIA: An introduction to Accessible Rich Internet Applications](https://patrickhlauke.github.io/aria/presentation/)
+- [WAI-ARIA](http://www.w3.org/TR/wai-aria-1.1/)
 - [Using WAI-ARIA Landmarks](http://www.paciellogroup.com/blog/2013/02/using-wai-aria-landmarks-2013/)
+- [Connect with aria-describedby](http://www.last-child.com/accessible-infographics/infographics-aria-describedby/)
+- [On HTML belts and ARIA braces](http://html5doctor.com/on-html-belts-and-aria-braces/)
+- [MDN: An overview of accessible web applications and widgets](https://developer.mozilla.org/en-US/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets)
 
 ---
 
@@ -175,6 +229,7 @@ There are a few things that you should check on every website—at least—to he
 
 - [Total Validator](http://www.totalvalidator.com/index.html)
 - [Wave by WebAim](http://wave.webaim.org/)
+- [A11y](https://a11y-app.herokuapp.com/)
 - [Chrome Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
 
 ---
@@ -245,6 +300,7 @@ Here’s some shortcut keys for using VoiceOver:
 - **[Design and Development: The Yin and Yang of Web Accessibility](http://simplyaccessible.com/article/both/)**
 - **[The Sound of the Accessible Title Text Separator](http://www.standards-schmandards.com/2004/title-text-separators/)**
 - **[Designing For The Elderly: Ways Older People Use Digital Technology Differently](http://www.smashingmagazine.com/2015/02/05/designing-digital-technology-for-the-elderly/)**
+- **[Accessibility and Low-Powered Devices](http://bradfrost.com/blog/post/accessibility-and-low-powered-devices/)**
 - [The HTML5 Document Outline is a Dangerous Fiction](http://blog.paciellogroup.com/2013/10/html5-document-outline/)
 - [Designing For Disabilities: Section 508 and International Accessibility Compliance For Beginners](http://www.sitepoint.com/designing-disabilities-section-508-international-accessibility-compliance-beginners/)
 - [Top Mistakes in Web Accessibility](http://www.slideshare.net/wojciechzajac/top-mistakes-in-web-accessibility)
@@ -274,20 +330,26 @@ Here’s some shortcut keys for using VoiceOver:
 ### Tools
 
 - **[Color Contrast Analyser](http://www.paciellogroup.com/resources/contrastAnalyser)**
+- **[Contrast Ratio](http://leaverou.github.io/contrast-ratio/)**
 - [AccessLint](http://www.accesslint.com/)
 - [HTML5 Outliner](http://gsnedders.html5.org/outliner/)
 - [HTML5 Outliner Chrome Extension](https://chrome.google.com/webstore/detail/afoibpobokebhgfnknfndkgemglggomo)
 - [Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php)
+- [A11y Command-line Tools](https://addyosmani.github.io/a11y/)
 
 ### Standards
 
 - [WCAG 2.0](http://www.w3.org/TR/WCAG20/)
-- [WAI-ARIA](http://www.w3.org/TR/wai-aria/)
+- [WAI-ARIA](http://www.w3.org/TR/wai-aria-1.1/)
+- [ARIA in HTML](https://specs.webplatform.org/html-aria/webspecs/master/)
 
 ### Checklists
 
 - [WebAim: Checklist](http://webaim.org/standards/wcag/checklist)
 - [W3: Checklist](http://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html)
+- [Interactive WCAG 2.0](http://code.viget.com/interactive-wcag/)
+- [WCAG 2.0 Checklist](http://pauljadam.com/wcag20checklist.html)
+- [The Accessibility Cheatsheet](http://bitsofco.de/2015/the-accessibility-cheatsheet/)
 
 ### People
 

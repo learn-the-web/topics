@@ -8,6 +8,7 @@ groups:
       - 'Proper semantics are used for all content.<br>[HTML semantics](/topics/html-semantics/)'
       - 'Contents & HTML elements are in a logical order: most important at the top.'
       - 'Headings are ordered properly.'
+      - 'Links pointing to different locations should have different text.'
       - 'The `<em>` and `<i>` tags are not used to make text italic.'
       - 'The `<strong>` and `<b>` tags are not used to make text bold.'
       - 'Tables are only used for tabular data.<br>[Tables](/topics/tables/)'
@@ -16,6 +17,7 @@ groups:
       - 'All form error messages are visible and understandable.'
       - 'Language is defined on the HTML tag.'
       - 'The `<title>` is descriptive and informative.'
+      - 'Provide meanings of unusual words and pronunciations of difficult words.'
 
   - title: 'Design'
     items:

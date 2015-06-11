@@ -65,6 +65,7 @@ groups:
     items:
       - 'Opera Mini, proxy browser'
       - 'UC Browser, proxy browser'
+      - 'Kindle Browser, black & white e-ink'
       - 'Lynx, text only browser'
 
 ---

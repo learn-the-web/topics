@@ -128,11 +128,11 @@ As an example, say you have an infographic on your website. First, if it can be 
 <img aria-describedat="#infographic-desc" src="big-complex-infographic.jpg" alt="">
 
 <div id="infographic-desc">
-<h2>All about dinosaurs</h2>
-<h3>Meat eaters</h3>
-<ul>
-  <li>…</li>
-  ⋮
+  <h2>All about dinosaurs</h2>
+  <h3>Meat eaters</h3>
+  <ul>
+    <li>…</li>
+    ⋮
 </div>
 ```
 

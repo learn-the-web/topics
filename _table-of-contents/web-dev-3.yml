@@ -49,7 +49,6 @@ javascript-accessibility:
   title: "Javascript & accessibility"
   tags: "javascript animations events common components tabs toggle panels buttons lightbox accessibility focus keyboard wai aria"
   desc: "Looking at common Javascript patterns & components and how we can make them more accessible."
-  disabled: true
 
 responsive-animated-info-graphic:
   title: "Responsive animated info graphic"

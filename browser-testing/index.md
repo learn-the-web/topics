@@ -277,3 +277,4 @@ Now we can use the IE only CSS file for fixes specifically targeted at older ver
 
 - [Wikipedia: Comparison of web browsers](https://en.wikipedia.org/wiki/Comparison_of_web_browsers)
 - [Brad Frost: Accessibility and low-powered devices](http://bradfrost.com/blog/post/accessibility-and-low-powered-devices/)
+- [Building websites that work on an e-ink Kindle](http://gomakethings.com/building-websites-that-work-on-an-e-ink-kindle/)

@@ -313,6 +313,7 @@ Here’s some shortcut keys for using VoiceOver:
 - [WCAG: Quick Reference](http://www.w3.org/WAI/WCAG20/quickref/)
 - [Extending Semantics & Accessibility](http://learn.shayhowe.com/advanced-html-css/semantics-accessibility)
 - [WebVTT and Video Subtitles](http://www.iandevlin.com/blog/2011/05/html5/webvtt-and-video-subtitles)
+- [Accessible Footnotes with CSS](http://www.sitepoint.com/accessible-footnotes-css/)
 
 ### Videos
 

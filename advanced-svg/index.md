@@ -506,14 +506,14 @@ If you are using the SVG `<text>` element inside your embedded SVG, but don’t 
 2. [Advanced SVG: cleaning up the code](https://www.youtube.com/watch?v=aVcs-zQ1q4U&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=2)
 3. [Advanced SVG: transitions](https://www.youtube.com/watch?v=vwIVdI3WMIc&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=3)
 4. [Advanced SVG: animations](https://www.youtube.com/watch?v=8s70jpw5B5c&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=4)
-5. Advanced SVG: masking images
-6. Advanced SVG: text & web fonts
-7. Advanced SVG: gradients on text
-8. Advanced SVG: masking text
-9. Advanced SVG: textures on text
-10. [Advanced SVG: icons](https://www.youtube.com/watch?v=EhNHe-f0LBI&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=5)
-11. [Advanced SVG: icon symbols](https://www.youtube.com/watch?v=BO13gECyiuE&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=6)
-12. Advanced SVG: accessibility
+5. [Advanced SVG: masking images](https://www.youtube.com/watch?v=y8NvpFfdprM&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=5)
+6. [Advanced SVG: text & web fonts](https://www.youtube.com/watch?v=UKXRwuXd7rA&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=6)
+7. [Advanced SVG: masking text](https://www.youtube.com/watch?v=B5ol4ss-mi4&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=7)
+8. [Advanced SVG: gradients on text](https://www.youtube.com/watch?v=xgZkRVCS07Q&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=8)
+9. [Advanced SVG: textures on text](https://www.youtube.com/watch?v=lSNnVbfvJJ0&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=9)
+10. [Advanced SVG: icons](https://www.youtube.com/watch?v=EhNHe-f0LBI&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=10)
+11. [Advanced SVG: icon symbols](https://www.youtube.com/watch?v=BO13gECyiuE&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=11)
+12. [Advanced SVG: accessibility](https://www.youtube.com/watch?v=BieUh304KDA&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=12)
 
 ## Supplemental links
 

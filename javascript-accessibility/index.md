@@ -1,6 +1,6 @@
 ---
 group: web-dev-3
-playlist:
+playlist: PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow
 download: https://github.com/acgd-learn-the-web/javascript-accessibility-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-accessibility-code
 ---
@@ -176,11 +176,11 @@ All the above changes work fairly well, but there’s lots more we can do to mak
 
 ## Video list
 
-1. Javascript accessibility: proper semantics
-2. Javascript accessibility: proper button labels
-3. Javascript accessibility: making toggle panels
-4. Javascript accessibility: accessible tabs
-5. Javascript accessibility: tab keyboard controls
+1. [Javascript accessibility: proper semantics](https://www.youtube.com/watch?v=9bdHbANEZgM&index=1&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
+2. [Javascript accessibility: proper labels](https://www.youtube.com/watch?v=UcNJzL2BbRE&index=2&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
+3. [Javascript accessibility: making toggle panels](https://www.youtube.com/watch?v=w7S4YOC5YSQ&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow&index=3)
+4. [Javascript accessibility: making tabs](https://www.youtube.com/watch?v=G-0JAU0iEY4&index=4&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
+5. [Javascript accessibility: tab keyboard controls](https://www.youtube.com/watch?v=NWs0FwgrXaU&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow&index=5)
 
 ## Supplemental links
 

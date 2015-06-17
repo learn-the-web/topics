@@ -156,14 +156,14 @@ $tabs.on('click', 'a', function (e) {
 
 #### Keyboard controls for tabs
 
-All the above changes work fairly well, but there’s lots more we can do to make the tabs keyboard accessible.
+All the above changes work fairly well, but there’s lots more we can do to make the tabs more keyboard accessible.
 
 - We can take control of the `tab` key to allow our users simpler navigation:
   1. The first `tab` will enter the controls.
   2. The second `tab` will leave the controls and enter the content instead of going to the next tab control.
 - We can add arrow key support to the controls:
-  1. Our user presses `tab` into the controls.
-  2. Using the `left` and `right` arrow keys will switch tabs.
+  1. Our user presses `tab` to get into the controls.
+  2. Using the `left` and `right` arrow keys they can switch tabs.
   3. Pressing `tab` again will focus the content of the visible tab.
 
 [☛ Browse the accessible tab code to see the result.](https://github.com/acgd-learn-the-web/javascript-accessibility-code)

@@ -83,10 +83,16 @@ var $panel = $('.panel');
 $btn.on('click', function () {
   $panel.toggleClass('js-panel-open');
 
-  // Change the aria-hidden attribute to make the content visible
-  $panel.attr('aria-hidden', false);
-  // Change the aria-expanded attribute to be "open"
-  $btn.attr('aria-expanded', true);
+  // See whether the panel is open or closed
+  if ($btn.attr('aria-expanded') == 'false') {
+    // It’s currently closed, so open it
+    $btn.attr('aria-expanded', true);
+    $panel.attr('aria-hidden', false);
+  } else {
+    // It’s currently open, so close it
+    $btn.attr('aria-expanded', false);
+    $panel.attr('aria-hidden', true);
+  }
 });
 ```
 

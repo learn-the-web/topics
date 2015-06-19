@@ -55,16 +55,16 @@ groups:
           - 'Select an element by it’s number.'
           - 'Good for zebra-striping table rows.'
           - 'Examples: `li:nth-child(2)`, `tr:nth-child(odd)`, `div:nth-child(5n)`.'
-      - name: '`:first-line`'
+      - name: '`::first-line`'
         details:
           - 'Select the first line of text.'
           - 'Good for highlighting the first line of a paragraph.'
-          - 'Examples: `p:first-line`.'
-      - name: '`:first-letter`'
+          - 'Examples: `p::first-line`.'
+      - name: '`::first-letter`'
         details:
           - 'Select the first character in the text.'
           - 'Good for drop caps.'
-          - 'Examples: `p:first-letter`.'
+          - 'Examples: `p::first-letter`.'
       - name: '`:target`'
         details:
           - 'Select an element when the URL matches its ID.'

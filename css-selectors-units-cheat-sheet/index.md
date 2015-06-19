@@ -69,6 +69,10 @@ groups:
         details:
           - 'Select an element when the URL matches its ID.'
           - 'Examples: `li:target`.'
+      - name: '`::selection`'
+        details:
+          - 'Style an element when it has been selected and highlighted.'
+          - 'Examples: `::selection { color: red; }`.'
 
   - title: 'Interaction selectors'
     items:

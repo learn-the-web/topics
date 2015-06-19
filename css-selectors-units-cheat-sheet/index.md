@@ -8,36 +8,36 @@ groups:
       - name: '`Tag`'
         details:
           - 'Select all the tags of the same type.'
-          - 'Examples: `html`, `h1`, `p`.'
+          - '*Examples:* `html`, `h1`, `p`'
       - name: '`.` — Class'
         details:
           - 'Select an element that has a class.'
-          - 'Examples: `.masthead`, `.nav`, `.contact`.'
+          - '*Examples:* `.masthead`, `.nav`, `.contact`'
       - name: '`#` — ID'
         details:
           - 'Select an element that has the ID.'
-          - 'Examples: `#heading-1`, `#facebook`, `#top`.'
+          - '*Examples:* `#heading-1`, `#facebook`, `#top`'
       - name: '`Space` — Descendant'
         details:
           - 'Select an element that’s a child of another element.'
-          - 'Examples: `ul li`, `nav a`, `footer ul li`.'
+          - '*Examples:* `ul li`, `nav a`, `footer ul li`'
       - name: '`>` — Direct descendant'
         details:
           - 'Select an element directly inside another element.'
-          - 'Examples: `ul > li`, `h1 > span`, `footer > .copyright`.'
+          - '*Examples:* `ul > li`, `h1 > span`, `footer > .copyright`'
       - name: '`+` — Adjacent sibling'
         details:
           - 'Select an element immediately beside another element.'
-          - 'Examples: `h1 + p`, `hr + p`, `li + li`.'
+          - '*Examples:* `h1 + p`, `hr + p`, `li + li`'
       - name: '`~` — General sibling'
         details:
           - 'Select an element that’s at the same level.'
-          - 'Examples: `p ~ p`, `h1 ~ p`, `dd ~ dd`.'
+          - '*Examples:* `p ~ p`, `h1 ~ p`, `dd ~ dd`'
       - name: '`[]` — Attribute'
         details:
           - 'Select an element by it’s attribute.'
           - 'Good for styling links differently if they’re external.'
-          - 'Examples: `[data-state="active"]`, `[href^="http"]`, `[download]`.'
+          - '*Examples:* `[data-state="active"]`, `[href^="http"]`, `[download]`'
 
 
   - title: 'Pseudo classes'
@@ -45,34 +45,34 @@ groups:
       - name: '`:first-child`'
         details:
           - 'Select the element when it’s the first inside its parent.'
-          - 'Examples: `p:first-child`, `ul li:first-child`, `.person:first-child`.'
+          - '*Examples:* `p:first-child`, `ul li:first-child`, `.person:first-child`'
       - name: '`:last-child`'
         details:
           - 'Select the element when it’s the last inside its parent.'
-          - 'Examples: `li:last-child`, `p:last-child`, `.item:last-child`.'
+          - '*Examples:* `li:last-child`, `p:last-child`, `.item:last-child`'
       - name: '`:nth-child()`'
         details:
           - 'Select an element by it’s number.'
           - 'Good for zebra-striping table rows.'
-          - 'Examples: `li:nth-child(2)`, `tr:nth-child(odd)`, `div:nth-child(5n)`.'
+          - '*Examples:* `li:nth-child(2)`, `tr:nth-child(odd)`, `div:nth-child(5n)`'
       - name: '`::first-line`'
         details:
           - 'Select the first line of text.'
           - 'Good for highlighting the first line of a paragraph.'
-          - 'Examples: `p::first-line`.'
+          - '*Examples:* `p::first-line`'
       - name: '`::first-letter`'
         details:
           - 'Select the first character in the text.'
           - 'Good for drop caps.'
-          - 'Examples: `p::first-letter`.'
+          - '*Examples:* `p::first-letter`'
       - name: '`:target`'
         details:
           - 'Select an element when the URL matches its ID.'
-          - 'Examples: `li:target`.'
+          - '*Examples:* `li:target`'
       - name: '`::selection`'
         details:
           - 'Style an element when it has been selected and highlighted.'
-          - 'Examples: `::selection { color: red; }`.'
+          - '*Examples:* `::selection { color: red; }`'
 
   - title: 'Interaction selectors'
     items:
@@ -98,32 +98,32 @@ groups:
       - name: '**Keywords**'
         details:
           - 'Standardized, named colours.'
-          - 'Examples: `red`, `white`, `darkorange`, `hotpink`, `limegreen`.'
+          - '*Examples:* `red`, `white`, `darkorange`, `hotpink`, `limegreen`'
           - '[Color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords).'
       - name: '**Hexadecimal**'
         details:
           - 'Hex colours start with a hash: `#`.'
           - 'Three separate numbers: red, green, blue.'
-          - 'Examples: `#000000`, `#ffffff`, `#ff3333`, `#b95f48`.'
-          - 'Simplify pairs: `#000`, `#fff`, `#f33`.'
+          - '*Examples:* `#000000`, `#ffffff`, `#ff3333`, `#b95f48`'
+          - 'Simplify pairs: `#000`, `#fff`, `#f33`'
       - name: '**RGB**'
         details:
           - 'Specify colours using red, green & blue numbers.'
-          - 'Examples: `rgb(255, 255, 255)`, `rgb(255, 0, 0)`, `rgb(124, 65, 99)`.'
+          - '*Examples:* `rgb(255, 255, 255)`, `rgb(255, 0, 0)`, `rgb(124, 65, 99)`'
       - name: '**RGBA**'
         details:
           - 'RGB with semi-transparent/opacity.'
-          - 'Examples: `rgba(0, 0, 0, .5)`, `rgba(255, 0, 0, .75)`, `rgba(124, 65, 99, .8)`.'
+          - '*Examples:* `rgba(0, 0, 0, .5)`, `rgba(255, 0, 0, .75)`, `rgba(124, 65, 99, .8)`'
       - name: '**HSL**'
         details:
           - 'Specify colours using the hue, saturation, lightness system.'
           - 'Different from Photoshop’s HSB system.'
-          - 'Examples: `hsl(0, 100%, 100%)`, `hsl(53, 100%, 50%)`, `hsl(167, 38%, 59%)`.'
+          - '*Examples:* `hsl(0, 100%, 100%)`, `hsl(53, 100%, 50%)`, `hsl(167, 38%, 59%)`'
           - '[HSL Color Picker](http://hslpicker.com/)'
       - name: '**HSLA**'
         details:
           - 'HSL with semi-transparent/opacity.'
-          - 'Examples: `hsla(0, 100%, 100%, .5)`, `hsla(53, 100%, 50%, .7)`, `hsla(167, 38%, 59%, .3)`.'
+          - '*Examples:* `hsla(0, 100%, 100%, .5)`, `hsla(53, 100%, 50%, .7)`, `hsla(167, 38%, 59%, .3)`'
       - name: '**Transparency**'
         details:
           - 'The `transparent` keyword can be used to remove a colour.'

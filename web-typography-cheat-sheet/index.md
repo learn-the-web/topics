@@ -129,8 +129,9 @@ groups:
           - '*Example:* `font: normal 100%/1.5 sans-serif;`'
       - name: '`::selection`'
         details:
-          - 'Not a property, but a selector for styling an element when it has been selected and highlighted.'
-          - 'Examples: `::selection { color: red; }`.'
+          - 'Not a property, but a selector.'
+          - 'Style an element when it has been selected and highlighted.'
+          - '*Example:* `::selection { color: red; }`'
 
   - title: 'Experimental properties'
     note: 'These properties may not work in all browsers and may have a major performance impact.'
@@ -140,32 +141,32 @@ groups:
           - 'Control if the text will be hyphenated.'
           - 'Usually requires `text-align: justify`.'
           - '`none`, `auto`'
-          - '*Example:* `hyphens: auto;`.'
+          - '*Example:* `hyphens: auto;`'
       - name: '`font-kerning`'
         details:
           - 'Control a font’s built-in kerning metrics.'
           - '`none`, `normal`, `auto`'
-          - '*Example:* `font-kerning: auto;`.'
+          - '*Example:* `font-kerning: auto;`'
       - name: '`font-variant-ligatures`'
         details:
           - 'Control whether ligatures are used or not.'
           - '`none`, `normal`, specific: `common-ligatures`, `contextual`, etc.'
-          - '*Example:* `font-variant-ligatures: normal;`.'
+          - '*Example:* `font-variant-ligatures: normal;`'
       - name: '`font-variant-numeric`'
         details:
           - 'Enable/disabled alternative glyphs for numbers & fractions.'
           - '`normal`, `ordinal`, `slashed-zero`, `oldstyle-nums`, `tabular-nums`, etc.'
-          - '*Example:* `font-variant-numeric: oldstyle-nums;`.'
+          - '*Example:* `font-variant-numeric: oldstyle-nums;`'
       - name: '`font-variant-caps`'
         details:
           - 'Control whether small caps are used or not.'
           - '`normal`, `small-caps`'
-          - '*Example:* `font-variant-caps: small-caps;`.'
+          - '*Example:* `font-variant-caps: small-caps;`'
       - name: '`text-rendering`'
         details:
           - 'Controls a bunch of the `font-variant` properties automatically.'
           - '**Has extreme performance issues.**'
-          - '*Example:* `text-rendering: optimizeLegibility;`.'
+          - '*Example:* `text-rendering: optimizeLegibility;`'
 
   - title: 'Keyboard shortcuts'
     note: 'Some of these keyboard shortcuts may require the U.S. Extended keyboard.'

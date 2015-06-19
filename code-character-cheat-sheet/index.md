@@ -47,15 +47,15 @@ groups:
           - '**Double curly quote**.'
           - 'Not used in code, but used in content.'
           - 'Proper typographic quotes.'
-          - '`“`— Mac shortcut:`⌥[`.'
-          - '`”`— Mac shortcut:`⌥⇧]`.'
+          - '`“`— Mac shortcut:`⌥[`'
+          - '`”`— Mac shortcut:`⌥⇧]`'
       - name: "`‘ ’`"
         details:
           - '**Single curly quote**, apostrophe.'
           - 'Not used in code, but used in content.'
           - 'Proper typographic quotes.'
-          - '`‘`— Mac shortcut:`⌥]`.'
-          - '`’`— Mac shortcut:`⌥⇧]`.'
+          - '`‘`— Mac shortcut:`⌥]`'
+          - '`’`— Mac shortcut:`⌥⇧]`'
       - name: '<code>`</code>'
         details:
           - '**Backtick**'
@@ -86,12 +86,12 @@ groups:
         details:
           - '**En-dash**.'
           - 'Used in content to represent a range.'
-          - 'Mac shortcut:`⌥-`.'
+          - 'Mac shortcut:`⌥-`'
       - name: '`—`'
         details:
           - '**Em-dash**.'
           - 'Used in content to set a piece of text apart, or denote speech that’s been cut off.'
-          - 'Mac shortcut:`⌥⇧-`.'
+          - 'Mac shortcut:`⌥⇧-`'
 
   - title: 'Misc.'
     items:

@@ -130,7 +130,7 @@ groups:
       - name: '**Current colour**'
         details:
           - 'The `currentColor` keyword can be used to capture the `color` of the same element.'
-          - 'Example: `color: red; border-color: currentColor; /* Will be red */`'
+          - '*Example:* `color: red; border-color: currentColor; /* Will be red */`'
 
   - title: 'Units'
     items:

@@ -15,3 +15,4 @@ groups:
       - 'Registered in search engine tools.<br>[Google Webmaster Central](http://www.google.ca/webmasters/), [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster)'
       - 'Analytics package is set up.<br>[Google Analytics](http://www.google.com/analytics/?gclid=COC2_qf08MECFePyMgodb10AAQ)'
       - 'Uptime monitoring package set up.<br>[UptimeRobot](http://uptimerobot.com/), [Pingdom](https://www.pingdom.com/pricing/), [updown.io](https://updown.io/)'
+---

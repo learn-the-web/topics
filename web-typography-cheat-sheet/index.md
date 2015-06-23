@@ -181,15 +181,15 @@ groups:
           - '*Single curly quote*, *apostrophe*.'
           - '`‘`— Mac:`⌥]`'
           - '`’`— Mac:`⌥⇧]`'
-      - name: '`“ ”`'
+      - name: '`« »`'
         details:
           - '*Double guillemet*.'
           - '`«`— Mac:`⌥\`'
           - '`»`— Mac:`⌥⇧\`'
-      - name: "`‘ ’`"
+      - name: "`‹ ›`"
         details:
           - '*Single guillemet*.'
-          - '`‹`— Mac:`⌥3`'
+          - '`‹`— Mac:`⌥⇧3`'
           - '`›`— Mac:`⌥⇧4`'
       - name: '`–`'
         details:

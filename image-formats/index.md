@@ -127,7 +127,28 @@ Photoshop’s implementation of PNG-8 is incorrect. If you want to use a PNG-8, 
 
 Favicons are a great way to include your brand in the tab of the browser. They also often show up when you bookmark sites.
 
-It’s suggested to put the favicon right into the root of your website, `http://domain.ca/favicon.ico`, because browsers will look for it there by default.
+There are different file formats needed to make favicons:
+
+1. `.ico` — used in the tab and a few other places
+2. `.png` — used in more specialized places like bookmarks
+
+### Making an ICO file
+
+The first step in creating the ICO file is making a few different PNGs because an ICO file is actually multiple images inside a single file. *Don’t forget to smush those PNGs.*
+
+**PNG dimensions for ICO**: 16×16, 32×32 & 48×48.
+
+#### Converting PNGs to ICO
+
+You need a special application to create the `.ico` file because Photoshop cannot. I like to use [Icon Slate](http://www.kodlian.com/apps/icon-slate), but [X Icon Editor](http://xiconeditor.com/) also works okay.
+
+After you’ve converted to the ICO, trash the PNG files—it’s the ICO we need.
+
+**Make sure this file is always named `favicon.ico`.**
+
+#### Placing the the ICO file
+
+It’s suggested you put the favicon right in the root of your website, `http://domain.ca/favicon.ico`, because browsers will look for it there by default.
 
 If, for some reason, you can’t put it there you can use the `<link>` tag to include it.
 
@@ -136,13 +157,26 @@ If, for some reason, you can’t put it there you can use the `<link>` tag to in
 <link href="img/favicon.ico" rel="shortcut icon">
 ```
 
-### Dimensions
+### Platform specific favicons
 
-- **favicon.ico** — 16×16, 32×32, 48×48
-- **favicon-152.png** — 152×152
-- **favicon-144.png** — 144×144 (transparent)
+Some platforms have their own favicons used in other locations:
 
-### Platform specific meta tags
+- Apple & Android home screen icons,
+- Microsoft tile icons,
+- etc.
+
+These icons are generally always PNGs.
+
+#### Platform specific image dimensions
+
+I usually only make two icons but you could end up making many, many more.
+
+- **favicon-144.png** — 144×144 (transparent); for Microsoft.
+- **favicon-152.png** — 152×152; for Apple/Android.
+
+#### Platform specific meta tags
+
+After saving the icons (and of course smushing them) you’ll need to link them in the `<head>` of your HTML file:
 
 ```html
 <meta name="application-name" content="Your Site Name">
@@ -154,7 +188,7 @@ If, for some reason, you can’t put it there you can use the `<link>` tag to in
 **Links**
 
 - **[Icon Slate](http://www.kodlian.com/apps/icon-slate)**
-- **[Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet)**
+- **[Audrey Roy Greenfeld’s Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet)**
 - [Treehouse: How to Make a Favicon](http://blog.teamtreehouse.com/how-to-make-a-favicon)
 - [X Icon Editor](http://xiconeditor.com/)
 - [Apple Touch Icons](http://mathiasbynens.be/notes/touch-icons)

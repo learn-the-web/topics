@@ -720,27 +720,6 @@ dino.trim(); // 'Iguanodon'
 
 ---
 
-## Debugging
-
-Often we need to debug code and write out our variables to see what’s inside them. Most modern browsers include a console a logging mechanism.
-
-```js
-var planet = 'Uranus',
-	planets = ['Jupiter', 'Saturn', 'Neptune']
-;
-
-// console.log() will write out the contents of a variable
-//   into a special browser window panel called the console
-console.log(planet); // Uranus
-console.log(planets); // [Jupiter, Saturn, Neptune]
-```
-
-**Links**
-
-- [A Re-introduction to the Chrome Developer Tools](http://paulirish.com/2011/a-re-introduction-to-the-chrome-developer-tools/)
-
----
-
 ## Semicolons
 
 In Javascript, not all instructions require a semicolon (;) at the end of the statement. The Javascript language uses Automatic Semicolon Insertion, but it can be tricky.

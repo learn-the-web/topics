@@ -22,7 +22,6 @@ dom:
 
 javascript-debugging:
   title: "Javascript debugging"
-  disabled: true
   tags: "javascript debugging jshint jslint developer tools inspect element console log"
   desc: "Some simple techniques to debug Javascript code in your browser."
   indent: 1

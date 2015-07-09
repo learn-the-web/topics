@@ -87,6 +87,16 @@ groups:
               <img src="low-res.jpg" alt="A giant squid swimming deep in the sea">
             </picture>
             ```
+      - name: '*Favicons*'
+        details:
+          - |
+            ```html
+            <link href="img/favicon.ico" rel="shortcut icon">
+            <meta name="application-name" content="Your Site Name">
+            <link rel="apple-touch-icon-precomposed" href="/favicon-152.png">
+            <meta name="msapplication-TileImage" content="/favicon-144.png">
+            <meta name="msapplication-TileColor" content="#ef0303">
+            ```
 
   - title: 'CSS code'
     items:

@@ -134,7 +134,7 @@ groups:
 
   - title: 'jQuery & HTML'
     items:
-      - name: '*Selections*'
+      - name: '*Selections & events*'
         details:
           - |
             ```js
@@ -142,12 +142,21 @@ groups:
             var $trex = $('#trex');
             var $action = $('[data-action]');
             var $radio = $('[name="diet"]:checked');
+
+            $trex.on('click', function (ev) {
+              // Click directly on #trex
+            });
+
+            $dinos.on('click', 'li', function (ev) {
+              // Click on any <li> within .dinos
+            });
             ```
+          - '`click`, `focus`, `blur`, `mousedown`, `mouseover`, `mouseout`, `change`'
+          - 'Use `ev.preventDefault()` to stop the element’s default action.'
       - name: '*Manipulations*'
         details:
-          - "`attr(attribute)` — get an attribute value."
-          - "`attr(attribute, value)` — change an attribute value."
-          - "`html(value)` — change the entire HTML content of an element."
+          - "`attr(attribute, value)` — get/change an attribute value."
+          - "`html(value)` — get/change the entire HTML content of an element."
           - "`addClass(class)` — add a class to an element."
           - "`removeClass(class)` — remove a class from an element."
           - "`toggleClass(class)` — toggle a class on/off."
@@ -169,23 +178,5 @@ groups:
           - "`siblings(selector)` — find specific siblings."
           - "`eq(index)` — get the element by its index."
           - "`get()` — get the raw Javascript element."
-      - name: '*Events*'
-        details:
-          - |
-            ```js
-            var $trex = $('.trex');
-
-            $trex.on('click', function (ev) {
-              // Click directly on .trex
-            });
-
-            var $dinos = $('.dinos');
-
-            $dinos.on('click', 'li', function (ev) {
-              // Click on any <li> within .dinos
-            });
-            ```
-          - '`click`, `focus`, `blur`, `mousedown`, `mouseover`, `mouseout`, `change`'
-          - 'Use `ev.preventDefault()` to stop the element’s default action.'
 
 ---

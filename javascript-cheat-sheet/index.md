@@ -36,6 +36,11 @@ groups:
           - '`Math.round()` — round the number to an integer.'
           - '`Math.ceil()` — round the number up.'
           - '`Math.floor()` — round the number down.'
+          - |
+            ```js
+            // Random between two numbers
+            var rand = Math.floor(Math.random() * (max - min)) + min;
+            ```
       - name: '*Variables*'
         details:
           - |
@@ -56,6 +61,7 @@ groups:
             var isSpinoHerbivore = spino.isHerbivore;
             var raptor = carnivores[1];
 
+            // Functions
             var whatsUp = function (name) {
               alert('What’s up ' + name);
             }

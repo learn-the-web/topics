@@ -5,21 +5,6 @@ group: web-dev-3
 groups:
   - title: 'Syntax'
     items:
-      - name: '*Variables*'
-        details:
-          - |
-            ```js
-            var name = 'Triceratops'; // String
-            var numberHorns = 3; // Number
-            var isHerbivore = true; // Boolean
-            // Array
-            var carnivores = ['Tyrannosaurus', 'Velociraptor'];
-            // Object
-            var spino = {
-              name: 'Spinosaurus',
-              isHerbivore: false
-            }
-            ```
       - name: '*Operators*'
         details:
           - '`+` — addition with numbers, concatenation with strings.'
@@ -45,6 +30,27 @@ groups:
           - '`<` — less than.'
           - '`&&` — and.'
           - '`||` — or.'
+      - name: '*Math*'
+        details:
+          - '`Math.random()` — generate a random number between 0 and 1.'
+          - '`Math.round()` — round the number to an integer.'
+          - '`Math.ceil()` — round the number up.'
+          - '`Math.floor()` — round the number down.'
+      - name: '*Variables*'
+        details:
+          - |
+            ```js
+            var name = 'Triceratops'; // String
+            var numberHorns = 3; // Number
+            var isHerbivore = true; // Boolean
+            // Array
+            var carnivores = ['Tyrannosaurus', 'Velociraptor'];
+            // Object
+            var spino = {
+              name: 'Spinosaurus',
+              isHerbivore: false
+            }
+            ```
       - name: '*Strings*'
         details:
           - '`+` — combine (concatenate) strings together.'
@@ -65,21 +71,6 @@ groups:
           - '`unshift(…)` — add to the start of the array.'
           - '`shift()` — remove from the start of the array.'
           - '`delete things[1]` — delete an item from the array.'
-      - name: '*Objects*'
-        details:
-          - |
-            ```js
-            var planetEarth = {
-              population: 6.5e9,
-              numberMoons: 1,
-              starSystem: 'Solar'
-            };
-
-            planetEarth.population;
-            planetEarth.diameter = 12756;
-            planetEarth['starSystem'];
-            delete planetEarth.numberMoons;
-            ```
       - name: '*If-statements*'
         details:
           - |
@@ -88,10 +79,6 @@ groups:
               // True path
             } else {
               // False path
-            }
-
-            if (planet == 'Venus' && hasMoons) {
-
             }
             ```
       - name: '*Loops*'
@@ -103,11 +90,11 @@ groups:
             var totalPlanets = planets.length;
 
             for (i = 0; i < totalPlanets; i++) {
-
+              // For-loop
             }
 
             planets.forEach(function (item)) {
-
+              // For-each loop
             });
             ```
       - name: '*Switches*'
@@ -127,12 +114,6 @@ groups:
                 break;
             }
             ```
-      - name: '*Math*'
-        details:
-          - '`Math.random()` — generate a random number between 0 and 1.'
-          - '`Math.round()` — round the number to an integer.'
-          - '`Math.ceil()` — round the number up.'
-          - '`Math.floor()` — round the number down.'
 
 
   - title: 'JS + HTML'

@@ -26,12 +26,11 @@ javascript-debugging:
   desc: "Some simple techniques to debug Javascript code in your browser."
   indent: 1
 
-javascript-checklist:
-  title: "Javascript checklist"
-  tags: "javascript app code checklist"
-  desc: "A checklist for Javascript code and application development."
-  checklist: true
-  disabled: true
+javascript-cheat-sheet:
+  title: "Javascript cheat sheet"
+  tags: "javascript app code cheat sheet"
+  desc: "A cheat sheet for Javascript code, syntax and common application development techniques."
+  cheatsheet: true
   indent: 1
 
 javascript-components:

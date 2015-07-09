@@ -4,6 +4,7 @@ group: web-dev-4
 
 groups:
   - title: 'General'
+    items:
       - 'Has been honestly search engine optimized.<br>[Honest SEO](/topics/search-engine-optimization)'
       - 'Every page has a unique, descriptive title.<br>[Title formula](/topics/search-engine-optimization#page-title-formula)'
       - 'Every page has a unique meta description.<br>[Meta descriptions](/topics/search-engine-optimization#meta-descriptions)'

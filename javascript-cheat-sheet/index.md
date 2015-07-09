@@ -12,7 +12,8 @@ groups:
             var name = 'Triceratops'; // String
             var numberHorns = 3; // Number
             var isHerbivore = true; // Boolean
-            var carnivores = ['Tyrannosaurus', 'Velociraptor']; // Array
+            // Array
+            var carnivores = ['Tyrannosaurus', 'Velociraptor'];
             // Object
             var spino = {
               name: 'Spinosaurus',
@@ -40,8 +41,8 @@ groups:
           - '`toLowerCase()` — convert all the letters to lower case.'
           - '`slice(from, to)` — get a chunk of text up to a specific point.'
           - '`substr(from, length)` — get a chunk from the text of a specific length.'
-          - '`replace('…', '…')` — change one or more instances to something else.'
-          - '`split('…')` — create an array by breaking the string on a specific character.'
+          - "`replace('…', '…')` — change one or more instances to something else."
+          - "`split('…')` — create an array by breaking the string on a specific character."
           - '`trim()` — remove spaces at the start and end.'
       - name: '*Arrays*'
         details:

@@ -5,26 +5,35 @@ group: web-dev-1
 groups:
   - title: 'Image formats'
     items:
-      - name: '*SVG*'
+      - name: '**SVG**'
         details:
-          - ''
-          - ''
-      - name: '*JPG*'
+          - 'Vector graphic: good for graphics with few colours, animations; can manipulate with code.'
+          - 'Very scalable and retina ready.'
+          - '*Export settings:* SVG 1.1, Convert to outline, Link, Style elements, Decimal places: 1, Uncheck responsive.'
+      - name: '**JPG**'
         details:
-          - ''
-          - ''
-      - name: '*PNG*'
+          - 'Raster graphic: good for photos and complex imagery.'
+          - 'For retina: determine max dimensions on website, double the original graphic size, compress to around 20%.'
+          - 'Link inside an SVG to get masks & transparency.'
+          - '*Export settings: * Compression: ~65% (~20% for double-sized retina), Progressive, Uncheck embed color profile, Internet Standard RGB, Metadata: None.'
+      - name: '**PNG**'
         details:
-          - ''
-          - ''
-      - name: '*Favicons*'
+          - 'Raster graphic: good for graphics with few colours.'
+          - 'PNG-24 has millions of colours & 256 levels of transparency.'
+          - 'PNG-8 has 256 colours—Photoshop’s implementation is incorrect, use [ImageAlpha](http://pngmini.com/).'
+          - 'Not really retina capable: use SVG instead.'
+          - '*Export settings: * Interlaced, Uncheck embed color profile, Internet Standard RGB, Metadata: None.'
+      - name: '**Favicons**'
         details:
-          - ''
-          - ''
-      - name: '*GIF*'
+          - 'Small icons used in different places on browsers.'
+          - 'Use a tool like [Icon Slate](http://xiconeditor.com/) or [X Icon Editor](http://xiconeditor.com/) to build `.ico` file.'
+          - '*Sizes for `.ico`:* 16×16, 32×32, 48×48.'
+          - '*PNG sizes:* 152×152, 144×144 (transparent).'
+      - name: '**GIF**'
         details:
-          - ''
-          - ''
+          - 'Limited to 256 colours, can be animated.'
+          - '*Try to avoid using.*'
+          - 'Use only for animations but using video is still preferred.'
 
 
   - title: 'HTML tags'
@@ -46,7 +55,7 @@ groups:
           - 'Needs the `<source>` and `<img>` tags inside.'
 
 
-  - title: 'CSS examples'
+  - title: 'CSS code'
     items:
       - name: '*Background images*'
         details:

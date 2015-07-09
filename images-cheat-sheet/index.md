@@ -17,6 +17,14 @@ groups:
         details:
           - ''
           - ''
+      - name: 'Favicons'
+        details:
+          - ''
+          - ''
+      - name: 'GIF'
+        details:
+          - ''
+          - ''
 
 
   - title: 'HTML tags'
@@ -38,14 +46,47 @@ groups:
 
   - title: 'CSS properties'
     items:
+      - name: '`background-image`'
+        details:
+          - |
+            ```css
+            h1 {
+              background-image: url("../images/grey-box.png");
+            }
+
+            h1 {
+              background-image:
+                url("../images/grey-box.png"),
+                url("../images/green-box.png")
+              ;
+            }
+            ```
+      - name: 'gradients'
+        details:
+          - |
+            ```css
+            body {
+              background-image: linear-gradient(to right, purple, darkpurple);
+            }
+            ```
       - name: 'flexible images'
         details:
-          - ''
-      - name: ''
+          - |
+            ```css
+            .flex {
+              display: block;
+              width: 100%;
+            }
+            ```
+      - name: 'image replacement'
         details:
-          - ''
-      - name: ''
-        details:
-          - ''
+          - |
+            ```css
+            .ir {
+              overflow: hidden;
+              text-indent: 100%;
+              white-space: nowrap;
+            }
+            ```
 
 ---

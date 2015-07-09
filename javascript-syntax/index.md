@@ -467,34 +467,37 @@ if (!hasMoons && planet == 'Venus') {
 
 Equals can be used in a series of up to three in Javascript, each meaning slightly different things and acting differently.
 
-1. single equals means ‘set’
-	```js
-	var planet = 'Mars';
-	```
+*1. single equals means ‘set’*
 
-2. double equals means ‘compare’
-	```js
-	if (planet == 'Mars') {}
-	```
+```js
+var planet = 'Mars';
+```
 
-3. triple equals means ‘compare exactly’
-	```js
-	// Will compare the value of planet to see if it equals ‘Mars’ and that the value is a string
-	if (planet === 'Mars') {
-		// This will be executed because planet is a string and it’s equal to ‘Mars’
-	}
+*2. double equals means ‘compare’*
 
-	// Will compare to see if the value of planet is truthy
-	if (planet == true) {
-		// This will execute because the value of planet is truthy
-		// Check out type coercion for more details
-	}
+```js
+if (planet == 'Mars') {}
+```
 
-	// Will compare the value of planet to see if it’s true and to see if it is a boolean
-	if (planet === true) {
-		// This will not execute because planet is not exactly ‘true’
-	}
-	```
+*3. triple equals means ‘compare exactly’*
+
+```js
+// Will compare the value of planet to see if it equals ‘Mars’ and that the value is a string
+if (planet === 'Mars') {
+	// This will be executed because planet is a string and it’s equal to ‘Mars’
+}
+
+// Will compare to see if the value of planet is truthy
+if (planet == true) {
+	// This will execute because the value of planet is truthy
+	// Check out type coercion for more details
+}
+
+// Will compare the value of planet to see if it’s true and to see if it is a boolean
+if (planet === true) {
+	// This will not execute because planet is not exactly ‘true’
+}
+```
 
 ### Type coercion
 

@@ -8,17 +8,17 @@ groups:
       - name: '*Variables*'
         details:
           - |
-          ```js
-          var name = 'Triceratops'; // String
-          var numberHorns = 3; // Number
-          var isHerbivore = true; // Boolean
-          var carnivores = ['Tyrannosaurus', 'Velociraptor']; // Array
-          // Object
-          var spino = {
-            name: 'Spinosaurus',
-            isHerbivore: false
-          }
-          ```
+            ```js
+            var name = 'Triceratops'; // String
+            var numberHorns = 3; // Number
+            var isHerbivore = true; // Boolean
+            var carnivores = ['Tyrannosaurus', 'Velociraptor']; // Array
+            // Object
+            var spino = {
+              name: 'Spinosaurus',
+              isHerbivore: false
+            }
+            ```
       - name: '*Operators*'
         details:
           - '`+` — addition with numbers, concatenation with strings.'
@@ -46,13 +46,13 @@ groups:
       - name: '*Arrays*'
         details:
           - |
-          ```js
-          ```
+            ```js
+            ```
       - name: '*Objects*'
         details:
           - |
-          ```js
-          ```
+            ```js
+            ```
       - name: '*If-statements*'
         details:
           - ''

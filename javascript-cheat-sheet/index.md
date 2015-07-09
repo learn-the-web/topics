@@ -1,6 +1,6 @@
 ---
 layout: cheatsheet
-group: setup
+group: web-dev-3
 
 groups:
   - title: 'Syntax'
@@ -33,10 +33,22 @@ groups:
           - '`-=` — subtract from the number.'
           - '`-=` — multiply the number.'
           - '`-=` — divide the number.'
+      - name: '*Logic*'
+        details:
+          - '`==` — check if values are the same.'
+          - '`===` — check if values are the same, strictly—must be same data type.'
+          - '`!=` — check if values are different.'
+          - '`!==` — check if values are different, strictly—type is also checked.'
+          - '`<=` — less than or equal to.'
+          - '`>=` — greater than or equal to.'
+          - '`>` — greater than.'
+          - '`<` — less than.'
+          - '`&&` — and.'
+          - '`||` — or.'
       - name: '*Strings*'
         details:
           - '`+` — combine (concatenate) strings together.'
-          - '`length()` — count how many characters are in the string.'
+          - '`length` — count how many characters are in the string.'
           - '`toUpperCase()` — convert all the letters to upper case.'
           - '`toLowerCase()` — convert all the letters to lower case.'
           - '`slice(from, to)` — get a chunk of text up to a specific point.'
@@ -46,26 +58,81 @@ groups:
           - '`trim()` — remove spaces at the start and end.'
       - name: '*Arrays*'
         details:
-          - |
-            ```js
-            ```
+          - '`things[1]` — get a specific item from the array.'
+          - '`length` — count how many items are in the array.'
+          - '`push(…)` — add to the end of the array.'
+          - '`pop()` — remove from the end of the array.'
+          - '`unshift(…)` — add to the start of the array.'
+          - '`shift()` — remove from the start of the array.'
+          - '`delete things[1]` — delete an item from the array.'
       - name: '*Objects*'
         details:
           - |
             ```js
+            var planetEarth = {
+              population: 6.5e9,
+              numberMoons: 1,
+              starSystem: 'Solar'
+            };
+
+            planetEarth.population;
+            planetEarth.diameter = 12756;
+            planetEarth['starSystem'];
+            delete planetEarth.numberMoons;
             ```
       - name: '*If-statements*'
         details:
-          - ''
-          - ''
+          - |
+            ```js
+            if (planet == 'Venus') {
+              // True path
+            } else {
+              // False path
+            }
+
+            if (planet == 'Venus' && hasMoons) {
+
+            }
+            ```
       - name: '*Loops*'
         details:
-          - ''
-          - ''
+          - |
+            ```js
+            var planets = ['Mercury', 'Venus', 'Earth', 'Mars'];
+            var i = 0;
+            var totalPlanets = planets.length;
+
+            for (i = 0; i < totalPlanets; i++) {
+
+            }
+
+            planets.forEach(function (item)) {
+
+            });
+            ```
       - name: '*Switches*'
         details:
-          - ''
-          - ''
+          - |
+            ```js
+            var planet = 'Venus';
+
+            switch (planet) {
+              case 'Mercury' :
+                break;
+
+              case 'Venus' :
+                break;
+
+              case 'Mars' :
+                break;
+            }
+            ```
+      - name: '*Math*'
+        details:
+          - '`Math.random()` — generate a random number between 0 and 1.'
+          - '`Math.round()` — round the number to an integer.'
+          - '`Math.ceil()` — round the number up.'
+          - '`Math.floor()` — round the number down.'
 
 
   - title: 'JS + HTML'

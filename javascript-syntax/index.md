@@ -769,8 +769,13 @@ In Javascript, not all instructions require a semicolon (;) at the end of the st
 
 - **[MDN: Language reference](https://developer.mozilla.org/en/JavaScript)**
 - **[Eloquent Javascript](http://www.amazon.ca/dp/1593272820/)**
+- **[Javascript resources](https://www.javascript.com/resources)**
+- [A re-introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+- [Javascript Garden](https://bonsaiden.github.io/JavaScript-Garden/)
 - [JavaScript and JQuery: Interactive Front-End Web Development](http://www.amazon.ca/dp/1118531647)
 - [ThinkVitamin: Javascript](http://membership.thinkvitamin.com/library/javascript)
 - [Javascript: The Good Parts](http://www.amazon.ca/dp/0596517742/)
 - [Codecademy](http://www.codecademy.com/)
 - [WikiBooks: Javascript](http://en.wikibooks.org/wiki/JavaScript/Control_Structures)
+- [Learn JavaScript and Up Your Photoshop Game](http://blog.teamtreehouse.com/learn-javascript-photoshop-game)
+- [Javascript in one pic](https://github.com/coodict/javascript-in-one-pic)

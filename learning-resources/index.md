@@ -18,6 +18,7 @@ Here’s a quick list of web development learning resources—by no way is it ex
 - [HTML5 Doctor](http://html5doctor.com)
 - [HTML5 Rocks](http://www.html5rocks.com/en/)
 - [Web Field Manual](http://webfieldmanual.com/)
+- [Web Development Teaching Materials](http://www.teaching-materials.org/)
 
 ---
 

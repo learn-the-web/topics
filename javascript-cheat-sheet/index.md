@@ -36,6 +36,7 @@ groups:
           - '`Math.round()` — round the number to an integer.'
           - '`Math.ceil()` — round the number up.'
           - '`Math.floor()` — round the number down.'
+          - '---'
           - |
             ```js
             // Random between two numbers
@@ -131,16 +132,60 @@ groups:
             ```
 
 
-  - title: 'JS + HTML'
+  - title: 'jQuery & HTML'
     items:
-      - name: '*Objects*'
+      - name: '*Selections*'
         details:
-          - ''
-          - ''
-      - name: '*Objects*'
+          - |
+            ```js
+            var $dinos = $('.dinos');
+            var $trex = $('#trex');
+            var $action = $('[data-action]');
+            var $radio = $('[name="diet"]:checked');
+            ```
+      - name: '*Manipulations*'
         details:
-          - ''
-          - ''
+          - "`attr(attribute)` — get an attribute value."
+          - "`attr(attribute, value)` — change an attribute value."
+          - "`html(value)` — change the entire HTML content of an element."
+          - "`addClass(class)` — add a class to an element."
+          - "`removeClass(class)` — remove a class from an element."
+          - "`toggleClass(class)` — toggle a class on/off."
+          - "`hasClass(class)` — check if an element has a specific class."
+          - "`val(value)` — get the form input’s value."
+          - "`append(value)` — add new HTML inside the element, after what’s there."
+          - "`prepend(value)` — add new HTML inside the element, before what’s there."
+          - "`before(value)` — add new HTML outside the element, before it."
+          - "`after(value)` — add new HTML outside the element, after it."
+          - "`remove()` — delete the element from the page."
+      - name: '*Traversals*'
+        details:
+          - "`each(function)` — loop over all the selected elements."
+          - "`filter(selector)` — filter the selected elements by selector."
+          - "`find(selector)` — find a specific element within another element."
+          - "`parent()` — get the parent element of the current element."
+          - "`parents(selector)` — find a parent element."
+          - "`children(selector)` — find specific child elements."
+          - "`siblings(selector)` — find specific siblings."
+          - "`eq(index)` — get the element by its index."
+          - "`get()` — get the raw Javascript element."
+      - name: '*Events*'
+        details:
+          - |
+            ```js
+            var $trex = $('.trex');
 
+            $trex.on('click', function (ev) {
+              // Click directly on .trex
+            });
+
+            var $dinos = $('.dinos');
+
+            $dinos.on('click', 'li', function (ev) {
+              // Click on any <li> within .dinos
+            });
+            ```
+          - '`click`, `focus`, `blur`, `mousedown`, `mouseover`, `mouseout`, `change`'
+          - 'Use `ev.preventDefault()` to stop the element’s default action.'
 
 ---

@@ -36,7 +36,6 @@ groups:
           - '`Math.round()` — round the number to an integer.'
           - '`Math.ceil()` — round the number up.'
           - '`Math.floor()` — round the number down.'
-          - '---'
           - |
             ```js
             // Random between two numbers
@@ -95,6 +94,10 @@ groups:
               // True path
             } else {
               // False path
+            }
+
+            if (planet == 'Venus' && isSecond) {
+
             }
             ```
       - name: '*Loops*'

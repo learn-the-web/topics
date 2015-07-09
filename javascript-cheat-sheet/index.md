@@ -43,12 +43,21 @@ groups:
             var name = 'Triceratops'; // String
             var numberHorns = 3; // Number
             var isHerbivore = true; // Boolean
-            // Array
+
+            // Arrays
             var carnivores = ['Tyrannosaurus', 'Velociraptor'];
-            // Object
+
+            // Objects
             var spino = {
               name: 'Spinosaurus',
               isHerbivore: false
+            }
+
+            var isSpinoHerbivore = spino.isHerbivore;
+            var raptor = carnivores[1];
+
+            var whatsUp = function (name) {
+              alert('What’s up ' + name);
             }
             ```
       - name: '*Strings*'

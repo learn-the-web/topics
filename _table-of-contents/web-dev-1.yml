@@ -133,7 +133,6 @@ images-cheat-sheet:
   tags: "images png jpg svg gif web compression cheat sheet"
   desc: "A cheat sheet covering the basics of web image formats, compression, and use."
   cheatsheet: true
-  disabled: true
   indent: 1
 
 float-clear:

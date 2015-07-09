@@ -44,24 +44,17 @@ groups:
           - ''
 
 
-  - title: 'CSS properties'
+  - title: 'CSS examples'
     items:
-      - name: '`background-image`'
+      - name: '*Background images*'
         details:
           - |
             ```css
             h1 {
               background-image: url("../images/grey-box.png");
             }
-
-            h1 {
-              background-image:
-                url("../images/grey-box.png"),
-                url("../images/green-box.png")
-              ;
-            }
             ```
-      - name: 'gradients'
+      - name: '*Gradients*'
         details:
           - |
             ```css
@@ -69,7 +62,7 @@ groups:
               background-image: linear-gradient(to right, purple, darkpurple);
             }
             ```
-      - name: 'flexible images'
+      - name: '*Flexible images*'
         details:
           - |
             ```css
@@ -78,7 +71,7 @@ groups:
               width: 100%;
             }
             ```
-      - name: 'image replacement'
+      - name: '*Image replacement*'
         details:
           - |
             ```css

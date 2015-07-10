@@ -18,7 +18,7 @@ There are a bunch of common components used on websites, so here are some tutori
 Toggle panels are small elements that can be opened and closed—exactly like the `<details>` element.
 
 - [See working toggle panels](http://learn-the-web.algonquindesign.ca/javascript-components-code/panels.html)
-- [Browse commented toggle panels code](https://github.com/acgd-learn-the-web/javascript-components-code/blob/gh-pages/js/panels.js)
+- [Browse commented toggle panel code](https://github.com/acgd-learn-the-web/javascript-components-code/blob/gh-pages/js/panels.js)
 
 ### Tabs
 

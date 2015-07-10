@@ -84,7 +84,7 @@ groups:
       - 'All appropriate semicolons are in place.'
       - 'All user interactions have been thoroughly tested.'
       - 'Javascript has been validated.<br>[JS Hint](http://www.jshint.com/), [JS Lint](http://jslint.com/)'
-      - 'All instances of `console.log` have been removed.'
+      - 'All instances of `console.log()` have been removed.'
       - 'Javascript has been tested for browser bugs.'
       - 'Appropriate accessibility features have been added.'
 

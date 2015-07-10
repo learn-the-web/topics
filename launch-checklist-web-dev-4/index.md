@@ -107,7 +107,7 @@ groups:
       - 'Javascript has been validated.<br>[JS Hint](http://www.jshint.com/), [JS Lint](http://jslint.com/)'
       - 'Javascript has been written with progressive enhancement.'
       - 'Website tested without Javascript.'
-      - 'All instances of `console.log` have been removed.'
+      - 'All instances of `console.log()` have been removed.'
       - 'Javascript has been tested for browser bugs.'
       - 'Appropriate accessibility features have been added.'
 

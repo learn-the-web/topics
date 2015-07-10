@@ -33,6 +33,13 @@ javascript-cheat-sheet:
   cheatsheet: true
   indent: 1
 
+javascript-checklist:
+  title: "Javascript checklist"
+  tags: "javascript app code checklist"
+  desc: "A checklist for Javascript code, syntax and common things to check for before launch."
+  checklist: true
+  indent: 1
+
 javascript-components:
   title: "Common Javascript components"
   tags: "javascript common components tabs toggle panels buttons lightbox data filter"

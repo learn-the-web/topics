@@ -503,7 +503,25 @@ Sprites allow us to combine our images into a single file in Photoshop and using
 
 We adjust the position of the background image to only show a portion of it in the element—kind of like a clipping mask.
 
-*When doing sprites with SVG, you’ll likely need to add `background-size` to the SVG to force it scale properly.*
+### Changing images on hover
+
+The best way to change images when you hover is to use sprites: create a sprite with both the default and the hover versions of the images, then just apply some CSS.
+
+```css
+.star {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: transparent url("../images/star.svg") no-repeat 0 0;
+}
+
+.star:hover {
+  /* Change the background position on hover */
+  background-position: 0 -50px;
+}
+```
+
+The trick is to just adjust the background position when the user hovers over the element.
 
 **Links**
 

@@ -1,6 +1,8 @@
----
+
 group: web-dev-3
-playlist:
+playlist: PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk
+download: https://github.com/acgd-learn-the-web/javascript-debugging-code/archive/master.zip
+github: https://github.com/acgd-learn-the-web/javascript-debugging-code
 ---
 
 Broken code can be a nightmare, but there are lots of tools to help us debug our Javascript issues, many built into the browser.
@@ -125,12 +127,9 @@ Validation is a helpful way to find issues in your Javascript code—you can val
 
 ## Video list
 
-1. Javascript debugging: console
-2. Javascript debugging: console command line
-3. Javascript debugging: commenting out code chunks
-4. Javascript debugging: console logging
-5. Javascript debugging: console methods
-6. Javascript debugging: breaking & stepping
+1. [Javascript debugging: console](https://www.youtube.com/watch?v=7EoLvH7roYc&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk&index=1)
+2. [Javascript debugging: commenting out code](https://www.youtube.com/watch?v=oUW1e6g1oNc&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk&index=2)
+3. [Javascript debugging: breaking & stepping](https://www.youtube.com/watch?v=5m9Kfwx0rMs&index=3&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk)
 
 ## Supplemental links
 

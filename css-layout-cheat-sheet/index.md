@@ -26,6 +26,8 @@ groups:
       - name: '*Float*'
         details:
           - '*Controls whether text is wrapped around the element.*'
+          - '---'
+          - '&nbsp;'
           - '`float: left|right|none`'
           - '![](float.svg)'
           - 'Allows other elements to wrap around the element.'
@@ -46,6 +48,9 @@ groups:
           - 'Use on a parent element to force it to wrap around the floated children—a clearfix.'
       - name: '*Position*'
         details:
+          - '*Gives strict, coordinate-based control over layout.*'
+          - '---'
+          - '&nbsp;'
           - '`position: absolute`'
           - '![](absolute.svg)'
           - 'Move an element around based on coordinates.'
@@ -90,6 +95,17 @@ groups:
 
             .clearfix:after {
               clear: both;
+            }
+            ```
+      - name: '*Centering with absolute*'
+        details:
+          - 'Use `transform` to center an absolutely positioned element.'
+          - |
+            ```css
+            .content {
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
             }
             ```
 ---

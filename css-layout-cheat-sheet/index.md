@@ -38,7 +38,7 @@ groups:
           - '*Examples:* `#heading-1`, `#facebook`, `#top`'
 
 
-- title: 'Common code'
+  - title: 'Common code'
     items:
       - name: '*Clearfix*'
         details:

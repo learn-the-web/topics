@@ -9,17 +9,17 @@ groups:
         details:
           - '*Controls how an element is represented within the flow.*'
           - '---'
-          - ''
+          - '&nbsp;'
           - '`display: inline`'
           - '![](display-inline.svg)'
           - 'Allows other elements beside; margin, padding & width don’t work.'
           - '---'
-          - ''
+          - '&nbsp;'
           - '`display: block`'
           - '![](display-block.svg)'
           - 'Takes up an entire line; margin, padding & width work.'
           - '---'
-          - ''
+          - '&nbsp;'
           - '`display: inline-block`'
           - '![](display-inline-block.svg)'
           - 'Allows other elements beside; margin, padding & width work. Can create columns, but will force a space between boxes.'
@@ -48,7 +48,7 @@ groups:
     items:
       - name: '*Clearfix*'
         details:
-          - '*Can be used instead of `overflow: hidden`*'
+          - 'Can be used instead of `overflow: hidden`'
           - |
             ```css
             .clearfix:before,
@@ -63,7 +63,7 @@ groups:
             ```
       - name: '*Border box*'
         details:
-          - '*Used to change layout math for width & padding.*'
+          - 'Used to change layout math for width & padding.'
           - |
             ```css
             html {

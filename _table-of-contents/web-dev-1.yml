@@ -150,7 +150,6 @@ css-layout-cheat-sheet:
   tags: "layout position float columns box model margin padding cheat sheet"
   desc: "A cheat sheet for the basics of CSS layout properties."
   cheatsheet: true
-  disabled: true
 
 navigation:
   title: "Navigation"

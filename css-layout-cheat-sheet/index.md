@@ -46,8 +46,19 @@ groups:
           - 'Use on a parent element to force it to wrap around the floated children—a clearfix.'
       - name: '*Position*'
         details:
-          - 'Controls layering and specific locations within other elements.'
-          - '*Examples:* `#heading-1`, `#facebook`, `#top`'
+          - '`position: absolute`'
+          - '![](absolute.svg)'
+          - 'Move an element around based on coordinates.'
+          - '---'
+          - '&nbsp;'
+          - '`position: relative`'
+          - '![](relative.svg)'
+          - 'Added to a parent element to reset absolute child’s coordinates.'
+          - '---'
+          - '&nbsp;'
+          - '`z-index`'
+          - '![](z-index.svg)'
+          - 'Control the stacking order of elements—higher number is closer.'
 
 
   - title: 'Common code'

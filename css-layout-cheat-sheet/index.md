@@ -7,16 +7,19 @@ groups:
     items:
       - name: '*Display*'
         details:
-          - 'Controls how an element is represented within the flow.'
+          - '*Controls how an element is represented within the flow.*'
+          - '---'
           - '`display: inline`'
           - '![](display-inline.svg)'
-          - '*Allows other elements beside; margin, padding & width don’t work.*'
+          - 'Allows other elements beside; margin, padding & width don’t work.'
+          - '---'
           - '`display: block`'
           - '![](display-block.svg)'
-          - '*Takes up an entire line; margin, padding & width work.*'
+          - 'Takes up an entire line; margin, padding & width work.'
+          - '---'
           - '`display: inline-block`'
           - '![](display-inline-block.svg)'
-          - '*Allows other elements beside; margin, padding & width work. Can create columns, but will force a space between boxes.*'
+          - 'Allows other elements beside; margin, padding & width work. Can create columns, but will force a space between boxes.'
       - name: '*Float*'
         details:
           - 'Controls whether text is wrapped around the element.'

@@ -25,19 +25,25 @@ groups:
           - 'Allows other elements beside; margin, padding & width work. Can create columns, but will force a space between boxes.'
       - name: '*Float*'
         details:
-          - 'Controls whether text is wrapped around the element.'
+          - '*Controls whether text is wrapped around the element.*'
           - '`float: left|right|none`'
-          - '![]()'
-          - '*Allows other elements to wrap around the element.*'
+          - '![](float.svg)'
+          - 'Allows other elements to wrap around the element.'
+          - '---'
+          - '&nbsp;'
           - 'Multiple floats'
-          - '![]()'
-          - '*Can create columns with boxes touching sides.*'
+          - '![](multi-float.svg)'
+          - 'Can create columns with boxes touching sides.'
+          - '---'
+          - '&nbsp;'
           - '`clear: left|right|both`'
-          - '![]()'
-          - '*Force the element below floated elements.*'
+          - '![](clear.svg)'
+          - 'Force the element below floated elements.'
+          - '---'
+          - '&nbsp;'
           - '`overflow: hidden`'
-          - '![]()'
-          - '*Use on a parent element to force it to wrap around the floated children—a clearfix.*'
+          - '![](overflow.svg)'
+          - 'Use on a parent element to force it to wrap around the floated children—a clearfix.'
       - name: '*Position*'
         details:
           - 'Controls layering and specific locations within other elements.'
@@ -46,6 +52,20 @@ groups:
 
   - title: 'Common code'
     items:
+      - name: '*Border box*'
+        details:
+          - 'Used to change layout math for width & padding.'
+          - '**Put at the top of every CSS file.**'
+          - |
+            ```css
+            html {
+              box-sizing: border-box;
+            }
+
+            *, *::before, *::after {
+              box-sizing: inherit;
+            }
+            ```
       - name: '*Clearfix*'
         details:
           - 'Can be used instead of `overflow: hidden`'
@@ -59,19 +79,6 @@ groups:
 
             .clearfix:after {
               clear: both;
-            }
-            ```
-      - name: '*Border box*'
-        details:
-          - 'Used to change layout math for width & padding.'
-          - |
-            ```css
-            html {
-              box-sizing: border-box;
-            }
-
-            *, *::before, *::after {
-              box-sizing: inherit;
             }
             ```
 ---

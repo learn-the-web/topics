@@ -104,7 +104,6 @@ advanced-performance-checklist:
   tags: "performance speed download checklist"
   desc: "A checklist for website performance validation."
   checklist: true
-  disabled: true
   indent: 1
 
 404-pages:

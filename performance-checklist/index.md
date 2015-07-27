@@ -11,7 +11,7 @@ groups:
       - 'Page size: **800 KB** transfer size maximum.'
       - 'Requests: **20 requests** maximum.'
       - 'Pass: [Google Mobile Friendly Test](https://www.google.com/webmasters/tools/mobile-friendly/).'
-      - '[Google Page Speed](https://developers.google.com/speed/pagespeed/insights/): achieve green on Mobile & green on Desktop.'
+      - '[Google Page Speed](https://developers.google.com/speed/pagespeed/insights/): achieve yellow on Mobile & green on Desktop.'
 
 
   - title: 'Validation'

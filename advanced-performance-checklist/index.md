@@ -6,10 +6,10 @@ groups:
   - title: 'Performance Budget'
     note: 'Just an example; discuss with your team for what’s best for you.'
     items:
-      - 'Load time: < 1s (1000ms).'
-      - 'Speed index: < 800.<br>[WebPageTest](http://www.webpagetest.org/)'
-      - 'Page size: 800 KB transfer size maximum.'
-      - 'Requests: 20 requests maximum.'
+      - 'Load time: **< 1s** (1000ms).'
+      - 'Speed index: **< 800**.<br>[WebPageTest](http://www.webpagetest.org/)'
+      - 'Page size: **800 KB** transfer size maximum.'
+      - 'Requests: **20 requests** maximum.'
       - 'Pass: [Google Mobile Friendly Test](https://www.google.com/webmasters/tools/mobile-friendly/).'
       - '[Google Page Speed](https://developers.google.com/speed/pagespeed/insights/): achieve green on Mobile & green on Desktop.'
 
@@ -41,8 +41,8 @@ groups:
     items:
       - 'Redundant HTML has been removed: no divitus, no hidden content, etc.'
       - 'All broken links and resources are removed.'
-      - 'HTML has been minified. [CloudFlare](https://www.cloudflare.com/)'
-      - 'SVGs are embedded when they are only used on a single page.'
+      - 'HTML has been minified.<br>[CloudFlare](https://www.cloudflare.com/)'
+      - 'SVGs are embedded when only used on a single page.'
       - 'Offscreen images are loaded on demand.'
       - 'Put CSS `<link>` tags at the top, inside `<head>`'
       - 'Duplicate and redundant CSS has been removed.'
@@ -60,7 +60,7 @@ groups:
     items:
       - 'Resources sent in a compressed format.'
       - 'Specify character set for all text-based resources.'
-      - 'Send proper caching headers.'
+      - 'Proper caching headers sent.'
       - 'Use a content delivery network (CDN) to serve your images.<br>[CloudFlare](https://www.cloudflare.com/), [KeyCDN](https://www.keycdn.com/)'
       - 'Website hosted on a fast server, ideally with CDN features.'
       - 'Server uses HTTP/2 where possible.'

@@ -3,6 +3,8 @@ group: web-dev-3
 playlist: PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y
 download: https://github.com/acgd-learn-the-web/dom-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/dom-code
+cheatsheet: javascript-cheat-sheet
+checklist: javascript-checklist
 ---
 
 The DOM—Document Object Model—is the system that Javascript uses to interact with HTML. The DOM is really Javascript’s representation of your HTML document that can be fully manipulated.

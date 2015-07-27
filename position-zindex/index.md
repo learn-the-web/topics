@@ -3,6 +3,7 @@ group: web-dev-1
 playlist: PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP
 download: https://github.com/acgd-learn-the-web/position-zindex-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/position-zindex-code
+cheatsheet: css-layout-cheat-sheet
 ---
 
 Position allows us to move elements around on the screen and bypass the browser’s flow.

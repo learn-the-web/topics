@@ -3,6 +3,7 @@ group: web-dev-1
 playlist: PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7
 download: https://github.com/acgd-learn-the-web/using-images-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/using-images-code
+cheatsheet: images-cheat-sheet
 ---
 
 Images are a very critical part of modern web design—and there’s lots of different way to use and generate images on websites.

@@ -1,6 +1,7 @@
 ---
 group: web-dev-1
 playlist: PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD
+checklist: performance-checklist
 ---
 
 Making your website fast is extremely important for usability and probably one of *the* most important design considerations for the web.

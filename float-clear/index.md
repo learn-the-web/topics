@@ -3,6 +3,7 @@ group: web-dev-1
 playlist: PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0
 download: https://github.com/acgd-learn-the-web/float-clear-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/float-clear-code
+cheatsheet: css-layout-cheat-sheet
 ---
 
 Floats and clearing are used to allow text to wrap around an object. With more complex usage, floats can be used to create complex layouts, including columns and grids.

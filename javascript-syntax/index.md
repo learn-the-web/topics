@@ -3,6 +3,8 @@ group: web-dev-3
 playlist: PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU-y6EFRMlkA
 download: https://github.com/acgd-learn-the-web/javascript-intro-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-intro-code
+cheatsheet: javascript-cheat-sheet
+checklist: javascript-checklist
 ---
 
 Javascript is a general purpose programming language originally created for use inside web browsers, but now works just as well on servers.

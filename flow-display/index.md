@@ -3,6 +3,7 @@ group: web-dev-1
 playlist: PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG
 download: https://github.com/acgd-learn-the-web/flow-display-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/flow-display-code
+cheatsheet: css-layout-cheat-sheet
 ---
 
 Browsers use “The Flow” to display elements on the page—understanding flow and display are critical to laying out websites.

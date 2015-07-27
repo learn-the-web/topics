@@ -7,20 +7,11 @@ groups:
     note: 'Just an example; discuss with your team for what’s best for you.'
     items:
       - 'Load time: < 1s (1000ms).'
-      - 'Speed index: < 800.'
+      - 'Speed index: < 800.<br>[WebPageTest](http://www.webpagetest.org/)'
       - 'Page size: 800 KB transfer size maximum.'
       - 'Requests: 20 requests maximum.'
-      - 'Pass: Google Mobile Friendly Test.'
-      - 'Page Speed: achieve green on Mobile & green on Desktop.'
-
-
-  - title: 'Testing'
-    items:
-      - 'Tested with a slow/unreliable Internet connection.'
-      - 'Testing in many large screen browsers.'
-      - 'Testing in many small screen browsers.'
-      - 'Achieves high grades in web performance tests.<br>[WebPageTest](http://www.webpagetest.org/), [Google Page Speed](https://developers.google.com/speed/pagespeed/insights/), [YSlow](http://yslow.org/).'
-      - 'Passes [Google Mobile Friendly Test](https://www.google.com/webmasters/tools/mobile-friendly/).'
+      - 'Pass: [Google Mobile Friendly Test](https://www.google.com/webmasters/tools/mobile-friendly/).'
+      - '[Google Page Speed](https://developers.google.com/speed/pagespeed/insights/): achieve green on Mobile & green on Desktop.'
 
 
   - title: 'Design'
@@ -35,6 +26,15 @@ groups:
       - 'Appropriate PNGs have reduced colour palettes.<br>[ImageAlpha](http://pngmini.com/)'
       - 'Use CSS sprites or DataURIs where appropriate.'
       - 'Page scrolling is smooth.'
+
+
+  - title: 'Testing'
+    items:
+      - 'Tested with a slow/unreliable Internet connection.'
+      - 'Testing in many large screen browsers.'
+      - 'Testing in many small screen browsers.'
+      - 'Achieves high grades in web performance tests.<br>[WebPageTest](http://www.webpagetest.org/), [Google Page Speed](https://developers.google.com/speed/pagespeed/insights/), [YSlow](http://yslow.org/).'
+      - 'Passes [Google Mobile Friendly Test](https://www.google.com/webmasters/tools/mobile-friendly/).'
 
 
   - title: 'Code'

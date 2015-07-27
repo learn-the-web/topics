@@ -14,6 +14,22 @@ groups:
       - '[Google Page Speed](https://developers.google.com/speed/pagespeed/insights/): achieve green on Mobile & green on Desktop.'
 
 
+  - title: 'Testing'
+    items:
+      - '![](web-page-test.png)'
+      - '![](mobile-friendly.png)'
+      - '![](page-speed.png)'
+
+
+  - title: 'Testing'
+    items:
+      - 'Tested with a slow/unreliable Internet connection.'
+      - 'Testing in many large screen browsers & devices.'
+      - 'Testing in many small screen browsers & devices.'
+      - 'Achieves high grades in web performance tests.<br>[WebPageTest](http://www.webpagetest.org/), [Google Page Speed](https://developers.google.com/speed/pagespeed/insights/), [YSlow](http://yslow.org/).'
+      - 'Passes [Google Mobile Friendly Test](https://www.google.com/webmasters/tools/mobile-friendly/).'
+
+
   - title: 'Design'
     items:
       - 'Conforms to your performance budget.'
@@ -26,15 +42,6 @@ groups:
       - 'Appropriate PNGs have reduced colour palettes.<br>[ImageAlpha](http://pngmini.com/)'
       - 'Use CSS sprites or DataURIs where appropriate.'
       - 'Page scrolling is smooth.'
-
-
-  - title: 'Testing'
-    items:
-      - 'Tested with a slow/unreliable Internet connection.'
-      - 'Testing in many large screen browsers.'
-      - 'Testing in many small screen browsers.'
-      - 'Achieves high grades in web performance tests.<br>[WebPageTest](http://www.webpagetest.org/), [Google Page Speed](https://developers.google.com/speed/pagespeed/insights/), [YSlow](http://yslow.org/).'
-      - 'Passes [Google Mobile Friendly Test](https://www.google.com/webmasters/tools/mobile-friendly/).'
 
 
   - title: 'Code'

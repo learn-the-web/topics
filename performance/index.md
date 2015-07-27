@@ -103,35 +103,25 @@ Here’s an example performance budget that might work for you:
 
 ---
 
-## Basic performance checklist
+## Basic performance techniques
 
-Here’s a list of quick things to help fix performance problems on your website, especially to speed up download time.
+Here’s a list of things to help fix performance problems on your website, especially to speed up download time.
 
 Use these in conjunction with a performance budget to get the fastest website possible.
 
-### Design considerations
+The thing that affects the website’s performance the most is images—spend lots of time on optimizing images:
 
-- ❏ Use as few resources as possible (images, CSS files, JS files, etc.)
-- ❏ [Make sure to properly “Save for Web” from Photoshop](../images-formats/#image-types)
-- ❏ [Smush all images after saving them](../images-formats/#image-smushing)
+- Use as few images as possible
+- Properly save them with “Save for Web” from Photoshop
+- Smush them with ImageOptim or SVGO
+- Don’t make them bigger than they need to be in the design
 
-### Code considerations
+A few other things you can do to your website to make it load faster are:
 
-- ❏ Put CSS `<link>` tags at the top, inside `<head>`
-- ❏ Put JS `<script>` tags at the bottom, right before the closing `</body>`
-- ❏ Remove any unused or duplicate CSS and JS
-- ❏ [Use CSS sprites or DataURIs where appropriate](../images-formats/#css-sprites)
-- ❏ Concatenate & minify HTML, CSS, and JS
-	Concatenate automatically with a tool: [Grunt](http://gruntjs.com/), [Gulp](http://gulpjs.com/), [Prepros](https://prepros.io/), [CodeKit](http://incident57.com/codekit/), [ProCSSor](http://procssorapp.com/)
-	Minify automatically with one of those tools or use CloudFlare
-
-### Server considerations
-
-- ❏ Send resources GZipped, by setting up your server
-- ❏ Send proper caching headers using your server
-- ❏ Use a content delivery network (CDN) to serve your images
-
-*If you’re using GitHub as a host you can’t control any of these unless you use a [custom domain and CloudFlare](https://github.com/algonquindesign/resources/tree/master/domains).*
+- Remove any unused or duplicate HTML & CSS
+- Make sure there’s no broken links
+- Put your CSS `<link>` tag at the top of the HTML
+- Be careful not to use too many font styles
 
 **Links**
 
@@ -140,35 +130,6 @@ Use these in conjunction with a performance budget to get the fastest website po
 - [14 Rules for Faster-Loading Web Sites](http://stevesouders.com/hpws/rules.php)
 - [The Complete Guide to Reducing Page Weight](http://www.sitepoint.com/complete-guide-reducing-page-weight/)
 - [Front-end performance for web designers and front-end developers](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/)
-
----
-
-## Content delivery networks
-
-Content delivery networks (CDNs) allow us to distribute our resources around the world on lots of different servers. Then when a user downloads our website they receive the file from the server that’s closest to them making it download more quickly.
-
-Most often we put our static files on CDNs, primarily images, because they’re the files that most benefit from CDNs.
-
-### CloudFlare
-
-CloudFlare is a very popular CDN with lots of great free features. But not only do they provide CDN features—automatically—they also perform other performance tasks: like minification, caching headers, gzipping and more.
-
-[CloudFlare becomes our DNS provider](https://github.com/algonquindesign/resources/tree/master/domains#better-security-and-performance-with-cloudflare) and these options are fairly automatic after setting up.
-
-They even provide a bunch of security features like DDOS protection and free SSL for websites.
-
-*If you’re hosting on GitHub you’ll have to use a [custom domain](https://github.com/algonquindesign/resources/tree/master/domains) in order to take advantage of CloudFlare.*
-
-**Links**
-
-- [Know When to CDN](http://www.kendoui.com/blogs/teamblog/posts/13-11-07/know-when-to-cdn.aspx)
-- **[CloudFlare](https://www.cloudflare.com/)** — also provides security, minification, caching headers
-- **[cdnjs](http://cdnjs.com/)**
-- [KeyCDN](https://www.keycdn.com/)
-- [Coral CDN](http://www.coralcdn.org/)
-- [Amazon CloudFront](http://aws.amazon.com/cloudfront/)
-- [MaxCDN](http://www.maxcdn.com/)
-- [Kraken.io](https://kraken.io/)
 
 ---
 

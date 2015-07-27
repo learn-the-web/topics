@@ -14,7 +14,7 @@ groups:
       - '[Google Page Speed](https://developers.google.com/speed/pagespeed/insights/): achieve green on Mobile & green on Desktop.'
 
 
-  - title: 'Testing'
+  - title: 'Validation'
     items:
       - '![](web-page-test.png)'
       - '![](mobile-friendly.png)'

@@ -55,12 +55,12 @@ javascript-accessibility:
   tags: "javascript animations events common components tabs toggle panels buttons lightbox accessibility focus keyboard wai aria"
   desc: "Looking at common Javascript patterns & components and how we can make them more accessible."
 
-responsive-animated-info-graphic:
-  title: "Responsive animated info graphic"
+responsive-animated-dashboard:
+  title: "Responsive animated dashboard"
   fullsite: true
   disabled: true
-  tags: "full website responsive javascript info graphic animations transitions effects svg"
-  desc: "Walking through creating a complex, responsive, interactive, and animated info graphic."
+  tags: "full website responsive javascript dashboard animations transitions effects svg"
+  desc: "Walking through creating a complex, responsive, interactive, and animated dashboard interface."
 
 launch-checklist-web-dev-3:
   title: "Launch checklist, Web Dev 3"

@@ -138,6 +138,9 @@ A few other things you can do to your website to make it load faster are:
 
 1. [Performance: browser developer tools](https://www.youtube.com/watch?v=8OGVUvrInWo&index=1&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)
 2. [Performance: online tools](https://www.youtube.com/watch?v=ifMHChSpZfE&index=2&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)
+3. [Performance: images](https://www.youtube.com/watch?v=bfkwvwK28Vs&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD&index=3)
+4. [Performance: code](https://www.youtube.com/watch?v=fMJIgVrceUQ&index=4&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)
+5. [Performance: fonts](https://www.youtube.com/watch?v=wPKu4l9hWCE&index=5&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)
 
 ## Supplemental links
 

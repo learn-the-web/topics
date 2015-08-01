@@ -183,7 +183,6 @@ performance-checklist:
 from-wireframe-to-website:
   title: "From wireframe to website"
   fullsite: true
-  disabled: true
   tags: "full website wireframe mockup production assets exporting saving save for web images layouts"
   desc: "A full small screen website creation walk-through starting with a wireframe."
 

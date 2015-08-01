@@ -58,7 +58,6 @@ javascript-accessibility:
 responsive-animated-dashboard:
   title: "Responsive animated dashboard"
   fullsite: true
-  disabled: true
   tags: "full website responsive javascript dashboard animations transitions effects svg"
   desc: "Walking through creating a complex, responsive, interactive, and animated dashboard interface."
 

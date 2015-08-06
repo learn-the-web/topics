@@ -188,7 +188,7 @@ groups:
           - 'When the page loads, this field will be focused.'
           - '*Be really careful, only use this when the whole purpose of the page is to fill the form.*'
 
-  - title: 'CSS properties'
+  - title: 'CSS selectors'
     items:
       - name: '`:focus`'
         details:

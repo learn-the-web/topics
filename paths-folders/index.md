@@ -35,21 +35,21 @@ When creating a path within the same folder we only need to specify the filename
 
 ![](same-folder.jpg)
 
-- From: `index.html` to: `plesiosaurs.html`<br>
+- From: `index.html` to: `plesiosaurs.html`
 	— Path: `plesiosaurs.html`
-- From: `index.html` to: `pterosaurs.html`<br>
+- From: `index.html` to: `pterosaurs.html`
 	— Path: `pterosaurs.html`
 
 ![](same-folder-inside.jpg)
 
 Even if we’re inside a folder and need to get to another file in that same folder we just write the name of it.
 
-- From: `apatosaurus.html` to `tyrannosaurus.html`<br>
+- From: `apatosaurus.html` to `tyrannosaurus.html`
 	— Path: `tyrannosaurus.html`
 
 We can start these paths with `./` and get the same effect:
 
-- From: `index.html` to: `pterosaurs.html`<br>
+- From: `index.html` to: `pterosaurs.html`
 	— Path: `./pterosaurs.html`
 
 *The `./` is implicit, meaning it will be added if we don’t add it ourselves.*
@@ -62,11 +62,11 @@ To write a path that moves into a folder we specify the folder name, followed by
 
 ![](into-folders.jpg)
 
-- From: `index.html` to: `tyrannosaurus.html`<br>
+- From: `index.html` to: `tyrannosaurus.html`
 	— Path: `dinosaurs/tyrannosaurus.html`
-- From: `index.html` to: `main.css`<br>
+- From: `index.html` to: `main.css`
 	— Path: `css/main.css`
-- From: `index.html` to: `logo.svg`<br>
+- From: `index.html` to: `logo.svg`
 	— Path: `images/logo.svg`
 
 ### Sub-folder index
@@ -75,7 +75,7 @@ If a folder has its own `index.html` file we don’t need to specify that in the
 
 ![](index.jpg)
 
-- From: `pterosaurs.html` to: `index.html`<br>
+- From: `pterosaurs.html` to: `index.html`
 	— Path: `dinosuars/`
 
 ---
@@ -86,11 +86,11 @@ When moving out of folders we use `../`, then follow all the rules above.
 
 ![](out-folders.jpg)
 
-- From: `apatosaurus.html` to: `pterosaurs.html`<br>
+- From: `apatosaurus.html` to: `pterosaurs.html`
 	— Path: `../pterosaurs.html`
-- From: `apatosaurus.html` to: `main.css`<br>
+- From: `apatosaurus.html` to: `main.css`
 	— Path: `../css/main.css`
-- From: `apatosaurus.html` to: `logo.svg`<br>
+- From: `apatosaurus.html` to: `logo.svg`
 	— Path: `../images/logo.svg`
 
 If you need to go out of many folders, just add more:

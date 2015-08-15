@@ -225,7 +225,7 @@ We probably want to style the navigate button a little more with images, etc. Ch
 3. [Navigation: highlighting the current page](https://www.youtube.com/watch?v=l9niaFJh8Gs&index=3&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
 4. [Navigation: footer anchor pattern](https://www.youtube.com/watch?v=iExUQXBvars&index=4&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
 5. [Navigation: grid pattern](https://www.youtube.com/watch?v=WLrC4toQ4cE&index=5&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
-6. [Navigation: toggle navigation](https://www.youtube.com/watch?v=02K9uz0wJLE&index=6&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
+6. [Navigation: toggle pattern](https://www.youtube.com/watch?v=02K9uz0wJLE&index=6&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
 
 ## Supplemental links
 

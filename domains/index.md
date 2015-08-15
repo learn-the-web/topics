@@ -219,8 +219,8 @@ CloudFlare will say something about CNAME Flattening—and you’re good to go!
 
 ## Video list
 
-1. [Domains & DNS: How the web works](https://www.youtube.com/watch?v=rE7BjLw1UxY&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p&index=1)
-2. [Domains & DNS: Purchasing a domain](https://www.youtube.com/watch?v=yFrW8zXVFSs&index=2&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
+1. [Domains & DNS: how the web works](https://www.youtube.com/watch?v=rE7BjLw1UxY&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p&index=1)
+2. [Domains & DNS: purchasing a domain](https://www.youtube.com/watch?v=yFrW8zXVFSs&index=2&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
 3. [Domains & DNS: MX records for e-mail services](https://www.youtube.com/watch?v=kiQFbZUa2uQ&index=3&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
 4. [Domains & DNS: A records for hosts](https://www.youtube.com/watch?v=F1VmaHhDGsA&index=4&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)
 5. [Domains & DNS: CloudFlare](https://www.youtube.com/watch?v=JVSE2ej8fQI&index=5&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p)

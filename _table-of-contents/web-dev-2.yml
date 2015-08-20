@@ -30,7 +30,7 @@ grids:
 gridifier:
   title: "Gridifier"
   tags: "modular responsive grids tools generate gridifier"
-  tool: "http://thomasjbradley.github.io/gridifier/"
+  tool: "http://gridifier.web-dev.tools"
   indent: 1
   highlight: true
 
@@ -49,7 +49,7 @@ modular-typography:
 typografier:
   title: "Typografier"
   tags: "modular responsive typography tools generate typografier"
-  tool: "http://thomasjbradley.github.io/typografier/"
+  tool: "http://typografier.web-dev.tools"
   indent: 1
   highlight: true
 

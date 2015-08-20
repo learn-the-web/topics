@@ -31,7 +31,7 @@ When looking at simplifying your CSS there a few things you can consider:
 - Look for common patterns, common design items with small variations, like buttons, or horizontal lists, and extract those into reusable classes.
 - Use min-width media queries so you don’t have to copy and paste all your CSS into each new MQ.
 
-If you’re using a [grid system](http://tjb.io/grids) or the [modular type system](http://tjb.io/type), they often come with a bunch of abstracted CSS classes to help you out.
+If you’re using a [grid system](http://gridifier.web-dev.tools) or the [modular type system](http://typografier.web-dev.tools), they often come with a bunch of abstracted CSS classes to help you out.
 
 Some utility classes you could consider:
 
@@ -130,7 +130,7 @@ And apply it to my HTML like this:
 
 So now the button inherits all the CSS from the standard `.btn` class plus the slightly modified `.btn-bright` class—creating much less duplicated CSS.
 
-If you have a [modular type system](http://tjb.io/type) you can use the font-size classes to adjust the size of the button with another class:
+If you have a [modular type system](http://typografier.web-dev.tools) you can use the font-size classes to adjust the size of the button with another class:
 
 ```html
 <!-- Inheriting the .mega class from the type system -->

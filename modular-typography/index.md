@@ -6,7 +6,7 @@ github: https://github.com/acgd-learn-the-web/modular-typography-code
 cheatsheet: typografier-cheat-sheet
 tool:
   name: Typografier
-  url: http://thomasjbradley.github.io/typografier/
+  url: http://typografier.web-dev.tools
 ---
 
 Creating a modular typography system in CSS creates an extremely reusable font-size system with a harmonious vertical rhythm.
@@ -259,7 +259,7 @@ With a few media queries at the top of our `typography.css` file we can increase
 
 You probably don’t want to create all the type sizes and scales every time you start a website. So using modular type generator is helpful.
 
-**[Check out Typografier](http://tjb.io/type)**, a tool I created for myself to generate the code for a responsive, modular type system.
+**[Check out Typografier](http://typografier.web-dev.tools)**, a tool I created for myself to generate the code for a responsive, modular type system.
 
 ### Pre-built modular type frameworks
 

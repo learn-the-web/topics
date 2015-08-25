@@ -16,12 +16,6 @@ markdown:
   desc: "Understanding the Markdown markup language that’s used in many locations including GitHub."
   indent: 1
 
-writing-a-readme:
-  title: "Writing a readme"
-  tags: "writing project readme .md markdown commonmark github plain text"
-  desc: "A quick overview of writing a helpful readme for your web project."
-  indent: 2
-
 markdown-cheat-sheet:
   title: "Markdown cheat sheet"
   tags: "writing markdown syntax cheat sheet"
@@ -29,6 +23,12 @@ markdown-cheat-sheet:
   indent: 2
   cheatsheet: true
   disabled: true
+
+writing-a-readme:
+  title: "Writing a readme"
+  tags: "writing project readme .md markdown commonmark github plain text"
+  desc: "A quick overview of writing a helpful readme for your web project."
+  indent: 1
 
 video:
   title: "Video"

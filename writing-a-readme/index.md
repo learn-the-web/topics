@@ -8,7 +8,49 @@ The readme is one of the most important files in a open project, helping users u
 
 ## README.md
 
-*Yes, uppercase. ̛I know it breaks all our naming convention. It’s a bit shouty but a historical convention.*
+*Yes, uppercase. ̛I know it breaks all our naming conventions. It’s a bit shouty but a historical convention because uppercase letters are sorted to the top of file lists.*
+
+The readme file is the go-to file for any open source and public project: a place to give people an overview of all the important information about the project.
+
+Readmes are almost always plain-text files, and **[☛ Markdown](/topics/markdown/)** has become a very popular formatting system for the files to keep them organized.
+
+### What to include
+
+- **Title** — at the very top, in a heading, try to make it descriptive and unique
+- **Version** — the current version of your project, preferably using [Semantic versioning](#semantic-versioning)
+- **Description & motivation** — share your vision, *why* you made it, its purpose
+- **Installation instructions** — how to get it up and running, dependencies, examples, etc.
+- **Use instructions, quick start documentation & troubleshooting** — descriptive examples *with code*, obvious, concise, common problems and gotchas, etc.
+- **Demos** — links to live examples if possible
+- **Contributors & how to get involved** — who is involved & contact information, how others can contribute, report bugs, feature requests
+- **License** — copyright and licensing information, link to license file, bibliographic entries for other sources used, etc.
+
+### Semantic versioning
+
+When adding a version number to your project there’s a common system that many projects follow—using three numbers separated by periods.
+
+*Some examples:*
+
+```
+1.0.0
+0.10.4
+4.1.8
+1.1.0
+```
+
+Each number has a specific meaning and they break down like this: `MAJOR.MINOR.PATCH`:
+
+- *Patch* — increment this number when you make small, backwards-compatible changes, bug fixes
+- *Minor* — increment this number when you add something new, that’s still backwards-compatible
+  Changing this number resets the Patch number to 0.
+- *Major* — increment this number when you add something that will break everything else, backwards-incompatible changes
+  Changing this number resets the Minor and Patch numbers to 0.
+
+*The numbers aren’t like math decimals, when you hit “10” it doesn’t increase the previous number.*
+
+**Links**
+
+- [Semantic Versioning](http://semver.org/)
 
 ---
 
@@ -70,7 +112,7 @@ Somethings consider adding to your change log:
 
 - Reverse chronological order of versions
 - Each version should have a date written in ISO 8601 standard: YYYY-MM-DD
-- A version number for each release and whether the project follows [Semantic Versioning] or not
+- A version number for each release and whether the project follows [Semantic Versioning](#semantic-versioning) or not
 - Links to important sections an out to issues, documentation, etc.
 - Each version entry should contain this information:
   - “Added” — new features added to the project
@@ -85,6 +127,10 @@ Somethings consider adding to your change log:
 - **[Keep a CHANGELOG](http://keepachangelog.com/)**
 
 ---
+
+## Video list
+
+1. Writing a readme
 
 ## Supplemental links
 

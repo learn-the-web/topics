@@ -180,6 +180,7 @@ This data can then be used in lots of applications, including Jekyll.
 - [Markdown Basics](http://daringfireball.net/projects/markdown/basics)
 - [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax)
 - [CommonMark](http://commonmark.org/)
+- [10 Useful Resources for Learning Markdown Syntax](http://sixrevisions.com/resources/learning-markdown-syntax/)
 
 ### Markdown apps
 
@@ -189,3 +190,5 @@ This data can then be used in lots of applications, including Jekyll.
 - [Markdrop](http://www.markdrop.com/)
 - [Mou](http://mouapp.com/)
 - [Byword](http://bywordapp.com/)
+- [Writage](http://www.writage.com/)
+- [The Best Markdown Editor for Windows](http://www.sitepoint.com/best-markdown-editors-windows/)

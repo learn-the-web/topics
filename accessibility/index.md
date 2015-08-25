@@ -295,6 +295,7 @@ Here’s some shortcut keys for using VoiceOver:
 - [HTML5 Accessibility](http://html5accessibility.com/)
 - [456 Berea Street](http://www.456bereastreet.com/)
 - [Accessibility Wins](http://a11ywins.tumblr.com/)
+- [A11y Project](http://a11yproject.com/)
 
 ### Articles
 

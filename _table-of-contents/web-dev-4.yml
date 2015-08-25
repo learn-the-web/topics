@@ -21,7 +21,6 @@ writing-a-readme:
   tags: "writing project readme .md markdown commonmark github plain text"
   desc: "A quick overview of writing a helpful readme for your web project."
   indent: 2
-  disabled: true
 
 markdown-cheat-sheet:
   title: "Markdown cheat sheet"

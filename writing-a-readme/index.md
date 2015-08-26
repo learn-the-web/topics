@@ -48,9 +48,19 @@ Each number has a specific meaning and they break down like this: `MAJOR.MINOR.P
 
 *The numbers aren’t like math decimals, when you hit “10” it doesn’t increase the previous number.*
 
+#### Version number matching
+
+Sometimes you’ll see version numbers starting with a tilde or a caret. Specifically when referencing version of other code used in your applications (dependencies).
+
+The two characters denote what versions are compatible with your project.
+
+- **^** — tilde, any backwards compatible change, MINOR or PATCH version changes, e.g. 2.*.*
+- **~** — caret, only bug fix changes, PATCH version updates, e.g. 2.1.*
+
 **Links**
 
 - [Semantic Versioning](http://semver.org/)
+- [Semver explained - why there’s a caret (^) in my package.json?](http://bytearcher.com/articles/semver-explained-why-theres-a-caret-in-my-package-json/)
 
 ---
 
@@ -131,6 +141,8 @@ Somethings consider adding to your change log:
 ## Video list
 
 1. Writing a readme
+2. Adding a license
+3. Creating a change log
 
 ## Supplemental links
 

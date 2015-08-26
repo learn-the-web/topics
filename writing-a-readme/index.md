@@ -35,7 +35,7 @@ When adding a version number to your project there’s a common system that many
 1.0.0
 0.10.4
 4.1.8
-1.1.0
+1.7.24
 ```
 
 Each number has a specific meaning and they break down like this: `MAJOR.MINOR.PATCH`:
@@ -68,7 +68,7 @@ The two characters denote what versions are compatible with your project.
 
 When creating a public-facing or open source project, beyond the readme, there’s a few other files you should consider adding.
 
-## License
+### License
 
 `LICENSE`, `LICENSE.md`
 

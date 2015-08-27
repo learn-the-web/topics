@@ -146,6 +146,7 @@ Somethings consider adding to your change log:
 
 ## Supplemental links
 
+- **[18F’s Guide to making READMEs readable](https://pages.18f.gov/open-source-guide/making-readmes-readable/)**
 - [Wikipedia: Readme](https://en.wikipedia.org/wiki/README)
 - [README.md template](https://gist.github.com/jxson/1784669)
 - [A Beginner’s Guide to Creating a README](https://changelog.com/a-beginners-guide-to-creating-a-readme/)

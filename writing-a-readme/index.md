@@ -140,9 +140,9 @@ Somethings consider adding to your change log:
 
 ## Video list
 
-1. Writing a readme
-2. Adding a license
-3. Creating a change log
+1. Writing a readme: writing a readme
+2. Writing a readme: adding a license
+3. Writing a readme: creating a change log
 
 ## Supplemental links
 

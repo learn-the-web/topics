@@ -211,6 +211,12 @@ YAML front matter is used to structure pieces of information, and Markdown is us
 
 ---
 
+## Video list
+
+1. Writing for the web: using screen reader for proofing
+2. Writing for the web: writing an interface
+3. Writing for the web: content templates
+
 ## Supplemental links
 
 - **[Voice & Tone](http://voiceandtone.com/)**

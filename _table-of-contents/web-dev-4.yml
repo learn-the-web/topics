@@ -9,6 +9,14 @@ writing-for-the-web:
   tags: "writing web why short length style keywords personality emotion connection adaptive content"
   desc: "Understanding how people read on the web and how to write text for better connections."
 
+writing-checklist:
+  title: "Writing checklist"
+  tags: "writing markdown syntax web why checklist style guide"
+  desc: "A checklist for double checking website content, text and style."
+  indent: 1
+  checklist: true
+  disabled: true
+
 markdown:
   title: "Markdown"
   tags: "markdown processor html headings daring fireball john gruber commonmark"
@@ -35,14 +43,6 @@ writing-a-readme:
   tags: "writing project readme .md markdown commonmark github plain text"
   desc: "A quick overview of writing a helpful readme for your web project."
   indent: 1
-
-writing-checklist:
-  title: "Writing checklist"
-  tags: "writing markdown syntax web why checklist style guide"
-  desc: "A checklist for double checking website content, text and style."
-  indent: 1
-  checklist: true
-  disabled: true
 
 video:
   title: "Video"

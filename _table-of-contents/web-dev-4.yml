@@ -6,7 +6,6 @@ domains:
 
 writing-for-the-web:
   title: "Writing for the Web"
-  disabled: true
   tags: "writing web why short length style keywords personality emotion connection adaptive content"
   desc: "Understanding how people read on the web and how to write text for better connections."
 

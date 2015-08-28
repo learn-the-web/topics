@@ -32,9 +32,10 @@ writing-a-readme:
 
 writing-checklist:
   title: "Writing checklist"
-  tags: "writing markdown syntax web why style guide"
-  desc: "A cheat sheet for double checking website content, text and style."
+  tags: "writing markdown syntax web why checklist style guide"
+  desc: "A checklist for double checking website content, text and style."
   indent: 1
+  checklist: true
   disabled: true
 
 video:

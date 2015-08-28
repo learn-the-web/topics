@@ -15,10 +15,17 @@ markdown:
   desc: "Understanding the Markdown markup language that’s used in many locations including GitHub."
   indent: 1
 
-markdown-cheat-sheet:
-  title: "Markdown cheat sheet"
-  tags: "writing markdown syntax cheat sheet"
-  desc: "A cheat sheet for understanding and writing in the Markdown language."
+yaml:
+  title: "YAML"
+  tags: "yaml markdown markup language processor jekyll"
+  desc: "Understanding YAML, another markup language, that’s great for structured content."
+  indent: 1
+  disabled: true
+
+markdown-yaml-cheat-sheet:
+  title: "Markdown & YAML cheat sheet"
+  tags: "writing yaml markdown syntax cheat sheet"
+  desc: "A cheat sheet for understanding and writing in Markdown and YAML."
   indent: 2
   cheatsheet: true
   disabled: true

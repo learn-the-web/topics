@@ -51,17 +51,17 @@ code-character-cheat-sheet:
   indent: 1
   cheatsheet: true
 
+installing-and-using-github:
+  title: "Installing & using GitHub"
+  tags: "github use committing syncing undo saving history messages descriptions installing mac windows setup application"
+  desc: "Installing and using GitHub on your computer to store the code’s history and undo states and synchronize."
+  disabled: true
+
 version-control:
-  title: "Version control"
+  title: "Version control in depth"
   tags: "github version control history undo saving"
   desc: "Understanding the value of version control and how it helps us."
-
-installing-github:
-  title: "Installing GitHub"
-  tags: "github installing mac windows setup application"
-  desc: "Installing and setting up GitHub on your computer."
   indent: 1
-  disabled: true
 
 github-pages:
   title: "Hosting with GitHub Pages"
@@ -69,19 +69,6 @@ github-pages:
   desc: "Understanding how to use GitHub Pages to host your website."
   indent: 1
   highlight: true
-
-github-use-and-committing:
-  title: "GitHub use & committing"
-  tags: "github use committing syncing undo saving history messages descriptions"
-  desc: "Using GitHub to store the code’s history and undo states and synchronize."
-  indent: 1
-  disabled: true
-
-commit-messages:
-  title: "Commit message conventions"
-  tags: "github use committing messages conventions descriptions system"
-  desc: "Writing commit messages that the whole team understands."
-  indent: 2
 
 branching-github-flow:
   title: "Branching & GitHub Flow"
@@ -93,6 +80,12 @@ github-issues:
   title: "GitHub Issues"
   tags: "github issues labels descriptions project management problems help"
   desc: "What GitHub Issues do for use and how to use them for getting feedback, tracking progress, and more."
+  indent: 1
+
+commit-messages:
+  title: "Commit message conventions"
+  tags: "github use committing messages conventions descriptions system"
+  desc: "Writing commit messages that the whole team understands."
   indent: 1
 
 naming-conventions:

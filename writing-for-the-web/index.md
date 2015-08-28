@@ -1,5 +1,9 @@
 ---
 group: web-dev-4
+playlist:
+download: https://github.com/acgd-learn-the-web/writing-samples/archive/master.zip
+github: https://github.com/acgd-learn-the-web/writing-samples
+checklist: writing-checklist
 ---
 
 The words you choose for your design are equally—if not more—important than the colours and layout of your design. Without words your website isn’t understandable.
@@ -30,9 +34,13 @@ The words of your website and interface convey so much information about you, yo
 
 **They don’t.** But they will, if they’re interested.
 
-- People generally scan for important keywords
-- Eye-tracking studies from 2008 show less than 20% of text is actually read
-- People only read pages word by word if they are really interested
+Some older eye-tracking studies (2008) show that less than 20% of text is actually read.
+
+When people first come to a page they generally scan for important keywords, looking for things that catch their eye. People usually have a specific purpose when they come to your website: to find some information. So they scan until they find something recognizable.
+
+If they find a recognizable piece they’ll read a little further. If people feel that you have answers to their questions then they’ll read in-depth. But the content has to be enticing.
+
+Our eyes jump around the page focusing really quickly on different things: headings, lists, bold words, etc. trying to find the information. *Watch the video below to see it in action.*
 
 **Links**
 
@@ -44,45 +52,57 @@ The words of your website and interface convey so much information about you, yo
 
 ## Writing for the web
 
-- The web is primarily text
-- Highlight keywords, meaningful headings, bulleted lists
-- The first paragraph or two must hold the most important information
-- Start headings, paragraphs, and bullet points with information-carrying words; all other words will be skipped
-- Inverted pyramid: conclusion at the top
-- Half the word count
-- Never use “Click here” because it conveys no information
+The Web is primarily text, in fact without CSS the Web is only text. Spend time making text that will resonate and help your user—always target the text at real human beings, not robots or computers.
 
+- **Be honest & kind:** with your content, it’s noticeable to users. Don’t be hip or clever. Don’t be a robot.
+- **Be clear and concise**: if one word will work, use only one word. Cut out the unnecessary.
+- **Don’t assume:** you are likely not your core audience. Don’t overuse acronyms, don’t use jargon, don’t use catchphrases. Not everybody fits into your worldview: real life is messy. Remember that nothing is ever boolean: some people are neither male nor female and they deserve equal consideration.
+- **Don’t interrupt:** focus on your message and on delivering what people want.
+- **Highlight:** make important keywords more visible, headings obvious, use bulleted lists for important info (see how I’m following my own rules).
+- **Inverted pyramid:** conclusion at the top; the first paragraph or two must hold the most important information.
+- **Front load:** start headings, paragraphs, and bullet points with information-carrying words; all other words will be skipped
+- **Never use “Click here”:** it conveys no information.
+- **Use normal words:** use the words that normal people use; write for your friend.
 
-    Be clear.
-    Be kind.
-    Be careful.
-    Be honest.
+### Iterate
 
-Don’t assume you’re the core audience. Most of the time, we’re not designing for ourselves. Think about the universe of people out there. Word choice is extremely important when you’re trying to grow.
+When writing web content the first effort isn’t good enough. Iterating on the text and content is just as important as iterating the design.
 
-Avoid jargon and catchphrases. Cut the bullshit. You don’t have to be hip or clever, but you do have to be nice.
+- Try different variations,
+- Get people to review the text,
+- Read it out loud,
+- Get the computer to read it out to you.
 
-Don’t assume dichotomies or binaries will do the trick. Not everything will fit into a boolean. Real life is complicated. As an example, some people are neither male nor female. They’re still people and they deserve our consideration.
+I remember reading a blog post a long time about about writing for the web (though I can’t find the original source). It said:
 
-Don’t interrupt. Keep things focused and make sure this is the best time to deliver this message.
-
-Don’t be a robot.
-
-
-Wordsmith, iterate.
-Write to your friend.
-Read it out loud.
-
-Use the words normal people use.
+> Write the content you think you need for your website.
+> Then half its length.
+> Then half it again.
 
 ### Adaptive content
 
-- Writing modular content for different locations: website, Twitter, Facebook, Google
+The content of our websites has become very modular, think about how it will work in different situations at different lengths.
+
+Here’s some places you’ll find your content, that isn’t on your website:
+
+- Search results
+- Social media shares: Twitter, Facebook
+- In e-mails to friends
+- Quotes on other websites
+- Mobile apps
+
+Think about how your content can adapt to these scenarios, length-wise, tone-wise, etc.
 
 ### Creating a connection
 
-- People connect with wit, emotion, personality, story telling
-- What connection are you trying to convey with the words? How do you want your users to feel?
+People connect with other people: with their wit, emotion, personality & stories. Adding these things to the writing of your website is extremely helpful.
+
+I like to think of a personified animal that represents my brand or website and figure out how they would talk to people. Think of your website as a living organism and give it personality through the text.
+
+- How do you want your users to feel?
+- What connection are you trying to convey with the words?
+- What kind of personality is your website?
+- How would the personality react?
 
 **Links**
 
@@ -103,19 +123,80 @@ Use the words normal people use.
 
 ## Tools to help write your website
 
-### Interfaces in text
+There’s a bunch of different tools information architects and writers use when starting websites and apps.
 
 ### Content inventory
 
-- What is a content inventory? How does it help us?
-- Look at a content inventory for a website
-- Using a content inventory with clients
+If you’re re-creating a website that already exists, a content inventory is a way to organize and understand all the content that already exists on a website.
+
+It’s a big spreadsheet of information about every page of content, who’s in chart of it, where it’s located, its status, etc.
+
+It’s helpful when working with clients so everybody knows what the content is, where to find it, who’s in charge etc.
+
+The content inventory might include the following headings:
+
+- Unique ID
+- Title
+- URL (Source)
+- Owner
+- Status
+
+**[See a sample content inventory.](https://github.com/acgd-learn-the-web/writing-samples/blob/master/content-inventory-sample.csv)**
+
+### Interfaces in text
+
+As I mentioned way above, I always start my websites in a text file. I write the name of the page at the top then start writing the content. I mark specific things as buttons, lists, bold, headings, etc. I usually use Markdown because it makes sense to me.
+
+Here’s an example for a lightbulb company:
+
+```markdown
+# Standard bulb selection
+
+## Traditional
+*This style adds an air of classicism.*
+- Energy use: Lots
+- Colour: Very warm
+- Sizes: Small to large
+[Add to wish list] [Add to cart]
+
+## Incandescent
+*Adds a warm, natural glow to any room.*
+- Energy use: Moderate
+- Colour: Warm
+- Sizes: Small to long
+[Add to wish list] [Add to cart]
+
+## Compact Florescent
+*Adds a modern cool feel to dark spaces.*
+- Energy use: Minimal
+- Colour: Ranges between cool and warm
+- Sizes: Small to medium
+[Add to wish list] [Add to cart]
+```
+
+I’m using Markdown syntax to convey information: headings, importance, lists, etc. After I’ve got the text in a good state I continue on to other things like wireframes, style tiles and coding.
 
 ### Content templates
 
-- Finding content chunks and patterns
-- YAML front-matter inside Markdown
-- In-class examples: CBC articles, Twitter
+Content templates are about finding chunks and patterns in your text—they are structural and can be very helpful for development to see common code styles.
+
+A content template is a structured document, I usually use Markdown and YAML, that describes a specific piece of content.
+
+If your website was about volcanos, a content template for a specific volcano may look like this:
+
+```markdown
+---
+name: Olympus Mons
+location: Tharsis Bulge, Mars
+type: Shield Volcano
+height: 22 km
+width: 600 km
+---
+
+**Olympus Mons** is a large shield volcano on the planet Mars making it the second tallest mountain in the Solar System, behind the central peak of *Rheasilvia*, an impact crater on the proto-planet [Vesta](http://en.wikipedia.org/wiki/4_Vesta), which stands slightly taller. It stands almost three times as tall as [Mount Everest](http://en.wikipedia.org/wiki/Mount_Everest)'s height above sea level.
+```
+
+YAML front matter is used to structure pieces of information, and Markdown is used for more free-form content.
 
 **Links**
 

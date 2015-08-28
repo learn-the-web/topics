@@ -26,7 +26,7 @@ markdown-yaml-cheat-sheet:
   title: "Markdown & YAML cheat sheet"
   tags: "writing yaml markdown syntax cheat sheet"
   desc: "A cheat sheet for understanding and writing in Markdown and YAML."
-  indent: 2
+  indent: 1
   cheatsheet: true
   disabled: true
 

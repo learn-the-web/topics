@@ -1,8 +1,8 @@
 ---
 group: web-dev-4
 playlist:
-download: https://github.com/acgd-learn-the-web/writing-samples/archive/master.zip
-github: https://github.com/acgd-learn-the-web/writing-samples
+download: https://github.com/acgd-learn-the-web/writing-for-the-web-samples/archive/master.zip
+github: https://github.com/acgd-learn-the-web/writing-for-the-web-samples
 checklist: writing-checklist
 ---
 
@@ -141,7 +141,7 @@ The content inventory might include the following headings:
 - Owner
 - Status
 
-**[See a sample content inventory.](https://github.com/acgd-learn-the-web/writing-samples/blob/master/content-inventory-sample.csv)**
+**[See a sample content inventory.](https://github.com/acgd-learn-the-web/writing-for-the-web-samples/blob/master/content-inventory-sample.csv)**
 
 ### Interfaces in text
 

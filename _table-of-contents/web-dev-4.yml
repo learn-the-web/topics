@@ -30,6 +30,13 @@ writing-a-readme:
   desc: "A quick overview of writing a helpful readme for your web project."
   indent: 1
 
+writing-checklist:
+  title: "Writing checklist"
+  tags: "writing markdown syntax web why style guide"
+  desc: "A cheat sheet for double checking website content, text and style."
+  indent: 1
+  disabled: true
+
 video:
   title: "Video"
   tags: "video web tag element export save formats hover source mp4 webm ogg"

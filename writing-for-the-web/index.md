@@ -1,6 +1,6 @@
 ---
 group: web-dev-4
-playlist:
+playlist: PLWjCJDeWfDdfL6qRH1A04rcGe624fTeCS
 download: https://github.com/acgd-learn-the-web/writing-for-the-web-samples/archive/master.zip
 github: https://github.com/acgd-learn-the-web/writing-for-the-web-samples
 checklist: writing-checklist
@@ -198,6 +198,39 @@ width: 600 km
 
 YAML front matter is used to structure pieces of information, and Markdown is used for more free-form content.
 
+### Sitemaps in Markdown
+
+**[☛ Learn more about Markdown before continuing.](/topics/markdown/)**
+
+I like to use Markdown to create my sitemaps because it’s more lightweight and easier to manipulate. Using only lists and nested lists.
+
+There are even CSS transformations to make the sitemap more visual for clients.
+
+An example sitemap in Markdown using nested lists:
+
+```markdown
+- About Volcanoes
+  - What’s a Volcano
+  - Plate Tectonics
+  - Types of Volcanic Eruptions
+    - Stratovolcano
+    - …
+- Volcanic Matter
+  - Lava
+  - Tephra
+  - Magma
+  - Igneous Rocks
+- Volcanoes of the Solar System
+  - Active
+    - Eyjafjallajökull, Iceland
+    - Mount St. Helens, USA
+    - …
+  - Inactive
+    - Mt. Vesuvius, Italy
+    - Olympus Mons, Mars
+    - …
+```
+
 **Links**
 
 - **[Tiny Content Framework](https://gist.github.com/nicoleslaw/2155621)**
@@ -208,14 +241,15 @@ YAML front matter is used to structure pieces of information, and Markdown is us
 - [YAML Front-matter](http://jekyllrb.com/docs/frontmatter/)
 - [YAML](http://en.wikipedia.org/wiki/YAML)
 - [Why Cards are the Future of the Web](http://insideintercom.io/why-cards-are-the-future-of-the-web/)
+- [Slickmap](http://astuteo.com/slickmap) — convert HTML list into sitemap visualization
 
 ---
 
 ## Video list
 
-1. Writing for the web: using screen reader for proofing
-2. Writing for the web: writing an interface
-3. Writing for the web: content templates
+1. [Writing for the web: using computer speaking for proofing](https://www.youtube.com/watch?v=ZDnK_RjA094&list=PLWjCJDeWfDdfL6qRH1A04rcGe624fTeCS&index=1)
+2. [Writing for the web: writing an interface](https://www.youtube.com/watch?v=uYSyiZaiG6w&list=PLWjCJDeWfDdfL6qRH1A04rcGe624fTeCS&index=2)
+3. [Writing for the web: content templates](https://www.youtube.com/watch?v=5Dj-37aSrj8&list=PLWjCJDeWfDdfL6qRH1A04rcGe624fTeCS&index=3)
 
 ## Supplemental links
 

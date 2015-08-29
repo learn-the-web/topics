@@ -28,7 +28,6 @@ yaml:
   tags: "yaml markdown markup language processor jekyll"
   desc: "Understanding YAML, another markup language, that’s great for structured content."
   indent: 1
-  disabled: true
 
 markdown-yaml-cheat-sheet:
   title: "Markdown & YAML cheat sheet"

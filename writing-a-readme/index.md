@@ -1,5 +1,8 @@
 ---
 group: web-dev-4
+playlist: PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_
+download: https://github.com/acgd-learn-the-web/writing-a-readme-samples/archive/master.zip
+github: https://github.com/acgd-learn-the-web/writing-a-readme-samples
 ---
 
 The readme is one of the most important files in a open project, helping users understand the purpose, whether/how they can use it, and documentation.
@@ -140,9 +143,9 @@ Somethings consider adding to your change log:
 
 ## Video list
 
-1. Writing a readme: writing a readme
-2. Writing a readme: adding a license
-3. Writing a readme: creating a change log
+1. [Writing a readme: writing a readme](https://www.youtube.com/watch?v=RZ5vduluea4&index=1&list=PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_)
+2. [Writing a readme: adding a license](https://www.youtube.com/watch?v=gJZGLZSzP_I&index=2&list=PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_)
+3. [Writing a readme: creating a change log](https://www.youtube.com/watch?v=y6hVxxi-DnY&index=3&list=PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_)
 
 ## Supplemental links
 

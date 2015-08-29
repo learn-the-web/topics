@@ -262,3 +262,4 @@ An example sitemap in Markdown using nested lists:
 - [Nicely Said](http://www.nicelysaid.co/)
 - [18F Open Source Style Guide](https://pages.18f.gov/open-source-guide/)
 - [13 tips for making responsive web design multi-lingual](http://responsivenews.co.uk/post/123104512468/13-tips-for-making-responsive-web-design)
+- [Word Safety](http://wordsafety.com/)

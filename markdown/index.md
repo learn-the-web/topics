@@ -145,12 +145,12 @@ And finally, GitHub supports task lists in Markdown files using the following fo
 
 ## Video list
 
-- [Markdown: applications](https://www.youtube.com/watch?v=a7RYPhsj1Js&index=1&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
-- [Markdown: syntax basics](https://www.youtube.com/watch?v=0_tO8HgJiLQ&index=2&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
-- [Markdown: inserting links](https://www.youtube.com/watch?v=0aJCGOxeHVk&index=3&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
-- [Markdown: inserting images](https://www.youtube.com/watch?v=afFb_DcBBdA&index=4&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
-- [Markdown: inserting code samples](https://www.youtube.com/watch?v=6nxjPtXHOYo&index=5&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
-- [Markdown: task lists](https://www.youtube.com/watch?v=-JB6KEUj7tY&index=6&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+1. [Markdown: applications](https://www.youtube.com/watch?v=a7RYPhsj1Js&index=1&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+2. [Markdown: syntax basics](https://www.youtube.com/watch?v=0_tO8HgJiLQ&index=2&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+3. [Markdown: inserting links](https://www.youtube.com/watch?v=0aJCGOxeHVk&index=3&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+4. [Markdown: inserting images](https://www.youtube.com/watch?v=afFb_DcBBdA&index=4&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+5. [Markdown: inserting code samples](https://www.youtube.com/watch?v=6nxjPtXHOYo&index=5&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+6. [Markdown: task lists](https://www.youtube.com/watch?v=-JB6KEUj7tY&index=6&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
 
 ## Supplemental links
 

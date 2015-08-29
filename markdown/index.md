@@ -1,5 +1,9 @@
 ---
 group: web-dev-4
+playlist: PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX
+download: https://github.com/acgd-learn-the-web/markdown-code/archive/master.zip
+github: https://github.com/acgd-learn-the-web/markdown-code
+cheatsheet: markdown-yaml-cheat-sheet
 ---
 
 Markdown is a lightweight syntax of markup for plain text documents. It allows us to add semantics and style to our documents without overpowering them with code and angle brackets.
@@ -139,37 +143,14 @@ And finally, GitHub supports task lists in Markdown files using the following fo
 
 ---
 
-## YAML front-matter
+## Video list
 
-Markdown is used for structuring your content. Sometimes you want to add more structured data to your Markdown that just the default formatting. This can be accomplished with YAML front matter.
-
-At the top of your Markdown document, you put a series of three double dashes and provide more data between them:
-
-```
----
-name: Venus
-discoverer: Galileo Galilei
-discovered: 1610
-orbit: 247 days
-radius: 6051 km
-tilt: 177°
----
-```
-
-1. You make-up a label for the data, using a word and a colon, like `name:`.
-2. Put a single space—it won’t work without it
-3. Write the data you’d like for that label
-
-This data can then be used in lots of applications, including Jekyll.
-
-**Links**
-
-- **[YAML Validator](http://yamllint.com/)**
-- [Wikipedia: YAML](http://en.wikipedia.org/wiki/YAML)
-- [YAML Spec](http://yaml.org/)
-- [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/)
-
----
+- [Markdown: applications](https://www.youtube.com/watch?v=a7RYPhsj1Js&index=1&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+- [Markdown: syntax basics](https://www.youtube.com/watch?v=0_tO8HgJiLQ&index=2&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+- [Markdown: inserting links](https://www.youtube.com/watch?v=0aJCGOxeHVk&index=3&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+- [Markdown: inserting images](https://www.youtube.com/watch?v=afFb_DcBBdA&index=4&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+- [Markdown: inserting code samples](https://www.youtube.com/watch?v=6nxjPtXHOYo&index=5&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+- [Markdown: task lists](https://www.youtube.com/watch?v=-JB6KEUj7tY&index=6&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
 
 ## Supplemental links
 

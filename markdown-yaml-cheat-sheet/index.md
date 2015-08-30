@@ -152,7 +152,7 @@ groups:
             - Other dinosaurs
             - Meat
             ```
-      - name: '`"`, `'` — Escaping'
+      - name: '`"` — Escaping'
         details:
           - 'Surround text with quotes (double or single) to escape text.'
           - |

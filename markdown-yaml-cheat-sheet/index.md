@@ -29,10 +29,10 @@ groups:
       - name: '`![]()` — Image'
         details:
           - ''
-      - name: '`\`` — Inline code'
+      - name: '<code>`</code> — Inline code'
         details:
           - ''
-      - name: '`\`\`\`` — Code block'
+      - name: '<code>```</code> — Code block'
         details:
           - ''
       - name: '`- []` — Task list'

@@ -76,19 +76,19 @@ groups:
             ```markdown
             ![True colour composite of Pluto](true-colour-pluto.jpg)
             ```
-      - name: '<code>`</code> — Inline code'
-        details:
-          - 'Surround code inside other text with single backticks.'
-          - |
-            ```markdown
-            The `<h1>` tag is the most important content on the page.
-            ```
       - name: '`---` — Horizontal rule'
         details:
           - 'Three consecutive dashes on a single line.'
           - |
             ```markdown
             ---
+            ```
+      - name: '<code>`</code> — Inline code'
+        details:
+          - 'Surround code inside other text with single backticks.'
+          - |
+            ```markdown
+            The `<h1>` tag is the most important content on the page.
             ```
       - name: '<code>```</code> — Code block'
         details:

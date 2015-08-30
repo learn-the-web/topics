@@ -141,8 +141,8 @@ groups:
           - |
             ```yaml
             dimensions:
-            width: 3 metres
-            height: 8 metres
+              width: 3 metres
+              height: 8 metres
             ```
       - name: '`- value` — Arrays'
         details:

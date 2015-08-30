@@ -152,6 +152,19 @@ groups:
             - Other dinosaurs
             - Meat
             ```
+          - 'Arrays inside objects:'
+          - |
+            ```yaml
+            likes_to_eat:
+              - Other dinosaurs
+              - Meat
+            ```
+          - 'Objects inside arrays.'
+          - |
+            ```yaml
+            - name: T. rex
+              period: Late Cretaceous Period
+            ```
       - name: '`"` — Escaping'
         details:
           - 'Surround text with quotes (double or single) to escape text.'
@@ -165,9 +178,9 @@ groups:
           - 'The text will be collapsed into a single line when parsed.'
           - |
             ```yaml
-            poem: |
-              T. rex, T.rex
-              How I love thee
+            desc: >
+              Tyrannosaurus is a genus of coelurosaurian theropod dinosaur.
+              The species Tyrannosaurus rex is one of the most well-represented of the large theropods.
             ```
       - name: '`|` — Wrapped text block'
         details:
@@ -175,9 +188,9 @@ groups:
           - 'The text will keep its multiple lines when parsed.'
           - |
             ```yaml
-            body {
-              font-size: 100%;
-            }
+            poem: |
+              T. rex, T.rex
+              How I love thee
             ```
       - name: '`---` — Front matter'
         details:

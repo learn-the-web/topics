@@ -35,7 +35,7 @@ groups:
       - name: '<code>```</code> — Code block'
         details:
           - ''
-      - name: '`- []` — Task list'
+      - name: '`- [ ]` — Task list'
         details:
           - ''
       - name: '`---` — Horizontal rule'
@@ -43,14 +43,25 @@ groups:
           - ''
 
   - title: 'YAML'
+    note: 'Always indent with spaces.'
     items:
-      - name: '**Objects**'
+      - name: '`term:` — Objects'
         details:
           - ''
-      - name: '**Arrays**'
+      - name: '`- item` — Arrays'
         details:
           - ''
-      - name: '**Text blocks**'
+      - name: '`>` — Folded text block'
         details:
           - ''
+      - name: '`|` — Wrapped text block'
+        details:
+          - ''
+      - name: '`"` — Escaping'
+        details:
+          - ''
+      - name: '`---` — Front matter'
+        details:
+          - ''
+
 ---

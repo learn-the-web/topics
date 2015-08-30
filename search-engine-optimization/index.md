@@ -225,7 +225,7 @@ Since it’s targeted at human beings there isn’t any specific format, but loo
 - **Thanks** — where you can credit assets used in your website: icons, stock photos, etc.
 - **Technology** — where you can list the tools and technology you used in creating the site.
 
-There are extensions you can get for your browser that highlight what websites have a humans.txt file.
+There are extensions you can get for your browser that highlight what websites have a humans.txt file: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/humanstxt/), [Chrome](https://chrome.google.com/webstore/detail/humanstxt/pocdghmbbodjiclginddlaimdaholhfk).
 
 **Links**
 

@@ -37,12 +37,13 @@ When search engines spider your website they base the search results on specific
 
 Certain tags in your HTML content carry more weight than others, so be sure to put important keywords into these tags.
 
-1. `<title>` — the most important for keywords, also visible as the link on search results
-2. `<meta name="description">` — sometimes used for keywords, other times not; also often used as the description in search results, but if the search engine deems it’s inappropriate something else will be used
-3. `<h1>`, `<h2>`, `<h3>`, etc. — very important for keywords
-4. `<a>` — search engines look for keywords to apply to your site as well as the site you are linking to
-5. `<img alt="">` — Alt attributes are how search engines classify images
-6. `<strong>`, `<em>`
+1. `<title>` — the most important for keywords, also visible as the link on search results.
+2. `<meta name="description">` — sometimes used for keywords, other times not; also often used as the description in search results, but if the search engine deems it’s inappropriate something else will be used.
+3. `<h1>`, `<h2>`, `<h3>`, etc. — very important for keywords.
+4. First line of the first `<p>…</p>` — can be used for the description in search results.
+5. `<a>` — search engines look for keywords to apply to your site as well as the site you are linking to.
+6. `<img alt="">` — Alt attributes are how search engines classify images.
+7. `<strong>`, `<em>`.
 
 ---
 

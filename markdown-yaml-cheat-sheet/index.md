@@ -90,16 +90,15 @@ groups:
           - |
             <pre class="language-markdown"><code class="language-markdown">
             ```
-            <figure>
-              <img src="…" alt="…">
-              <figcaption>…</figcaption>
-            </figure>
+            body {
+              font-size: 100%;
+            }
             ```
             </code></pre>
           - 'Optionally specify the code language after the opening backticks.'
           - |
             <pre class="language-markdown"><code class="language-markdown">
-            ```
+            ```css
             body {
               font-size: 100%;
             }
@@ -124,9 +123,7 @@ groups:
           - 'Three consecutive dashes on a single line.'
           - |
             ```markdown
-
             ---
-
             ```
 
   - title: 'YAML'

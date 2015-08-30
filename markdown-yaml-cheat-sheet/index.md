@@ -131,21 +131,66 @@ groups:
     items:
       - name: '`term: value` — Objects'
         details:
-          - ''
+          - 'Start with a term, no spaces, followed by a colon and a space.'
+          - |
+            ```yaml
+            name: Tyrannosaurus
+            period: Late Cretaceous
+            ```
+          - 'Indent to create nested objects.'
+          - |
+            ```yaml
+            dimensions:
+            width: 3 metres
+            height: 8 metres
+            ```
       - name: '`- value` — Arrays'
         details:
-          - ''
-      - name: '`"` — Escaping'
+          - 'Start with a dash, and a space.'
+          - |
+            ```yaml
+            - Other dinosaurs
+            - Meat
+            ```
+      - name: '`"`, `'` — Escaping'
         details:
-          - ''
+          - 'Surround text with quotes (double or single) to escape text.'
+          - |
+            ```yaml
+            name_meaning: "tyrant & lizard"
+            ```
       - name: '`>` — Folded text block'
         details:
-          - ''
+          - 'Start with a greater than, and indent the next lines.'
+          - 'The text will be collapsed into a single line when parsed.'
+          - |
+            ```yaml
+            poem: |
+              T. rex, T.rex
+              How I love thee
+            ```
       - name: '`|` — Wrapped text block'
         details:
-          - ''
+          - 'Start with a vertical pipe, and indent the next lines.'
+          - 'The text will keep its multiple lines when parsed.'
+          - |
+            ```yaml
+            body {
+              font-size: 100%;
+            }
+            ```
       - name: '`---` — Front matter'
         details:
-          - ''
+          - 'YAML can be used at the top of Markdown documents to add more structured data.'
+          - 'Surround the YAML with two lines of consecutive dashes.'
+          - |
+            ```markdown
+            ---
+            name: Venus
+            discoverer: Galileo Galilei
+            ---
+
+            *Venus* is the second planet from the Sun, orbiting it every 224.7 Earth days.
+            ```
 
 ---

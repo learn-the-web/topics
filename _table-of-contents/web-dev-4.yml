@@ -35,7 +35,6 @@ markdown-yaml-cheat-sheet:
   desc: "A cheat sheet for understanding and writing in Markdown and YAML."
   indent: 1
   cheatsheet: true
-  disabled: true
 
 writing-a-readme:
   title: "Writing a readme"

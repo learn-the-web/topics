@@ -82,7 +82,7 @@ The major landmark roles for websites are:
 
 - `banner` — for defining an element as the masthead, added to the primary `<header>`.
 - `navigation` — for defining an element as the primary navigation, added the the top `<nav>`.
-- `search` — for defining an element as being the search field, usually added to a `<form>`.
+- `search` — for defining an element as being the search field, usually added to a `<div>` surround your search `<form>`.
 - `main` — for defining an element as being the main content of the page, same as the `<main>` element, and added to the `<main>`.
 - `complementary` — for defining an element as being content related to the primary content, usually added to an `<aside>`.
 - `contentinfo` — for defining an element as information about the content: e.g. copyright, terms, privacy policy, usually added to a `<footer>`.
@@ -155,6 +155,7 @@ There’s a similar ARIA property: `aria-describedby`—the difference is that `
 - [Connect with aria-describedby](http://www.last-child.com/accessible-infographics/infographics-aria-describedby/)
 - [On HTML belts and ARIA braces](http://html5doctor.com/on-html-belts-and-aria-braces/)
 - [MDN: An overview of accessible web applications and widgets](https://developer.mozilla.org/en-US/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets)
+- [Where to Put Your Search Role](http://adrianroselli.com/2015/08/where-to-put-your-search-role.html)
 
 ---
 

@@ -83,6 +83,13 @@ groups:
             ```markdown
             The `<h1>` tag is the most important content on the page.
             ```
+      - name: '`---` — Horizontal rule'
+        details:
+          - 'Three consecutive dashes on a single line.'
+          - |
+            ```markdown
+            ---
+            ```
       - name: '<code>```</code> — Code block'
         details:
           - 'Start a line with three backticks to make a code block.'
@@ -117,13 +124,6 @@ groups:
             ```markdown
             - [ ] Read sci-fi
             - [x] Watch kaiju movie
-            ```
-      - name: '`---` — Horizontal rule'
-        details:
-          - 'Three consecutive dashes on a single line.'
-          - |
-            ```markdown
-            ---
             ```
 
   - title: 'YAML'

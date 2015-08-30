@@ -112,7 +112,7 @@ The `:target` pseudo class in CSS allows you to style an element when it is targ
 Say we have this URL:
 
 ```
-https://domain.com/index.html#box
+https://example.ca/index.html#box
 ```
 
 And this HTML:

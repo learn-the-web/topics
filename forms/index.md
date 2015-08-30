@@ -218,6 +218,7 @@ Most often the button’s type should be set to “submit”. But if you don’t
 
 ## Supplemental links
 
+- [A Checklist for Designing Mobile Input Fields](http://www.nngroup.com/articles/mobile-input-checklist/)
 - [HTML5 forms introduction and new attributes](http://html5doctor.com/html5-forms-introduction-and-new-attributes/)
 - [HTML5 forms input types](http://html5doctor.com/html5-forms-input-types/)
 - [CSS3 Pseudo-Classes and HTML5 Forms](http://html5doctor.com/css3-pseudo-classes-and-html5-forms/)

@@ -316,6 +316,7 @@ Here’s some shortcut keys for using VoiceOver:
 - [Extending Semantics & Accessibility](http://learn.shayhowe.com/advanced-html-css/semantics-accessibility)
 - [WebVTT and Video Subtitles](http://www.iandevlin.com/blog/2011/05/html5/webvtt-and-video-subtitles)
 - [Accessible Footnotes with CSS](http://www.sitepoint.com/accessible-footnotes-css/)
+- [7 Things Every Designer Needs to Know about Accessibility](https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b)
 
 ### Videos
 
@@ -342,6 +343,7 @@ Here’s some shortcut keys for using VoiceOver:
 - [HTML5 Outliner Chrome Extension](https://chrome.google.com/webstore/detail/afoibpobokebhgfnknfndkgemglggomo)
 - [Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php)
 - [A11y Command-line Tools](https://addyosmani.github.io/a11y/)
+- [Tenon.io](http://www.tenon.io/)
 
 ### Standards
 

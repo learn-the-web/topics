@@ -3,6 +3,7 @@ group: web-dev-4
 playlist: PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx
 download: https://github.com/acgd-learn-the-web/metadata-enhanced-semantics-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/metadata-enhanced-semantics-code
+checklist: seo-checklist
 ---
 
 There are a bunch of standards to enhance the semantics of our websites. Search engines look for these semantics, infer information from them, and adapt their search results to them. Also, when people link to your website from social media sites you can provide defaults for the displayed content.

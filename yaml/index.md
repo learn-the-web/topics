@@ -150,6 +150,8 @@ orbit: 247 days
 radius: 6051 km
 tilt: 177°
 ---
+
+*Venus* is the second planet from the Sun, orbiting it every 224.7 Earth days.
 ```
 
 This data can then be used in lots of applications, including Jekyll.

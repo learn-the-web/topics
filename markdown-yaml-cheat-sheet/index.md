@@ -5,22 +5,40 @@ group: web-dev-4
 groups:
   - title: 'Markdown'
     items:
-      - name: '**Basic text**'
+      - name: '*Paragraphs*'
         details:
           - ''
-      - name: '**Lists**'
+      - name: '`#` — Headings'
         details:
           - ''
-      - name: '**Links & images**'
+      - name: '`*` — Italic'
         details:
           - ''
-      - name: '**Code**'
+      - name: '`**` — Bold'
         details:
           - ''
-      - name: '**Task lists**'
+      - name: '`-` — Unordered list'
         details:
           - ''
-      - name: '**Markdown + YAML**'
+      - name: '`1.` — Ordered list'
+        details:
+          - ''
+      - name: '`[]()` — Link'
+        details:
+          - ''
+      - name: '`![]()` — Image'
+        details:
+          - ''
+      - name: '`\`` — Inline code'
+        details:
+          - ''
+      - name: '`\`\`\`` — Code block'
+        details:
+          - ''
+      - name: '`- []` — Task list'
+        details:
+          - ''
+      - name: '`---` — Horizontal rule'
         details:
           - ''
 

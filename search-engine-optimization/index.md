@@ -262,6 +262,7 @@ There are extensions you can get for your browser that highlight what websites h
 - [Writing useful page titles](http://www.456bereastreet.com/archive/201102/writing_useful_page_titles/)
 - [SEO Strategies for Designers](http://www.sitepoint.com/seo-strategies-designers-part-2/)
 - [Duplicate Content Penalty](http://www.webdesignfromscratch.com/seo/google-duplicate-content-penalty/)
+- [SEO Checklist 2015](http://onlinemarketinginct.com/2015/05/09/seo-checklist-2015/)
 
 ### Tools
 

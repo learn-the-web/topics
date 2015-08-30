@@ -155,3 +155,4 @@ Somethings consider adding to your change log:
 - [A Beginner’s Guide to Creating a README](https://changelog.com/a-beginners-guide-to-creating-a-readme/)
 - [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
 - [Shields.io](http://shields.io/)
+- [The Twelve-Factor App](http://12factor.net/)

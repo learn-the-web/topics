@@ -114,6 +114,7 @@ Relationships can be defined in HTML using the `rel` attribute. These relationsh
 - [XFN Creator](http://gmpg.org/xfn/creator)
 - [Marking Up Relationships](http://maban.co.uk/49)
 - [Open Source Protocol](http://osprotocol.com/)
+- [Ultimate Guide to Link Types for Hyperlinks](http://sixrevisions.com/html/link-types-hyperlinks/)
 
 ### Open Graph
 
@@ -151,6 +152,7 @@ There are plenty of optional tags for descriptions, author info—and more speci
 - [Facebook Open Graph Validator](https://developers.facebook.com/tools/debug/)
 - [Pinterest Rich Pins](https://developers.pinterest.com/rich_pins_overview/)
 - [Pinterest Rich Pins Validator](https://developers.pinterest.com/rich_pins/validator/)
+- [Using Pinterest Data Attributes and Meta Tags](https://css-tricks.com/using-pinterest-data-attributes-and-meta-tags/)
 
 ### Twitter Cards
 

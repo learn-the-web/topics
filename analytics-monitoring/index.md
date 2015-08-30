@@ -56,6 +56,12 @@ Give you lots of helpful info:
 
 ---
 
+## Website monitoring
+
+- [10 Free Server Monitoring Tools](http://sixrevisions.com/tools/free-server-monitoring-tools/)
+
+---
+
 ## A/B testing
 
 A/B testing or split testing is a way to get data on which of two different designs performs better. You create two variations of the design on your live website—concentrating on a specific goal—and test it with real users to see which one performs better.

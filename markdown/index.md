@@ -162,6 +162,7 @@ And finally, GitHub supports task lists in Markdown files using the following fo
 - [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax)
 - [CommonMark](http://commonmark.org/)
 - [10 Useful Resources for Learning Markdown Syntax](http://sixrevisions.com/resources/learning-markdown-syntax/)
+- [Learning Markdown: My Gateway into Coding](http://blog.teamtreehouse.com/learning-markdown-gateway-coding)
 
 ### Markdown apps
 

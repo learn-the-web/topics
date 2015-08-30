@@ -37,3 +37,7 @@ They even provide a bunch of security features like DDOS protection and free SSL
 ---
 
 ## Video list
+
+## Supplemental links
+
+- [Website Performance Checklist](http://websiteperformancechecklist.com/)

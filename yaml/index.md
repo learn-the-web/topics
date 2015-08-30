@@ -16,6 +16,11 @@ YAML’s simple structure is great work creating [☛ content templates](/topics
 
 When using a system like [☛ Jekyll](/topics/jekyll/), YAML can bet used for extra metadata about the document that isn’t part of the main content, that can be used in different places.
 
+A couple examples:
+
+- [This tutorial uses YAML, see the source code](https://github.com/acgd-learn-the-web/topics/blob/master/yaml/index.md)
+- [The Markdown & YAML cheat sheet is written in YAML, see the code](https://github.com/acgd-learn-the-web/topics/blob/master/markdown-yaml-cheat-sheet/index.md)
+
 ---
 
 ## Indent with spaces

@@ -96,7 +96,6 @@ seo-checklist:
   tags: "search engine optimization checklist"
   desc: "A checklist covering the basics of honest SEO for websites."
   checklist: true
-  disabled: true
   indent: 1
 
 progressive-enhancement:

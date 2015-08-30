@@ -12,8 +12,6 @@ groups:
       - 'No broken links.'
       - 'No duplicate content.'
       - 'Removed pages with limited content.'
-      - 'URLs have good keywords and are targeted at humans.'
-      - 'Cononical domain chosen: www or no www.'
 
   - title: 'Important tags'
     items:
@@ -21,12 +19,14 @@ groups:
       - '`<meta name="description" content="…">`'
       - '`<h1>…</h1>`, `<h2>…</h2>`, `<h3>…</h3>`'
       - 'First line of the first `<p>…</p>`'
-      - '<a href="…">…</a>`'
+      - '`<a href="…">…</a>`'
       - '`<img src="…" alt="…">`'
       - '`<strong>…</strong>`, `<em>…</em>`'
 
   - title: 'Design'
     items:
+      - 'URLs have good keywords and are targeted at humans.'
+      - 'Cononical domain chosen: www or no www.'
       - 'Website design for performance.'
       - 'Website is mobile friendly.'
       - 'Website is responsive for all screens.'
@@ -42,7 +42,7 @@ groups:
       - 'Has appropriate enhanced semantics.<br>[Metadata](/topics/metadata-enhanced-semantics#structured-data), [Google Rich Snippets](http://www.google.com/webmasters/tools/richsnippets), [Schema.org](http://schema.org)'
       - 'Has social relationships on appropriate `<a>` tags.'
       - 'Has all the social media meta tags.<br>[Social media tags](/topics/metadata-enhanced-semantics#social-semantics)'
-      - 'Add `rel="nofollow" to paid/untrusted links.'
+      - 'Add `rel="nofollow"` to paid/untrusted links.'
 
   - title: 'Analytics & monitoring'
     items:

@@ -26,8 +26,8 @@ groups:
   - title: 'Design'
     items:
       - 'URLs have good keywords and are targeted at humans.'
-      - 'Cononical domain chosen: www or no www.'
-      - 'Website design for performance.'
+      - 'Canonical domain chosen: www or no www.'
+      - 'Website designed for performance.'
       - 'Website is mobile friendly.'
       - 'Website is responsive for all screens.'
       - 'Website served over secure HTTPs.'

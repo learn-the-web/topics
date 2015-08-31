@@ -50,6 +50,6 @@ groups:
       - 'Analytics package is set up.<br>[Google Analytics](http://www.google.com/analytics/?gclid=COC2_qf08MECFePyMgodb10AAQ)'
       - 'Submitted as a Google Business Listing.'
       - 'Submitted to relevant sites: Yelp, Urban Spoon, Trip Advisor, etc.'
-      - 'Uptime monitoring package set up.<br>[UptimeRobot](http://uptimerobot.com/), [Pingdom](https://www.pingdom.com/pricing/), [updown.io](https://updown.io/)'
+      - 'Uptime monitoring package set up.<br>[UptimeRobot](http://uptimerobot.com/), [Pingdom](https://www.pingdom.com/), [updown.io](https://updown.io/)'
 
 ---

@@ -8,6 +8,8 @@ Tracking analytics on your website is a good way to see how users find your cont
 
 ## Stats for websites
 
+**Be careful with tracking, the more you track about yours the more you may alienate them. Also remember that many people install extensions to disable tracking.**
+
 Knowing statistics about your website can help you make informed design and content decisions. You can see what content is important, how people move around your website, and where they come from.
 
 Some stats you can track:
@@ -21,9 +23,14 @@ Some stats you can track:
 - search engine keywords
 - browser/OS versions
 
+There are different kinds of stats packages you can have on your website:
+
+1. Most hosting providers have server-side stats that give you general information but it isn’t too detailed.
+2. You can also install client-side and more intense server-side stats packages to give you more detail and track lots more about your users.
+
 **Tools**
 
-- **[Google Analytics](http://www.google.com/analytics/)**
+- [Google Analytics](http://www.google.com/analytics/)
 - [KISSmetrics](https://www.kissmetrics.com/)
 - [Gauges](http://get.gaug.es/)
 - [Mint](http://haveamint.com/)
@@ -51,12 +58,24 @@ Give you lots of helpful info:
 
 **Tools**
 
-- **[Google Webmaster Tools](https://www.google.com/webmasters/tools/)**
+- [Google Webmaster Tools](https://www.google.com/webmasters/tools/)
 - [Bing Webmaster Tools](http://www.bing.com/toolbox/webmaster)
 
 ---
 
 ## Website monitoring
+
+It’s often helpful to get notified when your website goes down, so that you can act on it.
+
+There are a bunch of monitoring tools that you can hook up for exactly that purpose.
+
+**Tools**
+
+- [UptimeRobot](http://uptimerobot.com/)
+- [Pingdom](https://www.pingdom.com/)
+- [updown.io](https://updown.io/)
+
+**Links**
 
 - [10 Free Server Monitoring Tools](http://sixrevisions.com/tools/free-server-monitoring-tools/)
 
@@ -68,7 +87,7 @@ A/B testing or split testing is a way to get data on which of two different desi
 
 **Tools**
 
-- **[Optimizely](https://www.optimizely.com/)**
+- [Optimizely](https://www.optimizely.com/)
 - [Visual Website Optimizer](http://visualwebsiteoptimizer.com/)
 
 **Links**
@@ -78,3 +97,18 @@ A/B testing or split testing is a way to get data on which of two different desi
 - [Smashing Magazine: The Ultimate Guide To A/B Testing](http://www.smashingmagazine.com/2010/06/24/the-ultimate-guide-to-a-b-testing/)
 - [What is A/B Testing?](https://www.optimizely.com/ab-testing)
 - [5 Mistakes You Should Avoid When A/B Testing Your Designs](http://sixrevisions.com/usability/ab-testing-mistakes/)
+
+---
+
+## Tracking blocking extensions
+
+There are a few very popular extensions to block trackers and encourage security in your browser. Some of the worst tracking offenders are advertisers.
+
+**Plugins**
+
+- [Privacy Badger](https://www.eff.org/privacybadger)
+- [HTTPS Everywhere](https://www.eff.org/https-everywhere)
+- uBlock Origin — [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- [Ghostery](https://www.ghostery.com/en/)
+- [Ad Block Plus](https://adblockplus.org/)
+- [No Script](https://noscript.net/)

@@ -263,8 +263,23 @@ As seen above we can control the max and min for numbers—we can do something s
 
 ```html
 <label for="password">Password</label>
-<input type="password" id="password" minlength="6">
+<input type="password" minlength="6" id="password">
 ```
+
+### Pattern
+
+The `pattern` attribute can be used to restrict the format of the text entered into a field. It uses [regular expressions](https://en.wikipedia.org/wiki/Regular_expression).
+
+```html
+<label for="postalcode">Postal code</label>
+<input type="text" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" id="postalcode">
+```
+
+*The above regular expression looks for a valid Canadian postal code.*
+
+**Links**
+
+- [HTML5 Pattern](http://html5pattern.com/)
 
 ### Form submission without a server
 
@@ -307,6 +322,7 @@ The services work really well for simple information collection, but aren’t gr
 - [MDN: Constraint validation](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation)
 - [Making Forms Fabulous with HTML5](http://www.html5rocks.com/en/tutorials/forms/html5forms/)
 - [HTML5 Form Validation Examples](http://www.the-art-of-web.com/html/html5-form-validation/)
+- [Form Inputs: The Browser Support Issue You Didn’t Know You Had](http://www.smashingmagazine.com/2015/05/form-inputs-browser-support-issue/)
 
 ### Accessibility links
 

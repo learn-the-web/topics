@@ -272,11 +272,11 @@ If you’re creating a static website, without wanting to have to write backend 
 
 These services work in a fashion similar to this:
 
-1. You create a form, that points to their service
-2. The user submits the form
-3. The data is sent to the service’s website
-4. The service composes and email and sends it to you
-5. The service redirects the user back to your website to display a message
+1. You create a form, that points to their service.
+2. The user submits the form.
+3. The data is sent to the service’s website.
+4. The service composes an email and sends it to you.
+5. The service redirects the user back to your website to display a message.
 
 The services work really well for simple information collection, but aren’t great for complex registration forms, etc.
 

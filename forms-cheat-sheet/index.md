@@ -259,7 +259,7 @@ groups:
             <datalist id="province-list">
               <option value="Alberta">
               <option value="Ontario">
-              <option value="Quebec">
+              <option value="Québec">
               <option value="Nova Scotia">
             </datalist>
             ```

@@ -16,7 +16,7 @@ There are a few important things to remember about form tags.
 
 ```html
 <form action="thanks.html" method="post">
-	⋮
+  ⋮
 </form>
 ```
 
@@ -33,9 +33,9 @@ The input element needs an ID on it, then the label points to the ID using it’
 
 ```html
 <form action="thanks.html" method="post">
-	<!-- Labels are associated with inputs using the for and id attributes -->
-	<label for="name">Name</label>
-	<input id="name">
+  <!-- Labels are associated with inputs using the for and id attributes -->
+  <label for="name">Name</label>
+  <input id="name">
 </form>
 ```
 
@@ -66,6 +66,19 @@ There are lots of different input types to use in forms—the default is text.
 - `file` — for allowing the upload of files
 - `search` — for specifying the input as a search field
 
+Some examples:
+
+```html
+<label for="email">E-mail address</label>
+<input type="email" id="email">
+
+<label for="homepage">Homepage</label>
+<input type="url" id="homepage">
+
+<label for="fav-color">Favourite colour</label>
+<input type="color" id="fav-color">
+```
+
 ### Other attributes
 
 Some elements can have other attributes to control what content is allowed to be entered into the field.
@@ -76,8 +89,8 @@ Some elements can have other attributes to control what content is allowed to be
 
 ```html
 <!--
-	Would allow any number between 0 and 1, in increments of 0.1
-	e.g. 0, 0.1, 0.2, 0.3 ... 0.9, 1.0
+  Would allow any number between 0 and 1, in increments of 0.1
+  e.g. 0, 0.1, 0.2, 0.3 ... 0.9, 1.0
 -->
 <input type="number" min="0" max="1" step="0.1">
 ```
@@ -116,9 +129,25 @@ Select boxes, aka dropdown boxes, allow a user to pick one option of many.
 ```html
 <label for="province">Province</label>
 <select id="province">
-	<option>Manitoba</option>
-	<option>Ontario</option>
-	<option>Quebec</option>
+  <option>Manitoba</option>
+  <option>Ontario</option>
+  <option>Quebec</option>
+</select>
+```
+
+Options elements can be grouped together using the `<optgroup>` tag. The `label="…"` attribute is used to show a non-selectable heading for the group.
+
+```html
+<label for="province">Province or State</label>
+<select id="province">
+  <optgroup label="Canada">
+    <option>Ontario</option>
+    <option>Québec</option>
+  </optgroup>
+  <optgroup label="United States">
+    <option>New York</option>
+    <option>California</option>
+  </optgroup>
 </select>
 ```
 
@@ -139,16 +168,16 @@ Radio buttons allow users to select a single option out of many, similar to a se
 
 ```html
 <fieldset>
-	<legend>What’s your favourite colour?</legend>
+  <legend>What’s your favourite colour?</legend>
 
-	<input type="radio" id="green" name="fav-color">
-	<label for="green">Green</label>
+  <input type="radio" id="green" name="fav-color">
+  <label for="green">Green</label>
 
-	<input type="radio" id="light-green" name="fav-color">
-	<label for="light-green">Light Green</label>
+  <input type="radio" id="light-green" name="fav-color">
+  <label for="light-green">Light Green</label>
 
-	<input type="radio" id="dark-green" name="fav-color">
-	<label for="dark-green">Dark Green</label>
+  <input type="radio" id="dark-green" name="fav-color">
+  <label for="dark-green">Dark Green</label>
 </fieldset>
 ```
 
@@ -164,24 +193,24 @@ Here’s an example of grouping address inputs together:
 
 ```html
 <fieldset>
-	<legend>Mailing Address</legend>
+  <legend>Mailing Address</legend>
 
-	<div>
-		<label for="street-address">Street Address</label>
-		<input id="street-address">
-	</div>
-	<div>
-		<label for="city">City</label>
-		<input id="city">
-	</div>
-	<div>
-		<label for="country">Country</label>
-		<input id="country">
-	</div>
-	<div>
-		<label for="postal-code">Postal Code</label>
-		<input id="postal-code">
-	</div>
+  <div>
+    <label for="street-address">Street Address</label>
+    <input id="street-address">
+  </div>
+  <div>
+    <label for="city">City</label>
+    <input id="city">
+  </div>
+  <div>
+    <label for="country">Country</label>
+    <input id="country">
+  </div>
+  <div>
+    <label for="postal-code">Postal Code</label>
+    <input id="postal-code">
+  </div>
 </fieldset>
 ```
 
@@ -193,8 +222,8 @@ All forms need to have buttons otherwise the form’s information can’t be sen
 
 ```html
 <form>
-	⋮
-	<button type="submit">Send</button>
+  ⋮
+  <button type="submit">Send</button>
 </form>
 ```
 
@@ -205,6 +234,10 @@ Most often the button’s type should be set to “submit”. But if you don’t
 ## Styling forms and inputs
 
 **When it comes to styling inputs and forms, the most important thing to remember that they are just plain old HTML elements. They can have borders, paddings, margins, colors, fonts, display—anything.**
+
+---
+
+## Making forms functional
 
 ---
 

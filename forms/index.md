@@ -162,6 +162,13 @@ Checkboxes allow a selection of multiple items out of a few possiblities.
 
 In checkboxes (and radio buttons) it’s most common to have the label come after the input element.
 
+If you want the checkbox to be checked by default use the `checked` attribute. *This applies to radio buttons too.*
+
+```html
+<input type="checkbox" id="apato" checked>
+<label for="apato">Apatosaurus</label>
+```
+
 ### Radio buttons
 
 Radio buttons allow users to select a single option out of many, similar to a select box.
@@ -238,6 +245,46 @@ Most often the button’s type should be set to “submit”. But if you don’t
 ---
 
 ## Making forms functional
+
+There’s a few small things to can to to make our forms slightly more functional without a backend server.
+
+### Required
+
+The `required` attribute can be added to fields to force the user to type something into the field. If the field type is something specific like `email` it will enforce a properly formatted email address.
+
+```html
+<label for="email">E-mail address</label>
+<input type="email" id="email" required>
+```
+
+### Lengths
+
+As seen above we can control the max and min for numbers—we can do something similar for text fields with the `maxlength` and `minlength` attributes.
+
+```html
+<label for="password">Password</label>
+<input type="password" id="password" minlength="6">
+```
+
+### Form submission without a server
+
+If you’re creating a static website, without wanting to have to write backend PHP, etc. to make your website function, there’s a few great services you can use.
+
+These services work in a fashion similar to this:
+
+1. You create a form, that points to their service
+2. The user submits the form
+3. The data is sent to the service’s website
+4. The service composes and email and sends it to you
+5. The service redirects the user back to your website to display a message
+
+The services work really well for simple information collection, but aren’t great for complex registration forms, etc.
+
+**Form services**
+
+- **[Formspree](https://formspree.io/)**
+- [Woofoo](https://www.wufoo.com/)
+- [JotForms](https://www.jotform.com/)
 
 ---
 

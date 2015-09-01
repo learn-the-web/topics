@@ -6,13 +6,19 @@ github: https://github.com/acgd-learn-the-web/tables-code
 cheatsheet: tables-cheat-sheet
 ---
 
-Making data tables in HTML that are completely accessible
+HTML has the ability to make complex data tables—with a little extra care they can be completely accessible.
 
 ---
 
-## Rows & cells
+## Tabular data
 
-Tables, like spreadsheets in Excel or Numbers, are made up of rows. Each row is then broken down into cells.
+Tables are great for large datasets, similar to how spreadsheets like in Excel or Numbers work.
+
+### Rows & cells
+
+Tables are composed of rows, that move vertically, stacking on top of each other. Each row is then broken down into cells, that move horizontally across the page.
+
+Here’s an example of what the structure looks like:
 
 <table>
 
@@ -85,11 +91,17 @@ So, in HTML, a simplified version of the above table would look like this:
 </table>
 ```
 
+- `<table>` — wraps around all the information in the chart.
+- `<tr>` — denotes a single row, no cell (`<td>`) can be outside of a row.
+- `<td>` — represents the actual data, a cell, they must be inside a row.
+
 ---
 
 ## Table headings
 
-For the most accessibility, we should label the headings of a table, both vertically and horizontally, as headings using the `<th>` tag.
+For better accessibility, we should label the headings of a table, both vertically and horizontally, as headings using the `<th>` tag. The `<th>` is just a specialized version of the `<td>` with stronger semantics meaning “heading”.
+
+In the sample table above that would be a cell like “Name” or “Stegosaurus”.
 
 ```html
 <th>Name</th>
@@ -159,6 +171,14 @@ When we have more than one row representing the headers or rows that represent t
 </table>
 ```
 
+- `<thead>` — groups a bunch of rows together making them represent the “header” of the table.
+- `<tbody>` — groups a bunch of rows together making them represent the “main contenț” of the table.
+- `<tfoot>` — groups a bunch of rows together making them represent the “footer” or “totals” of the table.
+
+*All these elements must have `<tr>` tags inside them—they are not a replacement for rows.*
+
+The `<tfoot>` can actually be place above the `<tbody>` in the HTML and it will still be rendered at the bottom of the table.
+
 ---
 
 ## Styling tables
@@ -181,6 +201,61 @@ th {
 }
 ```
 
+**Beyond those specialized CSS properties, tables can be treated just like any other element. Borders, fonts, classes, etc.**
+
+### Cols & colgroups
+
+You can style columns in the table without having to put a class on each cell.
+
+At the top of the table, add a `<col>` tag, with a class, and style that class. Styling the `<col>` tag has some limitations: many CSS properties won’t work, it’s really intended for `background-color` and a few others.
+
+*The `<col>` tag is an empty tag—with absolutely no content. You can only add classes to it.*
+
+With this HTML:
+
+```html
+<table>
+  <!-- You need a `<col>` for each cell -->
+  <col>
+  <col>
+  <col class="size">
+  <col>
+  <tr>
+    <td>…</td>
+    <td>…</td>
+    <td>…</td>
+    <td>…</td>
+  </tr>
+</table>
+```
+
+You could do this in CSS:
+
+```css
+.size {
+  background-color: limegreen;
+}
+```
+
+If you want to group the column styles together, you can use `<colgroup>`:
+
+```html
+<table>
+  <colgroup>
+    <col>
+    <col>
+  </colgroup>
+  <col class="size">
+  <col>
+  <tr>
+    <td>…</td>
+    <td>…</td>
+    <td>…</td>
+    <td>…</td>
+  </tr>
+</table>
+```
+
 ---
 
 ## Captioning a table
@@ -195,6 +270,8 @@ The summary is added using the `<caption>` element:
   ⋮
 </table>
 ```
+
+If people are using a screen reader they can listen to the caption and then choose whether they want to venture into the table for more information or just skip over it.
 
 ---
 
@@ -222,6 +299,8 @@ Inside the `<td>` and `<th>` elements you can put practically any HTML you want,
 ```
 
 ### Table in a table
+
+Tables can be embedded inside of other tables, specifically inside another `<td>`.
 
 ```html
 <table>

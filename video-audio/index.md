@@ -337,6 +337,13 @@ This chapter would last from the beginning to exactly 10 minutes into the video.
 
 ## Hosting off GitHub
 
+**Links**
+
+- **[KeyCDN](https://www.keycdn.com/)**
+- [Amazon S3](https://aws.amazon.com/s3/)
+- [MaxCDN](http://www.maxcdn.com/)
+- [Wistia](http://wistia.com/)
+
 ---
 
 ## The audio tag

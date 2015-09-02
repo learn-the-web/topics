@@ -27,7 +27,19 @@ So, the benefit to us is that we really only need to provide a `.mp4` encoded in
 
 **[You can see the H.264 browser support on Can I Use.](http://caniuse.com/#feat=mpeg4)**
 
-### Exporting from After Effects
+### Exporting from Adobe
+
+You can use the Adobe Media Encoder to get your videos out of After Effects or Premiere Pro.
+
+![](ame.jpg)
+
+You want to output an HD 1080p H.264 video, in Adobe Media Encoder, after adding your source, choose the format and preset:
+
+1. Format: “**H.264**”.
+2. Preset: “**Vimeo 1080p HD**” or “YouTube 1080p HD”.
+  *The regular “HD 1080p 29.97” should also work but may create larger file sizes.*
+
+After the video file is created you should be left with a `.mp4` file, that’s what you need for your website.
 
 ---
 
@@ -115,23 +127,198 @@ Try to avoid auto playing videos—especially videos with sound. Some devices do
 </video>
 ```
 
-### Adding tracks to video
-
 ### Specifying playback range
+
+When writing in the `src` attribute of a video you can choose where the video should start and end.
+
+We just need to add a hash onto the URL for the browser to register the range.
+
+```html
+<video src="video/dinos.mp4#t=5,20">
+  Dinosaur frolicking in the tall grass.
+</video>
+```
+
+The format of the hash follows this convention:
+
+```
+#t=[starttime],[endtime]
+```
+
+Some examples:
+
+- `#t=10,20` — start at 10 seconds, end at 20 seconds.
+- `#t=,40` — start at the beginning, play until 40 seconds.
+- `#t=60` — start at 60 seconds, play to the end.
+
+You can even specify the time in `hours:minutes:seconds`:
+
+- `#t=,2:58:00` — start at the beginning, play until 2 hours, 58 minutes in.
 
 ---
 
-## Embed containers
+## Responsive video
+
+You’ll most likely want to make your video flexible and scale with the dimensions of your website.
+
+**[☛ The best way to make your video responsive is to use embed containers.](/topics/modules/)**
+
+If you video is in the standard aspect ratio for HD of 16 by 9, your HTML will look something like this.
+
+```html
+<div class="embed embed--16by9">
+  <video class="embed__item" src="video/dinos.mp4">
+    Dinosaur frolicking in the tall grass.
+  </video>
+</div>
+```
+
+And the CSS will look something like this:
+
+```css
+.embed {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 100%;
+}
+
+.embed--16by9 {
+  padding-top: 56.25%;
+}
+
+.embed__item {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+```
+
+---
+
+## Adding captions & subtitles to video
+
+Tracks and the `<track>` tag are a standard way to provide subtitles, captions, screen reader descriptions, chapters and more for your video.
+
+We just need to add a `<track>` element to the `<video>` tag that points to the appropriate `.vtt` file:
+
+```html
+<video src="video/dinos.mp4">
+  <track src="video/subtitles.vtt" kind="subtitles" srclang="en" label="English">
+  Dinosaur frolicking in the tall grass.
+</video>
+```
+
+There are a few important attributes to look at:
+
+- `src="…"` — points the text file for this track.
+- `kind="…"` — what kind of track it is: `subtitles`, `captions`, `descriptions`, `chapters`, `metadata`.
+- `srclang="…"` — the language of the content in the track.
+- `label="…"` — what the user will see in the interface describing this track.
+
+### Subtitle tracks
+
+Subtitles are used to add transcriptions or translations to the video. They are time-based so that specific words show on the screen in time with the video.
+
+All the tracks use the WebVTT format, an open format for describing this time of content.
+
+A WebVTT file is just a plain text file that you can create in you text editor—make sure to use the `.vtt` file extension when you save it.
+
+Here’s a basic example for a subtitle track:
+
+```vtt
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:10.000
+Hey, how’s it going?
+
+2
+00:00:15.000 --> 00:00:20.000
+Thing’s are good.
+How you doin’?
+```
+
+#### Styling tracks
+
+It’s possible to style the tracks, especially subtitles and captions. Try to avoid doing too much style changes from the defaults.
+
+Some of the basic things you can change are the following:
+
+- `<b>` — to add bold text.
+- `<i>` — to add italic text.
+- `<u>` — to add underlined text.
+- `<c.my-class>` — to add a class.
+
+Some examples:
+
+```vtt
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:10.000
+Curse your <i>sudden</i> but <b>inevitable</b> betrayal.
+
+2
+00:00:15.000 --> 00:00:20.000
+I’ve got a <c.super-bad>bad</c> feeling about this.
+```
+
+*You could then use the `.super-bad` class in CSS to style the word.*
+
+#### Denoting the voice of the speaker
+
+Inside the caption and subtitle tracks you can denote the voice of the person speaking. There are a few benefits:
+
+1. The name of the person will be added to the display.
+2. It can be read out by screen readers.
+3. You can style it so each person has a different colour, etc.
+
+Use the `<v …>` tag to denote a voice, like this:
+
+```vtt
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:10.000
+<v Long Neck>Hey, how’s it going?</v>
+
+2
+00:00:15.000 --> 00:00:20.000
+<v Horn Head>Thing’s are good.
+How you doin’?</v>
+```
+
+### Chapter tracks
+
+Chapters allow users to jump to different sections within the video. Each chapter can be labeled however you’d like.
+
+Here’s an example WebVTT file for chapters:
+
+```vtt
+WEBVTT
+
+Chapter 1
+00:00:00.000 --> 00:10:00.000
+Dinosuars frolicking in space
+```
+
+This chapter would last from the beginning to exactly 10 minutes into the video.
+
+**Links**
+
+- [HTML5 Doctor: Video Subtitling and WebVTT](http://html5doctor.com/video-subtitling-and-webvtt/)
+- [Getting Started With the Track Element](http://www.html5rocks.com/en/tutorials/track/basics/)
+- [Wikipedia: WebVTT](https://en.wikipedia.org/wiki/WebVTT)
+- [W3C: WebVTT](http://dev.w3.org/html5/webvtt/)
 
 ---
 
 ## Using Javascript to control video
 
 ### Javascript hover to play video
-
----
-
-## SD/HD video switch?
 
 ---
 
@@ -153,18 +340,16 @@ Not only is it extremely annoying, but imagine how frustrating it must be for pe
 
 ---
 
----
-
 ## Video list
 
-1. Compressing formats
-2. Video tag
-3. Embed containers
-4. Adding tracks to video
-5. Using Javascript to control video
-6. Javascript hover to play video
-7. Hosting off GitHub
-8. Audio tag
+1. Video & audio: video formats
+2. Video & audio: video tag
+3. Video & audio: responsive video
+4. Video & audio: adding tracks to video
+5. Video & audio: using Javascript to control video
+6. Video & audio: Javascript hover to play video
+7. Video & audio: hosting off GitHub
+8. Video & audio: audio tag
 
 ## Supplemental links
 

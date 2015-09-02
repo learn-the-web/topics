@@ -395,17 +395,6 @@ $video.on('mouseout blur', function () {
 
 ---
 
-## Hosting off GitHub
-
-**Links**
-
-- **[KeyCDN](https://www.keycdn.com/)**
-- [Amazon S3](https://aws.amazon.com/s3/)
-- [MaxCDN](http://www.maxcdn.com/)
-- [Wistia](http://wistia.com/)
-
----
-
 ## The audio tag
 
 The `<audio>` tag is almost identical to the `<video>` tag. Here’s what a basic audio tag looks like:
@@ -446,6 +435,64 @@ Using the `autoplay` attribute it is possible to make sounds play automatically 
 **Don’t auto play sounds. Ever.**
 
 Not only is it extremely annoying, but imagine how frustrating it must be for people who are trying to listen to a screen reader when all of a sudden some random sound blurts out.
+
+---
+
+## Hosting off GitHub
+
+Git, and therefore GitHub, are not made for large files, like video and audio. If you accidentally sync a video into your repo you’ll probably jam it up—so just don’t put video files into your repository.
+
+There are different solutions for where to host your video files. The quickest and easiest way is YouTube or Vimeo: bandwidth is free and they give you a complete, functional, well used & tested player, they even automatically switch between SD and HD. But the problem with YouTube & Vimeo is you have to use their player and their embed code, you also lose a lot, practically all, of the Javascript functionality.
+
+So another solution is to use a separate host for your large files. You could use a traditional, shared host like [SiteGround](https://www.siteground.com/), or a CDN (Content Delivery Network).
+
+**[☛ Learn more about CDNs in the advanced performance tutorial](/topics/advanced-performance/).**
+
+### Hosting on a CDN
+
+My suggestion would be to host your video file on a CDN, below is a tutorial using [KeyCDN](https://www.keycdn.com/), but it’s just an example.
+
+After creating an account, create a new zone, specifically a **push zone**.
+
+![](keycdn-zone.jpg)
+
+There’s a few things to fill out:
+
+- “Zone name” — set that to whatever you want, maybe the name of your project.
+- “Zone type” — set it “push”.
+- Check “Show Advanced Features”.
+- Set “SPDY” to “Enabled”.
+- Set “SSL” to “Shared”.
+- Set “Force SSL” to “Enabled”.
+
+After you’ve created your zone, you’ll need to upload your video to the CDN, using FTPS or rsync. I like to use [Transmit](https://www.panic.com/transmit/) as my FTP application, but [Cyberduck](https://cyberduck.io/) is pretty great too. [Here’s KeyCDN’s FTP upload tutorial.](https://www.keycdn.com/support/upload-data-to-a-push-zone/)
+
+After you’ve uploaded it’ll take a couple minutes for your video to sync around the world on all their servers.
+
+But you should now have a URL to the video, to get the URL, the file browser is a simple way.
+
+![](keycdn-files.jpg)
+
+On your zone listing page, click the “Manage” menu and select “File Browser”.
+
+![](keycdn-url.jpg)
+
+On the next screen you should see your filename. *Note that it isn’t using **HTTPS**, so you’ll have to change that because we changed the setting above to “Force SSL”.*
+
+Now that you have your URL, you can change the `<video>` tag’s `src` attribute to the new location:
+
+```html
+<video src="http://demo-1d8c.kxcdn.com/dinos.mp4">Dinosaurs frolicking in the tall grass.</video>
+```
+
+That’s all. **But make sure never to put large files like video and audio into your Git/GitHub repository.**
+
+**Links**
+
+- **[KeyCDN](https://www.keycdn.com/)** — [Upload data to push zone](https://www.keycdn.com/support/upload-data-to-a-push-zone/)
+- [Amazon S3](https://aws.amazon.com/s3/)
+- [MaxCDN](http://www.maxcdn.com/)
+- [Wistia](http://wistia.com/)
 
 ---
 

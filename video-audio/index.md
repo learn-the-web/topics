@@ -64,7 +64,7 @@ In between the open and close `<video>` tags, you should put some fallback conte
 
 ```html
 <video src="video/dinos.mp4">
-  Dinosaur frolicking in the tall grass.
+  Dinosaurs frolicking in the tall grass.
 </video>
 ```
 
@@ -87,7 +87,7 @@ By default, there are no playback controls on a video, we need to tell the brows
 
 ```html
 <video src="video/dinos.mp4" controls>
-  Dinosaur frolicking in the tall grass.
+  Dinosaurs frolicking in the tall grass.
 </video>
 ```
 
@@ -108,7 +108,7 @@ The poster attribute allows you to specify an image that will be displayed to th
 
 ```html
 <video src="video/dinos.mp4" controls poster="img/dinos-title-screen.jpg">
-  Dinosaur frolicking in the tall grass.
+  Dinosaurs frolicking in the tall grass.
 </video>
 ```
 
@@ -135,7 +135,7 @@ We just need to add a hash onto the URL for the browser to register the range.
 
 ```html
 <video src="video/dinos.mp4#t=5,20">
-  Dinosaur frolicking in the tall grass.
+  Dinosaurs frolicking in the tall grass.
 </video>
 ```
 
@@ -168,7 +168,7 @@ If your video is in the standard aspect ratio for HD of 16 by 9, your HTML will 
 ```html
 <div class="embed embed--16by9">
   <video class="embed__item" src="video/dinos.mp4">
-    Dinosaur frolicking in the tall grass.
+    Dinosaurs frolicking in the tall grass.
   </video>
 </div>
 ```
@@ -209,7 +209,7 @@ We just need to add a `<track>` element to the `<video>` tag that points to the 
 ```html
 <video src="video/dinos.mp4">
   <track src="video/subtitles.vtt" kind="subtitles" srclang="en" label="English">
-  Dinosaur frolicking in the tall grass.
+  Dinosaurs frolicking in the tall grass.
 </video>
 ```
 
@@ -331,7 +331,65 @@ This chapter would last from the beginning to exactly 10 minutes into the video.
 
 ## Using Javascript to control video
 
+The video (and audio) that you add to your website is completely scriptable with Javascript. What many of the video players above do is write a completely new control interface in Javascript.
+
+Let’s start with some basic HTML for our video player:
+
+```html
+<video id="dinos" src="video/dinos.mp4">Dinosaurs frolicking in the tall grass.</video>
+<button id="btn-play-pause">Play</button>
+```
+
+I’ve intentionally left the `controls` attribute off because I want to make my own play/pause control with the `<button>` tag I added.
+
+Now let’s write some Javascript, we’ll standardize on jQuery, but it’s completely unnecessary to do any of the following functionality.
+
+```js
+// We want the raw Javascript version instead of the jQuery version
+// `document.getElementById()` is probably better
+var video = $('#dinos').get(0);
+var $btn = $('#btn-play-pause');
+
+$btn.on('click', function () {
+  if (video.paused) {
+    video.play();
+  } else {
+    video.pause();
+  }
+});
+```
+
+There’s a bunch more you can do with Javascript and the `<video>` tag including: changing the play position, muting, changing the play speed etc.
+
 ### Javascript hover to play video
+
+Here’s an example of how to make a video play when you hover over it an stop when you move your mouse away.
+
+Let’s start with the HTML:
+
+```html
+<video id="me" poster="img/thomas-smiling.jpg" src="video/person.mp4">Thomas dancing.</video>
+```
+
+And here’s the Javascript that should do what we want. I’ve made sure to add `focus` and `blur` for accessibility purposes too.
+
+```js
+var $video = $('#me');
+
+$video.on('mouseover focus', function () {
+  $video.get(0).play();
+});
+
+$video.on('mouseout blur', function () {
+  $video.get(0).pause();
+});
+```
+
+**Links**
+
+- [MDN: HTMLMediaElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement)
+- [MDN: HTMLVideoElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement)
+- [MDN: HTMLAudioElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement)
 
 ---
 

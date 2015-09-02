@@ -46,6 +46,8 @@ A simple example of embedding a video on a website looks like this:
 <video src="video/dinos.mp4"></video>
 ```
 
+### Fallback for video
+
 In between the open and close `<video>` tags, you should put some fallback content, kind of like the `alt` attribute on images.
 
 ```html
@@ -53,6 +55,8 @@ In between the open and close `<video>` tags, you should put some fallback conte
   Dinosaur frolicking in the tall grass.
 </video>
 ```
+
+### Multiple formats
 
 If you wanted to support more older browsers with different formats you can use multiple `<source>` tags:
 
@@ -101,6 +105,8 @@ The poster attribute allows you to specify an image that will be displayed to th
 There is an `autoplay` attribute you can use on the video tag, it will automatically download and play the video.
 
 Try to avoid auto playing videos—especially videos with sound. Some devices don’t even allow auto play, they require a user interaction to start a video.
+
+*If you must auto play your video make sure to mute the sound with the `muted` attribute.*
 
 ```html
 <!-- If you must auto play, make sure to add the `muted` attribute to avoid auto playing sounds. -->

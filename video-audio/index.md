@@ -346,7 +346,7 @@ Now let’s write some Javascript, we’ll standardize on jQuery, but it’s com
 
 ```js
 // We want the raw Javascript version instead of the jQuery version
-// `document.getElementById()` is probably better
+//   `document.getElementById()` is probably better
 var video = $('#dinos').get(0);
 var $btn = $('#btn-play-pause');
 
@@ -363,15 +363,17 @@ There’s a bunch more you can do with Javascript and the `<video>` tag includin
 
 ### Javascript hover to play video
 
-Here’s an example of how to make a video play when you hover over it an stop when you move your mouse away.
+Here’s an example of how to make a video play when you hover over it and stop when you move your mouse away.
 
 Let’s start with the HTML:
 
 ```html
-<video id="me" poster="img/thomas-smiling.jpg" src="video/person.mp4">Thomas dancing.</video>
+<video id="me" poster="img/thomas-smiling.jpg" preload src="video/person.mp4">Thomas dancing.</video>
 ```
 
-And here’s the Javascript that should do what we want. I’ve made sure to add `focus` and `blur` for accessibility purposes too.
+*You’ll notice I’ve added the `preload` attribute, to encourage the browser to download the video so it’s ready to play when the user interacts.*
+
+And here’s the Javascript that should do what we want. I’ve made sure to add `focus` and `blur` for accessibility purposes.
 
 ```js
 var $video = $('#me');

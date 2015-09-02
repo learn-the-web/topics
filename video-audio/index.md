@@ -29,11 +29,57 @@ So, the benefit to us is that we really only need to provide a `.mp4` encoded in
 
 ### Exporting from After Effects
 
+---
+
 ## The video tag
+
+After you have your video compressed in the right format, it’s really easy to embed it onto your website.
+
+There are two tags we need to embed video on our website:
+
+- `<video>` — the wrapper, with attributes to adjust functionality.
+- `<source>` — used to present a video format.
+
+A simple example of embedding a video on a website looks like this:
+
+```html
+<video src="video/dinos.mp4"></video>
+```
+
+In between the open and close `<video>` tags, you should put some fallback content, kind of like the `alt` attribute on images.
+
+```html
+<video src="video/dinos.mp4">
+  Dinosaur frolicking in the tall grass.
+</video>
+```
+
+If you wanted to support more older browsers with different formats you can use multiple `<source>` tags:
+
+```html
+<video>
+  <!-- Notice the `type` attribute to help the browser determine what video to play -->
+  <source src="video/dinos.mp4" type="video/mp4">
+  <source src="video/dinos.webm" type="video/webm">
+  <source src="video/dinos.ogv" type="video/ogg">
+</video>
+```
 
 ### Controls
 
+By default, there are no playback controls on a video, we need to tell the browser to add those with the `controls` attribute.
+
+```html
+<video src="video/dinos.mp4" controls>
+  Dinosaur frolicking in the tall grass.
+</video>
+```
+
+The browser will then present its default set of player controls—that you cannot style.
+
 #### Video players
+
+If you want more access to style the controls of the video player try using a Javascript video library, or see about [making your own controls with Javascript](#using-javascript-to-control-video).
 
 - [MediaElement.js](http://mediaelementjs.com/)
 - [Video.js](http://www.videojs.com/)
@@ -41,6 +87,14 @@ So, the benefit to us is that we really only need to provide a `.mp4` encoded in
 - [HTML5 Video Player Comparison](http://praegnanz.de/html5video/)
 
 ### Poster
+
+The poster attribute allows you to specify an image that will be displayed to the user before they start playing the video. It can be in any format the browser supports, but likely you want to use JPG or PNG.
+
+```html
+<video src="video/dinos.mp4" controls poster="img/dinos-title-screen.jpg">
+  Dinosaur frolicking in the tall grass.
+</video>
+```
 
 ### Auto play
 
@@ -56,6 +110,8 @@ Try to avoid auto playing videos—especially videos with sound. Some devices do
 ```
 
 ### Adding tracks to video
+
+### Specifying playback range
 
 ---
 
@@ -95,5 +151,19 @@ Not only is it extremely annoying, but imagine how frustrating it must be for pe
 
 ## Video list
 
+1. Compressing formats
+2. Video tag
+3. Embed containers
+4. Adding tracks to video
+5. Using Javascript to control video
+6. Javascript hover to play video
+7. Hosting off GitHub
+8. Audio tag
+
 ## Supplemental links
 
+- [Wikipedia: HTML5 video](https://en.wikipedia.org/wiki/HTML5_video)
+- [MDN: Using HTML5 audio and video](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video)
+- [HTML5 Video](http://www.html5rocks.com/en/tutorials/video/basics/)
+- [W3C: Media Fragments](http://www.w3.org/TR/media-frags/)
+- [Dive Into HTML5: Video](http://diveintohtml5.info/video.html)

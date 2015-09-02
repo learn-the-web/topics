@@ -446,7 +446,7 @@ There are different solutions for where to host your video files. The quickest a
 
 So another solution is to use a separate host for your large files. You could use a traditional, shared host like [SiteGround](https://www.siteground.com/), or a CDN (Content Delivery Network).
 
-**[☛ Learn more about CDNs in the advanced performance tutorial](/topics/advanced-performance/).**
+**[☛ Learn more about CDNs in the advanced performance tutorial.](/topics/advanced-performance/)**
 
 ### Hosting on a CDN
 

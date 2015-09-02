@@ -68,7 +68,7 @@ groups:
       - 'Resources sent in a compressed format.'
       - 'Specify character set for all text-based resources.'
       - 'Proper caching headers sent.'
-      - 'Use a content delivery network (CDN) to serve your images.<br>[CloudFlare](https://www.cloudflare.com/), [KeyCDN](https://www.keycdn.com/)'
+      - 'Use a content delivery network (CDN) to serve your images.<br>[CloudFlare](https://www.cloudflare.com/), [KeyCDN](https://www.keycdn.com/), [MaxCDN](http://www.maxcdn.com/)'
       - 'Website hosted on a fast server, ideally with CDN features.'
       - 'Server uses HTTP/2 where possible.'
 ---

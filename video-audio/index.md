@@ -11,7 +11,7 @@ Video is extremely popular on the web, using up the majority of total bandwidth 
 
 ## Video on the web
 
-Historically video was difficult to do on the web: you have to provide multiple versions of the video format, QuickTime, RealPlayer, Flash, etc. Flash kinda won for a while an with the advent of YouTube most video on the web was played with Flash.
+Historically video was difficult to do on the web: you had to provide multiple versions of the video in different formats, QuickTime, RealPlayer, Flash, etc. Flash kinda won for a while and with the advent of YouTube most video on the web was played with Flash.
 
 HTML added a new tag, the `<video>` tag that was to remove the need for having so many different plugins and video formats. With mobile devices not supporting Flash, native video started to win.
 
@@ -19,13 +19,13 @@ HTML added a new tag, the `<video>` tag that was to remove the need for having s
 
 ## Video formats
 
-Unfortunately, for many years we had a video format conflict, some browsers didn’t want to pay exorbitant amounts of money for MPEG LA’s H.264 codec and other codecs were used, including [OGG](https://en.wikipedia.org/wiki/Ogg) and [WebM](http://www.webmproject.org/).
+Unfortunately, for many years we had a video format conflict, some browsers didn’t want to pay exorbitant amounts of money for [MPEG LA](https://en.wikipedia.org/wiki/MPEG_LA)’s H.264 codec and other codecs were used, including [OGG](https://en.wikipedia.org/wiki/Ogg) and [WebM](http://www.webmproject.org/).
 
 H.264 became the dominant format anyways because it was hardware accelerated on mobile devices. Most browsers now support H.264, but many vendors are working together to come up with a patent unencumbered video codec specifically targeted at the web.
 
 So, the benefit to us is that we really only need to provide a `.mp4` encoded in H.264 to support most browsers.
 
-**[You can see the H.264 browser support on Can I Use](http://caniuse.com/#feat=mpeg4)**
+**[You can see the H.264 browser support on Can I Use.](http://caniuse.com/#feat=mpeg4)**
 
 ### Exporting from After Effects
 

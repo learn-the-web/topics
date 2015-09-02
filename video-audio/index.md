@@ -163,7 +163,7 @@ You’ll most likely want to make your video flexible and scale with the dimensi
 
 **[☛ The best way to make your video responsive is to use embed containers.](/topics/modules/)**
 
-If you video is in the standard aspect ratio for HD of 16 by 9, your HTML will look something like this.
+If your video is in the standard aspect ratio for HD of 16 by 9, your HTML will look something like this.
 
 ```html
 <div class="embed embed--16by9">
@@ -196,6 +196,8 @@ And the CSS will look something like this:
 }
 ```
 
+Using the above HTML & CSS will allow your video to scale while still maintaining the proper aspect ratio.
+
 ---
 
 ## Adding captions & subtitles to video
@@ -213,8 +215,8 @@ We just need to add a `<track>` element to the `<video>` tag that points to the 
 
 There are a few important attributes to look at:
 
-- `src="…"` — points the text file for this track.
-- `kind="…"` — what kind of track it is: `subtitles`, `captions`, `descriptions`, `chapters`, `metadata`.
+- `src="…"` — is a URL that points the text file for this track.
+- `kind="…"` — what kind of track it is: `subtitles`, `captions`, `descriptions`, `chapters` or `metadata`.
 - `srclang="…"` — the language of the content in the track.
 - `label="…"` — what the user will see in the interface describing this track.
 
@@ -222,9 +224,11 @@ There are a few important attributes to look at:
 
 Subtitles are used to add transcriptions or translations to the video. They are time-based so that specific words show on the screen in time with the video.
 
-All the tracks use the WebVTT format, an open format for describing this time of content.
+All the tracks use the [WebVTT](http://dev.w3.org/html5/webvtt/) format, an open format for describing this type of content.
 
-A WebVTT file is just a plain text file that you can create in you text editor—make sure to use the `.vtt` file extension when you save it.
+#### WebVTT
+
+A WebVTT file is just a plain text file that you can create in your text editor—make sure to use the `.vtt` file extension when you save it.
 
 Here’s a basic example for a subtitle track:
 
@@ -240,6 +244,14 @@ Hey, how’s it going?
 Thing’s are good.
 How you doin’?
 ```
+
+You’ll notice a few things:
+
+- The first line in the file must always be `WEBVTT`.
+- You can add an optional heading to each entry, like `1` above.
+- Next is the time code: `start --> end`.
+  It’s in the format of `hours:minutes:seconds.milliseconds`, but the hours are optional.
+- After the time code is the text to display, it can be written on multiple lines, but often it’s better to let the device break the lines where appropriate.
 
 #### Styling tracks
 
@@ -270,7 +282,7 @@ I’ve got a <c.super-bad>bad</c> feeling about this.
 
 #### Denoting the voice of the speaker
 
-Inside the caption and subtitle tracks you can denote the voice of the person speaking. There are a few benefits:
+Inside the caption and subtitle tracks you can denote the voice of the person speaking. There are a few benefits to marking of the name of the voice:
 
 1. The name of the person will be added to the display.
 2. It can be read out by screen readers.
@@ -313,6 +325,7 @@ This chapter would last from the beginning to exactly 10 minutes into the video.
 - [Getting Started With the Track Element](http://www.html5rocks.com/en/tutorials/track/basics/)
 - [Wikipedia: WebVTT](https://en.wikipedia.org/wiki/WebVTT)
 - [W3C: WebVTT](http://dev.w3.org/html5/webvtt/)
+- [Converting SRT files to WebVTT files](http://www.webvtt.org/)
 
 ---
 

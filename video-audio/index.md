@@ -341,7 +341,36 @@ This chapter would last from the beginning to exactly 10 minutes into the video.
 
 ## The audio tag
 
+The `<audio>` tag is almost identical to the `<video>` tag. Here’s what a basic audio tag looks like:
+
+```html
+<audio src="audio/dino-roar.mp3" controls>
+  The loud sound of a dinosaur roaring.
+</audio>
+```
+
+### Audio attributes
+
+The audio tag has many of the same attributes as the video tag, here’s a list of what you can use:
+
+- `controls` — displays the browser’s default playback controls.
+- `muted` — whether it should be audible or silent.
+- `loop` — whether the sounds should be looped or not.
+- `volume="…"` — to set the volume of the sound: `0.0` is silent, `1.0` is the loudest, the sounds natural volume.
+
 ### Audio formats
+
+Currently the MP3 audio format is the most browser compatible. **[You can see the MP3 browser support on Can I Use.](http://caniuse.com/#feat=mp3)**
+
+If you want to support older browser versions you could supply OGG also using the `<source>` tag:
+
+```html
+<audio controls>
+  <source src="audio/dino-roar.mp3" type="audio/mpeg">
+  <source src="audio/dino-roar.ogg" type="audio/ogg">
+  The loud sound of a dinosaur roaring.
+</audio>
+```
 
 ### Auto play
 
@@ -349,7 +378,7 @@ Using the `autoplay` attribute it is possible to make sounds play automatically 
 
 **Don’t auto play sounds. Ever.**
 
-Not only is it extremely annoying, but imagine how frustrating it must be for people who are trying to listen to screen reader when all of a sudden some random sound blurts out.
+Not only is it extremely annoying, but imagine how frustrating it must be for people who are trying to listen to a screen reader when all of a sudden some random sound blurts out.
 
 ---
 

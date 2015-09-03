@@ -103,7 +103,6 @@ progressive-enhancement:
 
 advanced-performance:
   title: "Advanced performance"
-  disabled: true
   tags: "advanced performance css minification combine performance content delivery network cloudflare security"
   desc: "Making our websites more performant with minification, content delivery networks, and other optimizations."
 

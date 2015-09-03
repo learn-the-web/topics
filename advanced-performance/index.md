@@ -20,9 +20,6 @@ playlist:
 **Links**
 
 - [Instagram and Optimizing Favicons](https://zoompf.com/blog/2012/04/instagram-and-optimizing-favicons)
-- []()
-- []()
-- []()
 
 ---
 
@@ -39,10 +36,6 @@ playlist:
 **Links**
 
 - [Gulp for Beginners](https://css-tricks.com/gulp-for-beginners/)
-- []()
-- []()
-- []()
-- []()
 
 ---
 
@@ -58,8 +51,6 @@ playlist:
 
 - [Web Caching Basics: Terminology, HTTP Headers, and Caching Strategies](https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies)
 - [The Difference Between Minification and Gzipping](https://css-tricks.com/the-difference-between-minification-and-gzipping/)
-- []()
-- []()
 
 ---
 

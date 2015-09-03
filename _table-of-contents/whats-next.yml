@@ -40,6 +40,18 @@ staying-up-to-date:
   tags: "up to date feeds email newsletters blogs tutorials rss save for later bookmarks twitter"
   desc: "How to keep your knowledge current with feeds, newsletters, and blogs."
 
+ajax:
+  title: "AJAX"
+  disabled: true
+  tags: "javascript ajax asynchronous load content xml external file json html"
+  desc: "Loading external content and files into your website using Javascript."
+
+javascript-templates:
+  title: "Javascript templates"
+  disabled: true
+  tags: "javascript templates mustache handlebars separate separation concerns external html"
+  desc: "Separating the HTML and Javascript by using templates."
+
 style-guides:
   title: "Style guides"
   disabled: true
@@ -58,32 +70,20 @@ email-newsletters:
   tags: "html email newsletters code tables design mailchimp"
   desc: "A quick tutorial on creating HTML email newsletters with a bunch of helpful links."
 
-ajax:
-  title: "AJAX"
-  disabled: true
-  tags: "javascript ajax asynchronous load content xml external file json html"
-  desc: "Loading external content and files into your website using Javascript."
-
-javascript-templates:
-  title: "Javascript templates"
-  disabled: true
-  tags: "javascript templates mustache handlebars separate separation concerns external html"
-  desc: "Separating the HTML and Javascript by using templates."
-
 efficiency-tools:
   title: "Efficiency tools"
   disabled: true
   tags: "efficiency tools keyboard shortcuts command line terminal alfred xscope shortcat dash window managers vim keybindings"
   desc: "Ways to get more out of your computer, including different keyboard-based tools."
 
-php:
-  title: "PHP"
-  disabled: true
-  tags: "php includes headers footers database contact forms emails"
-  desc: "A quick introduction to PHP and how to use it for your website."
+# php:
+#   title: "PHP"
+#   disabled: true
+#   tags: "php includes headers footers database contact forms emails"
+#   desc: "A quick introduction to PHP and how to use it for your website."
 
-wordpress:
-  title: "WordPress"
-  disabled: true
-  tags: "wordpress custom theme blog php setup content management system database"
-  desc: "A quick introduction to setting up a custom WordPress theme for a client."
+# wordpress:
+#   title: "WordPress"
+#   disabled: true
+#   tags: "wordpress custom theme blog php setup content management system database"
+#   desc: "A quick introduction to setting up a custom WordPress theme for a client."

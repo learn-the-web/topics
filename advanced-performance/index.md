@@ -9,6 +9,12 @@ playlist:
 
 ### ImageAlpha + PNG8
 
+### Blurring JPEGs to reduce file size
+
+### Optimized favicons
+
+### Embedding single-use SVGs
+
 ### Data URIs
 
 **Links**
@@ -28,6 +34,8 @@ playlist:
 
 ### Minification tools
 
+#### Automatic minification with CloudFlare
+
 **Links**
 
 - [Gulp for Beginners](https://css-tricks.com/gulp-for-beginners/)
@@ -43,6 +51,8 @@ playlist:
 ### Compressing code files
 
 ### Caching headers
+
+### Automatic server setup with CloudFlare
 
 **Links**
 

@@ -76,6 +76,7 @@ Another popular tool is [Google’s Page Speed](https://developers.google.com/sp
 - [CSS Stats](http://cssstats.com/)
 - [SpeedCurve](https://speedcurve.com/)
 - [Calibre](https://calibreapp.com/)
+- [Understanding webpagetest.org](http://www.sitepoint.com/video-understanding-webpagetest-org/)
 
 ---
 

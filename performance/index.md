@@ -135,6 +135,14 @@ A few other things you can do to your website to make it load faster are:
 
 ---
 
+## Advanced performance
+
+There’s a bunch more you can do to make your website super fast.
+
+**[☛ Check out the other things you can do in the advanced performance tutorials.](/topics/advanced-performance/)**
+
+---
+
 ## Video list
 
 1. [Performance: browser developer tools](https://www.youtube.com/watch?v=8OGVUvrInWo&index=1&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)

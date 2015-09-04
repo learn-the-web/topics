@@ -178,17 +178,27 @@ Content delivery networks (CDNs) allow us to distribute our resources around the
 
 Most often we put our static files on CDNs, primarily images, because they’re the files that most benefit from CDNs.
 
+*Using a CDN when hosting on GitHub is really helpful because Git/GitHub do not support large files. Things like fonts, large images, videos, etc. should all go onto a CDN instead of in your repository.*
+
 ### CloudFlare
 
 CloudFlare is a very popular CDN with lots of great free features. But not only do they provide CDN features—automatically—they also perform other performance tasks: like minification, caching headers, gzipping and more.
 
-[CloudFlare becomes our DNS provider](https://github.com/algonquindesign/resources/tree/master/domains#better-security-and-performance-with-cloudflare) and these options are fairly automatic after setting up.
+**[☛ CloudFlare becomes our DNS provider](/topics/domains#better-security-and-performance-with-cloudflare)** and these features are fairly automatic after the set up.
 
-They even provide a bunch of security features like DDOS protection and free SSL for websites.
+They even provide a bunch of security features like DDOS protection and free HTTPS for websites.
 
 *If you’re hosting on GitHub you’ll have to use a [custom domain](https://github.com/algonquindesign/resources/tree/master/domains) in order to take advantage of CloudFlare.*
 
+*Also not that if you’re hosting on GitHub the HTTPS isn’t true: the connection between your user and CloudFlare is encrypted, but the connection between CloudFlare and GitHub is not. This is just a limitation of GitHub hosting right now.*
+
 ### KeyCDN
+
+KeyCDN is another very popular CDN. They are a little more traditional than CloudFlare: they only provide resource hosting, not all the other compression & security features.
+
+With KeyCDN we can either upload our large files to them or host the files on our server and KeyCDN will pull them onto their servers and distribute them around the world.
+
+**[☛ See how to use KeyCDN to host large video files.](/topics/video-audio/#hosting-on-a-cdn)**
 
 **Links**
 

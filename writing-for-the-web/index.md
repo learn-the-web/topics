@@ -257,6 +257,7 @@ An example sitemap in Markdown using nested lists:
 - [Quick Course On Effective Website Copywriting](http://www.smashingmagazine.com/2012/05/quick-course-on-effective-website-copywriting/)
 - [Readability Tools That Will Help Improve Your Site’s Content](http://sixrevisions.com/tools/readability/)
 - [Headings Are Pick-Up Lines: 5 Tips for Writing Headlines That Convert](http://www.nngroup.com/articles/headings-pickup-lines/)
+- [How to write a great error message](https://medium.com/@thomasfuchs/how-to-write-an-error-message-883718173322)
 - [Interface Writing: Code for Humans](http://nicolefenton.com/interface-writing/)
 - [CriticMarkup](http://criticmarkup.com/)
 - [Nicely Said](http://www.nicelysaid.co/)

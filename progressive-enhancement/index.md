@@ -65,3 +65,11 @@ Disable CSS in your browser using the [Developer Toolbar](http://chrispederick.c
 ### 10. What if your content is consumed on another website?
 
 What if your website is linked to Facebook? Twitter? Reddit? Images are posted on Pinterest? Google search bot?
+
+---
+
+## Video list
+
+## Supplemental links
+
+- [Designing with Progressive Enhancement](https://www.filamentgroup.com/dwpe/)

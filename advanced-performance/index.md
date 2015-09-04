@@ -156,9 +156,9 @@ There’s a few important things to notice about the embedded SVG:
 
 ---
 
-## Minification
+## Reducing the size of code
 
-Minification is the like smushing images, but for code. It removes all the extra characters, all the white space, all the tabs—everything that’s helpful for humans and unnecessary for computers. Resulting in a smaller file size.
+We can reduce the size of our code, a process called minification. It’s like smushing images, but for code. It removes all the extra characters, all the white space, all the tabs—everything that’s helpful for humans and unnecessary for computers. Resulting in a smaller file size.
 
 Concatenation is just a fancy word for combining.
 
@@ -227,6 +227,12 @@ main.css
 main.min.css
 ```
 
+**In your HTML you point to the minified version of your CSS, like this:**
+
+```
+<link href="css/main.min.css" rel="stylesheet">
+```
+
 ### Minification tools
 
 Minification is a process that shouldn’t be done by hand, but should be automated by a tool. There are lost of different tools, manual & automatic, GUI & command line. Many of these tools will even automatically minify when you save your file. *Choose the one that works best for you.*
@@ -264,8 +270,7 @@ Go to the “Speed” section and check all the options in “Auto Minify̦”.
 
 **Links**
 
-- **[Gulp](http://gulpjs.com/)**
-- [Gulp for Beginners](https://css-tricks.com/gulp-for-beginners/)
+- **[Gulp](http://gulpjs.com/)**, [Gulp for Beginners](https://css-tricks.com/gulp-for-beginners/)
 - [Grunt](http://gruntjs.com/)
 - [Prepros](https://prepros.io/)
 - [CodeKit](http://incident57.com/codekit/)

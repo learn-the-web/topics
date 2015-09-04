@@ -159,11 +159,41 @@ Go to the “Speed” section and check all the options in “Auto Minify̦”.
 
 ## Server considerations
 
+Not only is it extremely important to make our code and resources, like images, download really quickly, but the server we host our website can have a big impact too.
+
 ### Compressing code files
+
+After minifying and concatenating our CSS and Javascript, we can make the download size of the files even smaller by compressing them—basically zipping them. This is a completely automatic process done by the server.
+
+*When using GitHub as a host, you’ll have to hook up CloudFlare to get the best compression.*
+
+- For the Apache web server, [check out the configuration provided by HTML5 Boilerplate](https://github.com/h5bp/server-configs-apache/blob/master/dist/.htaccess).
+- For the Nginx web server, [also check out the configuration provided by HTML5 Boilerplate](https://github.com/h5bp/server-configs-nginx/blob/master/nginx.conf).
+- [There’s more configurations in the repository too.](https://github.com/h5bp/server-configs)
 
 ### Caching headers
 
+Another thing you want to set up on your server is proper caching headers. The idea behind caching headers is that they encourage the user’s browser to save a copy of your website on the local computer. You can choose how long the local copy should be kept.
+
+This is really great for CSS and Javascript because each new page the user goes to they don’t have to redownload the CSS, it’s already on their computer.
+
+*When using GitHub as a host, you have no control over this, so hooking up CloudFlare is a great solution.*
+
+*Check the server configurations above for setting this up on other web servers.*
+
 ### Automatic server setup with CloudFlare
+
+If you’re using CloudFlare you can set up the proper compression and caching headings really easily. In fact the compression is already on.
+
+For the caching headers, go to the “Caching” section:
+
+![](cloudflare-caching.jpg)
+
+At the very top set the “Caching Level” to “Standard”.
+
+![](cloudflare-expires.jpg)
+
+Scroll down a little and set the “Browser Cache Expiration̦” to something high, like “1 month”. You may as well turn on “Always Online” while you’re at it.
 
 **Links**
 

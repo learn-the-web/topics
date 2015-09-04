@@ -17,25 +17,142 @@ There’s a whole lot you can do to make your website faster before getting to t
 
 ## Advanced resource compression
 
-### ImageAlpha + PNG8
+For images we always start by choosing the correct format, compressing as best we can, and running through ImageOptim. But there’s more we can do. And for other website resources we can increase performance with just a little care.
 
-### Blurring JPEGs to reduce file size
+### Smaller PNGs
+
+The difference between PNG-24 and PNG-8 is just the number of colours that can exist in the file:
+
+- PNG-8 — 256 colours.
+- PNG-24 – millions of colours.
+
+When exporting our PNGs from Photoshop we always choose PNG-24 because Photoshop’s PNG-8 implementation isn’t correct, lacking 8-bit transparency.
+
+But, PNG-8 has lots of performance gains because it can make much smaller file sizes with it’s limited colour palette. There’s another tool called [ImageAlpha](http://pngmini.com/) that allows us to take our PNG-24 graphics and convert them to PNG-8, reducing their colour palette but keeping nice transparency.
+
+Open up ImageAlpha and drag and drop your PNG into its window.
+
+![](imagealpha.jpg)
+
+Using the slider on the left, reduce the number of colours until the image doesn’t become distorted. Try to make the colours number as small as possible without destroying the integrity of the image.
+
+After you’re finished you have to re-save the image over top, so go to the menu and go to `File > Save As…` and just overwrite your original PNG. Check “Optimize with ImageOptim” to get an extra size reduction.
+
+With the image you’re seeing above the size reduction was pretty great, with no noticeable loss of quality.
+
+- Original PNG-24: **58 KB**
+- New PNG-8, 16 colours: **7 KB**
+
+### Blurring JPGs to reduce file size
+
+One way to significantly decrease the size of JPG files is to blur the sections that aren’t the focus. Literally take the blur tool in Photoshop and significantly blur out the background of the image.
+
+Compare these two images:
+
+![](original.jpg)
+
+This is the original JPG—136 KB.
+
+![](blurred.jpg)
+
+This one has a blurred background—102 KB.
+
+*Photos copyright [elizabeth&jane photography](http://elizabethandjane.ca/).*
 
 ### Optimized favicons
 
+Since favicons are automatically requested on every website there’s a few things you can do to increase their performance.
+
+1. **Make sure it exists** — the browser will automatically request it, so if it doesn’t exist there will still be a delay while attempting to fetch it.
+2. **Smush the PNGs first** — before creating the final `.ico` file make sure to run you favicon PNGs through ImageOptim. And ideally you should be able to run them through ImageAlpha to compress the images even further.
+
 ### Embedding single-use SVGs
 
-### Sub-setting fonts
+If an SVG image is used only once on your website, on a single page, consider embedding it directly into the HTML.
 
-### Data URIs
+**[See the advanced SVG tutorial on how to embed SVGs in HTML.](/topics/advanced-svg/)**
+
+### Reducing web font size
+
+Most typefaces come with many characters so they can support lots of different languages. But, depending on the site you’re making you may only need a few of those characters. For example, if your website is only in English you can remove a bunch of characters from the font file. Removing characters from the font file is called sub-setting.
+
+Google Fonts provides a limited sub-setting of their typefaces, but you can download the fonts and run them through another system to truly reduce the file size.
+
+#### Sub-setting fonts with FontSquirrel
+
+Go to [FontSquirrel’s Web Font Generator](http://www.fontsquirrel.com/tools/webfont-generator) and upload the styles and weights of the fonts you’re planning on using.
+
+![](fontsquirrel.jpg)
+
+**The “Optimal” setting is likely what you need.**
+
+I usually go with “Expert…” and only choose “WOFF” for the font formats because, [according to Can I Use, it has good enough browser support](http://caniuse.com/#feat=woff)—custom fonts are a luxury, not a must have.
+
+After you’ve downloaded the font package, put the font files in your website, maybe a folder named `fonts`—[or ideally on a CDN](#content-delivery-networks). Then copy the CSS from the CSS file into the top of your CSS—you may have to update the font paths at the top of the CSS you copied-and-pasted.
+
+Looking at Roboto, the typeface I used above, these are my file size reductions:
+
+- Roboto Regular: 163 KB to 26 KB.
+- Roboto Italic: 161 KB to 30 KB.
+- Roboto Bold: 162 KB to 26 KB.
+
+### Embedding small images in CSS
+
+For really small graphics it makes more sense to embed them directly into your CSS or HTML instead of forcing the browser to open another request and download the file. These are called Data URIs.
+
+Data URIs are great for small PNGs, like icons, and also work really well for small SVGs.
+
+Here’s an example of some CSS:
+
+```css
+.icon {
+  background-image: url("../icon.png");
+}
+```
+
+With this in your CSS, the browser will encounter the `background-image` line then go and download the `icon.png` file. Even though the icon is really small the overhead of having to open another connection to the server and initiate the download takes time.
+
+But, using a tool like [DataURL.net](http://dataurl.net/#dataurlmaker), we can convert the icon to text and embed it into our CSS file.
+
+Our CSS would then look like this:
+
+```css
+.icon {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYA…");
+}
+```
+
+*Be careful with data URIs, because they can make the image file size larger, the saving with data URIs is there isn’t another request—so stick to small images only.*
+
+#### SVGs as Data URIs
+
+We can do something really similar with SVGs, embed them directly into our CSS:
+
+```css
+.icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='10' viewBox='0 0 3 10'%3E%3Crect fill='%23e2e2e2' x='0' y='0' width='3' height='10'/%3E%3C/svg%3E");
+}
+```
+
+There’s a few important things to notice about the embedded SVG:
+
+- The whole thing is surrounded in double quotes (").
+- But the SVG inside, is in single quotes (') — most tools will output those as double quotes.
+- All greater than symbols (>) are replaced with `%3E`.
+- All less than symbols (<) are replaced with `%3C`.
+- All hashes (#) are replaced with `%23`.
+
+*I generally don’t do this manually, but use a tool like Gulp. [Read more about command-line tools below.](#command-line-tools)*
 
 **Links**
 
 - **[ImageAlpha](http://pngmini.com/)**
 - **[FontSquirrel Web Font Generator](http://www.fontsquirrel.com/tools/webfont-generator)**
 - [Instagram and Optimizing Favicons](https://zoompf.com/blog/2012/04/instagram-and-optimizing-favicons)
+- [DataURL.net](http://dataurl.net/#dataurlmaker)
 - [Data URI Converter](https://datauriconverter.appspot.com/)
 - [Image2Base64](http://image2base64.wemakesites.net/)
+- [Data URI + SVG](http://r.va.gg/2012/05/data-uri-svg.html)
 
 ---
 
@@ -281,10 +398,9 @@ text-rendering: optimizeLegibility
 3. [Advanced performance: optimizing favicons]()
 4. [Advanced performance: sub-setting fonts]()
 5. [Advanced performance: data URIs]()
-6. [Advanced performance: CSS, JS minification & concatenation?]()
-7. [Advanced performance: content delivery networks]()
+6. [Advanced performance: SVG data URIs]()
+7. [Advanced performance: CSS, JS minification & concatenation]()
 8. [Advanced performance: CloudFlare settings]()
-9. [Advanced performance: scrolling performance]()
 
 ## Supplemental links
 

@@ -3,6 +3,7 @@ group: web-dev-4
 playlist:
 ---
 
+Performance is one of the most important constraints of web design. There’s lots extra we can do to make our websites super fast and therefore our users super happy.
 ---
 
 ## Basic performance first

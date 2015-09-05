@@ -189,7 +189,7 @@ h1 {
 After:
 
 ```css
-body{color:red;font:sans-serif;}h1{color:green;font-weight:bold;}
+body{color:red;font:sans-serif}h1{color:green;font-weight:bold}
 ```
 
 The computer can’t tell the difference between the two pieces of code, and it saves us a lot in download time.
@@ -367,22 +367,87 @@ With KeyCDN we can either upload our large files to them or host the files on ou
 
 ---
 
-## Other performance considerations
+## Ads and tracking scripts
+
+One major killer of performance on your website is third-party scripts, like advertisements and trackers, that you can’t completely control.
+
+Be sure to test any ad services and tracking systems you use on your website to make sure they don’t completely destroy the performance.
+
+---
+
+## Browser performance
+
+Even though the download time of our website is one of the biggest contributers to slow websites we can also help the browser render our website more quickly.
 
 ### Rendering performance
 
+The time it takes for our website to become visible on the screen is really important, we want to try to avoid white screens and unstyled text as much as possible.
+
 #### Fonts
 
+Fonts can impede rendering with an effect called “Flash of Invisible Text”. FOIT is when the website background colours and CSS design renders but there is absolutely not text on the page. After at least a few hundred milliseconds the text pops into the design.
+
+FOIT makes the website feel like it’s loading more slowly—it technically isn’t—but the time to screen is longer.
+
+This is a choice that browsers have made when rendering websites: choosing to hide the text until the font has finished loading.
+
+There are a few solutions to this problem, but most importantly make sure your website renders properly without your custom typeface.
+
+Most solutions delay the loading of the fonts and show the default web-safe fonts until after the font face loads. After the font face has finished loading we add it to the page, add a class onto the page that changes the font to the custom typeface.
+
+[LocalFont](http://jaicab.com/localFont/) is a fairly popular solution, [the Filament Group has a few other solutions](https://www.filamentgroup.com/lab/font-events.html).
+
 ##### Font features
-text-rendering: optimizeLegibility
+
+There are lots of great features of fonts that we can use on the web but each new feature as some performance issues.
+
+Consider how important these features are before implementing them.
+
+- `hyphens` — causes rendering lag because the browser has to calculate where all the hyphens should be and re-layout the content—every time the page loads or screen resizes.
+- `text-rendering: optimizeLegibility` — adds a bunch of features like ligatures and hyphens to your text but currently has abysmal performance on browsers, so be very careful.
 
 #### Inlining critical CSS
 
+Many performance advocates—especially Google—really push for inlining critical CSS. The idea is to figure out the CSS that is used to display the content that’s visible on the screen before scrolling, then take that CSS and put it into `<style>` tags.
+
+```html
+<head>
+  <style>
+    /* Put the CSS for the top portion of the site here */
+  </style>
+</head>
+```
+
+This isn’t something you really want to do manually, but something you should leave up to tools—something like [Critical](https://github.com/addyosmani/critical) in combination with [Gulp](http://gulpjs.com/).
+
 ##### Inlining CSS for single page websites
+
+When you’re creating a single page website it makes total sense to put *all* your CSS and Javascript directly into the page: CSS between `<style>` tags and JS between `<script>` tags. Make sure you completely minify the code before doing so.
+
+[You can see inline CSS in action on my website.](http://thomasjbradley.ca)
 
 ### Scrolling performance
 
+Nothing is worse than a website that doesn’t scroll smoothly, aka a janky website.
+
+There are a few things that can cause scrolling and performance issues, so be careful of these things:
+
+- `position: fixed` & `background-attachment: fixed` can have major performance issues causing the browser to re-render the whole page every time you scroll.
+- CSS effects: `text-shadow`, `box-shadow` and especially `filter`.
+- Parallax is almost always janky, there is so much changing on the screen every time you scroll browsers have a difficult time keeping up.
+- Javascript waypoints and scrolling based animations can cause problems since Javascript needs to run and calculate every time a person scrolls to check the scrolling location.
+
+There is a fairly new CSS property called `will-change`, it can help with a few of these issues. [Sara Soueidan](https://dev.opera.com/articles/css-will-change-property/) & [Chris Ruppel](https://fourword.fourkitchens.com/article/fix-scrolling-performance-css-will-change-property) both have great articles on `will-change`.
+
 ### Battery drain, CPU load & memory usage
+
+Since the web is a big place with many different devices, there’s lots of devices that have slower processors, less memory to render websites—and batteries. Nobody wants their battery to be drained by a sucky website.
+
+There are a few things to consider that can cause these problems:
+
+- Oversized images — large images, much bigger than the device, cause memory problems because they need to be shrunk down to display on the screen, but are still too big for the device.
+- Data URIs — can cause processor lag because they have to be decompressed and re-generated into their original format.
+- Lots of unnecessary downloads, trackers, etc. — the more you use the network on the device the more battery is consumed, the more memory is used, etc. Be careful.
 
 **Links**
 

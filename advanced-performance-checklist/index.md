@@ -34,6 +34,7 @@ groups:
     items:
       - 'Conforms to your performance budget.'
       - 'Images aren’t bigger than they need to be.'
+      - 'Images are as optimized as they can be.'
       - 'Unnecessary images have been removed.'
       - 'Images properly saved using “Save for Web” from Photoshop.'
       - 'All images smushed after saving them.<br>[ImageOptim](https://imageoptim.com/), [SVGO](https://github.com/svg/svgo-gui)'
@@ -42,7 +43,7 @@ groups:
       - 'Appropriate PNGs have reduced colour palettes.<br>[ImageAlpha](http://pngmini.com/)'
       - 'Use CSS sprites or DataURIs where appropriate.'
       - 'Page scrolling is smooth.'
-
+      - 'Web fonts have been sub-set to reduce file size.'
 
   - title: 'Code'
     items:

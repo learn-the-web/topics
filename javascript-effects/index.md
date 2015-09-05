@@ -375,6 +375,7 @@ For more complex SVG animations and manipulations there’s a bunch of Javascrip
 - **[Snap.svg](http://snapsvg.io/)**
 - [SVG.js](http://www.svgjs.com/)
 - [Vivus](http://maxwellito.github.io/vivus/)
+- [Transforms on SVG Elements](https://css-tricks.com/transforms-on-svg-elements/)
 
 ---
 

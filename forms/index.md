@@ -297,7 +297,7 @@ The services work really well for simple information collection, but aren’t gr
 
 **Form services**
 
-- **[Formspree](https://formspree.io/)**
+- **[Formspree](https://formspree.io/)** — [Quick Tip: Add a Formspree Form to Your Static Sites](http://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870)
 - [Woofoo](https://www.wufoo.com/)
 - [JotForms](https://www.jotform.com/)
 

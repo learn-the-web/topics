@@ -520,6 +520,7 @@ If you are using the SVG `<text>` element inside your embedded SVG, but don’t 
 - **[CSS-Tricks: How to Scale SVG](https://css-tricks.com/scale-svg/)**
 - **[CSS-Tricks: A Compendium of SVG Information](https://css-tricks.com/mega-list-svg-information/)**
 - **[MDN: SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)**
+- [SVG on the web — A Practical Guide](https://svgontheweb.com/)
 - [Tips for Creating Accessible SVG](http://www.sitepoint.com/tips-accessible-svg/)
 - [The SVG Canvas, Coordinate System, And Viewport](http://www.vanseodesign.com/web-design/svg-viewport/)
 - [The 4 Slice Scaling Technique for SVG](http://w3.eleqtriq.com/2014/02/the-4-slice-scaling-technique-for-svg/)
@@ -529,4 +530,7 @@ If you are using the SVG `<text>` element inside your embedded SVG, but don’t 
 - [Masking SVG Animations](https://medium.com/@gordonnl/stylised-line-animations-ded23320ffe5)
 - [Building Better Interfaces with SVG](http://slides.com/sarasoueidan/building-better-interfaces-with-svg/)
 - [Circulus.SVG: The SVG Circular Menu Generator](http://sarasoueidan.com/tools/circulus/)
+- [svidget.js](http://www.svidget.com/)
 - [Animated line drawing in SVG](http://jakearchibald.com/2013/animated-line-drawing-svg/)
+- [SVG Dashed Line Generator](https://gigacore.github.io/demos/svg-stroke-dasharray-generator/)
+- [Better SVG Fallback and Art Direction With The <picture> Element](http://sarasoueidan.com/blog/svg-picture/)

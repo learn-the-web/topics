@@ -139,3 +139,4 @@ Validation is a helpful way to find issues in your Javascript code—you can val
 - [Chrome: Debugging Javascript](https://developer.chrome.com/devtools/docs/javascript-debugging)
 - [Chrome: Console API Reference](https://developer.chrome.com/devtools/docs/console-api)
 - [A Re-introduction to the Chrome Developer Tools](http://paulirish.com/2011/a-re-introduction-to-the-chrome-developer-tools/)
+- [JavaScript Debugging Tips and Tricks](http://www.zsoltnagy.eu/javascript-debugging-tips-and-tricks/)

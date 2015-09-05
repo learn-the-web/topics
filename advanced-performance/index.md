@@ -152,7 +152,8 @@ There’s a few important things to notice about the embedded SVG:
 - [DataURL.net](http://dataurl.net/#dataurlmaker)
 - [Data URI Converter](https://datauriconverter.appspot.com/)
 - [Image2Base64](http://image2base64.wemakesites.net/)
-- [Data URI + SVG](http://r.va.gg/2012/05/data-uri-svg.html)
+- [Optimizing SVGs in data URIs](http://codepen.io/Tigt/blog/optimizing-svgs-in-data-uris)
+- [Comparison of all optimisation tools](https://jamiemason.github.io/ImageOptim-CLI/)
 
 ---
 
@@ -460,6 +461,8 @@ There are a few things to consider that can cause these problems:
 - [Fix scrolling performance with CSS will-change property](https://fourword.fourkitchens.com/article/fix-scrolling-performance-css-will-change-property)
 - [Use Gulp to automate your critical path CSS](http://fourword.fourkitchens.com/article/use-gulp-automate-your-critical-path-css)
 - [Understanding Critical CSS](http://www.smashingmagazine.com/2015/08/understanding-critical-css/)
+- [10 Ways to Minimize Reflows and Improve Performance](http://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/)
+- [Jank Free](http://jankfree.org/)
 
 ---
 
@@ -481,6 +484,7 @@ There are a few things to consider that can cause these problems:
 - [Google Web Fundamentals: Performance](https://developers.google.com/web/fundamentals/performance/)
 - [Performance Tools](https://css-tricks.com/performance-tools/)
 - [More Weight Doesn’t Mean More Wait](https://www.filamentgroup.com/lab/weight-wait.html)
+- [Need for Speed 2: Improving Front-End Performance](https://jonsuh.com/blog/need-for-speed-2/)
 - [Website Performance Checklist](http://websiteperformancechecklist.com/)
 - [Performance & Organization](http://learn.shayhowe.com/advanced-html-css/performance-organization/)
 - [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)

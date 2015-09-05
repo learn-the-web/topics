@@ -82,3 +82,4 @@ Copyrighted creations cannot be used for derivative works without permission; bu
 - [Open Source 101: Licensing](http://code.tutsplus.com/tutorials/open-source-101-licensing--cms-21279)
 - [An Introduction to Open-source Licenses](http://www.sitepoint.com/introduction-to-open-source-licenses/)
 - [Understanding Open Source and Free Software Licensing](http://www.oreilly.com/openbook/osfreesoft/book/index.html)
+- [Beyond Property Rights: Thinking About Moral Definitions of Openness](http://eaves.ca/2013/08/06/beyond-property-rights-thinking-about-moral-definitions-of-openness/)

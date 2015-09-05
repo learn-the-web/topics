@@ -185,3 +185,4 @@ All the above changes work fairly well, but there’s lots more we can do to mak
 ## Supplemental links
 
 - **[Web Experience Toolkit](https://wet-boew.github.io/wet-boew/index-en.html)**
+- [aria-live: the good, the bad and the ugly](http://www.slideshare.net/maxdesign/arialive-the-good-the-bad-and-the-ugly)

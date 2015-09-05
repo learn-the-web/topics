@@ -72,4 +72,20 @@ What if your website is linked to Facebook? Twitter? Reddit? Images are posted o
 
 ## Supplemental links
 
-- [Designing with Progressive Enhancement](https://www.filamentgroup.com/dwpe/)
+- [This is a motherfucking website.](http://motherfuckingwebsite.com/)
+- [This is still a motherfucking website.](http://bettermotherfuckingwebsite.com/)
+- **[Everyone has JavaScript, right?](http://kryogenix.org/code/browser/everyonehasjs.html)**
+- [Wikpedia: Progressive enhancement](https://en.wikipedia.org/wiki/Progressive_enhancement)
+- [Designing with Progressive Enhancement](https://www.filamentgroup.com/dwpe/), [Code samples](https://www.filamentgroup.com/dwpe/code/)
+- [BBC: Cutting the Mustard](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard)
+- [A fictional conversation about progressive enhancement](https://tommorris.org/posts/9370)
+- [Cut the mustard revisited](https://justmarkup.com/log/2015/02/26/cut-the-mustard-revisited/)
+- [The True Cost of Progressive Enhancement](http://blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement/)
+- [Pragmatic progressive enhancement - why you should bother with it](http://icant.co.uk/articles/pragmatic-progressive-enhancement/)
+- [Gov.uk: Progressive enhancement](https://www.gov.uk/service-manual/making-software/progressive-enhancement.html)
+- [Understanding Progressive Enhancement](http://alistapart.com/article/understandingprogressiveenhancement)
+- [Progressive Enhancement 101: Overview and Best Practices](http://sixrevisions.com/web-development/progressive-enhancement/)
+- [The Real Progressive Enhancement](http://adamsilver.io/articles/the-real-progressive-enhancement/)
+- [The design of datalist](https://adactio.com/journal/4272)
+- [Progressive Enhancement: Zed’s Dead, Baby](http://tomdale.net/2013/09/progressive-enhancement-is-dead/)
+- [Design Consistency for the Responsive Web](https://docs.google.com/presentation/d/10xurAtRO5tCN4UjqbgbBnASXlVYsX-wul9A3w3-FfBc/edit?pli=1)

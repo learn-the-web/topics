@@ -321,6 +321,7 @@ This chapter would last from the beginning to exactly 10 minutes into the video.
 
 **Links**
 
+- **[WebVTT Validator](https://quuz.org/webvtt/)**
 - [HTML5 Doctor: Video Subtitling and WebVTT](http://html5doctor.com/video-subtitling-and-webvtt/)
 - [Getting Started With the Track Element](http://www.html5rocks.com/en/tutorials/track/basics/)
 - [Wikipedia: WebVTT](https://en.wikipedia.org/wiki/WebVTT)

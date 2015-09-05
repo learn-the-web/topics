@@ -317,6 +317,10 @@ Here’s some shortcut keys for using VoiceOver:
 - [WebVTT and Video Subtitles](http://www.iandevlin.com/blog/2011/05/html5/webvtt-and-video-subtitles)
 - [Accessible Footnotes with CSS](http://www.sitepoint.com/accessible-footnotes-css/)
 - [7 Things Every Designer Needs to Know about Accessibility](https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b)
+- [Notes on accessible CSS image sprites](http://www.paciellogroup.com/blog/2012/08/notes-on-accessible-css-image-sprites/)
+- [The Usability Principles, Accessibility Style](http://www.theaccessibility.com/2012/03/usability/), [Part 2](http://www.theaccessibility.com/2012/03/usability-2/), [Part 3](http://www.theaccessibility.com/2012/04/usability-3/)
+- [Game Accessibility Guidelines](http://gameaccessibilityguidelines.com/)
+- [Making Charts with CSS](https://css-tricks.com/making-charts-with-css/)
 
 ### Videos
 

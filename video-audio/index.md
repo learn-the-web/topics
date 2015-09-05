@@ -1,6 +1,6 @@
 ---
 group: web-dev-4
-playlist:
+playlist: PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5
 download: https://github.com/acgd-learn-the-web/video-audio-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/video-audio-code
 ---
@@ -499,14 +499,14 @@ That’s all. **But make sure never to put large files like video and audio into
 
 ## Video list
 
-1. Video & audio: video formats
-2. Video & audio: video tag
-3. Video & audio: responsive video
-4. Video & audio: adding tracks to video
-5. Video & audio: using Javascript to control video
-6. Video & audio: Javascript hover to play video
-7. Video & audio: hosting off GitHub
-8. Video & audio: audio tag
+1. [Video & audio: video formats](https://www.youtube.com/watch?v=QsTeuAp9le4&index=1&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
+2. [Video & audio: video tag](https://www.youtube.com/watch?v=Tgv57WYPNDo&index=2&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
+3. [Video & audio: responsive video](https://www.youtube.com/watch?v=8EilfQKjW98&index=3&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
+4. [Video & audio: adding tracks to video](https://www.youtube.com/watch?v=sQOMGxN3IkE&index=4&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
+5. [Video & audio: using Javascript to control video](https://www.youtube.com/watch?v=3zwFHA0GWYI&index=5&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
+6. [Video & audio: Javascript hover to play video](https://www.youtube.com/watch?v=KTkkXphS0f4&index=6&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
+7. [Video & audio: audio tag](https://www.youtube.com/watch?v=rQOUsrpGbx4&index=7&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
+8. [Video & audio: hosting on a content delivery network](https://www.youtube.com/watch?v=OmVlsYFwiSE&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5&index=8)
 
 ## Supplemental links
 

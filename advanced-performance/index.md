@@ -19,7 +19,7 @@ There’s a whole lot you can do to make your website faster before getting to t
 
 For images we always start by choosing the correct format, compressing as best we can, and running through ImageOptim. But there’s more we can do. And for other website resources we can increase performance with just a little care.
 
-### Smaller PNGs
+### Smaller PNG-8
 
 The difference between PNG-24 and PNG-8 is just the number of colours that can exist in the file:
 
@@ -43,7 +43,7 @@ With the image you’re seeing above the size reduction was pretty great, with n
 - Original PNG-24: **58 KB**
 - New PNG-8, 16 colours: **7 KB**
 
-### Blurring JPGs to reduce file size
+### Blur JPGs to reduce file size
 
 One way to significantly decrease the size of JPG files is to blur the sections that aren’t the focus. Literally take the blur tool in Photoshop and significantly blur out the background of the image.
 
@@ -59,26 +59,26 @@ This one has a blurred background—102 KB.
 
 *Photos copyright [elizabeth&jane photography](http://elizabethandjane.ca/).*
 
-### Optimized favicons
+### Optimize favicons
 
 Since favicons are automatically requested on every website there’s a few things you can do to increase their performance.
 
 1. **Make sure it exists** — the browser will automatically request it, so if it doesn’t exist there will still be a delay while attempting to fetch it.
 2. **Smush the PNGs first** — before creating the final `.ico` file make sure to run you favicon PNGs through ImageOptim. And ideally you should be able to run them through ImageAlpha to compress the images even further.
 
-### Embedding single-use SVGs
+### Embed single-use SVGs
 
 If an SVG image is used only once on your website, on a single page, consider embedding it directly into the HTML.
 
 **[See the advanced SVG tutorial on how to embed SVGs in HTML.](/topics/advanced-svg/)**
 
-### Reducing web font size
+### Reduce web font size
 
 Most typefaces come with many characters so they can support lots of different languages. But, depending on the site you’re making you may only need a few of those characters. For example, if your website is only in English you can remove a bunch of characters from the font file. Removing characters from the font file is called sub-setting.
 
 Google Fonts provides a limited sub-setting of their typefaces, but you can download the fonts and run them through another system to truly reduce the file size.
 
-#### Sub-setting fonts with FontSquirrel
+#### Sub-set fonts with FontSquirrel
 
 Go to [FontSquirrel’s Web Font Generator](http://www.fontsquirrel.com/tools/webfont-generator) and upload the styles and weights of the fonts you’re planning on using.
 
@@ -96,7 +96,7 @@ Looking at Roboto, the typeface I used above, these are my file size reductions:
 - Roboto Italic: 161 KB to 30 KB.
 - Roboto Bold: 162 KB to 26 KB.
 
-### Embedding small images in CSS
+### Embed small images in CSS
 
 For really small graphics it makes more sense to embed them directly into your CSS or HTML instead of forcing the browser to open another request and download the file. These are called Data URIs.
 
@@ -156,7 +156,7 @@ There’s a few important things to notice about the embedded SVG:
 
 ---
 
-## Reducing the size of code
+## Reduce the size of code
 
 *First, try remove all the duplicate code and try to merge your CSS into common components.*
 
@@ -285,7 +285,7 @@ Go to the “Speed” section and check all the options in “Auto Minify̦”.
 
 Not only is it extremely important to make our code and resources, like images, download really quickly, but the server we host our website can have a big impact too.
 
-### Compressing code files
+### Compress code files
 
 After minifying and concatenating our CSS and Javascript, we can make the download size of the files even smaller by compressing them—basically zipping them. This is a completely automatic process done by the server.
 

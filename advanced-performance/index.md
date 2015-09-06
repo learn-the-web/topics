@@ -1,6 +1,8 @@
 ---
 group: web-dev-4
-playlist:
+playlist: PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ
+download: https://github.com/acgd-learn-the-web/advanced-performance-code/archive/master.zip
+github: https://github.com/acgd-learn-the-web/advanced-performance-code
 ---
 
 Performance is one of the most important constraints of web design. There’s lots extra we can do to make our websites super fast and therefore our users super happy.
@@ -468,14 +470,13 @@ There are a few things to consider that can cause these problems:
 
 ## Video list
 
-1. [Advanced performance: imageAlpha + PNG8]()
-2. [Advanced performance: blurring JPGs]()
-3. [Advanced performance: optimizing favicons]()
-4. [Advanced performance: sub-setting fonts]()
-5. [Advanced performance: data URIs]()
-6. [Advanced performance: SVG data URIs]()
-7. [Advanced performance: CSS, JS minification & concatenation]()
-8. [Advanced performance: CloudFlare settings]()
+1. [Advanced performance: ImageAlpha + PNG-8](https://www.youtube.com/watch?v=DvALia-wU5k&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=1)
+2. [Advanced performance: blurring JPGs](https://www.youtube.com/watch?v=P2WFfpWIlGU&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=2)
+3. [Advanced performance: optimizing favicons](https://www.youtube.com/watch?v=9llDkAYTju4&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=3)
+4. [Advanced performance: sub-setting fonts](https://www.youtube.com/watch?v=CVTt4msJVXM&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=4)
+5. [Advanced performance: data URIs](https://www.youtube.com/watch?v=pzNGhDD-1QU&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=5)
+6. [Advanced performance: SVG data URIs](https://www.youtube.com/watch?v=Np7TnNlRSFE&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=6)
+7. [Advanced performance: CloudFlare settings](https://www.youtube.com/watch?v=mb6q-MG8LWs&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=7)
 
 ## Supplemental links
 

@@ -1,5 +1,8 @@
 ---
 group: web-dev-4
+playlist: PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ
+download: https://github.com/acgd-learn-the-web/progressive-enhancement-code/archive/master.zip
+github: https://github.com/acgd-learn-the-web/progressive-enhancement-code
 ---
 
 Form into pairs; each group will be assigned a progressive enhancement topic.
@@ -69,6 +72,10 @@ What if your website is linked to Facebook? Twitter? Reddit? Images are posted o
 ---
 
 ## Video list
+
+1. [Progressive enhancement: detecting CSS features](https://www.youtube.com/watch?v=DHpr10QSEcg&list=PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ&index=1)
+2. [Progressive enhancement: cutting the mustard](https://www.youtube.com/watch?v=zbMJtxDD-4I&list=PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ&index=2)
+3. [Progressive enhancement: tabs](https://www.youtube.com/watch?v=22v5nl4lFok&index=3&list=PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ)
 
 ## Supplemental links
 

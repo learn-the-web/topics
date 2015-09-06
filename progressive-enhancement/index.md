@@ -16,7 +16,6 @@ Since the web is open and available to every human being, throughout the world, 
 ### Your user is not you
 
 > The power of The Web is in its universality. Access by everyone regardless of disability is an essential aspect.
-
 > — Tim Berners-Lee, W3C Director and inventor of the World Wide Web
 
 Don’t assume everybody has a large resolution monitor. Don’t assume everybody has a super-fast–always-on internet connection. Don’t assume everybody can *see* your design. Don’t assume everybody can tell the difference between red and green. And don’t assume that your content will be consumed just on your website.
@@ -40,9 +39,11 @@ Your users are not you. The Open Web opens so many doors for every human being. 
 
 **We can control all situations but we need to try to make our website functional for as many people as possible.**
 
-### Checklist of what ifs
+### Checklist of what-ifs
 
 Here’s a big checklist of things to consider when developing your website. These things could happen for many different reasons, often not the user’s choice.
+
+*You’ll notice many of these overlap with performance and accessibility—in fact progressive enhancement is very closely related.*
 
 - ❏ What if the images don’t download or aren’t visible?
 - ❏ What if the images are black & white?
@@ -50,15 +51,18 @@ Here’s a big checklist of things to consider when developing your website. The
 - ❏ What if CSS is disabled or doesn’t load?
 - ❏ What if the browser doesn’t support newer CSS features?
 - ❏ What if the browser doesn’t support newer HTML features?
-- ❏ What if the browser is small? Or bigger?
+- ❏ What if the browser is smaller? Or bigger?
+- ❏ What if the user is using only a keyboard?
+- ❏ What if the user is using a touch device?
 - ❏ What if Javascript is disabled?
 - ❏ What if there’s a Javascript error and it doesn’t run?
 - ❏ What if the Internet connection is slow?
+- ❏ What if the user prints out the website?
 - ❏ What if your user isn’t giving their full attention?
 - ❏ What if there is double the amount of content on the page?
 - ❏ What if your content is consumed on another website?
 
-**Most of all, test is as many browsers as you can—especially with Javascript off.**
+**Most of all, test in as many browsers as you can—especially with Javascript off.**
 
 **Links**
 
@@ -69,7 +73,7 @@ Here’s a big checklist of things to consider when developing your website. The
 
 ## Detecting CSS features
 
-Browsers are not a single platform, each browser supports a different set of features. Often one set of features will work great in one browser but on in another browser and we need to have different CSS for different scenarios.
+Browsers are not a single platform, each browser supports a different set of features. Often one set of features will work great in one browser but not in another browser and we need to have different CSS for different scenarios.
 
 ### Modernizr
 
@@ -89,7 +93,7 @@ When it comes to Modernizr, it’s often best to put it in the `<head>` of your 
 
 #### Modernizr CSS classes
 
-After Modernizr runs in the browser it will add classes into the `<html>` element, you’ll end up with something like this:
+After Modernizr runs in the browser it will add classes to the `<html>` element, you’ll end up with something like this:
 
 ```html
 <!DOCTYPE html>
@@ -145,7 +149,9 @@ We can use native feature detection using the `@supports` declaration:
 
 ## Modern browsers only
 
-Sometimes we only want to target our Javascript at fairly modern browsers only. We should detect each Javascript feature before we use them to confirm the browser has the abilities we need.
+Sometimes we only want to target our Javascript at fairly modern browsers. We should detect each Javascript feature before we use them to confirm the browser has the abilities we need.
+
+*That doesn’t mean the website becomes unusable without Javascript, just that users can still access all the information but with a different user experience.*
 
 ### Cutting the mustard
 
@@ -157,7 +163,7 @@ In the BBC article they choose to test for three major features: `querySelector`
 var cutsTheMustard = ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window);
 ```
 
-Then using an if statement we can load our Javascript file if the browser passes the test:
+Then using an if-statement we can load our Javascript file if the browser passes the test:
 
 ```js
 var js;

@@ -9,9 +9,36 @@ It’s our job, as web designers and developers, to accommodate as many possible
 
 ---
 
-## Progressive enhancement is about everybody
+## It’s about everybody
 
-Since the web is open and available to every human being, throughout the world, there are a many uncertainties we, as web designers, have to understand and accommodate. The only thing we can be certain about, with our websites, is that the content will be consumed—beyond that we know very little.
+Since the web is open and available to every human being, throughout the world, there are a many uncertainties we have to understand and accommodate. The only thing we can be certain about is that the content will be consumed—beyond that we know very little.
+
+### Your user is not you
+
+> The power of The Web is in its universality. Access by everyone regardless of disability is an essential aspect.
+
+> — Tim Berners-Lee, W3C Director and inventor of the World Wide Web
+
+Don’t assume everybody has a large resolution monitor. Don’t assume everybody has a super-fast–always-on internet connection. Don’t assume everybody can *see* your design. Don’t assume everybody can tell the difference between red and green. And don’t assume that your content will be consumed just on your website.
+
+There is very little we know about our users and a lot we don’t know:
+
+- We don’t know where in the world our users are coming from;
+- We don’t know what time of day our users will consume our content;
+- We don’t know what format or context our content will be consumed in;
+- We don’t know what devices our users are using;
+- We don’t know our users’ browser window size;
+- We don’t know our users’ internet connection speed;
+- We don’t know the mindset of our users;
+- And we don’t know what abilities our users have.
+
+(From: [CSS-Tricks: What We Don’t Know](http://css-tricks.com/14664-what-we-dont-know/).)
+
+All we know is that our users are human (unless they’re robots.)
+
+Your users are not you. The Open Web opens so many doors for every human being. It’s our job as web designers to empower humans by helping them easily consume our website’s content—independent of their abilities, independent of their computer’s abilities, and often independent of the original source: our website.
+
+**We can control all situations but we need to try to make our website functional for as many people as possible.**
 
 ### Checklist of what ifs
 

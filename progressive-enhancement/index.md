@@ -51,9 +51,10 @@ Here’s a big checklist of things to consider when developing your website. The
 - ❏ What if CSS is disabled or doesn’t load?
 - ❏ What if the browser doesn’t support newer CSS features?
 - ❏ What if the browser doesn’t support newer HTML features?
+- ❏ What if they’re using a text-only browser?
 - ❏ What if the browser is smaller? Or bigger?
-- ❏ What if the user is using only a keyboard?
-- ❏ What if the user is using a touch device?
+- ❏ What if they’re using only a keyboard?
+- ❏ What if they’re using a touch device?
 - ❏ What if Javascript is disabled?
 - ❏ What if there’s a Javascript error and it doesn’t run?
 - ❏ What if the Internet connection is slow?

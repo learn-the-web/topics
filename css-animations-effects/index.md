@@ -587,3 +587,7 @@ Specifically these properties would be good to move into a media query:
 9. [Animations & effects: vendor prefixes](https://www.youtube.com/watch?v=C5eDPR3pANQ&index=9&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
 10. [Animations & effects: hero banner](https://www.youtube.com/watch?v=AgBCH0-K124&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=10)
 11. [Animations & effects: parallax](https://www.youtube.com/watch?v=n9zLJ0I8Djk&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=11)
+
+## Supplemental links
+
+- [Designing Safer Web Animation For Motion Sensitivity](http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity)

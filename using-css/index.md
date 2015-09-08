@@ -350,6 +350,7 @@ h1 {
 - **[HSL Color Picker](http://hslpicker.com/)**
 - [Six Revisions: Introduction to CSS Colors](http://sixrevisions.com/css/css-colors/)
 - [Colors in CSS](http://hugogiraudel.com/2012/11/27/css-colors/)
+- [HTML Color Codes](http://htmlcolorcodes.com/)
 
 ---
 

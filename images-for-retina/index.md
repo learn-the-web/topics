@@ -17,14 +17,14 @@ There are a few techniques we can use for hi-res screens.
 ![](flow-chart.png)
 
 1. **Can the look be accomplished practically in CSS?**
-	*Yes:* Use CSS.
+  *Yes:* Use CSS.
 2. **Is it a simple vector-like graphic (logo, icon, illustration)?**
-	1. *Yes*: **Can the look be accomplished with SVG?**
-		*Yes*: Use SVG.
-		*No*: Use a double-size PNG and scale it down.
+  1. *Yes*: **Can the look be accomplished with SVG?**
+    *Yes*: Use SVG.
+    *No*: Use a double-size PNG and scale it down.
 3. **Is it a photo that’s always cropped the same?**
-	*Yes:* Use compressive JPGs.
-	*No*: Try: `<img srcset="">`, `<picture>`, `image-set()`, or `@media` to provide different versions of the image.
+  *Yes:* Use compressive JPGs.
+  *No*: Try: `<img srcset="">`, `<picture>`, `image-set()`, or `@media` to provide different versions of the image.
 
 ---
 
@@ -89,9 +89,9 @@ There’s a new attribute—`srcset`—on the `<img>` tag that allows us to prov
 
 ```html
 <img
-	src="low-res.jpg"
-	srcset="med-res.jpg 1000w, high-res.jpg 2000w"
-	alt="A giant squid swimming deep in the sea"
+  src="low-res.jpg"
+  srcset="med-res.jpg 1000w, high-res.jpg 2000w"
+  alt="A giant squid swimming deep in the sea"
 >
 ```
 
@@ -111,9 +111,10 @@ There’s a new HTML element for managing and targeting different graphics to di
 
 ```html
 <picture>
-	<source media="(min-width: 35em)" src="medium-res.jpg">
-	<source media="(min-width: 60em)" src="high-res.jpg">
-	<img src="low-res.jpg" alt="A giant squid swimming deep in the sea">
+  <!-- Put the biggest at the top, because the first appropriate one will be selected -->
+  <source media="(min-width: 60em)" src="high-res.jpg">
+  <source media="(min-width: 35em)" src="medium-res.jpg">
+  <img src="low-res.jpg" alt="A giant squid swimming deep in the sea">
 </picture>
 ```
 
@@ -134,18 +135,18 @@ We can use a media query for detecting hi-res screens and supply two different i
 
 ```css
 .icon {
-	display: inline-block;
-	width: 32px;
-	height: 32px;
-	background-image: url("../images/icon.png");
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url("../images/icon.png");
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
 
-	.icon {
-		background-image: url("../img/icon-2x.png");
-		background-size: 32px 32px;
-	}
+  .icon {
+    background-image: url("../img/icon-2x.png");
+    background-size: 32px 32px;
+  }
 
 }
 ```
@@ -172,3 +173,6 @@ We can use a media query for detecting hi-res screens and supply two different i
 - **[A List Apart: Responsive Images in Practice](http://alistapart.com/article/responsive-images-in-practice)**
 - **Responsive Images 101: [Part 1](http://blog.cloudfour.com/responsive-images-101-definitions/), [Part 2](http://blog.cloudfour.com/responsive-images-101-part-2-img-required/), [Part 3](http://blog.cloudfour.com/responsive-images-101-part-3-srcset-display-density/), [Part 4](http://blog.cloudfour.com/responsive-images-101-part-4-srcset-width-descriptors/), [Part 5](http://blog.cloudfour.com/responsive-images-101-part-5-sizes/), [Part 6](http://blog.cloudfour.com/responsive-images-101-part-6-picture-element/), [Part 7](http://blog.cloudfour.com/responsive-images-101-part-7-type/), [Part 8](http://blog.cloudfour.com/responsive-images-101-part-8-css-images/), Part 9**
 - [Smashing Magazine: Responsive Images Done Right: A Guide To picture And srcset](http://www.smashingmagazine.com/2014/05/14/responsive-images-done-right-guide-picture-srcset/)
+- [The web, performance, retina images](https://www.youtube.com/watch?v=WZAx3f0nJS0)
+- [Srcset and sizes](http://ericportis.com/posts/2014/srcset-sizes/)
+- [Sizer Soze](http://sizersoze.org/)

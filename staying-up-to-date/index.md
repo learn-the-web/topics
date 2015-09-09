@@ -20,7 +20,7 @@ I manage all this through a feed reader and feeds like RSS & Atom. I subscribe t
 
 Here’s a couple feed readers that might work for you—test them out and choose the one that works for you.
 
-- **[Feedbin](https://feedbin.com/)** — paid
+- [**Feedbin**](https://feedbin.com/) — paid
 - [Feedly](http://feedly.com/) — free
 - [The Old Reader](https://theoldreader.com/) — freemium
 - [Digg Reader](http://digg.com/reader) — free
@@ -29,7 +29,7 @@ Here’s a couple feed readers that might work for you—test them out and choos
 
 I like to check my feeds on all my devices, not just my laptop, so I use an application to sync all my devices.
 
-- **[Reeder](http://reederapp.com/)** — paid; Mac OS X, iOS
+- [**Reeder**](http://reederapp.com/) — paid; Mac OS X, iOS
 - [Feedly](http://feedly.com/) — free; iOS, Android
 - [NetNewsWire 4](http://netnewswireapp.com/) — paid; Mac OS
 
@@ -41,7 +41,7 @@ I use the web application as a syncing system for the applications, and the appl
 
 Linked below is a starting list of websites to subscribe to—I’ve culled through my list and picked the most appropriate feeds for web and graphic designers.
 
-**[⬇ Download feed list](https://github.com/acgd-learn-the-web/staying-up-to-date-code/archive/master.zip)**
+[**⬇ Download feed list**](https://github.com/acgd-learn-the-web/staying-up-to-date-code/archive/master.zip)
 
 *You can import this list into any feed reader application you choose.*
 
@@ -49,8 +49,8 @@ Linked below is a starting list of websites to subscribe to—I’ve culled thro
 
 Often, there’s lots and lots of articles that I’d like to read, but don’t have time immediately. I like to save my articles later.
 
+- [**Pinboard**](https://pinboard.in/) — a permanent bookmarking service
 - [Instapaper](https://www.instapaper.com/) — a temporary bookmarking service
-- [Pinboard](https://pinboard.in/) — a permanent bookmarking service
 
 ---
 

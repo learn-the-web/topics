@@ -39,15 +39,15 @@ There’s a direct connection between a domain and it’s associated IP address.
 After you type the domain into your browser and go your computer starts making a bunch of really quick requests (less than 100 ms):
 
 1. Your computer connects to a DNS server, requesting DNS information for the domain you typed in.
-	Your computer already knows the IP address to at least one DNS server because your Internet provider sent it to your computer.
+  Your computer already knows the IP address to at least one DNS server because your Internet provider sent it to your computer.
 2. The DNS will then send back the IP address of the computer that hosts the website to your computer, if it knows it.
-	If it doesn’t know the IP address it will send your computer the IP address of another name server that might know.
-	The loop continues until your computer has the IP address of the host.
-	**IP address of the website host is called the `A` record.**
+  If it doesn’t know the IP address it will send your computer the IP address of another name server that might know.
+  The loop continues until your computer has the IP address of the host.
+  **IP address of the website host is called the `A` record.**
 3. When your computer gets the IP address it connects directly to the host computer and requests to see the website.
 4. The host/web-server will then return the `index.html` file for the website you requested.
-	Your browser will then start requesting all the other resources of your website like CSS, images, Javascript, etc.
-	If those resources are located on another domain the whole process starts all over again at step 1.
+  Your browser will then start requesting all the other resources of your website like CSS, images, Javascript, etc.
+  If those resources are located on another domain the whole process starts all over again at step 1.
 
 #### Authoritative name server
 
@@ -130,24 +130,22 @@ Go to Mail > Advanced > Virtual Domains
 
 1. Under “Domain” add your domain into the input field and click “Add”—keep all the other settings the same.
 2. Under “Virtual Aliases” add as many e-mail addresses as you want—just enter the part before the @-symbol.
-	If you want your e-mail to be “info@domain.ca” just put “info” into the box and click “Add”. Keep all the other settings the same.
+  If you want your e-mail to be “info@domain.ca” just put “info” into the box and click “Add”. Keep all the other settings the same.
 3. Next up: set some DNS records in Hover.
 
-![](hover-dns.jpg)
-
-**Purple numbers.**
+![](hover-email.jpg)
 
 1. Edit the `MX` record that is already there and put in the first server listed on this [FastMail page—step 4, subsection 2](https://www.fastmail.fm/help/receive/domains.html).
-	Last time I checked the server was: `in1-smtp.messagingengine.com`.
+  Last time I checked the server was: `in1-smtp.messagingengine.com`.
 2. Click the “Add New” button and fill in these details:
-	- *Hostname*: `@`
-	- *Record Type*: `MX`
-	- *Priority*: `20`
-	- *Hostname*: `in2-smtp.messagingengine.com` — The second server listed on FastMail’s help page.
+  - *Hostname*: `@`
+  - *Record Type*: `MX`
+  - *Priority*: `20`
+  - *Hostname*: `in2-smtp.messagingengine.com` — The second server listed on FastMail’s help page.
 3. Click the “Add New” button and fill in these details:
-	- *Hostname*: `mesmtp._domainkey` — This is found at the bottom of FastMail’s “Virtual Domain” settings. Previous screenshot, number 3.
-	- *Record Type*: `TXT`
-	- *Value*: All that gobbledygook from the bottom of FastMail’s “Virtual Domain” settings. Previous screenshot, number 3.
+  - *Hostname*: `mesmtp._domainkey` — This is found at the bottom of FastMail’s “Virtual Domain” settings. Previous screenshot, number 3.
+  - *Record Type*: `TXT`
+  - *Value*: All that gobbledygook from the bottom of FastMail’s “Virtual Domain” settings. Previous screenshot, number 3.
 
 *And your e-mail is all set up—but it’ll take anywhere from 1 hour to 24 hours for it to start working.*
 
@@ -169,18 +167,16 @@ Now we have to go into Hover settings, our domain registrar, and point our recor
 
 ![](hover-dns.jpg)
 
-**Blue numbers.**
-
 1. Edit the first `A` record and change the IP address the the first one listed on this [GitHub help page](https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/). Last time I checked the server was: `192.30.252.153`.
 2. Edit the second `A` record and change it to the first IP address also: `192.30.252.153`.
 3. Click the “Add New” button and fill in these details:
-	- *Hostname*: `@`
-	- *Record Type*: `A`
-	- *IP Address*: `192.30.252.154` — The second IP in GitHub’s help.
+  - *Hostname*: `@`
+  - *Record Type*: `A`
+  - *IP Address*: `192.30.252.154` — The second IP in GitHub’s help.
 4. Click the “Add New” button and fill in these details:
-	- *Hostname*: `*`
-	- *Record Type*: `A`
-	- *IP Address*: `192.30.252.154`
+  - *Hostname*: `*`
+  - *Record Type*: `A`
+  - *IP Address*: `192.30.252.154`
 
 **The better way to do this is with an ANAME, ALIAS, or a Flattened CNAME—[refer to the section below on CloudFlare](#better-security-and-performance-with-cloudflare).**
 
@@ -207,7 +203,7 @@ Back in CloudFlare, edit the “DNS Settings” for your newly added domain.
 
 1. Delete all the `A` records that got copied over from Hover—but don’t touch anything that isn’t an `A` record.
 2. Add a new `CNAME` record:
-	`yourdomain.ca` is an alias of `your-github-username.github.io`
+  `yourdomain.ca` is an alias of `your-github-username.github.io`
 
 CloudFlare will say something about CNAME Flattening—and you’re good to go!
 

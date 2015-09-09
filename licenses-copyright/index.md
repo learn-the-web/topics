@@ -28,7 +28,7 @@ There are a few common licences that people use when they want to allow others t
 
 ### Creative Commons
 
-**[☛ Creative Commons](https://creativecommons.org/)**
+**[Creative Commons](https://creativecommons.org/)**
 
 The Creative Commons licences are a series of licences that allow a range of freedoms and are easy to set up.
 
@@ -41,7 +41,7 @@ Creative Commons licences allow the following selectable restrictions:
 
 ### GPL
 
-**[☛ GPL](http://opensource.org/licenses/GPL-3.0)**
+**[GPL](http://opensource.org/licenses/GPL-3.0)**
 
 The GNU General Public License is a free software license. The purpose is to allow end users of software the freedom to use, share, and modify the software.
 
@@ -49,7 +49,7 @@ The restriction that the GPL imposes is that any modifications to the source cod
 
 ### MIT
 
-**[☛ The MIT License](http://opensource.org/licenses/MIT)**
+**[The MIT License](http://opensource.org/licenses/MIT)**
 
 The MIT License is a permissive software license. It allows end users of the software rights to do anything with the software under the condition that the original author’s copyright statement is kept intact.
 
@@ -67,7 +67,7 @@ Copyrighted creations cannot be used for derivative works without permission; bu
 
 *Generally copyright owners cannot put their work into public domain. Instead they should select a licence like the Creative Commons Zero.
 
-**[☛ CC0](https://creativecommons.org/publicdomain/)**
+**[CC0](https://creativecommons.org/publicdomain/)**
 
 ---
 

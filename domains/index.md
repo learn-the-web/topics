@@ -244,13 +244,14 @@ CloudFlare will say something about CNAME Flattening—and you’re good to go!
 - [FastMail](https://www.fastmail.com/)
 - [Google Apps for Work](http://www.google.com/work/apps/business/)
 - [Rackspace](http://www.rackspace.com/email-hosting/webmail/)
+- [MailRoute](http://mailroute.net/) (strong span protection)
 
 ### Recommended website hosts
 
 - [GitHub](https://github.com/)
+- [SiteGround](http://www.siteground.com/)
 - [WiredTree](https://www.wiredtree.com/)
 - [A Small Orange](http://asmallorange.com/)
-- [SiteGround](http://www.siteground.com/)
 - [DreamHost](https://www.dreamhost.com/)
 
 ### Security & performance

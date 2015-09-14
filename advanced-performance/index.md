@@ -254,7 +254,7 @@ Command-line tools are extremely popular (and this is how I do it). They have ma
 
 Some of the popular command-line tools are **[Gulp](http://gulpjs.com/)** & [Grunt](http://gruntjs.com/). The tools are really just task runners, they delegate to other pieces of code to do the minification and concatenation.
 
-- For CSS a popular minifier is [cssnano](http://cssnano.co/).
+- For CSS a popular minifier is [clean-css](https://www.npmjs.com/package/clean-css) or [cssnano](http://cssnano.co/).
 - For JS the most widely used minifier is [UglifyJS](http://lisperator.net/uglifyjs/).
 
 These minifiers can be run without a task runner, but it’s a much less manual if you use something like Gulp.
@@ -281,6 +281,7 @@ Go to the “Speed” section and check all the options in “Auto Minify̦”.
 - [CodeKit](http://incident57.com/codekit/)
 - [cssnano](http://cssnano.co/)
 - [UglifyJS](http://lisperator.net/uglifyjs/)
+- [Give Grunt the Boot! A Guide to Using npm as a Build Tool](http://www.sitepoint.com/guide-to-npm-as-a-build-tool/)
 
 ---
 

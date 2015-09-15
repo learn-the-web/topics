@@ -24,8 +24,8 @@ There are countless browser interfaces, some shared between other browsers. Some
 
 - **Chromium** — Chrome (big & small), Opera (big & small).
 - **Firefox** — big screen & small screen versions.
+- **Edge** — Microsoft’s newest browser for big & small screens.
 - **Internet Explorer** — big screen & small screen versions.
-  *To be replaced by Microsoft Edge.*
 - **Safari** — big screen & small screen versions.
 
 ### Rendering engines
@@ -35,7 +35,8 @@ When it comes to rendering engines there’s a few big players that are shared b
 - **[Webkit](https://www.webkit.org/)** — open source; used in Safari, BlackBerry, Android, Symbian, UC Browser, and many many more.
 - **[Blink](https://en.wikipedia.org/wiki/Blink_%28layout_engine%29)** — open source, forked from Webkit; used in Chrome & Opera.
 - **[Gecko](https://en.wikipedia.org/wiki/Gecko_%28software%29)** — open source; used in Firefox & Firefox Mobile.
-- **[Trident](https://en.wikipedia.org/wiki/Trident_%28layout_engine%29)** — closed source; used in Internet Explorer; to be replaced with [Edge](https://en.wikipedia.org/wiki/Microsoft_Edge).
+- **[EdgeHTML](https://en.wikipedia.org/wiki/EdgeHTML)** — closed source; used in Microsoft Edge.
+- **[Trident](https://en.wikipedia.org/wiki/Trident_%28layout_engine%29)** — closed source; used in Internet Explorer.
 - **[Presto](https://en.wikipedia.org/wiki/Presto_%28layout_engine%29)** — closed source; Opera Mini, (used to power Opera too).
 
 ![](browsers.svg)
@@ -62,8 +63,8 @@ The major browsers to test on desktop & laptop computers are:
 
 - **[Firefox](https://www.mozilla.org/firefox/)** — Win, Mac, Linux; OSS; evergreen; uses Gecko.
 - **[Chrome](https://www.google.com/chrome/browser/)** — Win, Mac, Linux; partially OSS; evergreen; uses Blink.
+- **[Edge](http://www.browserfordoing.com/)** — Win; evergreen; uses EdgeHTML.
 - **[Internet Explorer](http://microsoft.com/ie/)** — Win; not evergreen; uses Trident.
-  *To be replaced by Microsoft Edge.*
 - **[Opera](http://www.opera.com/)** — Win, Mac, Linux; partially OSS; evergreen; uses Blink.
 - **[Safari](https://www.apple.com/safari/)** — Mac; not evergreen; uses Webkit.
 
@@ -119,20 +120,20 @@ There are lots of screenshot services available too, **[BrowserStack has a great
 
 The screen shot services allow you to take an image of your website on a specific browser to check the look of layout, but you can’t interact with the website in any way. They’re only good for visual layout checks.
 
-### Testing Internet Explorer on Mac
+### Testing Edge & Internet Explorer on Mac
 
-If you’re on a Mac, testing Internet Explorer isn’t the easiest because it doesn’t run on Mac. But thankfully Microsoft amazingly gives away [free copies of Windows and IE for testing](http://modern.ie/).
+If you’re on a Mac, testing Edge and Internet Explorer isn’t the easiest because it doesn’t run on Mac. But thankfully Microsoft amazingly gives away [free copies of Windows for testing](http://modern.ie/).
 
 Microsoft even provides a [screenshot service](http://dev.modern.ie/tools/screenshots/) and a quick [browser validation scan](http://dev.modern.ie/tools/staticscan/).
 
 *If you are on Windows and want to test Safari, well Apple isn’t as nice as Microsoft.*
 
-There are two ways to test IE on your Mac:
+There are two ways to test Edge & IE on your Mac:
 
-1. [Use Remote IE and test on the Azure Cloud](https://remote.modern.ie/) — not as reliable, but quick to set up.
+1. [Use RemoteApp and test on the Azure Cloud](https://remote.modern.ie/) — not as reliable, but quick to set up.
 2. [Use Virtual Machines](http://dev.modern.ie/tools/vms/) — most reliable, but huge download size.
 
-#### IE virtual machines
+#### Edge & IE virtual machines
 
 Virtual machines are a way to emulate a completely other computer on yours. So you can run Windows or Linux in a screen on your Mac.
 
@@ -140,9 +141,9 @@ Setting up the virtual machines is a little bit of a process, takes lots of hard
 
 1. Download & install virtualization software, like open source [VirtualBox](https://www.virtualbox.org/).
 2. Download the VM that matches *your* operating system and virtualizer from [Microsoft’s download page](http://dev.modern.ie/tools/vms/).
-  *You’ll have to download a different VM for every version of IE you want to test.*
-3. Install the VM onto your computer, which puts a whole copy of Windows on your computer to test IE in—and takes up lots of hard drive space.
-4. Open your virtualizer and run the VM for the version of IE you want to test.
+  *You’ll have to download a different VM for every version you want to test.*
+3. Install the VM onto your computer, which puts a whole copy of Windows on your computer to test in—and takes up lots of hard drive space.
+4. Open your virtualizer and run the VM for the version you want to test.
 5. Once inside Windows test out your website as you normally would.
 
 ### Open device labs

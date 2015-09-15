@@ -40,6 +40,7 @@ groups:
     items:
       - 'Firefox, *current version*.'
       - 'Chrome, *current version*.'
+      - 'Edge, *current version*.'
       - 'Opera, *current version*.'
       - 'Internet Explorer, *11*.'
       - 'Internet Explorer, *10*.'

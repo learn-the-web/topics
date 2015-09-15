@@ -105,3 +105,4 @@ The following keywords will close an issue via commit message:
 
 - [Angular.js contributing guide](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit)
 - [Atom Git commit message standards](https://atom.io/docs/latest/contributing#git-commit-messages)
+- [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)

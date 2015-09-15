@@ -275,6 +275,7 @@ There are extensions you can get for your browser that highlight what websites h
 - [Keyword Frequency Counter](http://www.yellowpipe.com/yis/tools/wordcount/index.php)
 - [Keyword Density Analyzer](http://tools.seobook.com/general/keyword-density/)
 - [Complete List of Best SEO-Tools by Smashing Magazine](http://www.smashingmagazine.com/2006/09/22/complete-list-of-best-seo-tools/)
+- [Varvy SEO](https://varvy.com/)
 
 ### Blogs, books & bodies
 

@@ -466,6 +466,7 @@ There are a few things to consider that can cause these problems:
 - [Understanding Critical CSS](http://www.smashingmagazine.com/2015/08/understanding-critical-css/)
 - [10 Ways to Minimize Reflows and Improve Performance](http://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/)
 - [Jank Free](http://jankfree.org/)
+- [Critical rendering path](https://varvy.com/pagespeed/critical-render-path.html)
 
 ---
 
@@ -490,3 +491,5 @@ There are a few things to consider that can cause these problems:
 - [Website Performance Checklist](http://websiteperformancechecklist.com/)
 - [Performance & Organization](http://learn.shayhowe.com/advanced-html-css/performance-organization/)
 - [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
+- [Pagespeed Optimization](https://varvy.com/pagespeed/)
+- [Web performance](https://varvy.com/performance/)

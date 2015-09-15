@@ -244,7 +244,7 @@ CloudFlare will say something about CNAME Flattening—and you’re good to go!
 - [FastMail](https://www.fastmail.com/)
 - [Google Apps for Work](http://www.google.com/work/apps/business/)
 - [Rackspace](http://www.rackspace.com/email-hosting/webmail/)
-- [MailRoute](http://mailroute.net/) (strong span protection)
+- [MailRoute](http://mailroute.net/) (strong spam protection)
 
 ### Recommended website hosts
 

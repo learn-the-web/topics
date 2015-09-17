@@ -156,6 +156,7 @@ There’s a similar ARIA property: `aria-describedby`—the difference is that `
 - [On HTML belts and ARIA braces](http://html5doctor.com/on-html-belts-and-aria-braces/)
 - [MDN: An overview of accessible web applications and widgets](https://developer.mozilla.org/en-US/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets)
 - [Where to Put Your Search Role](http://adrianroselli.com/2015/08/where-to-put-your-search-role.html)
+- [WAI-ARIA Screen Reader Compatibility](http://www.powermapper.com/tests/screen-readers/aria/index.html)
 
 ---
 

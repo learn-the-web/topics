@@ -41,11 +41,6 @@ writing-a-readme:
   desc: "A quick overview of writing a helpful readme for your web project."
   indent: 1
 
-video-audio:
-  title: "Video & audio"
-  tags: "video audio web tag element export save formats hover source mp4 webm ogg mp3"
-  desc: "Using video & audio on websites and how to properly export the files."
-
 jekyll:
   title: "Jekyll"
   fullsite: true
@@ -95,6 +90,11 @@ seo-checklist:
   desc: "A checklist covering the basics of honest SEO for websites."
   checklist: true
   indent: 1
+
+video-audio:
+  title: "Video & audio"
+  tags: "video audio web tag element export save formats hover source mp4 webm ogg mp3"
+  desc: "Using video & audio on websites and how to properly export the files."
 
 progressive-enhancement:
   title: "Progressive enhancement"

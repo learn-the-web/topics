@@ -168,9 +168,13 @@ And finally, GitHub supports task lists in Markdown files using the following fo
 
 - **[IA Writer](http://www.iawriter.com/)**
 - **[Marked](http://markedapp.com/)**
-- [Dingus](http://daringfireball.net/projects/markdown/dingus)
-- [Markdrop](http://www.markdrop.com/)
+- [Markdown Preview (Chrome extension)](https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd)
+- [Markdown Live Preview](http://markdownlivepreview.com/)
+- [Markdown Preview (Atom)](https://atom.io/packages/markdown-preview)
+- [Markdown Preview (Sublime)](https://packagecontrol.io/packages/Markdown%20Preview)
+- [MarkdownPad](http://www.markdownpad.com/)
 - [Mou](http://mouapp.com/)
+- [Dingus](http://daringfireball.net/projects/markdown/dingus)
 - [Byword](http://bywordapp.com/)
 - [Writage](http://www.writage.com/)
 - [The Best Markdown Editor for Windows](http://www.sitepoint.com/best-markdown-editors-windows/)

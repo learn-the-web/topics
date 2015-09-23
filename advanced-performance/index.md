@@ -154,6 +154,7 @@ There’s a few important things to notice about the embedded SVG:
 - [DataURL.net](http://dataurl.net/#dataurlmaker)
 - [Data URI Converter](https://datauriconverter.appspot.com/)
 - [Image2Base64](http://image2base64.wemakesites.net/)
+- [Base64 File Encoder](http://jpillora.com/base64-encoder/)
 - [Optimizing SVGs in data URIs](http://codepen.io/Tigt/blog/optimizing-svgs-in-data-uris)
 - [Comparison of all optimisation tools](https://jamiemason.github.io/ImageOptim-CLI/)
 

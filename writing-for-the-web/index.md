@@ -254,6 +254,7 @@ An example sitemap in Markdown using nested lists:
 ## Supplemental links
 
 - **[Voice & Tone](http://voiceandtone.com/)**
+- [**Eats, Shoots & Leaves**](http://www.lynnetruss.com/pages/content/index.asp?PageID=8)
 - [Quick Course On Effective Website Copywriting](http://www.smashingmagazine.com/2012/05/quick-course-on-effective-website-copywriting/)
 - [Readability Tools That Will Help Improve Your Site’s Content](http://sixrevisions.com/tools/readability/)
 - [Headings Are Pick-Up Lines: 5 Tips for Writing Headlines That Convert](http://www.nngroup.com/articles/headings-pickup-lines/)

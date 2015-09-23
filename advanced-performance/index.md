@@ -461,6 +461,7 @@ There are a few things to consider that can cause these problems:
 - [How we use web fonts responsibly, or, avoiding a @font-face-palm](https://www.filamentgroup.com/lab/font-loading.html)
 - [Font Loading Revisited with Font Events](https://www.filamentgroup.com/lab/font-events.html)
 - [CSS Triggers… A game of layout, paint, and composite.](http://csstriggers.com/)
+- [What forces layout / reflow](https://gist.github.com/paulirish/5d52fb081b3570c81e3a)
 - [Everything You Need to Know About the CSS will-change Property](https://dev.opera.com/articles/css-will-change-property/)
 - [Fix scrolling performance with CSS will-change property](https://fourword.fourkitchens.com/article/fix-scrolling-performance-css-will-change-property)
 - [Use Gulp to automate your critical path CSS](http://fourword.fourkitchens.com/article/use-gulp-automate-your-critical-path-css)

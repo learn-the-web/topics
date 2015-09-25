@@ -230,6 +230,7 @@ ul li:nth-child(4) {}
 - [CSS Tricks: How nth-child Works](http://css-tricks.com/how-nth-child-works/)
 - [SitePoint: Understanding :nth-child Pseudo-class Expressions](http://www.sitepoint.com/web-foundations/understanding-nth-child-pseudo-class-expressions/)
 - **[The CSS3 :nth-child Calculator](http://nth-calculator.com/)**
+- [Nth Master](http://nthmaster.com/)
 
 ---
 

@@ -43,6 +43,10 @@ When it comes to rendering engines there’s a few big players that are shared b
 
 *Web browsers are a big—beautiful—mess of different forks, of shared engines, of shared interfaces. And let’s not get into all the different versions and variations.*
 
+**Links**
+
+- [Chrome, Firefox, Safari, Opera, Edge? Impressive Web Browser Alternatives](http://www.smashingmagazine.com/2015/09/chrome-firefox-safari-opera-edge-impressive-web-browser-alternatives/)
+
 ---
 
 ## What versions to test

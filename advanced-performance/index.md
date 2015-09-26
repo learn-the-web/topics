@@ -400,7 +400,77 @@ There are a few solutions to this problem, but most importantly make sure your w
 
 Most solutions delay the loading of the fonts and show the default web-safe fonts until after the font face loads. After the font face has finished loading we add it to the page, add a class to the page that changes the font to the custom typeface.
 
-[LocalFont](http://jaicab.com/localFont/) is a fairly popular solution, [the Filament Group has a few other solutions](https://www.filamentgroup.com/lab/font-events.html).
+##### Using Font Face Observer
+
+There’s a great Javascript solution—[Font Face Observer](https://github.com/bramstein/fontfaceobserver)—that can help our websites visually load more quickly by displaying our fallback font while the font is loading then switching into the web font when it’s ready.
+
+To make Font Face Observer work there’s a few things to do. First we download the Javascript file and place it in a `<script>` tag directly at the bottom of our page:
+
+```html
+  <script>
+    // Paste everything from `fontfaceobserver.js` into here
+    (function(){'use strict';…
+  </script>
+</body>
+</html>
+```
+
+Next up we write a little script that checks if the font has finished loading. When it has finished loading, then we add a class to the `<html>` element.
+
+```html
+  <script>
+    (function(){'use strict';…
+  </script>
+  <script>
+    var observer;
+
+    if (!sessionStorage.fontsLoaded) {
+      // On this line we specify the font exactly how it’s written in our CSS
+      observer = new FontFaceObserver('Bree Serif');
+
+      observer.check().then(function () {
+        document.documentElement.className += ' fonts-loaded';
+        sessionStorage.fontsLoaded = true;
+      });
+    } else {
+      document.documentElement.className += ' fonts-loaded';
+    }
+  </script>
+</body>
+</html>
+```
+
+*If you have more than one font weight or style you’ll need a slightly more advanced script. [See the font face observer script for this website with multiple weights and styles.](https://github.com/acgd-learn-the-web/acgd-learn-the-web.github.io/blob/master/_includes/alegreya-observer.js)*
+
+After that’s in place, we just need to adjust our CSS a little bit to display fallback font first:
+
+```css
+/* All the `@font-face` stuff would be above here */
+
+html {
+  /* Here we specify our fallback font only */
+  font-family: Georgia,sans-serif;
+}
+
+.fonts-loaded {
+  /* Here we specify our web font too */
+  font-family: "Bree Serif",Georgia,sans-serif;
+}
+```
+
+The reason we don’t specify the primary web font on the `<html>` directly is because it will freeze the display immediately as the browser tries to use it. By putting the web font under a class—that gets added by Font Face Observer—the browser can default to our fallback and only display the web font when it’s ready.
+
+**It’s important that you find a fallback font that closely matches your web font is height, weight, etc.**
+
+###### Prefetching fonts
+
+To take it even a step further we can request that the browser download our fonts ahead of time to encourge a quicker rendering by using `<link>` tag in the `<head>`.
+
+```html
+<head>
+  ⋮
+  <link src="fonts/breeserif-regular.woff" rel="prefetch">
+```
 
 ##### Fancy font features
 
@@ -456,8 +526,8 @@ There are a few things to consider that can cause these problems:
 
 **Links**
 
+- **[Font Face Observer](https://github.com/bramstein/fontfaceobserver)**
 - [The @font-face dilemma](https://viget.com/extend/the-font-face-dilemma)
-- [LocalFont](http://jaicab.com/localFont/)
 - [How we use web fonts responsibly, or, avoiding a @font-face-palm](https://www.filamentgroup.com/lab/font-loading.html)
 - [Font Loading Revisited with Font Events](https://www.filamentgroup.com/lab/font-events.html)
 - [CSS Triggers… A game of layout, paint, and composite.](http://csstriggers.com/)
@@ -469,6 +539,10 @@ There are a few things to consider that can cause these problems:
 - [10 Ways to Minimize Reflows and Improve Performance](http://www.sitepoint.com/10-ways-minimize-reflows-improve-performance/)
 - [Jank Free](http://jankfree.org/)
 - [Critical rendering path](https://varvy.com/pagespeed/critical-render-path.html)
+- [Faster Font Loading with Font Events](https://jonsuh.com/blog/font-loading-with-font-events/)
+- [iOS Fonts](http://iosfonts.com/)
+- [Ffffallback](http://ffffallback.com/)
+- [Web Fonts Performance](https://speakerdeck.com/bramstein/web-fonts-performance)
 
 ---
 

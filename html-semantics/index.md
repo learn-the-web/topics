@@ -219,6 +219,39 @@ Then, in the `<a>` tag we link directly to the ID:
 <a href="#meat-eaters">Meat Eaters</a>
 ```
 
+#### E-mail & telephone links
+
+With HTML you can link e-mail addresses and telephone numbers using alternative schemes.
+
+- For e-mails use `mailto:` — this will open the user’s default e-mail client and start a new message.
+- For phone numbers use `tel:` — on mobile phones this will start dialing the number.
+
+Here’s how to link and e-mail address:
+
+```html
+<a href="mailto:dinos@extinct.com">dinos@extinct.com</a>
+```
+
+You can also provide a default subject like this:
+
+```html
+<a href="mailto:dinos@extinct.com?subject=Dinosaurs%20are%20amazing!">dinos@extinct.com</a>
+```
+
+*Notice that all spaces must be escaped as `%20` because URLs cannot have spaces in them.*
+
+Here’s how you’d link to a telephone number:
+
+```html
+<a href="tel:+18005552368">Who you gonna call?</a>
+```
+
+It’s usually best to put the number in the international format, starting with your country code (`+1` for North America).
+
+**Links**
+
+- [Wikipedia: mailto](https://en.wikipedia.org/wiki/Mailto)
+
 ### Images & figures
 
 Images in websites are no embedded in the website, but linked to by the HTML document.

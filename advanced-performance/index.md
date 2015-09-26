@@ -449,12 +449,12 @@ After that’s in place, we just need to adjust our CSS a little bit to display 
 
 html {
   /* Here we specify our fallback font only */
-  font-family: Georgia,sans-serif;
+  font-family: Georgia,serif;
 }
 
 .fonts-loaded {
   /* Here we specify our web font too */
-  font-family: "Bree Serif",Georgia,sans-serif;
+  font-family: "Bree Serif",Georgia,serif;
 }
 ```
 

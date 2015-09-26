@@ -44,6 +44,7 @@ groups:
       - 'Use CSS sprites or DataURIs where appropriate.'
       - 'Page scrolling is smooth.'
       - 'Web fonts have been sub-set to reduce file size.'
+      - 'Web fonts don’t block rendering.<br>[Font Face Observer](https://github.com/bramstein/fontfaceobserver)'
 
   - title: 'Code'
     items:

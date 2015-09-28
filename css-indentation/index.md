@@ -173,6 +173,10 @@ I have three different sections in the rule set:
 
 If is difficult at first to get into the habit of organizing your code this way, but eventually it becomes second nature and you do it without thinking. *In fact, in the videos, if I don’t write my code this way it’s because I’m making a concerted effort not to.*
 
+**Links**
+
+- [**CSS-Tricks: Breaking Up Large Files Into Sections**](https://css-tricks.com/breaking-up-large-files-into-sections/)
+
 ---
 
 ## Tabs vs. spaces

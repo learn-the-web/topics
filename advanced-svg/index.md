@@ -138,9 +138,9 @@ The optimization is the same process we use with the [SVGO-GUI](https://github.c
 
 **Links**
 
-- **[Pocket Guide to Writing SVG](http://svgpocketguide.com/)**
-- **[SVGOMG](https://jakearchibald.github.io/svgomg/)**
-- **[W3: SVG 1.1 Styling](http://www.w3.org/TR/SVG11/styling.html)**
+- [**Pocket Guide to Writing SVG**](http://svgpocketguide.com/)
+- [**SVGOMG**](https://jakearchibald.github.io/svgomg/)
+- [**W3: SVG 1.1 Styling**](http://www.w3.org/TR/SVG11/styling.html)
 - [**W3: SVG properties that can be used in CSS**](http://www.w3.org/TR/SVG/propidx.html)
 - [SVG Basics—How To Create Simple Shapes And Lines](http://www.vanseodesign.com/web-design/svg-shapes-lines/)
 - [SVG Basics—Fills And Strokes](http://www.vanseodesign.com/web-design/svg-fill-stroke/)
@@ -258,7 +258,7 @@ Effect > SVG Filters
 
 Patterns can be defined in SVG using the `<pattern>` element. Patterns can be applied to anything that accepts a fill.
 
-**[☛ Check out the text pattern example](#adding-textures-to-text)**
+[**☛ Check out the text pattern example**](#adding-textures-to-text)
 
 **Links**
 
@@ -518,9 +518,9 @@ If you are using the SVG `<text>` element inside your embedded SVG, but don’t 
 
 ## Supplemental links
 
-- **[CSS-Tricks: How to Scale SVG](https://css-tricks.com/scale-svg/)**
-- **[CSS-Tricks: A Compendium of SVG Information](https://css-tricks.com/mega-list-svg-information/)**
-- **[MDN: SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)**
+- [**CSS-Tricks: How to Scale SVG**](https://css-tricks.com/scale-svg/)
+- [**CSS-Tricks: A Compendium of SVG Information**](https://css-tricks.com/mega-list-svg-information/)
+- [**MDN: SVG**](https://developer.mozilla.org/en-US/docs/Web/SVG)
 - [SVG on the web — A Practical Guide](https://svgontheweb.com/)
 - [Tips for Creating Accessible SVG](http://www.sitepoint.com/tips-accessible-svg/)
 - [The SVG Canvas, Coordinate System, And Viewport](http://www.vanseodesign.com/web-design/svg-viewport/)

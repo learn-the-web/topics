@@ -141,6 +141,7 @@ The optimization is the same process we use with the [SVGO-GUI](https://github.c
 - **[Pocket Guide to Writing SVG](http://svgpocketguide.com/)**
 - **[SVGOMG](https://jakearchibald.github.io/svgomg/)**
 - **[W3: SVG 1.1 Styling](http://www.w3.org/TR/SVG11/styling.html)**
+- [**W3: SVG properties that can be used in CSS**](http://www.w3.org/TR/SVG/propidx.html)
 - [SVG Basics—How To Create Simple Shapes And Lines](http://www.vanseodesign.com/web-design/svg-shapes-lines/)
 - [SVG Basics—Fills And Strokes](http://www.vanseodesign.com/web-design/svg-fill-stroke/)
 - [SVG Basics—Creating Paths With Line Commands](http://www.vanseodesign.com/web-design/svg-paths-line-commands/)

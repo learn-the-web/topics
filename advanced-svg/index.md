@@ -534,4 +534,4 @@ If you are using the SVG `<text>` element inside your embedded SVG, but don’t 
 - [svidget.js](http://www.svidget.com/)
 - [Animated line drawing in SVG](http://jakearchibald.com/2013/animated-line-drawing-svg/)
 - [SVG Dashed Line Generator](https://gigacore.github.io/demos/svg-stroke-dasharray-generator/)
-- [Better SVG Fallback and Art Direction With The <picture> Element](http://sarasoueidan.com/blog/svg-picture/)
+- [Better SVG Fallback and Art Direction With The `<picture>` Element](http://sarasoueidan.com/blog/svg-picture/)

@@ -26,7 +26,7 @@ groups:
 
   - title: 'Validation'
     items:
-      - 'Javascript has been validated.<br>[JS Hint](http://www.jshint.com/), [JS Lint](http://jslint.com/)'
+      - 'Javascript has been validated.<br>[JS Hint](http://www.jshint.com/), [ESLint](http://eslint.org/), [JS Lint](http://jslint.com/)'
       - 'Automated & unit testing has been considered.'
       - 'Validated for internationalization & world readiness.<br>[W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)'
       - 'Many and high quality commit messages.'

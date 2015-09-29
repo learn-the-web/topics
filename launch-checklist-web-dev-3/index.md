@@ -83,7 +83,7 @@ groups:
       - 'All Javascript is in external files.'
       - 'All appropriate semicolons are in place.'
       - 'All user interactions have been thoroughly tested.'
-      - 'Javascript has been validated.<br>[JS Hint](http://www.jshint.com/), [JS Lint](http://jslint.com/)'
+      - 'Javascript has been validated.<br>[JS Hint](http://www.jshint.com/), [ESLint](http://eslint.org/), [JS Lint](http://jslint.com/)'
       - 'All instances of `console.log()` have been removed.'
       - 'Javascript has been tested for browser bugs.'
       - 'Appropriate accessibility features have been added.'

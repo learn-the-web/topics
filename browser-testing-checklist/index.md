@@ -48,7 +48,7 @@ groups:
       - 'Safari, *one version behind*.'
 
   - title: 'Mobile browsers'
-    note: 'Current version & 1 version back.'
+    note: 'Current version & one version back.'
     items:
       - 'Chrome on Android, *current version*.'
       - 'Android browser, *current version*.'

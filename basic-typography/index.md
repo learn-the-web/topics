@@ -262,3 +262,4 @@ There are lots of different services for Web Fonts—Google Fonts is a simple on
 - [Common fonts to all versions of Windows & Mac equivalents](http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html)
 - [Text-rendering: optimizeLegibility is Decadent and Depraved](http://bocoup.com/weblog/text-rendering/)
 - [Web Font Test](http://webfont-test.com/)
+- [Mind Your En And Em Dashes: Typographic Etiquette](http://www.smashingmagazine.com/2011/08/mind-your-en-and-em-dashes-typographic-etiquette/)

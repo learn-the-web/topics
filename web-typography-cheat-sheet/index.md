@@ -169,7 +169,7 @@ groups:
           - '*Example:* `text-rendering: optimizeLegibility;`'
 
   - title: 'Keyboard shortcuts'
-    note: 'Some of these keyboard shortcuts may require the U.S. Extended keyboard.'
+    note: 'Some of these keyboard shortcuts may require the ABC Extended keyboard (or U.S. Extended).'
     items:
       - name: '`“ ”`'
         details:

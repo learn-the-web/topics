@@ -569,3 +569,4 @@ There are a few things to consider that can cause these problems:
 - [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
 - [Pagespeed Optimization](https://varvy.com/pagespeed/)
 - [Web performance](https://varvy.com/performance/)
+- [Introducing RAIL: A User-Centric Model For Performance](http://www.smashingmagazine.com/2015/10/rail-user-centric-model-performance/)

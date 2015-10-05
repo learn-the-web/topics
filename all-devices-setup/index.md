@@ -37,6 +37,18 @@ HTML is fully cross platform, most elements will work in all browsers, but they 
   - `width=device-width`—our website is formatted for the width of the device.
   - `initial-scale=1`—our website shouldn’t be zoomed in or out by default.
 
+In newer versions of Safari iOS you may also need to include `shrink-to-fit=no`, so the `viewport` meta tag would look like this:
+
+```html
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+```
+
+This prevents Safari from scaling if there are elements that exceed the width of the device.
+
+**Links**
+
+- [Shrink to Fit](http://jsbin.com/fubunucopi/4/edit?html,output)
+
 ---
 
 ## CSS

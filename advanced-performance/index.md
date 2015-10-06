@@ -543,6 +543,7 @@ There are a few things to consider that can cause these problems:
 - [iOS Fonts](http://iosfonts.com/)
 - [Ffffallback](http://ffffallback.com/)
 - [Web Fonts Performance](https://speakerdeck.com/bramstein/web-fonts-performance)
+- [Collateral Damage](http://miranj.in/blog/2015/collateral-damage)
 
 ---
 

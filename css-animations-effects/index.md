@@ -436,7 +436,7 @@ Or for animations, they would need to be written like this:
 
 One really trendy effect that many websites have been using is parallax: when certain elements on the screen move at different speeds than other elements.
 
-*I recommend using this effect sparingly—as will all effects.*
+*I recommend using this effect sparingly—as with all effects.*
 
 Often this effect is created using Javascript—and Javascript does have the benefit of more control. But we can actually create the effect using just CSS in modern browsers.
 

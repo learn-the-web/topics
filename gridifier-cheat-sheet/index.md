@@ -22,6 +22,7 @@ groups:
               <div class="unit">…</div>
             </div>
             ```
+          - '*Nothing can be outside of `.unit` when using grids.*'
 
   - title: 'Grid unit alignment'
     items:

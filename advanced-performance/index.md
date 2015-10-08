@@ -469,7 +469,7 @@ To take it even a step further we can request that the browser download our font
 ```html
 <head>
   ⋮
-  <link src="fonts/breeserif-regular.woff" rel="prefetch">
+  <link href="fonts/breeserif-regular.woff" rel="prefetch">
 ```
 
 ##### Fancy font features

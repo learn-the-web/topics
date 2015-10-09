@@ -9,7 +9,7 @@ groups:
       - 'Load time: **< 1s** (1000ms).'
       - 'Speed index: **< 800**.<br>[WebPageTest](http://www.webpagetest.org/)'
       - 'Page size: **800 KB** transfer size maximum.'
-      - 'Requests: **20 requests** maximum.'
+      - 'Requests: **15 requests** maximum.'
       - 'Pass: [Google Mobile Friendly Test](https://www.google.com/webmasters/tools/mobile-friendly/).'
       - '[Google Page Speed](https://developers.google.com/speed/pagespeed/insights/): achieve green on Mobile & green on Desktop.'
 

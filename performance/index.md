@@ -93,7 +93,7 @@ Here’s an example performance budget that might work for you:
 - ❏ **Load time:** < 1s (1000ms)
 - ❏ **Speed index:** < 800
 - ❏ **Page size:** 800 KB transfer size maximum
-- ❏ **Requests:** 20 requests maximum
+- ❏ **Requests:** 15 requests maximum
 - ❏ **Pass:** Google Mobile Friendly Test
 - ❏ **Page Speed:** achieve *green* on Mobile & *green* on Desktop
 

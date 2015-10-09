@@ -553,7 +553,7 @@ There are a few things to consider that can cause these problems:
 2. [Advanced performance: blurring JPGs](https://www.youtube.com/watch?v=P2WFfpWIlGU&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=2)
 3. [Advanced performance: optimizing favicons](https://www.youtube.com/watch?v=9llDkAYTju4&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=3)
 4. [Advanced performance: sub-setting fonts](https://www.youtube.com/watch?v=CVTt4msJVXM&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=4)
-5. [Advanced performance: delaying font loading](https://www.youtube.com/watch?v=B-J5IEjilO0&index=5&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ)
+5. [Advanced performance: delaying font rendering](https://www.youtube.com/watch?v=B-J5IEjilO0&index=5&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ)
 6. [Advanced performance: data URIs](https://www.youtube.com/watch?v=pzNGhDD-1QU&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=6)
 7. [Advanced performance: SVG data URIs](https://www.youtube.com/watch?v=Np7TnNlRSFE&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=7)
 8. [Advanced performance: CloudFlare settings](https://www.youtube.com/watch?v=mb6q-MG8LWs&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=8)

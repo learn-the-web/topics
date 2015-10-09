@@ -28,4 +28,4 @@ GitHub has a hosting service for static websites. All you have to do is create a
 
 ## Video list
 
-1. [GitHub: setting up hosting with GitHub Pages](https://www.youtube.com/watch?v=-RwSh_pbu_U&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=2)
+1. [GitHub: setting up hosting with GitHub Pages](https://www.youtube.com/watch?v=pc3jwarJxuU&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=2)

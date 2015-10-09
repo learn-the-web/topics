@@ -15,7 +15,7 @@ Distributed solutions are considered to be better for collaboration with other d
 
 - **[Git](http://git-scm.com/)**
 
-	A distributed version control system, popularized by [GitHub](https://github.com/) and the [Ruby](http://www.ruby-lang.org/en/) community.
+  A distributed version control system, popularized by [GitHub](https://github.com/) and the [Ruby](http://www.ruby-lang.org/en/) community.
 
 - [Mercurial](http://mercurial.selenic.com/) — competitor to Git
 - [Subversion](http://subversion.tigris.org/) — centralized, older.
@@ -185,6 +185,6 @@ Using version control is great for backups of your source code files, but often 
 
 - **[GitHub](http://github.com)**
 
-	<http://net.tutsplus.com/tutorials/other/getting-the-hang-of-github/>
+  <http://net.tutsplus.com/tutorials/other/getting-the-hang-of-github/>
 
 - [BitBucket](http://bitbucket.com)

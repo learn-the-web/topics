@@ -202,7 +202,7 @@ After saving the icons (and of course smushing them) you’ll need to link them 
 
 The Graphics Interchange Format, or GIF, is an older image format for the web. For many static images SVG or PNG are much better suited—but GIFs can be animated.
 
-Animation alone isn’t generally a good reason to use a GIF, [try using CSS animations and SVGs](https://github.com/algonquindesign/html-css/blob/gh-pages/advanced-svg) to see if you can get the results you want.
+Animation alone isn’t generally a good reason to use a GIF, [**☛ try using CSS animations and SVGs**](/topics/advanced-svg/) to see if you can get the results you want.
 
 GIF animations shine for complex, traditional, frame-by-frame animations, while SVG & CSS animations are much more straight-forward.
 

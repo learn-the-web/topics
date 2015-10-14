@@ -52,7 +52,7 @@ exclude: []
 
 **Links**
 
-- **[Setting up GitHub Pages Reference](https://github.com/algonquindesign/resources/tree/master/github-pages)**
+- [**☛ Setting up GitHub Pages Reference**](/topics/github-pages/)
 - [Jekyll Docs: Directory structure](http://jekyllrb.com/docs/structure/)
 - [Jekyll Docs: Configuration](http://jekyllrb.com/docs/configuration/)
 
@@ -195,7 +195,7 @@ To display a list of posts in your website, you can use Jekyll’s loop:
 
 ## Supplemental links
 
-- **[Setting up GitHub Pages Reference](https://github.com/algonquindesign/resources/tree/master/github-pages)**
+- [**☛ Setting up GitHub Pages Reference**](/topics/github-pages/)
 - [Jekyll Documentation](http://jekyllrb.com/)
 - [Jekyll Setting Up on GitHub Pages](http://jekyllrb.com/docs/github-pages/)
 - [Shopify: Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)

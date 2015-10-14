@@ -29,7 +29,7 @@ If the navigation is in the masthead of your website it should also be inside a 
 
 ### Linking multiple pages
 
-When we’re linking to multiple pages we just need to specify the location of the other HTML file. **[Following the paths syntax.](https://github.com/algonquindesign/resources/tree/master/paths-folders)**
+When we’re linking to multiple pages we just need to specify the location of the other HTML file. [**☛ Following the paths syntax.**](/topics/paths-folders/)
 
 ![](link-paths.jpg)
 

@@ -25,9 +25,9 @@ jQuery is simple to use on your website, you just have to include the jQuery Jav
 2. You can use a content delivery network, CDN, to include jQuery
 
 ```html
-	<!-- Using the downloaded version of jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/main.js"></script>
+  <!-- Using the downloaded version of jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
 ```
@@ -63,8 +63,8 @@ Here’s a couple of examples:
 ```html
 <h1>Heading Level 1</h1>
 <div class="thang">
-	<p>Text and text and stuff and junk.</p>
-	<p class="thing">Lots more texty text stuff.</p>
+  <p>Text and text and stuff and junk.</p>
+  <p class="thing">Lots more texty text stuff.</p>
 </div>
 ```
 
@@ -88,7 +88,7 @@ var thePTags = document.querySelectorAll('p');
 var i;
 
 for (i = 0; i < thePTags.length; i++) {
-	thePTags[i].style.color = 'red';
+  thePTags[i].style.color = 'red';
 }
 ```
 
@@ -123,8 +123,8 @@ $thePTags.css('color', 'red');
 
 // A loop
 $thePTags.each(function (i) {
-	// $(this) refers the current thing inside this loop
-	$(this).css('color', 'red');
+  // $(this) refers the current thing inside this loop
+  $(this).css('color', 'red');
 });
 ```
 
@@ -150,7 +150,7 @@ After selecting an element in Javascript we can listen to events on that element
 var btn = document.querySelector('.btn');
 
 btn.addEventListener('click', function () {
-	// All the code here will be executed on every click
+  // All the code here will be executed on every click
 });
 ```
 
@@ -164,8 +164,8 @@ The EventObject houses a bunch of important functions and information about the 
 var btn = document.querySelector('.btn');
 
 btn.addEventListener('click', function (e) {
-	// Capture the EventObject into the argument named `e`
-	e.target; // A reference to the element the event fired on
+  // Capture the EventObject into the argument named `e`
+  e.target; // A reference to the element the event fired on
 });
 ```
 
@@ -177,7 +177,7 @@ Listening to events in jQuery is basically the same, just with a little bit less
 var $btn = $('.btn');
 
 $btn.on('click', function () {
-	// All the code here will be executed on every click
+  // All the code here will be executed on every click
 });
 ```
 
@@ -185,8 +185,8 @@ We could also listen to other events, like key presses:
 
 ```js
 $('html').on('keydown', function (e) {
-	// The number representing the key that was pressed
-	console.log(e.keyCode);
+  // The number representing the key that was pressed
+  console.log(e.keyCode);
 });
 ```
 
@@ -198,28 +198,28 @@ Events follow a propagation in Javascript that includes the capture phase: start
 
 ```html
 <html> <!-- 1. Event will fire here first -->
-	<body> <!-- 2. Then here -->
-		<div> <!-- 3. And here -->
-			<a> <!-- 4. Finally the event will fire on the element you're listening to -->
+  <body> <!-- 2. Then here -->
+    <div> <!-- 3. And here -->
+      <a> <!-- 4. Finally the event will fire on the element you're listening to -->
 ```
 
 **Bubbling phase:**
 
 ```html
 <html> <!-- 4. Finally ending here -->
-	<body> <!-- 3. Then here -->
-		<div> <!-- 2. Then it will traverse up to the the parent -->
-			<a> <!-- 1. The event already fired here -->
+  <body> <!-- 3. Then here -->
+    <div> <!-- 2. Then it will traverse up to the the parent -->
+      <a> <!-- 1. The event already fired here -->
 ```
 
 We can control the capturing & bubbling of events using a few functions.
 
 ```js
 $('a').on('click', function (e) {
-	// Will stop the element from doing what it normally does
-	e.preventDefault();
-	// Will stop the event bubbling back up through its parents
-	e.stopImmediatePropagation();
+  // Will stop the element from doing what it normally does
+  e.preventDefault();
+  // Will stop the event bubbling back up through its parents
+  e.stopImmediatePropagation();
 });
 ```
 
@@ -233,9 +233,9 @@ For this we can use event delegation.
 
 ```html
 <ul class="dinos">
-	<li>Stegosaurus</li>
-	<li>Tyrannosaurus</li>
-	<li>Apatosaurus</li>
+  <li>Stegosaurus</li>
+  <li>Tyrannosaurus</li>
+  <li>Apatosaurus</li>
 </ul>
 ```
 
@@ -243,7 +243,7 @@ With this HTML we can bind our event to the `<ul>` itself, but then only listen 
 
 ```js
 $('.dinos').on('click', 'li', function () {
-	// Notice the `li` above indicating the delegated element
+  // Notice the `li` above indicating the delegated element
 });
 ```
 
@@ -265,11 +265,11 @@ When using classes specifically for Javascript it’s best practice to prepend t
 
 ```css
 .js-active {
-	display: block;
+  display: block;
 }
 
 .js-highlight {
-	background-color: #ff3;
+  background-color: #ff3;
 }
 ```
 
@@ -335,7 +335,7 @@ $btn.hasClass('js-highlight');
 
 ## Manipulating HTML
 
-When manipulating HTML the [parent-child relationship](https://github.com/algonquindesign/html-css/tree/gh-pages/html-semantics#parent-child-relationship) is extremely important to remember.
+When manipulating HTML the [**☛ parent-child relationship**](/topics/html-semantics#parent-child-relationship) is extremely important to remember.
 
 There are a bunch of different functions to manipulate HTML using jQuery.
 
@@ -350,7 +350,7 @@ Here are some examples:
 
 ```html
 <ul class="dinos">
-	<li class="first">Stegosaurus</li>
+  <li class="first">Stegosaurus</li>
 </ul>
 ```
 
@@ -397,8 +397,8 @@ The first thing to do when dealing with forms is to capture the form’s submiss
 var $form = $('.form');
 
 $form.on('submit', function (e) {
-	// Stop the form from doing what it normally does
-	e.preventDefault();
+  // Stop the form from doing what it normally does
+  e.preventDefault();
 });
 ```
 
@@ -448,9 +448,9 @@ Select elements work like basic text inputs, but must be set up differently, spe
 
 ```html
 <select class="dinos">
-	<option value="stego">Stegosaurus</option>
-	<option value="trex" selected>Tyrannosaurus</option>
-	<option value="pterano">Pteranodon</option>
+  <option value="stego">Stegosaurus</option>
+  <option value="trex" selected>Tyrannosaurus</option>
+  <option value="pterano">Pteranodon</option>
 </select>
 ```
 

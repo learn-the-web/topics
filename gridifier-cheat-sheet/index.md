@@ -117,7 +117,7 @@ groups:
 
   - title: 'Common problems'
     items:
-      - name: '**Smushy text**'
+      - name: '*Smushy text*'
         details:
           - 'The letters of the text look all smushed together — this is caused by text being inside `.grid` but not inside `.unit`.'
           - |
@@ -128,7 +128,7 @@ groups:
               <div class="unit">…</div>
             </div>
             ```
-      - name: '**Units not responding properly**'
+      - name: '*Units not responding properly*'
         details:
           - '*Missing the wrapping `.grid` class.*'
           - |
@@ -152,7 +152,7 @@ groups:
               <div class="unit">…</div>
             </div>
             ```
-          - '*Having elements inside `.grid` but not inside `.unit`.'
+          - '*Having elements inside `.grid` but not inside `.unit`*'
           - |
             ```html
             <div class="grid">

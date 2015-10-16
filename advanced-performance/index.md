@@ -462,14 +462,14 @@ The reason we don’t specify the primary web font on the `<html>` directly is b
 
 **It’s important that you find a fallback font that closely matches your web font is height, weight, etc.**
 
-###### Prefetching fonts
+###### Preloading fonts
 
 To take it even a step further we can request that the browser download our fonts ahead of time to encourge a quicker rendering by using `<link>` tag in the `<head>`.
 
 ```html
 <head>
   ⋮
-  <link href="fonts/breeserif-regular.woff" rel="prefetch">
+  <link href="fonts/breeserif-regular.woff" rel="preload" as="font">
 ```
 
 ##### Fancy font features
@@ -545,6 +545,7 @@ There are a few things to consider that can cause these problems:
 - [Web Fonts Performance](https://speakerdeck.com/bramstein/web-fonts-performance)
 - [Collateral Damage](http://miranj.in/blog/2015/collateral-damage)
 - [Using Web Fonts The Best Way (in 2015).](https://helloanselm.com/2015/using-webfonts-in-2015/)
+- [Preload Hints For Web Fonts](http://www.bramstein.com/writing/preload-hints-for-web-fonts.html)
 - [Web Font Anti-Patterns](http://bramstein.com/writing/web-font-anti-patterns.html)
 
 ---

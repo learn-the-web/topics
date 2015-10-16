@@ -117,21 +117,20 @@ groups:
 
   - title: 'Common problems'
     items:
-      - name: 'Smushy text'
+      - name: '**Smushy text**'
         details:
           - 'The letters of the text look all smushed together — this is caused by text being inside `.grid` but not inside `.unit`.'
           - |
             ```html
             <div class="grid">
+              <!-- Just like lists, nothing can be outside the .unit -->
               <h2>This text would be smushy</h2>
-              <div class="unit">
-                <!-- Just like lists, nothing can be outside the .unit -->
-              </div>
+              <div class="unit">…</div>
             </div>
             ```
-      - name: 'Units not responding properly'
+      - name: '**Units not responding properly**'
         details:
-          - 'This could be caused by a couple different things: not having `.grid`, not closing the previous `.grid`, or having elements within `.grid` that aren’t `.unit` tags.'
+          - '*Missing the wrapping `.grid` class.*'
           - |
             ```html
             <!-- This element needs to always have the .grid class -->
@@ -140,6 +139,7 @@ groups:
               <div class="unit">…</div>
             </main>
             ```
+          - '*Forgetting to close the `.grid` tag.*'
           - |
             ```html
             <div class="grid">
@@ -152,6 +152,7 @@ groups:
               <div class="unit">…</div>
             </div>
             ```
+          - '*Having elements inside `.grid` but not inside `.unit`.'
           - |
             ```html
             <div class="grid">

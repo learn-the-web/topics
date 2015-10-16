@@ -115,4 +115,53 @@ groups:
           - 'When using distribute, can cause a chunk of content to stretch vertically.'
           - 'Added to an element *inside* a unit—*will not work added directly to a `.unit`.*'
 
+  - title: 'Common problems'
+    items:
+      - name: 'Smushy text'
+        details:
+          - 'The letters of the text look all smushed together — this is caused by text being inside `.grid` but not inside `.unit`.'
+          - |
+            ```html
+            <div class="grid">
+              <h2>This text would be smushy</h2>
+              <div class="unit">
+                <!-- Just like lists, nothing can be outside the .unit -->
+              </div>
+            </div>
+            ```
+      - name: 'Units not responding properly'
+        details:
+          - 'This could be caused by a couple different things: not having `.grid`, not closing the previous `.grid`, or having elements within `.grid` that aren’t `.unit` tags.'
+          - |
+            ```html
+            <!-- This element needs to always have the .grid class -->
+            <main>
+              <div class="unit">…</div>
+              <div class="unit">…</div>
+            </main>
+            ```
+          - |
+            ```html
+            <div class="grid">
+              <div class="unit">…</div>
+              <div class="unit">…</div>
+
+            <!-- Because the above .grid isn’t closed, nothing will work properly -->
+            <div class="grid">
+              <div class="unit">…</div>
+              <div class="unit">…</div>
+            </div>
+            ```
+          - |
+            ```html
+            <div class="grid">
+              <!-- Don’t have elements directly inside the grid that aren’t .unit tags -->
+              <main>
+                <div class="unit">…</div>
+                <div class="unit">…</div>
+              </main>
+            </div>
+            ```
+
+
 ---

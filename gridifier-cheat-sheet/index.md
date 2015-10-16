@@ -130,7 +130,7 @@ groups:
             ```
       - name: '*Units not responding properly*'
         details:
-          - '*Missing the wrapping `.grid` class.*'
+          - 'Missing the wrapping `.grid` class.'
           - |
             ```html
             <!-- This element needs to always have the .grid class -->
@@ -139,7 +139,7 @@ groups:
               <div class="unit">…</div>
             </main>
             ```
-          - '*Forgetting to close the `.grid` tag.*'
+          - 'Forgetting to close the `.grid` tag.'
           - |
             ```html
             <div class="grid">
@@ -152,7 +152,7 @@ groups:
               <div class="unit">…</div>
             </div>
             ```
-          - '*Having elements inside `.grid` but not inside `.unit`*'
+          - 'Having elements inside `.grid` but not inside `.unit`'
           - |
             ```html
             <div class="grid">

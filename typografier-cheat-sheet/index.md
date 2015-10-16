@@ -32,7 +32,7 @@ groups:
           - 'The default font size, body copy.'
       - name: '`.milli`, `<small>`'
         details:
-          - 'One size small than the body copy.'
+          - 'One size smaller than the body copy.'
       - name: '`.micro`'
         details:
           - 'Two sizes smaller than the body copy.'

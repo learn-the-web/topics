@@ -73,6 +73,7 @@ ErrorDocument 500 /500.html
 
 - **Design gallery: <http://fab404.com/>**
 - <https://github.com/404> · <https://github.com/500>
+- <https://www.tacobell.com/404>
 - <https://www.mint.com/404>
 - <http://www.bluefountainmedia.com/404/>
 - <http://www.google.ca/404>

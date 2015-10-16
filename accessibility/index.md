@@ -322,6 +322,7 @@ Here’s some shortcut keys for using VoiceOver:
 - [The Usability Principles, Accessibility Style](http://www.theaccessibility.com/2012/03/usability/), [Part 2](http://www.theaccessibility.com/2012/03/usability-2/), [Part 3](http://www.theaccessibility.com/2012/04/usability-3/)
 - [Game Accessibility Guidelines](http://gameaccessibilityguidelines.com/)
 - [Making Charts with CSS](https://css-tricks.com/making-charts-with-css/)
+- [Why Your Links Need a Hover Effect](http://uxmovement.com/buttons/why-your-links-need-a-hover-effect/)
 
 ### Videos
 

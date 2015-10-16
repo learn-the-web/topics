@@ -243,6 +243,7 @@ With flexbox you can do lots of different centering and alignment like things. I
 - [Dive into Flexbox](http://bocoup.com/weblog/dive-into-flexbox/)
 - [Flexbugs](https://github.com/philipwalton/flexbugs)
 - [Flexbox Cheatsheet Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)
+- [Using Flexbox today](http://chriswrightdesign.com/experiments/using-flexbox-today/)
 
 ---
 

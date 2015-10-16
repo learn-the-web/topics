@@ -544,6 +544,8 @@ There are a few things to consider that can cause these problems:
 - [Ffffallback](http://ffffallback.com/)
 - [Web Fonts Performance](https://speakerdeck.com/bramstein/web-fonts-performance)
 - [Collateral Damage](http://miranj.in/blog/2015/collateral-damage)
+- [Using Web Fonts The Best Way (in 2015).](https://helloanselm.com/2015/using-webfonts-in-2015/)
+- [Web Font Anti-Patterns](http://bramstein.com/writing/web-font-anti-patterns.html)
 
 ---
 

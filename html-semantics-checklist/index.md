@@ -30,6 +30,7 @@ groups:
       - 'Headings are ordered properly.'
       - 'All links go somewhere.<br>[W3C link checker](http://validator.w3.org/checklink)'
       - 'The `<figure>` isn’t used without a `<figcaption>`.'
+      - 'All email addresses and phone numbers are linked.'
 
   - title: Data
     items:

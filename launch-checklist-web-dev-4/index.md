@@ -12,6 +12,7 @@ groups:
       - 'Footer includes copyright information, terms, privacy policy, cookie notice, etc.'
       - 'All links work.<br>[W3C link checker](http://validator.w3.org/checklink), [Integrity](http://peacockmedia.co.uk/integrity/)'
       - 'All images display properly.'
+      - 'All email addresses and phone numbers are linked.'
 
   - title: 'Design'
     items:

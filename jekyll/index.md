@@ -327,7 +327,7 @@ When making Jekyll websites, CSS works exactly the same as normal, because Jekyl
 
 But, it’s a good idea to link the CSS file with the {% raw %}`{{site.baseurl}}`{% endraw %} for reliably.
 
-```
+```html
 {% raw %}<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">{% endraw %}
 ```
 
@@ -414,7 +414,6 @@ In any of our Jekyll pages, we can use the include file to output whatever HTML 
 ---
 layout: default
 ---
-
 {% raw %}
 {% include button.html %}
 {% include button.html %} {% endraw %}
@@ -444,7 +443,6 @@ Now, in our HTML we can adjust the includes to have the variable information:
 ---
 layout: default
 ---
-
 {% raw %}
 {% include button.html url="/prev/" title="Previous" %}
 {% include button.html url="/next/" title="Next" %} {% endraw %}

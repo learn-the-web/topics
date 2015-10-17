@@ -127,7 +127,7 @@ groups:
             - name: Velociraptor
               diet: Meat
               size: Small
-              ```
+            ```
       - name: '*Includes*'
         details:
           - 'Includes are for making reusable, repeatable HTML blocks.'
@@ -165,7 +165,7 @@ groups:
               2013-10-06-clouds-on-kepler-7b-mapped.md
               2013-10-09-planet-without-star.md
             ```
-          - 'Use the `for` loop to output posts'
+          - 'Use the `for` loop to output posts:'
           - |
             ```html
             <ul>
@@ -187,8 +187,8 @@ groups:
           - |
             ```html
             {{site.time}}
-            {{page.url}}
-            {{site.data.dinos[0].name}}
+            <a href="{{page.url}}">Plant eaters</a>
+            <h1>{{site.data.dinos[0].name}}</h1>
             ```
       - name: '*For*'
         details:

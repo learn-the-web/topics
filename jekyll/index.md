@@ -4,7 +4,7 @@ playlist: PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-
 download: https://github.com/acgd-learn-the-web/jekyll-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/jekyll-code
 livewebsite: /jekyll-code/
-cheatsheet: jekyll-cheatsheet
+cheatsheet: jekyll-cheat-sheet
 ---
 
 Jekyll is a static website generator—it helps making websites more efficient by reducing duplication.

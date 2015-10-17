@@ -23,7 +23,7 @@ In the GitHub application, click `Repository > Open in Terminal`.
 When in Terminal, type the following command:
 
 ```bash
-$ jekyll serve --watch --baseurl=""
+jekyll serve --watch --baseurl=""
 ```
 
 ![](start.jpg)

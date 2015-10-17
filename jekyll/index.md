@@ -9,6 +9,8 @@ cheatsheet: jekyll-cheatsheet
 
 Jekyll is a static website generator—it helps making websites more efficient by reducing duplication.
 
+---
+
 ## Why use Jekyll?
 
 The main reasons for using Jekyll are efficiency, it eliminates lots of copying and pasting in our websites amoung other things:
@@ -129,7 +131,7 @@ The file might look something like this:
   </header>
 
   <main>
-    {{content}}
+    {% raw %}{{content}}{% endraw %}
   </main>
 
   <footer>
@@ -139,7 +141,7 @@ The file might look something like this:
 </html>
 ```
 
-The `{{content}}` placeholder is where Jekyll will place the content from the `index.html`.
+The {% raw %}`{{content}}`{% endraw %} placeholder is where Jekyll will place the content from the `index.html`.
 
 Then, inside your `index.html`, all you’ll have left is this:
 
@@ -210,6 +212,7 @@ Then, inside our `default.html` layout we can use that information wherever we w
 **default.html**
 
 ```html
+{% raw %}
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
@@ -218,9 +221,10 @@ Then, inside our `default.html` layout we can use that information wherever we w
 </head>
 <body class="{{page.bodyClass}}">
 ⋮
+{% endraw %}
 ```
 
-We have variables in two places: `{{page.title}}` and `{{page.bodyClass}}` that are basically placeholders, waiting for the information from the page.
+We have variables in two places: {% raw %}`{{page.title}}`{% endraw %} and {% raw %}`{{page.bodyClass}}`{% endraw %} that are basically placeholders, waiting for the information from the page.
 
 *Notice how the name of the variables is prepended by the `page.`, indicating that the information is coming from the top of the page itself.*
 
@@ -282,6 +286,7 @@ http://dinos.github.io/meat-eaters/about/
 We even add the base URL into our `_config.yml` file when setting it up. But we still need to include it in our HTML for the navigation to work consistently across all locations.
 
 ```html
+{% raw %}
 <nav>
   <ul>
     <li><a href="{{site.baseurl}}/">Home</a></li>
@@ -289,9 +294,10 @@ We even add the base URL into our `_config.yml` file when setting it up. But we 
     <li><a href="{{site.baseurl}}/contact/">Contact</a></li>
   </ul>
 </nav>
+{% endraw %}
 ```
 
-*Notice the addition of `{{site.baseurl}}`, this allows our local computer to not have the extra folder in the URL, but the remote GitHub host computer to include the extra folder.*
+*Notice the addition of {% raw %}`{{site.baseurl}}`{% endraw %}, this allows our local computer to not have the extra folder in the URL, but the remote GitHub host computer to include the extra folder.*
 
 ### Highlighting navigation
 
@@ -300,7 +306,9 @@ It’s good practice to highlight the navigation on the website to help your use
 Jekyll can do this with some if-statements inside our navigation’s `<a>` tags. The if-statements check what page is current then only add a class to the appropriate `<a>` tag.
 
 ```html
+{% raw %}
 <a href="{{site.baseurl}}/about/" {% if page.url == '/about/' %} class="current" {% endif %}>Home</a>
+{% endraw %}
 ```
 
 *The if-statement is wrapped around the `class="…"` attribute, therefore the class will only shown on the `<a>` tag when the page is active.* It can be styled in CSS just like normal.
@@ -309,10 +317,12 @@ Jekyll can do this with some if-statements inside our navigation’s `<a>` tags.
 
 ## Linking images
 
-Linking to images isn’t really that different from regular, but the addition of `{{site.baseurl}}` makes them work more reliably across hosts.
+Linking to images isn’t really that different from regular, but the addition of {% raw %}`{{site.baseurl}}`{% endraw %} makes them work more reliably across hosts.
 
 ```html
+{% raw %}
 <img src="{{site.baseurl}}/images/trex.jpg" alt="">
+{% endraw %}
 ```
 
 ---
@@ -321,10 +331,12 @@ Linking to images isn’t really that different from regular, but the addition o
 
 When making Jekyll websites, CSS works exactly the same as normal, because Jekyll is just outputting straight-up HTML—so, from the CSS’s perspective, Jekyll doesn’t actually exist.
 
-But, it’s a good idea to link the CSS file with the `{{site.baseurl}}` for reliably.
+But, it’s a good idea to link the CSS file with the {% raw %}`{{site.baseurl}}`{% endraw %} for reliably.
 
 ```
+{% raw %}
 <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+{% endraw %}
 ```
 
 ---
@@ -429,10 +441,12 @@ First, we change our include to have place holders in it, like this:
 **button.html**
 
 ```html
+{% raw %}
 <a class="btn" href="{{include.url}}">{{include.text}}</a>
+{% endraw %}
 ```
 
-*Notice that we changed the variable sections to place holders `{{include.url}}` and `{{include.text}}`.* The `include.` part indicates the information is coming from an include. The part that comes after the dot is just made up.
+*Notice that we changed the variable sections to place holders {% raw %}`{{include.url}}`{% endraw %} and {% raw %}`{{include.text}}`{% endraw %}.* The `include.` part indicates the information is coming from an include. The part that comes after the dot is just made up.
 
 Now, in our HTML we can adjust the includes to have the variable information:
 

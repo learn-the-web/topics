@@ -182,6 +182,43 @@ groups:
               </div>
             </div>
             ```
+      - name: '*Hiding elements on certain screens*'
+        details:
+          - 'Using the `hidden` classes, we can hide specific units on specific screen sizes.'
+          - '![](grid-hidden.svg)'
+          - |
+            ```html
+            <div class="grid">
+              <div class="unit s-1-4 l-1-4">Unit 1</div>
+              <div class="unit unit-s-hidden l-1-4">Unit 2</div>
+              <div class="unit s-1-4 l-1-4">Unit 3</div>
+              <div class="unit unit-s-hidden l-1-4">Unit 4</div>
+            </div>
+            ```
+      - name: '*Using offsets to create open areas*'
+        details:
+          - 'If you want to create extra whitespace beside units you can use the `offset` classes.'
+          - '![](grid-offset.svg)'
+          - |
+            ```html
+            <div class="grid">
+              <div class="unit l-1-2">Unit 1</div>
+              <div class="unit l-1-2">Unit 2</div>
+              <div class="unit l-1-4 unit-offset-l-1-4">Unit 3</div>
+              <div class="unit l-1-2">Unit 4</div>
+            </div>
+            ```
+      - name: '*Reordering elements with push & pull*'
+        details:
+          - 'Units can be reordered using `push` and `pull` classes.'
+          - '![](grid-reorder.svg)'
+          - |
+            ```html
+            <div class="grid">
+              <div class="unit s-1 l-1-2 unit-push-l-1-2">Unit 1</div>
+              <div class="unit s-1 l-1-2 unit-pull-l-1-2">Unit 2</div>
+            </div>
+            ```
 
   - title: 'Common problems'
     items:
@@ -192,7 +229,7 @@ groups:
           - |
             ```html
             <div class="grid">
-              <!-- Just like lists, nothing can be outside the .unit -->
+              <!-- Nothing can be outside the .unit -->
               <h2>This text would be smushy</h2>
               <div class="unit">…</div>
             </div>

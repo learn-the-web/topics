@@ -15,7 +15,7 @@ groups:
             brew install ruby
             gem install jekyll
             ```
-          - '[**☛ Jekyll installation**](/topics/jekyll-installation/)'
+          - '[**☛ Jekyll installation.**](/topics/jekyll-installation/)'
       - name: '*Starting & stopping*'
         details:
           - 'First, open your Jekyll folder in Terminal using the GitHub app shortcut—`⌘T`'
@@ -24,13 +24,18 @@ groups:
             ```
             jekyll serve --watch --baseurl=""
             ```
+          - '*View your website in a browser*'
+          - |
+            ```
+            http://127.0.0.1:4000/
+            ```
           - '*Stop Jekyll*'
           - |
             ```
             Control + C
+            Or just quit Terminal.
             ```
-          - 'Or just quit Terminal.'
-          - '[**☛ Jekyll terminal guide**](/topics/jekyll-terminal-guide/)'
+          - '[**☛ Jekyll terminal guide.**](/topics/jekyll-terminal-guide/)'
       - name: '*Setting up Jekyll*'
         details:
           - 'Inside your folder you need to create the `_config.yml` file.'
@@ -38,6 +43,26 @@ groups:
             ```yaml
             permalink: pretty
             baseurl: /your-folder-on-github
+            ```
+          - '*Sample folder setup*'
+          - |
+            ```
+            _config.yml
+            _data/
+              └ dinos.yml
+            _includes/
+              └ button.html
+            _layouts/
+              └ default.html
+            _posts/
+              └ 2015-10-28-new-dino.html
+              └ 2015-10-25-dinos-have-feathers.html
+            css/
+              └ main.css
+            images/
+              └ trex.jpg
+            index.html
+            meat-eaters.html
             ```
 
 ---

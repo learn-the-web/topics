@@ -501,6 +501,21 @@ When you’re creating a single page website it makes total sense to put *all* y
 
 [You can see inline CSS in action on my website.](http://thomasjbradley.ca)
 
+### Preventing Javascript from blocking rendering
+
+Javascript is a blocking resource, it will prevent the browser from displaying the webpage until it has finished downloading and executing. The performance implications of this are that our users may see a blank white webpage, or may not be able to scroll and interact while the Javascript is doing its thing.
+
+There are two good practices we can do to our Javascript to improve rendering time.
+
+1. Always put the Javascript at the bottom, immediately above the closing `</body>` tag.
+2. Add the `async` attribute to make the browser download and execute the Javascript in the background.
+
+```html
+  <script src="js/main.min.js" async></script>
+</body>
+</html>
+```
+
 ### Scrolling performance
 
 Nothing is worse than a website that doesn’t scroll smoothly, aka a janky website.

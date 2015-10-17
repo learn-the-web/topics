@@ -97,6 +97,7 @@ groups:
       - name: '*Page variables*'
         details:
           - ''
+          - '[See the complete list of already included Jekyll page variables.](http://jekyllrb.com/docs/variables/)'
       - name: '*Nested layouts*'
         details:
           - ''
@@ -112,26 +113,107 @@ groups:
     items:
       - name: '*Data*'
         details:
-          - ''
+          - 'Data files allow us to separate content from it’s presentation HTML.'
+          - '*Put data files in the `_data` folder.*'
+          - '**All the data is found in the variable `site.data`**'
+          - |
+            ```yaml
+            - name: Tyrannosaurus
+              diet: Meat
+              size: Big
+            - name: Stegosaurus
+              diet: Plants
+              size: Medium
+            - name: Velociraptor
+              diet: Meat
+              size: Small
+              ```
       - name: '*Includes*'
         details:
-          - ''
+          - 'Includes are for making reusable, repeatable HTML blocks.'
+          - '*Put includes int the `_includes` folder.*'
+          - |
+            ```html
+            <!-- _includes/button.html -->
+            <a class="btn" href="/go/">Go!</a>
+            ```
+          - |
+            ```html
+            {% include button.html %}
+            {% include button.html %}
+            ```
+          - '*Pass information into includes:*'
+          - |
+            ```html
+            {% include button.html url="/plant-eaters/" title="Plant eaters" %}
+            ```
+          - |
+            ```html
+            <!-- _includes/button.html -->
+            <a class="btn" href="{{include.url}}">{{include.title}}</a>
+            ```
       - name: '*Posts*'
         details:
-          - ''
+          - 'Posts are like block posts or news articles—time based, ordered content.'
+          - '*Posts must be inside the `_posts` folder.*'
+          - 'Name posts in the following, strict format: `YYYY-MM-DD-file-name.md`'
+          - '**All the data is found in the variable `site.posts`**'
+          - |
+            ```
+            _posts/
+              2013-09-26-water-in-martian-dirt.md
+              2013-10-06-clouds-on-kepler-7b-mapped.md
+              2013-10-09-planet-without-star.md
+            ```
+          - 'Use the `for` loop to output posts'
+          - |
+            ```html
+            <ul>
+              {% for post in site.posts %}
+                <li>
+                  <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+                  <p>{{post.excerpt}}</p>
+                </li>
+              {% endfor %}
+            </ul>
+            ```
 
   - title: 'Template tags'
     note: 'Check out the complete [Liquid for Designers](https://github.com/shopify/liquid/wiki/Liquid-for-Designers) resource.'
     items:
       - name: '*Output*'
         details:
-          - ''
+          - 'The double curly braces, like `{{ }}` is to output something—they can be used anywhere to write it into the HTML.'
+          - |
+            ```html
+            {{site.time}}
+            {{page.url}}
+            {{site.data.dinos[0].name}}
+            ```
       - name: '*For*'
         details:
-          - ''
+          - 'The for-loop is used to run over a collection of information like data or posts.'
+          - |
+            ```html
+            {% for dino in site.data.dinos %}
+              <h2>{{dino.name}}</h2>
+              <dl>
+                <dt>Diet</dt><dd>{{site.diet}}</dd>
+                <dt>Size</dt><dd>{{site.size}}</dd>
+              </dl>
+            {% endfor %}
+            ```
       - name: '*If*'
         details:
-          - ''
+          - 'The if-statement can be used to do different things based on certain conditions.'
+          - |
+            ```html
+            {% if page.url == '/' %}
+              <h1>Dinosaurs Rock!</h1>
+            {% else %}
+              <strong>Dinosaurs Rock</strong>
+            {% endif %}
+            ```
 
   - title: 'Template filters'
     note: 'Check out the complete [Liquid for Designers](https://github.com/shopify/liquid/wiki/Liquid-for-Designers) resource & [Jekyll’s filter docs](http://jekyllrb.com/docs/templates/).'

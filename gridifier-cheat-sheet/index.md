@@ -115,6 +115,35 @@ groups:
           - 'When using distribute, can cause a chunk of content to stretch vertically.'
           - 'Added to an element *inside* a unit—*will not work added directly to a `.unit`.*'
 
+  - title: 'Example solutions'
+    items:
+      - name: '*Grids inside grids*'
+        details:
+          - 'In order to make certain layouts, sometimes grids need to be put inside other grids.'
+          - '![](grids-inside-grids.svg)'
+          - |
+            ```html
+            <div class="grid">
+              <div class="unit m-1-2 l-1-2">
+
+                <!-- Placing a grid inside another grid gives extra flexibility for certain layouts -->
+                <div class="grid">
+                  <div class="unit m-1 l-1-2">Unit 1</div>
+                  <div class="unit m-1 l-1-2">Unit 2</div>
+                </div>
+
+              </div>
+              <div class="unit m-1-2 l-1-2">
+
+                <div class="grid">
+                  <div class="unit m-1 l-1-2">Unit 3</div>
+                  <div class="unit m-1 l-1-2">Unit 4</div>
+                </div>
+
+              </div>
+            </div>
+            ```
+
   - title: 'Common problems'
     items:
       - name: '*Smushy text*'

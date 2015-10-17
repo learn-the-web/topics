@@ -361,6 +361,7 @@ Then inside that folder make your data file, named with the `.yml` extension. He
 After we have the data file created we can use it in our website. The great thing about doing it this way is that we don’t have to copy and paste our HTML, Jekyll will do the work for us.
 
 ```html
+{% raw %}
 {% for dino in site.data.dinos %}
   <h2>{{dino.name}}</h2>
   <dl>
@@ -368,6 +369,7 @@ After we have the data file created we can use it in our website. The great thin
     <dt>Size</dt><dd>{{site.size}}</dd>
   </dl>
 {% endfor %}
+{% endraw %}
 ```
 
 Using a `for` loop we’re looping over every entry in the data file. The `site.data.dinos` is how we access our data file—the `.dinos` part is exactly the name of the file.
@@ -410,8 +412,10 @@ In any of our Jekyll pages, we can use the include file to output whatever HTML 
 layout: default
 ---
 
+{% raw %}
 {% include button.html %}
 {% include button.html %}
+{% endraw %}
 ```
 
 *Notice that we’re using the `include` tag to bring in the HTML twice into the file.*
@@ -467,6 +471,7 @@ _posts/
 To display a list of posts in your website, you can use Jekyll’s loop:
 
 ```html
+{% raw %}
 <ul>
   {% for post in site.posts %}
     <li>
@@ -475,6 +480,7 @@ To display a list of posts in your website, you can use Jekyll’s loop:
     </li>
   {% endfor %}
 </ul>
+{% endraw %}
 ```
 
 **Links**

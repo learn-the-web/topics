@@ -55,11 +55,17 @@ Paste it into your Terminal and hit return, your computer will go off an install
 
 First we need to install the programming language Jekyll is written in: Ruby.
 
+### 1. Install Ruby
+
+Using `brew` we can install the most recent version of Ruby.
+
 ![](ruby.jpg)
 
 ```bash
 brew install ruby
 ```
+
+### 2. Installing Jekyll with gem
 
 Next up we need to install Jekyll using Ruby’s package manager, `gem`:
 

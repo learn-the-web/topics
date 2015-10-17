@@ -439,8 +439,10 @@ Now, in our HTML we can adjust the includes to have the variable information:
 layout: default
 ---
 
+{% raw %}
 {% include button.html url="/prev/" title="Previous" %}
 {% include button.html url="/next/" title="Next" %}
+{% endraw %}
 ```
 
 *My example above is extremely simple, and probably doesn’t make sense to do for a button (because the include code is practically the same length as the original HTML), but hopefully it communicates the powerful idea behind includes.*

@@ -156,6 +156,13 @@ groups:
             </div>
             ```
           - 'There’s also `.grid-bottom` to align all the units to the bottom.'
+          - '![](grid-bottom.svg)'
+          - |
+            ```html
+            <div class="grid grid-bottom">
+              ⋮
+            </div>
+            ```
       - name: '*Distributing content within units*'
         details:
           - 'If the content inside units is different lengths, you can distribute it to align both the top and bottom.'

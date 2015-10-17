@@ -115,15 +115,48 @@ groups:
           - ''
 
   - title: 'Template filters'
-    note: 'Check out the complete [Liquid for Designers](https://github.com/shopify/liquid/wiki/Liquid-for-Designers) resource.'
+    note: 'Check out the complete [Liquid for Designers](https://github.com/shopify/liquid/wiki/Liquid-for-Designers) resource & [Jekyll’s filter docs](http://jekyllrb.com/docs/templates/).'
     items:
       - name: '*Date*'
         details:
-          - ''
+          - 'Will convert an ISO 8601 formatted date into something more friendly.'
+          - |
+            ```
+            {% raw %}{{site.time | date: '%B %-d, %Y' }}{% endraw %}
+            ```
       - name: '*Replace*'
         details:
-          - ''
+          - 'Will search for all instances of a piece of text and replace it with something else.'
+          - |
+            ```
+            {% raw %}{{site.data.dinos[0].diet | replace: 'Meat', 'Plants' }}{% endraw %}
+            ```
       - name: '*Sort*'
         details:
-          - ''
+          - 'Will sort a YAML object by a specific field.'
+          - |
+            ```
+            {% raw %}{{site.data.dinos | sort: 'name' }}{% endraw %}
+            ```
+      - name: '*Markdownify*'
+        details:
+          - 'Takes Markdown inside YAML and converts it to HTML.'
+          - |
+            ```
+            {% raw %}{{site.data.dinos[0].name | markdownify }}{% endraw %}
+            ```
+      - name: '*Slugify*'
+        details:
+          - 'Convert text to valid classes.'
+          - |
+            ```
+            {% raw %}{{site.data.dinos[0].name | classify }}{% endraw %}
+            ```
+      - name: '*Jsonify*'
+        details:
+          - 'Will convert an object or array into JSON.'
+          - |
+            ```
+            {% raw %}{{site.data.dinos | jsonify }}{% endraw %}
+            ```
 ---

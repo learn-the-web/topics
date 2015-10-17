@@ -8,7 +8,7 @@ Jekyll is a command line tool so we have to use the Terminal application on our 
 
 ## Open folder in Terminal
 
-*This guide assumes you’re running Jekyll on GitHub Pages and that you’ve followed the setup directions here: [**☛ Jekyll installation**](/topics/jekyll-installation/)*
+*This guide assumes you’re running Jekyll on GitHub Pages and that you’ve followed the setup directions here: [**☛ Jekyll installation.**](/topics/jekyll-installation/)*
 
 In the GitHub application, click `Repository > Open in Terminal`.
 

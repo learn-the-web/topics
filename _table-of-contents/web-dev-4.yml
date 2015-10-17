@@ -53,6 +53,13 @@ jekyll-installation:
   tags: "jekyll sudo gem installation terminal command line mac"
   desc: "A quick start guide to installing Jekyll on your Mac."
 
+jekyll-installation-older-mac:
+  title: "Jekyll installation on older Mac OS X"
+  indent: 1
+  hidden: true
+  tags: "jekyll sudo gem installation terminal command line mac"
+  desc: "A quick start guide to installing Jekyll on your Mac when you have OS X 10.8 and below."
+
 jekyll-terminal-guide:
   title: "Jekyll terminal guide"
   indent: 1

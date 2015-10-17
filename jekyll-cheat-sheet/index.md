@@ -98,6 +98,7 @@ groups:
           - |
             ```html
             <!-- _layouts/default.html -->
+
             <!DOCTYPE html>
             <html lang="en-ca">
             <head>
@@ -113,9 +114,11 @@ groups:
           - |
             ```html
             <!-- index.html -->
+
             ---
             layout: default
             ---
+
             <h1>Homepage</h1>
             ```
           - 'Layouts can be nested by including a different `layout` YAML front matter at the top of a layout.'
@@ -123,8 +126,9 @@ groups:
         details:
           - 'To pass information from a page to a layout you can use YAML frontmatter.'
           - |
-            ```yaml
+            ```html
             <!-- index.html -->
+
             ---
             layout: default
             title: Plant Eaters
@@ -134,6 +138,7 @@ groups:
           - |
             ```html
             <!-- _layouts/default.html -->
+
             <!DOCTYPE html>
             <html lang="en-ca">
             <head>
@@ -177,6 +182,7 @@ groups:
           - |
             ```html
             <!-- _includes/button.html -->
+
             <a class="btn" href="/go/">Go!</a>
             ```
           - |
@@ -192,6 +198,7 @@ groups:
           - |
             ```html
             <!-- _includes/button.html -->
+
             <a class="btn" href="{{include.url}}">{{include.title}}</a>
             ```
       - name: '*Posts*'

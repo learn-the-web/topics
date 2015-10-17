@@ -289,8 +289,8 @@ We even add the base URL into our `_config.yml` file when setting it up. But we 
 <nav>
   <ul>
     <li><a href="{{site.baseurl}}/">Home</a></li>
-    <li><a href="{{site.baseurl}}/about/">About</a></li>
-    <li><a href="{{site.baseurl}}/contact/">Contact</a></li>
+    <li><a href="{{site.baseurl}}/plant-eaters/">Plant eaters</a></li>
+    <li><a href="{{site.baseurl}}/meat-eaters/">Meat eaters</a></li>
   </ul>
 </nav> {% endraw %}
 ```
@@ -304,7 +304,7 @@ It’s good practice to highlight the navigation on the website to help your use
 Jekyll can do this with some if-statements inside our navigation’s `<a>` tags. The if-statements check what page is current then only add a class to the appropriate `<a>` tag.
 
 ```html
-{% raw %}<a href="{{site.baseurl}}/about/" {% if page.url == '/about/' %} class="current" {% endif %}>Home</a>{% endraw %}
+{% raw %}<a href="{{site.baseurl}}/plant-eaters/" {% if page.url == '/plant-eaters/' %} class="current" {% endif %}>Plant eaters</a>{% endraw %}
 ```
 
 *The if-statement is wrapped around the `class="…"` attribute, therefore the class will only shown on the `<a>` tag when the page is active.* It can be styled in CSS just like normal.

@@ -149,6 +149,7 @@ groups:
       - name: '*Smushy text*'
         details:
           - 'The letters of the text look all smushed together — this is caused by text being inside `.grid` but not inside `.unit`.'
+          - '![](grids-inside-grids.svg)'
           - |
             ```html
             <div class="grid">

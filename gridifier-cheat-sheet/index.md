@@ -156,6 +156,25 @@ groups:
             </div>
             ```
           - 'There’s also `.grid-bottom` to align all the units to the bottom.'
+      - name: '*Distributing content within units*'
+        details:
+          - 'If the content inside units is different lengths, you can distribute it to align both the top and bottom.'
+          - '![](grid-distribute.svg)'
+          - |
+            ```html
+            <div class="grid grid-stretch">
+              <div class="unit unit-content-distribute">
+                <h2>Unit 1</h2>
+                <p class="content-fill">Lorem ipsum dolor sit amet.</p>
+                <a href="…">Go!</a>
+              </div>
+              <div class="unit unit-content-distribute">
+                <h2>Unit 2</h2>
+                <p class="content-fill">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <a href="…">Don’t go!</a>
+              </div>
+            </div>
+            ```
 
   - title: 'Common problems'
     items:

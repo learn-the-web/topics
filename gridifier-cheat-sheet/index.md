@@ -143,6 +143,19 @@ groups:
               </div>
             </div>
             ```
+      - name: '*Aligning units to the middle*'
+        details:
+          - 'Using the `.grid-middle` class, we can align the units to the middle of each other.'
+          - '![](grid-middle.svg)'
+          - |
+            ```html
+            <div class="grid grid-middle">
+              <div class="unit">Unit 1</div>
+              <div class="unit">Unit 2</div>
+              <div class="unit">Unit 3</div>
+            </div>
+            ```
+          - 'There’s also `.grid-bottom` to align all the units to the bottom.'
 
   - title: 'Common problems'
     items:

@@ -144,7 +144,7 @@ groups:
               </div>
             </div>
             ```
-      - name: '*Aligning units to the middle*'
+      - name: '*Aligning units to the middle or bottom*'
         details:
           - 'Using the `.grid-middle` class, we can align the units to the middle of each other.'
           - '![](grid-middle.svg)'

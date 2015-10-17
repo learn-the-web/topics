@@ -52,7 +52,7 @@ groups:
           - 'Unit takes up two-thirds of the available width in the row.'
 
   - title: 'Unit size examples'
-    note 'These are just samples of what to expect for certain max column numbers.'
+    note: 'These are just samples of what to expect for certain max column numbers.'
     items:
       - name: '*3-column grid sizes*'
         details:

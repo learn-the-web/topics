@@ -19,17 +19,17 @@ groups:
       - name: '*Starting & stopping*'
         details:
           - 'First, open your Jekyll folder in Terminal using the GitHub app shortcut—`⌘T`'
-          - '*Start Jekyll*'
+          - '*Start Jekyll:*'
           - |
             ```
             jekyll serve --watch --baseurl=""
             ```
-          - '*View your website in a browser*'
+          - '*View your website in a browser:*'
           - |
             ```
             http://127.0.0.1:4000/
             ```
-          - '*Stop Jekyll*'
+          - '*Stop Jekyll:*'
           - |
             ```
             Control + C
@@ -44,7 +44,7 @@ groups:
             permalink: pretty
             baseurl: /your-folder-on-github
             ```
-          - '*Sample folder setup*'
+          - '*Sample folder setup:*'
           - |
             ```
             _config.yml
@@ -93,14 +93,55 @@ groups:
     items:
       - name: '*Common header & footer*'
         details:
-          - ''
+          - 'First create a new file inside the `_layouts` folder, name it whatever you want. Inside that file put the common HTML.'
+          - 'Use {{content}} as the placeholder for the HTML from each page.**'
+          - |
+            ```html
+            <!-- _layouts/default.html -->
+            <!DOCTYPE html>
+            <html lang="en-ca">
+            <head>
+              <meta charset="utf-8">
+              <title></title>
+            </head>
+            <body>
+              {{content}}
+            </body>
+            </html>
+            ```
+          - 'At the top of each page use YAML front matter to denote which layout to use:'
+          - |
+            ```html
+            <!-- index.html -->
+            ---
+            layout: default
+            ---
+            <h1>Homepage</h1>
+            ```
+          - 'Layouts can be nested by including a different `layout` YAML front matter at the top of a layout.'
       - name: '*Page variables*'
         details:
-          - ''
+          - 'To pass information from a page to a layout you can use YAML frontmatter.'
+          - |
+            ```yaml
+            <!-- index.html -->
+            ---
+            layout: default
+            title: Plant Eaters
+            ---
+            ```
+          - 'Then inside the layout, we can use placeholder variables:'
+          - |
+            ```html
+            <!-- _layouts/default.html -->
+            <!DOCTYPE html>
+            <html lang="en-ca">
+            <head>
+              <meta charset="utf-8">
+              <title>{{page.title}}</title>
+            ⋮
+            ```
           - '[See the complete list of already included Jekyll page variables.](http://jekyllrb.com/docs/variables/)'
-      - name: '*Nested layouts*'
-        details:
-          - ''
       - name: '*Highlighting navigation*'
         details:
           - 'Use an if-statement inside the `<a>` tag to add the `.current` class.'
@@ -118,6 +159,7 @@ groups:
           - '**All the data is found in the variable `site.data`**'
           - |
             ```yaml
+            # _data/dinos.yml
             - name: Tyrannosaurus
               diet: Meat
               size: Big
@@ -154,7 +196,7 @@ groups:
             ```
       - name: '*Posts*'
         details:
-          - 'Posts are like block posts or news articles—time based, ordered content.'
+          - 'Posts are like blog posts or news articles—time based, ordered content.'
           - '*Posts must be inside the `_posts` folder.*'
           - 'Name posts in the following, strict format: `YYYY-MM-DD-file-name.md`'
           - '**All the data is found in the variable `site.posts`**'

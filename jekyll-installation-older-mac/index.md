@@ -1,5 +1,6 @@
 ---
 group: web-dev-4
+video: IINPHVVrF5Q?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-
 ---
 
 This is for installing Jekyll on older versions of Mac OS X, specifically 10.8 and below.

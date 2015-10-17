@@ -1,5 +1,6 @@
 ---
 group: web-dev-1
+video: mmu44j4PoqQ?list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG
 ---
 
 Google Fonts is a free service provided by Google that allows us to use some really nice type families on your websites.
@@ -43,3 +44,9 @@ It’s a normal `link` tag but it loads a CSS file from Google’s servers inste
 ![](paste-declaration.jpg)
 
 **…And it should work.**
+
+---
+
+## Video links
+
+1. [Basic typography: custom typefaces with web fonts](https://www.youtube.com/watch?v=mmu44j4PoqQ&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=8)

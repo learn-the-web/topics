@@ -1,5 +1,6 @@
 ---
 group: web-dev-4
+video: oiNVQ9Zjy4o?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-
 ---
 
 On Mac it isn’t too difficult to install Jekyll, but it does require everything to be completed from within Terminal.

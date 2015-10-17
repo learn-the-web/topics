@@ -71,7 +71,6 @@ jekyll-cheat-sheet:
   tags: "jekyll terminal layouts templates cheat sheet"
   desc: "A cheat sheet covering the basics of Jekyll use and code."
   cheatsheet: true
-  disabled: true
   indent: 1
 
 search-engine-optimization:

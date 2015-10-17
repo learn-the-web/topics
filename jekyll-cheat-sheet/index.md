@@ -79,37 +79,51 @@ groups:
 
   - title: 'Layouts'
     items:
-      - name: '*Linking pages*'
+      - name: '*Common header & footer*'
+        details:
+          - ''
+      - name: '*Page variables*'
+        details:
+          - ''
+      - name: '*Nested layouts*'
         details:
           - ''
 
-  - title: 'Data'
+  - title: 'Data, includes & posts'
     items:
-      - name: '*Linking pages*'
+      - name: '*Data*'
         details:
           - ''
-
-  - title: 'Includes'
-    items:
-      - name: '*Linking pages*'
+      - name: '*Includes*'
         details:
           - ''
-
-  - title: 'Posts'
-    items:
-      - name: '*Linking pages*'
+      - name: '*Posts*'
         details:
           - ''
 
   - title: 'Template tags'
+    note: 'Check out the complete [Liquid for Designers](https://github.com/shopify/liquid/wiki/Liquid-for-Designers) resource.'
     items:
-      - name: '*Linking pages*'
+      - name: '*Output*'
+        details:
+          - ''
+      - name: '*For*'
+        details:
+          - ''
+      - name: '*If*'
         details:
           - ''
 
   - title: 'Template filters'
+    note: 'Check out the complete [Liquid for Designers](https://github.com/shopify/liquid/wiki/Liquid-for-Designers) resource.'
     items:
-      - name: '*Linking pages*'
+      - name: '*Date*'
+        details:
+          - ''
+      - name: '*Replace*'
+        details:
+          - ''
+      - name: '*Sort*'
         details:
           - ''
 ---

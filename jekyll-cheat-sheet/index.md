@@ -94,7 +94,7 @@ groups:
       - name: '*Common header & footer*'
         details:
           - 'First create a new file inside the `_layouts` folder, name it whatever you want. Inside that file put the common HTML.'
-          - 'Use {{content}} as the placeholder for the HTML from each page.**'
+          - '**Use `{{content}}` as the placeholder for the HTML from each page.**'
           - |
             ```html
             <!-- _layouts/default.html -->
@@ -121,7 +121,7 @@ groups:
 
             <h1>Homepage</h1>
             ```
-          - 'Layouts can be nested by including a different `layout` YAML front matter at the top of a layout.'
+          - 'Layouts can be nested by including a different `layout` at the top of a layout HTML file.'
       - name: '*Page variables*'
         details:
           - 'To pass information from a page to a layout you can use YAML frontmatter.'
@@ -165,6 +165,7 @@ groups:
           - |
             ```yaml
             # _data/dinos.yml
+
             - name: Tyrannosaurus
               diet: Meat
               size: Big

@@ -220,8 +220,7 @@ Then, inside our `default.html` layout we can use that information wherever we w
   <title>{{page.title}}</title>
 </head>
 <body class="{{page.bodyClass}}">
-⋮
-{% endraw %}
+⋮ {% endraw %}
 ```
 
 We have variables in two places: {% raw %}`{{page.title}}`{% endraw %} and {% raw %}`{{page.bodyClass}}`{% endraw %} that are basically placeholders, waiting for the information from the page.
@@ -293,8 +292,7 @@ We even add the base URL into our `_config.yml` file when setting it up. But we 
     <li><a href="{{site.baseurl}}/about/">About</a></li>
     <li><a href="{{site.baseurl}}/contact/">Contact</a></li>
   </ul>
-</nav>
-{% endraw %}
+</nav> {% endraw %}
 ```
 
 *Notice the addition of {% raw %}`{{site.baseurl}}`{% endraw %}, this allows our local computer to not have the extra folder in the URL, but the remote GitHub host computer to include the extra folder.*
@@ -306,9 +304,7 @@ It’s good practice to highlight the navigation on the website to help your use
 Jekyll can do this with some if-statements inside our navigation’s `<a>` tags. The if-statements check what page is current then only add a class to the appropriate `<a>` tag.
 
 ```html
-{% raw %}
-<a href="{{site.baseurl}}/about/" {% if page.url == '/about/' %} class="current" {% endif %}>Home</a>
-{% endraw %}
+{% raw %}<a href="{{site.baseurl}}/about/" {% if page.url == '/about/' %} class="current" {% endif %}>Home</a>{% endraw %}
 ```
 
 *The if-statement is wrapped around the `class="…"` attribute, therefore the class will only shown on the `<a>` tag when the page is active.* It can be styled in CSS just like normal.
@@ -320,9 +316,7 @@ Jekyll can do this with some if-statements inside our navigation’s `<a>` tags.
 Linking to images isn’t really that different from regular, but the addition of {% raw %}`{{site.baseurl}}`{% endraw %} makes them work more reliably across hosts.
 
 ```html
-{% raw %}
-<img src="{{site.baseurl}}/images/trex.jpg" alt="">
-{% endraw %}
+{% raw %}<img src="{{site.baseurl}}/images/trex.jpg" alt="">{% endraw %}
 ```
 
 ---
@@ -334,9 +328,7 @@ When making Jekyll websites, CSS works exactly the same as normal, because Jekyl
 But, it’s a good idea to link the CSS file with the {% raw %}`{{site.baseurl}}`{% endraw %} for reliably.
 
 ```
-{% raw %}
-<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
-{% endraw %}
+{% raw %}<link href="{{site.baseurl}}/css/main.css" rel="stylesheet">{% endraw %}
 ```
 
 ---
@@ -380,8 +372,7 @@ After we have the data file created we can use it in our website. The great thin
     <dt>Diet</dt><dd>{{site.diet}}</dd>
     <dt>Size</dt><dd>{{site.size}}</dd>
   </dl>
-{% endfor %}
-{% endraw %}
+{% endfor %} {% endraw %}
 ```
 
 Using a `for` loop we’re looping over every entry in the data file. The `site.data.dinos` is how we access our data file—the `.dinos` part is exactly the name of the file.
@@ -426,8 +417,7 @@ layout: default
 
 {% raw %}
 {% include button.html %}
-{% include button.html %}
-{% endraw %}
+{% include button.html %} {% endraw %}
 ```
 
 *Notice that we’re using the `include` tag to bring in the HTML twice into the file.*
@@ -441,9 +431,7 @@ First, we change our include to have place holders in it, like this:
 **button.html**
 
 ```html
-{% raw %}
-<a class="btn" href="{{include.url}}">{{include.text}}</a>
-{% endraw %}
+{% raw %}<a class="btn" href="{{include.url}}">{{include.text}}</a>{% endraw %}
 ```
 
 *Notice that we changed the variable sections to place holders {% raw %}`{{include.url}}`{% endraw %} and {% raw %}`{{include.text}}`{% endraw %}.* The `include.` part indicates the information is coming from an include. The part that comes after the dot is just made up.
@@ -459,8 +447,7 @@ layout: default
 
 {% raw %}
 {% include button.html url="/prev/" title="Previous" %}
-{% include button.html url="/next/" title="Next" %}
-{% endraw %}
+{% include button.html url="/next/" title="Next" %} {% endraw %}
 ```
 
 *My example above is extremely simple, and probably doesn’t make sense to do for a button (because the include code is practically the same length as the original HTML), but hopefully it communicates the powerful idea behind includes.*
@@ -493,8 +480,7 @@ To display a list of posts in your website, you can use Jekyll’s loop:
       <p>{{post.excerpt}}</p>
     </li>
   {% endfor %}
-</ul>
-{% endraw %}
+</ul> {% endraw %}
 ```
 
 **Links**

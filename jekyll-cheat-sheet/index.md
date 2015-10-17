@@ -55,8 +55,8 @@ groups:
             _layouts/
               └ default.html
             _posts/
-              └ 2015-10-28-new-dino.html
-              └ 2015-10-25-dinos-have-feathers.html
+              └ 2015-10-28-new-dino.md
+              └ 2015-10-25-dinos-have-feathers.md
             css/
               └ main.css
             images/
@@ -65,4 +65,51 @@ groups:
             meat-eaters.html
             ```
 
+  - title: 'Files & paths'
+    items:
+      - name: '*Linking pages*'
+        details:
+          - ''
+      - name: '*Connecting CSS*'
+        details:
+          - ''
+      - name: '*Linking images*'
+        details:
+          - ''
+
+  - title: 'Layouts'
+    items:
+      - name: '*Linking pages*'
+        details:
+          - ''
+
+  - title: 'Data'
+    items:
+      - name: '*Linking pages*'
+        details:
+          - ''
+
+  - title: 'Includes'
+    items:
+      - name: '*Linking pages*'
+        details:
+          - ''
+
+  - title: 'Posts'
+    items:
+      - name: '*Linking pages*'
+        details:
+          - ''
+
+  - title: 'Template tags'
+    items:
+      - name: '*Linking pages*'
+        details:
+          - ''
+
+  - title: 'Template filters'
+    items:
+      - name: '*Linking pages*'
+        details:
+          - ''
 ---

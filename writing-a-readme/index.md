@@ -57,8 +57,8 @@ Sometimes you’ll see version numbers starting with a tilde or a caret. Specifi
 
 The two characters denote what versions are compatible with your project.
 
-- **^** — tilde, any backwards compatible change, MINOR or PATCH version changes, e.g. 2.*.*
-- **~** — caret, only bug fix changes, PATCH version updates, e.g. 2.1.*
+- **^** — tilde, any backwards compatible change, MINOR or PATCH version changes, e.g. 2.\*.\*
+- **~** — caret, only bug fix changes, PATCH version updates, e.g. 2.1.\*
 
 **Links**
 

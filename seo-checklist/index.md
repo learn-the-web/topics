@@ -14,6 +14,7 @@ groups:
       - 'Removed pages with limited content.'
 
   - title: 'Important tags'
+    note: 'These tags should have good and well considered keywords.'
     items:
       - '`<title>…</title>`'
       - '`<meta name="description" content="…">`'

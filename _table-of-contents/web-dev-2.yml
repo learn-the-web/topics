@@ -71,6 +71,13 @@ modules:
   tags: "modules object oriented css reuse list group buttons icons media object embed containers bem smacss oocss"
   desc: "Abstractions for common website patterns that can be reused in many situations."
 
+modulifier:
+  title: "Modulifier"
+  tags: "modular responsive modules patterns list group media object embed tools generate modulifier"
+  tool: "http://modulifier.web-dev.tools"
+  indent: 1
+  highlight: true
+
 modulifier-cheat-sheet:
   title: "Modulifier cheat sheet"
   tags: "modules object oriented css reuse boilerplate utilities list group buttons icons media object embed containers bem smacss oocss cheat sheet"

@@ -289,8 +289,14 @@ groups:
 
   - title: 'Print styles'
     items:
-      - name: ''
+      - name: '*Print style normalization*'
         details:
-          - ''
+          - 'Will do a bunch of default things to print styles including: removing shadows, setting text colour to black, removing backgrounds, adding underlines, displaying URLs beside links, and attempting to avoid orphans where possible.'
+      - name: '`.no-print`'
+        details:
+          - 'Will hide the element when a user prints out the website.'
+      - name: '`.print-only`'
+        details:
+          - 'Will hide an element by default but then display it when the website is printed.'
 
 ---

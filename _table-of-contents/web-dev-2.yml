@@ -68,8 +68,15 @@ interactive-wireframes:
 
 modules:
   title: "Modules"
-  tags: "modules object oriented css reuse list group buttons icons media object embed containers bem smacss"
+  tags: "modules object oriented css reuse list group buttons icons media object embed containers bem smacss oocss"
   desc: "Abstractions for common website patterns that can be reused in many situations."
+
+modulifier-cheat-sheet:
+  title: "Modulifier cheat sheet"
+  tags: "modules object oriented css reuse boilerplate utilities list group buttons icons media object embed containers bem smacss oocss cheat sheet"
+  desc: "A cheat sheet covering all the classes and utilities provided by Modulifier."
+  cheatsheet: true
+  indent: 1
 
 modular-layout:
   title: "Modular website layout"

@@ -36,7 +36,7 @@ groups:
           - 'Adds a class, and a shorter version, that will hide all the text inside an element and allow only the `background-image` to show.'
 
   - title: 'List group'
-    note: 'These classes are brute force and not responsive, if you use list-group-inline, the list will **always** be inline.'
+    note: 'These classes are brute force and not responsive, if you use list-group-inline, the list will always be inline.'
     items:
       - name: '`.list-group`'
         details:
@@ -115,9 +115,35 @@ groups:
 
   - title: 'Media objects'
     items:
-      - name: ''
+      - name: '`.media`'
         details:
-          - ''
+          - 'A wrapper class to surround image & text groups, especially if the images is to be beside the text.'
+      - name: '`.media__img`'
+        details:
+          - 'A class for adding to the image, or surrounding `<div>`, within the media object.'
+      - name: '`.media__body`'
+        details:
+          - 'A class to add to the text, or surrounding `<div>`, within the media object.'
+      - name: '`.media__img--reversed`'
+        details:
+          - 'Instead of floating the image left it will `float: right`'
+      - name: '`.media__img--stacked`'
+        details:
+          - 'Will disable floating and have the image above the text instead.'
+      - name: '*Media object example*'
+        details:
+          - |
+            ```html
+            <div class="media">
+              <div class="media__img media__img--reversed">
+                <img src="images/parsnips.jpg" alt="">
+              </div>
+              <div class="media__body">
+                <h2 class="media-title">Parsnips</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            ```
 
   - title: 'Icons'
     items:

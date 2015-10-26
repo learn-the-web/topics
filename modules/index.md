@@ -181,6 +181,14 @@ Some people find this naming convention a little over-the-top—and I admit that
 
 ---
 
+## Generated modules & patterns
+
+You probably don’t want to write all these same CSS patterns, or try and find them and copy and paste them from previous websites, every time you make a new website.
+
+[**Check out Modulifier**](http://modulifier.web-dev.tools/), a tool I created for myself to generate the code for these patterns & modules and many other things I like to include *by default* on every website I make.
+
+---
+
 ## Video list
 
 1. [Modules: list group](https://www.youtube.com/watch?v=Kcd1742iCVA&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=1)

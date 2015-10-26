@@ -147,9 +147,47 @@ groups:
 
   - title: 'Icons'
     items:
-      - name: ''
+      - name: '`.icon`'
         details:
-          - ''
+          - 'To be added to a tag, usually `<i>` to mark it as being an icon.'
+          - 'Usually you add another class to define the `background-image`'
+          - 'Will also add some CSS to support embedded SVG icons with the `<svg>` and `<use>` tags.'
+      - name: '`.icon-label`'
+        details:
+          - 'Can be added to the neighbouring text to allow the icon and the text to align.'
+      - name: '`.icon-link`'
+        details:
+          - 'Can be added to the surrounding `<a>` tag to remove the `text-decoration`'
+      - name: '`.i--16`'
+        details:
+          - 'A 16 × 16 pixel sized icon.'
+      - name: '`.i--18`'
+        details:
+          - 'A 18 × 18 pixel sized icon.'
+      - name: '`.i--24`'
+        details:
+          - 'A 24 × 24 pixel sized icon.'
+      - name: '`.i--32`'
+        details:
+          - 'A 32 × 32 pixel sized icon.'
+      - name: '`.i--48`'
+        details:
+          - 'A 48 × 48 pixel sized icon.'
+      - name: '*Icons example*'
+        details:
+          - |
+            ```html
+            <a class="icon-link" href="#">
+              <i class="icon i--32 i--github"></i>
+              <span class="icon-label">GitHub</span>
+            </a>
+            ```
+
+            ```css
+            .i--github {
+              background-image: url("../img/github.svg");
+            }
+            ```
 
   - title: 'Hidden'
     items:

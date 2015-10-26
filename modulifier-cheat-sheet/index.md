@@ -257,9 +257,16 @@ groups:
 
   - title: 'Forms'
     items:
-      - name: ''
+      - name: '*Form normalization*'
         details:
-          - ''
+          - 'Will normalize a bunch of browser inconsistencies when styling forms and inputs.'
+          - 'Will set all labels to the most accessible visual design format: above inputs—except checkboxes and radio buttons, they will stay beside.'
+      - name: '`.label-block`'
+        details:
+          - 'A class to force a `<label>` onto its own line.'
+      - name: '`.label-inline`'
+        details:
+          - 'A class to force a `<label>` onto the same line as other inputs.'
 
   - title: 'Accessibility'
     items:

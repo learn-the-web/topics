@@ -40,7 +40,7 @@ groups:
     items:
       - name: '`.list-group`'
         details:
-          - 'Add a `.list-group` class that will remove bullets and padding from lists, so semantically the can be lists but no visually.'
+          - 'Add a `.list-group` class that will remove bullets and padding from lists, so semantically they can be lists but no visually.'
       - name: '`.list-group--inline`'
         details:
           - 'Add a `.list-group--inline` class that will force the `<li>` tags onto the same line.'
@@ -97,7 +97,7 @@ groups:
           - 'The Golden Ratio.'
       - name: '`.embed--16by9`'
         details:
-          - 'HD TV.'
+          - 'HDTV.'
       - name: '`.embed--185by100`'
         details:
           - 'Common widescreen cinema.'
@@ -220,7 +220,7 @@ groups:
           - 'Add classes to control the `display` property between `inline`, `inline-block`, and `block`'
       - name: '`.valign-top`, `.valign-middle`, `.valign-bottom`'
         details:
-          - 'These classes allow you to control the `vertical-align` property on `inline` and `inline-block` elements.'
+          - 'These classes allow you to control the `vertical-align` property on `inline` and `inline-block` elements or within tables.'
       - name: '`.fixed`, `.relative`, `.absolute`, `.static`'
         details:
           - 'Add classes to control the `position` property of an element.'
@@ -229,7 +229,7 @@ groups:
           - 'Add classes to control three basic `z-index` states on an element.'
       - name: '`.pin-top-left`, `.pin-top-right`, `.pin-bottom-left`, `.pin-bottom-right`'
         details:
-          - 'Add a series of classes for moving an `position: absolute` element to different common locations.'
+          - 'Add a series of classes for moving a `position: absolute` element to different common locations.'
           - 'Simplified versions are available: `.pin-tl`, `.pin-tr`, `.pin-bl`, `.pin-br`'
       - name: '`.width-quarter`, `.width-half`, `.width-full`'
         details:
@@ -246,7 +246,7 @@ groups:
           - 'An alternative button style for prototyping websites.'
       - name: '`.btn--ghost`'
         details:
-          - 'A a third button style for prototyping websites.'
+          - 'A third button style for prototyping websites.'
       - name: '*Button examples*'
         details:
           - |
@@ -276,14 +276,14 @@ groups:
       - name: '*Skip links*'
         details:
           - 'Adds all the CSS necessary for creating basic skip links.'
-      - name: '*Skip links examples*'
+      - name: '*Skip links example*'
         details:
           - |
             ```html
             <ul class="skip-links">
               <li><a href="#main">Jump to main content</a></li>
               <li><a href="#nav">Jump to main navigation</a></li>
-              <li><a href="#pause">Pause all videos</a></li>
+              <li><a href="#pause">Pause all animations</a></li>
             </ul>
             ```
 

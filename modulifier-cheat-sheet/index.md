@@ -207,10 +207,34 @@ groups:
           - 'A class that will hide an element on the screen, but its space will still be there.'
 
   - title: 'Positioning'
+    note: 'These classes are brute force and not responsive, if you use left, the list will always be left.'
     items:
-      - name: ''
+      - name: '`.clearfix`'
         details:
-          - ''
+          - 'Adds a class that can be used on floating wrappers to trigger a clear fix.'
+      - name: '`.left`, `.right`'
+        details:
+          - 'Will `float` the element to the `left` or the `right`'
+      - name: '`.inline`, `.inline-block` (`.ib`), `.block`'
+        details:
+          - 'Add classes to control the `display` property between `inline`, `inline-block`, and `block`'
+      - name: '`.valign-top`, `.valign-middle`, `.valign-bottom`'
+        details:
+          - 'These classes allow you to control the `vertical-align` property on `inline` and `inline-block` elements.'
+      - name: '`.fixed`, `.relative`, `.absolute`, `.static`'
+        details:
+          - 'Add classes to control the `position` property of an element.'
+      - name: '`.zindex-1`, `.zindex-2`, `.zindex-3`'
+        details:
+          - 'Add classes to control three basic `z-index` states on an element.'
+      - name: '`.pin-top-left`, `.pin-top-right`, `.pin-bottom-left`, `.pin-bottom-right`'
+        details:
+          - 'Add a series of classes for moving an `position: absolute` element to different common locations.'
+          - 'Simplified versions are available: `.pin-tl`, `.pin-tr`, `.pin-bl`, `.pin-br`'
+      - name: '`.width-quarter`, `.width-half`, `.width-full`'
+        details:
+          - 'Add a series of class for setting common widths.'
+          - 'Simplified versions are available: `.w-1-4`, `.w-1-2`, `.w-1`'
 
   - title: 'Basic buttons'
     items:

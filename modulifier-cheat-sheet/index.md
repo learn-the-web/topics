@@ -270,9 +270,22 @@ groups:
 
   - title: 'Accessibility'
     items:
-      - name: ''
+      - name: '*Focus styles*'
         details:
-          - ''
+          - 'Will add strong visual focus styles to links, buttons, inputs and focusable items.'
+      - name: '*Skip links*'
+        details:
+          - 'Adds all the CSS necessary for creating basic skip links.'
+      - name: '*Skip links examples*'
+        details:
+          - |
+            ```html
+            <ul class="skip-links">
+              <li><a href="#main">Jump to main content</a></li>
+              <li><a href="#nav">Jump to main navigation</a></li>
+              <li><a href="#pause">Pause all videos</a></li>
+            </ul>
+            ```
 
   - title: 'Print styles'
     items:

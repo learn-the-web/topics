@@ -33,7 +33,7 @@ groups:
           - 'Add the ability for embedded SVG to inherit `fill` and `stroke` from the CSS `color` property.'
       - name: '`.image-replacement`, `.ir`'
         details:
-          - 'Adds a class, and a shorter version, that will hide all the text inside an element and allow only the `background-image` to show.'
+          - 'Add a class, and a shorter version, that will hide all the text inside an element and allow only the `background-image` to show.'
 
   - title: 'List group'
     note: 'These classes are brute force and not responsive, if you use list-group-inline, the list will always be inline.'
@@ -112,7 +112,7 @@ groups:
           - 'Polyvision.'
       - name: '*Making a new ratio*'
         details:
-          - 'Take the height, divide by the width and multiply by 100 — `h ÷ w × 100`'
+          - 'Take the height, divide by the width, and multiply by 100 — `h ÷ w × 100`'
           - 'An image with the dimensions: 950 × 1427: `1427 ÷ 950 × 100 = 105%`'
 
   - title: 'Media objects'
@@ -198,7 +198,7 @@ groups:
           - 'Makes sure the `hidden` attribute works in all browsers and provides a `.hidden` class.'
       - name: '`.visually-hidden`'
         details:
-          - 'Adds a class that will hide something from the visual screen but still allow it to be accessible via tools.'
+          - 'Add a class that will hide something from the visual screen but still allow it to be accessible via tools.'
       - name: '`.focusable`'
         details:
           - 'To be added to the `.visually-hidden` class to allow the keyboard to access the element.'
@@ -207,11 +207,11 @@ groups:
           - 'A class that will hide an element on the screen, but its space will still be there.'
 
   - title: 'Positioning'
-    note: 'These classes are brute force and not responsive, if you use left, the list will always be left.'
+    note: 'These classes are brute force and not responsive, if you use left, the element will always be floated left.'
     items:
       - name: '`.clearfix`'
         details:
-          - 'Adds a class that can be used on floating wrappers to trigger a clear fix.'
+          - 'Add a class that can be used on floating wrappers to trigger a clear fix.'
       - name: '`.left`, `.right`'
         details:
           - 'Will `float` the element to the `left` or the `right`'
@@ -238,9 +238,22 @@ groups:
 
   - title: 'Basic buttons'
     items:
-      - name: ''
+      - name: '`.btn`'
         details:
-          - ''
+          - 'A very basic button style for prototyping websites.'
+      - name: '`.btn--light`'
+        details:
+          - 'An alternative button style for prototyping websites.'
+      - name: '`.btn--ghost`'
+        details:
+          - 'A a third button style for prototyping websites.'
+      - name: '*Button examples*'
+        details:
+          - |
+            ```html
+            <a class="btn" href="#">Buy Now</a>
+            <a class="btn btn--ghost" href="#">See all the features</a>
+            ```
 
   - title: 'Forms'
     items:

@@ -73,7 +73,9 @@ groups:
               </div>
               <figcaption>Dinosaurs frolicking in the barren landscape</figcaption>
             </figure>
+            ```
 
+            ```html
             <div class="embed embed--16by9">
               <video class="embed__item" src="dinos-frolicking.mp4" controls></video>
             </div>

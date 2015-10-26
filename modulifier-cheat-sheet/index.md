@@ -193,9 +193,18 @@ groups:
 
   - title: 'Hidden'
     items:
-      - name: ''
+      - name: '`[hidden]`, `.hidden`'
         details:
-          - ''
+          - 'Makes sure the `hidden` attribute works in all browsers and provides a `.hidden` class.'
+      - name: '`.visually-hidden`'
+        details:
+          - 'Adds a class that will hide something from the visual screen but still allow it to be accessible via tools.'
+      - name: '`.focusable`'
+        details:
+          - 'To be added to the `.visually-hidden` class to allow the keyboard to access the element.'
+      - name: '`.invisible`'
+        details:
+          - 'A class that will hide an element on the screen, but its space will still be there.'
 
   - title: 'Positioning'
     items:

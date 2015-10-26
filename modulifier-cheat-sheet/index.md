@@ -36,7 +36,7 @@ groups:
           - 'Adds a class, and a shorter version, that will hide all the text inside an element and allow only the `background-image` to show.'
 
   - title: 'List group'
-    node: 'These classes are brute force and not responsive, if you use list-group-inline, the list will **always** be inline.'
+    note: 'These classes are brute force and not responsive, if you use list-group-inline, the list will **always** be inline.'
     items:
       - name: '`.list-group`'
         details:

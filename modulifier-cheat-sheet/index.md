@@ -102,7 +102,10 @@ groups:
           - 'A-standard paper sizes.'
       - name: '`.embed--3by2`'
         details:
-          - 'Classic 35 mm film.'
+          - 'Classic 35 mm film & most digital photos, landscape.'
+      - name: '`.embed--2by3`'
+        details:
+          - 'Classic 35 mm film & most digital photos, portrait.'
       - name: '`.embed--golden`'
         details:
           - 'The Golden Ratio.'

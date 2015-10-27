@@ -50,6 +50,10 @@ groups:
         details:
           - 'Add differing sizes of margin to the bottom.'
           - 'Available as fully written out versions: `.push-double`, `.push-half`, `.push-quarter`.'
+      - name: '`.push-r`, `.push-r-1-2`, `.push-r-1-4`'
+        details:
+          - 'Add differing sizes of margin to the right.'
+          - 'Available as fully written out versions: `.push-right`, `.push-right-half`, `.push-right-quarter`.'
       - name: '`.gutter`,`.gutter-2`, `.gutter-1-2`, `.gutter-1-4`'
         details:
           - 'Adds padding to left and right sides.'

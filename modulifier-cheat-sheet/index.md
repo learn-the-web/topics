@@ -55,6 +55,15 @@ groups:
             </ul>
             ```
 
+            ```html
+            <dl class="list-group list-group--inline">
+              <dt>Length</dt>
+              <dd>12 metres</dd>
+              <dt>Mass</dt>
+              <dd>5.4 metric tons</dd>
+            </dl>
+            ```
+
   - title: 'Embed containers'
     items:
       - name: '`.embed`'
@@ -205,6 +214,12 @@ groups:
       - name: '`.invisible`'
         details:
           - 'A class that will hide an element on the screen, but its space will still be there.'
+      - name: '`.truncate`'
+        details:
+          - 'A class that will chop single lines of text off and add an ellipsis at the end.'
+      - name: '`.scrollable`'
+        details:
+          - 'A class that make an element horizontally scrollable, good for simple responsive tables.'
 
   - title: 'Positioning'
     note: 'These classes are brute force and not responsive, if you use left, the element will always be floated left.'

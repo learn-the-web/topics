@@ -44,7 +44,7 @@ Some utility classes you could consider:
 - `.bold`, `.italic` to change the font weight and style.
 - `.gutter`, `.island` for consistent padding.
 - `.push` for consistent margins.
-- `.flex` to make images responsive.
+- `.img-flex` to make images responsive.
 
 *But be really careful not to go overboard—these classes should be considered “brute-force” and used within reason.*
 

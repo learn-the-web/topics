@@ -41,9 +41,11 @@ groups:
       - name: '`.list-group`'
         details:
           - 'Add a `.list-group` class that will remove bullets and padding from lists, so semantically they can be lists but no visually.'
+          - 'When added to a `<dl>` tag, there is a little responsiveness to how the `<dt>` and `<dd>` tags flow.'
       - name: '`.list-group--inline`'
         details:
           - 'Add a `.list-group--inline` class that will force the `<li>` tags onto the same line.'
+          - 'When added to the `<dl>` tag, the `<dt>` and `<dd>` tags will sit on the same line if there is enough space.'
       - name: '*List group example*'
         details:
           - |

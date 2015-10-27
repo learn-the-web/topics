@@ -3,6 +3,10 @@ group: web-dev-2
 playlist: PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa
 download: https://github.com/acgd-learn-the-web/modules-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/modules-code
+cheatsheet: modulifier-cheat-sheet
+tool:
+  name: Modulifier
+  url: http://modulifier.web-dev.tools
 ---
 
 Thinking modularly in CSS allows us to create more reusable CSS. And allows us to really reduce our duplication making our code more maintainable.

@@ -189,6 +189,9 @@ groups:
       - name: '`.i--48`'
         details:
           - 'A 48 × 48 pixel sized icon.'
+      - name: '`.i--64`'
+        details:
+          - 'A 64 × 64 pixel sized icon.'
       - name: '*Icons example*'
         details:
           - |
@@ -267,6 +270,9 @@ groups:
       - name: '`.btn--ghost`'
         details:
           - 'A third button style for prototyping websites.'
+      - name: '`.link-box`'
+        details:
+          - 'For adding to `<a>` tags to remove their underlines and make them block.'
       - name: '*Button examples*'
         details:
           - |

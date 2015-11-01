@@ -95,18 +95,21 @@ groups:
         details:
           - 'Allows a unit to be centered horizontally on specific screen sizes.'
           - 'e.g. `.unit-m-centered`'
-      - name: '`.unit-offset-[size]-1-2`'
+      - name: '`.unit-offset-[size]-[width]`'
         details:
           - 'Makes empty space to the left of the unit by the specified amount.'
-          - 'There are offset sizes available for every unit width.'
-      - name: '`.unit-push-[size]-1-2`'
+          - '*There are offset sizes available for every unit width.*'
+          - 'e.g. `.unit-offset-m-1-2`, `.unit-offset-l-1-6`'
+      - name: '`.unit-push-[size]-[width]`'
         details:
           - 'Pushes the unit to the right, to change order.'
-          - 'There are push sizes available for every unit width.'
-      - name: '`.unit-pull-[size]-1-2`'
+          - '*There are push sizes available for every unit width.*'
+          - 'e.g. `.unit-push-m-1-4`, `.unit-push-l-1-3`'
+      - name: '`.unit-pull-[size]-[width]`'
         details:
           - 'Pulls the unit to the left, to change order.'
-          - 'There are pull sizes available for every unit width.'
+          - '*There are pull sizes available for every unit width.*'
+          - 'e.g. `.unit-pull-m-3-4`, `.unit-pull-l-2-3`'
       - name: '`.unit-content-distribute`'
         details:
           - 'Makes the content distribute, the top of the unit’s content will align, the bottom content will align.'
@@ -114,6 +117,10 @@ groups:
       - name: '`.content-fill`'
         details:
           - 'When using distribute, can cause a chunk of content to stretch vertically.'
+          - 'Added to an element *inside* a unit—*will not work added directly to a `.unit`.*'
+      - name: '`.content-shrink`'
+        details:
+          - 'When using `.content-fill` the elements will stretch the whole width of the containing box. Adding `.content-shrink` will allow the element to be only as wide as it needs to be.'
           - 'Added to an element *inside* a unit—*will not work added directly to a `.unit`.*'
 
   - title: 'Example solutions'
@@ -174,12 +181,12 @@ groups:
               <div class="unit unit-content-distribute">
                 <h2>Unit 1</h2>
                 <p class="content-fill">Lorem ipsum dolor sit amet.</p>
-                <a href="…">Go!</a>
+                <a class="content-shrink" href="…">Go!</a>
               </div>
               <div class="unit unit-content-distribute">
                 <h2>Unit 2</h2>
                 <p class="content-fill">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-                <a href="…">Don’t go!</a>
+                <a class="content-shrink" href="…">Don’t go!</a>
               </div>
             </div>
             ```

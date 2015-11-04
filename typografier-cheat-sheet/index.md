@@ -81,5 +81,9 @@ groups:
         details:
           - 'Font style and weight classes.'
           - '*These are brute force and not responsive, so use only when it will always need that style or weight.*'
+      - name: '`.text-upper`, `.text-lower`'
+        details:
+          - 'Font capitalization classes: all uppercase & all lowercase.'
+          - '*These are brute force and not responsive, so use only when it will always need that capitalization.*'
 
 ---

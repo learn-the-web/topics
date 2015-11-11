@@ -87,8 +87,9 @@ groups:
           - '*These are brute force and not responsive, so use only when it will always need that capitalization.*'
       - name: '`.hang-punc`'
         details:
-          - 'When added to a `<span>` or something at the beginning of the text will make the text hang in the margin.'
-          - 'Great for use is blockquotes to hang beginning quotation mark.'
+          - 'Add to an element at the beginning of a line to make the character hang in the margin.'
+          - 'Great for use in blockquotes to hang the beginning quotation mark.'
+          - '*This class will only exist when the “Hang punctuation” option is selected.*'
           - |
             ```html
             <blockquote>

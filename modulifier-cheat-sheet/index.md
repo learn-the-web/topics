@@ -259,6 +259,12 @@ groups:
           - 'Add a series of class for setting common widths.'
           - 'Simplified versions are available: `.w-1-4`, `.w-1-2`, `.w-1`'
 
+  - title: 'Nice lists'
+    items:
+      - name: '*Typographic bullets & numbers*'
+        details:
+          - 'The “Nice lists” option will change the default bullets and numbers on `<ul>` and `<ol>` tags to make them look better.'
+
   - title: 'Basic buttons'
     items:
       - name: '`.btn`'

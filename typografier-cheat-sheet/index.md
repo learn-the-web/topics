@@ -85,5 +85,15 @@ groups:
         details:
           - 'Font capitalization classes: all uppercase & all lowercase.'
           - '*These are brute force and not responsive, so use only when it will always need that capitalization.*'
+      - name: '`.hang-punc`'
+        details:
+          - 'When added to a `<span>` or something at the beginning of the text will make the text hang in the margin.'
+          - 'Great for use is blockquotes to hang beginning quotation mark.'
+          - |
+            ```html
+            <blockquote>
+              <p><span class="hang-punc">“</span>Dinosaurs are amazing!”</p>
+            </blockquote>
+            ```
 
 ---

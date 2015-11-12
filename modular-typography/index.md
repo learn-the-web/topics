@@ -261,6 +261,8 @@ You probably don’t want to create all the type sizes and scales every time you
 
 **[Check out Typografier](http://typografier.web-dev.tools)**, a tool I created for myself to generate the code for a responsive, modular type system.
 
+*Typografier uses a slightly different `line-height` calculation than above that creates incremental line-heights that look better at bigger font sizes.*
+
 ### Pre-built modular type frameworks
 
 There’s lots of prototyping frameworks online that come setup with a themes, grids, type systems, and components to help you create a quick website.

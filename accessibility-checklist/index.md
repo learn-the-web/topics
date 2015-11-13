@@ -26,14 +26,14 @@ groups:
       - 'Colour is not used as the sole method of conveying information.'
       - 'Links are distinguished from surrounding text with more than colour.'
       - 'Colour contrast issues have been resolved.<br>[Color Oracle](http://colororacle.org/)'
-      - 'Website is readable and functional with in a range font sizes: 2 bigger, 2 smaller.'
+      - 'Website is readable and functional with a range of font sizes: 2 bigger, 2 smaller.'
       - 'Line-length is not too long.'
       - 'Justified text isn’t used, or used extremely sparingly.'
 
   - title: 'Usability'
     items:
       - 'The current page & location are highlighted.<br>[Highlighting the current page](/topics/navigation/#highlighting-the-current-page)'
-      - 'Focus styles for keyboard users work.<br>[Focus styles](/topics/accessibility#focus-styles)'
+      - 'All appropriate elements are accessible by keyboard—website includes focus styles.<br>[Focus styles](/topics/accessibility#focus-styles)'
       - 'Hit areas, links & buttons, are big enough for thumbs and users with difficulty using the mouse.'
       - 'Properly implemented skip links.<br>[Skip links](/topics/accessibility#skip-links)'
       - 'Correct elements have WAI-ARIA landmark roles.<br>[Landmark roles](/topics/accessibility#wai-aria-roles)'
@@ -54,7 +54,7 @@ groups:
   - title: 'Testing'
     items:
       - 'Tested with many users of different needs.'
-      - 'Conforms to WCAG 2 AA or higher.<br>[AccessLint](http://www.accesslint.com/)'
+      - 'Validated with an accessibility validator.<br>[AccessLint](http://www.accesslint.com/)'
       - 'Has been tested with screen readers.<br>[VoiceOver](/topics/accessibility#voice-over)'
       - 'Tested with images disabled.'
       - 'Tested with CSS disabled.'

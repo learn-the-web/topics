@@ -229,10 +229,12 @@ There are a few things that you should check on every website—at least—to he
 
 **Validators**
 
-- [Total Validator](http://www.totalvalidator.com/index.html)
+- [**AccessLint**](http://www.accesslint.com/)
+- [Tenon.io](http://www.tenon.io/)
 - [Wave by WebAim](http://wave.webaim.org/)
 - [A11y](https://a11y-app.herokuapp.com/)
 - [Chrome Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
+- [Total Validator](http://www.totalvalidator.com/index.html)
 
 ---
 
@@ -344,12 +346,13 @@ Here’s some shortcut keys for using VoiceOver:
 
 - **[Color Contrast Analyser](http://www.paciellogroup.com/resources/contrastAnalyser)**
 - **[Contrast Ratio](http://leaverou.github.io/contrast-ratio/)**
-- [AccessLint](http://www.accesslint.com/)
+- [**AccessLint**](http://www.accesslint.com/)
+- [Tenon.io](http://www.tenon.io/)
 - [HTML5 Outliner](http://gsnedders.html5.org/outliner/)
 - [HTML5 Outliner Chrome Extension](https://chrome.google.com/webstore/detail/afoibpobokebhgfnknfndkgemglggomo)
 - [Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php)
 - [A11y Command-line Tools](https://addyosmani.github.io/a11y/)
-- [Tenon.io](http://www.tenon.io/)
+- [Total Validator](http://www.totalvalidator.com/index.html)
 
 ### Standards
 

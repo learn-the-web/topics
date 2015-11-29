@@ -153,6 +153,7 @@ There are plenty of optional tags for descriptions, author info—and more speci
 - [Pinterest Rich Pins](https://developers.pinterest.com/rich_pins_overview/)
 - [Pinterest Rich Pins Validator](https://developers.pinterest.com/rich_pins/validator/)
 - [Using Pinterest Data Attributes and Meta Tags](https://css-tricks.com/using-pinterest-data-attributes-and-meta-tags/)
+- [**Metadata markup**](https://adactio.com/journal/9881)
 
 ### Twitter Cards
 

@@ -39,16 +39,32 @@ Each web server has a different way to set up 404 pages. The best way to start s
 
 ### GitHub
 
+If you’re hosting your website on GitHub, everything is already set up, you just need to make the file.
+
 1. Create an HTML file named `404.html`
 2. Put it into your GitHub repo and commit and sync it
 
 *404 pages will only work on GitHub if you’re using a custom domain.*
+
+#### When using Jekyll
+
+If you’re using Jekyll on your website and specifically using layouts and `permalink: pretty`, Jekyll will remove the extension from your file—but GitHub needs the file to be named “404.html”.
+
+So, at the top of your 404 page, in the YAML data, add a `permalink` entry:
+
+```yml
+---
+permalink: 404.html
+---
+```
 
 **Links**
 
 - [GitHub: Custom 404 Pages](https://help.github.com/articles/custom-404-pages)
 
 ### Apache web server
+
+If you’re hosting your website on another host, many shared hosting environments use the Apache Web Server, so here’s some instructions for setting up the 404 page.
 
 1. Create an HTML file named `404.html`
 2. Make a file named `.htaccess` and put it in the root of your website
@@ -59,6 +75,8 @@ ErrorDocument 404 /404.html
 # You can specify pages for other error codes too
 ErrorDocument 500 /500.html
 ```
+
+*This may not work on every web host, so check their documentation to see if they recommend another method.*
 
 ---
 

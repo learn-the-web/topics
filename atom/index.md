@@ -71,13 +71,12 @@ On the install screen you can search for packages and install them into Atom.
 
 ### Packages to install
 
-- **autocomplete-plus** — displays possible completions in the editor while typing
 - **autoprefixer** — when run, adds the appropriate vendor prefixes to all CSS
 - **browser-refresh** — pressing Fn+F5 will refresh the current HTML file in the browser
 - **color-picker** — a pop-up color picker
 - **editorconfig** — for matching other designers’ coding standards
 - **emmet** — quick way to write HTML, using CSS selectors
-- **fancy-new-file** — opens up a quick new file input at the bottom of the screen, ⌘⌥N
+- **advanced-new-file** — opens up a quick new file input at the bottom of the screen, ⌘⌥N
 - **file-icons** — shows icons for each file type in the sidebar
 - **highlight-line** — draws a background behind the line you’re typing on
 - **linter** — finds and points out bugs
@@ -103,7 +102,7 @@ If you want to get a few snippets to start out, you can download my snippets fro
 
 #### Installing
 
-**[⬇ Copy my snippets](https://github.com/acgd-learn-the-web/atom-code/archive/master.zip)**
+**[Copy my snippets](https://raw.githubusercontent.com/acgd-learn-the-web/atom-code/master/snippets.cson)**
 
 From Atom, go in the menu to:
 

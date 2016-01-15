@@ -1,6 +1,6 @@
 ---
 group: setup
-video: pc3jwarJxuU?PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB
+video: pc3jwarJxuU
 ---
 
 GitHub has a hosting service for static websites. All you have to do is create a branch named `gh-pages`.

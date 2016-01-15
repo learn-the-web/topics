@@ -1,6 +1,6 @@
 ---
 group: web-dev-1
-video: mmu44j4PoqQ?list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG
+video: mmu44j4PoqQ
 ---
 
 Google Fonts is a free service provided by Google that allows us to use some really nice type families on your websites.

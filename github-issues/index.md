@@ -1,6 +1,6 @@
 ---
 group: setup
-video: J3STGo6ZwYA?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB
+video: J3STGo6ZwYA
 ---
 
 GitHub Issues is a simple tool that allows you to track your progress, keep a task list, collect feedback, and report bugs for your GitHub hosted project.

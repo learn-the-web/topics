@@ -1,6 +1,6 @@
 ---
 group: setup
-video: mHl91Udzljw?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB
+video: mHl91Udzljw
 ---
 
 Think about how you generally work on some code. You write some code then decide you want to try something else, so you make a copy, maybe you name it `version-2`. Then you decide you want to try something else, you copy and name it `version-3`.

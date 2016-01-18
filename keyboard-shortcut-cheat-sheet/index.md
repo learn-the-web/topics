@@ -86,6 +86,9 @@ groups:
       - name: '`⌘L`'
         details:
           - 'Focus the URL bar.'
+      - name: '`⌘T`'
+        details:
+          - 'Create a new tab.'
       - name: '`⌘1`, `⌘2`, etc.'
         details:
           - 'Switch to tab by number.'

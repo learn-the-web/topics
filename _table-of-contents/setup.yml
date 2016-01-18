@@ -55,14 +55,6 @@ version-control-github:
   title: "Version control & GitHub"
   tags: "version control history undo saving github use committing syncing undo saving history messages descriptions application"
   desc: "Understanding the value of version control and how it helps us and using GitHub to store the code’s history and synchronize."
-  disabled: true
-
-github-pages:
-  title: "Hosting with GitHub Pages"
-  tags: "github hosting gh pages master branches"
-  desc: "Understanding how to use GitHub Pages to host your website."
-  indent: 1
-  highlight: true
 
 github-issues:
   title: "GitHub Issues"

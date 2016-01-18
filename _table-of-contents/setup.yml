@@ -51,17 +51,11 @@ code-character-cheat-sheet:
   indent: 1
   cheatsheet: true
 
-installing-and-using-github:
-  title: "Installing & using GitHub"
-  tags: "github use committing syncing undo saving history messages descriptions installing mac windows setup application"
-  desc: "Installing and using GitHub on your computer to store the code’s history and undo states and synchronize."
+version-control-github:
+  title: "Version control & GitHub"
+  tags: "version control history undo saving github use committing syncing undo saving history messages descriptions application"
+  desc: "Understanding the value of version control and how it helps us and using GitHub to store the code’s history and synchronize."
   disabled: true
-
-version-control:
-  title: "Version control in depth"
-  tags: "github version control history undo saving"
-  desc: "Understanding the value of version control and how it helps us."
-  indent: 1
 
 github-pages:
   title: "Hosting with GitHub Pages"
@@ -70,22 +64,10 @@ github-pages:
   indent: 1
   highlight: true
 
-branching-github-flow:
-  title: "Branching & GitHub Flow"
-  tags: "github hosting system branches master gh pages flow issues pull requests"
-  desc: "Understanding the GitHub Flow when using branches and pull requests with your team."
-  indent: 1
-
 github-issues:
   title: "GitHub Issues"
   tags: "github issues labels descriptions project management problems help"
   desc: "What GitHub Issues do for use and how to use them for getting feedback, tracking progress, and more."
-  indent: 1
-
-commit-messages:
-  title: "Commit message conventions"
-  tags: "github use committing messages conventions descriptions system"
-  desc: "Writing commit messages that the whole team understands."
   indent: 1
 
 naming-conventions:

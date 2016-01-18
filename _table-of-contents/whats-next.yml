@@ -40,6 +40,18 @@ staying-up-to-date:
   tags: "up to date feeds email newsletters blogs tutorials rss save for later bookmarks twitter"
   desc: "How to keep your knowledge current with feeds, newsletters, and blogs."
 
+branching-github-flow:
+  title: "Branching & GitHub Flow"
+  tags: "github hosting system branches master gh pages flow issues pull requests"
+  desc: "Understanding the GitHub Flow when using branches and pull requests with your team."
+  indent: 1
+
+commit-messages:
+  title: "GitHub commit message conventions"
+  tags: "github use committing messages conventions descriptions system"
+  desc: "Writing commit messages that the whole team understands."
+  indent: 1
+
 ajax:
   title: "AJAX"
   disabled: true

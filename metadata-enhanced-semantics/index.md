@@ -39,9 +39,12 @@ Here’s an example [person/contact](http://schema.org/Person) marked up with Mi
     <span itemprop="postalCode">K1A 0A3</span>
   </p>
   <dl>
-    <dt>E-mail:</dt><dd><a href="mailto:primeminister@canada.ca" itemprop="email">primeminister@canada.ca</a></dd>
-    <dt>Tel:</dt><dd><a href="tel:+16139416900" itemprop="telephone">613-941-6900</a></dd>
-    <dt>Website:</dt><dd><a href="http://canada.ca/" itemprop="url">http://canada.ca/</a></dd>
+    <dt>E-mail:</dt>
+    <dd><a href="mailto:primeminister@canada.ca" itemprop="email">primeminister@canada.ca</a></dd>
+    <dt>Tel:</dt>
+    <dd><a href="tel:+16139416900" itemprop="telephone">613-941-6900</a></dd>
+    <dt>Website:</dt>
+    <dd><a href="http://canada.ca/" itemprop="url">http://canada.ca/</a></dd>
   </dl>
 </div>
 ```

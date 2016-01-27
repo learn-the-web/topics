@@ -369,8 +369,10 @@ After we have the data file created we can use it in our website. The great thin
 {% for dino in site.data.dinos %}
   <h2>{{dino.name}}</h2>
   <dl>
-    <dt>Diet</dt><dd>{{site.diet}}</dd>
-    <dt>Size</dt><dd>{{site.size}}</dd>
+    <dt>Diet</dt>
+    <dd>{{site.diet}}</dd>
+    <dt>Size</dt>
+    <dd>{{site.size}}</dd>
   </dl>
 {% endfor %} {% endraw %}
 ```

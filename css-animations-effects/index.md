@@ -14,10 +14,10 @@ Different interaction methods for websites (without Javascript) and triggering a
 ![](effect-flow-chart.png)
 
 1. **Does it start automatically, without user interaction?**
-	*Yes:* `animation`
+  *Yes:* `animation`
 2. **More states and keyframes that just start & end?**
-	*Yes:* `animation`
-	*No:* `transition`
+  *Yes:* `animation`
+  *No:* `transition`
 
 ---
 
@@ -36,12 +36,12 @@ Here’s a simple example that creates an animation between two colours when a l
 
 ```css
 a {
-	color: orange;
-	transition: color 1000ms linear;
+  color: orange;
+  transition: color 1000ms linear;
 }
 
 a:hover {
-	color: red;
+  color: red;
 }
 ```
 
@@ -56,11 +56,11 @@ transition: property length timing-function;
 - `property` — the CSS property that should be transitioned or `all` to transition all properties that change
 - `length` — how long the transition should take in `ms` (milliseconds; where 1000 is 1 second) or `s` (seconds)
 - `timing-function` — how the animation should function
-	- `linear` — all steps of the animation are equal
-	- `ease-in` — the animation starts slowly and speeds up over time
-	- `ease-out` — the animation starts quickly and slows down over time
-	- `ease-in-out` — the animation starts slowly, speeds up, and slows down
-	- *refer to the links below for more timing functions*
+  - `linear` — all steps of the animation are equal
+  - `ease-in` — the animation starts slowly and speeds up over time
+  - `ease-out` — the animation starts quickly and slows down over time
+  - `ease-in-out` — the animation starts slowly, speeds up, and slows down
+  - *refer to the links below for more timing functions*
 
 Optionally, at the end of the transition a `delay` can be added, this is how long the browser will wait before starting the transition.
 
@@ -78,19 +78,19 @@ The syntax for multiple transitions is the same, just separate each new transiti
 
 ```css
 .box {
-	background-color: green;
-	border-radius: 0;
+  background-color: green;
+  border-radius: 0;
 
-	/* It's easier to read if the different transitions are on individual lines */
-	transition:
-		background-color 250ms ease-out,
-		border-radius 1s ease-in-out
-	;
+  /* It's easier to read if the different transitions are on individual lines */
+  transition:
+    background-color 250ms ease-out,
+    border-radius 1s ease-in-out
+  ;
 }
 
 .box:hover {
-	background-color: pink;
-	border-radius: 40px;
+  background-color: pink;
+  border-radius: 40px;
 }
 ```
 
@@ -127,7 +127,7 @@ But, we can now target that item in CSS like this:
 
 ```css
 .box:target {
-	background-color: #ffc;
+  background-color: #ffc;
 }
 ```
 
@@ -150,7 +150,7 @@ Transforms allow us to apply different alterations to HTML elements that change 
 
 ```css
 .box {
-	transform: rotate(30deg);
+  transform: rotate(30deg);
 }
 ```
 
@@ -162,22 +162,22 @@ There’s a whole bunch of different functions to manipulate the elements:
 
 - `rotate(angle)` — rotates the element the specified angle; negative numbers can be used
 
-	```
-	transform: rotate(30deg)
-	transform: rotate(-15deg)
-	```
+  ```css
+  transform: rotate(30deg)
+  transform: rotate(-15deg)
+  ```
 
 - `translate(x, y)` — moves the element horizontally and vertically; negative numbers okay; also `translateX()`, `translateY()`
 
-	```
-	transform: translate(200px, 0) /* moves right 200px, doesn’t move down */
-	```
+  ```css
+  transform: translate(200px, 0) /* moves right 200px, doesn’t move down */
+  ```
 
 - `scale(size)` — grow or shrink the element; negative numbers okay; also: `scaleX()`, `scaleY()`
 
-	```
-	transform: scale(1.5, 2) /* scale horizontal 1.5x and vertically 2x */
-	```
+  ```css
+  transform: scale(1.5, 2) /* scale horizontal 1.5x and vertically 2x */
+  ```
 
 - *refer to the links below for more transformation functions*
 
@@ -187,9 +187,33 @@ Multiple transformations can be applied to a single element by separating each f
 
 ```css
 .box {
-	/* Rotates and scales the element */
-	transform: rotate(30deg) scale(1.5);
+  /* Rotates and scales the element */
+  transform: rotate(30deg) scale(1.5);
 }
+```
+
+#### Transform origin
+
+By default all transforms will happen in relation to the center of the box. With rotation it’s easy to notice: the box will rotate around its center point.
+
+But, we can change the anchor point with `transform-origin` and get the `transform` to happen at another place.
+
+![](transform-origin.svg)
+
+The `transform-origin` property works like `background-position`: you can use the `top`, `center`, `bottom`, `left`, `center` `right` keywords or pixels.
+
+```css
+/* Default: what everything is automatically */
+transform-origin: center center;
+
+transform-origin: left top;
+transform-origin: center bottom;
+
+/* 10 pixels in from the left & 10 pixels down from the top */
+transform-origin: 10px 10px;
+
+/* Centred horizontally and 10 pixels up from the bottom */
+transform-origin: center calc(100% - 10px)
 ```
 
 #### Transform vendor prefixes
@@ -198,10 +222,10 @@ Since CSS transforms are so new they still need a few vendor prefixes, so you’
 
 ```css
 .box {
-	/* Opera and Firefox can be omitted because they've been prefix free for many versions */
-	-ms-transform: rotate(30deg);
-	-webkit-transform: rotate(30deg);
-	transform: rotate(30deg);
+  /* Opera and Firefox can be omitted because they've been prefix free for many versions */
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
 }
 ```
 
@@ -238,7 +262,7 @@ After the word `@keyframes`, you need to choose a name for your animation so it 
 
 ```css
 @keyframes spin {
-	/* Add all the keyframes here */
+  /* Add all the keyframes here */
 }
 ```
 
@@ -246,12 +270,12 @@ Inside the keyframes declaration we specify all the keyframes of our website—a
 
 ```css
 @keyframes spin {
-	from {
-		/* Add all the CSS property start values here */
-	}
-	to {
-		/* Add all the CSS property end values here */
-	}
+  from {
+    /* Add all the CSS property start values here */
+  }
+  to {
+    /* Add all the CSS property end values here */
+  }
 }
 ```
 
@@ -259,14 +283,14 @@ So, for our spinning box, we’d need keyframes that look like this:
 
 ```css
 @keyframes spin {
-	from {
-		/* We start the rotation at 0 degrees */
-		transform: rotate(0deg);
-	}
-	to {
-		/* And end the rotation at 360 degrees */
-		transform: rotate(360deg);
-	}
+  from {
+    /* We start the rotation at 0 degrees */
+    transform: rotate(0deg);
+  }
+  to {
+    /* And end the rotation at 360 degrees */
+    transform: rotate(360deg);
+  }
 }
 ```
 
@@ -274,7 +298,7 @@ After setting up the keyframes, we then need to assign the animation to the HTML
 
 ```css
 .box {
-	animation: spin 1s linear;
+  animation: spin 1s linear;
 }
 ```
 
@@ -291,12 +315,12 @@ animation: animation-name length timing-function;
 - `name` — the name of the animation that should be executed
 - `length` — how long the animation should take in `ms` (milliseconds; where 1000 is 1 second) or `s` (seconds)
 - `timing-function` — how the animation should function
-	- `linear` — all steps of the animation are equal
-	- `ease-in` — the animation starts slowly and speeds up over time
-	- `ease-out` — the animation starts quickly and slows down over time
-	- `ease-in-out` — the animation starts slowly, speeds up, and slows down
-	- `steps()` — choose how many frames—[look below for using steps](#step-based-animations)
-	- *refer to the links below for more timing functions*
+  - `linear` — all steps of the animation are equal
+  - `ease-in` — the animation starts slowly and speeds up over time
+  - `ease-out` — the animation starts quickly and slows down over time
+  - `ease-in-out` — the animation starts slowly, speeds up, and slows down
+  - `steps()` — choose how many frames—[look below for using steps](#step-based-animations)
+  - *refer to the links below for more timing functions*
 - `fill-mode` — (optional) what the animation should do before or after executing: `forwards` will make the animation stay on its last keyframe
 - `direction` — (optional) direction order of the animation: `reverse` will go from “100%” back to “0%” keyframes, `alternate` will go forwards then reverse
 - *refer to the links below for all the other values*
@@ -323,18 +347,18 @@ Here’s an example where for the rotation does a small bounce, rotating further
 
 ```css
 @keyframes spin {
-	/* At 0% of the time */
-	0% {
-		transform: rotate(0deg);
-	}
-	/* At 90% of the time */
-	90% {
-		transform: rotate(380deg);
-	}
-	/* At 100% of the time */
-	100% {
-		transform: rotate(360deg);
-	}
+  /* At 0% of the time */
+  0% {
+    transform: rotate(0deg);
+  }
+  /* At 90% of the time */
+  90% {
+    transform: rotate(380deg);
+  }
+  /* At 100% of the time */
+  100% {
+    transform: rotate(360deg);
+  }
 }
 ```
 
@@ -354,12 +378,12 @@ Here’s a simple animation to animate the background colour:
 
 ```css
 .box {
-	animation: fade 1s linear;
+  animation: fade 1s linear;
 }
 
 @keyframes fade {
-	0% { background-color: orange; }
-	100% { background-color: red; }
+  0% { background-color: orange; }
+  100% { background-color: red; }
 }
 ```
 
@@ -369,8 +393,8 @@ Maybe though we want the animation to only fade using 5 different shades of oran
 
 ```css
 .box {
-	/* With `steps()`, the browser will only calculate 5 different colour shades */
-	animation: fade 1s steps(5);
+  /* With `steps()`, the browser will only calculate 5 different colour shades */
+  animation: fade 1s steps(5);
 }
 ```
 
@@ -407,18 +431,18 @@ Or for animations, they would need to be written like this:
 
 ```css
 .box {
-	-webkit-animation: fade 1s linear;
-	animation: fade 1s linear;
+  -webkit-animation: fade 1s linear;
+  animation: fade 1s linear;
 }
 
 @-webkit-keyframes fade {
-	0% { background-color: orange; }
-	100% { background-color: red; }
+  0% { background-color: orange; }
+  100% { background-color: red; }
 }
 
 @keyframes fade {
-	0% { background-color: orange; }
-	100% { background-color: red; }
+  0% { background-color: orange; }
+  100% { background-color: red; }
 }
 ```
 
@@ -446,11 +470,11 @@ For the HTML setup, we need this:
 
 ```html
 <div class="parallax-group">
-	<!-- The image will move slower because it’s in the "back" -->
-	<img class="back" src="images/mars-2.jpg" alt="">
-	<header class="front">
-		<h1>Parallax</h1>
-	</header>
+  <!-- The image will move slower because it’s in the "back" -->
+  <img class="back" src="images/mars-2.jpg" alt="">
+  <header class="front">
+    <h1>Parallax</h1>
+  </header>
 </div>
 ```
 
@@ -460,17 +484,17 @@ By default the `html` element is the element that has scroll bars, so we need to
 
 ```css
 html {
-	/* Remove scroll bars from `html` */
-	overflow: hidden;
+  /* Remove scroll bars from `html` */
+  overflow: hidden;
 }
 
 body {
-	height: 100vh;
-	/* Add scroll bars to `body` */
-	overflow-y: auto;
-	overflow-x: hidden;
-	/* Will make the scrolling performant on iOS devices */
-	-webkit-overflow-scrolling: touch;
+  height: 100vh;
+  /* Add scroll bars to `body` */
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* Will make the scrolling performant on iOS devices */
+  -webkit-overflow-scrolling: touch;
 }
 ```
 
@@ -478,14 +502,14 @@ Next we need to add the 3D Transforms CSS properties to add perspective, allowin
 
 ```css
 body {
-	⋮
-	-webkit-perspective: 1px;
-	perspective: 1px;
+  ⋮
+  -webkit-perspective: 1px;
+  perspective: 1px;
 }
 
 .parallax-group {
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 ```
 
@@ -493,9 +517,9 @@ Then we just need to move the `.back` element backwards in space, causing it to 
 
 ```css
 .back {
-	/* Move it backwards in space and scale it again to make it the original size */
-	-webkit-transform: translateZ(-1px) scale(2);
-	transform: translateZ(-1px) scale(2);
+  /* Move it backwards in space and scale it again to make it the original size */
+  -webkit-transform: translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
 }
 ```
 
@@ -519,10 +543,10 @@ Now we can plug that into our `.back` to move it to the right location:
 
 ```css
 .back {
-	⋮
-	position: relative;
-	/* Swap our aspect ratio into this formula */
-	top: calc(((100vh - 56.25vw) / 4) * -2);
+  ⋮
+  position: relative;
+  /* Swap our aspect ratio into this formula */
+  top: calc(((100vh - 56.25vw) / 4) * -2);
 }
 ```
 
@@ -530,12 +554,12 @@ The very last thing is just to force `.front` to the front with `z-index`:
 
 ```css
 .front {
-	position: relative;
-	z-index: 2;
+  position: relative;
+  z-index: 2;
 
-	/* Can sometimes help with forcing it to the front */
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
+  /* Can sometimes help with forcing it to the front */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 ```
 

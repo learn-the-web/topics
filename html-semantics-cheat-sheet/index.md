@@ -109,11 +109,11 @@ groups:
       - name: '`<ins datetime="…">`'
         details:
           - 'Content that was inserted after the document was published.'
-          - '`datetime` defines when it was added—uses [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).'
+          - '`datetime` defines when it was added.'
       - name: '`<del datetime="…">`'
         details:
           - 'Content that was deleted after the document was published.'
-          - '`datetime` defines when it was removed—uses [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).'
+          - '`datetime` defines when it was removed.'
       - name: '`<abbr title="…">`'
         details:
           - 'An acronym or abbreviation, like “HTML”, “CSS”, etc.'
@@ -203,7 +203,7 @@ groups:
       - name: '`<time datetime="…">`'
         details:
           - 'Marks some text as a time or date.'
-          - '`datetime` defines the machine readable version—uses [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).'
+          - '`datetime` defines the machine readable version.'
       - name: '`<data value="…">`'
         details:
           - 'Marks elements as being a numerical piece of information.'

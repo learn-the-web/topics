@@ -127,7 +127,7 @@ An outline of your document with headings might look like this:
     <h3>Kenya</h3>
 ```
 
-*The indentation above is to denote the headings are sub-headings of the one above.*
+*The indentation above is to denote the headings are sub-headings of the one above—not how it should be indented in your code.*
 
 ### Lists
 
@@ -301,6 +301,34 @@ When you have a `<figcaption>`, the alt attribute can be left empty if the capti
 - `<main>` — for defining the primary content
 - `<aside>` — for secondary information, stuff that’s not required to understand the primary content, like sidebars, pull quotes, etc.
 
+```html
+<!-- The website masthead with the navigation -->
+<header>
+  <h1>Prehistoric creatures</h1>
+  <!-- The website’s primary navigation -->
+  <nav>
+    ⋮
+  </nav>
+</header>
+
+<!-- The <main> content of the website: what your user came to see -->
+<main>
+  <h2>Land animals</h2>
+  ⋮
+</main>
+
+<!-- Secondary information that’s helpful but not necessary for understanding -->
+<aside>
+  <h2>Prehistoric environment</h2>
+  ⋮
+</aside>
+
+<!-- Website footer, copyright information, terms, etc. -->
+<footer>
+  <p>© 1138 Dinosaurs</p>
+</footer>
+```
+
 ### Sections & articles
 
 - `<section>` — for grouping content together that has a heading—there’s no point using a section if it doesn’t have a unique heading
@@ -358,6 +386,33 @@ There are two elements in HTML that don’t add meaning to the content, but can 
 - `<div>` — a meaningless group, has restrictions on what elements it can go inside
 - `<span>` — small runs of meaningless text
 
+```html
+<!-- We could use the <span> tag to individually colour all the letters -->
+<h1>
+  <span>R</span>
+  <span>a</span>
+  <span>i</span>
+  <span>n</span>
+  <span>b</span>
+  <span>o</span>
+  <span>w</span>
+</h1>
+
+<main>
+  <!-- Using a <div> as a styling hook: maybe a random coloured box -->
+  <div>
+    <h2>Prehistoric creatures</h2>
+    ⋮
+  </div>
+
+  <!-- Another group of elements -->
+  <div>
+    <h2>Prehistoric environment</h2>
+    ⋮
+  </div>
+</main>
+```
+
 ### Break
 
 In HTML there’s an element to add a line break. It should never be used to make space in your website, that’s what CSS is for.
@@ -384,19 +439,53 @@ A great example of a thematic break is from novels: when you’re reading a nove
 
 The default CSS style, applied by browsers, to `<hr>` tags is to make it look like a line. **Do not use an `<hr>` to make lines, that’s not its purpose.** If you want to make a line, use CSS.
 
+```html
+  <p>A theropod dinosaur from the Late Jurassic period.</p>
+
+  <hr>
+
+  <p>The Brontosaurus is now a dinosaur again after many years.</p>
+```
+
 ### More specific elements
 
 For defining certain types of data and document information.
 
-- `<time datetime="">` — Times, dates, durations; the `datetime` attribute is for the computer readable information—[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
+- `<time datetime="">` — Times, dates, durations; the `datetime` attribute is for the computer readable information
 - `<data value="">` — Numberical data: weight, length, mass, etc.; the `value` attribute is for the computer readable information
 - `<del>` — Deleted content
 - `<ins>` — Newly inserted content
-- `<dfn>` — The definition of word
+- `<dfn>` — A word or term currently being defined
 - `<abbr title="">` — Abbreviations and acronyms; the `title` attribute is used for the full version
 - `<mark>` — Highlight text, like in search results
 - `<sub>` — Subscript
 - `<sup>` — Superscript
+
+```html
+<!-- Distinct points in time-->
+<time datetime="1980">Brontosaurus discovery</time>
+<time datetime="1980-05-21">Empire Strikes Back released May, 1980</time>
+<time datetime="1977-09-05T12:56:00">Voyager 1 launched Sept. 5, 1977 at 12:56</time>
+
+<!-- Time periods -->
+<time datetime="P365.25">Earth’s orbit around the Sun</time>
+<time datetime="PT0H22M">22 minutes to bake cookies</time>
+
+<data value="0.9865">Distance from Earth to Sun: 0.9856 au</data>
+The Brontosaurus <data value="15">weighed 15 tonnes</data> & was <data value="22">22 metres long</data>.
+
+<ins datetime="2015">Brontosaurus becomes a valid dinosaur again</ins>
+<del datetime="1980-05-21T19:30">See Empire Strikes Back</del>
+
+<p>A <dfn>dinosaur</dfn> was a large prehistoric land reptile.</p>
+<abbr title="Hypertext Markup Language">HTML</abbr>
+
+<!-- The current page highlighted in the navigation -->
+<a href="#"><mark>Home</mark></a>
+
+<p>Distance from Earth to Sun: 1.476×10<sup>8</sup> km</p>
+<p>H<sub>2</sub>O</p>
+```
 
 ---
 
@@ -408,6 +497,14 @@ Some characters cannot be written in the text content of HTML because the charac
 - `&lt;` — for making less than symbols
 - `&amp;` — for writing ampersands
 - `&nbsp;` — to put a space between words that will never break or word wrap
+
+```html
+<p>10 &gt; 9 = yes</p>
+<p>600 &lt; 601 = yes</p>
+<strong>Big &amp; hairy</strong>
+<!-- The unit will never break away from the numbers -->
+<p>0.9856&nbps;au</p>
+```
 
 ---
 

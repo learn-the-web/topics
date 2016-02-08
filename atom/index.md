@@ -76,7 +76,7 @@ On the install screen you can search for packages and install them into Atom.
 - **color-picker** — a pop-up color picker
 - **editorconfig** — for matching other designers’ coding standards
 - **emmet** — quick way to write HTML, using CSS selectors
-- **advanced-new-file** — opens up a quick new file input at the bottom of the screen, ⌘⌥N
+- **advanced-open-file** — opens up a quick new file input at the bottom of the screen, ⌘⌥N
 - **file-icons** — shows icons for each file type in the sidebar
 - **highlight-line** — draws a background behind the line you’re typing on
 - **linter** — finds and points out bugs

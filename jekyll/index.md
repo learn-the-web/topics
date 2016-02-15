@@ -535,3 +535,5 @@ To display a list of posts in your website, you can use Jekyll’s loop:
 - [Jekyll by Example](http://www.andrewmunsell.com/tutorials/jekyll-by-example/)
 - [GitHub Pages plugin list](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/)
 - [GitHub Pages versions](https://pages.github.com/versions/)
+- [Jekyll Talk](https://talk.jekyllrb.com/)
+- [Jekyll Tips](http://jekyll.tips/)

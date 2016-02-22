@@ -1,6 +1,6 @@
 ---
 group: web-dev-3
-playlist: PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU-y6EFRMlkA
+playlist: PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU
 download: https://github.com/acgd-learn-the-web/javascript-intro-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-intro-code
 cheatsheet: javascript-cheat-sheet
@@ -25,7 +25,7 @@ Using the `script` tag we can point to our Javascript file.
 
 ```html
 
-	<script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
 ```
@@ -33,7 +33,7 @@ Using the `script` tag we can point to our Javascript file.
 We always put our JS files at the bottom of our HTML for 2 reasons:
 
 1. **Performance** — JS is a blocking resource, which means it forces the browser to wait for it to finish downloading before the browser can continue rendering.
-	Our users perceive that the website loads faster if it gets rendered before the JS starts downloading
+  Our users perceive that the website loads faster if it gets rendered before the JS starts downloading
 2. **HTML manipulation** — we want to manipulate HTML with our JS, but the HTML must be rendered to the screen before JS can do anything
 
 ---
@@ -72,8 +72,8 @@ Comments are great for helping write documentation or even debugging—Javascrip
 // Single line comments
 
 /*
-	Multi-line
-	comments
+  Multi-line
+  comments
 */
 ```
 
@@ -98,7 +98,7 @@ var closestStar = 'Proxima Centauri';
 // Multiple variables can be declared with one var keyword
 // Use a comma (,) to separate the declarations
 var closestStar = 'Sun',
-	nextClosestStar = 'Proxmia Centauri'
+  nextClosestStar = 'Proxmia Centauri'
 ;
 ```
 
@@ -120,7 +120,7 @@ Strings in Javascript, are really just plain old text. All strings in Javascript
 // Strings: basic text and words
 // Single (') or double quotes (") can be used
 var galaxy = 'Milky Way',
-	closestGalaxy = "Canis Major Dwarf"
+  closestGalaxy = "Canis Major Dwarf"
 ;
 ```
 
@@ -131,9 +131,9 @@ In Javascript, numbers are not in quotes, that’s the distinction between plain
 ```js
 // Numbers: integer or float (decimal)
 var totalPlanets = 8,
-	moonTemperature = -153,
-	axialTilt = 23.4,
-	lightSpeed = 3e8
+  moonTemperature = -153,
+  axialTilt = 23.4,
+  lightSpeed = 3e8
 ;
 
 // This isn't a number because it’s inside quotes
@@ -147,7 +147,7 @@ Boolean values are just `true` or `false`—that’s all.
 ```js
 // Booleans: true/false (yes/no)
 var hasWater = true,
-	isHabitable = false
+  isHabitable = false
 ;
 ```
 
@@ -164,7 +164,7 @@ The operators in Javascript are fairly consistent with many other languages.
 ```js
 // Addition: with +
 var add = 1 + 2,
-	number += 2 // Add to what’s already in number
+  number += 2 // Add to what’s already in number
 ;
 number++; // Increment: add 1 to what’s already in number
 
@@ -193,7 +193,7 @@ Javascript, as with many modern programming languages, allows you to join togeth
 ```js
 // Use the plus (+) to join strings and variables
 var galaxy = 'Milky Way',
-	ourGalaxy = galaxy + ' is our galaxy.' // Milky Way is our galaxy.
+  ourGalaxy = galaxy + ' is our galaxy.' // Milky Way is our galaxy.
 ;
 
 // Join two variables together
@@ -220,7 +220,7 @@ Functions in Javascript are a group of reusable code in your program. They are s
 // This function will write out a dinosaur name
 // After creating the name of your variable, you set it to be a function
 var writeDinoName = function () {
-	document.write('Apatosaurus');
+  document.write('Apatosaurus');
 };
 ```
 
@@ -243,8 +243,8 @@ When defining a function, create a new argument, practically the same thing as a
 ```js
 // The `name` is the argument, allowing information to be sent into the function
 var writeADino = function (name) {
-	// We can then use `name` any way we'd normally use a variable
-	document.write(name);
+  // We can then use `name` any way we'd normally use a variable
+  document.write(name);
 };
 
 // We can then send information into the function and it will use that while executing
@@ -257,7 +257,7 @@ Functions can actually have multiple arguments.
 ```js
 // Two arguments: `name` and `diet`, just add another after a comma
 var writeADinoDiet = function (name, diet) {
-	document.write(name + ' is a ' + diet);
+  document.write(name + ' is a ' + diet);
 };
 
 // Send both pieces of information into our function
@@ -328,9 +328,9 @@ var planetEarth = {};
 // Properties can be anything we want
 // Separate each property with a comma (,)
 planetEarth = {
-	population: 6.5e9,
-	numberMoons: 1,
-	starSystem: 'Solar'
+  population: 6.5e9,
+  numberMoons: 1,
+  starSystem: 'Solar'
 };
 
 // Get the property from the object with the name ‘population’
@@ -343,8 +343,8 @@ delete planetEarch.numberMoons;
 // Objects can even have arrays inside them
 // And other objects!
 var solarSystem = {
-	innerPlanets: ['Mercury', 'Venus', 'Earth', 'Mars'],
-	sunFacts: { diameter: 1392000, mass: 2e30 }
+  innerPlanets: ['Mercury', 'Venus', 'Earth', 'Mars'],
+  sunFacts: { diameter: 1392000, mass: 2e30 }
 };
 
 // There is an alternative syntax for accessing properties
@@ -370,7 +370,7 @@ var planet = 'Venus';
 
 // Compare the variable planet to the string ‘Venus’
 if (planet == 'Venus') {
-	// If planet is equal to ‘Venus’ then execute this code
+  // If planet is equal to ‘Venus’ then execute this code
 }
 ```
 
@@ -379,16 +379,16 @@ if (planet == 'Venus') {
 
 ```js
 var planet = 'Earth',
-	hasMoon = true
+  hasMoon = true
 ;
 
 // Since the variable is true, we don’t have to compare against true
 // The if-statement is always checking for a truthy scenario
 if (hasMoon) {
-	// Execute this code if the scenario is truthy
+  // Execute this code if the scenario is truthy
 } else {
-	// Execute this code if the scenario is falsey
-	// The else leaves us a catch all if the first scenario is falsey
+  // Execute this code if the scenario is falsey
+  // The else leaves us a catch all if the first scenario is falsey
 }
 ```
 
@@ -398,36 +398,36 @@ Often it’s helpful to compare multiple situations at once in our if-statements
 
 ```js
 var planet = 'Venus',
-	isSecond = true,
-	hasMoons = false
+  isSecond = true,
+  hasMoons = false
 ;
 
 // And: one situation AND the other must be truthy
 // And is represented by two ampersands (&&)
 if (planet == 'Venus' && isSecond) {
-	// This will execute because planet is equal to ‘Venus’ and isSecond is also truthy
+  // This will execute because planet is equal to ‘Venus’ and isSecond is also truthy
 }
 
 if (planet == 'Venus' && hasMoons) {
-	// This will not execute because only the first scenario is truthy
+  // This will not execute because only the first scenario is truthy
 }
 
 // Or: one situation OR the other must be truthy
 // Or is represented by two vertical pipes (||)
 if (planet == 'Venus' || isSecond) {
-	// This will execute because both situations are truthy
+  // This will execute because both situations are truthy
 }
 
 if (planet == 'Mercury' || planet == 'Venus') {
-	// This will execute because one of the two situations is truthy
+  // This will execute because one of the two situations is truthy
 }
 
 if (hasMoons || isSecond) {
-	// This will execute because one of the two situations is truthy
+  // This will execute because one of the two situations is truthy
 }
 
 if (hasMoons || planet == 'Mercury') {
-	// This will not execute because neither situation is truthy
+  // This will not execute because neither situation is truthy
 }
 ```
 
@@ -437,31 +437,31 @@ We can also compare to see if two things are not equal.
 
 ```js
 var planet = 'Venus',
-	isSecond = true,
-	hasMoons = false
+  isSecond = true,
+  hasMoons = false
 ;
 
 // Not equals is represented by an exclamation point and equals (!=)
 if (planet != 'Mercury') {
-	// This will execute because it is true that planet is not equal to ‘Mercury’
+  // This will execute because it is true that planet is not equal to ‘Mercury’
 }
 
 if (planet != 'Venus') {
-	// This will not execute because planet is equal to ‘Venus’
+  // This will not execute because planet is equal to ‘Venus’
 }
 
 // Not is represented by an exclamation point (!)
 // The below could be read as ‘has moons is not equal to true’ or ‘not has moons’
 if (!hasMoons) {
-	// This will execute because this scenario is truthy, hasMoons is not equal to true
+  // This will execute because this scenario is truthy, hasMoons is not equal to true
 }
 
 if (!isSecond) {
-	// This will not execute because isSecond is true, not false
+  // This will not execute because isSecond is true, not false
 }
 
 if (!hasMoons && planet == 'Venus') {
-	// This will execute because both scenarios are truthy
+  // This will execute because both scenarios are truthy
 }
 ```
 
@@ -486,18 +486,18 @@ if (planet == 'Mars') {}
 ```js
 // Will compare the value of planet to see if it equals ‘Mars’ and that the value is a string
 if (planet === 'Mars') {
-	// This will be executed because planet is a string and it’s equal to ‘Mars’
+  // This will be executed because planet is a string and it’s equal to ‘Mars’
 }
 
 // Will compare to see if the value of planet is truthy
 if (planet == true) {
-	// This will execute because the value of planet is truthy
-	// Check out type coercion for more details
+  // This will execute because the value of planet is truthy
+  // Check out type coercion for more details
 }
 
 // Will compare the value of planet to see if it’s true and to see if it is a boolean
 if (planet === true) {
-	// This will not execute because planet is not exactly ‘true’
+  // This will not execute because planet is not exactly ‘true’
 }
 ```
 
@@ -553,7 +553,7 @@ var i;
 
 // Let’s create a loop that repeats 5 times
 for (i = 0; i < 5; i++) {
-	// The code in here will be executed 5 times
+  // The code in here will be executed 5 times
 }
 
 // Inside the loop declaration we define how the loop performs
@@ -580,7 +580,7 @@ This loop will write out the word “Hello.” 10 times.
 var i;
 
 for (i = 0; counter < 10; counter++) {
-	document.write('Hello.');
+  document.write('Hello.');
 }
 ```
 
@@ -594,7 +594,7 @@ var favPlanet;
 // This loop will keep prompting the user until they type something into the prompt field
 // As long as favPlanet coerces to a falsey value the loop will continue
 while (!favPlanet) {
-	favPlanet = prompt("What's your favourite planet?");
+  favPlanet = prompt("What's your favourite planet?");
 }
 ```
 
@@ -606,9 +606,9 @@ For-each loops are used for looping over arrays:
 var planets = ['Mercury', 'Venus', 'Earth', 'Mars'];
 
 planets.forEach(function (item)) {
-	// The code in here will be executed once for each array item
-	// `item` will be filled with the content of each item in the array
-	document.write(item);
+  // The code in here will be executed once for each array item
+  // `item` will be filled with the content of each item in the array
+  document.write(item);
 });
 ```
 
@@ -629,17 +629,17 @@ var planet = 'Venus';
 
 // The switch statement is used when there are many different paths for your code
 switch (planet) {
-	case 'Mercury' :
-		// If planet is ‘Mercury’ this code will be executed
-		break;
+  case 'Mercury' :
+    // If planet is ‘Mercury’ this code will be executed
+    break;
 
-	case 'Venus' :
-		// If planet is ‘Venus’ this code will be executed
-		break;
+  case 'Venus' :
+    // If planet is ‘Venus’ this code will be executed
+    break;
 
-	case 'Mars' :
-		// If planet is ‘Mars’ this code will be executed
-		break;
+  case 'Mars' :
+    // If planet is ‘Mars’ this code will be executed
+    break;
 }
 ```
 
@@ -649,36 +649,36 @@ The switch statement also has an ‘else’ like mechanism: `default`.
 var planet = 'Venus';
 
 switch (planet) {
-	case 'Mercury':
-		// If planet is ‘Mercury’ this code will be executed
-		break;
+  case 'Mercury':
+    // If planet is ‘Mercury’ this code will be executed
+    break;
 
-	case 'Venus':
-		// If planet is ‘Venus’ this code will be executed
-		break;
+  case 'Venus':
+    // If planet is ‘Venus’ this code will be executed
+    break;
 
-	default:
-		// If none of the above conditions are met this code will be executed
-		// Default must always be last, like else
-		break;
+  default:
+    // If none of the above conditions are met this code will be executed
+    // Default must always be last, like else
+    break;
 }
 
 // We can also group pieces of code together for when multiple situations are satisfied by the same code, like an ‘or’
 // The break keyword stops the case from grouping with the one below
 switch (planet) {
-	case 'Mercury' :
-		// If planet is ‘Mercury’ this code will be executed
-		break;
+  case 'Mercury' :
+    // If planet is ‘Mercury’ this code will be executed
+    break;
 
-	case 'Venus':
-	case 'Mars':
-		// If planet is ‘Venus’ or ‘Mars’ this code will be executed
-		break;
+  case 'Venus':
+  case 'Mars':
+    // If planet is ‘Venus’ or ‘Mars’ this code will be executed
+    break;
 
-	case 'Earth':
-	default:
-		// If planet is ‘Earth’ or anything else
-		break;
+  case 'Earth':
+  default:
+    // If planet is ‘Earth’ or anything else
+    break;
 }
 ```
 

@@ -579,7 +579,7 @@ This loop will write out the word “Hello.” 10 times.
 ```js
 var i;
 
-for (i = 0; counter < 10; counter++) {
+for (i = 0; i < 10; i++) {
   document.write('Hello.');
 }
 ```

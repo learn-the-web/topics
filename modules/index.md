@@ -145,11 +145,11 @@ If you have a [modular type system](http://typografier.web-dev.tools) you can us
 
 ## Common website modules
 
-- **[List group](http://learn-the-web.algonquindesign.ca/modules-code/list-group.html)**: vertical & horizontal lists.
-- **[Buttons](http://learn-the-web.algonquindesign.ca/modules-code/buttons.html)**: small, medium, large, alternative, [buttons + modular typography](http://learn-the-web.algonquindesign.ca/modules-code/buttons-modular-type.html).
-- **[Icons](http://learn-the-web.algonquindesign.ca/modules-code/icons.html)**: different sizes, stacked, inline, image replacement.
-- **[Media object](http://learn-the-web.algonquindesign.ca/modules-code/media-object.html)**: flexible image size, embeddable, with list group, stacked, reversed.
-- **[Embed containers](http://learn-the-web.algonquindesign.ca/modules-code/embed.html)**: for flexible images and videos, with specific aspect ratios—to prevent layout reflow after the image loads.
+- **[List group](http://demos.learn-the-web.algonquindesign.ca/modules/list-group.html)**: vertical & horizontal lists.
+- **[Buttons](http://demos.learn-the-web.algonquindesign.ca/modules/buttons.html)**: small, medium, large, alternative, [buttons + modular typography](http://demos.learn-the-web.algonquindesign.ca/modules/buttons-modular-type.html).
+- **[Icons](http://demos.learn-the-web.algonquindesign.ca/modules/icons.html)**: different sizes, stacked, inline, image replacement.
+- **[Media object](http://demos.learn-the-web.algonquindesign.ca/modules/media-object.html)**: flexible image size, embeddable, with list group, stacked, reversed.
+- **[Embed containers](http://demos.learn-the-web.algonquindesign.ca/modules/embed.html)**: for flexible images and videos, with specific aspect ratios—to prevent layout reflow after the image loads.
 
 *The `common.css` file used in the examples and videos could be replaced by your modular typography `typography.css` file for better results.*
 

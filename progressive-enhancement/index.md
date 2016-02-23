@@ -206,7 +206,7 @@ When the Javascript executes, it builds the tab interface back up, triggering th
 
 We don’t need to have the ARIA attributes on the default non-JS version because ARIA is primarily for interactions built with Javascript.
 
-- [See working progressively enhanced tabs.](http://learn-the-web.algonquindesign.ca/progressive-enhancement-code/tabs.html)
+- [See working progressively enhanced tabs.](http://demos.learn-the-web.algonquindesign.ca/progressive-enhancement/tabs.html)
   *Make sure to test with Javascript turned off.*
 - [Browse commented progressively enhancement tabs code.](https://github.com/acgd-learn-the-web/progressive-enhancement-code/blob/gh-pages/js/tabs.js)
 

@@ -3,7 +3,7 @@ group: web-dev-3
 playlist: PLWjCJDeWfDdceXtH4ZLTh0v4AbP3g2msI
 download: https://github.com/acgd-learn-the-web/responsive-animated-dashboard-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/responsive-animated-dashboard-code
-livewebsite: /responsive-animated-dashboard-code/
+livewebsite: responsive-animated-dashboard
 ---
 
 Combining all of the topics from Web Dev 3 to create a full responsive, animated dashboard website.

@@ -3,7 +3,7 @@ group: web-dev-1
 playlist: PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg
 download: https://github.com/acgd-learn-the-web/marking-up-a-webpage-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/marking-up-a-webpage-code
-livewebsite: /marking-up-a-webpage-code/
+livewebsite: marking-up-a-webpage
 ---
 
 Video playlist walking you through writing the semantics for a small business webpage.

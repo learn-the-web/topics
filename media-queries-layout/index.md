@@ -3,7 +3,7 @@ group: web-dev-2
 playlist: PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg
 download: https://github.com/acgd-learn-the-web/media-queries-layout-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/media-queries-layout-code
-livewebsite: /media-queries-layout-code/
+livewebsite: media-queries-layout
 ---
 
 Video playlist walking you through manipulating a website with media queries.

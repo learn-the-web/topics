@@ -3,7 +3,7 @@ group: web-dev-2
 playlist: PLWjCJDeWfDdeeD7gMjX8VTj-y6EFRMlkA
 download: https://github.com/acgd-learn-the-web/interactive-wireframes-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/interactive-wireframes-code
-livewebsite: /interactive-wireframes-code/
+livewebsite: interactive-wireframes
 ---
 
 The first step of coding a website is creating the interactive wireframes and prototypes. They are simple layouts to express the responsiveness using grids, modular type, modular spacing, and a few media queries.

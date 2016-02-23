@@ -3,7 +3,7 @@ group: web-dev-4
 playlist: PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-
 download: https://github.com/acgd-learn-the-web/jekyll-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/jekyll-code
-livewebsite: /jekyll-code/
+livewebsite: jekyll
 cheatsheet: jekyll-cheat-sheet
 ---
 

@@ -3,7 +3,7 @@ group: web-dev-1
 playlist: PLWjCJDeWfDdfoSnpsDRhTgz6VrVPvYqvR
 download: https://github.com/acgd-learn-the-web/from-wireframe-to-website-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/from-wireframe-to-website-code
-livewebsite: /from-wireframe-to-website-code/
+livewebsite: from-wireframe-to-website
 ---
 
 Combining all of the topics from Web Dev 1 to create a full website, starting with a wireframe & style tile.

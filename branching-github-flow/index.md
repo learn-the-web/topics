@@ -1,5 +1,5 @@
 ---
-group: setup
+group: whats-next
 video: mHl91Udzljw
 ---
 

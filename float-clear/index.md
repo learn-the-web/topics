@@ -38,15 +38,15 @@ If there are multiple elements together in HTML and they are all floated, the br
 
 ```css
 .box-1 {
-	float: left;
+  float: left;
 }
 
 .box-2 {
-	float: right;
+  float: right;
 }
 
 .box-3 {
-	float: right;
+  float: right;
 }
 ```
 
@@ -60,8 +60,8 @@ After you’ve added the `float` property to the element, the `display` property
 
 ```css
 .box {
-	float: left;
-	display: block; /* This has absolutely no effect on the element */
+  float: left;
+  display: block; /* This has absolutely no effect on the element */
 }
 ```
 
@@ -122,13 +122,13 @@ Using floats, we can create columns fairly easily by just floating some elements
 
 ```css
 main {
-	float: left;
-	width: 70%;
+  float: left;
+  width: 70%;
 }
 
 aside {
-	float: right;
-	width: 20%;
+  float: right;
+  width: 20%;
 }
 ```
 
@@ -147,8 +147,8 @@ That’s an okay solution in many situations, but maybe we want the same colour 
 ```html
 <header>…</header>
 <div class="wrapper">
-	<main>…</main>
-	<aside>…</aside>
+  <main>…</main>
+  <aside>…</aside>
 </div>
 <footer>…</footer>
 ```
@@ -166,9 +166,9 @@ Knowing how `clear` works, we could just insert another element inside the `.wra
 ```html
 <header>…</header>
 <div class="wrapper">
-	<main>…</main>
-	<aside>…</aside>
-	<div class="dummy-clearfix"></div>
+  <main>…</main>
+  <aside>…</aside>
+  <div class="dummy-clearfix"></div>
 </div>
 <footer>…</footer>
 ```
@@ -177,7 +177,7 @@ If we then added `clear: both` to the `.dummy-clearfix` element, our problem wou
 
 ```css
 .dummy-clearfix {
-	clear: both;
+  clear: both;
 }
 ```
 
@@ -192,9 +192,9 @@ Instead, we can generate a dummy element using CSS’s `:before` & `:after`—th
 ```html
 <header>…</header>
 <div class="wrapper clearfix"> <!-- New second class: .clearfix -->
-	<main>…</main>
-	<aside>…</aside>
-	<!-- No dummy element -->
+  <main>…</main>
+  <aside>…</aside>
+  <!-- No dummy element -->
 </div>
 <footer>…</footer>
 ```
@@ -202,16 +202,11 @@ Instead, we can generate a dummy element using CSS’s `:before` & `:after`—th
 All we have to do is add the following CSS to our file. Then using the class on the parent wrapper element we get our desired outcome.
 
 ```css
-.clearfix:before,
-.clearfix:after {
-	/* Generates a new element above and below */
-	content: " ";
-	display: table;
-}
-
-.clearfix:after {
-	/* Clears the generated element below */
-	clear: both;
+.clearfix::after {
+  /* Generates a new element above */
+  content: " ";
+  display: table;
+  clear: both;
 }
 ```
 
@@ -228,15 +223,15 @@ So, as another solution to the above problem we could do this:
 ```html
 <header>…</header>
 <div class="wrapper"> <!-- No .clearfix class -->
-	<main>…</main>
-	<aside>…</aside>
+  <main>…</main>
+  <aside>…</aside>
 </div>
 <footer>…</footer>
 ```
 
 ```css
 .wrapper {
-	overflow: hidden;
+  overflow: hidden;
 }
 ```
 
@@ -265,7 +260,7 @@ Take this example from earlier:
 
 ```css
 img {
-	float: left;
+  float: left;
 }
 ```
 
@@ -275,7 +270,7 @@ But, using `overflow: hidden` on the paragraph we can create simple columns. **T
 
 ```css
 p {
-	overflow: hidden;
+  overflow: hidden;
 }
 ```
 

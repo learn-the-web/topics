@@ -92,13 +92,9 @@ groups:
           - 'Can be used instead of `overflow: hidden`'
           - |
             ```css
-            .clearfix:before,
-            .clearfix:after {
+            .clearfix::after {
               content: " ";
-              display: table;
-            }
-
-            .clearfix:after {
+              display: block;
               clear: both;
             }
             ```

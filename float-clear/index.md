@@ -296,3 +296,4 @@ p {
 - [Codrops: float](http://tympanus.net/codrops/css_reference/float/)
 - [Codrops: clear](http://tympanus.net/codrops/css_reference/clear/)
 - [Positioning with float](http://learn.shayhowe.com/html-css/positioning-content/#floats)
+- [Learn Layout: Float](http://learnlayout.com/float.html)

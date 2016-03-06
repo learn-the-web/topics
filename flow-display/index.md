@@ -36,12 +36,12 @@ There are four major values for display that are used regularly: `inline`, `bloc
 
 ```css
 p {
-	/* This is the default setting for paragraphs specified by the browser */
-	display: block;
+  /* This is the default setting for paragraphs specified by the browser */
+  display: block;
 }
 
 a {
-	display: inline-block;
+  display: inline-block;
 }
 ```
 
@@ -111,8 +111,8 @@ The fourth `display` value commonly used is `none`, this will completely hide th
 
 ```css
 h1 {
-	/* This element will not be shown on the screen, nor take up any space */
-	display: none;
+  /* This element will not be shown on the screen, nor take up any space */
+  display: none;
 }
 ```
 
@@ -122,19 +122,19 @@ You can apply the display property to absolutely any element you want to make it
 
 ```css
 span {
-	/* Make span act exactly the same way as a div */
-	display: block;
+  /* Make span act exactly the same way as a div */
+  display: block;
 }
 
 div {
-	/* Make div act exactly the same way as a span */
-	display: inline;
+  /* Make div act exactly the same way as a span */
+  display: inline;
 }
 
 a {
-	/* Allow the link to have padding, making it a bigger hit area */
-	display: inline-block;
-	padding: 0.5em 0.75em;
+  /* Allow the link to have padding, making it a bigger hit area */
+  display: inline-block;
+  padding: 0.5em 0.75em;
 }
 ```
 
@@ -146,11 +146,11 @@ Here’s the HTML I would use for navigation:
 
 ```html
 <nav>
-	<ul>
-		<li><a href="#">Dinosaurs</a></li>
-		<li><a href="#">Meat-eaters</a></li>
-		<li><a href="#">Plant-eaters</a></li>
-	</ul>
+  <ul>
+    <li><a href="#">Dinosaurs</a></li>
+    <li><a href="#">Meat-eaters</a></li>
+    <li><a href="#">Plant-eaters</a></li>
+  </ul>
 </nav>
 ```
 
@@ -160,7 +160,7 @@ We want to make a horizontal list, so we need to change the display property of 
 
 ```css
 nav li {
-	display: inline;
+  display: inline;
 }
 ```
 
@@ -170,8 +170,8 @@ Next up, we probably want to style the links, maybe make them larger hit areas.
 
 ```css
 nav a {
-	display: inline-block;
-	padding: 0.5em 0.75em;
+  display: inline-block;
+  padding: 0.5em 0.75em;
 }
 ```
 
@@ -196,7 +196,7 @@ In our navigation above, if we did this:
 
 ```css
 nav ul {
-	text-align: center;
+  text-align: center;
 }
 ```
 
@@ -214,9 +214,9 @@ If we have a paragraph, with a width, and want it to centre within its parent, w
 
 ```css
 p {
-	max-width: 25em;
-	margin-left: auto;
-	margin-right: auto;
+  max-width: 25em;
+  margin-left: auto;
+  margin-right: auto;
 }
 ```
 
@@ -230,20 +230,32 @@ This would allow the `p` tag to centre its whole box element within its parent e
 
 ## Flexbox
 
-Flexbox is a new way of controlling layout in browsers, it still requires lots of extra code and is a little buggy, but is extremely powerful.
+Flexbox is a new, extremely powerful way of controlling layout in browsers, but unfortunately it needs lots of extra code to be completely browser compatible.
 
 With flexbox you can do lots of different centering and alignment like things. It also completely replaces the inline/block model above.
 
 **Links**
 
-- **[Flexy Boxes](http://the-echoplex.net/flexyboxes/)**
+- [**Flexy Boxes**](http://the-echoplex.net/flexyboxes/)
+- [**What the flexbox!?**](http://flexbox.io/)
+- [**Flexbox Froggy**](http://flexboxfroggy.com/)
+- [**Test CSS Flexbox Rules Live**](http://flexbox.help/)
 - [CSS Tricks: A Complete Guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flexbox in 5 minutes](http://flexboxin5.com/)
 - [Flexbox Adventures](http://chriswrightdesign.com/experiments/flexbox-adventures/)
 - [The Ultimate Flexbox Cheat Sheet](http://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
 - [Dive into Flexbox](http://bocoup.com/weblog/dive-into-flexbox/)
 - [Flexbugs](https://github.com/philipwalton/flexbugs)
 - [Flexbox Cheatsheet Cheatsheet](http://jonibologna.com/flexbox-cheatsheet/)
 - [Using Flexbox today](http://chriswrightdesign.com/experiments/using-flexbox-today/)
+- [A Visual Guide to CSS3 Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
+- [Using flexbox today](http://www.chriswrightdesign.com/experiments/using-flexbox-today/)
+- [What the flexbox!?](http://flexbox.io/)
+- [18 Excellent Resources for Learning Flexbox](http://sixrevisions.com/css/learn-flexbox/)
+- [`flex-grow` is weird. Or is it?](https://css-tricks.com/flex-grow-is-weird/)
+- [Flexible editor](http://briandiehr.com/#/layout-editor)
+- [The Flexbox Reading List: Techniques And Tools](https://www.smashingmagazine.com/2016/02/the-flexbox-reading-list/)
+- [Flexbox Defense](http://www.flexboxdefense.com/)
 
 ---
 

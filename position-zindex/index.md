@@ -37,7 +37,7 @@ Position `absolute` completely removes the element from the flow, allowing all o
 
 ```css
 .purple {
-	position: absolute;
+  position: absolute;
 }
 ```
 
@@ -70,15 +70,15 @@ The default coordinate system is based on the `body`—so any positioning we do 
 
 ```html
 <div class="grey-border">
-	<div class="purple">…</div>
+  <div class="purple">…</div>
 </div>
 ```
 
 ```css
 .purple {
-	position: absolute;
-	right: 0;
-	bottom: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 ```
 
@@ -88,9 +88,41 @@ We can reset the coordinate system by adding `position: relative` to a parent of
 
 ```css
 .grey-border {
-	position: relative;
+  position: relative;
 }
 ```
+
+#### Centering absolutely positioned elements
+
+If you have an element that is absolutely positioned and you want it centred, but you don’t necessarily know how wide it is, the `transform` property can be very helpful.
+
+```html
+<div class="banner">
+  <h1>Free Mars!</h1>
+</div>
+```
+
+```css
+.banner {
+  position: relative;
+}
+
+h1 {
+  bottom: 1em;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+```
+
+There are two critical pieces to centring the element:
+
+1. Set its `left` coordinate to `50%`, which will move its left edge to the centre.
+2. Then, use `transform: translateX()` to adjust the element leftwards, by half its width.
+
+If you want to do vertical centring use `top` and `transform: translateY()`.
+
+The combination of both these properties will make the absolutely positioned element appear centred within its parent element.
 
 ### Relative
 
@@ -106,9 +138,9 @@ Though `relative` creates a new positioning context, reseting the coordinate sys
 
 ```css
 .purple {
-	position: relative;
-	top: 10px;
-	right: 10px;
+  position: relative;
+  top: 10px;
+  right: 10px;
 }
 ```
 
@@ -120,9 +152,9 @@ But `position: fixed` always positions against the window and does not move when
 
 ```css
 nav {
-	position: fixed;
-	top: 0;
-	width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 ```
 
@@ -147,15 +179,15 @@ The default stacking order for `position: absolute` elements is: *the further do
 
 ```css
 .blue {
-	position: absolute;
-	top: 0;
-	left: 20%;
+  position: absolute;
+  top: 0;
+  left: 20%;
 }
 
 .purple {
-	position: absolute;
-	top: 0;
-	left: 30%;
+  position: absolute;
+  top: 0;
+  left: 30%;
 }
 ```
 
@@ -167,7 +199,7 @@ The `z-index` is a number, with no unit, that controls the layer. The higher the
 
 ```css
 .purple {
-	z-index: 2;
+  z-index: 2;
 }
 ```
 

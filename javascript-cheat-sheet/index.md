@@ -168,14 +168,16 @@ groups:
           - '**Common events**: `click`, `focus`, `blur`, `mousedown`, `mouseover`, `mouseout`, `change`, `keydown`, `submit`, `animationend`, `transitionend` & [many, many more…](https://developer.mozilla.org/en-US/docs/Web/Events)'
       - name: '*Manipulations*'
         details:
-          - "`attr(attribute, value)` — get/change an attribute value."
-          - "`html(value)` — get/change the entire HTML content of an element."
+          - "`attr(attribute)` — get an attribute value."
+          - "`attr(attribute, value)` — change an attribute value."
+          - "`html()` — get the entire HTML content of an element."
+          - "`html(value)` — change the entire HTML content of an element."
           - "`addClass(class)` — add a class to an element."
           - "`removeClass(class)` — remove a class from an element."
           - "`toggleClass(class)` — toggle a class on/off."
           - "`hasClass(class)` — check if an element has a specific class."
-          - "`val(value)` — get the form input’s value."
-          - "`val('')` — set the form input’s value."
+          - "`val()` — get the form input’s value."
+          - "`val(value)` — set the form input’s value; `val('')` would clear the input."
           - "`append(value)` — add new HTML inside the element, after what’s there."
           - "`prepend(value)` — add new HTML inside the element, before what’s there."
           - "`before(value)` — add new HTML outside the element, before it."

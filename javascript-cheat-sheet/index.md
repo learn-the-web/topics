@@ -289,10 +289,8 @@ groups:
             var randWidth = Math.random() * 256;
             var randHeight = Math.random() * 256;
 
-            $('.rect').css({
-              width: randWidth,
-              height: randHeight
-            })
+            $('.rect').css('width', randWidth);
+            $('.rect').css('height', randHeight);
             ```
       - name: '*Trigger animation*'
         details:

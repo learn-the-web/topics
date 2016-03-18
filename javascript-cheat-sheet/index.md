@@ -36,6 +36,8 @@ groups:
           - '`Math.round()` — round the number to an integer.'
           - '`Math.ceil()` — round the number up.'
           - '`Math.floor()` — round the number down.'
+          - '`document.documentElement.clientWidth` — the width of the viewport.'
+          - '`document.documentElement.clientHeight` — the height of the viewport.'
           - |
             ```js
             // Random between two numbers

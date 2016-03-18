@@ -146,16 +146,24 @@ groups:
             var $action = $('[data-action]');
             var $radio = $('[name="diet"]:checked');
 
-            $trex.on('click', function (ev) {
+            // Including <> in the jQuery selector
+            //   will make a brand new element
+            var $newDiv = $('<div>');
+
+            $trex.on('click', function (e) {
               // Click directly on #trex
             });
 
-            $dinos.on('click', 'li', function (ev) {
+            $dinos.on('click', 'li', function (e) {
               // Click on any <li> within .dinos
             });
+
+            $('form').on('submit', function (e) {
+              // Stop the default action
+              e.preventDefault();
+            })
             ```
-          - '`click`, `focus`, `blur`, `mousedown`, `mouseover`, `mouseout`, `change`'
-          - 'Use `ev.preventDefault()` to stop the element’s default action.'
+          - '**Common events**: `click`, `focus`, `blur`, `mousedown`, `mouseover`, `mouseout`, `change`, `keydown`, `submit`, `animationend`, `transitionend` & [many, many more…](https://developer.mozilla.org/en-US/docs/Web/Events)'
       - name: '*Manipulations*'
         details:
           - "`attr(attribute, value)` — get/change an attribute value."
@@ -165,11 +173,14 @@ groups:
           - "`toggleClass(class)` — toggle a class on/off."
           - "`hasClass(class)` — check if an element has a specific class."
           - "`val(value)` — get the form input’s value."
+          - "`val('')` — set the form input’s value."
           - "`append(value)` — add new HTML inside the element, after what’s there."
           - "`prepend(value)` — add new HTML inside the element, before what’s there."
           - "`before(value)` — add new HTML outside the element, before it."
           - "`after(value)` — add new HTML outside the element, after it."
           - "`remove()` — delete the element from the page."
+          - "`show()` — set an element’s `dislplay` property to make it visible—use with caution."
+          - "`hide()` — set `dislplay: none`—use with caution."
       - name: '*Traversals*'
         details:
           - "`each(function)` — loop over all the selected elements."
@@ -181,5 +192,130 @@ groups:
           - "`siblings(selector)` — find specific siblings."
           - "`eq(index)` — get the element by its index."
           - "`get()` — get the raw Javascript element."
+          - |
+            &nbsp;
+
+            ```html
+            <ul>
+              <li class="pterasaur">Quetzalcoatlus</li>
+              <li class="dinosaur">Apatosaurus</li>
+              <li class="plesiosaur">Elasmosaurus</li>
+            </ul>
+            ```
+          - |
+            ```js
+            $('li').each(function () {
+              if ($(this).hasClass('dinosaur')) {
+                $(this).show();
+              }
+            });
+            ```
+
+  - title: 'Sample programs'
+    items:
+      - name: '*Toggle class on list*'
+        details:
+          - |
+            ```html
+            <ul>
+              <li>Titanosaurus</li>
+              <li>Apatosaurus</li>
+              <li>Brontosaurus</li>
+              <li>Brachiosaurus</li>
+            </ul>
+            ```
+          - |
+            ```css
+            .is-clicked {
+              background-color: limegreen;
+            }
+            ```
+          - |
+            ```js
+            $('ul').on('click', 'li', function (e) {
+              $(this).toggleClass('is-clicked');
+            });
+            ```
+      - name: '*Generate a list*'
+        details:
+          - |
+            ```html
+            <ul class="dinos"></ul>
+            ```
+          - |
+            ```js
+            var dinos = ['Stegosaurus', 'Ankylosaurus', 'Triceratops'];
+
+            dinos.forEach(function (dino) {
+              var $li = $('<li>');
+              $li.html(dino);
+              $('body').append($li);
+            });
+            ```
+      - name: '*Add class to parent*'
+        details:
+          - |
+            ```html
+            <main>
+              <article>
+                <button id="click-me">Click me!</button>
+              </article>
+            </main>
+            ```
+          - |
+            ```js
+            $('#click-me').on('click', function (e) {
+              $(this).parents('main').addClass('is-clicked');
+            });
+            ```
+      - name: '*Keyboard events*'
+        details:
+          - |
+            ```js
+            $('html').on('keydown', function (e) {
+              var $theKey = $('strong');
+              $theKey.html(e.keyCode);
+              $('body').append($theKey);
+            });
+            ```
+      - name: '*Random width & height*'
+        details:
+          - |
+            ```html
+            <div class="rect"></div>
+            ```
+          - |
+            ```js
+            var randWidth = Math.random() * 256;
+            var randHeight = Math.random() * 256;
+
+            $('.rect').css({
+              width: randWidth,
+              height: randHeight
+            })
+            ```
+      - name: '*Trigger animation*'
+        details:
+          - |
+            ```html
+            <div class="ball"></div>
+            ```
+          - |
+            ```css
+            .ball {
+              background-color: red;
+              animation-duration: 1s;
+              animation-timing-function: ease-in-out;
+            }
+
+            @keyframes change-colour {
+              0% { background-color: red; }
+              100% { background-color: green; }
+            }
+            ```
+          - |
+            ```js
+            $('.ball').css('animation-name', 'change-colour');
+            ```
 
 ---

@@ -166,8 +166,8 @@ You’ll most likely want to make your video flexible and scale with the dimensi
 If your video is in the standard aspect ratio for HD of 16 by 9, your HTML will look something like this.
 
 ```html
-<div class="embed embed--16by9">
-  <video class="embed__item" src="video/dinos.mp4">
+<div class="embed embed-16by9">
+  <video class="embed-item" src="video/dinos.mp4">
     Dinosaurs frolicking in the tall grass.
   </video>
 </div>
@@ -183,11 +183,11 @@ And the CSS will look something like this:
   width: 100%;
 }
 
-.embed--16by9 {
+.embed-16by9 {
   padding-top: 56.25%;
 }
 
-.embed__item {
+.embed-item {
   height: 100%;
   left: 0;
   position: absolute;

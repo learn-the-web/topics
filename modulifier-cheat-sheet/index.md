@@ -42,15 +42,15 @@ groups:
         details:
           - 'Add a `.list-group` class that will remove bullets and padding from lists, so semantically they can be lists but no visually.'
           - 'When added to a `<dl>` tag, there is a little responsiveness to how the `<dt>` and `<dd>` tags flow.'
-      - name: '`.list-group--inline`'
+      - name: '`.list-group-inline`'
         details:
-          - 'Add a `.list-group--inline` class that will force the `<li>` tags onto the same line.'
+          - 'Add a `.list-group-inline` class that will force the `<li>` tags onto the same line.'
           - 'When added to the `<dl>` tag, the `<dt>` and `<dd>` tags will sit on the same line if there is enough space.'
       - name: '*List group example*'
         details:
           - |
             ```html
-            <ul class="list-group list-group--inline">
+            <ul class="list-group-inline">
               <li><a href="#">Dinosaurs</a></li>
               <li><a href="#">Plant eaters</a></li>
               <li><a href="#">Meat eaters</a></li>
@@ -58,7 +58,7 @@ groups:
             ```
 
             ```html
-            <dl class="list-group list-group--inline">
+            <dl class="list-group-inline">
               <dt>Length</dt>
               <dd>12 metres</dd>
               <dt>Mass</dt>
@@ -71,7 +71,7 @@ groups:
       - name: '`.embed`'
         details:
           - 'The wrapper class for making responsive embedded resources like images and videos.'
-      - name: '`.embed__item`'
+      - name: '`.embed-item`'
         details:
           - 'The class to be added directly to the embedded image or video.'
       - name: '*Embed container example*'
@@ -79,49 +79,49 @@ groups:
           - |
             ```html
             <figure>
-              <div class="embed embed--4by3">
-                <img class="embed__item" src="dinos.jpg" alt="">
+              <div class="embed embed-4by3">
+                <img class="embed-item" src="dinos.jpg" alt="">
               </div>
               <figcaption>Dinosaurs frolicking in the barren landscape</figcaption>
             </figure>
             ```
 
             ```html
-            <div class="embed embed--16by9">
-              <video class="embed__item" src="dinos-frolicking.mp4" controls></video>
+            <div class="embed embed-16by9">
+              <video class="embed-item" src="dinos-frolicking.mp4" controls></video>
             </div>
             ```
-      - name: '`.embed--1by1`'
+      - name: '`.embed-1by1`'
         details:
           - 'Square.'
-      - name: '`.embed--4by3`'
+      - name: '`.embed-4by3`'
         details:
           - 'Traditional TV/computer screens.'
-      - name: '`.embed--iso216`'
+      - name: '`.embed-iso216`'
         details:
           - 'A-standard paper sizes.'
-      - name: '`.embed--3by2`'
+      - name: '`.embed-3by2`'
         details:
           - 'Classic 35 mm film & most digital photos, landscape.'
-      - name: '`.embed--2by3`'
+      - name: '`.embed-2by3`'
         details:
           - 'Classic 35 mm film & most digital photos, portrait.'
-      - name: '`.embed--golden`'
+      - name: '`.embed-golden`'
         details:
           - 'The Golden Ratio.'
-      - name: '`.embed--16by9`'
+      - name: '`.embed-16by9`'
         details:
           - 'HDTV.'
-      - name: '`.embed--185by100`'
+      - name: '`.embed-185by100`'
         details:
           - 'Common widescreen cinema.'
-      - name: '`.embed--24by10`'
+      - name: '`.embed-24by10`'
         details:
           - 'Widescreen cinema: 2.4:1.'
-      - name: '`.embed--3by1`'
+      - name: '`.embed-3by1`'
         details:
           - 'Panorama photos.'
-      - name: '`.embed--4by1`'
+      - name: '`.embed-4by1`'
         details:
           - 'Polyvision.'
       - name: '*Making a new ratio*'
@@ -134,16 +134,16 @@ groups:
       - name: '`.media`'
         details:
           - 'A wrapper class to surround image & text groups, especially if the images is to be beside the text.'
-      - name: '`.media__img`'
+      - name: '`.media-img`'
         details:
           - 'A class for adding to the image, or surrounding `<div>`, within the media object.'
-      - name: '`.media__body`'
+      - name: '`.media-body`'
         details:
           - 'A class to add to the text, or surrounding `<div>`, within the media object.'
-      - name: '`.media__img--reversed`'
+      - name: '`.media-img-reversed`'
         details:
           - 'Instead of floating the image left it will `float: right`'
-      - name: '`.media__img--stacked`'
+      - name: '`.media-img-stacked`'
         details:
           - 'Will disable floating and have the image above the text instead.'
       - name: '*Media object example*'
@@ -151,10 +151,10 @@ groups:
           - |
             ```html
             <div class="media">
-              <div class="media__img media__img--reversed">
+              <div class="media-img media-img-reversed">
                 <img src="images/parsnips.jpg" alt="">
               </div>
-              <div class="media__body">
+              <div class="media-body">
                 <h2 class="media-title">Parsnips</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
@@ -174,22 +174,22 @@ groups:
       - name: '`.icon-link`'
         details:
           - 'Can be added to the surrounding `<a>` tag to remove the `text-decoration`'
-      - name: '`.i--16`'
+      - name: '`.i-16`'
         details:
           - 'A 16 × 16 pixel sized icon.'
-      - name: '`.i--18`'
+      - name: '`.i-18`'
         details:
           - 'A 18 × 18 pixel sized icon.'
-      - name: '`.i--24`'
+      - name: '`.i-24`'
         details:
           - 'A 24 × 24 pixel sized icon.'
-      - name: '`.i--32`'
+      - name: '`.i-32`'
         details:
           - 'A 32 × 32 pixel sized icon.'
-      - name: '`.i--48`'
+      - name: '`.i-48`'
         details:
           - 'A 48 × 48 pixel sized icon.'
-      - name: '`.i--64`'
+      - name: '`.i-64`'
         details:
           - 'A 64 × 64 pixel sized icon.'
       - name: '*Icons example*'
@@ -197,13 +197,13 @@ groups:
           - |
             ```html
             <a class="icon-link" href="#">
-              <i class="icon i--32 i--github"></i>
+              <i class="icon i-32 i-github"></i>
               <span class="icon-label">GitHub</span>
             </a>
             ```
 
             ```css
-            .i--github {
+            .i-github {
               background-image: url("../img/github.svg");
             }
             ```
@@ -270,10 +270,10 @@ groups:
       - name: '`.btn`'
         details:
           - 'A very basic button style for prototyping websites.'
-      - name: '`.btn--light`'
+      - name: '`.btn-light`'
         details:
           - 'An alternative button style for prototyping websites.'
-      - name: '`.btn--ghost`'
+      - name: '`.btn-ghost`'
         details:
           - 'A third button style for prototyping websites.'
       - name: '`.link-box`'
@@ -284,7 +284,7 @@ groups:
           - |
             ```html
             <a class="btn" href="#">Buy Now</a>
-            <a class="btn btn--ghost" href="#">See all the features</a>
+            <a class="btn btn-ghost" href="#">See all the features</a>
             ```
 
   - title: 'Forms'

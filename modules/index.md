@@ -157,31 +157,14 @@ If you have a [modular type system](http://typografier.web-dev.tools) you can us
 
 ## Naming conventions
 
-There are a couple major naming conventions for modular CSS that help clarify the intent of our classes and help us visualize the HTML by ust looking at the CSS classes.
+There are a couple major naming conventions for modular CSS that help clarify the intent of our classes and help us visualize the HTML by just looking at the CSS classes.
 
-- [BEM](http://bem.info/)
-- [SMACSS](http://smacss.com/)
+- When we looked at icons, that naming system comes from [**SMACSS**](http://smacss.com/).
+- The [**BEM**](http://bem.info/) naming convention takes naming a little further by using double underscores or double hyphens to represent certain ideas—this can be seen in the embed containers.
 
-Part of what we learned today comes directly from SMACSS: the icon naming conventions.
-
-BEM takes naming a little further by using double underscores or double hyphens to represent certain ideas.
+**Links**
 
 - [Getting Your Head Around BEM Syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
-
-```html
-<div class="media media--highlighted">
-  <div class="media__img"></div>
-  <div class="media__body"></div>
-</div>
-```
-
-1. Name your component with a descriptive phrase, e.g. `media`
-2. Any classes that modify an original, base class, are separated with hyphens, e.g. `media--highlighted`
-3. Any classes that represent pieces that are inside of the original class, or sub-components, are separated with underscores, e.g. `media__body`
-
-I find it helpful to remember that when using **under**scores the element is **under** the original component.
-
-Some people find this naming convention a little over-the-top—and I admit that sometimes I do myself. If you’re one of those people, that’s no problem, but keep the naming consistent for you and your team.
 
 ---
 

@@ -30,7 +30,7 @@ groups:
       - name: '*SVG helpers*'
         details:
           - 'Will fix a browser bug related to embedded SVG.'
-          - 'Add the ability for embedded SVG to inherit `fill` and `stroke` from the CSS `color` property.'
+          - 'Add the ability for embedded SVG to inherit `fill` from the CSS `color` property.'
       - name: '`.image-replacement`, `.ir`'
         details:
           - 'Add a class, and a shorter version, that will hide all the text inside an element and allow only the `background-image` to show.'

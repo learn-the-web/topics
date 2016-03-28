@@ -31,7 +31,7 @@ groups:
             ```
       - name: '*Small* (400)'
         details:
-          - '**400px – 600px**'
+          - '**400px – 608px**'
           - 'Media query: `25em`'
           - 'Font-size: `100%` (16px)'
           - 'Line-height: `1.3` (130%)'
@@ -47,9 +47,9 @@ groups:
 
             }
             ```
-      - name: '*Medium* (600)'
+      - name: '*Medium* (608)'
         details:
-          - '**600px – 960px**'
+          - '**608px – 960px**'
           - 'Media query: `38em`'
           - 'Font-size: `110%` (17px)'
           - 'Line-height: `1.4` (140%)'
@@ -67,7 +67,7 @@ groups:
             ```
       - name: '*Large* (960)'
         details:
-          - '**960px – 1500px**'
+          - '**960px – 1440px**'
           - 'Media query: `60em`'
           - 'Font-size: `120%` (19px)'
           - 'Line-height: `1.5` (150%)'
@@ -83,9 +83,9 @@ groups:
 
             }
             ```
-      - name: '*Extra large* (1500)'
+      - name: '*Extra large* (1440)'
         details:
-          - '**1500px+**'
+          - '**1440px+**'
           - 'Media query: `90em`'
           - 'Font-size: `130%` (20px)'
           - 'Line-height: `1.5` (150%)'

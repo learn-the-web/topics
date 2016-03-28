@@ -26,8 +26,7 @@ groups:
           - |
             ```css
             html {
-              font-size: 100%;
-              line-height: 1.3;
+              font: normal 100%/1.3 sans-serif;
             }
             ```
       - name: '*Small* (400)'

@@ -5,8 +5,16 @@ css-animations-effects:
 
 advanced-svg:
   title: "Advanced SVG"
-  tags: "writing advance svg embedding html hover transition animations masks filters patterns text webfonts gradients icons symbols"
+  tags: "writing advance svg embedding html hover transition animation mask filter pattern text webfonts gradients icons symbols"
   desc: "Writing and using SVG in more complex scenarios with animations, transitions, and other effects."
+
+svg-cheat-sheet:
+  title: "SVG cheat sheet"
+  tags: "svg advanced embedding html hover transition animation rect circle polygon mask filter text gradients webfonts icons symbols styling"
+  desc: "A cheat sheet for SVG code, syntax, common patterns and techniques."
+  cheatsheet: true
+  indent: 1
+  highlight: true
 
 javascript-syntax:
   title: "Javascript syntax"

@@ -38,6 +38,26 @@ groups:
           - 'The `%3E` must be escaped with `%3E`'
           - 'The `#` must be escaped with `%23`'
           - The `"` must be replaced with `'`
+      - name: '*View box*'
+        details:
+          - 'Controls the artboard of the SVG—like in Illustrator.'
+          - |
+            ```xml
+            <svg viewBox="0 0 256 256"></svg>
+            ```
+          - 'Graphics that exist outside the viewbox will be cropped or changed—based on `preserveAspectRatio`'
+      - name: '*Preserve aspect ratio*'
+        details:
+          - 'Controls how the graphics inside the artboard are adjusted when the SVG’s width/height are changed.'
+          - |
+            ```xml
+            <svg preserveAspectRatio="xMidYMid"></svg>
+            ```
+          - '`none`—stretch the graphic to fill the space.'
+          - '`xMidYMid`—uniform scaling, aligning to the middle.'
+          - '`xMinYMin`—uniform scaling, aligning to the top-left.'
+          - '`xMaxYMax`—uniform scaling, aligning to the bottom-right.'
+          - '*And everything else in between: think of the viewBox having 9 different anchor points for the graphic.*'
 
   - title: 'Shapes'
     items:
@@ -64,12 +84,14 @@ groups:
         details:
           - |
             ```xml
-            <rect x="0" y="0" width="256" height="64" />
+            <rect x="0" y="0" width="256" height="64" rx="5" ry="5" />
             ```
           - '`x`—the top left corner’s “x” coordinate.'
           - '`y`—the top left corder’s “y” coordinate.'
           - '`width`—the horizontal size of the rectangle.'
           - '`height`—the vertical size of the rectangle.'
+          - '`rx`—for adding rounded corners; the horizontal radius of the rounding circle.'
+          - '`ry`—for adding rounded corners; the vertical radius of the rounding circle.'
       - name: '*Polygons*'
         details:
           - 'A non-rectangular shape.'
@@ -100,9 +122,16 @@ groups:
             <polyline points="0,256 50,150 100,100 150,50" />
             ```
           - '`points`—defines the coordinates of each position of the line—the format is: `x,y x,y…`'
-      # - name: '*Paths*'
-        # details:
-          # - ''
+      - name: '*Paths*'
+        details:
+          - 'Paths, like Illustrator, multiple anchors with handles.'
+          - |
+            ```xml
+            <path d="M100,160 Q128,190 156,160" />
+            ```
+          - '`d`—full of points and coordinates to control the path and its handles.'
+          - '*Generally this is written by a program, like Illustrator, not written by hand.*'
+          - '[See the `path` documentation for more details](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d).'
 
   - title: 'Grouping & naming'
     items:
@@ -111,41 +140,71 @@ groups:
           - 'Use the `<g>` tag to group elements together.'
           - |
             ```xml
-              <svg width="256" height="256" viewBox="0 0 256 256">
-                <g>
-                  <circle cx="100" cy="100" r="100" />
-                  <rect x="0" y="0" width="256" height="64" />
-                  <polyline points="0,256 50,150 100,100 150,50" />
-                </g>
-              </svg>
+            <svg width="256" height="256" viewBox="0 0 256 256">
+              <g>
+                <circle cx="100" cy="100" r="100" />
+                <rect x="0" y="0" width="256" height="64" />
+                <polyline points="0,256 50,150 100,100 150,50" />
+              </g>
+            </svg>
             ```
       - name: '*Classes*'
         details:
           - 'The `class` attribute can be added to any element.'
           - |
             ```xml
-              <svg class="dino" width="256" height="256" viewBox="0 0 256 256">
-                <g class="head">
-                  <circle class="eye" cx="100" cy="100" r="100" />
-                  <rect class="nose" x="0" y="0" width="256" height="64" />
-                </g>
-              </svg>
+            <svg class="dino" width="256" height="256" viewBox="0 0 256 256">
+              <g class="head">
+                <circle class="eye" cx="100" cy="100" r="100" />
+                <rect class="nose" x="0" y="0" width="256" height="64" />
+              </g>
+            </svg>
             ```
       - name: '*IDs*'
         details:
           - 'The `ID` attribute can be added to any element.'
           - |
             ```xml
-              <svg id="dino" width="256" height="256" viewBox="0 0 256 256">
-                <g id="head">
-                  <circle id="eye" cx="100" cy="100" r="100" />
-                  <rect id="nose" x="0" y="0" width="256" height="64" />
-                </g>
-              </svg>
+            <svg id="dino" width="256" height="256" viewBox="0 0 256 256">
+              <g id="head">
+                <circle id="eye" cx="100" cy="100" r="100" />
+                <rect id="nose" x="0" y="0" width="256" height="64" />
+              </g>
+            </svg>
             ```
           - '*Remember that the ID is unique: it can only be used once per SVG graphic & once per HTML file.*'
+      - name: '*Symbols*'
+        details:
+          - 'Creating reusable graphics for within the SVG—great for making icons.'
+          - |
+            ```xml
+            <symbol id="icon-smiley" viewBox="0 0 256 256">
+              <circle cx="128" cy="128" r="120" />
+              <circle cx="100" cy="104" r="12" />
+              <circle cx="156" cy="104" r="12" />
+              <path d="M100,160 Q128,190 156,160" />
+              <rect x="97" y="66" width="6" height="32" rx="4" ry="4" />
+              <rect x="153" y="66" width="6" height="32" rx="4" ry="4" />
+            </symbol>
+            ```
+      - name: '*Using symbols*'
+        details:
+          - 'The `<use>` is how we use previously defined symbols.'
+          - |
+            ```xml
+            <use xlink:href="#icon-smiley" />
+            ```
+      - name: '*Definitions*'
+        details:
+          - 'Create shapes and graphics that won’t be visible until used in other places like gradients, paths for text, masks, etc.'
+          - |
+            ```xml
+            <defs>
+              <path id="arc" d="M100,160 Q128,190 156,160" />
+            </defs>
+            ```
 
-  - title: 'Styling'
+  - title: 'Styling shapes'
     items:
       - name: '*Fill*'
         details:
@@ -157,9 +216,32 @@ groups:
             </g>
             ```
           - '`fill`—used to set the color of a shape. Can use any colour format: keywords, `#` hex, `rgb()`, `rgba()`'
-          - 'Can be put on any element including the `<svg>` element.'
+          - '*Can be put on any element including the `<svg>` element.*'
+      - name: '*Opacity*'
+        details:
+          - 'Same as CSS.'
+          - |
+            ```xml
+            <circle opacity=".5" fill="orange" cx="100" cy="100" r="100" />
+            ```
+      - name: '*Gradients*'
+        details:
+          - |
+            ```xml
+            <defs>
+              <linearGradient id="the-gradient">
+                <stop offset="0%" stop-color="orange" />
+                <stop offset="100%" stop-color="red" />
+              </linearGradient>
+            </defs>
+            <circle fill="url(#the-gradient)" cx="100" cy="100" r="100" />
+            ```
+
+  - title: 'Styling strokes'
+    items:
       - name: '*Stroke*'
         details:
+          - 'Adds a line around the outside of a shape or along a path.'
           - |
             ```xml
             <circle stroke="orange" cx="100" cy="100" r="100" />
@@ -172,6 +254,42 @@ groups:
             <circle stroke-width="10" stroke="orange" cx="100" cy="100" r="100" />
             ```
           - '`stroke-width`—used to set the thickness of the stroke.'
+      - name: '*Stroke opacity*'
+        details:
+          - |
+            ```xml
+            <circle stroke-opacity=".5" stroke="orange" cx="100" cy="100" r="100" />
+            ```
+          - '`stroke-opacity`—used to set the transparency of the stroke itself.'
+      - name: '*Stroke line cap*'
+        details:
+          - |
+            ```xml
+            <circle stroke-linecap="round" stroke="orange" cx="100" cy="100" r="100" />
+            ```
+          - '`stroke-linecap`—used to control the end of strokes: `butt`, `round`, `square`.'
+      - name: '*Stroke line join*'
+        details:
+          - |
+            ```xml
+            <circle stroke-linejoin="bevel" stroke="orange" cx="100" cy="100" r="100" />
+            ```
+          - '`stroke-linejoin`—used to control the corner style of strokes: `miter`, `round`, `bevel`.'
+      - name: '*Stroke miter limit*'
+        details:
+          - |
+            ```xml
+            <circle stroke-miterlimit="4" stroke="orange" cx="100" cy="100" r="100" />
+            ```
+          - '`stroke-miterlimit`—when two stroke corners meet they can sometimes make very long pointy triangles—this controls how long they are.'
+      - name: '*Line dashes*'
+        details:
+          - |
+            ```xml
+            <line stroke-dasharray="4,6" x1="0" y1="0" x2="256" y2="256" />
+            ```
+          - '`stroke-dasharray`—creates dashed lines for strokes'
+          - 'The `4,6` means: “4 pixel dash followed by 6 pixel space.”'
 
   - title: 'Text'
     items:
@@ -190,11 +308,151 @@ groups:
             ```xml
             <text x="0" y="0">
               Dimetrodon is
-              <tspan font-style="italic">not</tspan>
+              <tspan fill="limegreen">not</tspan>
               a dinosaur.
             </text>
             ```
           - 'The `tspan` element is used to surround words inside `<text>`'
           - 'It has the same purpose as HTML’s `<span>` element.'
+      - name: '*Text adjustments*'
+        details:
+          - |
+            ```xml
+            <text x="0" y="0">
+              Dimetrodon is
+              <tspan dy="-30">not</tspan>
+              a dinosaur.
+            </text>
+            ```
+          - '`dx`—adjust the text horizontally in relation to where it is currently.'
+          - '`dy`—adjust the text vertically in relation to where it is currently.'
+      - name: '*Text on a path*'
+        details:
+          - 'Make text follow along with a path.'
+          - |
+            ```xml
+            <defs>
+              <path id="arc" d="M100,160 Q128,190 156,160" />
+            </defs>
+            <textPath xlink:href="#arc">Dinosaurs!</textPath>
+            ```
+
+  - title: 'Styling text'
+    items:
+      - name: '*Font family*'
+        details:
+          - 'Same as CSS.'
+          - |
+            ```xml
+            <text font-family="Georgia, serif">Dinosaurs!</text>
+            ```
+      - name: '*Font size*'
+        details:
+          - 'Same as CSS.'
+          - |
+            ```xml
+            <text font-size="1.5rem">Dinosaurs!</text>
+            ```
+      - name: '*Font weight*'
+        details:
+          - 'Same as CSS.'
+          - |
+            ```xml
+            <text font-weight="bold">Dinosaurs!</text>
+            ```
+      - name: '*Font style*'
+        details:
+          - 'Same as CSS.'
+          - |
+            ```xml
+            <text font-style="italic">Dinosaurs!</text>
+            ```
+      - name: '*Text decoration*'
+        details:
+          - 'Same as CSS.'
+          - |
+            ```xml
+            <text text-decoration="none">Dinosaurs!</text>
+            ```
+      - name: '*Letter spacing*'
+        details:
+          - 'Same as CSS.'
+          - |
+            ```xml
+            <text letter-spacing="30">Dinosaurs!</text>
+            ```
+      - name: '*Text length*'
+        details:
+          - 'Space out the letters to fill a specific width.'
+          - |
+            ```xml
+            <text textLength="900">Dinosaurs!</text>
+            ```
+      - name: '*Gradients*'
+        details:
+          - 'Same as gradients on shapes.'
+          - |
+            ```xml
+            <defs>
+              <linearGradient id="the-gradient">
+                <stop offset="0%" stop-color="limegreen" />
+                <stop offset="100%" stop-color="green" />
+              </linearGradient>
+            </defs>
+            <text fill="url(#the-gradient)">Dinosaurs!</text>
+            ```
+
+  - title: 'Styling with CSS'
+    items:
+      - name: '*Styling shapes*'
+        details:
+          - 'Many of the styling attributes listed above for shapes & lines can also be used in CSS.'
+          - |
+            ```xml
+            <circle class="face" cx="128" cy="128" r="120" />
+            ```
+          - |
+            ```css
+            .face {
+              fill: yellow;
+              stroke: #000;
+              stroke-width: 6px;
+              stroke-dasharray: 4,4;
+            }
+            ```
+      - name: '*Styling text*'
+        details:
+          - 'Many of the styling attributes listed above for text can also be used in CSS.'
+          - |
+            ```xml
+            <text class="dinos">Dinosaurs!</text>
+            ```
+          - |
+            ```css
+            .dinos {
+              font-family: Georgia, serif;
+              font-style: italic;
+              font-size: 1.5rem;
+            }
+            ```
+      - name: '*Styling effects*'
+        details:
+          - 'Many of the effect related attributes can also be styled in CSS.'
+          - |
+            ```xml
+            <rect class="box" x="0" y="0" width="256" height="64" />
+            ```
+          - |
+            ```css
+            .box {
+              fill: limegreen;
+              transform: rotate(45deg);
+              transition: all .25s linear;
+            }
+
+            .box:hover {
+              fill: orange;
+            }
+            ```
 
 ---

@@ -140,13 +140,11 @@ groups:
           - 'Use the `<g>` tag to group elements together.'
           - |
             ```xml
-            <svg width="256" height="256" viewBox="0 0 256 256">
-              <g>
-                <circle cx="100" cy="100" r="100" />
-                <rect x="0" y="0" width="256" height="64" />
-                <polyline points="0,256 50,150 100,100 150,50" />
-              </g>
-            </svg>
+            <g>
+              <circle cx="100" cy="100" r="100" />
+              <rect x="0" y="0" width="256" height="64" />
+              <polyline points="0,256 50,150 100,100 150,50" />
+            </g>
             ```
       - name: '*Classes*'
         details:
@@ -211,6 +209,7 @@ groups:
           - |
             ```xml
             <circle fill="orange" cx="100" cy="100" r="100" />
+
             <g fill="midnightblue">
               <circle cx="100" cy="100" r="100" />
             </g>
@@ -234,6 +233,7 @@ groups:
                 <stop offset="100%" stop-color="red" />
               </linearGradient>
             </defs>
+
             <circle fill="url(#the-gradient)" cx="100" cy="100" r="100" />
             ```
 
@@ -334,6 +334,7 @@ groups:
             <defs>
               <path id="arc" d="M100,160 Q128,190 156,160" />
             </defs>
+
             <textPath xlink:href="#arc">Dinosaurs!</textPath>
             ```
 
@@ -399,8 +400,28 @@ groups:
                 <stop offset="100%" stop-color="green" />
               </linearGradient>
             </defs>
+
             <text fill="url(#the-gradient)">Dinosaurs!</text>
             ```
+
+  - title: 'Linking & images'
+    items:
+      - name: '*Links*'
+        details:
+          - |
+            ```xml
+            <a xlink:href="https://en.wikipedia.org/wiki/Dinosaurs">
+              <text>Dinosaurs!</text>
+            </a>
+            ```
+          - 'The `<a>` tag works the same in SVG, just the `href` attribute is now `xlink:href`'
+      - name: '*Images*'
+        details:
+          - |
+            ```xml
+            <image width="500" height="500" xlink:href="images/stegosaurus.jpg" />
+            ```
+          - 'Very similar to HTML’s image tag, but instead of `src` it’s `xlink:href` to point to the file.'
 
   - title: 'Styling with CSS'
     items:
@@ -454,5 +475,44 @@ groups:
               fill: orange;
             }
             ```
+
+  - title: 'Accessibility'
+    items:
+      - name: '*Titles & descriptions*'
+        details:
+          - |
+            ```xml
+            <title>Dinosaurs are among us!</title>
+            ```
+          - 'Use the `<title>` tag to add alternative text to an SVG—think of it like the `<img alt="">`'
+          - |
+            ```xml
+            <desc>Dinosaurs are living among us now—or at least their descendants—in the form of birds.</desc>
+            ```
+          - 'The `<desc>` tag is for more complex descriptions and information.'
+          - 'If the SVG was a pie-chart, for example, `<desc>` would hold all the percentages and stuff.'
+      - name: '*ARIA descriptions*'
+        details:
+          - |
+            ```xml
+            <svg aria-describedat="#dino-info"></svg>
+            ```
+          - |
+            ```html
+            <div id="dino-info">
+              <h2>Dinosaurs are among us!</h2>
+              <p>Dinosaurs are living among us now—or at least their descendants—in the form of birds.</p>
+            </div>
+            ```
+          - 'The `aria-describedat` attribute is a great way to use HTML to complement an SVG—especially if the content is really detailed.'
+      - name: '*Hiding SVGs*'
+        details:
+          - |
+            ```xml
+            <svg aria-hidden="true">
+              <text>Splatter!</text>
+            </svg>
+            ```
+          - 'The `aria-hidden="true"` attribute can be used to completely hide the graphic and its text from accessibility tools.'
 
 ---

@@ -538,6 +538,7 @@ groups:
             <title>Dinosaurs are among us!</title>
             ```
           - 'Use the `<title>` tag to add alternative text to an SVG—think of it like the `<img alt="">`'
+          - ''
           - |
             ```xml
             <desc>Dinosaurs are living among us now—or at least their descendants—in the form of birds.</desc>

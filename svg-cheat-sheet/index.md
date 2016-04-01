@@ -404,6 +404,59 @@ groups:
             <text fill="url(#the-gradient)">Dinosaurs!</text>
             ```
 
+  - title: 'Text effects'
+    items:
+      - name: '*Web fonts*'
+        details:
+          - 'First embed the font face you want to use.'
+          - |
+            ```html
+            <link href="http://fonts.googleapis.com/css?family=Denk+One" rel="stylesheet">
+            ```
+          - 'Then use the family name in the `font-family` attribute:'
+          - |
+            ```xml
+            <text font-family="Denk One" x="10" y="100">Dinosaurs!</text>
+            ```
+          - 'Or with CSS:'
+          - |
+            ```xml
+            <style>
+              text {
+                font-family: "Denk One";
+              }
+            </style>
+
+            <text x="10" y="100">Dinosaurs!</text>
+            ```
+      - name: '*Masking text*'
+        details:
+          - |
+            ```xml
+            <defs>
+              <mask id="mask">
+                <image width="500" height="200" xlink:href="images/text-mask.png" />
+              </mask>
+            </defs>
+
+            <text mask="url(#mask)">Splatter!</text>
+            ```
+          - 'The `<mask>` element inside of the definitions can be used along with the `mask=""` attribute.'
+          - 'Mask should be black and white images: the black becoming transparent & the white showing.'
+      - name: '*Texturing text*'
+        details:
+          - |
+            ```xml
+            <defs>
+              <pattern width="500" patternUnits="userSpaceOnUse" height="200" id="texture">
+                <image xlink:href="images/mars.jpg" width="800" height="500" />
+              </pattern>
+            </defs>
+
+            <text fill="url(#texture)">Mars</text>
+            ```
+          - 'The `<pattern>` element inside of the definitions can be used along with the `fill=""` attribute.'
+
   - title: 'Linking & images'
     items:
       - name: '*Links*'

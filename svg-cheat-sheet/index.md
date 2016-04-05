@@ -403,9 +403,6 @@ groups:
 
             <text fill="url(#the-gradient)">Dinosaurs!</text>
             ```
-
-  - title: 'Text effects'
-    items:
       - name: '*Web fonts*'
         details:
           - 'First embed the font face you want to use.'
@@ -429,33 +426,7 @@ groups:
 
             <text x="10" y="100">Dinosaurs!</text>
             ```
-      - name: '*Masking text*'
-        details:
-          - |
-            ```xml
-            <defs>
-              <mask id="mask">
-                <image width="500" height="200" xlink:href="images/text-mask.png" />
-              </mask>
-            </defs>
 
-            <text mask="url(#mask)">Splatter!</text>
-            ```
-          - 'The `<mask>` element inside of the definitions can be used along with the `mask=""` attribute.'
-          - 'Mask should be black and white images: the black becoming transparent & the white showing.'
-      - name: '*Texturing text*'
-        details:
-          - |
-            ```xml
-            <defs>
-              <pattern width="500" patternUnits="userSpaceOnUse" height="200" id="texture">
-                <image xlink:href="images/mars.jpg" width="800" height="500" />
-              </pattern>
-            </defs>
-
-            <text fill="url(#texture)">Mars</text>
-            ```
-          - 'The `<pattern>` element inside of the definitions can be used along with the `fill=""` attribute.'
 
   - title: 'Linking & images'
     items:
@@ -527,6 +498,142 @@ groups:
             .box:hover {
               fill: orange;
             }
+            ```
+
+  - title: 'Effects'
+    items:
+      - name: '*Hover*'
+        details:
+          - 'Using CSS we can add hover effects to any SVG element.'
+          - '*Only works if the SVG is embedded in the HTML.*'
+          - |
+            ```xml
+            <rect class="box" x="0" y="0" width="256" height="64" />
+            ```
+          - |
+            ```css
+            .box {
+              fill: green;
+            }
+
+            .box:hover {
+              fill: limegreen;
+            }
+            ```
+      - name: '*Transformations*'
+        details:
+          - 'The `transform` property in CSS actually started in SVG, so it’s an attribute or CSS.'
+          - |
+            ```xml
+            <rect transform="rotate(45)" x="0" y="0" width="256" height="64" />
+            ```
+          - 'Or in CSS:'
+          - |
+            ```css
+            rect {
+              transform: rotate(90deg);
+            }
+            ```
+
+      - name: '*Transform origin*'
+        details:
+          - 'In SVG, the transform origin for rotation is set in the `rotate()` value.'
+          - |
+            ```xml
+            <rect transform="rotate(45, 10, 10)" x="0" y="0" width="256" height="64" />
+            ```
+          - 'In CSS, we can use `transform-origin`**—but we cannot use the keywords like `center`**, it has to be set in pixels.'
+          - |
+            ```css
+            rect {
+              transform: rotate(90deg);
+              /* These pixels are within the SVGs viewport pixel measurements */
+              transform-origin: 10px 10px;
+            }
+            ```
+
+      - name: '*Transitions*'
+        details:
+          - 'Using CSS we can add transitions to any SVG element.'
+          - '*Only works if the SVG is embedded in the HTML.*'
+          - |
+            ```xml
+            <rect class="box" x="0" y="0" width="256" height="64" />
+            ```
+          - |
+            ```css
+            .box {
+              fill: green;
+              transition: all .25s linear;
+            }
+
+            .box:hover {
+              fill: limegreen;
+            }
+            ```
+      - name: '*Animations*'
+        details:
+          - 'Using CSS we can add animations to any SVG element.'
+          - '*Only works if the SVG is embedded in the HTML.*'
+          - |
+            ```xml
+            <rect class="box" x="0" y="0" width="256" height="64" />
+            ```
+          - |
+            ```css
+            .box {
+              animation: spin 2s linear;
+            }
+
+            @keyframes spin {
+              0% { transform: rotate(0); }
+              100% { transform: rotate(360deg); }
+            }
+            ```
+      - name: '*Masking*'
+        details:
+          - 'Making parts of graphics and text semi-transparent with masks.'
+          - |
+            ```xml
+            <defs>
+              <mask id="mask">
+                <image width="500" height="200" xlink:href="images/text-mask.png" />
+              </mask>
+            </defs>
+
+            <rect mask="url(#mask)" x="0" y="0" width="256" height="64" />
+            <text mask="url(#mask)">Splatter!</text>
+            ```
+          - 'The `<mask>` element inside of the definitions can be used along with the `mask=""` attribute.'
+          - 'Mask should be black and white images: the black becoming transparent & the white showing.'
+      - name: '*Texturing & patterns*'
+        details:
+          - 'Filling inside graphics and text with a repeating texture or pattern.'
+          - |
+            ```xml
+            <defs>
+              <pattern width="500" patternUnits="userSpaceOnUse" height="200" id="texture">
+                <image xlink:href="images/mars.jpg" width="800" height="500" />
+              </pattern>
+            </defs>
+
+            <rect fill="url(#texture)" x="0" y="0" width="256" height="64" />
+            <text fill="url(#texture)">Mars</text>
+            ```
+          - 'The `<pattern>` element inside of the definitions can be used along with the `fill=""` attribute.'
+      - name: '*Filters*'
+        details:
+          - 'Filters allow graphic effects to be applied to elements and text.'
+          - |
+            ```xml
+            <defs>
+              <filter id="blur-me">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+              </filter>
+            </defs>
+
+            <rect filter="url(#blur-me)" x="0" y="0" width="256" height="64" />
+            <text filter="url(#blur-me)">Mars</text>
             ```
 
   - title: 'Accessibility'

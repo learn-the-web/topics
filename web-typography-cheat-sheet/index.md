@@ -56,7 +56,10 @@ groups:
       - name: '`color`'
         details:
           - 'The colour of the text.'
-          - '*Example:* `color: red;`'
+          - |
+            ```css
+            color: red;
+            ```
           - '[☛ See CSS colour reference.](/topics/css-selectors-units-cheat-sheet/#colours)'
       - name: '`font-family`'
         details:
@@ -64,74 +67,164 @@ groups:
           - 'Put quotes around typefaces with spaces in their names.'
           - '*Always provide a fallback typeface.*'
           - '*Web safe fonts:* Georgia, Arial, Verdana, Times, Comic Sans, Courier.'
-          - '*Example:* `font-family: "Open Sans", sans-serif;`'
+          - |
+            ```css
+            font-family: "Open Sans", sans-serif;
+            ```
       - name: '`font-size`'
         details:
           - 'Change the size of the text.'
           - 'Prefer `rem` or `em` units.'
-          - '*Example:* `font-size: 1.5rem;`'
+          - |
+            ```css
+            font-size: 1.5rem;
+            ```
       - name: '`font-weight`'
         details:
           - 'Change the thickness of the text.'
           - '`bold`, `normal`, number: `400`, `700`, etc.'
-          - '*Example:* `font-weight: bold;`'
+          - |
+            ```css
+            font-weight: bold;
+            ```
       - name: '`font-style`'
         details:
           - 'Change the slanting of the text.'
           - '`italic`, `normal`'
-          - '*Example:* `font-style: italic;`'
+          - |
+            ```css
+            font-style: italic;
+            ```
       - name: '`line-height`'
         details:
           - 'Adjust the space a line takes up, similar to leading.'
           - 'Set in a number, a multiplier of the font size.'
-          - '*Example:* `line-height: 1.4;`'
+          - |
+            ```css
+            line-height: 1.4;
+            ```
       - name: '`text-align`'
         details:
           - 'Adjust the position of the text within its parent.'
           - '`left`, `right`, `center`, `justify`'
-          - '*Example:* `text-align: center;`'
+          - |
+            ```css
+            text-align: center;
+            ```
       - name: '`text-decoration`'
         details:
           - 'Add or remove lines on the text.'
           - '`none`, `underline`, `line-through`, `overline`'
-          - '*Example:* `text-decoration: underline;`'
+          - |
+            ```css
+            text-decoration: none;
+            ```
       - name: '`text-transform`'
         details:
           - 'Change the capitalization of the text.'
           - '`uppercase`, `lowercase`, `capitalize`'
-          - '*Example:* `text-transform: uppercase;`'
+          - |
+            ```css
+            text-transform: uppercase;
+            ```
       - name: '`text-indent`'
         details:
           - 'Indent the first line of text.'
           - 'Set the number in ems.'
-          - '*Example:* `text-indent: .8em;`'
+          - |
+            ```css
+            text-indent: .8em;
+            ```
       - name: '`text-shadow`'
         details:
           - 'Add a drop shadow to the text.'
           - 'Needs four properties: *horizontal offset*, *vertical offset*, *blur radius*, *colour*.'
           - 'Use a comma after the colour to add more than one shadow.'
-          - '*Example:* `text-shadow: 2px 2px 5px rgba(0,0,0,.5);`'
+          - |
+            ```css
+            text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+            ```
       - name: '`text-overflow`'
         details:
           - 'Determine what happens to the text if it’s too wide for its box.'
           - 'Often requires `overflow: hidden;` to be used.'
           - '`ellipsis`, `clip`, custom: `"."`'
-          - '*Example:* `text-overflow: ellipsis;`'
+          - |
+            ```css
+            text-overflow: ellipsis;
+            ```
       - name: '`list-style-type`'
         details:
           - 'Control the style of bullets on a list.'
           - '`none`, `circle`, `disc`, `square`, `decimal`, `lower-alpha`, `lower-roman`, `lower-greek`'
-          - '*Example:* `list-style-type: square;`'
+          - |
+            ```css
+            list-style-type: square;
+            ```
       - name: '`font`'
         details:
           - 'Shorthand property for specifying lots of font details.'
           - '*Syntax:* `font: [font-style] [font-variant] font-weight font-size/line-height font-family;`'
-          - '*Example:* `font: normal 100%/1.5 sans-serif;`'
+          - |
+            ```css
+            font: normal 100%/1.5 sans-serif;
+            ```
+      - name: '`letter-spacing`'
+        details:
+          - 'Controls the space between the different letters.'
+          - |
+            ```css
+            letter-spacing: .3em;
+            ```
+      - name: '`word-spacing`'
+        details:
+          - 'Controls the space between the different words.'
+          - |
+            ```css
+            word-spacing: 1em;
+            ```
+      - name: '`white-space`'
+        details:
+          - 'Controls how the text wraps.'
+          - '`normal`, `nowrap`, `pre`'
+          - |
+            ```css
+            white-space: nowrap;
+            ```
+      - name: '`word-wrap`'
+        details:
+          - 'Controls whether the browser is allowed to break really long words.'
+          - '`normal`, `break-word`'
+          - |
+            ```css
+            word-wrap: break-word;
+            ```
+      - name: '`::first-line`'
+        details:
+          - 'Select the first line of text.'
+          - 'Good for highlighting the first line of a paragraph.'
+          - |
+            ```css
+            p::first-line {}
+            ```
+      - name: '`::first-letter`'
+        details:
+          - 'Select the first character in the text.'
+          - 'Good for drop caps.'
+          - |
+            ```css
+            p::first-letter {}
+            ```
       - name: '`::selection`'
         details:
           - 'Not a property, but a selector.'
           - 'Style an element when it has been selected and highlighted.'
-          - '*Example:* `::selection { color: red; }`'
+          - |
+            ```css
+            ::selection {
+              color: red;
+            }
+            ```
 
   - title: 'Experimental properties'
     note: 'These properties may not work in all browsers and may have a major performance impact.'

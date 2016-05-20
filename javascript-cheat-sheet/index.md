@@ -28,10 +28,10 @@ groups:
             x++ // 5
             y % 4 // 2
 
-            x += y; // 11 — same as: x = x + y'
-            x -= y; // -2 — same as: x = x - y'
-            x *= y; // 30 — same as: x = x * y'
-            x /= y; // 0.833 — same as: x = x / y'
+            x += y; // same as: x = x + y'
+            x -= y; // same as: x = x - y'
+            x *= y; // same as: x = x * y'
+            x /= y; // same as: x = x / y'
             ```
       - name: '*Logic*'
         details:

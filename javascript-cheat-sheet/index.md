@@ -14,10 +14,25 @@ groups:
           - '`%` — modulus: get the remainder.'
           - '`++` — add 1 onto the number.'
           - '`--` — subtract 1 from the number.'
-          - '`+=` — shorthand add: x += y would mean x = x + y.'
-          - '`-=` — shorthand subtract: x -= y would mean x = x - y.'
-          - '`*=` — shorthand multiply: x *= y would mean x = x * y.'
-          - '`/=` — shorthand divide: x /= y would mean x = x / y.'
+          - '`+=` — shorthand add'
+          - '`-=` — shorthand subtract'
+          - '`*=` — shorthand multiply'
+          - '`/=` — shorthand divide'
+          - |
+            &nbsp;
+
+            ```js
+            var x = 4;
+            var y = 6;
+
+            x++ // 5
+            y % 4 // 2
+
+            x += y; // 11 — same as: x = x + y'
+            x -= y; // -2 — same as: x = x - y'
+            x *= y; // 30 — same as: x = x * y'
+            x /= y; // 0.833 — same as: x = x / y'
+            ```
       - name: '*Logic*'
         details:
           - '`==` — check if values are the same.'
@@ -39,6 +54,8 @@ groups:
           - '`document.documentElement.clientWidth` — the width of the viewport.'
           - '`document.documentElement.clientHeight` — the height of the viewport.'
           - |
+            &nbsp;
+
             ```js
             // Random between two numbers
             var rand = Math.floor(Math.random() * (max - min)) + min;

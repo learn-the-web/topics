@@ -221,4 +221,4 @@ Very often a space will be shown as a tiny dot & tabs will be shown and little a
 ## Supplemental links
 
 - [Code Guide](http://codeguide.co/)
-- [Google HTML/CSS Style Guide](https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.xml)

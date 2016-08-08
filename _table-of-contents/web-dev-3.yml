@@ -1,3 +1,37 @@
+organization:
+  title: "Website file organization"
+  tags: "on off github assets production design content www version control dropbox invision"
+  desc: "How to organize all the different files associated with websites."
+
+image-formats:
+  title: "Images for the web"
+  tags: "images web jpeg png svg gif saving exporting save for web compression smushing optimization performance speed filesize imageoptim alpha favicons download"
+  desc: "What images formats can be used on the web and how to properly export them."
+
+using-images:
+  title: "Using images"
+  indent: 1
+  tags: "using images figures captions background foreground url aspect ratio size attachment repeat multiple linear radial repeating gradients sprites replacement hide text patterns border images"
+  desc: "Different ways to use images in a website including foreground and background images."
+
+images-for-retina:
+  title: "Images for retina screens"
+  indent: 1
+  tags: "retina hi dpi compression compressive save for web double size source sets picture source jpeg png svg images"
+  desc: "How to properly set up images for retina screens."
+
+images-cheat-sheet:
+  title: "Images cheat sheet"
+  tags: "images png jpg svg gif web compression cheat sheet"
+  desc: "A cheat sheet covering the basics of web image formats, compression, and use."
+  cheatsheet: true
+  indent: 1
+
+before-after:
+  title: "Before & after pseudo elements"
+  tags: "before after pseudo elements content hidden bullets quotations marks clearfix border box "
+  desc: "Understanding the hidden before and after pseudo elements, how to style them, and what they’re helpful for."
+
 css-animations-effects:
   title: "CSS animations & effects"
   tags: "css animations effects transitions transform rotate skew translate target step keyframes webkit vendor prefixes parallax scrolling"
@@ -16,62 +50,47 @@ svg-cheat-sheet:
   indent: 1
   highlight: true
 
-javascript-syntax:
-  title: "Javascript syntax"
-  tags: "javascript introduction syntax flow comments variables strings numbers booleans arrays objects functions arguments if statement for while foreach loops switch debugging"
-  desc: "Looking at understanding how to write Javascript code."
+browser-testing:
+  title: "Browser testing"
+  tags: "mozilla firefox opera safari google chrome microsoft internet explorer ios safari android mini windows phone browser testing"
+  desc: "Testing your website in the myriad of browsers that are connected to the web."
+
+browser-testing-checklist:
+  title: "Browser testing checklist"
+  tags: "browser testing checklist"
+  desc: "A checklist covering what to look for and how to test in other browsers."
+  indent: 1
+  highlight: true
+  checklist: true
+
+accessibility:
+  title: "Accessibility"
+  tags: "accessibility humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers VoiceOver braille"
+  desc: "Making our website work well for every human being regardless of their abilities."
   highlight: true
 
-dom:
-  title: "Document object model (DOM)"
-  tags: "javascript html elements tags manipulate document object model jquery events click propagation delegation classes forms html"
-  desc: "Understanding how Javascript interfaces and manipulates with HTML."
-  indent: 1
-
-javascript-debugging:
-  title: "Javascript debugging"
-  tags: "javascript debugging jshint eslint jslint developer tools inspect element console log"
-  desc: "Some simple techniques to debug Javascript code in your browser."
-  indent: 1
-
-javascript-cheat-sheet:
-  title: "Javascript cheat sheet"
-  tags: "javascript app code cheat sheet"
-  desc: "A cheat sheet for Javascript code, syntax and common application development techniques."
-  cheatsheet: true
-  indent: 1
-
-javascript-checklist:
-  title: "Javascript checklist"
-  tags: "javascript app code checklist"
-  desc: "A checklist for Javascript code, syntax and common things to check for before launch."
+accessibility-checklist:
+  title: "Accessibility checklist"
+  tags: "accessibility humans impairments universal design checklist"
+  desc: "A checklist for double checking the accessibility features of your website."
   checklist: true
   indent: 1
 
-javascript-components:
-  title: "Common Javascript components"
-  tags: "javascript common components tabs toggle panels buttons lightbox data filter"
-  desc: "Creating common Javascript webpage components like tabs, lightboxes, and panels."
+performance:
+  title: "Performance"
+  tags: "performance speed images web page test page speed yslow cost download time mobile friendly validation"
+  desc: "Making the fastest website possible and understanding what impacts the speed of your website."
+  highlight: true
 
-javascript-effects:
-  title: "Javascript effects"
-  tags: "javascript effects scrolling transitions animations end events waypoints smooth scroll manipulating svg"
-  desc: "Using Javascript to trigger and create lots of effects on a website like animations and scrolling effects."
+performance-checklist:
+  title: "Performance checklist"
+  tags: "performance speed download checklist"
+  desc: "A checklist for website performance validation."
+  checklist: true
+  indent: 1
 
-javascript-accessibility:
-  title: "Javascript & accessibility"
-  tags: "javascript animations events common components tabs toggle panels buttons lightbox accessibility focus keyboard wai aria"
-  desc: "Looking at common Javascript patterns & components and how we can make them more accessible."
-
-responsive-animated-dashboard:
-  title: "Responsive animated dashboard"
+from-wireframe-to-website:
+  title: "From wireframe to website"
   fullsite: true
-  tags: "full website responsive javascript dashboard animations transitions effects svg"
-  desc: "Walking through creating a complex, responsive, interactive, and animated dashboard interface."
-
-launch-checklist-web-dev-3:
-  title: "Launch checklist, Web Dev 3"
-  highlight: true
-  tags: "launch checklist double check validators link checkers usability browser testing analytics monitoring"
-  desc: "A checklist of things to check on your website before you launch it, for Web Dev 3."
-  checklist: true
+  tags: "full website wireframe mockup production assets exporting saving save for web images layouts"
+  desc: "A full small screen website creation walk-through starting with a wireframe."

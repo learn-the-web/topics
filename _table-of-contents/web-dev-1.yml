@@ -77,19 +77,6 @@ validators:
   desc: "Using different validation tools to check for common errors in your code."
   highlight: true
 
-browser-testing:
-  title: "Browser testing"
-  tags: "mozilla firefox opera safari google chrome microsoft internet explorer ios safari android mini windows phone browser testing"
-  desc: "Testing your website in the myriad of browsers that are connected to the web."
-
-browser-testing-checklist:
-  title: "Browser testing checklist"
-  tags: "browser testing checklist"
-  desc: "A checklist covering what to look for and how to test in other browsers."
-  indent: 1
-  highlight: true
-  checklist: true
-
 box-model:
   title: "Everything is a box"
   tags: "box model width height margin padding border collapsing box background colour radius shadow"
@@ -106,35 +93,6 @@ typography-only-layout:
   desc: "A complete website layout looking at designing only the typography and ignoring images."
   fullsite: true
 
-organization:
-  title: "Website file organization"
-  tags: "on off github assets production design content www version control dropbox invision"
-  desc: "How to organize all the different files associated with websites."
-
-image-formats:
-  title: "Images for the web"
-  tags: "images web jpeg png svg gif saving exporting save for web compression smushing optimization performance speed filesize imageoptim alpha favicons download"
-  desc: "What images formats can be used on the web and how to properly export them."
-
-using-images:
-  title: "Using images"
-  indent: 1
-  tags: "using images figures captions background foreground url aspect ratio size attachment repeat multiple linear radial repeating gradients sprites replacement hide text patterns border images"
-  desc: "Different ways to use images in a website including foreground and background images."
-
-images-for-retina:
-  title: "Images for retina screens"
-  indent: 1
-  tags: "retina hi dpi compression compressive save for web double size source sets picture source jpeg png svg images"
-  desc: "How to properly set up images for retina screens."
-
-images-cheat-sheet:
-  title: "Images cheat sheet"
-  tags: "images png jpg svg gif web compression cheat sheet"
-  desc: "A cheat sheet covering the basics of web image formats, compression, and use."
-  cheatsheet: true
-  indent: 1
-
 float-clear:
   title: "Float & clear"
   tags: "float clear text wrap clearfix columns overflow hidden scrollbars"
@@ -144,6 +102,12 @@ position-zindex:
   title: "Position & z-index"
   tags: "position z index in front behind absolute static relative fixed top left bottom right coordinates"
   desc: "Learning how to layer elements on top of each other and control their layering."
+
+flexbox:
+  title: "Flexbox"
+  disabled: true
+  tags: "flexible layouts position columns display flow elements tags centering horizontal stacked grids flex boxes flexbox"
+  desc: "Flexbox is a newer, extremely powerful way of controlling layout in browsers that gives lost more control over each box."
 
 css-layout-cheat-sheet:
   title: "CSS layout cheat sheet"
@@ -162,29 +126,29 @@ small-screen-layout:
   tags: "full small screen layout display box float position columns"
   desc: "A walk-through creating a complete, small screen website."
 
-before-after:
-  title: "Before & after pseudo elements"
-  tags: "before after pseudo elements content hidden bullets quotations marks clearfix border box "
-  desc: "Understanding the hidden before and after pseudo elements, how to style them, and what they’re helpful for."
-
-performance:
-  title: "Performance"
-  tags: "performance speed images web page test page speed yslow cost download time mobile friendly validation"
-  desc: "Making the fastest website possible and understanding what impacts the speed of your website."
+all-devices-setup:
+  title: "All devices setup"
   highlight: true
+  tags: "all devices setup meta viewport width device width initial scale border box"
+  desc: "Setting up a website so it works well on any Web connected device."
 
-performance-checklist:
-  title: "Performance checklist"
-  tags: "performance speed download checklist"
-  desc: "A checklist for website performance validation."
-  checklist: true
+media-queries:
+  title: "Media queries"
+  tags: "media query queries responsive web design em based larger screens adjustments"
+  desc: "Understanding how to manipulate a website to display differently on different screen sizes."
+
+screen-sizes-cheat-sheet:
+  title: "Screen sizes cheat sheet"
+  tags: "screen sizes width media queries em responsive web design cheat sheet"
+  desc: "A cheat sheet with details on screen dimensions, common sizes, and testing."
+  cheatsheet: true
   indent: 1
 
-from-wireframe-to-website:
-  title: "From wireframe to website"
+media-queries-layout:
+  title: "Media queries layout"
   fullsite: true
-  tags: "full website wireframe mockup production assets exporting saving save for web images layouts"
-  desc: "A full small screen website creation walk-through starting with a wireframe."
+  tags: "full website media queries responsive web design em screens adjustments"
+  desc: "Creating a full, multi-screen website using media queries."
 
 launch-checklist-web-dev-1:
   title: "Launch checklist, Web Dev 1"

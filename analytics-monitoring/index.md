@@ -1,5 +1,4 @@
 ---
-group: web-dev-4
 ---
 
 Tracking analytics on your website is a good way to see how users find your content and how they interact with your site.

@@ -1,5 +1,4 @@
 ---
-group: whats-next
 ---
 
 To follow best practices outline in the industry, here is an outline of how commit messages should be formatted.

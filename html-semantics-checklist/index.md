@@ -1,6 +1,5 @@
 ---
 layout: checklist
-group: web-dev-1
 
 groups:
   - title: 'Boilerplate'

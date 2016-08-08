@@ -1,5 +1,4 @@
 ---
-group: web-dev-4
 playlist: PLWjCJDeWfDddFOJYmcgNnUIhUHcsNEBTd
 download: https://github.com/acgd-learn-the-web/search-engine-optimization-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/search-engine-optimization-code

@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr
 download: https://github.com/acgd-learn-the-web/navigation-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/navigation-code
@@ -15,13 +14,13 @@ The pattern for just about all navigations on the web follows this: a `ul` insid
 
 ```html
 <nav>
-	<ul class="nav">
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Dinosaurs</a></li>
-		<li><a href="#">Pterosaurs</a></li>
-		<li><a href="#">Plesiosaurs</a></li>
-		<li><a href="#">Mammals</a></li>
-	</ul>
+  <ul class="nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Dinosaurs</a></li>
+    <li><a href="#">Pterosaurs</a></li>
+    <li><a href="#">Plesiosaurs</a></li>
+    <li><a href="#">Mammals</a></li>
+  </ul>
 </nav>
 ```
 
@@ -39,13 +38,13 @@ Here’s what our links would look like with the above folder structure.
 
 ```html
 <nav>
-	<ul class="nav">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="dinosaurs/">Dinosaurs</a></li>
-		<li><a href="pterosaurs.html">Pterosaurs</a></li>
-		<li><a href="plesiosaurs.html">Plesiosaurs</a></li>
-		<li><a href="mammals.html">Mammals</a></li>
-	</ul>
+  <ul class="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="dinosaurs/">Dinosaurs</a></li>
+    <li><a href="pterosaurs.html">Pterosaurs</a></li>
+    <li><a href="plesiosaurs.html">Plesiosaurs</a></li>
+    <li><a href="mammals.html">Mammals</a></li>
+  </ul>
 </nav>
 ```
 
@@ -57,14 +56,14 @@ From the `dinosaurs/` folder, we would have to write the below navigation, using
 
 ```html
 <nav>
-	<ul class="nav">
-		<li><a href="../index.html">Home</a></li>
-		<!-- This doesn't need the `../` because the `dinosaurs/` index is inside the folder our file is already in -->
-		<li><a href="index.html">Dinosaurs</a></li>
-		<li><a href="../pterosaurs.html">Pterosaurs</a></li>
-		<li><a href="../plesiosaurs.html">Plesiosaurs</a></li>
-		<li><a href="../mammals.html">Mammals</a></li>
-	</ul>
+  <ul class="nav">
+    <li><a href="../index.html">Home</a></li>
+    <!-- This doesn't need the `../` because the `dinosaurs/` index is inside the folder our file is already in -->
+    <li><a href="index.html">Dinosaurs</a></li>
+    <li><a href="../pterosaurs.html">Pterosaurs</a></li>
+    <li><a href="../plesiosaurs.html">Plesiosaurs</a></li>
+    <li><a href="../mammals.html">Mammals</a></li>
+  </ul>
 </nav>
 ```
 
@@ -80,11 +79,11 @@ Highlighting the navigation is as simple as applying a class to the navigation i
 
 ```html
 <nav>
-	<ul class="nav">
-		⋮
-		<li><a class="current" href="plesiosaurs.html">Plesiosaurs</a></li>
-		⋮
-	</ul>
+  <ul class="nav">
+    ⋮
+    <li><a class="current" href="plesiosaurs.html">Plesiosaurs</a></li>
+    ⋮
+  </ul>
 </nav>
 ```
 
@@ -94,7 +93,7 @@ All we need now is a little CSS:
 
 ```css
 .current {
-	background-color: red;
+  background-color: red;
 }
 ```
 
@@ -112,7 +111,7 @@ The inline-list pattern uses `display: inline-block` on the list items to put th
 
 ```css
 .nav li {
-	display: inline-block;
+  display: inline-block;
 }
 ```
 
@@ -126,14 +125,14 @@ The footer-anchor pattern for navigation puts the navigation at the bottom, then
 
 ```html
 <header>
-	⋮
-	<a href="#nav">Navigate</a>
+  ⋮
+  <a href="#nav">Navigate</a>
 </header>
 
 ⋮
 
 <nav id="nav">
-	⋮
+  ⋮
 </nav>
 ```
 
@@ -147,8 +146,8 @@ The grid pattern is a way to use up less space at the top of the page for your n
 
 ```css
 .nav li {
-	float: left;
-	width: 50%;
+  float: left;
+  width: 50%;
 }
 ```
 
@@ -168,12 +167,12 @@ Here’s the HTML setup we’d use:
 
 ```html
 <header>
-	<input type="checkbox" class="nav-check" id="nav-check">
-	<!-- This is the button we’d click to open/close the navigation -->
-	<label class="nav-label" for="nav-check">Navigate</label>
-	<nav class="nav">
-		⋮
-	</nav>
+  <input type="checkbox" class="nav-check" id="nav-check">
+  <!-- This is the button we’d click to open/close the navigation -->
+  <label class="nav-label" for="nav-check">Navigate</label>
+  <nav class="nav">
+    ⋮
+  </nav>
 </header>
 ```
 
@@ -183,7 +182,7 @@ By default we want the navigation to be hidden, using `display: none` will work:
 
 ```css
 .nav {
-	display: none;
+  display: none;
 }
 ```
 
@@ -192,7 +191,7 @@ Then we can style the navigation only when the checkbox has been checked.
 ```css
 /* This selected targets the `.nav` only when the checkbox is checked */
 .nav-check:checked ~ .nav {
-	display: block;
+  display: block;
 }
 ```
 
@@ -200,9 +199,9 @@ We probably don’t want the checkbox to be visible, so we can hide it using `po
 
 ```css
 .nav-check {
-	/* Put the checkbox off the top of the screen */
-	position: absolute;
-	top: -3em;
+  /* Put the checkbox off the top of the screen */
+  position: absolute;
+  top: -3em;
 }
 ```
 
@@ -210,7 +209,7 @@ The final thing we need to do is highlight the navigate button when the navigati
 
 ```css
 .nav-check:checked ~ .nav-label {
-	background-color: grey;
+  background-color: grey;
 }
 ```
 

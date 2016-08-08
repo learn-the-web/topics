@@ -1,5 +1,4 @@
 ---
-group: web-dev-4
 playlist: PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_
 download: https://github.com/acgd-learn-the-web/writing-a-readme-samples/archive/master.zip
 github: https://github.com/acgd-learn-the-web/writing-a-readme-samples

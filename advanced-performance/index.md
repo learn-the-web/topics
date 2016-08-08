@@ -1,5 +1,4 @@
 ---
-group: web-dev-4
 playlist: PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ
 download: https://github.com/acgd-learn-the-web/advanced-performance-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/advanced-performance-code

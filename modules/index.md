@@ -1,5 +1,4 @@
 ---
-group: web-dev-2
 playlist: PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa
 download: https://github.com/acgd-learn-the-web/modules-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/modules-code

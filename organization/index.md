@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx
 ---
 

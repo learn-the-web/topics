@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG
 download: https://github.com/acgd-learn-the-web/flow-display-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/flow-display-code

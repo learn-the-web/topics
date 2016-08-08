@@ -1,5 +1,4 @@
 ---
-group: web-dev-4
 playlist: PLWjCJDeWfDdfL6qRH1A04rcGe624fTeCS
 download: https://github.com/acgd-learn-the-web/writing-for-the-web-samples/archive/master.zip
 github: https://github.com/acgd-learn-the-web/writing-for-the-web-samples

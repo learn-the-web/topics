@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdczBWwsw9CjC9RkfocxKDy_
 download: https://github.com/acgd-learn-the-web/typography-only-layout-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/typography-only-layout-code

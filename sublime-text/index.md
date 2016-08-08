@@ -1,5 +1,4 @@
 ---
-group: setup
 download: https://github.com/acgd-learn-the-web/sublime-text-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/sublime-text-code
 cheatsheet: snippets-cheat-sheet

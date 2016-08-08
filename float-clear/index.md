@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0
 download: https://github.com/acgd-learn-the-web/float-clear-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/float-clear-code

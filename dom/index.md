@@ -1,5 +1,4 @@
 ---
-group: web-dev-3
 playlist: PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y
 download: https://github.com/acgd-learn-the-web/dom-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/dom-code

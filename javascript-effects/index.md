@@ -1,5 +1,4 @@
 ---
-group: web-dev-3
 playlist: PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_
 download: https://github.com/acgd-learn-the-web/javascript-effects-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-effects-code

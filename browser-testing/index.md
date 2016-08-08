@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDddYntDUSf_kMRzIfHceWpVv
 checklist: browser-testing-checklist
 ---

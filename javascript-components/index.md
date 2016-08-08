@@ -1,5 +1,4 @@
 ---
-group: web-dev-3
 playlist: PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI
 download: https://github.com/acgd-learn-the-web/javascript-components-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-components-code

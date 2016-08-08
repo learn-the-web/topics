@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP
 download: https://github.com/acgd-learn-the-web/position-zindex-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/position-zindex-code

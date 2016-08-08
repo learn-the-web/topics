@@ -1,5 +1,4 @@
 ---
-group: whats-next
 ---
 
 The [web is an agreement](http://www.flickr.com/photos/psd/1805709102/) made up of various different components and standards and people.

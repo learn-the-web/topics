@@ -1,5 +1,4 @@
 ---
-group: setup
 cheatsheet: naming-paths-cheat-sheet
 ---
 
@@ -36,21 +35,21 @@ When creating a path within the same folder we only need to specify the filename
 ![](same-folder.jpg)
 
 - From: `index.html` to: `plesiosaurs.html`
-	— Path: `plesiosaurs.html`
+  — Path: `plesiosaurs.html`
 - From: `index.html` to: `pterosaurs.html`
-	— Path: `pterosaurs.html`
+  — Path: `pterosaurs.html`
 
 ![](same-folder-inside.jpg)
 
 Even if we’re inside a folder and need to get to another file in that same folder we just write the name of it.
 
 - From: `apatosaurus.html` to `tyrannosaurus.html`
-	— Path: `tyrannosaurus.html`
+  — Path: `tyrannosaurus.html`
 
 We can start these paths with `./` and get the same effect:
 
 - From: `index.html` to: `pterosaurs.html`
-	— Path: `./pterosaurs.html`
+  — Path: `./pterosaurs.html`
 
 *The `./` is implicit, meaning it will be added if we don’t add it ourselves.*
 
@@ -63,11 +62,11 @@ To write a path that moves into a folder we specify the folder name, followed by
 ![](into-folders.jpg)
 
 - From: `index.html` to: `tyrannosaurus.html`
-	— Path: `dinosaurs/tyrannosaurus.html`
+  — Path: `dinosaurs/tyrannosaurus.html`
 - From: `index.html` to: `main.css`
-	— Path: `css/main.css`
+  — Path: `css/main.css`
 - From: `index.html` to: `logo.svg`
-	— Path: `images/logo.svg`
+  — Path: `images/logo.svg`
 
 ### Sub-folder index
 
@@ -76,7 +75,7 @@ If a folder has its own `index.html` file we don’t need to specify that in the
 ![](index.jpg)
 
 - From: `pterosaurs.html` to: `index.html`
-	— Path: `dinosuars/`
+  — Path: `dinosuars/`
 
 ---
 
@@ -87,11 +86,11 @@ When moving out of folders we use `../`, then follow all the rules above.
 ![](out-folders.jpg)
 
 - From: `apatosaurus.html` to: `pterosaurs.html`
-	— Path: `../pterosaurs.html`
+  — Path: `../pterosaurs.html`
 - From: `apatosaurus.html` to: `main.css`
-	— Path: `../css/main.css`
+  — Path: `../css/main.css`
 - From: `apatosaurus.html` to: `logo.svg`
-	— Path: `../images/logo.svg`
+  — Path: `../images/logo.svg`
 
 If you need to go out of many folders, just add more:
 
@@ -180,24 +179,24 @@ If we only want to write paths within our domain but have more absolute-like pat
 **Everywhere.**
 
 - In HTML links, the `href`:
-	```html
-	<a href="../in/here.html">…</a>
-	```
+  ```html
+  <a href="../in/here.html">…</a>
+  ```
 
 - In image tags, the `src`:
-	```html
-	<img src="//in-here.com" alt="">
-	```
+  ```html
+  <img src="//in-here.com" alt="">
+  ```
 
 - When linking CSS, the `href`:
-	```html
-	<link href="/in/here.css" rel="stylesheet">
-	```
+  ```html
+  <link href="/in/here.css" rel="stylesheet">
+  ```
 
 - When using `background-image` in CSS:
-	```css
-	background-image: url("in/here.jpg")
-	```
+  ```css
+  background-image: url("in/here.jpg")
+  ```
 
 - In the URL bar of your browser to navigate around.
 
@@ -225,17 +224,17 @@ These two forms of syntax specifically require a web server to work properly.
 Here’s the different syntax you need to know for dealing with paths:
 
 - `start with nothing` *or* `./` — single dot + slash<br>
-	Start in the same location as this file and work from there.<br>
-	Implicit, if you reference a filename that doesn’t start with a slash, e.g. `index.html` is the same as `./index.html`
+  Start in the same location as this file and work from there.<br>
+  Implicit, if you reference a filename that doesn’t start with a slash, e.g. `index.html` is the same as `./index.html`
 - `../` — double dot + slash<br>
-	Start in the same location as this file, go out a folder, and work from there.<br>
-	Can be combined: `../../` — goes out two folders
+  Start in the same location as this file, go out a folder, and work from there.<br>
+  Can be combined: `../../` — goes out two folders
 - `/` — slash at the beginning<br>
-	Start at the root domain and work from there.
+  Start at the root domain and work from there.
 - `//` — double slash at the beginning<br>
-	Start immediately after the protocol, replacing all domains, and work from there.
+  Start immediately after the protocol, replacing all domains, and work from there.
 - `https://` — protocol at the beginning<br>
-	Start at the top level of the Internet, replacing everything, and work from there.
+  Start at the top level of the Internet, replacing everything, and work from there.
 
 ---
 

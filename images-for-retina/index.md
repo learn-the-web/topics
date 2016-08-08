@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f
 download: https://github.com/acgd-learn-the-web/images-for-retina-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/images-for-retina-code

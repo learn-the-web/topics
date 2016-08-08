@@ -1,5 +1,4 @@
 ---
-group: setup
 download: https://github.com/acgd-learn-the-web/atom-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/atom-code
 cheatsheet: snippets-cheat-sheet

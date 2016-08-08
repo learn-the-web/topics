@@ -1,5 +1,4 @@
 ---
-group: web-dev-4
 playlist: PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ
 download: https://github.com/acgd-learn-the-web/progressive-enhancement-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/progressive-enhancement-code

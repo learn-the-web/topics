@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdfoSnpsDRhTgz6VrVPvYqvR
 download: https://github.com/acgd-learn-the-web/from-wireframe-to-website-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/from-wireframe-to-website-code

@@ -1,5 +1,4 @@
 ---
-group: web-dev-2
 playlist: PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI
 download: https://github.com/acgd-learn-the-web/media-queries-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/media-queries-code

@@ -1,6 +1,5 @@
 ---
 layout: cheatsheet
-group: web-dev-4
 
 groups:
   - title: 'Markdown'

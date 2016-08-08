@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDddMjtm6wwgpUMYZZC0I9xZz
 download: https://github.com/acgd-learn-the-web/before-after-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/before-after-code

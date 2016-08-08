@@ -1,5 +1,4 @@
 ---
-group: web-dev-3
 playlist: PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk
 download: https://github.com/acgd-learn-the-web/javascript-debugging-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-debugging-code

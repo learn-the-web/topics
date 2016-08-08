@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS
 download: https://github.com/acgd-learn-the-web/using-css-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/using-css-code
@@ -28,15 +27,15 @@ In the `head` of the HTML document, add a `link` tag:
 
 ```html
 <head>
-	⋮
-	<link href="css/main.css" rel="stylesheet">
+  ⋮
+  <link href="css/main.css" rel="stylesheet">
 </head>
 ```
 
 The `link` element is used to associate different types of documents to your HTML, primarily CSS, but also blog feeds, help documents, licenses, etc.
 
 - `href` — this attribute is used to point to the location of the CSS file.
-	*The path to the CSS file must point into the correct folder.*
+  *The path to the CSS file must point into the correct folder.*
 - `rel` — this attribute is used to define this item as a `stylesheet`.
 
 ## Anatomy of CSS
@@ -68,15 +67,15 @@ When you know the name of the HTML element you want to design, you can simply ta
 ```css
 /* This would target the <html> element */
 html {
-	/* background-color, spelled American, would change the background of the element */
-	background-color: red;
-	/* Since we are applying background-color to the <html> element we’d style the whole page */
+  /* background-color, spelled American, would change the background of the element */
+  background-color: red;
+  /* Since we are applying background-color to the <html> element we’d style the whole page */
 }
 
 /* This would target every single <p> tag */
 p {
-	/* color, spelled American, would change the text colour of the element */
-	color: green;
+  /* color, spelled American, would change the text colour of the element */
+  color: green;
 }
 ```
 
@@ -89,7 +88,7 @@ If you’d like to style more than one element the same way you can use a comma 
 ```css
 /* Target the <h1> tags, the <h2> tags, and the <h3> tags */
 h1, h2, h3 {
-	color: white;
+  color: white;
 }
 ```
 
@@ -99,13 +98,13 @@ If you’d like to target an element because it’s inside something else you ca
 
 ```html
 <header>
-	<h1>Dinosaurs!</h1>
-	<p>Dinosaurs are super amazing ancient land animals.</p>
-	<p>Whoa! dinosaurs are like totally rad!</p>
+  <h1>Dinosaurs!</h1>
+  <p>Dinosaurs are super amazing ancient land animals.</p>
+  <p>Whoa! dinosaurs are like totally rad!</p>
 
-	<div>
-		<p>Can you believe they actually existed!?</p>
-	</div>
+  <div>
+    <p>Can you believe they actually existed!?</p>
+  </div>
 </header>
 ```
 
@@ -153,9 +152,9 @@ If we want to be extremely specific about what element we select we can assign a
 
 ```html
 <ol>
-	<li>Spinosaurus</li>
-	<li>Tyrannosaurus</li>
-	<li class="veloci">Velociraptor</li>
+  <li>Spinosaurus</li>
+  <li>Tyrannosaurus</li>
+  <li class="veloci">Velociraptor</li>
 </ol>
 ```
 
@@ -244,10 +243,10 @@ There are a bunch of colour keywords build into CSS:
 
 ```css
 h1 {
-	color: red;
-	color: green;
-	color: lightgrey;
-	color: hotpink;
+  color: red;
+  color: green;
+  color: lightgrey;
+  color: hotpink;
 }
 ```
 
@@ -261,12 +260,12 @@ Hexadecimal colour codes are an RGB colour system made of 6 digits.
 
 ```css
 h1 {
-	color: #000000; /* Black */
-	color: #ffffff; /* White */
-	color: #ff0000; /* Red */
-	color: #ffff00; /* Yellow */
-	color: #cccccc; /* Light grey */
-	color: #6afbcb; /* Some random colour */
+  color: #000000; /* Black */
+  color: #ffffff; /* White */
+  color: #ff0000; /* Red */
+  color: #ffff00; /* Yellow */
+  color: #cccccc; /* Light grey */
+  color: #6afbcb; /* Some random colour */
 }
 ```
 
@@ -292,12 +291,12 @@ You can specify the red, green, and blue component of the colour:
 
 ```css
 h1 {
-	color: rgb(0, 0, 0); /* Black */
-	color: rgb(255, 255, 255); /* White */
-	color: rgb(255, 0, 0); /* Red */
-	color: rgb(255, 255, 0); /* Yellow */
-	color: rgb(200, 200, 200); /* Light grey */
-	color: rgb(124, 65, 99); /* Some random colour */
+  color: rgb(0, 0, 0); /* Black */
+  color: rgb(255, 255, 255); /* White */
+  color: rgb(255, 0, 0); /* Red */
+  color: rgb(255, 255, 0); /* Yellow */
+  color: rgb(200, 200, 200); /* Light grey */
+  color: rgb(124, 65, 99); /* Some random colour */
 }
 ```
 
@@ -307,8 +306,8 @@ The best thing about the RGB system is that some colours can be specified with s
 
 ```css
 h1 {
-	background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
-	background-color: rgba(255, 0, 0, 0.75); /* 75% opaque red */
+  background-color: rgba(0, 0, 0, 0.5); /* 50% transparent black */
+  background-color: rgba(255, 0, 0, 0.75); /* 75% opaque red */
 }
 ```
 
@@ -318,12 +317,12 @@ HSL (Hue, Saturation, Lightness) is another colour system we can use in CSS that
 
 ```css
 h1 {
-	color: hsl(0, 0%, 0%); /* Black */
-	color: hsl(0, 100%, 100%); /* White */
-	color: hsl(0, 100%, 50%); /* Red */
-	color: hsl(53, 100%, 50%); /* Yellow */
-	color: hsl(0, 0%, 78%); /* Light grey */
-	color: hsl(167, 38%, 59%); /* Some random colour */
+  color: hsl(0, 0%, 0%); /* Black */
+  color: hsl(0, 100%, 100%); /* White */
+  color: hsl(0, 100%, 50%); /* Red */
+  color: hsl(53, 100%, 50%); /* Yellow */
+  color: hsl(0, 0%, 78%); /* Light grey */
+  color: hsl(167, 38%, 59%); /* Some random colour */
 }
 ```
 
@@ -337,8 +336,8 @@ Just like RGB, we can also have a fourth number that provides a semi-transparenc
 
 ```css
 h1 {
-	background-color: hsla(0, 0%, 0%, 0.5); /* 50% transparent black */
-	background-color: hsla(0, 100%, 50%, 0.75); /* 75% opaque red */
+  background-color: hsla(0, 0%, 0%, 0.5); /* 50% transparent black */
+  background-color: hsla(0, 100%, 50%, 0.75); /* 75% opaque red */
 }
 ```
 
@@ -360,24 +359,24 @@ h1 {
 CSS provides a bunch of different units for sizes and lengths, e.g. `width: 100px;`
 
 - **px** — pixels
-	`100px` is exactly 100 pixels in all situations
+  `100px` is exactly 100 pixels in all situations
 
 - **em** — based on the font-size of the parent (or current element)
-	`1em` is 1 × the parent element’s size
-	`0.5em` is 0.5 × the parent element’s size
-	[☛ Refer to CSS typography](/topics/basic-typography#font-sizing-units-rem-vs-em-vs-px)
+  `1em` is 1 × the parent element’s size
+  `0.5em` is 0.5 × the parent element’s size
+  [☛ Refer to CSS typography](/topics/basic-typography#font-sizing-units-rem-vs-em-vs-px)
 
 - **rem** — based on the font-size set in the `html` element
-	`1.5rem` is 1.5 × the `html` element’s font size
-	[☛ Refer to CSS typography](/topics/basic-typography#font-sizing-units-rem-vs-em-vs-px)
+  `1.5rem` is 1.5 × the `html` element’s font size
+  [☛ Refer to CSS typography](/topics/basic-typography#font-sizing-units-rem-vs-em-vs-px)
 
 - **%** — a percentage of the parent element
-	`100%` is to whole width of the parent element
-	If the parent element is `50%` wide, and this element is `50%` wide, then it only takes up `25%` of the original grand parent element
+  `100%` is to whole width of the parent element
+  If the parent element is `50%` wide, and this element is `50%` wide, then it only takes up `25%` of the original grand parent element
 
 - **vh** — like percentage, but based on the height of the window
-	`100vh` is the whole height of the window
-	`50vh` is half the height of the window
+  `100vh` is the whole height of the window
+  `50vh` is half the height of the window
 
 - **vw** — like percentage, but based on the width of the window
 

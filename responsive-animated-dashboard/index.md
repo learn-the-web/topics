@@ -1,5 +1,4 @@
 ---
-group: web-dev-3
 playlist: PLWjCJDeWfDdceXtH4ZLTh0v4AbP3g2msI
 download: https://github.com/acgd-learn-the-web/responsive-animated-dashboard-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/responsive-animated-dashboard-code

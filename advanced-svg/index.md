@@ -1,5 +1,4 @@
 ---
-group: web-dev-3
 playlist: PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM
 download: https://github.com/acgd-learn-the-web/advanced-svg-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/advanced-svg-code

@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdcYd1EDEy4HPi7Mjiv8Tmyr
 download: https://github.com/acgd-learn-the-web/css-indentation-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/css-indentation-code

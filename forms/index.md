@@ -1,5 +1,4 @@
 ---
-group: web-dev-2
 playlist: PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY
 download: https://github.com/acgd-learn-the-web/forms-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/forms-code

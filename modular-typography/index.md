@@ -1,5 +1,4 @@
 ---
-group: web-dev-2
 playlist: PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l
 download: https://github.com/acgd-learn-the-web/modular-typography-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/modular-typography-code

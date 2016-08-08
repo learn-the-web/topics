@@ -1,5 +1,4 @@
 ---
-group: setup
 playlist: PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB
 ---
 

@@ -1,5 +1,4 @@
 ---
-group: web-dev-3
 playlist: PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU
 download: https://github.com/acgd-learn-the-web/javascript-intro-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-intro-code

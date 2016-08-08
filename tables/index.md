@@ -1,5 +1,4 @@
 ---
-group: web-dev-2
 playlist: PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR
 download: https://github.com/acgd-learn-the-web/tables-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/tables-code

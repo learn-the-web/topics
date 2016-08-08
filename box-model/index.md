@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdeEM254gHVHz26yswh59Hih
 download: https://github.com/acgd-learn-the-web/box-model-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/box-model-code
@@ -31,10 +30,10 @@ The `margin` and `padding` properties are used to put space around your box, eit
 
 ```css
 div {
-	/* Will push other boxes 10 pixels away on all 4 sides */
-	margin: 10px;
-	/* Will push the content away from the box edge on all 4 sides */
-	padding: 12px;
+  /* Will push other boxes 10 pixels away on all 4 sides */
+  margin: 10px;
+  /* Will push the content away from the box edge on all 4 sides */
+  padding: 12px;
 }
 ```
 
@@ -51,8 +50,8 @@ We can specify margin and padding using the properties listed above, but often i
 
 ```css
 div {
-	/* margin: top right bottom left; */
-	margin: 10px 12px 8px 6px;
+  /* margin: top right bottom left; */
+  margin: 10px 12px 8px 6px;
 }
 ```
 
@@ -66,17 +65,17 @@ We can then start leaving off numbers from the end of the value list and the bro
 
 ```css
 div {
-	/*
-		Since the left margin is missing, the browser will use the right value
-		margin: top right/left bottom;
-	*/
-	margin: 10px 12px 8px;
+  /*
+    Since the left margin is missing, the browser will use the right value
+    margin: top right/left bottom;
+  */
+  margin: 10px 12px 8px;
 
-	/*
-		Since the bottom margin is missing, the browser will use the top value
-		margin: top/bottom right/left;
-	*/
-	margin: 10px 12px;
+  /*
+    Since the bottom margin is missing, the browser will use the top value
+    margin: top/bottom right/left;
+  */
+  margin: 10px 12px;
 }
 ```
 
@@ -86,11 +85,11 @@ Margins have some weird behavior when it comes to their top and bottom values. T
 
 ```css
 .box-1 {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .box-2 {
-	margin-top: 25px;
+  margin-top: 25px;
 }
 ```
 
@@ -106,10 +105,10 @@ Try to avoid using height—use other methods, like padding, instead. It’s esp
 
 ```css
 div {
-	/* Will be 30% the width of the parent element */
-	width: 30%;
-	/* Width based on the font-size */
-	width: 35em;
+  /* Will be 30% the width of the parent element */
+  width: 30%;
+  /* Width based on the font-size */
+  width: 35em;
 }
 ```
 
@@ -132,22 +131,22 @@ For both width and height we can provide minimum and maximum values instead of f
 
 ```css
 article {
-	/*
-		Force the box to be at least 10em high
-		If the text needs more space, the box can still grow
-		Much better than using `height`
-	*/
-	min-height: 10em;
+  /*
+    Force the box to be at least 10em high
+    If the text needs more space, the box can still grow
+    Much better than using `height`
+  */
+  min-height: 10em;
 }
 ```
 
 ```css
 p {
-	/*
-		Force the paragraph to never exceed a width of 35em
-		It’s a good way to control line-length
-	*/
-	max-width: 35em;
+  /*
+    Force the paragraph to never exceed a width of 35em
+    It’s a good way to control line-length
+  */
+  max-width: 35em;
 }
 ```
 
@@ -159,8 +158,8 @@ One example that is a good use of `height` is to make a box the same height as t
 
 ```css
 header {
-	/* Would make the head the same height as the browser window */
-	height: 100vh;
+  /* Would make the head the same height as the browser window */
+  height: 100vh;
 }
 ```
 
@@ -181,11 +180,11 @@ So, to change your box model, add these lines of code to the very top of your we
 
 ```css
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 ```
 
@@ -203,8 +202,8 @@ The most basic decoration is `background-color`, which just applies a colour to 
 
 ```css
 header {
-	background-color: #000; /* Solid black */
-	background-color: rgba(0,0,0,0.5); /* Semi-transparent black */
+  background-color: #000; /* Solid black */
+  background-color: rgba(0,0,0,0.5); /* Semi-transparent black */
 }
 ```
 
@@ -216,8 +215,8 @@ The most basic `border` has 3 values: `width`, `style`, `color`:
 
 ```css
 header {
-	/* Apply the same border to all 4 sides of the box */
-	border: 3px solid #000;
+  /* Apply the same border to all 4 sides of the box */
+  border: 3px solid #000;
 }
 ```
 
@@ -229,7 +228,7 @@ If you want to style a specific side of a border, you can target it directly wit
 
 ```css
 nav {
-	border-bottom: 4px solid pink;
+  border-bottom: 4px solid pink;
 }
 ```
 
@@ -237,12 +236,12 @@ Each of the inner values also have their own properties like: `border-style`, `b
 
 ```css
 header {
-	/* Applies border to all 4 sides */
-	border: 3px solid #000;
-	/* Overwrites bottom color */
-	border-bottom-color: pink;
-	/* Overwrites right width */
-	border-right-width: 1px;
+  /* Applies border to all 4 sides */
+  border: 3px solid #000;
+  /* Overwrites bottom color */
+  border-bottom-color: pink;
+  /* Overwrites right width */
+  border-right-width: 1px;
 }
 ```
 
@@ -257,8 +256,8 @@ The `border-radius` property allows you to add rounded corners to your boxes.
 
 ```css
 a {
-	/* Add 8px rounding to all 4 corners */
-	border-radius: 8px;
+  /* Add 8px rounding to all 4 corners */
+  border-radius: 8px;
 }
 ```
 
@@ -271,12 +270,12 @@ If you want to specify only certain corners, add more values, like `margin` and 
 
 ```css
 a {
-	/* Top left, bottom right & top right, bottom left */
-	border-radius: 8px 10px;
-	/* Top left & top right, bottom left & bottom right */
-	border-radius: 8px 10px 6px;
-	/* Top left & top right & bottom right & bottom left*/
-	border-radius: 8px 10px 6px 12px;
+  /* Top left, bottom right & top right, bottom left */
+  border-radius: 8px 10px;
+  /* Top left & top right, bottom left & bottom right */
+  border-radius: 8px 10px 6px;
+  /* Top left & top right & bottom right & bottom left*/
+  border-radius: 8px 10px 6px 12px;
 }
 ```
 
@@ -290,7 +289,7 @@ Box shadow allows you to add a drop shadow to the box itself, where `text-shadow
 
 ```css
 div {
-	box-shadow: 2px 4px 5px rgba(0,0,0,0.5);
+  box-shadow: 2px 4px 5px rgba(0,0,0,0.5);
 }
 ```
 
@@ -304,8 +303,8 @@ When specifying `box-shadow` there’s four values to write out:
 
 ```css
 div {
-	/* Specifying `inset` inside the declaration will make the shadow inside the box */
-	box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+  /* Specifying `inset` inside the declaration will make the shadow inside the box */
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
 }
 ```
 
@@ -313,7 +312,7 @@ You can also specify multiple shadows on the box using a comma:
 
 ```css
 div {
-	box-shadow: 2px 4px 5px black, -2px -4px 5px red;
+  box-shadow: 2px 4px 5px black, -2px -4px 5px red;
 }
 ```
 

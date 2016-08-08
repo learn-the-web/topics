@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg
 download: https://github.com/acgd-learn-the-web/marking-up-a-webpage-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/marking-up-a-webpage-code

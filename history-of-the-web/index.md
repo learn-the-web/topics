@@ -1,5 +1,4 @@
 ---
-group: whats-next
 ---
 
 Here’s a quick, really point-form history of The Web.

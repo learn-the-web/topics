@@ -1,5 +1,4 @@
 ---
-group: whats-next
 ---
 
 By no way is this exhaustive—it’s just a quick sampling and is likely outdated. Sorry.

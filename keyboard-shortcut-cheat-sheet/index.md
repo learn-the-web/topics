@@ -1,6 +1,5 @@
 ---
 layout: cheatsheet
-group: setup
 
 groups:
   - title: 'Definitions'

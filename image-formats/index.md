@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph
 download: https://github.com/acgd-learn-the-web/image-formats-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/image-formats-code

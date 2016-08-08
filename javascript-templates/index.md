@@ -1,5 +1,4 @@
 ---
-group: whats-next
 download: https://github.com/acgd-learn-the-web/javascript-templates-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-templates-code
 ---

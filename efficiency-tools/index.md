@@ -1,5 +1,4 @@
 ---
-group: whats-next
 ---
 
 - Efficiency tools

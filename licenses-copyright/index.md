@@ -1,5 +1,4 @@
 ---
-group: whats-next
 ---
 
 A quick overview of copyright & licensing for your work and when you’re using assets from other people.

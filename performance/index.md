@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD
 checklist: performance-checklist
 ---

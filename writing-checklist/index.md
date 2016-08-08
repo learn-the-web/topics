@@ -1,6 +1,5 @@
 ---
 layout: checklist
-group: web-dev-4
 
 groups:
   - title: 'Content'

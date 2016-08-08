@@ -1,5 +1,4 @@
 ---
-group: web-dev-2
 playlist: PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7
 download: https://github.com/acgd-learn-the-web/accessibility-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/accessibility-code

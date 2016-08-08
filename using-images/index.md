@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7
 download: https://github.com/acgd-learn-the-web/using-images-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/using-images-code
@@ -15,10 +14,10 @@ Images are a very critical part of modern web design—and there’s lots of dif
 ![](image-choice-flow-chart.png)
 
 1. **Does the image require a caption?**
-	*Yes*: Use a `<figure>` & `<figcaption>`.
+  *Yes*: Use a `<figure>` & `<figcaption>`.
 2. **Is the image an important part of the content?**
-	*Yes*: Use an `<img>` tag with an appropriate `alt` attribute.
-	*No*: Use a CSS `background-image`.
+  *Yes*: Use an `<img>` tag with an appropriate `alt` attribute.
+  *No*: Use a CSS `background-image`.
 
 *Any image that is purely decoration should be in CSS. If that can’t accomplish what you want an `<img>` tag with an empty `alt` attribute will suffice.*
 
@@ -76,8 +75,8 @@ Often you’ll need to provide a caption for your image, that’s where the `<fi
 
 ```html
 <figure>
-	<img src="pluto.jpg" alt="">
-	<figcaption>Photo of Pluto taken with the Hubble Telescope</figcaption>
+  <img src="pluto.jpg" alt="">
+  <figcaption>Photo of Pluto taken with the Hubble Telescope</figcaption>
 </figure>
 ```
 
@@ -102,8 +101,8 @@ Background images can be inserted onto absolutely any HTML element, using the CS
 
 ```css
 body {
-	/* Will add a background to the whole page */
-	background-image: url("../images/grey-box.png");
+  /* Will add a background to the whole page */
+  background-image: url("../images/grey-box.png");
 }
 ```
 
@@ -129,7 +128,7 @@ First, double check that you’ve spelled the file name properly and that the pa
 
 ```css
 div {
-	background-image: url("../images/pic.jpg");
+  background-image: url("../images/pic.jpg");
 }
 ```
 
@@ -141,7 +140,7 @@ Put something inside the `<div>`:
 
 ```html
 <div>
-	<h1>Dinosaurs!</h1>
+  <h1>Dinosaurs!</h1>
 </div>
 ```
 
@@ -149,7 +148,7 @@ Add a height to the `<div>`—not a very good solution:
 
 ```css
 div {
-	height: 14em;
+  height: 14em;
 }
 ```
 
@@ -157,7 +156,7 @@ Add `padding-top` to the `<div>` to expand it’s dimensions—a good solution f
 
 ```css
 div {
-	padding-top: 4em;
+  padding-top: 4em;
 }
 ```
 
@@ -181,7 +180,7 @@ So, our CSS would look like this:
 
 ```css
 div {
-	padding-top: 56.25%;
+  padding-top: 56.25%;
 }
 ```
 
@@ -202,11 +201,11 @@ To control the patterning effect of the background image you can use `background
 
 ```css
 body {
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 h1 {
-	background-repeat: repeat-x;
+  background-repeat: repeat-x;
 }
 ```
 
@@ -230,19 +229,19 @@ The `background-position` allows us to control where in the element the image is
 
 ```css
 body {
-	background-position: right bottom;
-	/* Same as: */
-	background-position: 100% 100%;
+  background-position: right bottom;
+  /* Same as: */
+  background-position: 100% 100%;
 }
 
 h1 {
-	background-position: center top;
-	/* Same as: */
-	background-position: 50% 0;
+  background-position: center top;
+  /* Same as: */
+  background-position: 50% 0;
 }
 
 div {
-	background-position: 10px 10px;
+  background-position: 10px 10px;
 }
 ```
 
@@ -252,8 +251,8 @@ If you want to move the background image a fixed measurement from the bottom or 
 
 ```css
 div {
-	/* Centered horizontally, 10px up from the bottom */
-	background-position: center calc(100% - 10px);
+  /* Centered horizontally, 10px up from the bottom */
+  background-position: center calc(100% - 10px);
 }
 ```
 
@@ -281,18 +280,18 @@ The CSS `background-size` property allows us to scale the image.
 
 ```css
 body {
-	/* Scale the image to be 70% the width of the container, figure out the correct height */
-	background-size: 70% auto;
+  /* Scale the image to be 70% the width of the container, figure out the correct height */
+  background-size: 70% auto;
 }
 
 h1 {
-	/* Fill the whole element with the image */
-	background-size: cover;
+  /* Fill the whole element with the image */
+  background-size: cover;
 }
 
 div {
-	/* Figure out the width, set the height to 200 pixels */
-	background-size: auto 200px;
+  /* Figure out the width, set the height to 200 pixels */
+  background-size: auto 200px;
 }
 ```
 
@@ -311,7 +310,7 @@ Background attachment allows us to control how the image scrolls: either it scro
 
 ```css
 body {
-	background-attachment: fixed;
+  background-attachment: fixed;
 }
 ```
 
@@ -327,7 +326,7 @@ An element can has as many background images as you’d like, just separate each
 
 ```css
 body {
-	background-image: url("grey-box.png"), url("dark-grey-box.png");
+  background-image: url("grey-box.png"), url("dark-grey-box.png");
 }
 ```
 
@@ -335,10 +334,10 @@ After specifying multiple background images all the other properties can then ha
 
 ```css
 body {
-	background-size: 100px auto, 75px auto;
-	background-position: left top, right top;
-	/* One value will apply to all images */
-	background-repeat: no-repeat;
+  background-size: 100px auto, 75px auto;
+  background-position: left top, right top;
+  /* One value will apply to all images */
+  background-repeat: no-repeat;
 }
 ```
 
@@ -352,8 +351,8 @@ Linear gradients are a gradient built in a single direction, we can specify the 
 
 ```css
 body {
-	/* linear-gradient(direction, colour stops…) */
-	background-image: linear-gradient(to right, purple, darkpurple);
+  /* linear-gradient(direction, colour stops…) */
+  background-image: linear-gradient(to right, purple, darkpurple);
 }
 ```
 
@@ -374,9 +373,9 @@ The direction can also be written using degrees
 
 ```css
 body {
-	background-image: linear-gradient(to left, purple, darkpurple);
-	background-image: linear-gradient(to right bottom, purple, darkpurple);
-	background-image: linear-gradient(45deg, purple, darkpurple);
+  background-image: linear-gradient(to left, purple, darkpurple);
+  background-image: linear-gradient(to right bottom, purple, darkpurple);
+  background-image: linear-gradient(45deg, purple, darkpurple);
 }
 ```
 
@@ -388,7 +387,7 @@ Here’s a rainbow gradient:
 
 ```css
 body {
-	background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
 ```
 
@@ -396,8 +395,8 @@ With colour stops we can also specify their position using a value:
 
 ```css
 body {
-	/* This gradient will create a sharp line between red & blue at 40% */
-	background-image: linear-gradient(to bottom, red, red 40%, blue 41%, blue);
+  /* This gradient will create a sharp line between red & blue at 40% */
+  background-image: linear-gradient(to bottom, red, red 40%, blue 41%, blue);
 }
 ```
 
@@ -407,7 +406,7 @@ Radial gradients are based around an `ellipse` or `circle`, which are the first 
 
 ```css
 body {
-	background-image: radial-gradient(circle, green, darkgreen);
+  background-image: radial-gradient(circle, green, darkgreen);
 }
 ```
 
@@ -417,8 +416,8 @@ Repeating gradients both `linear` and `radial` allow us to create simple pattern
 
 ```css
 div {
-	/* Warning stripes */
-	background-image: repeating-linear-gradient(45deg, yellow, yellow 10%, black 10%, black 20%);
+  /* Warning stripes */
+  background-image: repeating-linear-gradient(45deg, yellow, yellow 10%, black 10%, black 20%);
 }
 ```
 
@@ -442,7 +441,7 @@ All of the above background properties can be combined together into a shorthand
 
 ```css
 body {
-	background: url("bg.jpg") left top / 100px auto repeat-y red;
+  background: url("bg.jpg") left top / 100px auto repeat-y red;
 }
 ```
 
@@ -450,11 +449,11 @@ It can even be used with multiple background images:
 
 ```css
 body {
-	background:
-		url("grey-box.png") left top / 100px auto no-repeat,
-		url("dark-grey-box.png") right top / 75px auto no-repeat,
-		linear-gradient(to bottom, transparent, rgba(0,0,0,0,5))
-	;
+  background:
+    url("grey-box.png") left top / 100px auto no-repeat,
+    url("dark-grey-box.png") right top / 75px auto no-repeat,
+    linear-gradient(to bottom, transparent, rgba(0,0,0,0,5))
+  ;
 }
 ```
 
@@ -483,22 +482,22 @@ Sprites allow us to combine our images into a single file in Photoshop and using
 
 ```css
 .icon {
-	width: 100px;
-	height: 100px;
-	background-image: url("icons.png");
-	background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  background-image: url("icons.png");
+  background-repeat: no-repeat;
 }
 
 .icon-circle {
-	background-position: 0 0;
+  background-position: 0 0;
 }
 
 .icon-hex {
-	background-position: 0 -100px;
+  background-position: 0 -100px;
 }
 
 .icon-star {
-	background-position: 0 -200px;
+  background-position: 0 -200px;
 }
 ```
 
@@ -543,16 +542,16 @@ The technique is useful when you cannot produce the text style you’d like in C
 
 ```css
 .ir {
-	/* The technique pushes the text off the side of the element and chops it off */
-	overflow: hidden;
-	text-indent: 100%;
-	white-space: nowrap;
+  /* The technique pushes the text off the side of the element and chops it off */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
 }
 
 .masthead {
-	background: url("rainbow.jpg") left top no-repeat transparent;
-	/* Put a min-height on the element equal to the image’s height */
-	min-height: 100px;
+  background: url("rainbow.jpg") left top no-repeat transparent;
+  /* Put a min-height on the element equal to the image’s height */
+  min-height: 100px;
 }
 ```
 

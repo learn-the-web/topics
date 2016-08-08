@@ -1,5 +1,4 @@
 ---
-group: web-dev-4
 playlist: PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx
 download: https://github.com/acgd-learn-the-web/metadata-enhanced-semantics-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/metadata-enhanced-semantics-code

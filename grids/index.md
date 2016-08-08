@@ -1,5 +1,4 @@
 ---
-group: web-dev-2
 playlist: PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60
 download: https://github.com/acgd-learn-the-web/grids-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/grids-code

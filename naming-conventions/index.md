@@ -1,5 +1,4 @@
 ---
-group: setup
 cheatsheet: naming-paths-cheat-sheet
 ---
 

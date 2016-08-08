@@ -1,5 +1,4 @@
 ---
-group: setup
 video: J3STGo6ZwYA
 ---
 

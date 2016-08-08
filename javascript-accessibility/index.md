@@ -1,5 +1,4 @@
 ---
-group: web-dev-3
 playlist: PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow
 download: https://github.com/acgd-learn-the-web/javascript-accessibility-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-accessibility-code

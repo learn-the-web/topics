@@ -1,5 +1,4 @@
 ---
-group: web-dev-4
 playlist: PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX
 download: https://github.com/acgd-learn-the-web/markdown-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/markdown-code

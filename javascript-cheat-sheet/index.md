@@ -1,6 +1,5 @@
 ---
 layout: cheatsheet
-group: web-dev-3
 
 groups:
   - title: 'Syntax'

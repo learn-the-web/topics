@@ -1,6 +1,5 @@
 ---
 layout: cheatsheet
-group: web-dev-2
 
 groups:
   - title: 'Responsive setup'

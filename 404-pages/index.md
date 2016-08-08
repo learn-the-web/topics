@@ -1,5 +1,4 @@
 ---
-group: web-dev-4
 ---
 
 A 404 error occurs when a page cannot be found on a web server.

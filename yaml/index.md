@@ -1,5 +1,4 @@
 ---
-group: web-dev-4
 playlist: PLWjCJDeWfDdfzjgthWhvHOxyvFZDCp_2L
 download: https://github.com/acgd-learn-the-web/yaml-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/yaml-code

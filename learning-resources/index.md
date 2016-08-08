@@ -1,5 +1,4 @@
 ---
-group: whats-next
 ---
 
 Here’s a quick list of web development learning resources—by no way is it exhaustive.

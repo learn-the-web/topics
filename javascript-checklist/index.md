@@ -1,6 +1,5 @@
 ---
 layout: checklist
-group: web-dev-3
 
 groups:
   - title: 'Code quality'

@@ -1,5 +1,4 @@
 ---
-group: web-dev-1
 playlist: PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG
 download: https://github.com/acgd-learn-the-web/basic-typography-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/basic-typography-code

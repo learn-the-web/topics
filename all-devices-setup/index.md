@@ -1,5 +1,4 @@
 ---
-group: web-dev-2
 playlist: PLWjCJDeWfDdfU7nLY0WOFXq3Q7n5ZyEuZ
 download: https://github.com/acgd-learn-the-web/all-devices-setup-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/all-devices-setup-code

@@ -1,5 +1,4 @@
 ---
-group: web-dev-4
 playlist: PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5
 download: https://github.com/acgd-learn-the-web/video-audio-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/video-audio-code

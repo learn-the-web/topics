@@ -102,11 +102,6 @@ video-audio:
   tags: "video audio web tag element export save formats hover source mp4 webm ogg mp3"
   desc: "Using video & audio on websites and how to properly export the files."
 
-progressive-enhancement:
-  title: "Progressive enhancement"
-  tags: "progressive enhancement graceful degradation internet web download failure older browser testing user font size print disabled"
-  desc: "Looking at how the web is not within our control and how we can make our websites work."
-
 advanced-performance:
   title: "Advanced performance"
   tags: "advanced performance css minification combine performance content delivery network cloudflare security"
@@ -118,6 +113,11 @@ advanced-performance-checklist:
   desc: "A checklist for website performance validation."
   checklist: true
   indent: 1
+
+progressive-enhancement:
+  title: "Progressive enhancement"
+  tags: "progressive enhancement graceful degradation internet web download failure older browser testing user font size print disabled"
+  desc: "Looking at how the web is not within our control and how we can make our websites work."
 
 404-pages:
   title: "404 pages"

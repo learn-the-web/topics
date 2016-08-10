@@ -63,19 +63,6 @@ browser-testing-checklist:
   highlight: true
   checklist: true
 
-accessibility:
-  title: "Accessibility"
-  tags: "accessibility humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers VoiceOver braille"
-  desc: "Making our website work well for every human being regardless of their abilities."
-  highlight: true
-
-accessibility-checklist:
-  title: "Accessibility checklist"
-  tags: "accessibility humans impairments universal design checklist"
-  desc: "A checklist for double checking the accessibility features of your website."
-  checklist: true
-  indent: 1
-
 performance:
   title: "Performance"
   tags: "performance speed images web page test page speed yslow cost download time mobile friendly validation"
@@ -86,6 +73,19 @@ performance-checklist:
   title: "Performance checklist"
   tags: "performance speed download checklist"
   desc: "A checklist for website performance validation."
+  checklist: true
+  indent: 1
+
+accessibility:
+  title: "Accessibility"
+  tags: "accessibility humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers VoiceOver braille"
+  desc: "Making our website work well for every human being regardless of their abilities."
+  highlight: true
+
+accessibility-checklist:
+  title: "Accessibility checklist"
+  tags: "accessibility humans impairments universal design checklist"
+  desc: "A checklist for double checking the accessibility features of your website."
   checklist: true
   indent: 1
 

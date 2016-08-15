@@ -41,34 +41,6 @@ For a website to be true, it must follow three simple rules:
 
 ---
 
-## URLs and links
-
-The primary functionality of The Web is links and URLs.
-
-- URLs are addresses that allow us to reference different locations and resources online
-- Links are the basic functionality of every website—a simple way to navigate URLs
-
-A URL is comprised of a few different pieces, mostly human readable:
-
-```
-scheme://hostname:port/path?query#fragment
-```
-
-- `scheme` — usually “http” or “https”, the communication method the computers use to speak with each other
-- `hostname` — also known as the domain, the name given to a computer on the network
-- `port` — can use to different ports for communication on the computers, the default port for websites is 80 for `http` and 443 for `https`
-- `path` — the file that you’d like to see on the computer
-- `query` — a query that allows the file to dynamically change
-- `#fragment` — also known as the hash; where in that file you want to jump to
-
-**Links**
-
-- [How many ways to slice a URL](http://tantek.com/2011/238/b1/many-ways-slice-url-name-pieces)
-- [URLs Matter](http://paulrobertlloyd.com/2009/12/urls_matter/)
-- [URL Design](http://warpspire.com/posts/url-design/)
-
----
-
 ## The Open Web
 
 One of the primary principles of the web is openness and transparency. Tim Berners-Lee didn’t patent his invention he set if free into the public domain.

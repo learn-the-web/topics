@@ -21,11 +21,21 @@ groups:
           - 'Media query: *none—above the media queries*'
           - 'Font-size: `100%` (16px)'
           - 'Line-height: `1.3` (130%)'
+          - 'Bottom margins: `1.3rem` (`<h1>`, `<p>`, `<ul>`, etc.)'
           - '&nbsp;'
           - |
             ```css
             html {
               font: normal 100%/1.3 sans-serif;
+            }
+
+            /*
+              Add to anything that needs a bottom margin,
+              for nice, cohesive vertical rhythm
+            */
+            h1,
+            p {
+              margin: 0 0 1.3rem;
             }
             ```
       - name: '*Small* (400)'
@@ -34,6 +44,7 @@ groups:
           - 'Media query: `25em`'
           - 'Font-size: `100%` (16px)'
           - 'Line-height: `1.3` (130%)'
+          - 'Bottom margins: `1.3rem`'
           - '&nbsp;'
           - |
             ```css
@@ -44,6 +55,11 @@ groups:
                 line-height: 1.3;
               }
 
+              h1,
+              p {
+                margin: 0 0 1.3rem;
+              }
+
             }
             ```
       - name: '*Medium* (608)'
@@ -52,6 +68,7 @@ groups:
           - 'Media query: `38em`'
           - 'Font-size: `110%` (17px)'
           - 'Line-height: `1.4` (140%)'
+          - 'Bottom margins: `1.4rem`'
           - '&nbsp;'
           - |
             ```css
@@ -62,6 +79,11 @@ groups:
                 line-height: 1.4;
               }
 
+              h1,
+              p {
+                margin: 0 0 1.4rem;
+              }
+
             }
             ```
       - name: '*Large* (960)'
@@ -70,6 +92,7 @@ groups:
           - 'Media query: `60em`'
           - 'Font-size: `120%` (19px)'
           - 'Line-height: `1.5` (150%)'
+          - 'Bottom margins: `1.5rem`'
           - '&nbsp;'
           - |
             ```css
@@ -78,6 +101,11 @@ groups:
               html {
                 font-size: 120%;
                 line-height: 1.5;
+              }
+
+              h1,
+              p {
+                margin: 0 0 1.5rem;
               }
 
             }
@@ -95,7 +123,6 @@ groups:
 
               html {
                 font-size: 130%;
-                line-height: 1.5;
               }
 
             }

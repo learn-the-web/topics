@@ -4,20 +4,13 @@ licenses-copyright:
   desc: "Understanding the different licensing and copyright systems for code and content."
   highlight: true
 
-the-open-web:
-  title: "The Open Web"
-  tags: "open web development standards agreement browsers urls hyperlinks internet domain dns ip address url server host http html css javascript layers"
-  desc: "A quick introduction to the Open Web."
-
 history-of-the-web:
   title: "History of the Web"
-  indent: 1
   tags: "history timeline bbs network tim berners-lee www html cern mosaic w3c netscape navigator microsoft internet explorer jeffery zeldman css xhtml html5 firefox"
   desc: "A super quick history of the web and important dates."
 
 javascript-history:
   title: "Javascript history"
-  indent: 1
   disabled: true
   tags: "livescript netscape brendan eich java ecmascript"
   desc: "A super quick history of Javascript and how it was created."

@@ -1,3 +1,8 @@
+the-open-web:
+  title: "The Open Web"
+  tags: "open web development standards agreement browsers urls hyperlinks internet domain dns ip address url server host http html css javascript layers"
+  desc: "A quick introduction to the Open Web."
+
 web-browsers:
   title: "Web browsers"
   tags: "web browsers chrome safari mozilla firefox opera install"

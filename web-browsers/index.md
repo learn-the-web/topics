@@ -53,9 +53,13 @@ Blocking/non-blocking resources
 
 ## What does the URL field do?
 
+**[☛ Learn more about URLs](/topics/using-urls/)**
+
 ---
 
 ## What makes a website slow?
+
+**[☛ Learn more about performance](/topics/performance/)**
 
 ---
 

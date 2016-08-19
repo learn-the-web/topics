@@ -72,3 +72,10 @@ A candy surrounded, chocolate covered peanut is even better, crunchy and delicio
 All a website needs is good content, the HTML, everything else just improves the basic experience, but is never a requirement.
 
 † Excerpted and adapted from [“Adaptive Web Design”](http://adaptivewebdesign.info/)
+
+---
+
+## Supplemental links
+
+- [Principles of web development](https://vasilis.nl/nerd/principles-web-development/)
+- [Shape of the Web](https://shapeoftheweb.mozilla.org/)

@@ -7,7 +7,6 @@ web-browsers:
   title: "Web browsers"
   tags: "web browsers chrome safari mozilla firefox opera install"
   desc: "Understanding how web browsers work and their features."
-  disabled: true
 
 using-urls:
   title: "Using URLs"

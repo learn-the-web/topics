@@ -1,5 +1,4 @@
 ---
-playlist:
 ---
 
 Web browsers—complex multi-part pieces of software—are one of the major pieces that make up the backbone of the Internet.
@@ -174,3 +173,4 @@ Follow these steps to fix the problem:
 - [**An Introduction to Browser Rendering**](https://www.youtube.com/watch?v=n1cKlKM3jYI)
 - [Chrome, Firefox, Safari, Opera, Edge? Impressive Web Browser Alternatives](http://www.smashingmagazine.com/2015/09/chrome-firefox-safari-opera-edge-impressive-web-browser-alternatives/)
 - [Understanding proxy browsers](https://timkadlec.com/2015/07/understanding-proxy-browsers-architecture/)
+- [Weird browsers](https://speakerdeck.com/nielsleenheer/weird-browsers-at-webworker-nrw)

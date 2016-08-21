@@ -39,6 +39,8 @@ groups:
           - 'Will display a list of all the open applications.'
           - 'While holding `⌘` if you press `Tab` you can select which app to view.'
           - 'Pressing `Q` while still holding `⌘` will quit that application in the background.'
+          - 'Pressing `H` while still holding `⌘` will hide that application.'
+          - 'Pressing `1` while still holding `⌘` will show all the windows open for that app.'
       - name: '``⌘` ``'
         details:
           — 'Will cycle forwards through the last viewed windows in this application.'
@@ -171,5 +173,20 @@ groups:
       - name: '`⌘⇧F`'
         details:
           - 'Find and replace within this folder.'
+      - name: '`⌃⇧K`'
+        details:
+          - 'Delete this line.'
+      - name: '`⌃⌘↑`'
+        details:
+          - 'Move a line up.'
+      - name: '`⌃⌘↓`'
+        details:
+          - 'Move a line down.'
+      - name: '`⌘J`'
+        details:
+          - 'Join the line below with this line.'
+      - name: '`⌘⇧D`'
+        details:
+          - 'Duplicate this line.'
 
 ---

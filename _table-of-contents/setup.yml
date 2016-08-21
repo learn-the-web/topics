@@ -13,7 +13,6 @@ using-urls:
   tags: "urls addresses web paths"
   desc: "Understanding and using URLs in the web browser for faster navigation."
   indent: 1
-  disabled: true
   highlight: true
 
 code-editors:

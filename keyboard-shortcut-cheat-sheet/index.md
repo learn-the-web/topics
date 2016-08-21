@@ -88,6 +88,9 @@ groups:
       - name: '`⌘T`'
         details:
           - 'Create a new tab.'
+      - name: `⌘⇧T`
+        details:
+          - 'Reopen a closed tab.'
       - name: '`⌘1`, `⌘2`, etc.'
         details:
           - 'Switch to tab by number.'

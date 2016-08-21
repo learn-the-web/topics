@@ -28,7 +28,7 @@ Here’s a couple feed readers that might work for you—test them out and choos
 
 I like to check my feeds on all my devices, not just my laptop, so I use an application to sync all my devices.
 
-- [**Reeder**](http://reederapp.com/) — paid; Mac OS X, iOS
+- [**Reeder**](http://reederapp.com/) — paid; MacOS, iOS
 - [Feedly](http://feedly.com/) — free; iOS, Android
 - [NetNewsWire 4](http://netnewswireapp.com/) — paid; Mac OS
 

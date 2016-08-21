@@ -2,7 +2,7 @@
 video: IINPHVVrF5Q
 ---
 
-This is for installing Jekyll on older versions of Mac OS X, specifically 10.8 and below.
+This is for installing Jekyll on older versions of MacOS, specifically 10.8 and below.
 
 ---
 
@@ -18,7 +18,7 @@ We first need to install the Command Line Tools before installing Jekyll—we ca
 
 ![](agreement.jpg)
 
-**When you get to the download page, find the most recent version of the command line tools for your version of Mac OS X.**
+**When you get to the download page, find the most recent version of the command line tools for your version of MacOS.**
 
 ![](command-line-tools.jpg)
 

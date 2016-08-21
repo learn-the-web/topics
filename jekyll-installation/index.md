@@ -6,7 +6,7 @@ On Mac it isn’t too difficult to install Jekyll, but it does require everythin
 
 ---
 
-## This tutorial is for newer Mac OS X, 10.9+
+## This tutorial is for newer MacOS, 10.9+
 
 If you have an older version of Mac OS X, specifically 10.8 and below, [**☛ See the Older Mac OS X installation guide.**](/topics/jekyll-installation-older-mac/)
 

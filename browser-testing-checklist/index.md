@@ -26,7 +26,7 @@ groups:
     note: 'Test browsers in all OSes'
     items:
       - 'Windows'
-      - 'Mac OS X'
+      - 'MacOS'
       - 'Linux'
       - 'Android OS'
       - 'iOS'

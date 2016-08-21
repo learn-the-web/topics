@@ -14,11 +14,40 @@ groups:
         details:
           - 'Shift'
 
-  - title: Mac OS X
+  - title: 'Applications'
     items:
       - name: '`⌘N`'
         details:
           - 'Create a new file.'
+      - name: '`⌘O`'
+        details:
+          - 'Open a file.'
+      - name: '`⌘S`'
+        details:
+          - 'Save this file.'
+      - name: '`⌘W`'
+        details:
+          - 'Close this window or tab.'
+      - name: '`⌘Q`'
+        details:
+          - 'Fully quit this application.'
+      - name: '`⌘Tab`'
+        details:
+          - 'Go to previous application.'
+      - name: '`⌘Tab + Hold ⌘`'
+        details:
+          - 'Will display a list of all the open applications.'
+          - 'While holding `⌘` if you press `Tab` you can select which app to view.'
+          - 'Pressing `Q` while still holding `⌘` will quit that application in the background.'
+      - name: '``⌘` ``'
+        details:
+          — 'Will cycle forwards through the last viewed windows in this application.'
+      - name: '``⌘⇧` ``'
+        details:
+          — 'Will cycle backwards through the last viewed windows.'
+
+  - title: 'Text'
+    items:
       - name: '`⌘C`'
         details:
           - 'Copy the selected text.'
@@ -34,15 +63,6 @@ groups:
       - name: '`⌘⇧Z`'
         details:
           - 'Redo the recent undo.'
-      - name: '`⌘O`'
-        details:
-          - 'Open a file.'
-      - name: '`⌘S`'
-        details:
-          - 'Save this file.'
-      - name: '`⌘W`'
-        details:
-          - 'Close this window or tab.'
       - name: '`⌘F`'
         details:
           - 'Find within this file.'
@@ -73,12 +93,7 @@ groups:
       - name: '`Shift+Arrows`'
         details:
           - 'Highlight text.'
-      - name: '`⌘Tab`'
-        details:
-          - 'Go to previous application.'
-      - name: '`⌘Q`'
-        details:
-          - 'Fully quit this application.'
+          - 'Can be combined with `⌘` & `⌥`'
 
   - title: 'Web browser'
     items:
@@ -88,7 +103,7 @@ groups:
       - name: '`⌘T`'
         details:
           - 'Create a new tab.'
-      - name: `⌘⇧T`
+      - name: '`⌘⇧T`'
         details:
           - 'Reopen a closed tab.'
       - name: '`⌘1`, `⌘2`, etc.'
@@ -109,6 +124,9 @@ groups:
       - name: '`Tab`'
         details:
           - 'Move around items in the website.'
+      - name: '`Return` / `Space`'
+        details:
+          - 'Activate a link or control.'
       - name: '`Space`'
         details:
           - 'Scroll down a screen.'

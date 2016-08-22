@@ -20,19 +20,6 @@ code-editors:
   tags: "code text editors atom sublime install configuration options settings"
   desc: "Setting up and choosing a code editor."
 
-sublime-text:
-  title: "Sublime Text setup"
-  tags: "sublime text code editors install setup configuration options settings packages plugins"
-  desc: "Installing and setting up Sublime Text as your code editor."
-  indent: 1
-  highlight: true
-
-atom:
-  title: "Atom setup"
-  tags: "github atom text code editors install setup configuration options settings packages plugins"
-  desc: "Installing and setting up GitHub’s Atom text editor."
-  indent: 1
-
 snippets-cheat-sheet:
   title: "Snippets cheat sheet"
   tags: "code editor atom sublime text snippets sample code cheat sheet"

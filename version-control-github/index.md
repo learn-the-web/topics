@@ -4,13 +4,21 @@ playlist: PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB
 
 Version control is something all developers & designers should become intimately familiar with. It allows us to track changes in our code, over time, and rollback to older versions if we mess up.
 
-There are two kinds of version control software: centralized and distributed. With centralized you only get a copy of the current version of the code, but with distributed you get all the history also.
+---
 
-Distributed solutions are considered to be better for collaboration with other developers and easily merge your changes with others’ changes.
+## Version control solutions
+
+There are a whack load of different version control solutions. In this program there are three major ones you’ll be working with:
+
+- *GitHub* — for code, text files, small images
+- *Dropbox* — for big files, Creative Suite
+- *InVision* — for UX files, wireframes, prototypes
 
 ---
 
 ## Common terms
+
+There’s a whole lot of jargon when it comes to version control here’s a few of the common terms:
 
 - *Repository:* the system and database that stores the history of your files
 - *Initialize:* turn your folder into a repository
@@ -28,7 +36,7 @@ Distributed solutions are considered to be better for collaboration with other d
 
 ## Basic workflow
 
-There is a common workflow for working with version control software; it goes something like this:
+The common workflow for working with version control software goes something like this:
 
 1. Clone or initialize a repository
 2. Make a significant change
@@ -44,13 +52,15 @@ That’s it—but, there is so much more you can do.
 
 ## GitHub
 
-GitHub is one of the most common places to hold open-source (and closed-source) code. It offers a place to put the code for free and has fully integrated version control.
+[GitHub](https://github.com) is one of the most common places to hold open-source (and closed-source) code. It offers a place to put the code for free and has fully integrated version control.
 
 GitHub is based entirely on top of Git, the version control system, and integrated around its features while adding more hosting and project management tools.
 
+*You’ll need to get a [GitHub](https://github.com) account before we go any further.*
+
 ### Installing the GitHub Desktop application
 
-Next up we’ll need to install the GitHub Desktop application so we can interact with GitHub and Git.
+We’ll need to install the GitHub Desktop application so we can interact with GitHub and Git form our computer.
 
 1. Download the app from the [GitHub Desktop](https://desktop.github.com/) website.
 2. When it asks you to move it to the applications folder—press “Move to Applications Folder”.
@@ -152,7 +162,7 @@ Thumbs.db
 
 ## Branching
 
-Think about how you generally work on some code. You write some code then decide you want to try something else, so you make a copy, maybe you name it `version-2`. Then you decide you want to try something else, you copy and name it `version-3`.
+Think about how you generally work on a project: you do one thing then decide you want to try something else, so you make a copy, maybe you name it `version-2`. Then you decide you want to try something else, you copy and name it `version-3`.
 
 Now you have a litter of different files for different features you’ve tried out.
 

@@ -2,6 +2,7 @@
 playlist: PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM
 download: https://github.com/acgd-learn-the-web/advanced-svg-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/advanced-svg-code
+cheatsheet: svg-cheat-sheet
 ---
 
 Scalable vector graphics are amazing for creating graphics on the web because they can be embedded into HTML and treated like actual HTML elements.

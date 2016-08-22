@@ -57,7 +57,6 @@ groups:
               box-sizing: inherit;
             }
             ```
-
       - name: '`textsize`'
         details:
           - 'Outputs the text-size-adjust declarations to prevent mobile browsers from changing the font-size.'
@@ -65,5 +64,13 @@ groups:
             ```css
             text-size-adjust: 100%;
             ```
+      - name: '`mq`'
+        details:
+          - 'Outputs a new media query, placing the cursor in the `min-width` location.'
+          - |
+            ```css
+            @media only screen and (min-width: 25em) {
 
+            }
+            ```
 ---

@@ -160,7 +160,6 @@ Every member can even check off the task item when complete and the issue will b
 ## Video list
 
 1. [GitHub: Using Issues](https://www.youtube.com/watch?v=J3STGo6ZwYA&index=8&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB)
-2. GitHub: Using Issues for project management
 
 ## Supplemental links
 

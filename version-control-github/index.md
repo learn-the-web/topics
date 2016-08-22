@@ -10,18 +10,7 @@ Distributed solutions are considered to be better for collaboration with other d
 
 ---
 
-## Tools
-
-- **[Git](http://git-scm.com/)**
-
-  A distributed version control system, popularized by [GitHub](https://github.com/) and the [Ruby](http://www.ruby-lang.org/en/) community.
-
-- [Mercurial](http://mercurial.selenic.com/) — competitor to Git
-- [Subversion](http://subversion.tigris.org/) — centralized, older.
-
----
-
-## Terms
+## Common terms
 
 - *Repository:* the system and database that stores the history of your files
 - *Initialize:* turn your folder into a repository
@@ -53,53 +42,70 @@ That’s it—but, there is so much more you can do.
 
 ---
 
-## Common tasks
+## GitHub
 
-Git is primarily a command line tool, here are a few commands that you’ll use regularly:
+GitHub is one of the most common places to hold open-source (and closed-source) code. It offers a place to put the code for free and has fully integrated version control.
 
-- `$ git init` To turn a folder into a Git repository
-- `$ git status` Shows you what has changed in your repository
-- `$ git difftool` Allows you to visually compare the changed files
-- `$ git add` Adds a file to Git and readies it for committing
-- `$ git commit -m "Your commit message."` Saves the current state of your files into Git’s history
-- `$ git clone` Get a copy of a repository
-- `$ git push` Send your commits to a remote repository
-- `$ git pull` Get changes from a remote repository and merge them with your local copy
-- `$ git rm` Delete a file from the repository
-- `$ git checkout` Move backward and forward in history
-- `$ git branch` Create a new, different version of the repository to add a new feature
+GitHub is based entirely on top of Git, the version control system, and integrated around its features while adding more hosting and project management tools.
 
-*Most Git GUI tools have buttons that perform the same commands you’d execute with the Terminal.*
+### Installing the GitHub Desktop application
 
-### Ignoring files
+Next up we’ll need to install the GitHub Desktop application so we can interact with GitHub and Git.
 
-To ignore files that you don’t want committed to your repository—like passwords—use a `.gitignore` file.
+1. Download the app from the [GitHub Desktop](https://desktop.github.com/) website.
+2. When it asks you to move it to the applications folder—press “Move to Applications Folder”.
+3. Sign in with your GitHub username, email address, and password.
+4. When it asks you to look for repositories—press “Skip”.
+5. *It will try to get you to do a tutorial with these little pop-up bubbles—don’t bother, press the little “x” icon on the bubble.*
 
-Just create a file in your repository named `.gitignore` and put the names of the files you want to ignore inside it.
+### Creating a new project
 
-#### Ignore my database connection file
+The first thing to do after creating your GitHub account is signing in. Then we can start creating new projects.
 
-```
-db-conn.php
-```
+Before starting this project we need to create a repository on GitHub. The repository will hold all of our website code, all the history of our project, and be our host.
 
-#### A default .gitignore
+![](repo.jpg)
 
-```
-._*
-.DS_Store
-Thumbs.db
-```
+When we get to the new repository page there’s a few fields to complete.
 
-[☛ Git ignore templates on GitHub](https://github.com/github/gitignore)
+![](repo-new.jpg)
+
+- **Repository name** — create a unique name for the repo, make sure it follows the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions).
+- **Description** — come up with a short description describing the purpose of the project.
+- **Public/Private** — choose “Public” because we don’t have a paid accounts.
+- **Initialize this repository with a README** — always make sure this is enabled.
+
+### Setting up hosting with GitHub Pages
+
+There are different ways to set up hosting on GitHub Pages, the most common way is using a branch called `gh-pages`.
+
+[**☛ See a whole GitHub hosting setup tutorial from Web Dev 1**](/courses/web-dev-1/website-on-github/#step-3)
 
 ---
 
-## Commits & commit messages
+## Using GitHub Desktop
+
+The GitHub Desktop application will detect any changes we make to our code and allow us to save the state, like a permanent undo—this process is called committing.
+
+### Commits & commit messages
 
 Commits are one of the most important things you do with your version control system. Every time you commit, you are saving the current state of your code. You are making a breadcrumb that you can go back in time to.
 
-### Commit early, commit often
+#### Committing some code
+
+Whenever you’ve changed something significant in your code and you want to save its state, go to the GitHub Desktop application.
+
+It will detect whatever file in your code you’ve changed and show you a screen to commit the changes.
+
+![](commit.jpg)
+
+**Make sure to write a descriptive message!**
+
+![](sync.jpg)
+
+Then sync it to the GitHub website—allowing anybody to see your website live on the Web.
+
+#### Commit early, commit often
 
 The idea is to commit frequently. As soon as you’ve added a small function or significant piece of code.
 
@@ -109,14 +115,38 @@ The idea is to commit frequently. As soon as you’ve added a small function or 
 - Your code doesn’t need to be “done” to commit
 - Think of your project in small blocks, and then in smaller blocks—those smallest blocks are your commits
 
-### Commit messages
+#### Commit messages
 
 Every time you commit you must write a commit message describing what you changed. Some examples:
 
-- Bug fix: the dinosaur name function was always returning Tyranosaurus Rex
-- New feature: added the ability to track the length of a dinosaur
+- “Bug fix: the dinosaur name function was always returning Tyranosaurus Rex”
+- “New feature: added the ability to track the length of a dinosaur”
 
 **Your commit messages must be descriptive and specific.** If you ever need to go back in time on your project, they describe the state of the project for that commit. **Commit messages are for you and other developers.**
+
+---
+
+## Ignoring files
+
+To ignore files that you don’t want committed to your repository—like passwords—use a `.gitignore` file.
+
+Just create a file in your repository named `.gitignore` and put the names of the files you want to ignore inside it.
+
+### Ignore my database connection file
+
+```
+db-conn.php
+```
+
+### A default .gitignore
+
+```
+._*
+.DS_Store
+Thumbs.db
+```
+
+[**☛ Git ignore templates on GitHub**](https://github.com/github/gitignore)
 
 ---
 
@@ -128,62 +158,32 @@ Now you have a litter of different files for different features you’ve tried o
 
 Git branching solves this problem by providing a clean way to make copies of your code to work on a specific feature.
 
-**[☛ Git Branching + GitHub Flow](/topics/branching-github-flow/)**
+[**☛ Git Branching + GitHub Flow**](/topics/branching-github-flow/)
 
 ---
 
-## Tutorials & books
+### Video list
 
-### Videos
+1. [GitHub: setting up & creating projects](https://www.youtube.com/watch?v=P6SOVdNVylY&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=1)
+2. [GitHub: setting up hosting with GitHub Pages](https://www.youtube.com/watch?v=pc3jwarJxuU&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=2)
+3. [GitHub: saving state and syncing](https://www.youtube.com/watch?v=wDn7iwORSLY&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=3)
+4. [GitHub: syncing remote edits](https://www.youtube.com/watch?v=axPqGTjT52c&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=4)
+5. [GitHub: ignoring files from your project](https://www.youtube.com/watch?v=ck-J4nZeLtI&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=5)
+6. [GitHub: branching and merging](https://www.youtube.com/watch?v=mHl91Udzljw&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=6)
+7. [GitHub: handling conflicts with team members](https://www.youtube.com/watch?v=plm4x_DjDa8&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=7)
+8. [GitHub: using Issues](https://www.youtube.com/watch?v=J3STGo6ZwYA&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=8)
+
+---
+
+## Supplemental links
 
 - [Git + GitHub](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB)
 - [Replacing FTP with Git + GitHub](https://www.youtube.com/watch?v=24NGu1vGBiw)
 - [GitHub Guides](https://www.youtube.com/user/GitHubGuides)
-
-### Version control
-
 - [A Visual Guide to Version Control](http://betterexplained.com/articles/a-visual-guide-to-version-control/)
 - [Intro to Distributed Version Control Illustrated](http://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/)
-
-### Git
-
 - [Git Book](http://book.git-scm.com/)
 - [Git Documentation](http://git-scm.com/documentation)
 - [Git Immersion: Git Fundamentals](http://gitimmersion.com/)
 - [GitHub Help](http://help.github.com/)
 - [Git Reference](http://gitref.org/)
-
-#### Git installation
-
-- [Windows](http://help.github.com/win-set-up-git/)
-- [Mac](http://help.github.com/mac-set-up-git/)
-
----
-
-## GUI software
-
-Though Git is a command line system, there are many GUI tools for users who are uncomfortable using the command line. Most of the tools provide the same features as the command line version, just presented in a visually appealing package.
-
-### Git Windows
-
-- **[GitHub for Windows](http://windows.github.com/)**
-- [SmartGit](http://www.syntevo.com/smartgit/index.html)
-- [TortoiseGit](http://code.google.com/p/tortoisegit/)
-
-### Git Mac
-
-- **[GitHub for Mac](http://mac.github.com/)**
-- [SourceTree](http://www.sourcetreeapp.com/)
-- [Git Tower](http://www.git-tower.com/)
-
----
-
-## Repository hosting
-
-Using version control is great for backups of your source code files, but often a remote backup is even better. There are some great version control hosting solutions online—the most popular is GitHub.
-
-- **[GitHub](http://github.com)**
-
-  <http://net.tutsplus.com/tutorials/other/getting-the-hang-of-github/>
-
-- [BitBucket](http://bitbucket.com)

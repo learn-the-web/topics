@@ -1,5 +1,5 @@
 ---
-playlist:
+playlist: PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn
 ---
 
 Uniform resource locators are an extremely important part of the web—they’re how we address nearly everything.
@@ -45,7 +45,7 @@ Having a website over HTTPS is almost always better—[**☛ Learn more about HT
 
 ![http://www.algonquincollege.com](no-https.jpg)
 
-*A URL without HTTPS: ``http://www.algonquincollege.com`—can be easily snooped on.*
+*A URL without HTTPS: `http://www.algonquincollege.com`—can be easily snooped on.*
 
 ![https://duckduckgo.com](https.jpg)
 ![https://learn-the-web.algonquincollege.ca](https-2.jpg)
@@ -133,10 +133,11 @@ Often the search results page is also visible in the URL, here’s an example of
 
 ## Video list
 
-1. Using URLs: HTTPS
-2. Using URLs: Paths
-3. Using URLs: Query strings
-4. Using URLs: Keyboard shortcuts
+1. [Using URLs: HTTPS](https://www.youtube.com/watch?v=Iqg75AviCMk&index=1&list=PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn)
+2. [Using URLs: paths](https://www.youtube.com/watch?v=aImZR5IjDMI&list=PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn&index=2)
+3. [Using URLs: hashes](https://www.youtube.com/watch?v=mtEYBoXKnKE&list=PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn&index=3)
+4. [Using URLs: query strings](https://www.youtube.com/watch?v=ukUu5LFE66A&list=PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn&index=4)
+5. [Using URLs: keyboard shortcuts](https://www.youtube.com/watch?v=WIUrrp5KkCo&list=PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn&index=5)
 
 ## Supplemental links
 

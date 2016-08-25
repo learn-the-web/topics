@@ -182,6 +182,7 @@ Git branching solves this problem by providing a clean way to make copies of you
 6. [GitHub: branching and merging](https://www.youtube.com/watch?v=mHl91Udzljw&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=6)
 7. [GitHub: handling conflicts with team members](https://www.youtube.com/watch?v=plm4x_DjDa8&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=7)
 8. [GitHub: using Issues](https://www.youtube.com/watch?v=J3STGo6ZwYA&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=8)
+9. [GitHub: enabling the Issues tab](https://www.youtube.com/watch?v=vTULg-7xycs&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=9)
 
 ---
 

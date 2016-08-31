@@ -10,6 +10,9 @@ groups:
       - name: '`⌥`'
         details:
           - 'Option (Alt)'
+      - name: '`⌃`'
+        details:
+          - 'Control'
       - name: '`⇧`'
         details:
           - 'Shift'

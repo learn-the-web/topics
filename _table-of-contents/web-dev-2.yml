@@ -6,7 +6,7 @@ grids:
 gridifier:
   title: "Gridifier"
   tags: "modular responsive grids tools generate gridifier"
-  tool: "http://gridifier.web-dev.tools"
+  tool: "https://gridifier.web-dev.tools"
   indent: 1
   highlight: true
 
@@ -25,7 +25,7 @@ modular-typography:
 typografier:
   title: "Typografier"
   tags: "modular responsive typography tools generate typografier"
-  tool: "http://typografier.web-dev.tools"
+  tool: "https://typografier.web-dev.tools"
   indent: 1
   highlight: true
 
@@ -50,7 +50,7 @@ modules:
 modulifier:
   title: "Modulifier"
   tags: "modular responsive modules patterns list group media object embed tools generate modulifier"
-  tool: "http://modulifier.web-dev.tools"
+  tool: "https://modulifier.web-dev.tools"
   indent: 1
   highlight: true
 

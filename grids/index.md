@@ -5,7 +5,7 @@ github: https://github.com/acgd-learn-the-web/grids-code
 cheatsheet: gridifier-cheat-sheet
 tool:
   name: Gridifier
-  url: http://gridifier.web-dev.tools
+  url: https://gridifier.web-dev.tools
 ---
 
 Making flexible and responsive grids using HTML & CSS to simplify & systemize the creation of responsive websites.
@@ -174,7 +174,7 @@ Grid systems also have a series of other capabilities:
 3. `push` & `pull` classes allow you to move units around, reordering them.
 4. `top`, `bottom` & `middle` alignment classes for moving the units vertically.
 
-**[Check out Gridifier](http://gridifier.web-dev.tools)**, a tool I created for myself to generate the code for a responsive grid system.
+**[Check out Gridifier](https://gridifier.web-dev.tools)**, a tool I created for myself to generate the code for a responsive grid system.
 
 ### Pre-built grid frameworks
 

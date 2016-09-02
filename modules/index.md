@@ -5,7 +5,7 @@ github: https://github.com/acgd-learn-the-web/modules-code
 cheatsheet: modulifier-cheat-sheet
 tool:
   name: Modulifier
-  url: http://modulifier.web-dev.tools
+  url: https://modulifier.web-dev.tools
 ---
 
 Thinking modularly in CSS allows us to create more reusable CSS. And allows us to really reduce our duplication making our code more maintainable.
@@ -34,7 +34,7 @@ When looking at simplifying your CSS there a few things you can consider:
 - Look for common patterns, common design items with small variations, like buttons, or horizontal lists, and extract those into reusable classes.
 - Use min-width media queries so you don’t have to copy and paste all your CSS into each new MQ.
 
-If you’re using a [grid system](http://gridifier.web-dev.tools) or the [modular type system](http://typografier.web-dev.tools), they often come with a bunch of abstracted CSS classes to help you out.
+If you’re using a [grid system](https://gridifier.web-dev.tools) or the [modular type system](https://typografier.web-dev.tools), they often come with a bunch of abstracted CSS classes to help you out.
 
 Some utility classes you could consider:
 
@@ -133,7 +133,7 @@ And apply it to my HTML like this:
 
 So now the button inherits all the CSS from the standard `.btn` class plus the slightly modified `.btn-bright` class—creating much less duplicated CSS.
 
-If you have a [modular type system](http://typografier.web-dev.tools) you can use the font-size classes to adjust the size of the button with another class:
+If you have a [modular type system](https://typografier.web-dev.tools) you can use the font-size classes to adjust the size of the button with another class:
 
 ```html
 <!-- Inheriting the .mega class from the type system -->
@@ -171,7 +171,7 @@ There are a couple major naming conventions for modular CSS that help clarify th
 
 You probably don’t want to write all these same CSS patterns, or try and find them and copy and paste them from previous websites, every time you make a new website.
 
-[**Check out Modulifier**](http://modulifier.web-dev.tools/), a tool I created for myself to generate the code for these patterns & modules and many other things I like to include *by default* on every website I make.
+[**Check out Modulifier**](https://modulifier.web-dev.tools/), a tool I created for myself to generate the code for these patterns & modules and many other things I like to include *by default* on every website I make.
 
 ---
 

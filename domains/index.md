@@ -110,7 +110,7 @@ Though we generally call it “buying” a domain you aren’t technically *buyi
 
 There are lots of different e-mail providers and hosts often provide e-mail exchange also. But it’s best to purchase your e-mail from another provider. I often buy my e-mail services from [FastMail](https://www.fastmail.com/).
 
-*Make sure your e-mail provider supports custom domains—FastMail only supports this in their more expensive packages ([Enhanced](https://www.fastmail.com/signup/personal.html)).*
+*Make sure your e-mail provider supports custom domains—FastMail only supports this in their more expensive packages. ([The standard package works great!](https://www.fastmail.com/signup/))*
 
 #### E-mail server DNS records
 

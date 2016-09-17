@@ -95,5 +95,11 @@ groups:
               <p><span class="hang-punc">“</span>Dinosaurs are amazing!”</p>
             </blockquote>
             ```
+      - name: '`.wrapper`'
+        details:
+          - 'Sets the `max-width` of an element to `52em`—which is a fairly good line-length for a website body.'
+      - name: '`.max-length`'
+        details:
+          - 'Sets the `max-width` of an element to `36em`—which is a fairly good line-length for text content.'
 
 ---

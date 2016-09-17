@@ -76,9 +76,10 @@ groups:
         details:
           - 'Text alignment classes.'
           - '*These are brute force and not responsive, so use only when it will always need that alignment.*'
-      - name: '`.normal`, `.bold`, `.italic`'
+      - name: '`.bold`, `.italic`, `.not-bold`, `.not-italic`, `.normal`'
         details:
           - 'Font style and weight classes.'
+          - '`.normal` will set both `font-weight` and `font-style`'
           - '*These are brute force and not responsive, so use only when it will always need that style or weight.*'
       - name: '`.text-upper`, `.text-lower`'
         details:

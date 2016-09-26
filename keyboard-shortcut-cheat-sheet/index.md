@@ -53,6 +53,9 @@ groups:
 
   - title: 'Text'
     items:
+      - name: '`⌘A`'
+        details:
+          - 'Select all the text.'
       - name: '`⌘C`'
         details:
           - 'Copy the selected text.'
@@ -99,6 +102,36 @@ groups:
         details:
           - 'Highlight text.'
           - 'Can be combined with `⌘` & `⌥`'
+
+  - title: 'Files & folders'
+    items:
+      - name: '`Return`'
+        details:
+          - 'Rename a file or folder.'
+      - name: '`Space`'
+        details:
+          - 'Trigger a preview.'
+      - name: '`⌘N`'
+        details:
+          - 'Make a new Finder window.'
+      - name: '`⌘⇧N`'
+        details:
+          - 'Make a new folder in this location.'
+      - name: '`⌘ Delete`'
+        details:
+          - 'Move a file/folder to the trash.'
+      - name: '`⌘O`'
+        details:
+          - 'Open a file in the default application.'
+      - name: '`⌘D`'
+        details:
+          - 'Duplicate the file/folder.'
+      - name: '`Arrows`'
+        details:
+          - 'Move around the files.'
+      - name: '`⌘1`, `⌘2`, etc.'
+        details:
+          - 'Switch between “Icon”, “List” and “Column” views.'
 
   - title: 'Web browser'
     items:

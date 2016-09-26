@@ -467,7 +467,7 @@ For defining certain types of data and document information.
 <time datetime="1977-09-05T12:56:00">Voyager 1 launched Sept. 5, 1977 at 12:56</time>
 
 <!-- Time periods -->
-<time datetime="P365.25">Earth’s orbit around the Sun</time>
+<time datetime="P365D">Earth’s orbit around the Sun</time>
 <time datetime="PT0H22M">22 minutes to bake cookies</time>
 
 <data value="0.9865">Distance from Earth to Sun: 0.9856 au</data>

@@ -191,7 +191,20 @@ groups:
       - name: '`.i-64`'
         details:
           - 'A 64 × 64 pixel sized icon.'
-      - name: '*Icons example*'
+      - name: '*Icons with `<img>` tags*'
+        details:
+          - |
+            ```html
+            <ul>
+              <li>
+                <i class="icon i-18">
+                  <img src="images/icon.svg" alt="">
+                </i>
+                <span class="icon-label">GitHub</span>
+              </li>
+            </ul>
+            ```
+      - name: '*Icons with background images*'
         details:
           - |
             ```html
@@ -205,6 +218,25 @@ groups:
             .i-github {
               background-image: url("../img/github.svg");
             }
+            ```
+      - name: '*Icons with SVG symbols*'
+        details:
+          - |
+            ```html
+            <svg hidden>
+              <symbol id="the-icon" viewBox="0 0 256 256">
+                <circle x="128" y="128" r="128" />
+              </symbol>
+            </svg>
+
+            ⋮
+
+            <a class="icon-link" href="#">
+              <i class="icon i-24">
+                <svg><use xlink:href="#the-icon" /></svg>
+              </i>
+              <span class="icon-label">GitHub</span>
+            </a>
             ```
 
   - title: 'Hidden'

@@ -198,7 +198,7 @@ groups:
             <ul>
               <li>
                 <i class="icon i-18">
-                  <img src="images/icon.svg" alt="">
+                  <img class="img-flex" src="images/icon.svg" alt="">
                 </i>
                 <span class="icon-label">GitHub</span>
               </li>

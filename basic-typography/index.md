@@ -250,7 +250,7 @@ There are lots of different services for Web Fonts—Google Fonts is a simple on
 5. [Basic typography: decorative text](https://www.youtube.com/watch?v=JO6J2ta9isE&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=5)
 6. [Basic typography: styling links](https://www.youtube.com/watch?v=8JKPUPSJ-G8&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=6)
 7. [Basic typography: styling lists](https://www.youtube.com/watch?v=gYZ2jflYozI&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=7)
-8. [Basic typography: custom typefaces with web fonts](https://www.youtube.com/watch?v=mmu44j4PoqQ&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=8)
+8. [Basic typography: custom typefaces with web fonts](https://www.youtube.com/watch?v=JuwYg_54b6c&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=8)
 
 ## Supplemental links
 

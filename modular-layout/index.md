@@ -21,6 +21,14 @@ This layout and series of videos combine together all these different lessons—
 
 ---
 
+## Modulifier
+
+I created a tool called [Modulifier]() after recording these videos. It would dramatically simplify some of the CSS and reduce some copying and pasting.
+
+*There’s a video introduction within the [**☛ Modules**](/topics/modules/) playlist.*
+
+---
+
 ## Video list
 
 1. [Modular layouts: masthead](https://www.youtube.com/watch?v=BmlM9xEzxKE&list=PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany&index=1)

@@ -189,6 +189,7 @@ You probably don’t want to write all these same CSS patterns, or try and find 
 10. [Modules: embedding videos responsively](https://www.youtube.com/watch?v=noEcV1AFY-g&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=11)
 11. [Modules: embed containers with figures](https://www.youtube.com/watch?v=9tbM8i9K6lw&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=12)
 12. [Modules: combining buttons with modular typography](https://www.youtube.com/watch?v=z01-pDAd0HA&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=13)
+13. [Modules: using Modulifier](https://www.youtube.com/watch?v=LJ5wz0dPis0&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=13)
 
 ## Supplemental links
 

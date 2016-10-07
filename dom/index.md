@@ -463,7 +463,7 @@ $('.dinos').val(); // trex
 
 1. [Javascript DOM: selecting HTML elements](https://www.youtube.com/watch?v=q7nSkqmNpMY&index=1&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
 2. [Javascript DOM: events](https://www.youtube.com/watch?v=YMrUgX2G1dc&index=2&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-3. [Javascript DOM: event propagation](https://www.youtube.com/watch?v=SjwoFeklLPo&index=3&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
+3. [Javascript DOM: stopping default events](https://www.youtube.com/watch?v=SjwoFeklLPo&index=3&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
 4. [Javascript DOM: manipulating classes](https://www.youtube.com/watch?v=lU-JdTK6wAE&index=4&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
 5. [Javascript DOM: manipulating HTML](https://www.youtube.com/watch?v=0m5ytkr25ug&index=5&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
 6. [Javascript DOM: form data & events](https://www.youtube.com/watch?v=akNM35dRVGQ&index=6&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)

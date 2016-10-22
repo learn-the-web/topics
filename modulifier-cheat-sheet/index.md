@@ -32,18 +32,18 @@ groups:
           - 'Add the ability for embedded SVG to inherit `fill` from the CSS `color` property.'
       - name: '`.image-replacement`, `.ir`'
         details:
-          - 'Add a class, and a shorter version, that will hide all the text inside an element and allow only the `background-image` to show.'
+          - 'A class, and a shorter version, that will hide all the text inside an element and allow only the `background-image` to show.'
 
   - title: 'List group'
     note: 'These classes are brute force and not responsive, if you use list-group-inline, the list will always be inline.'
     items:
       - name: '`.list-group`'
         details:
-          - 'Add a `.list-group` class that will remove bullets and padding from lists, so semantically they can be lists but no visually.'
+          - 'The `.list-group` class that will remove bullets and padding from lists, so semantically they can be lists but no visually.'
           - 'When added to a `<dl>` tag, there is a little responsiveness to how the `<dt>` and `<dd>` tags flow.'
       - name: '`.list-group-inline`'
         details:
-          - 'Add a `.list-group-inline` class that will force the `<li>` tags onto the same line.'
+          - 'The `.list-group-inline` class that will force the `<li>` tags onto the same line.'
           - 'When added to the `<dl>` tag, the `<dt>` and `<dd>` tags will sit on the same line if there is enough space.'
       - name: '*List group example*'
         details:
@@ -246,13 +246,16 @@ groups:
           - 'Makes sure the `hidden` attribute works in all browsers and provides a `.hidden` class.'
       - name: '`.visually-hidden`'
         details:
-          - 'Add a class that will hide something from the visual screen but still allow it to be accessible via tools.'
+          - 'A class that will hide something from the visual screen but still allow it to be accessible via tools.'
       - name: '`.focusable`'
         details:
           - 'To be added to the `.visually-hidden` class to allow the keyboard to access the element.'
       - name: '`.invisible`'
         details:
           - 'A class that will hide an element on the screen, but its space will still be there.'
+      - name: '`.chop`'
+        details:
+          - 'A class that will chop overflowing elements off—essentially just `overflow: hidden`'
       - name: '`.truncate`'
         details:
           - 'A class that will chop single lines of text off and add an ellipsis at the end.'
@@ -265,30 +268,34 @@ groups:
     items:
       - name: '`.clearfix`'
         details:
-          - 'Add a class that can be used on floating wrappers to trigger a clear fix.'
+          - 'A class that can be used on floating wrappers to trigger a clear fix.'
       - name: '`.left`, `.right`'
         details:
           - 'Will `float` the element to the `left` or the `right`'
       - name: '`.inline`, `.inline-block` (`.ib`), `.block`'
         details:
-          - 'Add classes to control the `display` property between `inline`, `inline-block`, and `block`'
+          - 'Classes to control the `display` property between `inline`, `inline-block`, and `block`'
       - name: '`.valign-top`, `.valign-middle`, `.valign-bottom`'
         details:
           - 'These classes allow you to control the `vertical-align` property on `inline` and `inline-block` elements or within tables.'
       - name: '`.fixed`, `.relative`, `.absolute`, `.static`'
         details:
-          - 'Add classes to control the `position` property of an element.'
+          - 'Classes to control the `position` property of an element.'
       - name: '`.zindex-1`, `.zindex-2`, `.zindex-3`'
         details:
-          - 'Add classes to control three basic `z-index` states on an element.'
+          - 'Classes to control three basic `z-index` states on an element.'
       - name: '`.pin-top-left`, `.pin-top-right`, `.pin-bottom-left`, `.pin-bottom-right`, `.pin-top-center`, `.pin-bottom-center`, `.pin-center-left`, `.pin-center-right`'
         details:
-          - 'Add a series of classes for moving a `position: absolute` element to different common locations.'
+          - 'A series of classes for moving a `position: absolute` element to different common locations.'
           - 'Simplified versions are available: `.pin-tl`, `.pin-tr`, `.pin-bl`, `.pin-br`, `.pin-tc`, `.pin-bc`, `.pin-cl`, `.pin-cr`'
       - name: '`.width-quarter`, `.width-half`, `.width-full`'
         details:
-          - 'Add a series of class for setting common widths.'
+          - 'A series of classes for setting common widths.'
           - 'Simplified versions are available: `.w-1-4`, `.w-1-2`, `.w-1`'
+      - name: '`.height-quarter`, `.height-half`, `.height-full`'
+        details:
+          - 'A series of classes for setting common heights—usually only useful the context of `position: absolute`'
+          - 'Simplified versions are available: `.h-1-4`, `.h-1-2`, `.h-1`'
 
   - title: 'Nice lists'
     items:

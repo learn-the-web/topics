@@ -36,7 +36,7 @@ groups:
       - 'Unnecessary images have been removed.'
       - 'Images are as optimized as they can be.'
       - 'Images properly saved using “Save for Web” from Photoshop.'
-      - 'All images smushed after saving them.<br>[ImageOptim](https://imageoptim.com/), [SVGO](https://github.com/svg/svgo-gui)'
+      - 'All images smushed after saving them.<br>[ImageOptim](https://imageoptim.com/), [SVGOMG](https://jakearchibald.github.io/svgomg/)'
       - 'As few font styles are used as possible.'
       - 'Font special features are used sparingly—no `text-rendering: optimizeLegibility`'
       - 'Appropriate PNGs have reduced colour palettes.<br>[ImageAlpha](http://pngmini.com/)'

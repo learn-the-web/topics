@@ -30,21 +30,82 @@ Scalable Vector Graphics, SVG, are a vector image format specifically for the we
 
 SVG graphics can be created in many vector applications, like [Illustrator](http://www.adobe.com/ca/products/illustrator.html) and [Sketch](http://bohemiancoding.com/sketch/).
 
-![](images-svg.jpg)
+### Exporting from Illustrator
 
-- Create your graphic in Illustrator then go to `File > Save a Copy`
-- Choose `SVG` as the type
-- In the dialogue that pops up, select `SVG 1.1`
-- Under the “Fonts” section choose `Convert to Outline` for the “Type”
-- “Image Location” should be set to `Link`
-- Un-check “Preserve Illustrator Editing Capabilities”
-- Press the `More Options` button and fill in a couple more options
-	- “CSS Properties” — `Style Elements`
-	- Un-check “Include Unused Graphic Styles”
-	- “Decimal Places” — 1
-	- Make sure “Responsive” is **not** checked (for better browser support)
+Illustrator has decent SVG support and it’s getting better with time.
 
-**[Don’t forget to smush your SVGs afterwards.](#image-smushing)**
+#### Set up the artboard
+
+The most important aspect of exporting from Illustrator is your artboard:
+
+1. Set the dimensions to exactly the width & height you want the image
+2. Name the artboard what you want the file named when exported
+3. *Name your layers—these will become IDs in the SVG*
+
+![](illustrator-artboard.jpg)
+
+#### Export for screens
+
+Next up go to the menu to `File > Export > Export for Screens…` or press the shortcut `⌘⌥E`
+
+![](illustrator-export.jpg)
+
+Change a few settings in the window that shows:
+
+![](illustrator-export-to.jpg)
+
+*Set the “Export to:” location.*
+
+![](illustrator-svg.jpg)
+
+*Set the “Format” to SVG.*
+
+##### Configure the SVG settings
+
+We should confirm the SVG settings are appropriately set up before exporting by clicking the little “gear” icon:
+
+![](illustrator-svg-settings.jpg)
+
+Then changing the properties for the most optimal & compatible output:
+
+![](illustrator-svg-settings-screen.jpg)
+
+- “Styling” — “Presentation Attributes”
+- “Font” — “Convert to Outlines”
+- “Images” — “Link”
+- “Object IDs” — “Layer Names”
+- “Decimal” — 1
+- “Minify” — checked
+- Make sure “Responsive” is <strong>not</strong> checked (for better browser support)
+
+Now we’re ready to export:
+
+![](illustrator-export-artboard.jpg)
+
+<details>
+  <summary class="push"><em>Exporting from older versions of Illustrator…</em></summary>
+  <img class="push" src="illustrator-old-svg.jpg" alt="">
+
+  <ul>
+    <li>Create your graphic in Illustrator then go to <code>File > Save a Copy</code></li>
+    <li>Choose <code>SVG</code> as the type</li>
+    <li>In the dialogue that pops up, select <code>SVG 1.1</code></li>
+    <li>Under the “Fonts” section choose <code>Convert to Outline</code> for the “Type”</li>
+    <li>“Image Location” should be set to <code>Link</code></li>
+    <li>Un-check “Preserve Illustrator Editing Capabilities”</li>
+    <li>
+      <p class="push-0">Press the <code>More Options</code> button and fill in a couple more options</p>
+      <ul>
+        <li>“CSS Properties” — <code>Style Elements</code></li>
+        <li>Un-check “Include Unused Graphic Styles”</li>
+        <li>“Decimal Places” — 1</li>
+        <li>Make sure “Responsive” is <strong>not</strong> checked (for better browser support)</li>
+      </ul>
+    </li>
+  </ul>
+
+  <a href="#image-smushing"><strong>Don’t forget to smush your SVGs afterwards.</strong></a>
+</details>
 
 ### SVGs are code
 
@@ -227,7 +288,7 @@ Smushing will reduce the size of images without reducing their quality.
 *All images should be exported from Photoshop with “Save for Web”, then run through a smusher.*
 
 - `PNGs` & `JPGs` — should be run through ImageOptim
-- `SVGs` — should be run through SVGO-GUI
+- `SVGs` — should be run through [SVGOMG](https://jakearchibald.github.io/svgomg/)—**unless you’re using Illustrator’s “Export for Screens…”, it does a good job by itself**
 
 ### JPG optimization techniques
 
@@ -242,7 +303,7 @@ Smushing will reduce the size of images without reducing their quality.
 **Links**
 
 - **[ImageOptim](http://imageoptim.com/)** — compresses all raster images without compromising quality (Mac)
-- **[SVGO-GUI](https://github.com/svg/svgo-gui)** — removes extraneous code and whitespace from SVGs to save on filesize (Mac, Windows)
+- **[SVGOMG](https://jakearchibald.github.io/svgomg/)** — removes extraneous code and whitespace from SVGs to save on filesize
 - [ImageAlpha](http://pngmini.com/) — compresses PNGs by allowing you to reduce the number of colours in the image (Mac)
 - [PNGGauntlet](http://pnggauntlet.com/) — compresses PNGs ony (Windows)
 - [PngOptimizer](http://psydk.org/pngoptimizer) — Windows

@@ -5,7 +5,7 @@ github: https://github.com/acgd-learn-the-web/images-for-retina-code
 cheatsheet: images-cheat-sheet
 ---
 
-With many screens now becoming high resolution it’s time to start preparing our images to support the new technology.
+With many screens now high resolution we need to prepare our images so they are crisper and clearer.
 
 ---
 
@@ -16,14 +16,14 @@ There are a few techniques we can use for hi-res screens.
 ![](flow-chart.png)
 
 1. **Can the look be accomplished practically in CSS?**
-  *Yes:* Use CSS.
+  <br>*Yes:* Use CSS.
 2. **Is it a simple vector-like graphic (logo, icon, illustration)?**
-  1. *Yes*: **Can the look be accomplished with SVG?**
-    *Yes*: Use SVG.
-    *No*: Use a double-size PNG and scale it down.
-3. **Is it a photo that’s always cropped the same?**
-  *Yes:* Use compressive JPGs.
-  *No*: Try: `<img srcset="">`, `<picture>`, `image-set()`, or `@media` to provide different versions of the image.
+  <br>*Yes:* **Can the look be accomplished with SVG?**
+  - *Yes*: Use SVG.
+  - *No*: Use a double-size PNG and scale it down.
+4. **Is it a photo that’s always cropped the same?**
+  <br>*Yes:* Use compressive JPGs.
+  <br>*No*: Try: `<img srcset="">`, `<picture>`, `image-set()`, or `@media` to provide different versions of the image.
 
 ---
 
@@ -57,11 +57,19 @@ Compressive JPGs are a technique for supplying hi-resolution photos while reduci
 
 The major downside of this technique is that the images can become very memory intensive.
 
-1. Go to your website and determine the maximum width your image will be displayed at,
+### Creating compressive JPGs
+
+1. Go to your website and, using the developer tools, determine the maximum width your image will be displayed at,
 2. Open the original source file in Photoshop and make its width double the size you determined for your website,
-3. Use `Save For Web` to compress the image to a JPG with a quality of somewhere around 25%–35%.
+3. Use `Save For Web` to compress the image to a JPG with a quality of somewhere around 20%–30%.
 
 Then, when sizing your JPG to the appropriate dimensions in the your website, it will actually be double the pixel width and shrunken down by the browser, therefore displayed crisply.
+
+```
+(retina width) = (display width in browser) * 2
+```
+
+**No image, displayed on a website, should ever be larger than `2500px` or `300kB`.**
 
 **Links**
 
@@ -84,8 +92,6 @@ If that’s too memory intensive, or creates too large of a file, try some of th
 
 There’s a new attribute—`srcset`—on the `<img>` tag that allows us to provide different versions of our images and the browser will determine which image to show on the screen.
 
-*Browser support is currently pretty poor.*
-
 ```html
 <img
   src="low-res.jpg"
@@ -106,7 +112,9 @@ In the `srcset` attribute we provide different versions of the image and what `w
 
 There’s a new HTML element for managing and targeting different graphics to different screen sizes: the `<picture>` element.
 
-*Browser support is currently pretty poor.*
+The `<picture>` element works is specifically targeted at art direction: serving differently framed and cropped images to different screen sizes.
+
+*Browser support isn’t amazing—only the most recent versions of all browsers support it.*
 
 ```html
 <picture>

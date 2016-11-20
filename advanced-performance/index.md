@@ -427,7 +427,7 @@ Next up we write a little script that checks if the font has finished loading. W
       // On this line we specify the font exactly how it’s written in our CSS
       observer = new FontFaceObserver('Bree Serif');
 
-      observer.check().then(function () {
+      observer.load().then(function () {
         document.documentElement.className += ' fonts-loaded';
         sessionStorage.fontsLoaded = true;
       });

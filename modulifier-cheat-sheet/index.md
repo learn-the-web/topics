@@ -284,10 +284,10 @@ groups:
       - name: '`.zindex-1`, `.zindex-2`, `.zindex-3`'
         details:
           - 'Classes to control three basic `z-index` states on an element.'
-      - name: '`.pin-top-left`, `.pin-top-right`, `.pin-bottom-left`, `.pin-bottom-right`, `.pin-top-center`, `.pin-bottom-center`, `.pin-center-left`, `.pin-center-right`'
+      - name: '`.pin-top-left`, `.pin-top-right`, `.pin-bottom-left`, `.pin-bottom-right`, `.pin-top-center`, `.pin-bottom-center`, `.pin-center-left`, `.pin-center-right`, `.pin-center`'
         details:
           - 'A series of classes for moving a `position: absolute` element to different common locations.'
-          - 'Simplified versions are available: `.pin-tl`, `.pin-tr`, `.pin-bl`, `.pin-br`, `.pin-tc`, `.pin-bc`, `.pin-cl`, `.pin-cr`'
+          - 'Simplified versions are available: `.pin-tl`, `.pin-tr`, `.pin-bl`, `.pin-br`, `.pin-tc`, `.pin-bc`, `.pin-cl`, `.pin-cr`, `.pin-c`'
       - name: '`.width-quarter`, `.width-half`, `.width-full`'
         details:
           - 'A series of classes for setting common widths.'

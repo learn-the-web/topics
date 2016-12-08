@@ -253,7 +253,7 @@ It’s usually best to put the number in the international format, starting with
 
 ### Images & figures
 
-Images in websites are no embedded in the website, but linked to by the HTML document.
+Images in websites are not embedded in the website, but linked to by the HTML document.
 
 - `<img>` — the image tag, to link to an image file so the browser could download it.
 

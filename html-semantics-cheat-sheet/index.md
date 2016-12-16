@@ -144,8 +144,7 @@ groups:
           - 'Represents side comments and fine print.'
       - name: '`<address>`'
         details:
-          - 'Contact information (email, tel) for the nearest `<article>` or `<body>`.'
-          - 'Should *not* be used for postal addresses unless it’s relevant to the whole document.'
+          - 'Contact information, email, tel, postal address, etc.'
 
   - title: 'Images & media'
     items:

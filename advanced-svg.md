@@ -453,8 +453,8 @@ At the top of our HTML file—the very top—we can define the SVG icons.
 ```html
 ⋮
 <body>
-  <!-- Make sure to use `display: none` to hide the icons until use -->
-  <svg style="display:none;">
+  <!-- Make sure to use `hidden` or `style="display: none"` to hide the icons until use -->
+  <svg hidden>
     <symbol id="symbol-icon" viewBox="0 0 256 256">
       <path d="M188.5…" />
     </symbol>

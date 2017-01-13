@@ -117,7 +117,7 @@ The thing that affects the website’s performance the most is images—spend lo
 
 - Use as few images as possible
 - Properly save them with “Save for Web” from Photoshop
-- Smush them with ImageOptim or SVGO
+- Smush them with ImageOptim or Spritebot
 - Don’t make them bigger than they need to be in the design
 
 A few other things you can do to your website to make it load faster are:

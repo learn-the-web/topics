@@ -291,7 +291,7 @@ Smushing will reduce the size of images without reducing their quality.
 *All images should be exported from Photoshop with “Save for Web”, then run through a smusher.*
 
 - `PNGs` & `JPGs` — should be run through ImageOptim
-- `SVGs` — should be run through [SVGOMG](https://jakearchibald.github.io/svgomg/)—**unless you’re using Illustrator’s “Export for Screens…”, it does a good job by itself**
+- `SVGs` — should be run through [Spritebot](https://github.com/thomasjbradley/spritebot)
 
 ### JPG optimization techniques
 
@@ -305,8 +305,9 @@ Smushing will reduce the size of images without reducing their quality.
 
 **Links**
 
-- **[ImageOptim](http://imageoptim.com/)** — compresses all raster images without compromising quality (Mac)
-- **[SVGOMG](https://jakearchibald.github.io/svgomg/)** — removes extraneous code and whitespace from SVGs to save on filesize
+- [**ImageOptim**](http://imageoptim.com/) — compresses all raster images without compromising quality (Mac)
+- [**Spritebot**](https://github.com/thomasjbradley/spritebot) — removes extraneous code and whitespace from SVGs to save on filesize
+- [SVGOMG](https://jakearchibald.github.io/svgomg/)** — removes extraneous code and whitespace from SVGs to save on filesize
 - [ImageAlpha](http://pngmini.com/) — compresses PNGs by allowing you to reduce the number of colours in the image (Mac)
 - [PNGGauntlet](http://pnggauntlet.com/) — compresses PNGs ony (Windows)
 - [PngOptimizer](http://psydk.org/pngoptimizer) — Windows

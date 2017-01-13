@@ -194,6 +194,15 @@ groups:
       - name: '`.i-64`'
         details:
           - 'A 64 × 64 pixel sized icon.'
+      - name: '`.i-96`'
+        details:
+          - 'A 96 × 96 pixel sized icon.'
+      - name: '`.i-128`'
+        details:
+          - 'A 128 × 128 pixel sized icon.'
+      - name: '`.i-256`'
+        details:
+          - 'A 256 × 256 pixel sized icon.'
       - name: '*Icons with `<img>` tags*'
         details:
           - |
@@ -242,6 +251,18 @@ groups:
             </a>
             ```
 
+      - name: '*Icons with SVG symbols in a separate file*'
+        details:
+          - |
+            ```html
+            <a class="icon-link" href="#">
+              <i class="icon i-24">
+                <svg><use xlink:href="images/icons.svg#the-icon" /></svg>
+              </i>
+              <span class="icon-label">GitHub</span>
+            </a>
+            ```
+
   - title: 'Hidden'
     items:
       - name: '`[hidden]`, `.hidden`'
@@ -256,9 +277,9 @@ groups:
       - name: '`.invisible`'
         details:
           - 'A class that will hide an element on the screen, but its space will still be there.'
-      - name: '`.chop`'
+      - name: '`.chop`, `.crop`'
         details:
-          - 'A class that will chop overflowing elements off—essentially just `overflow: hidden`'
+          - 'These classes that will chop/crop overflowing elements off—essentially just `overflow: hidden`'
       - name: '`.truncate`'
         details:
           - 'A class that will chop single lines of text off and add an ellipsis at the end.'

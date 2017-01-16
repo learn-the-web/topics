@@ -272,12 +272,15 @@ Inside the keyframes declaration we specify all the keyframes of our website—a
 
 ```css
 @keyframes spin {
+
   from {
     /* Add all the CSS property start values here */
   }
+
   to {
     /* Add all the CSS property end values here */
   }
+
 }
 ```
 
@@ -285,14 +288,17 @@ So, for our spinning box, we’d need keyframes that look like this:
 
 ```css
 @keyframes spin {
+
   from {
     /* We start the rotation at 0 degrees */
     transform: rotate(0deg);
   }
+
   to {
     /* And end the rotation at 360 degrees */
     transform: rotate(360deg);
   }
+
 }
 ```
 
@@ -349,18 +355,22 @@ Here’s an example where for the rotation does a small bounce, rotating further
 
 ```css
 @keyframes spin {
+
   /* At 0% of the time */
   0% {
     transform: rotate(0deg);
   }
+
   /* At 90% of the time */
   90% {
     transform: rotate(380deg);
   }
+
   /* At 100% of the time */
   100% {
     transform: rotate(360deg);
   }
+
 }
 ```
 
@@ -384,8 +394,15 @@ Here’s a simple animation to animate the background colour:
 }
 
 @keyframes fade {
-  0% { background-color: orange; }
-  100% { background-color: red; }
+
+  0% {
+    background-color: orange;
+  }
+
+  100% {
+    background-color: red;
+  }
+
 }
 ```
 
@@ -438,13 +455,27 @@ Or for animations, they would need to be written like this:
 }
 
 @-webkit-keyframes fade {
-  0% { background-color: orange; }
-  100% { background-color: red; }
+
+  0% {
+    background-color: orange;
+  }
+
+  100% {
+    background-color: red;
+  }
+
 }
 
 @keyframes fade {
-  0% { background-color: orange; }
-  100% { background-color: red; }
+
+  0% {
+    background-color: orange;
+  }
+
+  100% {
+    background-color: red;
+  }
+
 }
 ```
 

@@ -229,8 +229,15 @@ Just treat your SVG elements just like any other HTML elements.
 }
 
 @keyframes rotate-box {
-  0% { transform: rotate(0); }
-  100% { transform: rotate(360deg); }
+
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
 }
 ```
 

@@ -330,8 +330,15 @@ groups:
             }
 
             @keyframes change-colour {
-              0% { background-color: red; }
-              100% { background-color: green; }
+
+              0% {
+                background-color: red;
+              }
+
+              100% {
+                background-color: green;
+              }
+
             }
             ```
           - |

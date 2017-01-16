@@ -346,8 +346,15 @@ First we need to set up our CSS, something like this:
 }
 
 @keyframes bounce {
-  0% { top: 0; }
-  100% { top: 100px; }
+
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 100px;
+  }
+
 }
 ```
 

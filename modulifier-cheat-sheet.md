@@ -320,6 +320,20 @@ groups:
         details:
           - 'A series of classes for setting common heights—usually only useful the context of `position: absolute`'
           - 'Simplified versions are available: `.h-1-4`, `.h-1-2`, `.h-1`'
+      - name: '`.center-flow`, `.center-text`'
+        details:
+          - 'Centres `inline`, `inline-block` & text elements—essentially just adds `text-align: center`'
+      - name: '`.center-block`'
+        details:
+          - 'Centres block-level elements, but they need widths—essentially adds: `margin-left: auto; margin-right: auto`'
+      - name: '`.center-content`, `.center-content-vertical`'
+        details:
+          - 'Centres all the contents of a box within, both vertically & horizontally centered.'
+          - 'If there are multiple elements they are put on new lines, creating a single column.'
+      - name: '`.center-content-horizontal`'
+        details:
+          - 'Centres all the contents of a box within, both vertically & horizontally centered.'
+          - 'If there are multiple elements they are put on a single line, creating a row column.'
 
   - title: 'Nice lists'
     items:

@@ -200,6 +200,9 @@ groups:
       - name: '`.i-128`'
         details:
           - 'A 128 × 128 pixel sized icon.'
+      - name: '`.i-192`'
+        details:
+          - 'A 192 × 192 pixel sized icon.'
       - name: '`.i-256`'
         details:
           - 'A 256 × 256 pixel sized icon.'

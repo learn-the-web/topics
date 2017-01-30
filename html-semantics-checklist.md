@@ -54,6 +54,6 @@ groups:
       - 'There’s nothing immediately inside `<ul>` & `<ol>` except `<li>` elements.'
       - 'No `<li>` tags are outside of `<ul>` or `<ol>`.'
       - 'The `<figcaption>` isn’t outside a `<figure>`.'
-      - 'There’s nothing immediately inside `<dl>` except `<dt>` & `<dd>` elements.'
+      - 'There’s nothing immediately inside `<dl>` except `<dt>`, `<dd>` & `<div>` elements.'
       - 'No `<dt>` or `<dd>` tags are outside of a `<dl>`.'
 ---

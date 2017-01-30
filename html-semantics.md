@@ -164,6 +164,23 @@ The description list is a little different because it needs a tag for the “ter
 </dl>
 ```
 
+One extra feature that description lists have that `<ul>` tags and `<ol>` tags don’t is you can put a `<div>` directly inside the `<dl>`.
+
+```html
+<dl>
+  <div>
+    <dt>Length</dt>
+    <dd>12 metres</dd>
+  </div>
+  <div>
+    <dt>Mass</dt>
+    <dd>5.4 metric tons</dd>
+  </div>
+</dl>
+```
+
+*You can still put `<div>` tags (and other tags) inside `<ul>` and `<ol>` tags but they must be inside the `<li>` tags.*
+
 ### Quotes, citations, sources
 
 - `<q>` — quote, for marking up quotes embedded in other things like paragraphs. Often just using quote marks is good enough.

@@ -126,6 +126,9 @@ groups:
       - name: '`.embed-4by1`'
         details:
           - 'Polyvision.'
+      - name: '`.embed-5by1`'
+        details:
+          - 'Really, really wide…'
       - name: '*Making a new ratio*'
         details:
           - 'Take the height, divide by the width, and multiply by 100 — `h ÷ w × 100`'

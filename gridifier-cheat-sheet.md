@@ -124,6 +124,12 @@ groups:
         details:
           - 'When using `.content-fill` the elements will stretch the whole width of the containing box. Adding `.content-shrink` will allow the element to be only as wide as it needs to be.'
           - 'Added to an element *inside* a unit—*will not work added directly to a `.unit`.*'
+      - name: '`.unit-content-center`, `.unit-content-center-vertical`'
+        details:
+          - 'Lumps all the content together in the vertical center of the element.'
+      - name: '`.unit-content-center-horizontal`'
+        details:
+          - 'Lumps all the content together in the horizontal center of the element.'
 
   - title: 'Example solutions'
     items:

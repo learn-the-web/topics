@@ -332,11 +332,11 @@ groups:
       - name: '`.center-block`'
         details:
           - 'Centres block-level elements, but they need widths—essentially adds: `margin-left: auto; margin-right: auto`'
-      - name: '`.center-content`, `.center-content-vertical`'
+      - name: '`.center-contents`, `.center-contents-vertical`'
         details:
           - 'Centres all the contents of a box within, both vertically & horizontally centered.'
           - 'If there are multiple elements they are put on new lines, creating a single column.'
-      - name: '`.center-content-horizontal`'
+      - name: '`.center-contents-horizontal`'
         details:
           - 'Centres all the contents of a box within, both vertically & horizontally centered.'
           - 'If there are multiple elements they are put on a single line, creating a row column.'

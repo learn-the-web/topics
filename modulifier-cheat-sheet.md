@@ -311,13 +311,14 @@ groups:
       - name: '`.fixed`, `.relative`, `.absolute`, `.static`'
         details:
           - 'Classes to control the `position` property of an element.'
-      - name: '`.zindex-1`, `.zindex-2`, `.zindex-3`'
+      - name: '`.zindex-1`, `.zindex-2`, `.zindex-3`, `.zindex-1000`'
         details:
           - 'Classes to control three basic `z-index` states on an element.'
-      - name: '`.pin-top-left`, `.pin-top-right`, `.pin-bottom-left`, `.pin-bottom-right`, `.pin-top-center`, `.pin-bottom-center`, `.pin-center-left`, `.pin-center-right`, `.pin-center`'
+      - name: '`.pin-left-top`, `.pin-right-top`, `.pin-left-bottom`, `.pin-right-bottom`, `.pin-center-top`, `.pin-center-bottom`, `.pin-left-center`, `.pin-right-center`, `.pin-center`'
         details:
           - 'A series of classes for moving a `position: absolute` element to different common locations.'
-          - 'Simplified versions are available: `.pin-tl`, `.pin-tr`, `.pin-bl`, `.pin-br`, `.pin-tc`, `.pin-bc`, `.pin-cl`, `.pin-cr`, `.pin-c`'
+          - 'The `.pin-*` classes will automatically add `position: absolute` so adding the class `.absolute` also isn’t necessary.'
+          - 'Simplified versions are available: `.pin-lt`, `.pin-rt`, `.pin-lb`, `.pin-rb`, `.pin-ct`, `.pin-cb`, `.pin-lc`, `.pin-rc`, `.pin-c`'
       - name: '`.width-quarter`, `.width-half`, `.width-full`'
         details:
           - 'A series of classes for setting common widths.'
@@ -332,20 +333,26 @@ groups:
       - name: '`.center-block`'
         details:
           - 'Centres block-level elements, but they need widths—essentially adds: `margin-left: auto; margin-right: auto`'
-      - name: '`.center-contents`, `.center-contents-vertical`'
+      - name: '`.center-content`, `.center-content-vertical`'
         details:
           - 'Centres all the contents of a box within, both vertically & horizontally centered.'
           - 'If there are multiple elements they are put on new lines, creating a single column.'
-      - name: '`.center-contents-horizontal`'
+      - name: '`.center-content-horizontal`'
         details:
           - 'Centres all the contents of a box within, both vertically & horizontally centered.'
           - 'If there are multiple elements they are put on a single line, creating a row column.'
+      - name: '`.not-centered`, `.no-auto-margins`'
+        details:
+          - 'Removes the auto margins from the left & right side by setting them to `0`'
 
   - title: 'Nice lists'
     items:
       - name: '*Typographic bullets & numbers*'
         details:
           - 'The “Nice lists” option will change the default bullets and numbers on `<ul>` and `<ol>` tags to make them look better.'
+      - name: '*Remove custom bullets & numbers*'
+        details:
+          - 'The simplest way to remove the custom bullets & numbers is to add the class `.list-group`'
 
   - title: 'Basic buttons'
     items:
@@ -381,6 +388,13 @@ groups:
       - name: '`.label-inline`'
         details:
           - 'A class to force a `<label>` onto the same line as other inputs.'
+      - name: '*Customized input controls*'
+        details:
+          - 'Radio buttons & checkboxes are customized with larger, consistent looking controls.'
+          - 'Select boxes are customized with a consistent look.'
+      - name: '`.hide-custom-input`'
+        details:
+          - 'This class can be added to a checkbox or radio button `<input>` or `<label>` to hide the custom control.'
 
   - title: 'Accessibility'
     items:

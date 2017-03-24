@@ -102,8 +102,10 @@ groups:
       - name: '`.wrapper`'
         details:
           - 'Sets the `max-width` of an element to `52em`—which is a fairly good line-length for a website body.'
+          - 'There’s also `.wrapper-no-center` that doesn’t add the `auto` left & right margins.'
       - name: '`.max-length`'
         details:
           - 'Sets the `max-width` of an element to `36em`—which is a fairly good line-length for text content.'
+          - 'There’s also `.max-length-no-center` that doesn’t add the `auto` left & right margins.'
 
 ---

@@ -76,7 +76,7 @@ Then, when sizing your JPG to the appropriate dimensions in the your website, it
 
 **Links**
 
-- [Retina Revolution Compressive JPEGs](http://blog.netvlies.nl/design-interactie/retina-revolution/)
+- [Retina Revolution Compressive JPEGs](https://www.netvlies.nl/tips-updates/algemeen/algemeen/retina-revolution/)
 - [RWD Image Compression](http://filamentgroup.com/lab/rwd_img_compression/)
 
 ---

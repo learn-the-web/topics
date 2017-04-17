@@ -97,8 +97,7 @@ groups:
           - 'Start a line with three backticks to make a code block.'
           - 'End the code block with three more backticks on their own line.'
           - |
-            <pre class="language-markdown"><code class="language-markdown">
-            ```
+            <pre class="language-markdown"><code class="language-markdown">```
             body {
               font-size: 100%;
             }
@@ -106,8 +105,7 @@ groups:
             </code></pre>
           - 'Optionally specify the code language after the opening backticks.'
           - |
-            <pre class="language-markdown"><code class="language-markdown">
-            ```css
+            <pre class="language-markdown"><code class="language-markdown">```css
             body {
               font-size: 100%;
             }
@@ -136,36 +134,36 @@ groups:
           - 'Start with a term, no spaces, followed by a colon and a space.'
           - |
             ```yaml
-            name: Tyrannosaurus
-            period: Late Cretaceous
+            name: "Tyrannosaurus"
+            period: "Late Cretaceous"
             ```
           - 'Indent to create nested objects.'
           - |
             ```yaml
             dimensions:
-              width: 3 metres
-              height: 8 metres
+              width: "3 metres"
+              height: "8 metres"
             ```
       - name: '`- value` — Arrays'
         details:
           - 'Start with a dash, and a space.'
           - |
             ```yaml
-            - Other dinosaurs
-            - Meat
+            - "Other dinosaurs"
+            - "Meat"
             ```
           - 'Arrays inside objects:'
           - |
             ```yaml
             likes_to_eat:
-              - Other dinosaurs
-              - Meat
+              - "Other dinosaurs"
+              - "Meat"
             ```
           - 'Objects inside arrays.'
           - |
             ```yaml
-            - name: T. rex
-              period: Late Cretaceous Period
+            - name: "T. rex"
+              period: "Late Cretaceous Period"
             ```
       - name: '`"` — Escaping'
         details:
@@ -174,6 +172,7 @@ groups:
             ```yaml
             name_meaning: "tyrant & lizard"
             ```
+          - In all the previous examples the quotes aren’t really necessary. But I find myself almost always adding them for clarity and to prevent myself from having to think about whether I need to escape the or not.
       - name: '`>` — Folded text block'
         details:
           - 'Start with a greater than, and indent the next lines.'
@@ -201,8 +200,8 @@ groups:
           - |
             ```markdown
             ---
-            name: Venus
-            discoverer: Galileo Galilei
+            name: "Venus"
+            discoverer: "Galileo Galilei"
             ---
 
             *Venus* is the second planet from the Sun, orbiting it every 224.7 Earth days.

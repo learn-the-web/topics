@@ -47,7 +47,7 @@ groups:
         details:
           - 'For inserting content-related images.'
           - 'Use the `alt="…"` to describe the image, blank alt for decorative images.'
-          - 'If a formatted description is needed use `aria-describedat="…"`'
+          - 'If a formatted description is needed use `aria-details="…"`'
           - 'Use the `srcset="…"` attribute for responsiveness.'
       - name: '`<figure>`'
         details:

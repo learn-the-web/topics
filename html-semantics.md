@@ -441,11 +441,11 @@ In HTML there’s an element to add a line break. It should never be used to mak
 A good example is an address. In an address, the formatting of each line is important so a `<br>` tag is important.
 
 ```html
-<p>
+<address>
   24 Sussex Drive<br>
   Ottawa, ON<br>
   K1A 0A3
-</p>
+</address>
 ```
 
 Another good example of when to use a `<br>` tag would be in poems: each stanza is a paragraph, and each line as a break after it.

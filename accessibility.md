@@ -124,10 +124,10 @@ Add the `aria-label` attribute to the item to give it a non-visual label that ca
 
 Often there’s complex graphics on your page that need accessible descriptions. The `alt` doesn’t provide a place for complex descriptions, only short overviews.
 
-As an example, say you have an infographic on your website. First, if it can be done in HTML & CSS with real text do that. If it must be a raster image, then use `aria-describedat` to write HTML describing the content of the image.
+As an example, say you have an infographic on your website. First, if it can be done in HTML & CSS with real text do that. If it must be a raster image, then use `aria-details` to write HTML describing the content of the image.
 
 ```html
-<img aria-describedat="#infographic-desc" src="big-complex-infographic.jpg" alt="">
+<img aria-details="#infographic-desc" src="big-complex-infographic.jpg" alt="">
 
 <div id="infographic-desc">
   <h2>All about dinosaurs</h2>
@@ -138,11 +138,11 @@ As an example, say you have an infographic on your website. First, if it can be 
 </div>
 ```
 
-The `aria-describedat` attribute can point to a location on the current page or a location on another page.
+The `aria-details` attribute can point to a location on the current page or a location on another page.
 
 It is best to keep that information visible on the screen, but if you must hide it the `hidden` attribute should work okay.
 
-There’s a similar ARIA property: `aria-describedby`—the difference is that `describedat` allows multiple HTML elements that are navigable where `describedby` will mash all the elements into a single sentence stream.
+There’s a similar ARIA property: `aria-describedby`—the difference is that `aria-details` allows multiple HTML elements that are navigable where `describedby` will mash all the elements into a single sentence stream.
 
 **[☛ Check out the tutorial on Javascript for more ARIA examples.](/topics/javascript-accessibility/)**
 

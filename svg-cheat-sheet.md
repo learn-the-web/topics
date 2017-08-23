@@ -665,7 +665,7 @@ groups:
         details:
           - |
             ```xml
-            <svg aria-describedat="#dino-info"></svg>
+            <svg aria-details="#dino-info"></svg>
             ```
           - |
             ```html
@@ -674,7 +674,7 @@ groups:
               <p>Dinosaurs are living among us now—or at least their descendants—in the form of birds.</p>
             </div>
             ```
-          - 'The `aria-describedat` attribute is a great way to use HTML to complement an SVG—especially if the content is really detailed.'
+          - 'The `aria-details` attribute is a great way to use HTML to complement an SVG—especially if the content is really detailed.'
       - name: '*Hiding SVGs*'
         details:
           - |

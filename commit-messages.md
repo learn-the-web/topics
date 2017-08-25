@@ -1,6 +1,6 @@
 ---
-title: "GitHub commit message conventions"
-tags: "github use committing messages conventions descriptions system"
+title: "Commit message best practices"
+tags: "github use committing messages conventions best practices descriptions system"
 desc: "Writing commit messages that the whole team understands."
 ---
 

@@ -432,5 +432,13 @@ groups:
       - name: '`.force-print`'
         details:
           - 'Will attempt to force something to be printed even if there’s Javascript or some other CSS that tries to hide it.'
-
+      - name: '`.page-break-before`'
+        details:
+          - 'Will force a page-break before this content when printed.'
+      - name: '`.page-break-after`'
+        details:
+          - 'Will force a page-break after this content when printed.'
+      - name: '`.no-page-break-inside`'
+        details:
+          - 'Will attempt to prevent the content from being broken over multiple pages when printed.'
 ---

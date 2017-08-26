@@ -423,8 +423,14 @@ groups:
       - name: '`.no-print`'
         details:
           - 'Will hide the element when a user prints out the website.'
+      - name: '`.href-no-print`'
+        details:
+          - 'Will stop the `href` printing out beside a link when printed.'
       - name: '`.print-only`'
         details:
           - 'Will hide an element by default but then display it when the website is printed.'
+      - name: '`.force-print`'
+        details:
+          - 'Will attempt to force something to be printed even if there’s Javascript or some other CSS that tries to hide it.'
 
 ---

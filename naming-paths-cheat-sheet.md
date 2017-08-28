@@ -11,7 +11,7 @@ groups:
         details:
           - 'All files & folder must us only lowercase characters.'
           - 'This includes extensions, like `.jpg`, `.png`, etc.'
-          - 'The only exceptions are `README.md`, `LICESE` & `CNAME`.'
+          - 'The only exceptions are `README.md`, `LICENSE` & `CNAME`.'
       - name: '`Nospaces`'
         details:
           - 'No spaces allowed anywhere in file & folder names.'

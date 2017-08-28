@@ -185,6 +185,9 @@ groups:
       - name: '`.i-18`'
         details:
           - 'A 18 × 18 pixel sized icon.'
+      - name: '`.i-20`'
+        details:
+          - 'A 20 × 20 pixel sized icon.'
       - name: '`.i-24`'
         details:
           - 'A 24 × 24 pixel sized icon.'

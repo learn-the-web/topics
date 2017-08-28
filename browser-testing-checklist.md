@@ -61,6 +61,7 @@ groups:
   - title: 'Less common browsers'
     items:
       - 'UC Browser (extremely common in China)'
+      - 'Yandex'
       - 'Windows Phone IE'
       - 'Kindle Browser, black & white e-ink'
       - 'Lynx, text only browser'

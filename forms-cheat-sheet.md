@@ -88,6 +88,18 @@ groups:
       - name: '`date`'
         details:
           - 'For accepting dates; shows a calendar picker.'
+      - name: '`time`'
+        details:
+          - 'For accepting times; shows a time picker.'
+      - name: '`datetime-local`'
+        details:
+          - 'For accepting a both a date and a time; shows a calendar & time picker.'
+      - name: '`week`'
+        details:
+          - 'For accepting a specific week; likely shows a calendar picker.'
+      - name: '`month`'
+        details:
+          - 'For accepting a specific month; likely shows a calendar picker.'
       - name: '`color`'
         details:
           - 'For picking a specific colour; shows a colour palette.'

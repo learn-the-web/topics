@@ -426,7 +426,7 @@ groups:
       - name: '`.no-print`'
         details:
           - 'Will hide the element when a user prints out the website.'
-      - name: '`.href-no-print`'
+      - name: '`.no-print-href`'
         details:
           - 'Will stop the `href` printing out beside a link when printed.'
       - name: '`.print-only`'

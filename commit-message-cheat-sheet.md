@@ -16,6 +16,7 @@ groups:
         details:
           - 'All words should be spelled in Canadian English.<br>(*Only the commit message itself matters—American `color` in your code is okay.*)'
           - 'Sentence should be grammatically correct.'
+          - 'Commits should not end in periods (`.`)'
       - name: '*Must start with an imperative verb*'
         details:
           - 'Start with words like “Fix”, “Add”, “Change”, etc.'
@@ -38,7 +39,7 @@ groups:
           - '“Chagnes”'
           - '“Commit changes”'
           - '“Fixes a bug in the CSS”'
-          - '“Remove the last section”'
+          - '“Remove the last section.”'
       - name: '*Example imperative verbs*'
         details:
           - '“Fix”, “Change”, “Add”, “Remove”, “Test”, “Amend”, “Calculate”, “Correct”, “Finish”, “Disable”, “Darken”, “Lighten”, “Format”, “Extract”, “Improve”, “Implement”, “Push”'

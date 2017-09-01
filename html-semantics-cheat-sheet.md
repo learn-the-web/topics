@@ -23,8 +23,8 @@ groups:
           - 'When inside `<article>` it’s the most important information.'
       - name: '`<footer>`'
         details:
-          - 'When inside `<body> it’s the website footer.'
-          - 'When inside `<article> it’s the least important information.'
+          - 'When inside `<body>` it’s the website footer.'
+          - 'When inside `<article>` it’s the least important information.'
       - name: '`<main>`'
         details:
           - 'Primary content of the page.'

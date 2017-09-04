@@ -2,7 +2,7 @@
 title: "Version control & GitHub"
 tags: "version control history undo saving github use committing syncing undo saving history messages descriptions application"
 desc: "Understanding the value of version control and how it helps us and using GitHub to store the code’s history and synchronize."
-playlist: PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB
+playlist: PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ
 ---
 
 Version control is something all developers & designers should become intimately familiar with. It allows us to track changes in our code, over time, and rollback to older versions if we mess up.
@@ -175,23 +175,24 @@ Git branching solves this problem by providing a clean way to make copies of you
 
 ---
 
-### Video list
+## Video list
 
-1. [GitHub: setting up & creating projects](https://www.youtube.com/watch?v=P6SOVdNVylY&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=1)
-2. [GitHub: setting up hosting with GitHub Pages](https://www.youtube.com/watch?v=pc3jwarJxuU&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=2)
-3. [GitHub: saving state and syncing](https://www.youtube.com/watch?v=wDn7iwORSLY&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=3)
-4. [GitHub: syncing remote edits](https://www.youtube.com/watch?v=axPqGTjT52c&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=4)
-5. [GitHub: ignoring files from your project](https://www.youtube.com/watch?v=ck-J4nZeLtI&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=5)
-6. [GitHub: branching and merging](https://www.youtube.com/watch?v=mHl91Udzljw&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=6)
-7. [GitHub: handling conflicts with team members](https://www.youtube.com/watch?v=plm4x_DjDa8&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=7)
-8. [GitHub: using Issues](https://www.youtube.com/watch?v=J3STGo6ZwYA&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=8)
-9. [GitHub: enabling the Issues tab](https://www.youtube.com/watch?v=vTULg-7xycs&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=9)
+1. [GitHub: setting up & creating projects](https://www.youtube.com/watch?v=IG8_1W0a28E&index=1&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+2. [GitHub: setting up hosting with GitHub Pages](https://www.youtube.com/watch?v=RhJm_0AhGNY&index=2&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+3. [GitHub: committing syncing](https://www.youtube.com/watch?v=efhMTzUNpNE&index=3&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+4. [GitHub: syncing remote edits](https://www.youtube.com/watch?v=CvnkvoUkkLU&index=4&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+5. [GitHub: ignoring files from your project](https://www.youtube.com/watch?v=EwJ34o31yHw&index=5&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+6. [GitHub: branching and merging](https://www.youtube.com/watch?v=2M16faxEQsg&index=6&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+7. [GitHub: handling conflicts with team members](https://www.youtube.com/watch?v=tEXAI4Mek0g&index=7&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+8. [GitHub: using Issues](https://www.youtube.com/watch?v=yAPSbIHcDTw&index=8&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+9. [GitHub: enabling the Issues tab](https://www.youtube.com/watch?v=vTULg-7xycs&index=9&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+10. [GitHub: task, labels & milestones](https://www.youtube.com/watch?v=ukYSRu4k0gs&index=10&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
 
 ---
 
 ## Supplemental links
 
-- [Git + GitHub](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB)
+- [Git + GitHub](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
 - [Replacing FTP with Git + GitHub](https://www.youtube.com/watch?v=24NGu1vGBiw)
 - [GitHub Guides](https://www.youtube.com/user/GitHubGuides)
 - [A Visual Guide to Version Control](http://betterexplained.com/articles/a-visual-guide-to-version-control/)

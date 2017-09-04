@@ -2,7 +2,7 @@
 title: "Branching & GitHub Flow"
 tags: "github hosting system branches master gh pages flow issues pull requests"
 desc: "Understanding the GitHub Flow when using branches and pull requests with your team."
-video: mHl91Udzljw
+video: 2M16faxEQsg
 ---
 
 Think about how you generally work on some code. You write some code then decide you want to try something else, so you make a copy, maybe you name it `version-2`. Then you decide you want to try something else, you copy and name it `version-3`.
@@ -79,7 +79,7 @@ When you are satisfied with your changes you sync to GitHub, make a pull request
 
 ## Video list
 
-1. [GitHub: branching and merging](https://www.youtube.com/watch?v=mHl91Udzljw&list=PLWjCJDeWfDdfSZOQYvsy_jJiAvx4uaJLB&index=6)
+1. [GitHub: branching and merging](https://www.youtube.com/watch?v=2M16faxEQsg&index=6&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
 
 ## Supplemental links
 

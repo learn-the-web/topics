@@ -9,7 +9,7 @@ Choosing a code editor is a highly personal choice—choose the one that you lik
 
 *It’s usually a good idea to download your code editor and use it for a little while before making a decision.*
 
-- **[☛ Atom setup guide](/topics/atom/)**
+- **[☛ Atom setup guide](/courses/web-dev-1/set-up-your-code-editor/)**
 - **[☛ Sublime Text setup guide](/topics/sublime-text/)**
 
 ---
@@ -66,7 +66,7 @@ A proper code editor will provide a bunch of features to help you write and see 
 
 - **[Atom (by GitHub)](https://atom.io/)** (free)<br>
   Simplest to get into, tightly integrated with GitHub, good community.<br>
-  **[☛ Atom setup guide](/topics/atom/)**
+  **[☛ Atom setup guide](/courses/web-dev-1/set-up-your-code-editor/)**
 
 - **[Sublime Text 3](http://www.sublimetext.com/)** (freemium)<br>
   Most complex listed, requires a little setup, has greatest long term potential, huge community.<br>

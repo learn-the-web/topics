@@ -64,24 +64,23 @@ A proper code editor will provide a bunch of features to help you write and see 
 
 *Here’s the top 3 I would recommend for you:*
 
-- **[Atom (by GitHub)](https://atom.io/)** (free)<br>
+- [**Atom (by GitHub)**](https://atom.io/) (free)<br>
   Simplest to get into, tightly integrated with GitHub, good community.<br>
   **[☛ Atom setup guide](/courses/web-dev-1/set-up-your-code-editor/)**
 
-- **[Sublime Text 3](http://www.sublimetext.com/)** (freemium)<br>
+- [**Sublime Text 3**](http://www.sublimetext.com/) (freemium)<br>
   Most complex listed, requires a little setup, has greatest long term potential, huge community.<br>
   **[☛ Sublime Text setup guide](/topics/sublime-text/)**
 
-- [Textmate 2](http://macromates.com/) (free, right now)<br>
-  Going through a revival, decent community, may have to eventually pay.
+- [**Visual Studio Code**](https://code.visualstudio.com/) (free)<br>
+  Comparable to Atom, many people like it better.
 
 ---
 
 ## Others you may like
 
-- [Adobe Brackets](http://brackets.io/) (free)<br>
-  Also known as [Adobe Edge Code](https://creative.adobe.com/products/code) inside Adobe Creative Suite.<br>
-  (If you choose this one you should not use “Live Preview”—it won’t work for our needs.)
+- [Textmate 2](http://macromates.com/) (free, right now)<br>
+  Going through a revival, decent community, may have to eventually pay.
 
 - [Coda](https://www.panic.com/coda/) (paid)<br>
   Simple, made by a great company, specifically targeted at web development, some good designer focused tools.

@@ -52,7 +52,7 @@ When it comes to rendering engines there’s a few big players that are shared b
 The browser goes through whole bunch of steps to display a web page on the screen—each one taking a little bit of time to complete.
 
 1. The browser starts by making a connection to the web server—this requires a bunch of hopes through different computers to get a specific IP address.
-  <br>[**☛ See Domains & DNS for more details**](/topics/domains-dns/).
+  <br>[**☛ See Domains & DNS for more details**](/topics/domains/).
 2. It then downloads the HTML file from the server—this is the most important file in a website—it contains everything—and a website is nothing without it.
 3. The browser will then parse the HTML (change the code into something it understands).
 4. After the browser understands the HTML it looks through it for other resources that it needs to display the website: images, CSS, Javascript, etc. It’ll start downloading these.
@@ -73,6 +73,7 @@ This is *amazing* for performance, but we lose some of the fancy interaction—a
 
 - [Opera Mini](https://www.opera.com/mobile)
 - [UC Browser](http://www.ucweb.com/)
+- [Yandex](https://browser.yandex.com/)
 
 ---
 

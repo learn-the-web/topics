@@ -3,6 +3,7 @@ title: "Version control & GitHub"
 tags: "version control history undo saving github use committing syncing undo saving history messages descriptions application"
 desc: "Understanding the value of version control and how it helps us and using GitHub to store the code’s history and synchronize."
 playlist: PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ
+cheatsheet: commit-message-cheat-sheet
 ---
 
 Version control is something all developers & designers should become intimately familiar with. It allows us to track changes in our code, over time, and rollback to older versions if we mess up.
@@ -57,6 +58,8 @@ That’s it—but, there is so much more you can do.
 
 [GitHub](https://github.com) is one of the most common places to hold open-source (and closed-source) code. It offers a place to put the code for free and has fully integrated version control.
 
+![](github.jpg)
+
 GitHub is based entirely on top of Git, the version control system, and integrated around its features while adding more hosting and project management tools.
 
 *You’ll need to get a [GitHub](https://github.com) account before we go any further.*
@@ -65,11 +68,12 @@ GitHub is based entirely on top of Git, the version control system, and integrat
 
 We’ll need to install the GitHub Desktop application so we can interact with GitHub and Git form our computer.
 
+![](github-desktop.jpg)
+![](github-desktop-user.jpg)
+
 1. Download the app from the [GitHub Desktop](https://desktop.github.com/) website.
 2. When it asks you to move it to the applications folder—press “Move to Applications Folder”.
 3. Sign in with your GitHub username, email address, and password.
-4. When it asks you to look for repositories—press “Skip”.
-5. *It will try to get you to do a tutorial with these little pop-up bubbles—don’t bother, press the little “x” icon on the bubble.*
 
 ### Creating a new project
 
@@ -114,9 +118,9 @@ It will detect whatever file in your code you’ve changed and show you a screen
 
 **Make sure to write a descriptive message!**
 
-![](sync.jpg)
+![](push.jpg)
 
-Then sync it to the GitHub website—allowing anybody to see your website live on the Web.
+Then push it to the GitHub website—allowing anybody to see your website live on the Web.
 
 #### Commit early, commit often
 
@@ -132,10 +136,25 @@ The idea is to commit frequently. As soon as you’ve added a small function or 
 
 Every time you commit you must write a commit message describing what you changed. Some examples:
 
-- “Bug fix: the dinosaur name function was always returning Tyranosaurus Rex”
-- “New feature: added the ability to track the length of a dinosaur”
+- “Fix the dinosaur name function that was always returning Tyranosaurus Rex”
+- “Add the ability to track the length of a dinosaur”
 
 **Your commit messages must be descriptive and specific.** If you ever need to go back in time on your project, they describe the state of the project for that commit. **Commit messages are for you and other developers.**
+
+##### Commit message best practices
+
+There are a few important best practices to follow when writing commit messages:
+
+1. Minimum 3 words & 10 characters long
+  <br>You want to be able to understand the purpose of the commit when looking in the history
+2. Proper spelling & grammar
+  <br>Including a capital letter at the start
+  <br>Not including a period at the end
+3. Must start with an imperative verb
+  <br>Start with words like “Fix”, “Add”, “Change”, etc.
+  <br>It’s best to imagine that all your commit messages start with the phrase: **“This commit will…”**
+
+[**☛ See the Commit message cheat sheet for examples**](/topics/commit-message-cheat-sheet/)
 
 ---
 
@@ -143,7 +162,7 @@ Every time you commit you must write a commit message describing what you change
 
 To ignore files that you don’t want committed to your repository—like passwords—use a `.gitignore` file.
 
-Just create a file in your repository named `.gitignore` and put the names of the files you want to ignore inside it.
+Create a file in your repository named `.gitignore` and put the names of the files you want to ignore inside it.
 
 ### Ignore my database connection file
 

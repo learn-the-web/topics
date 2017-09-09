@@ -3,6 +3,7 @@ title: "GitHub Issues"
 tags: "github issues labels descriptions project management problems help"
 desc: "What GitHub Issues do for use and how to use them for getting feedback, tracking progress, and more."
 video: yAPSbIHcDTw
+cheatsheet: markdown-yaml-cheat-sheet
 ---
 
 GitHub Issues is a simple tool that allows you to track your progress, keep a task list, collect feedback, and report bugs for your GitHub hosted project.
@@ -15,11 +16,22 @@ GitHub Issues are a bug tracking system built into the GitHub service. They prov
 
 ---
 
+## Enabling the issues tab
+
+Sometimes, especially when forking a repository, the Issues tab may not be enabled. It’s a simple fix to turn the Issues tab back on.
+
+![](enable-issues.jpg)
+
+1. Go to the “Settings” tab
+2. Scroll down the page a little and check the “Issues” checkbox.
+
+---
+
 ## Making a new issue
 
-On the right side of GitHub repositories is a tab called “Issues”. If it’s not there it’s because the owner has disabled issues.
+At the top of GitHub repositories there is a tab called “Issues”. If it’s not there it’s because the owner has disabled issues.
 
-![](github-issues.jpg)
+![](issues-tab.jpg)
 
 After clicking the tab, there’s a big button: “New Issue”.
 
@@ -83,7 +95,9 @@ Emoji can be a helpful way to specify human emotions in your GitHub Issues.
 
 ## Commenting on issues
 
-After an issue is created anybody and comment and provide feedback on the issue—ideally to help improve and solve the problem.
+After an issue is created anybody can comment and provide feedback on the issue—ideally to help improve and solve the problem.
+
+![](comment.jpg)
 
 *Everything above: Markdown formatting, mentioning, emoji, images, etc. can be included in comments.*
 
@@ -115,6 +129,10 @@ All you have to do is just click on the label you want to add.
 
 If you want to add more labels go to the “Labels” tab of the issues interface.
 
+![](new-label-button.jpg)
+
+Then press the green “New Label” button.
+
 ![](new-label.jpg)
 
 ### Milestones
@@ -123,15 +141,20 @@ Milestones allow you to group a bunch of issues together and assign a due date t
 
 Before assigning milestones to issues they need to be created. From the “Issues” interface you can create new milestones.
 
-![](milestones.jpg)
+![](new-milestone-button.jpg)
 
-The new milestone screen allows you to add a title and description as well as defining a due date.
+Press one of the big green buttons then fill out the information.
 
 ![](new-milestone.jpg)
 
+The new milestone screen allows you to add a title and description as well as defining a due date.
+
+![](write-milestone.jpg)
+
+
 After the milestone has been created, it can be added to the issue using the “Milestone” control.
 
-![](add-milestone.jpg)
+![](milestones.jpg)
 
 **Links**
 
@@ -162,7 +185,9 @@ Every member can even check off the task item when complete and the issue will b
 
 ## Video list
 
-1. [GitHub: Using Issues](https://www.youtube.com/watch?v=yAPSbIHcDTw&index=8&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+1. [GitHub: using Issues](https://www.youtube.com/watch?v=yAPSbIHcDTw&index=8&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+2. [GitHub: enabling the Issues tab](https://www.youtube.com/watch?v=vTULg-7xycs&index=9&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+3. [GitHub: task, labels & milestones](https://www.youtube.com/watch?v=ukYSRu4k0gs&index=10&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
 
 ## Supplemental links
 

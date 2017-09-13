@@ -146,4 +146,5 @@ Often the search results page is also visible in the URL, here’s an example of
 
 - [How many ways to slice a URL](http://tantek.com/2011/238/b1/many-ways-slice-url-name-pieces)
 - [URLs Matter](http://paulrobertlloyd.com/2009/12/urls_matter/)
-- [URL Design](http://warpspire.com/posts/url-design/)
+- [URL Design](http://warpspire.com/posts/url-design)
+- [What a URL Is and How to Create an Awesome One](http://www.whoishostingthis.com/resources/url/)

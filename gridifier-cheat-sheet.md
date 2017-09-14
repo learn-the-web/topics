@@ -112,24 +112,30 @@ groups:
           - 'Pulls the unit to the left, to change order.'
           - '*There are pull sizes available for every unit width.*'
           - 'e.g. `.unit-pull-m-3-4`, `.unit-pull-l-2-3`'
-      - name: '`.unit-content-distribute`'
+      - name: '`.unit-content-distribute`, `.unit-[size]-content-distribute`, `.[size]-content-distribute`'
         details:
           - 'Makes the content distribute, the top of the unit’s content will align, the bottom content will align.'
           - 'The content in the center will distribute its surrounding space evenly.'
-      - name: '`.content-fill`'
+          - 'Without the `[size]` in the class the layout applies all the time—the size allows the layout to apply in specific situations.'
+      - name: '`.content-fill`, `.[size]-content-fill`'
         details:
           - 'When using distribute, can cause a chunk of content to stretch vertically.'
           - 'Added to an element *inside* a unit—*will not work added directly to a `.unit`.*'
-      - name: '`.content-shrink`'
+          - 'Without the `[size]` in the class the layout applies all the time—the size allows the layout to apply in specific situations.'
+      - name: '`.content-shrink`, `.[size]-content-shrink`'
         details:
           - 'When using `.content-fill` the elements will stretch the whole width of the containing box. Adding `.content-shrink` will allow the element to be only as wide as it needs to be.'
           - 'Added to an element *inside* a unit—*will not work added directly to a `.unit`.*'
-      - name: '`.unit-content-center`, `.unit-content-center-vertical`'
+          - 'Without the `[size]` in the class the layout applies all the time—the size allows the layout to apply in specific situations.'
+      - name: '`.unit-content-center`, `.unit-content-center-vertical`, `.unit-[size]-content-center`, `.unit-[size]-content-center-vertical`'
         details:
           - 'Lumps all the content together in the vertical center of the element.'
-      - name: '`.unit-content-center-horizontal`'
+          - 'This class exists in variations for all sizes to allow distribution only at specific points or size-less for permanent distribution.'
+          - 'Without the `[size]` in the class the layout applies all the time—the size allows the layout to apply in specific situations.'
+      - name: '`.unit-content-center-horizontal`, `.unit-[size]-content-center-horizontal`'
         details:
           - 'Lumps all the content together in the horizontal center of the element.'
+          - 'Without the `[size]` in the class the layout applies all the time—the size allows the layout to apply in specific situations.'
 
   - title: 'Example solutions'
     items:

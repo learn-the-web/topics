@@ -290,7 +290,7 @@ Smushing will reduce the size of images without reducing their quality.
 
 *All images should be exported from Photoshop with “Save for Web”, then run through a smusher.*
 
-- `PNGs` & `JPGs` — should be run through ImageOptim
+- `PNGs` & `JPGs` — should be run through [ImageOptim](http://imageoptim.com/)
 - `SVGs` — should be run through [Spritebot](https://github.com/thomasjbradley/spritebot)
 
 ### JPG optimization techniques
@@ -307,11 +307,9 @@ Smushing will reduce the size of images without reducing their quality.
 
 - [**ImageOptim**](http://imageoptim.com/) — compresses all raster images without compromising quality (Mac)
 - [**Spritebot**](https://github.com/thomasjbradley/spritebot) — removes extraneous code and whitespace from SVGs to save on filesize
-- [SVGOMG](https://jakearchibald.github.io/svgomg/)** — removes extraneous code and whitespace from SVGs to save on filesize
 - [ImageAlpha](http://pngmini.com/) — compresses PNGs by allowing you to reduce the number of colours in the image (Mac)
-- [PNGGauntlet](http://pnggauntlet.com/) — compresses PNGs ony (Windows)
-- [PngOptimizer](http://psydk.org/pngoptimizer) — Windows
-- [RIOT: Radical Image Optimization Tool](http://luci.criosweb.ro/riot/) — compresses raster graphics (Windows)
+- [FileOptimizer](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer) — compresses PNGs ony (Windows)
+- [SVGOMG](https://jakearchibald.github.io/svgomg/)** — removes extraneous code and whitespace from SVGs to save on filesize
 - [JpegMini](http://www.jpegmini.com/) — paid (Mac, Windows)
 
 ---

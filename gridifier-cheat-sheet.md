@@ -89,10 +89,10 @@ groups:
 
   - title: 'Unit utilities'
     items:
-      - name: '`.unit-[size]-hidden`'
+      - name: '`.unit-[size]-hidden`, `.[size]-0`'
         details:
           - 'Allows a unit to be hidden on specific screens sizes.'
-          - 'e.g. `.unit-xs-hidden`'
+          - 'e.g. `.unit-xs-hidden`, `.xs-0`'
       - name: '`.unit-[size]-centered`'
         details:
           - 'Allows a unit to be centered horizontally on specific screen sizes.'

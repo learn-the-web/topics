@@ -138,6 +138,9 @@ groups:
 
   - title: 'Web browser'
     items:
+      - name: '`⌘R`'
+        details:
+          - 'Refresh the current website.'
       - name: '`⌘L`'
         details:
           - 'Focus the URL bar.'

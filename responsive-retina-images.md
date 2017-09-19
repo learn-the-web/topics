@@ -1,7 +1,7 @@
 ---
 title: "Responsive & retina images"
 tags: "responsive retina hi dpi compression compressive save for web double size source sets picture source jpeg png svg images"
-desc: "How to properly set up images for responsive & retina screens."
+desc: "Lots of different techniques to properly set up images for responsive & retina screens."
 playlist: "PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f"
 download: "https://github.com/acgd-learn-the-web/responsive-retina-images-code/archive/master.zip"
 github: "https://github.com/acgd-learn-the-web/responsive-retina-images-code"
@@ -252,11 +252,11 @@ For background images in CSS, we can use a media query for detecting hi-res scre
 
 ## Video list
 
-1. [Images for responsive & retina screens: compressive JPGs](https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f&index=1)
-2. [Images for responsive & retina screens: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f&index=2)
-3. Images for responsive & retina screens: image srcsets
-4. Images for responsive & retina screens: picture element
-5. Images for responsive & retina screens: multi-resolution picture element
+1. [Responsive & retina images: compressive JPGs](https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f&index=1)
+2. [Responsive & retina images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f&index=2)
+3. [Responsive & retina images: image source sets](https://www.youtube.com/watch?v=ujYiX0WniCo&index=3&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f)
+4. [Responsive & retina images: picture tag](https://www.youtube.com/watch?v=RpLaWykM1dA&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f&index=4)
+5. [Responsive & retina images: retina-ready picture tag](https://www.youtube.com/watch?v=Y_0jKzPFNiw&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f&index=5)
 
 ## Supplemental links
 

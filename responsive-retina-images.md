@@ -142,6 +142,10 @@ In the above `sizes` attribute we’re telling the browser that the image will b
 
 *Given all this information about the images the web browser will choose whichever image it deems best to be displayed.*
 
+### Alternative text
+
+Don’t forget that the `alt=""` attribute is still required and needs to still describe the image properly. Since the different image sources should all essentially be a single image, the `alt` only needs to describe the image as though it’s just one graphic.
+
 ### Backwards compatibility
 
 Make sure to always still specify the `src` attribute—you can see that’s the first thing specified above. This is for backwards compatibility, so the `<img>` tag still works on browsers that don’t support the new attributes.
@@ -184,8 +188,8 @@ In the example above we have three possibilities:
 
 Make sure to always include an `<img>` tag as the last item inside the `<picture>` element. This serves two purposes:
 
-1. Backwards compatibility: if the browser doesn’t support `<picture>` the `<img>` tag will be shown instead.
-2. It serves as the smallest possible image that can be displayed.
+1. It serves as the smallest possible image that can be displayed.
+2. Backwards compatibility: if the browser doesn’t support `<picture>` the `<img>` tag will be shown instead.
 
 The `<img src>` should always point to the smallest image possible.
 
@@ -204,6 +208,10 @@ We can also provide different resolutions of all the images inside the `<picture
 Notice we now include multiple images in each `srcset` attribute. The difference in this case is we don’t specify the pixel width of the image, instead we specify the resolution denoted with the `x`.
 
 So for each image with have an original resolution, like `large.jpg 1x` and a high/double resolution, like `large.jpg 2x`
+
+### Alternative text
+
+Don’t forget that the `alt=""` attribute on the internal `<img>` is still required and needs to still describe the image properly. Since the different image sources should all essentially be a single image, the `alt` only needs to describe the image as though it’s just one graphic.
 
 **Links**
 

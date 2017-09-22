@@ -5,6 +5,7 @@ desc: "Adding more pizazz a website with animations, transitions, and effects."
 playlist: PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm
 download: https://github.com/acgd-learn-the-web/css-animations-effects-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/css-animations-effects-code
+cheatsheet: css-animations-effects-cheat-sheet
 ---
 
 Different interaction methods for websites (without Javascript) and triggering animations and transitions with those interactions.
@@ -435,11 +436,11 @@ Maybe though we want the animation to only fade using 5 different shades of oran
 
 ## Vendor prefixes
 
-For many of these CSS properties, since they’re so new, we need to write them multiple times, each targeting a different browser.
+For many of these CSS properties, if we want to support older browsers, we need to write them multiple times, each targeting a different browser.
 
-*Some browsers are still beta testing these features so we need to write a different line for each property—these are called vendor prefixes.*
+*These browser specific targeted pieces of code are called vendor prefixes.*
 
-For transforms, you may have to write them like this:
+For transforms, you may have to write them like this—make sure to do browser testing first to see if it’s actually necessary:
 
 ```css
 -webkit-transform: rotate(35deg);
@@ -485,7 +486,7 @@ Or for animations, they would need to be written like this:
 
 **Links**
 
-- **[Autoprefixer](https://github.com/postcss/autoprefixer)**
+- **[Autoprefixer](https://github.com/postcss/autoprefixer)** — Use Autoprefixer, a plugin in your code editor, to automatically add/remove the appropriate vendor prefixes.
 
 ---
 

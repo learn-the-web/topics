@@ -330,6 +330,11 @@ groups:
         details:
           - 'A series of classes for setting common heights—usually only useful the context of `position: absolute`'
           - 'Simplified versions are available: `.h-1-4`, `.h-1-2`, `.h-1`'
+      - name: '`.height-win-quarter`, `.height-win-half`, `.height-win-full`'
+        details:
+          - 'A series of classes for setting elements to have a minimum height compared to the window size.'
+          - '`.height-win-full` will be the same height as the window itself.'
+          - 'Simplified versions are available: `.h-w-1-4`, `.h-w-1-2`, `.h-w-1`'
       - name: '`.center-flow`, `.center-text`'
         details:
           - 'Centres `inline`, `inline-block` & text elements—essentially just adds `text-align: center`'

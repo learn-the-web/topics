@@ -9,19 +9,20 @@ groups:
     items:
       - name: '`.tena`'
         details:
-          - 'Four sizes larger than the `<h1>`.'
+          - 'Four sizes larger than the `<h1>`'
+          - 'There’s even two larger sizes: `.tenakilo` & `.tenamega`'
       - name: '`.nina`'
         details:
-          - 'Three sizes larger than the `<h1>`.'
+          - 'Three sizes larger than the `<h1>`'
       - name: '`.yotta`'
         details:
-          - 'Two sizes larger than the `<h1>`.'
+          - 'Two sizes larger than the `<h1>`'
       - name: '`.zetta`'
         details:
-          - 'One size larger than the `<h1>`.'
+          - 'One size larger than the `<h1>`'
       - name: '`.exa`, `<h1>`'
         details:
-          - 'Same size as the `<h1>`.'
+          - 'Same size as the `<h1>`'
           - 'Five sizes larger than body copy.'
       - name: '`.peta`, `<h2>`'
         details:
@@ -57,27 +58,27 @@ groups:
       - name: '`.push-2`, `.push-1-2`, `.push-1-4`, `.push-1-8`'
         details:
           - 'Add differing sizes of margin to the bottom.'
-          - 'Available as fully written out versions: `.push-double`, `.push-half`, `.push-quarter`, `.push-eighth`.'
+          - 'Available as fully written out versions: `.push-double`, `.push-half`, `.push-quarter`, `.push-eighth`'
       - name: '`.push-r`, `.push-r-1-2`, `.push-r-1-4`, `.push-r-1-8`'
         details:
           - 'Add differing sizes of margin to the right.'
-          - 'Available as fully written out versions: `.push-right`, `.push-right-half`, `.push-right-quarter`, `.push-right-eighth`.'
+          - 'Available as fully written out versions: `.push-right`, `.push-right-half`, `.push-right-quarter`, `.push-right-eighth`'
       - name: '`.gutter`,`.gutter-2`, `.gutter-1-2`, `.gutter-1-4`, `.gutter-1-8`'
         details:
           - 'Adds padding to left and right sides.'
-          - 'Available as fully written out versions: `.gutter-double`, `.gutter-half`, `.gutter-quarter`, `.gutter-eighth`.'
+          - 'Available as fully written out versions: `.gutter-double`, `.gutter-half`, `.gutter-quarter`, `.gutter-eighth`'
       - name: '`.island`,`.island-2`, `.island-1-2`, `.island-1-4`, `.island-1-8`'
         details:
           - 'Adds padding to all four sides.'
-          - 'Available as fully written out versions: `.island-double`, `.island-half`, `.island-quarter`, `.island-eighth`.'
+          - 'Available as fully written out versions: `.island-double`, `.island-half`, `.island-quarter`, `.island-eighth`'
       - name: '`.pad-t`,`.pad-t-2`, `.pad-t-1-2`, `.pad-t-1-4`, `.pad-t-1-8`'
         details:
           - 'Adds padding to top of the box.'
-          - 'Available as fully written out versions: `.pad-top`, `.pad-top-double`, `.pad-top-half`, `.pad-top-quarter`, `.pad-top-eighth`.'
+          - 'Available as fully written out versions: `.pad-top`, `.pad-top-double`, `.pad-top-half`, `.pad-top-quarter`, `.pad-top-eighth`'
       - name: '`.pad-b`,`.pad-b-2`, `.pad-b-1-2`, `.pad-b-1-4`, `.pad-b-1-8`'
         details:
           - 'Adds padding to bottom of the box.'
-          - 'Available as fully written out versions: `.pad-bottom`, `.pad-bottom-double`, `.pad-bottom-half`, `.pad-bottom-quarter`, `.pad-bottom-eighth`.'
+          - 'Available as fully written out versions: `.pad-bottom`, `.pad-bottom-double`, `.pad-bottom-half`, `.pad-bottom-quarter`, `.pad-bottom-eighth`'
 
   - title: 'Utilities'
     items:

@@ -41,6 +41,44 @@ groups:
       - name: '`<aside>`'
         details:
           - 'Secondary content not required to understand the main content.'
+      - name: '*CSS link tag*'
+        details:
+          - |
+            ```html
+            <link href="css/main.css" rel="stylesheet">
+            ```
+      - name: '*Navigation inside header*'
+        details:
+          - |
+            ```html
+            <header>
+              <nav>
+                <ul>
+                  <li><a href="#">Stegosaurus</a></li>
+                  <li><a href="#">Triceratops</a></li>
+                  <li><a href="#">Ankylosaurus</a></li>
+                </ul>
+              </nav>
+            </header>
+            ```
+      - name: '*Main content groups*'
+        details:
+          - |
+            ```html
+            <body>
+              <header>
+                <nav>…</nav>
+              </header>
+
+              <main>
+                <h1>Dinos-R-Us</h1>
+              </main>
+
+              <footer>
+                <p>© 2063 Dinos-R-Us</p>
+              </footer>
+            </body>
+            ```
 
   - title: Lists
     items:
@@ -71,6 +109,38 @@ groups:
         details:
           - 'Description definition, the data, or text of the item.'
           - 'Can be multiple `<dd>` tags underneath one `<dt>`.'
+      - name: '*Unordered list*'
+        details:
+          - |
+            ```html
+            <ul>
+              <li>Tyrannosaurus</li>
+              <li>Spinosaurus</li>
+              <li>Velociraptor</li>
+            </ul>
+            ```
+      - name: '*Ordered list*'
+        details:
+          - |
+            ```html
+            <ol>
+              <li>Mercury</li>
+              <li>Venus</li>
+              <li>Earth</li>
+              <li>Mars</li>
+            </ol>
+            ```
+      - name: '*Description list*'
+        details:
+          - |
+            ```html
+            <dl>
+              <dt>Length</dt>
+              <dd>2.3 m</dd>
+              <dt>Weight</dt>
+              <dd>4 tonnes</dd>
+            </dl>
+            ```
 
   - title: Text
     items:
@@ -148,6 +218,33 @@ groups:
       - name: '`<address>`'
         details:
           - 'Contact information, email, tel, postal address, etc.'
+      - name: ''
+      - name: '*Blockquotes*'
+        details:
+          - |
+            ```html
+            <blockquote>
+              <p>Dinosaurs may be extinct from the face of the planet, but they are alive and well in our imaginations.</p>
+              <footer>— <cite>Steve Miller</cite></footer>
+            </blockquote>
+            ```
+      - name: '*Addresses*'
+        details:
+          - |
+            ```html
+            <address>
+              Jet Propulsion Laboratory
+              <br>4800 Oak Grove Drive
+              <br>Pasadena, California
+              <br>91109
+            </address>
+            ```
+      - name: '*Text edits*'
+        details:
+          - |
+            ```html
+            <p>Launchpad 39A owned by <del datetime="2014-04-14">NASA</del> <ins datetime="2014-04-14">SpaceX</ins></p>
+            ```
 
   - title: 'Images & media'
     items:
@@ -189,6 +286,34 @@ groups:
       - name: '`<track>`'
         details:
           - 'Used to pair captions, chapters, etc. with `<video>` elements.'
+      - name: ''
+      - name: '*Basic images*'
+        details:
+          - |
+            ```html
+            <img src="images/dino.jpg" alt="An beautiful, long-necked Brontosaurus">
+            ```
+      - name: '*Figures & captions*'
+        details:
+          - 'Use only if there’s a caption.'
+          - |
+            ```html
+            <figure>
+              <img src="images/dino-small.jpg" alt="">
+              <figcaption>So many dinosaurs I can’t even count!</figcaption>
+            </figure>
+            ```
+      - name: '*Responsive images*'
+        details:
+          - 'See [Responsive & retina images for details](/topics/responsive-retina-images/).'
+          - |
+            ```html
+            <picture>
+              <source media="(min-width: 60em)" srcset="images/dino-wide.jpg">
+              <source media="(min-width: 38em)" srcset="images/dino-rectangle.jpg">
+              <img src="images/dino-small.jpg" alt="All the dinosaurs!">
+            </picture>
+            ```
 
   - title: 'Data & code'
     items:
@@ -233,6 +358,25 @@ groups:
       - name: '`<samp>`'
         details:
           - 'Something a user should see output from a computer.'
+      - name: ''
+      - name: '*Time*'
+        details:
+          - |
+            ```html
+            Apollo 11 landed on the moon <time datetime="1969-07-20T20:18">July 20, 1969</time>
+            ```
+      - name: '*Data*'
+        details:
+          - |
+            ```html
+            Argentinosaurus weighted approximately <data value="90">90 tonnes</data>
+            ```
+      - name: '*Maths*'
+        details:
+          - |
+            ```html
+            E = mc<sup>2</sup>
+            ```
 
   - title: Meaningless tags
     items:

@@ -228,6 +228,55 @@ groups:
             }
             ```
 
+  - title: 'Text-flow columns'
+    notes: 'For making text flow between a few columns.'
+    items:
+      - name: '`column-count`'
+        details:
+          - 'Set to the number of columns wanted in the text block.'
+          - |
+            ```css
+            column-count: 2;
+            ```
+      - name: '`column-gap`'
+        details:
+          - 'Set the amount of space between the columns.'
+          - |
+            ```css
+            column-gap: 1.5rem;
+            ```
+      - name: '`column-rule`'
+        details:
+          - 'Create a vertical border between each column.'
+          - 'Exact same properties as a border.'
+          - |
+            ```css
+            column-rule: 2px solid #e2e2e2;
+            ```
+      - name: '*Example layout*'
+        details:
+          - '![](columns.png)'
+      - name: '*Example HTML*'
+        details:
+          - |
+            ```html
+            <main class="main">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </main>
+            ```
+      - name: '*Column CSS properties*'
+        details:
+          - |
+            ```css
+            .main {
+              column-count: 2;
+              column-gap: 1.5rem;
+              column-rule: 2px solid #e2e2e2;
+            }
+            ```
+
   - title: 'Experimental properties'
     note: 'These properties may not work in all browsers and may have a major performance impact.'
     items:

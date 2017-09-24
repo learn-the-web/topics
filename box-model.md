@@ -5,6 +5,7 @@ desc: "Understanding that everything in a website is a box and how to manipulate
 playlist: PLWjCJDeWfDdeEM254gHVHz26yswh59Hih
 download: https://github.com/acgd-learn-the-web/box-model-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/box-model-code
+cheatsheet: boxes-borders-cheat-sheet
 ---
 
 Every single thing you target with CSS, every single HTML element, is a box. The boxes line up beside each other, above each other, and below each other.

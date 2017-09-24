@@ -255,7 +255,7 @@ groups:
             ```
       - name: '*Example layout*'
         details:
-          - '![](columns.png)'
+          - '![An example of CSS columns](columns.png)'
       - name: '*Example HTML*'
         details:
           - |

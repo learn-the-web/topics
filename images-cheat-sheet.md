@@ -12,7 +12,7 @@ groups:
           - '*Vector graphic:* good for graphics with few colours, animations; can manipulate with code.'
           - 'Very scalable and retina ready.'
           - '---'
-          - '*Export settings:* SVG 1.1, Convert to outline, Link, Style elements, Decimal places: 1, Uncheck responsive.'
+          - '*Export settings:* Styling: Presentation attributes, Font: Convert to outline, Images: Link, Object IDs: Layer names, Decimal: 1, Check minify, Uncheck responsive.'
       - name: '**JPG**'
         details:
           - '*Raster graphic:* good for photos and complex imagery.'
@@ -48,7 +48,7 @@ groups:
           - 'For inserting content-related images.'
           - 'Use the `alt="…"` to describe the image, blank alt for decorative images.'
           - 'If a formatted description is needed use `aria-details="…"`'
-          - 'Use the `srcset="…"` attribute for responsiveness.'
+          - 'Use the `srcset="…"` & `sizes=""` attributes for responsiveness.'
       - name: '`<figure>`'
         details:
           - 'For images that need captions.'
@@ -66,12 +66,6 @@ groups:
           - |
             ```html
             <img src="pluto.jpg" alt="Photo of Pluto">
-
-            <img
-              src="low-res.jpg"
-              srcset="med-res.jpg 1000w, high-res.jpg 2000w"
-              alt="A giant squid swimming deep in the sea"
-            >
             ```
       - name: '*Figure*'
         details:
@@ -82,16 +76,6 @@ groups:
               <figcaption>Photo of Pluto taken with the Hubble Telescope</figcaption>
             </figure>
             ```
-      - name: '*Picture*'
-        details:
-          - |
-            ```html
-            <picture>
-              <source media="(min-width: 35em)" src="medium-res.jpg">
-              <source media="(min-width: 60em)" src="high-res.jpg">
-              <img src="low-res.jpg" alt="A giant squid swimming deep in the sea">
-            </picture>
-            ```
       - name: '*Favicons*'
         details:
           - |
@@ -101,6 +85,37 @@ groups:
             <link rel="apple-touch-icon-precomposed" href="/favicon-152.png">
             <meta name="msapplication-TileImage" content="/favicon-144.png">
             <meta name="msapplication-TileColor" content="#ef0303">
+            ```
+      - name: '*Responsive & retina image tag*'
+        details:
+          - |
+            ```html
+            <img
+              src="small.jpg"
+              srcset="larage.jpg 2000w, medium.jpg 1000w, small.jpg 320w"
+              sizes="(min-width: 38em) 50vw, 100vw"
+              alt="A giant squid swimming deep in the sea"
+            >
+            ```
+      - name: '*Picture*'
+        details:
+          - |
+            ```html
+            <picture>
+              <source media="(min-width: 60em)" srcset="high.jpg">
+              <source media="(min-width: 35em)" srcset="medium.jpg">
+              <img src="small.jpg" alt="A giant squid swimming deep in the sea">
+            </picture>
+            ```
+      - name: '*Retina picture*'
+        details:
+          - |
+            ```html
+            <picture>
+              <source media="(min-width: 60em)" srcset="large-2x.jpg 2x, large.jpg 1x">
+              <source media="(min-width: 35em)" srcset="medium-2x.jpg 2x, medium.jpg 1x">
+              <img src="small.jpg" srcset="small-2x.jpg 2x, small.jpg 1x" alt="A giant squid swimming deep in the sea">
+            </picture>
             ```
 
   - title: 'CSS code'
@@ -125,7 +140,7 @@ groups:
         details:
           - |
             ```css
-            .flex {
+            .img-flex {
               display: block;
               width: 100%;
             }
@@ -134,10 +149,16 @@ groups:
         details:
           - |
             ```css
-            .ir {
+            .visually-hidden {
+              height: 1px;
+              margin: -1px;
               overflow: hidden;
-              text-indent: 100%;
-              white-space: nowrap;
+              padding: 0;
+              position: absolute;
+              width: 1px;
+              border: 0;
+              clip: rect(0 0 0 0);
+              clip-path: inset(50%);
             }
             ```
 

@@ -248,7 +248,7 @@ groups:
       - name: '`column-rule`'
         details:
           - 'Create a vertical border between each column.'
-          - 'Exact same properties as a border.'
+          - 'Exact same 3 values as a `border`.'
           - |
             ```css
             column-rule: 2px solid #e2e2e2;

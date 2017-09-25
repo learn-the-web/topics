@@ -355,7 +355,7 @@ Linear gradients are a gradient built in a single direction, we can specify the 
 ```css
 body {
   /* linear-gradient(direction, colour stops…) */
-  background-image: linear-gradient(to right, purple, darkpurple);
+  background-image: linear-gradient(to right, purple, indigo);
 }
 ```
 
@@ -376,9 +376,9 @@ The direction can also be written using degrees
 
 ```css
 body {
-  background-image: linear-gradient(to left, purple, darkpurple);
-  background-image: linear-gradient(to right bottom, purple, darkpurple);
-  background-image: linear-gradient(45deg, purple, darkpurple);
+  background-image: linear-gradient(to left, purple, indigo);
+  background-image: linear-gradient(to right bottom, purple, indigo);
+  background-image: linear-gradient(45deg, purple, indigo);
 }
 ```
 

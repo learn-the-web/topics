@@ -169,7 +169,7 @@ groups:
             background-repeat: round;
             ```
           - '`background-repeat: space` — do not crop the image, but put space around the repeated ones.'
-          - '`background-repeat: round` — scale the image up so there’s always full version, no cropping.'
+          - '`background-repeat: round` — scale the image up so there’s always a full version, no cropping.'
           - '*Or, use horizontal & vertical values like* `background-position`'
           - |
             ```css
@@ -269,12 +269,109 @@ groups:
             ```
           - 'Also `repeating-radial-gradient()`'
 
-  # - title: 'Border images'
-  #   notes: 'Use an image around the edges of the element instead of a plain border.'
-  #   items:
-  #     - name: '`border-image`'
-  #     - name: '*Image slicing example*'
-  #     - name: '*Example CSS*'
+  - title: 'Border images'
+    notes: 'Use an image around the edges of the element instead of a plain border.'
+    items:
+      - name: '`border-image-source`'
+        details:
+          - 'The path to the image file.'
+          - |
+            ```css
+            border-image-source: url("../images/border.svg");
+            ```
+      - name: '`border-image-slice`'
+        details:
+          - 'How to slice the image into 9 pieces—called 9-slicing.'
+          - 'Same order as `margin`, `padding`: top, right, bottom, left.'
+          - |
+            ```css
+            /* 36px in from every edge */
+            border-image-slice: 36px;
+            /* 36px in from top/bottom; 24px in from left/right */
+            border-image-slice: 36px 24px;
+            /* 36px from top, 24px from right, 12px from bottom, 17px from left */
+            border-image-slice: 36px 24px 12px 17px;
+            ```
+      - name: '`border-image-repeat`'
+        details:
+          - 'Tells the browser how to handle the long central edge regions.'
+          - '`repeat`, `stretch`, `round`, `space`'
+          - 'Same as `background-repeat`: horizontal first, vertical second.'
+          - |
+            ```css
+            /* Same in both directions */
+            border-image-repeat: repeat;
+            /* Round horizontally, space vertically */
+            border-image-repeat: round space;
+            ```
+          - '`border-image-repeat: space` — do not crop the slice, but put space around the repeated ones.'
+          - '`border-image-repeat: round` — scale the slice up so there’s always a full version, no cropping.'
+      - name: '`border-image-width`'
+        details:
+          - 'The border image width will automatically scale to the width of the `border`'
+          - 'This can overwrite that value to scale the image inwards from the box.'
+          - 'Follows the same scheme as `margin`, `padding`'
+          - |
+            ```css
+            /* 36px wide in every direction */
+            border-image-width: 36px;
+            /* 36px wide on top/bottom; 24px wide on left/right */
+            border-image-width: 36px 24px;
+            /* 36px wide top, 24px wide right, 12px wide bottom, 17px wide left */
+            border-image-width: 36px 24px 12px 17px;
+            ```
+      - name: '`border-image-outset`'
+        details:
+          - 'How far to expand the border image outside the edge of the box dimensions.'
+          - 'Follows the same scheme as `border-image-width`'
+          - |
+            ```css
+            border-image-outset: 12px 16px;
+            ```
+      - name: '*Shorthand*'
+        details:
+          - 'Combine everything into a single line instead of separate `border-image-*` properties.'
+          - '`border-image` should follow this order:'
+          - '• `border-image-source`'
+          - '• `border-image-slice`'
+          - '• `border-image-width`'
+          - '• `border-image-outset`'
+          - '• `border-image-repeat`'
+          - |
+            ```css
+            border-image: url("../images/border.svg") 36px repeat;
+            ```
+      - name: '*Image slicing example*'
+        details:
+          - 'How a border image is sliced.'
+          - '![An example of a 9-sliced image](border-image.svg)'
+      - name: '*Example CSS*'
+        details:
+          - 'Using the image on the example image…'
+          - |
+            ```css
+            .box {
+              border-image: url("../images/border.svg") 36px repeat;
+            }
+
+            /* Or longhand… */
+            .box {
+              border-image-source: url("../images/border.svg");
+              border-image-slice: 36px;
+              border-image-repeat: repeat;
+            }
+            ```
+      - name: '*Gradient border image*'
+        details:
+          - 'Because border-images are just images, we can use gradients!'
+          - |
+            ```css
+            .box {
+              border: 8px solid indigo;
+              border-image-source: linear-gradient(to bottom, blue, indigo);
+              border-image-slice: 1;
+            }
+            ```
 
   - title: 'Common CSS code snippets'
     items:

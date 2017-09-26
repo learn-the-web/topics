@@ -295,18 +295,90 @@ groups:
             }
             ```
 
-  # - title: 'Filters'
-  #   notes: 'Be careful with image filters, they’re very memory intensive and can slow your website down significantly. [See more filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter).'
-  #   items:
-  #     - name: '`grayscale()`'
-  #     - name: '`blur()`'
-  #     - name: '`brightness()`'
-  #     - name: '`contrast()`'
-  #     - name: '`saturate()`'
-  #     - name: '`sepia()`'
-  #     - name: '`drop-shadow()`'
-  #     - name: '*Multiple filters*'
-  #     - name: '*Filters & hover*'
+  - title: 'Filters'
+    notes: 'Be careful with image filters, they’re very memory intensive and can slow your website down significantly. [See more filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter).'
+    items:
+      - name: '`grayscale(%)`'
+        details:
+          - 'Will desaturate text, elements & images.'
+          - '`0%` is no change, `100%` is black & white.'
+          - '**Make sure to spell “gray” the American way.**'
+          - |
+            ```css
+            filter: grayscale(42%);
+            ```
+      - name: '`blur(px)`'
+        details:
+          - 'Will blur text, elements & images.'
+          - 'Accepts a pixel number representing the blur radius.'
+          - |
+            ```css
+            filter: blur(7px);
+            ```
+      - name: '`brightness(%)`'
+        details:
+          - 'Will adjust the brightness of text, elements & images.'
+          - '`100%` is no change; `0%` is completely black; over `100%` is brighter.'
+          - |
+            ```css
+            filter: brightness(126%);
+            ```
+      - name: '`contrast(%)`'
+        details:
+          - 'Will adjust the contrast of text, elements & images.'
+          - '`100%` is no change; `0%` is completely grey; over `100%` is more contrast-y.'
+          - |
+            ```css
+            filter: contrast(78%);
+            ```
+      - name: '`saturate(%)`'
+        details:
+          - 'Will adjust the colour saturation of text, elements & images.'
+          - '`100%` is no change; `0%` is completely black & white; over `100%` is more saturated.'
+          - |
+            ```css
+            filter: saturate(258%);
+            ```
+      - name: '`sepia(%)`'
+        details:
+          - 'Will convert text, elements & images to sepia tones.'
+          - '`0%` is no change, `100%` is completely sepia.'
+          - |
+            ```css
+            filter: sepia(88%);
+            ```
+      - name: '`drop-shadow(x, y, radius, color)`'
+        details:
+          - 'Will add a drop-shadow to elements, text & images. It will see inside the image and add a drop-shadow around the non-transparent pixels.'
+          - 'Has the same values as the standard CSS `text-shadow` property.'
+          - 'Needs four properties: *horizontal offset*, *vertical offset*, *blur radius*, *colour*.'
+          - |
+            ```css
+            filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, .5));
+            ```
+      - name: '*Multiple filters*'
+        details:
+          - 'Multiple filters can be applied by separating with a space.'
+          - |
+            ```css
+            .dino {
+              filter: contrast(120%) grayscale(100%);
+            }
+            ```
+      - name: '*Filters, hover & transition*'
+        details:
+          - 'Since the filters are numerical they can be animated!'
+          - |
+            ```css
+            .dino {
+              filter: contrast(120%) grayscale(100%);
+              transition: all .2s linear;
+            }
+
+            .dino:hover {
+              filter: contrast(100%) grayscale(0);
+            }
+            ```
 
   - title: "Target"
     items:

@@ -295,6 +295,19 @@ groups:
             }
             ```
 
+  # - title: 'Filters'
+  #   notes: 'Be careful with image filters, they’re very memory intensive and can slow your website down significantly. [See more filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter).'
+  #   items:
+  #     - name: '`grayscale()`'
+  #     - name: '`blur()`'
+  #     - name: '`brightness()`'
+  #     - name: '`contrast()`'
+  #     - name: '`saturate()`'
+  #     - name: '`sepia()`'
+  #     - name: '`drop-shadow()`'
+  #     - name: '*Multiple filters*'
+  #     - name: '*Filters & hover*'
+
   - title: "Target"
     items:
       - name: '`:target`'

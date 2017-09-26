@@ -118,24 +118,166 @@ groups:
             </picture>
             ```
 
-  - title: 'CSS code'
+  - title: 'CSS background images'
     items:
-      - name: '*Background images*'
+      - name: '`background-image`'
         details:
+          - 'Link an image and display in behind the text of an element.'
+          - 'The path is relative to the CSS file, and usually starts with `../`'
           - |
             ```css
-            h1 {
-              background-image: url("../images/icon.png");
-            }
+            background-image: url("../images/icon.png");
             ```
+          - '**Separate multiple images with a comma (`,`).**'
+          - |
+            ```css
+            background-image: url("../images/star.svg"), url("../images/hex.svg");
+            ```
+          - 'The first image is the one that will be on top, each image further along will be a lower layer.'
+      - name: '`background-position`'
+        details:
+          - 'Move a background image around inside the element.'
+          - 'Accepts `px`, `%` or keywords.'
+          - '**Horizontal position must come first, vertical position second.**'
+          - |
+            ```css
+            /* 10px in from the left, 25px down from the top */
+            background-position: 10px 25px;
+
+            /* Stuck to right side, in the vertical center */
+            background-position: right center;
+
+            /* Move up from the bottom with calc(): 25px up from the bottom */
+            background-position: center calc(100% - 25px);
+            ```
+          - '*Horizontal keywords:* `left`, `center`, `right`'
+          - '*Vertical keywords:* `top`, `center`, `bottom`'
+      - name: '`background-repeat`'
+        details:
+          - 'Control how the background image patterns.'
+          - '`no-repeat`, `repeat`, `repeat-x`, `repeat-y`, `space`, `round`'
+          - |
+            ```css
+            /* Don’t repeat in either direction */
+            background-repeat: no-repeat;
+            /* Repeat only horizontally */
+            background-repeat: repeat-x;
+            /* Repeat only vertically */
+            background-repeat: repeat-y;
+            /* Get browser to determine how to repeat the image well */
+            background-repeat: space;
+            background-repeat: round;
+            ```
+          - '`background-repeat: space` — do not crop the image, but put space around the repeated ones.'
+          - '`background-repeat: round` — scale the image up so there’s always full version, no cropping.'
+          - '*Or, use horizontal & vertical values like* `background-position`'
+          - |
+            ```css
+            background-repeat: no-repeat repeat;
+            ```
+      - name: '`background-size`'
+        details:
+          - 'Scale the background image inside its element.'
+          - 'Accepts `px`, `%`, keywords, or `auto`.'
+          - '**Width always must come first, height second.**'
+          - |
+            ```css
+            /* Scale to 256 pixels wide & tall */
+            background-size: 256px 256px;
+
+            /* Scale to 128 pixels wide, automatically determine the correct height */
+            background-size: 128px auto;
+
+            /* Scale to 50% the width of the element, auto height */
+            background-size: 50% auto;
+
+            /* Keywords for automatically scaling the image */
+            background-size: cover;
+            background-size: contain;
+            ```
+          - '`background-size: cover` — fill the whole element, cropping the image.'
+          - '`background-size: contain` — make sure the whole image is visible, unused areas will show the `background-color`'
+      - name: '`background-attachment`'
+        details:
+          - 'Prevent the image from moving when the browser is scrolled, a parallax-like effect.'
+          - |
+            ```css
+            background-attachment: fixed;
+            ```
+          - 'The default value, that all images are, is `scroll`'
+      - name: '*Shorthand syntax*'
+        details:
+          - 'Combine everything into a single line instead of separate `background-*` properties.'
+          - '`background` should follow this order:'
+          - '• `background-image`'
+          - '• `background-position` / `background-size`'
+          - '• `background-repeat`'
+          - '• `background-color`'
+          - |
+            ```css
+            /* This can be written on a single line too */
+            background:
+              url("../images/star.svg")
+              left top / 32px auto
+              round
+              indigo
+              ;
+            ```
+          - '*Or with multiple background images:*'
+          - |
+            ```css
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, .6)), url("../images/star.svg") left top / 32px auto round indigo;
+            ```
+
+  - title: 'CSS gradients'
+    notes: 'Always provide a `background-color` when using gradients.'
+    items:
       - name: '*Gradients*'
         details:
+          - 'The browser will generate a background-image gradient for you.'
           - |
             ```css
-            body {
-              background-image: linear-gradient(to right, purple, darkpurple);
-            }
+            background-image: linear-gradient(to right, purple, indigo);
             ```
+          - 'Angle the gradient by adjusting the first value:'
+          - |
+            ```css
+            background-image: linear-gradient(33deg, purple, indigo);
+            ```
+          - 'Also radial gradients, with the keywords `circle` or `ellipse` followed by a position'
+          - |
+            ```css
+            background-image: radial-gradient(circle at center, purple, indigo);
+            ```
+      - name: '*Gradients with stops*'
+        details:
+          - 'Control the gradient colour positions using colour-stops.'
+          - 'Each colour can have it’s own stop value.'
+          - |
+            ```css
+            /* Two purples separated by a sharp black line */
+            background-image: linear-gradient(33deg, purple 0%, purple 49%, black 49%, black 50%, indigo 50%);
+            ```
+          - 'Also works for `radial-gradient()`'
+      - name: '*Repeated gradients*'
+        details:
+          - 'Create a gradient that repeats itself multiple times within an element.'
+          - |
+            ```css
+            /* Black/yellow warning stripes */
+            background-image: repeating-linear-gradient(45deg, yellow, yellow 10%, black 10%, black 20%);
+            ```
+          - 'Also `repeating-radial-gradient()`'
+
+  # - title: 'Border images'
+  #   notes: 'Use an image around the edges of the element instead of a plain border.'
+  #   items:
+  #     - name: '`border-image`'
+  #     - name: '*Image slicing example*'
+  #     - name: '*Example CSS*'
+
+  - title: 'Common CSS code snippets'
+    items:
       - name: '*Flexible images*'
         details:
           - |
@@ -149,16 +291,23 @@ groups:
         details:
           - |
             ```css
-            .visually-hidden {
-              height: 1px;
-              margin: -1px;
+            .image-replacement {
               overflow: hidden;
-              padding: 0;
-              position: absolute;
-              width: 1px;
-              border: 0;
-              clip: rect(0 0 0 0);
-              clip-path: inset(50%);
+              direction: ltr;
+              text-align: left;
+              text-indent: 100%;
+              white-space: nowrap;
+            }
+            ```
+      - name: '*Button gradient*'
+        details:
+          - |
+            ```css
+            .btn {
+              display: inline-block;
+              background-color: purple;
+              background-image: linear-gradient(to bottom, purple, indigo);
+              border-radius: 6px;
             }
             ```
 

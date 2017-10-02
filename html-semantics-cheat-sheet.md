@@ -480,7 +480,7 @@ groups:
           - '`%20` is used to escape spaces—[See more percent-encoding examples](https://en.wikipedia.org/wiki/Percent-encoding)'
 
   - title: 'Date/time formats'
-    notes: 'Apply to `datetime=""` attribute of the `<time>`, `<del>` & `<ins>` elements'
+    notes: 'Apply to the `datetime=""` attribute of the `<time>`, `<del>` & `<ins>` elements.'
     items:
       - name: '*Year*'
         details:

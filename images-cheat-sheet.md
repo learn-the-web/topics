@@ -270,7 +270,7 @@ groups:
           - 'Also `repeating-radial-gradient()`'
 
   - title: 'Border images'
-    notes: 'Use an image around the edges of the element instead of a plain border.'
+    notes: 'Use an image around the edges of the element instead of a plain border. [Border-image generator](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator).'
     items:
       - name: '`border-image-source`'
         details:

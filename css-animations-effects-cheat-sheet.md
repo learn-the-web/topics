@@ -78,8 +78,7 @@ groups:
               transform: rotate(33deg) scale(1.4);
             }
             ```
-      - name: '*Multiple transforms—incorrect example*'
-        details:
+          -  '*Multiple transforms—incorrect example*'
           - 'Multiple lines won’t work.'
           - 'Only the second entry will be activated.'
           - |
@@ -89,6 +88,23 @@ groups:
               transform: rotate(33deg);
               transform: scale(1.4);
             }
+            ```
+      - name: '`transform-origin`'
+        details:
+          - 'Control the anchor point for where the transform occurs.'
+          - 'The default is in the complete centre of the element, aka `center center`'
+          - 'Similar to `background-position`: horizontal then vertical.'
+          - |
+            ```css
+            transform-origin: center center;
+            /* Top left corner */
+            transform-origin: left top;
+            /* Centre of the top edge */
+            transform-origin: center top;
+            /* 10px in from the left, 10px down from the top */
+            transform-origin: 10px 10px;
+            /* Centre horizontally, 10px up from bottom */
+            transform-origin: center calc(100% - 5px);
             ```
 
   - title: "Transitions"

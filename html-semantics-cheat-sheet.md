@@ -5,7 +5,7 @@ desc: "A cheat sheet covering the basic HTML elements and their purpose."
 layout: cheatsheet
 
 groups:
-  - title: Document
+  - title: 'Document'
     items:
       - name: '`<title>`'
         details:
@@ -80,7 +80,7 @@ groups:
             </body>
             ```
 
-  - title: Lists
+  - title: 'Lists'
     items:
       - name: '`<ul>`'
         details:
@@ -142,7 +142,7 @@ groups:
             </dl>
             ```
 
-  - title: Text
+  - title: 'Text'
     items:
       - name: '`<a href="…">`'
         details:
@@ -378,7 +378,7 @@ groups:
             E = mc<sup>2</sup>
             ```
 
-  - title: Meaningless tags
+  - title: 'Meaningless tags'
     items:
       - name: '`<div>`'
         details:
@@ -388,9 +388,8 @@ groups:
       - name: '`<span>`'
         details:
           - 'Inherits meaning from its children.'
-          - 'Groups strings of text, when no other tag is better suited.'
 
-  - title: Be careful
+  - title: 'Be careful'
     items:
       - name: '`<br>`'
         details:
@@ -410,5 +409,200 @@ groups:
       - name: '`<wbr>`'
         details:
           - 'Presents an opportunity for the browser to add a line-break if necessary.'
+          - 'Groups strings of text, when no other tag is better suited.'
+
+  - title: 'Links'
+    items:
+      - name: '*Links that go nowhere*'
+        details:
+          - 'The `href` always needs a value—`#` means nowhere.'
+          - |
+            ```html
+            <a href="#">Nowhere</a>
+            ```
+      - name: '*Links on the same page*'
+        details:
+          - 'Add an `id=""` to the element to jump to, refer to that inside the `href`'
+          - |
+            ```html
+            <a href="#herbivores">See the herbivores</a>
+
+            <h2 id="herbivores">Herbivores</h2>
+            ```
+      - name: '*Links to other files*'
+        details:
+          - 'Just write the name of the HTML file, also include any folders its inside.'
+          - |
+            ```html
+            <a href="dinos.html">Dinosaurs</a>
+
+            <!-- or in another folder -->
+            <a href="herbivores/stegosaurus.html">Stegosaurus</a>
+            ```
+      - name: '*Links to other websites*'
+        details:
+          - 'Always start with `https://` or less ideally `http://`'
+          - |
+            ```html
+            <a href="https://www.wikipedia.org/">Wikipedia</a>
+
+            <!-- Adding `rel="external"` for outward-bound sites is good -->
+            <a href="https://www.wikipedia.org/" rel="external">Wikipedia</a>
+            ```
+      - name: '*Links to phone numbers*'
+        details:
+          - 'Start with `tel:`, use international format'
+          - |
+            ```html
+            <a href="tel:+18005552368">Call Me!</a>
+            ```
+          - 'Also send a text message with `sms:`'
+          - |
+            ```html
+            <a href="sms:+18005552368&body=Who%20ya%20gonna%20call">Call Me!</a>
+
+            <!-- or without a default number -->
+            <a href="sms:&body=Who%20ya%20gonna%20call">Call Me!</a>
+            ```
+      - name: '*Links to email addresses*'
+        details:
+          - 'Pops open a new email message, start with `mailto:`'
+          - |
+            ```html
+            <a href="mailto:hey@thomasjbradley.ca">Thomas</a>
+
+            <!-- Add a subject too -->
+            <a href="mailto:hey@thomasjbradley.ca?subject=How%20are%20you?">Thomas</a>
+
+            <!-- Even a default body -->
+            <a href="mailto:hey@thomasjbradley.ca?subject=How%20are%20you?&body=Hey%20Thomas">Thomas</a>
+            ```
+          - '`%20` is used to escape spaces—[See more percent-encoding examples](https://en.wikipedia.org/wiki/Percent-encoding)'
+
+  - title: 'Date/time formats'
+    notes: 'Apply to `datetime=""` attribute of the `<time>`, `<del>` & `<ins>` elements'
+    items:
+      - name: '*Year*'
+        details:
+          - 'Format: `YYYY`'
+          - 'Example: `1963`'
+      - name: '*Year, month*'
+        details:
+          - 'Format: `YYYY-MM`'
+          - 'Example: `1963-11`'
+          - '*Nov. 1963*'
+      - name: '*Year, month, day*'
+        details:
+          - 'Format: `YYYY-MM-DD`'
+          - 'Example: `1963-11-23`'
+          - '*Nov. 23, 1963*'
+      - name: '*Year, week*'
+        details:
+          - 'Format: `YYYY-Wdd`'
+          - 'Example: `1963-W47`'
+          - '*1936, the week of Nov. 18–24*'
+      - name: '*Hour, minute*'
+        details:
+          - 'Format: `HH:MM`'
+          - 'Example: `17:16`'
+          - '*5:16 PM*'
+      - name: '*Hour, minute, second*'
+        details:
+          - 'Format: `HH:MM:SS`'
+          - 'Example: `17:16:20`'
+          - '*5:16:20 PM*'
+      - name: '*Hour, minute, second, millisecond*'
+        details:
+          - 'Format: `HH:MM:SS.sss`'
+          - 'Example: `17:16:20.258`'
+          - '*5:16:20.258 PM*'
+      - name: '*UTC timezone*'
+        details:
+          - 'Format: `Z`'
+          - 'Example: `Z`'
+          - '*UTC timezone*'
+      - name: '*Timezone offsets*'
+        details:
+          - 'Format: `±HH:MM`'
+          - 'Example: `-05:00`'
+          - '*Eastern Standard Time, Daylight Savings*'
+      - name: '*Year, month, day, hour, minute*'
+        details:
+          - 'Format: `YYYY-MM-DDTHH:MM`'
+          - 'Example: `1963-11-23T17:16`'
+          - '*Nov. 23, 1963 at 5:16 PM*'
+      - name: '*Year, month, day, hour, minute, second*'
+        details:
+          - 'Format: `YYYY-MM-DDTHH:MM:SS`'
+          - 'Example: `1963-11-23T17:16:20`'
+          - '*Nov. 23, 1963 at 5:16:20 PM*'
+      - name: '*Year, month, day, hour, minute, second, millisecond*'
+        details:
+          - 'Format: `YYYY-MM-DDTHH:MM:SS.sss`'
+          - 'Example: `1963-11-23T17:16:20.258`'
+          - '*Nov. 23, 1963 at 5:16:20.258 PM*'
+      - name: '*Year, month, day, hour, minute, UTC*'
+        details:
+          - 'Format: `YYYY-MM-DDTHH:MMZ`'
+          - 'Example: `1963-11-23T17:16Z`'
+          - '*Nov. 23, 1963 at 5:16 PM UTC*'
+      - name: '*Year, month, day, hour, minute, timezone*'
+        details:
+          - 'Format: `YYYY-MM-DDTHH:MM±HH:MM`'
+          - 'Example: `1963-11-23T12:16-05:00`'
+          - '*Nov. 23, 1963 at 12:16 AM EST*'
+      - name: '*Year, month, day, hour, minute, second, timezone*'
+        details:
+          - 'Format: `YYYY-MM-DDTHH:MM:SS±HH:MM`'
+          - 'Example: `1963-11-23T12:16:20-05:00`'
+          - '*Nov. 23, 1963 at 12:16:20 AM EST*'
+      - name: '*Year, month, day, hour, minute, second, millisecond, timezone*'
+        details:
+          - 'Format: `YYYY-MM-DDTHH:MM:SS.sss±HH:MM`'
+          - 'Example: `1963-11-23T12:16:20.258-05:00`'
+          - '*Nov. 23, 1963 at 12:16:20.258 AM EST*'
+      - name: '*Period of days*'
+        details:
+          - 'Format: `PddD`'
+          - 'Example: `P686D`'
+          - '*686 days*'
+      - name: '*Period of days, hours*'
+        details:
+          - 'Format: `PddDhhH`'
+          - 'Example: `P686D23H`'
+          - '*686 days, 23 hours*'
+      - name: '*Period of days, hours, minutes*'
+        details:
+          - 'Format: `PddDhhHmmM`'
+          - 'Example: `P686D23H18M`'
+          - '*686 days, 23 hours, 18 minutes*'
+      - name: '*Period of days, hours, minutes, seconds*'
+        details:
+          - 'Format: `PddDhhHmmMssS`'
+          - 'Example: `P686D23H18M14S`'
+          - '*686 days, 23 hours, 18 minutes, 14 seconds*'
+      - name: '*Period of days, hours, minutes, seconds, milliseconds*'
+        details:
+          - 'Format: `PddDhhHmmMss.sssS`'
+          - 'Example: `P686D23H18M14.400S`'
+          - '*686 days, 23 hours, 18 minutes, 14 seconds, 400 milliseconds*'
+      - name: '*Exact date example*'
+        details:
+          - |
+            ```html
+            <time datetime="1963-11-23T12:16:20Z">Premiere of the most important TV show of all time!</time>
+            ```
+      - name: '*Simple time period*'
+        details:
+          - |
+            ```html
+            <time datetime="P365D6H8M">Earth’s orbital period</time>
+            ```
+      - name: '*Range of time periods*'
+        details:
+          - |
+            ```html
+            Opossum gestation period: <time datetime="P12D">twelve</time> to <time datetime="P13D">thirteen</time> days.
+            ```
 
 ---

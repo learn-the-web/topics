@@ -1,7 +1,7 @@
 ---
 layout: cheatsheet
 title: "CSS layout cheat sheet"
-tags: "layout position float columns box model margin padding cheat sheet"
+tags: "layout position float columns box model flexbox center absolute relative vertical horizontal margin padding cheat sheet"
 desc: "A cheat sheet for the basics of CSS layout properties."
 
 groups:
@@ -72,6 +72,123 @@ groups:
           - '![](z-index.svg)'
           - 'Control the stacking order of elements—higher number is closer.'
 
+  - title: 'Centering elements'
+    items:
+      - name: '`text-align: center`'
+        details:
+          - 'Works only on `display: inline` & `inline-block` elements.'
+          - '*Must be applied to the parent element.*'
+          - |
+            ```html
+            <figure class="img-box">
+              <img src="images/argentinosaurus.jpg" alt="">
+              <figcaption>The mighty Argentinosaurus</figcaption>
+            </figure>
+            ```
+          - |
+            ```css
+            .img-box {
+              text-align: center;
+            }
+            ```
+      - name: '`margin: 0 auto`'
+        details:
+          - 'Works only on `display: block` elements.'
+          - '*The element must have a `width`*'
+          - |
+            ```html
+            <div class="box">Stegosaurus</div>
+            ```
+          - |
+            ```css
+            .box {
+              width: 24em; /* Without a width `auto` won’t work */
+              margin-left: auto;
+              margin-right: auto;
+            }
+            ```
+          - 'You can also specify just `margin-left: auto` and `margin-right: auto` if you want margins on the top or bottom.'
+      - name: '`vertical-align: middle`'
+        details:
+          - 'Works only on `display: inline` & `inline-block` elements.'
+          - '*Must be applied to the parent element.*'
+          - |
+            ```html
+            <ul>
+              <li>Pteranodon</li>
+              <li>Quetzalcoatlus</li>
+            </ul>
+            ```
+          - |
+            ```css
+            ul {
+              vertical-align: middle;
+            }
+
+            ul li {
+              display: inline-block;
+            }
+            ```
+      - name: '*Centering absolute*'
+        details:
+          - 'Use `transform` & `50%` coordinates to center an absolutely positioned element.'
+          - |
+            ```html
+            <div class="banner">
+              <div class="content">
+                <h1>Micropachycephalosaurus</h1>
+                <p>Longest dinosaur name ever!</p>
+              </div>
+            </div>
+            ```
+          - |
+            ```css
+            .banner {
+              position: relative;
+            }
+
+            .content {
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+            }
+            ```
+          - '*Or vertical centering too…*'
+          - |
+            ```css
+            .content {
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+            }
+            ```
+      - name: '*Centering with float*'
+        details:
+          - '*There’s no `float: center`*'
+          - '**You cannot center floated elements.**'
+      - name: '*Centering with flexbox*'
+        details:
+          - 'Flex box has a bunch of different alignment classes—*that are always applied to the parent*.'
+          - |
+            ```html
+            <div class="card">
+              <h2>Edmontosaurus</h2>
+              <a href="#">See the bones!</a>
+            </div>
+            ```
+          - |
+            ```css
+            .card {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-content: center;
+              align-items: center;
+            }
+            ```
+          - '*This will be completely centered within the box.*'
+          - '[See the flexbox cheat sheet for more details.](/topics/flexbox-cheat-sheet/)'
 
   - title: 'Common code'
     items:
@@ -89,8 +206,9 @@ groups:
               box-sizing: inherit;
             }
             ```
-      - name: '*Clearfix*'
+      - name: '*Clearfix for float*'
         details:
+          - 'Add to the parent elements of floats to force the parent to surround the floated element.'
           - 'Can be used instead of `overflow: hidden`'
           - |
             ```css
@@ -100,15 +218,14 @@ groups:
               clear: both;
             }
             ```
-      - name: '*Centering with absolute*'
+      - name: '*Flexible images*'
         details:
-          - 'Use `transform` to center an absolutely positioned element.'
+          - 'Use `width` & `display` to make images flex to their parent’s size.'
           - |
             ```css
-            .content {
-              position: absolute;
-              left: 50%;
-              transform: translateX(-50%);
+            img {
+              display: block;
+              width: 100%;
             }
             ```
 ---

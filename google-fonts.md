@@ -17,7 +17,7 @@ Google Fonts is a free service provided by Google that allows us to use some rea
 
 ![](add-to-collection.jpg)
 
-**Press “Use” in the collection drawer.**
+**Press the little line button in the collection drawer to open it.**
 
 ![](use.jpg)
 

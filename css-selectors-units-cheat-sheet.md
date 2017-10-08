@@ -25,6 +25,15 @@ groups:
             .nav {}
             .contact {}
             ```
+          - 'There needs to be a matching class in the HTML:'
+          - |
+            ```html
+            <header class="masthead">
+              <nav class="nav">
+                ⋮
+              </nav>
+            </header>
+            ```
       - name: '`#` — ID'
         details:
           - 'Select an element that has the ID.'
@@ -33,6 +42,11 @@ groups:
             #heading-1 {}
             #github {}
             #top {}
+            ```
+          - 'There needs to be a matching ID in the HTML:'
+          - |
+            ```html
+            <a id="top" href="#top">Top</a>
             ```
       - name: '`Space` — Descendant'
         details:
@@ -77,7 +91,7 @@ groups:
           - |
             ```css
             [data-state="active"] {}
-            [href^="http" {}
+            [href^="http"] {}
             [download] {}
             ```
           - '[More on attribute selectors below.](#attribute-selectors)'

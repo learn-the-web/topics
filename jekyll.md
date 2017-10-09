@@ -534,6 +534,7 @@ To display a list of posts in your website, you can use Jekyll’s loop:
 - [Jekyll Setting Up on GitHub Pages](http://jekyllrb.com/docs/github-pages/)
 - [Shopify: Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
 - [Shopify: Liquid Basics](http://docs.shopify.com/themes/liquid-basics)
+- [CloudCannon Jekyll Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
 - [Jekyll by Example](http://www.andrewmunsell.com/tutorials/jekyll-by-example/)
 - [GitHub Pages plugin list](https://help.github.com/articles/using-jekyll-plugins-with-github-pages/)
 - [GitHub Pages versions](https://pages.github.com/versions/)

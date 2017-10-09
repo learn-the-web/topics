@@ -13,14 +13,14 @@ groups:
           - |
             ```
             xcode-select --install
-            ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+            /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
             brew install ruby
             gem install jekyll
             ```
           - '[**☛ Jekyll installation.**](/topics/jekyll-installation/)'
       - name: '*Starting & stopping*'
         details:
-          - 'First, open your Jekyll folder in Terminal using the GitHub app shortcut—`⌘T`'
+          - 'First, open your Jekyll folder in Terminal using the GitHub app shortcut—``⌃` ``'
           - '*Start Jekyll:*'
           - |
             ```
@@ -97,10 +97,10 @@ groups:
         details:
           - 'First create a new file inside the `_layouts` folder, name it whatever you want. Inside that file put the common HTML.'
           - '**Use `{{content}}` as the placeholder for the HTML from each page.**'
+          - '&nbsp;'
+          - '`_layouts/default.html`'
           - |
             ```html
-            <!-- _layouts/default.html -->
-
             <!DOCTYPE html>
             <html lang="en-ca">
             <head>
@@ -113,10 +113,10 @@ groups:
             </html>
             ```
           - 'At the top of each page use YAML front matter to denote which layout to use:'
+          - '&nbsp;'
+          - '`index.html`'
           - |
             ```html
-            <!-- index.html -->
-
             ---
             layout: default
             ---
@@ -127,20 +127,20 @@ groups:
       - name: '*Page variables*'
         details:
           - 'To pass information from a page to a layout you can use YAML frontmatter.'
+          - '&nbsp;'
+          - '`index.html`'
           - |
             ```html
-            <!-- index.html -->
-
             ---
             layout: default
             title: Plant Eaters
             ---
             ```
           - 'Then inside the layout, we can use placeholder variables:'
+          - '&nbsp;'
+          - '`_layouts/default.html`'
           - |
             ```html
-            <!-- _layouts/default.html -->
-
             <!DOCTYPE html>
             <html lang="en-ca">
             <head>
@@ -164,10 +164,10 @@ groups:
           - 'Data files allow us to separate content from it’s presentation HTML.'
           - '*Put data files in the `_data` folder.*'
           - '**All the data is found in the variable `site.data`**'
+          - '&nbsp;'
+          - '`_data/dinos.yml`'
           - |
             ```yaml
-            # _data/dinos.yml
-
             - name: Tyrannosaurus
               diet: Meat
               size: Big
@@ -182,10 +182,10 @@ groups:
         details:
           - 'Includes are for making reusable, repeatable HTML blocks.'
           - '*Put includes int the `_includes` folder.*'
+          - '&nbsp;'
+          - '`_includes/button.html`'
           - |
             ```html
-            <!-- _includes/button.html -->
-
             <a class="btn" href="/go/">Go!</a>
             ```
           - |
@@ -199,9 +199,10 @@ groups:
             {% include button.html url="/plant-eaters/" title="Plant eaters" %}
             ```
           - |
+          - '&nbsp;'
+          - '`_includes/button.html`'
+          - |
             ```html
-            <!-- _includes/button.html -->
-
             <a class="btn" href="{{include.url}}">{{include.title}}</a>
             ```
       - name: '*Posts*'

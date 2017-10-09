@@ -1,7 +1,7 @@
 ---
 title: "Jekyll terminal guide"
 tags: "jekyll terminal command line serve watch base url"
-desc: "A guide to Jekyl’s terminal commends on yoyr Mac."
+desc: "A guide to Jekyll’s terminal commands on your Mac."
 video: Vvh-PWMOf4g
 ---
 
@@ -17,7 +17,7 @@ In the GitHub application, click `Repository > Open in Terminal`.
 
 ![](open.jpg)
 
-**Or** press `Command+T`.
+**Or** press ``Control-` ``.
 
 ---
 

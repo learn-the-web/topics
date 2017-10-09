@@ -506,6 +506,20 @@ After you’ve saved the SVG file (I’d likely name it `icons.svg`) you can ref
 
 When using external SVG sprite sheets be careful about changing colours. If you want to be able to set the colour of the SVG graphics from within CSS, like we did above with `:hover`, then make sure there are no `fill=""` presentation attributes within the SVG file itself.
 
+#### SVG icons sprite sheets in the browser
+
+One small little annoyance about using SVG sprite sheets is that some browsers won’t display the icons, for security reasons, unless the website is running on a web server.
+
+Online, like on GitHub, the icons will work perfectly. Locally Safari will load the icons properly but Chrome, Firefox & Opera will not.
+
+To get Chrome, Firefox & Opera to load the SVG icon sprite sheet we need to use a local web server. If you’re using Markbot then drop your project into Markbot and a web server will be initialized for you.
+
+![](markbot-server.jpg)
+
+- **Press `⌘B`**
+- Or go to the menu: `File > Browse Local Website`
+- Or press the toolbar icon.
+
 **Links**
 
 - [24 Ways: An Overview of SVG Sprite Creation Techniques](http://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/)

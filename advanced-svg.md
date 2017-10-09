@@ -25,7 +25,7 @@ To create SVG we can just make a new file in our text editor and give it the ext
 Inside the code file, write this:
 
 ```xml
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg">
   <!-- Write all the SVG code in here -->
 </svg>
 ```
@@ -33,7 +33,7 @@ Inside the code file, write this:
 It’s also good for browser compatibility to add these attributes: `width`, `height`, `viewBox`.
 
 ```xml
-<svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
   <!-- Write all the SVG code in here -->
 </svg>
 ```
@@ -43,7 +43,7 @@ Then, inside our SVG we can create graphics.
 Here’s a **rectangle**:
 
 ```xml
-<svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
   <rect x="10" y="10" width="75" height="50" />
 </svg>
 ```
@@ -51,7 +51,7 @@ Here’s a **rectangle**:
 Add rounded corners with `rx` & `ry`:
 
 ```xml
-<svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
   <rect x="10" y="10" width="75" height="50" rx="8" ry="8" />
 </svg>
 ```
@@ -59,7 +59,7 @@ Add rounded corners with `rx` & `ry`:
 Here’s a **circle**:
 
 ```xml
-<svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
   <circle cx="175" cy="75" r="75" />
 </svg>
 ```
@@ -71,7 +71,7 @@ Here’s a **circle**:
 We can use CSS in our SVG, but the [properties are just a little different](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute).
 
 ```xml
-<svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
   <style>
     rect {
       fill: #f33;
@@ -86,7 +86,7 @@ Use `fill` to change the shape’s colour.
 We can even use classes and IDs on elements.
 
 ```xml
-<svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
   <style>
     .my-rect {
       fill: #3f3;
@@ -111,7 +111,7 @@ SVG can be embedded directly into HTML, which gives us a bunch of extra control.
 ⋮
 ```
 
-*When embedding SVG inside HTML the `xmlns` and `version` attributes can be left off.*
+*When embedding SVG inside HTML the `xmlns` attribute can be left off.*
 
 As soon as the SVG is inside your HTML you can even move the CSS into your separate CSS file.
 
@@ -153,7 +153,11 @@ We can use some optimization tools to clean up the SVG.
 
 #### Making the SVG code pretty
 
-If you use Spritebot to clean the SVG code you can enabled the “Pretty Output” option that will nicely indent and format the SVG for use inside your HTML file.
+Spritebot can clean and indent the SVG code for use inside your HTML automatically. To get the cleaned version of the SVG code copy the graphic with `⌘C` or the menu. When you paste you’ll have nicely clean and indented SVG code.
+
+![](spritebot-clean.jpg)
+
+**Copy the SVG from Spritebot for prettily formatted code.**
 
 **Links**
 
@@ -486,7 +490,7 @@ Having to copy-and-paste the SVG code at the top of every SVG file can become cu
 
 [**Spritebot**](https://github.com/thomasjbradley/spritebot) can be used to generate SVG sprite sheets by dropping multiple SVG files into the window and saving out the sprite sheet to a file.
 
-![](sprite-sheet.jpg)
+![](spritesheet.jpg)
 
 After you’ve saved the SVG file (I’d likely name it `icons.svg`) you can refer to each symbol with the `<use>` tag, but pointing to the file also.
 

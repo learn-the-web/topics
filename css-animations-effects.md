@@ -632,6 +632,51 @@ Specifically these properties would be good to move into a media query:
 
 ---
 
+## CSS filters
+
+CSS filters allow us to apply effects to images and text akin to what a photo manipulation software, like Photoshop, does. We can blur, convert to greyscale, adjust the hue and many more.
+
+The CSS `filter` property accepts 1 or more filters to apply to an element.
+
+```css
+.card {
+  filter: grayscale(100%);
+}
+```
+
+*Or for more than one filter…*
+
+```css
+.card {
+  filter: grayscale(100%) contrast(150%);
+}
+```
+
+**Be careful when applying filters they can be very browser intensive, causing slow scrolling or just slow animations.**
+
+### Filters & hover
+
+The great thing about applying filters in CSS instead of doing them directly in Photoshop is they can be manipulated. We can even add transitions to filters.
+
+```css
+.card {
+  filter: grayscale(100%) contrast(150%);
+  transition: all .3s linear;
+}
+
+.card:hover {
+  filter: grayscale(0) contrast(100%);
+}
+```
+
+This will fade between grey-scale and colour and adjust the contrast over `.3s` when the user hovers on the element.
+
+**Links**
+
+- [MDN: CSS filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter)
+
+---
+
 ## Video list
 
 1. [Animations & effects: basic transitions](https://www.youtube.com/watch?v=mYW7PPO81gk&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=1)
@@ -645,6 +690,7 @@ Specifically these properties would be good to move into a media query:
 9. [Animations & effects: vendor prefixes](https://www.youtube.com/watch?v=C5eDPR3pANQ&index=9&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
 10. [Animations & effects: hero banner](https://www.youtube.com/watch?v=AgBCH0-K124&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=10)
 11. [Animations & effects: parallax](https://www.youtube.com/watch?v=n9zLJ0I8Djk&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=11)
+12. [Animations & effects: CSS filters](https://www.youtube.com/watch?v=sUlOVKzz_x8&index=12&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
 
 ## Supplemental links
 

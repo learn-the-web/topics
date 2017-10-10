@@ -307,6 +307,50 @@ Then, maybe on large screens we decide it should be in its own column, off to th
 
 ---
 
+## Flowing text into columns
+
+In CSS we can flow text into columns, like a newspaper or magazine layout. It’s not recommended to use the text flowing columns on small screens since there’s not enough space, but we can definitely do it on larger screens.
+
+To create multiple columns you can use the `column-count` property:
+
+```css
+@media only screen and (min-width: 60em) {
+
+  .intro {
+    /* The number is how many columns */
+    column-count: 2;
+  }
+
+}
+```
+
+This will allow the text to run down the first column then flow into the next column. Browsers will try to balance the text so that there’s an equal amount in both columns.
+
+### Column spacing and border
+
+We can control the space between the columns using the `column-gap` property and even add a border between the columns using `column-rule`
+
+```css
+@media only screen and (min-width: 60em) {
+
+  .intro {
+    column-count: 2;
+    column-gap: 1.5rem;
+    /* The column-rule follows the same properties as border */
+    column-rule: 1px solid #e2e2e2;
+  }
+
+}
+```
+
+*I would suggest always setting the `column-gap` in `em` or `rem` so that it’s size balances with the size of the text.*
+
+**Links**
+
+- [MDN: columns](https://developer.mozilla.org/en-US/docs/Web/CSS/columns)
+
+---
+
 ## Print styles
 
 If your website is text heavy and is a piece of content that people may want to print out like an article, tutorial, recipe, book, etc. then spend a few minutes styling the printable version of your website.
@@ -403,8 +447,9 @@ The `@page` declaration allows us to target different aspects of the page.
 2. [Media queries: columns](https://www.youtube.com/watch?v=pSbNxyHeioA&index=2&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI)
 3. [Media queries: banner](https://www.youtube.com/watch?v=n2LxnjT68gc&index=3&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI)
 4. [Media queries: toggle navigation](https://www.youtube.com/watch?v=ifhppwLzXwI&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=4)
-5. [Media queries: no media queries](https://www.youtube.com/watch?v=ig9pueXrl3o&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=5)
-6. [Media queries: print styles](https://www.youtube.com/watch?v=krZXeORLXtM&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=6)
+5. [Media queries: flowing text into columns](https://www.youtube.com/watch?v=eZcFsGoeQyU&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=5)
+6. [Media queries: no media queries](https://www.youtube.com/watch?v=ig9pueXrl3o&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=6)
+7. [Media queries: print styles](https://www.youtube.com/watch?v=krZXeORLXtM&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=7)
 
 ## Supplemental links
 

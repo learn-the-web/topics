@@ -214,8 +214,7 @@ Then, inside our `default.html` layout we can use that information wherever we w
 **default.html**
 
 ```html
-{% raw %}
-<!DOCTYPE html>
+{% raw %}<!DOCTYPE html>
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
@@ -367,8 +366,7 @@ Then inside that folder make your data file, named with the `.yml` extension. He
 After we have the data file created we can use it in our website. The great thing about doing it this way is that we don’t have to copy and paste our HTML, Jekyll will do the work for us.
 
 ```html
-{% raw %}
-{% for dino in site.data.dinos %}
+{% raw %}{% for dino in site.data.dinos %}
   <h2>{{dino.name}}</h2>
   <dl>
     <dt>Diet</dt>
@@ -376,7 +374,7 @@ After we have the data file created we can use it in our website. The great thin
     <dt>Size</dt>
     <dd>{{site.size}}</dd>
   </dl>
-{% endfor %} {% endraw %}
+{% endfor %}{% endraw %}
 ```
 
 Using a `for` loop we’re looping over every entry in the data file. The `site.data.dinos` is how we access our data file—the `.dinos` part is exactly the name of the file.
@@ -418,8 +416,7 @@ In any of our Jekyll pages, we can use the include file to output whatever HTML 
 ---
 layout: default
 ---
-{% raw %}
-{% include button.html %}
+{% raw %}{% include button.html %}
 {% include button.html %} {% endraw %}
 ```
 
@@ -447,12 +444,27 @@ Now, in our HTML we can adjust the includes to have the variable information:
 ---
 layout: default
 ---
-{% raw %}
-{% include button.html url="/prev/" title="Previous" %}
-{% include button.html url="/next/" title="Next" %} {% endraw %}
+{% raw %}{% include button.html url="/prev/" title="Previous" %}
+{% include button.html url="/next/" title="Next" %}{% endraw %}
 ```
 
 *My example above is extremely simple, and probably doesn’t make sense to do for a button (because the include code is practically the same length as the original HTML), but hopefully it communicates the powerful idea behind includes.*
+
+### Relative includes
+
+We don’t have to put our includes into the `_includes` folder if we use the `include_relative` function instead. This function will look inside the same folder as the current file for the include to insert. It works really great for concatenating CSS files together.
+
+```
+---
+---
+
+{% raw %}{% include_relative header.css %}
+{% include_relative footer.css %}
+{% include_relative nav.css %}
+{% include_relative cards.css %}{% endraw %}
+```
+
+This could be a `main.css` file that includes all the other smaller files to make our website more performant.
 
 ---
 
@@ -474,20 +486,57 @@ _posts/
 To display a list of posts in your website, you can use Jekyll’s loop:
 
 ```html
-{% raw %}
-<ul>
+{% raw %}<ul>
   {% for post in site.posts %}
     <li>
       <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
       <p>{{post.excerpt}}</p>
     </li>
   {% endfor %}
-</ul> {% endraw %}
+</ul>{% endraw %}
 ```
 
 **Links**
 
 - [Jekyll Docs: Posts](http://jekyllrb.com/docs/posts/)
+
+---
+
+## Collections
+
+Collections are a mechanism in Jekyll that allow us to have a grouping of documents. The grouping can either act like datafiles or can act like pages and posts. **In fact, posts are just built-in collections.**
+
+### Set up a collection in _config.yml
+
+The first thing we need to do is create a collection in `_config.yml`, telling Jekyll how to handle it.
+
+```yaml
+collection:
+  comets:
+    output: true
+    permalink: /comets/:path/
+```
+
+- The `collection` entry tells Jekyll we’re including new collections.
+- The `comets` entry is the name of our collection—we completely make it up.
+- The `output` entry is optional, here we’re telling Jekyll to turn the collection files into pages we can navigate to.
+  <br>Without `output` the collection wouldn’t be navigable but could be pulled onto other pages like datafiles.
+- The `permalink` entry tells Jekyll how to generate the URL for the collection pages.
+
+### Outputting collection documents
+
+In a page on our website we can loop through all the documents of a collection to generate some HTML.
+
+```html
+{% raw %}{% for comet in site.comets %}
+  <h2>{{comet.title}}</h2>
+  {{comet.content | markdownify}}
+{% endfor %}{% endraw %}
+```
+
+### Collection pages
+
+If the collection is set to output we can add layouts and everything else we’re used to doing with regular pages.
 
 ---
 
@@ -523,10 +572,15 @@ To display a list of posts in your website, you can use Jekyll’s loop:
 28. [Jekyll: generating page navigation](https://www.youtube.com/watch?v=gel_0pwjo78&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=28)
 29. [Jekyll: changing background images](https://www.youtube.com/watch?v=OQhNqdB-ino&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=29)
 30. [Jekyll: many CSS files](https://www.youtube.com/watch?v=H4Fc2xL79nU&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=30)
-31. [Jekyll: unique titles for every page](https://www.youtube.com/watch?v=ra9Td0DpK0s&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=31)
-32. [Jekyll: meta description](https://www.youtube.com/watch?v=FUL9SSgMZ8Y&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=32)
-33. [Jekyll: automatic sitemap.xml](https://www.youtube.com/watch?v=C49lhiX_JO0&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=33)
-34. [Jekyll: pretty URLs](https://www.youtube.com/watch?v=sc-4FywBPlg&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=34)
+31. [Jekyll: relative includes](https://www.youtube.com/watch?v=F1UplpQ055Y&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=31)
+32. [Jekyll: unique titles for every page](https://www.youtube.com/watch?v=ra9Td0DpK0s&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=32)
+33. [Jekyll: meta description](https://www.youtube.com/watch?v=FUL9SSgMZ8Y&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=33)
+34. [Jekyll: automatic sitemap.xml](https://www.youtube.com/watch?v=C49lhiX_JO0&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=34)
+35. [Jekyll: pretty URLs](https://www.youtube.com/watch?v=sc-4FywBPlg&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=35)
+36. [Jekyll: creating a collection](https://www.youtube.com/watch?v=mGMlLSM0HQM&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=36)
+37. [Jekyll: extra collection info](https://www.youtube.com/watch?v=EftdrQXS6lE&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=37)
+38. [Jekyll: collection index list](https://www.youtube.com/watch?v=hnOyJQxQysg&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=38)
+39. [Jekyll: collection in sitemap.xml](https://www.youtube.com/watch?v=TJiYmRXDOM0&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=39)
 
 ## Supplemental links
 

@@ -82,6 +82,113 @@ There are a few attributes to understand form the Microdata specification:
 
 ---
 
+## Structure data with JSON-LD
+
+An alternative format for writing structured data that is very popular is JSON-LD. It has a very different syntax from MicroData but still uses the same schema.
+
+The syntax is based on JavaScript, hence the “JS” in the title; the full title being: “JavaScript Object Notation Linked Data”.
+
+### Marking up a CreativeWork
+
+Here’s an example of a creative work marked up in JSON-LD—something all graphic designers would want to do on their portfolio pieces:
+
+```js
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Branding for Dino ’R’ Us",
+  "author": {
+    "@type": "Person",
+    "name": "Thomas J Bradley"
+  },
+  "image": "https://thomasjbradley.ca/images/dinos-r-us-logo.jpg",
+  "url": "https://thomasjbradley.ca/dino-r-us/",
+  "dateCreated": "2017-11-23",
+  "description": "A massive rebrand for the Dinos ’R’ Us company.",
+  "keywords": "dinosaurs, graphic, design, brand, logo"
+}
+```
+
+### Inserting the JSON-LD into your HTML
+
+When inserting the JSON-LD into your HTML there’s a few important things to remember:
+
+1. **The same information must be represented in the HTML too or search engines may ignore it.**
+2. It’s separate from your visible HTML, usually at the bottom of the page, and always contained in a `<script>` tag.
+
+```html
+⋮
+<body>
+
+  <!-- The rest of the HTML representing a creative work/portfolio piece would be here -->
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "Branding for Dino ’R’ Us",
+      ⋮
+    }
+  </script>
+</body>
+</html>
+```
+
+### Linking JSON-LD blocks together
+
+We want to try and avoid copying-and-pasting code as much as possible because it’s bad practice and can lead to silly mistakes.
+
+With JSON-LD we can link different JSON-LD blocks together using the `@id` property.
+
+Let’s say we have multiple creative works on a page all created by the same person. We could write the person information once and link all the creative works to the single person.
+
+```html
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Branding for Dino ’R’ Us",
+    "author": {
+      "@type": "Person",
+      "@id": "#thomasjbradley"
+    }
+  }
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Branding for DinoMeeples, Inc.",
+    "author": {
+      "@type": "Person",
+      "@id": "#thomasjbradley"
+    }
+  }
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "#thomasjbradley",
+    "name": "Thomas J Bradley",
+  }
+</script>
+```
+
+In the above example we have two different creative works, each have the same author. Instead of write all the author details in both after the standard `@type` property we add an `@id` property. This `@id` property points to another ID on the page.
+
+Further down in the person definition we’ve added the `@id` property to define where the creative works should look for the author information.
+
+**Links**
+
+- [JSON-LD Spec](https://json-ld.org/)
+- [Wikipedia: JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)
+- [Steal our JSON-LD (example code)](https://jsonld.com/)
+
+---
+
 ## Social semantics
 
 The web is an inherently social place. To encourage finding and understanding social connections we can define them in HTML using the relationship (`rel`) attribute.
@@ -195,6 +302,9 @@ There are many optional tags for larger images and different types of content li
 
 ## Video list
 
-1. [Metadata: person](https://www.youtube.com/watch?v=pjihcrIsX3k&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx&index=1)
+1. [Metadata: marking up a person](https://www.youtube.com/watch?v=pjihcrIsX3k&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx&index=1)
 2. [Metadata: relationships](https://www.youtube.com/watch?v=7k5ZT7iak6M&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx&index=2)
-3. [Metadata: social meta tags](https://www.youtube.com/watch?v=xxk21IhoSdU&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx&index=3)
+3. [Metadata: JSON-LD creative work](https://www.youtube.com/watch?v=PUIn2ts1X8o&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx&index=3)
+4. [Metadata: mapping Schema.org to JSON-LD](https://www.youtube.com/watch?v=s81d0PxMjlc&index=4&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx)
+5. [Metadata: Linking two JSON-LD chunks](https://www.youtube.com/watch?v=IeAVWa_-4zE&index=5&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx)
+6. [Metadata: social meta tags](https://www.youtube.com/watch?v=xxk21IhoSdU&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx&index=6)

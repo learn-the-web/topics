@@ -571,7 +571,7 @@ If you are using the SVG `<text>` element inside your embedded SVG, but don’t 
 ## Video list
 
 1. [Advanced SVG: writing SVG code](https://www.youtube.com/watch?v=q_3Q9HHcXuA&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=1&t=68s)
-2. [Advanced SVG: optimizing & cleaning](https://www.youtube.com/watch?v=N4e2V6zVXA8&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=2)
+2. [Advanced SVG: optimizing & cleaning](https://www.youtube.com/watch?v=QgOWqHF6SYU&index=2&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM)
 3. [Advanced SVG: attributes & CSS](https://www.youtube.com/watch?v=EEtnu8OMD3o&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=3)
 4. [Advanced SVG: transitions](https://www.youtube.com/watch?v=vwIVdI3WMIc&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=4)
 5. [Advanced SVG: transform origin with pixels](https://www.youtube.com/watch?v=AcdOzdoB390&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=5)

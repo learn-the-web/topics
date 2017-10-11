@@ -429,7 +429,6 @@ groups:
             <text x="10" y="100">Dinosaurs!</text>
             ```
 
-
   - title: 'Linking & images'
     items:
       - name: '*Links*'
@@ -644,6 +643,38 @@ groups:
             <rect filter="url(#blur-me)" x="0" y="0" width="256" height="64" />
             <text filter="url(#blur-me)">Mars</text>
             ```
+
+  - title: 'SVG icons'
+    items:
+      - name: '*Spritebot*'
+        details:
+          - 'Drop a bunch of exported icons from Illustrator into [Spritebot](https://github.com/thomasjbradley/spritebot) and save.'
+          - '&nbsp;'
+          - '![](spritebot.jpg)'
+          - 'Put the saved sprite sheet into your `images` folder.'
+          - 'The original, exported SVGs can be trashed.'
+      - name: '*Using icons*'
+        details:
+          - 'Use the `<svg>` tag and the `<use>` tag to grab an icon from within the sprite sheet.'
+          - 'The `id` of the icon is the same as it’s filename when dropped into Spritebot.'
+          - |
+            ```html
+            <svg><use xlink:href="images/icons.svg#stego"></use></svg>
+            ```
+          - 'It’s usually a good thing to insert it into an element for CSS control.'
+          - |
+            ```html
+            <i class="icon i-32">
+              <svg><use xlink:href="images/icons.svg#stego"></use></svg>
+            </i>
+            ```
+      - name: '*Seeing icons*'
+        details:
+          - '**SVG icons won’t load in Chrome, Firefox or Opera if you double click the HTML file.**'
+          - '*They will still absolutely work in those browsers when your website is online.*'
+          - 'This is a security feature of the browsers.'
+          - 'They will load properly in Safari.'
+          - 'To get proper loading on the local version you need a web server—**drop your folder into Markbot and press `⌘B`**'
 
   - title: 'Accessibility'
     items:

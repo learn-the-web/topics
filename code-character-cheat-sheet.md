@@ -10,19 +10,19 @@ groups:
       - name: '`( )`'
         details:
           - '**Bracket**, round bracket, parentheses.'
-          - 'Used around function parameters in CSS and Javascript.'
+          - 'Used around function parameters in CSS and JavaScript.'
           - '`(`— open bracket.'
           - '`)`— close bracket.'
       - name: '`[ ]`'
         details:
           - '**Square bracket**.'
-          - 'Used around attribute selectors in CSS and with arrays and objects in Javascript.'
+          - 'Used around attribute selectors in CSS and with arrays and objects in JavaScript.'
           - '`[`— open square bracket.'
           - '`]`— close square bracket.'
       - name: '`{ }`'
         details:
           - '**Curly brace**, brace, moustache.'
-          - 'Used to open/close CSS rule sets or opening/closing objects and functions in Javascript.'
+          - 'Used to open/close CSS rule sets or opening/closing objects and functions in JavaScript.'
           - '`{`— open curly brace.'
           - '`}`— close curly brace.'
       - name: '`< >`'
@@ -37,12 +37,12 @@ groups:
       - name: '`"`'
         details:
           - '**Double quote**.'
-          - 'Used around attributes in HTML, around some values in CSS, and around strings in Javascript.'
+          - 'Used around attributes in HTML, around some values in CSS, and around strings in JavaScript.'
           - 'Called straight quotes because they aren’t typographically correct.'
       - name: "`'`"
         details:
           - '**Single quote**.'
-          - 'Used around attributes in HTML, around some values in CSS, and around strings in Javascript.'
+          - 'Used around attributes in HTML, around some values in CSS, and around strings in JavaScript.'
           - 'Called straight quotes because they aren’t typographically correct.'
       - name: '`“ ”`'
         details:
@@ -72,11 +72,11 @@ groups:
       - name: '`\`'
         details:
           - '**Backslash**.'
-          - 'Used to escape characters in Javascript.'
+          - 'Used to escape characters in JavaScript.'
       - name: '`|`'
         details:
           - '**Vertical pipe**.'
-          - 'Used in CSS attribute selectors; and in conditions in Javascript, meaning “or”.'
+          - 'Used in CSS attribute selectors; and in conditions in JavaScript, meaning “or”.'
 
   - title: 'Dashes'
     items:
@@ -100,11 +100,11 @@ groups:
       - name: '`:`'
         details:
           - '**Colon**.'
-          - 'Used immediately after property names in CSS, before the value. Used in object declarations in Javascript.'
+          - 'Used immediately after property names in CSS, before the value. Used in object declarations in JavaScript.'
       - name: '`;`'
         details:
           - '**Semicolon**.'
-          - 'Used at the end of each declaration/line in CSS and Javascript.'
+          - 'Used at the end of each declaration/line in CSS and JavaScript.'
       - name: '`#`'
         details:
           - '**Hash**, pound-symbol.'
@@ -112,10 +112,10 @@ groups:
       - name: '`&`'
         details:
           - '**Ampersand**, and-symbol.'
-          - 'Used to start entities in HTML; and in conditions in Javascript, meaning “and”.'
+          - 'Used to start entities in HTML; and in conditions in JavaScript, meaning “and”.'
       - name: '`_`'
         details:
           - '**Underscore**.'
-          - 'Can be used to separate words in file paths or function names in Javascript.'
+          - 'Can be used to separate words in file paths or function names in JavaScript.'
 
 ---

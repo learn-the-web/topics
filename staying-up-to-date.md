@@ -67,7 +67,7 @@ Here’s a few I subscribe to:
 - [CSS Weekly](http://css-weekly.com/)
 - [Responsive Design Weekly](http://responsivedesignweekly.com/)
 - [The Smashing Newsletter](http://www.smashingmagazine.com/the-smashing-newsletter/)
-- [Javascript Weekly](http://javascriptweekly.com/)
+- [JavaScript Weekly](http://javascriptweekly.com/)
 - [Mobile Web Weekly](http://mobilewebweekly.co/)
 - [The UX Newsletter](http://www.theuxnewsletter.com/)
 - [Alertbox: Usability & UX Research](http://www.nngroup.com/articles/subscribe/)
@@ -76,4 +76,4 @@ Here’s a few I subscribe to:
 
 ## Twitter
 
-Lots of people like to use Twitter to stay up-to-date. If that’s you, check out the list of [Blogs, companies & people](./blogs-companies-people.md) for a bunch of Twitter usernames.
+Lots of people like to use Twitter to stay up-to-date. If that’s you, check out the list of [Blogs, companies & people](/topics/blogs-companies-people/) for a bunch of Twitter usernames.

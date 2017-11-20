@@ -1,8 +1,8 @@
 ---
 layout: checklist
-title: "Launch checklist, Web Dev 3"
+title: "Launch checklist"
 tags: "launch checklist double check validators link checkers usability browser testing analytics monitoring"
-desc: "A checklist of things to check on your website before you launch it, for Web Dev 3."
+desc: "A checklist of things to check on your website before you launch it, for Web Dev 4."
 
 groups:
   - title: 'Content & usability'
@@ -27,12 +27,16 @@ groups:
       - 'All different page layouts have been tested.'
 
   - title: 'Forms'
-    full: forms-checklist
     items:
-      - 'All forms function properly.'
+      - 'All forms function properly, the `action` pointing to the proper location.'
       - 'Forms have proper input types.'
       - 'All forms have a submit button.'
       - 'Forms have a proper completion message.'
+      - 'All inputs have an associated `<label>`.'
+      - 'Placeholders are used as examples, not as labels.'
+      - 'Groups of radio buttons and check boxes are organized in a `<fieldset>`'
+      - 'At least one field is marked as `required`'
+      - 'All unnecessary fields are removed from the form.'
 
   - title: 'Accessibility'
     full: accessibility-checklist
@@ -45,7 +49,9 @@ groups:
       - 'Conforms to WCAG 2 AA or higher.'
       - 'Appropriate elements have ARIA attributes.'
       - 'Has been tested with accessibility tools.'
-      - 'Tested with keyboard only.'
+      - 'Tested with many accessibility scenarios.'
+      - 'All links stand out from content & have visible focus states.'
+      - 'Hover isn’t the only method for accessing content.'
 
   - title: 'Code quality'
     items:
@@ -54,41 +60,51 @@ groups:
       - 'HTML is valid.<br>[W3C HTML Validator](http://validator.w3.org/)'
       - 'CSS is valid.<br>[W3C CSS Validator](http://jigsaw.w3.org/css-validator/), [CSS Lint](http://csslint.net/)'
       - 'Validated for internationalization & world readiness.<br>[W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)'
-      - 'Many and high quality commit messages.'
+      - 'Many and high quality commit messages.<br>[Commit message cheat sheet](http://localhost:4000/topics/commit-message-cheat-sheet/)'
 
   - title: 'Browser testing'
     full: browser-testing-checklist
     items:
-      - 'All major touch points have been user tested.'
+      - 'All user interactions have been user tested.'
       - 'Tested in many desktop browsers.'
       - 'Tested on different devices including phones, tablets, laptops, desktops, and televisions.'
-      - 'Tested on screen sizes ranging from 240px to ~2500px.'
+      - 'Tested on screen sizes ranging from 320px to ~2500px.'
       - 'Tested in low-bandwidth situations.'
       - 'Tested with common ad blockers.'
 
   - title: 'Details'
     items:
+      - 'Has a 404 page.<br>[404 pages](/topics/404-pages/)'
       - 'Has all the favicons.<br>[Favicons](/topics/image-formats/#favicons)'
+      - 'GitHub project has a complete Readme.<br>[Writing a readme](/topics/writing-a-readme/)'
       - 'Print styles are included.<br>[Print styles](/topics/media-queries/#print-styles)'
 
   - title: 'Performance'
-    full: performance-checklist
+    full: advanced-performance-checklist
     items:
       - 'Conforms to your performance budget.'
       - 'Code is organized for highest performance.'
       - 'All images have been properly sized, compressed, and smushed.'
       - 'Gets a high grade—or green light—in web performance tests.'
-      - 'Redundant HTML, CSS, & Javascript have been removed.'
+      - 'Redundant HTML, CSS, & JavaScript have been removed.'
+      - 'CSS & JS have been concatenated & minified.'
+      - 'Sends appropriate caching headers.'
+      - 'Resources sent in a compressed format.'
+      - 'Content served from a CDN.'
 
-  - title: 'Javascript'
-    full: javascript-checklist
+  - title: 'Search engine optimization'
+    full: seo-checklist
     items:
-      - 'All Javascript is in external files.'
-      - 'All appropriate semicolons are in place.'
-      - 'All user interactions have been thoroughly tested.'
-      - 'Javascript has been validated.<br>[JS Hint](http://www.jshint.com/), [ESLint](http://eslint.org/), [JS Lint](http://jslint.com/)'
-      - 'All instances of `console.log()` have been removed.'
-      - 'Javascript has been tested for browser bugs.'
-      - 'Appropriate accessibility features have been added.'
+      - 'Has been honestly search engine optimized.'
+      - 'Every page has a unique, descriptive title.'
+      - 'Every page has a unique meta description.'
+      - 'Every page has an obvious goal.'
+      - 'Has appropriate enhanced semantics.'
+      - 'Has all the social media meta tags.'
+      - 'Has a robots.txt and complete humans.txt.'
+      - 'Has a sitemap.xml file.'
+      - 'Registered in search engine tools.'
+      - 'Analytics package is set up.'
+      - 'Uptime monitoring package set up.'
 
 ---

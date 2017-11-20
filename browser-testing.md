@@ -4,6 +4,13 @@ tags: "mozilla firefox opera safari google chrome microsoft internet explorer io
 desc: "Testing your website in the myriad of browsers that are connected to the web."
 playlist: PLWjCJDeWfDddYntDUSf_kMRzIfHceWpVv
 checklist: browser-testing-checklist
+extra_practice:
+  lessons:
+    - title: "Browser testing"
+      url: "/courses/web-dev-1/browser-testing/"
+  activities:
+    - title: "Browser Buster"
+      url: "browser-buster"
 ---
 
 The web is about open information for all human beings—so we need to test in as many browsers and platforms as possible.
@@ -103,8 +110,8 @@ Microsoft even provides a [screenshot service](http://dev.modern.ie/tools/screen
 
 There are two ways to test Edge & IE on your Mac:
 
-1. [Use RemoteApp and test on the Azure Cloud](https://remote.modern.ie/) — not as reliable, but quick to set up.
-2. [Use Virtual Machines](http://dev.modern.ie/tools/vms/) — most reliable, but huge download size.
+1. [Use Virtual Machines](http://dev.modern.ie/tools/vms/) — most reliable, but huge download size.
+2. [Use BrowserStack](https://www.browserstack.com/test-on-microsoft-edge-browser#live-cloud) — not as fast, but quick to set up.
 
 #### Edge & IE virtual machines
 
@@ -222,7 +229,7 @@ An alternative, better solution, is to use a build tool like [AutoPrefixer](http
 
 #### Browser hacks
 
-Many browsers have bugs, or singular features that we can use to exploit their rendering engines and provide CSS or Javascript directly to that browser—known as browser hacks.
+Many browsers have bugs, or singular features that we can use to exploit their rendering engines and provide CSS or JavaScript directly to that browser—known as browser hacks.
 
 *Hacks should be avoided unless completely necessary.*
 

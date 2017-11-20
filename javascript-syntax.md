@@ -1,7 +1,7 @@
 ---
-title: "Javascript syntax"
+title: "JavaScript syntax"
 tags: "javascript introduction syntax flow comments variables strings numbers booleans arrays objects functions arguments if statement for while foreach loops switch debugging"
-desc: "Looking at understanding how to write Javascript code."
+desc: "Looking at understanding how to write JavaScript code."
 playlist: PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU
 download: https://github.com/acgd-learn-the-web/javascript-intro-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-intro-code
@@ -9,21 +9,21 @@ cheatsheet: javascript-cheat-sheet
 checklist: javascript-checklist
 ---
 
-Javascript is a general purpose programming language originally created for use inside web browsers, but now works just as well on servers.
+JavaScript is a general purpose programming language originally created for use inside web browsers, but now works just as well on servers.
 
 The syntax is very similar to other popular languages including [PHP](http://en.wikipedia.org/wiki/PHP), [Perl](http://en.wikipedia.org/wiki/Perl) and [Java](http://en.wikipedia.org/wiki/Java_(programming_language))—they all sharing similar structure of parenthesis, brackets, and semi-colons.
 
 ---
 
-## Creating & attaching a Javascript file
+## Creating & attaching a JavaScript file
 
-A Javascript file is no different than any other web code files—just a plain old text file.
+A JavaScript file is no different than any other web code files—just a plain old text file.
 
 Usually they’re stored inside a “js” folder in your website.
 
-When connecting the Javascript, it’s almost always a good idea to add the Javascript to the bottom of your HTML file—immediately above the closing `</body>` tag.
+When connecting the JavaScript, it’s almost always a good idea to add the JavaScript to the bottom of your HTML file—immediately above the closing `</body>` tag.
 
-Using the `script` tag we can point to our Javascript file.
+Using the `script` tag we can point to our JavaScript file.
 
 ```html
 
@@ -42,7 +42,7 @@ We always put our JS files at the bottom of our HTML for 2 reasons:
 
 ## Program flow
 
-When our Javascript is executed by the browser it starts at the top and works it’s way down the code file.
+When our JavaScript is executed by the browser it starts at the top and works it’s way down the code file.
 
 The order of operations can be controlled and reordered using different programming paradigms like if-statements, loops, events, and more.
 
@@ -50,7 +50,7 @@ The order of operations can be controlled and reordered using different programm
 
 ## Naming things
 
-In Javascript, when naming variables, functions, etc. there’s a common convention we follow, called “Camel Case”.
+In JavaScript, when naming variables, functions, etc. there’s a common convention we follow, called “Camel Case”.
 
 With camel case, we mash words together without separators, but use capitalization to distinguish the words.
 
@@ -68,7 +68,7 @@ Some examples:
 
 ## Comments
 
-Comments are great for helping write documentation or even debugging—Javascript has two flavours of comments.
+Comments are great for helping write documentation or even debugging—JavaScript has two flavours of comments.
 
 ```js
 // Single line comments
@@ -83,7 +83,7 @@ Comments are great for helping write documentation or even debugging—Javascrip
 
 ## Variables
 
-Javascript is a dynamic language, you don’t have to declare what data type your variable will hold before assigning it a value. Use the var keyword to define and create a new variable.
+JavaScript is a dynamic language, you don’t have to declare what data type your variable will hold before assigning it a value. Use the var keyword to define and create a new variable.
 
 Variables are just named containers that hold some data for us. We can retrieve that data later using the variable’s name.
 
@@ -94,7 +94,7 @@ var closestStar = 'Proxima Centauri';
 
 - Variable names must start with a letter (a–z or A–Z), underscore (_), or dollar sign ($) and should only contain letters, numbers (0–9), underscores, and dollar signs.
 - Variable names *are* case-sensitive.
-- The naming convention in Javascript is to use camel case to distinguish words.
+- The naming convention in JavaScript is to use camel case to distinguish words.
 
 ```js
 // Multiple variables can be declared with one var keyword
@@ -112,11 +112,11 @@ var closestStar = 'Sun',
 
 ## Data types
 
-There are some basic data types in Javascript that you should be familiar with.
+There are some basic data types in JavaScript that you should be familiar with.
 
 ### Strings
 
-Strings in Javascript, are really just plain old text. All strings in Javascript must be surrounded by quotes—either single or double, Javascript doesn’t care.
+Strings in JavaScript, are really just plain old text. All strings in JavaScript must be surrounded by quotes—either single or double, JavaScript doesn’t care.
 
 ```js
 // Strings: basic text and words
@@ -128,7 +128,7 @@ var galaxy = 'Milky Way',
 
 ### Numbers
 
-In Javascript, numbers are not in quotes, that’s the distinction between plain text and numbers. Numbers allow mathematical operations on them, whereas strings to not.
+In JavaScript, numbers are not in quotes, that’s the distinction between plain text and numbers. Numbers allow mathematical operations on them, whereas strings to not.
 
 ```js
 // Numbers: integer or float (decimal)
@@ -161,7 +161,7 @@ var hasWater = true,
 
 ## Operators
 
-The operators in Javascript are fairly consistent with many other languages.
+The operators in JavaScript are fairly consistent with many other languages.
 
 ```js
 // Addition: with +
@@ -190,7 +190,7 @@ number %= 2; // Get remainder with what’s already in number
 
 ### String joining
 
-Javascript, as with many modern programming languages, allows you to join together multiple strings and variables. To combine strings and variables in Javascript use the plus (+).
+JavaScript, as with many modern programming languages, allows you to join together multiple strings and variables. To combine strings and variables in JavaScript use the plus (+).
 
 ```js
 // Use the plus (+) to join strings and variables
@@ -216,7 +216,7 @@ galaxy += words; // Milky Way is our galaxy.
 
 ## Functions
 
-Functions in Javascript are a group of reusable code in your program. They are stored inside variables like every other types of data.
+Functions in JavaScript are a group of reusable code in your program. They are stored inside variables like every other types of data.
 
 ```js
 // This function will write out a dinosaur name
@@ -469,7 +469,7 @@ if (!hasMoons && planet == 'Venus') {
 
 ### Single equals vs. double equals vs. triple equals
 
-Equals can be used in a series of up to three in Javascript, each meaning slightly different things and acting differently.
+Equals can be used in a series of up to three in JavaScript, each meaning slightly different things and acting differently.
 
 *1. single equals means ‘set’*
 
@@ -505,7 +505,7 @@ if (planet === true) {
 
 ### Type coercion
 
-Type coercion occurs inside the if-statement when trying to get a truthy value. Since Javascript is a dynamically interpreted language certain, values are coerced to boolean, becoming true or false.
+Type coercion occurs inside the if-statement when trying to get a truthy value. Since JavaScript is a dynamically interpreted language certain, values are coerced to boolean, becoming true or false.
 
 Value | Coerced boolean
 --- | ---
@@ -543,7 +543,7 @@ if (0.0) {} // False
 
 ## Loops
 
-Programming languages provide mechanisms for repeating a section of code: loops. There are a bunch of different loop types in Javascript—the for loop is popular.
+Programming languages provide mechanisms for repeating a section of code: loops. There are a bunch of different loop types in JavaScript—the for loop is popular.
 
 ### For loop
 
@@ -624,7 +624,7 @@ planets.forEach(function (item)) {
 
 ## Switches
 
-Javascript has another control structure that has a similar purpose to the if-statement but allows multiple scenarios.
+JavaScript has another control structure that has a similar purpose to the if-statement but allows multiple scenarios.
 
 ```js
 var planet = 'Venus';
@@ -692,7 +692,7 @@ switch (planet) {
 
 ## Manipulating strings
 
-Manipulating strings in programming is a very common task. Javascript has a bunch of functions to help you manipulate text.
+Manipulating strings in programming is a very common task. JavaScript has a bunch of functions to help you manipulate text.
 
 ```js
 var name = 'Iguanodon bernissartensis';
@@ -729,39 +729,39 @@ dino.trim(); // 'Iguanodon'
 
 ## Semicolons
 
-In Javascript, not all instructions require a semicolon (;) at the end of the statement. The Javascript language uses Automatic Semicolon Insertion, but it can be tricky.
+In JavaScript, not all instructions require a semicolon (;) at the end of the statement. The JavaScript language uses Automatic Semicolon Insertion, but it can be tricky.
 
-- [Are semi-colons necessary in Javascript?](http://aresemicolonsnecessaryinjavascript.com/)
-- [Semicolons in Javascript are Optional](http://mislav.uniqpath.com/2010/05/semicolons/)
-- [Javascript semicolon insertion: everything you need to know](http://inimino.org/~inimino/blog/javascript_semicolons)
+- [Are semi-colons necessary in JavaScript?](http://aresemicolonsnecessaryinjavascript.com/)
+- [Semicolons in JavaScript are Optional](http://mislav.uniqpath.com/2010/05/semicolons/)
+- [JavaScript semicolon insertion: everything you need to know](http://inimino.org/~inimino/blog/javascript_semicolons)
 
 ---
 
 ## Video list
 
-1. [Javascript: introduction](https://www.youtube.com/watch?v=j2ppuBwAATg&index=1&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-2. [Javascript: program flow](https://www.youtube.com/watch?v=WxRwf5KvNVI&index=2&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-3. [Javascript: variables & strings](https://www.youtube.com/watch?v=czTWbdwbt7E&index=3&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-4. [Javascript: numbers](https://www.youtube.com/watch?v=LLAd7PybpdQ&index=4&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-5. [Javascript: boolean datatypes](https://www.youtube.com/watch?v=tScxERK1fMY&index=5&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-6. [Javascript: if-statements & boolean logic](https://www.youtube.com/watch?v=4lATbwt87Cs&index=6&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-7. [Javascript: loops](https://www.youtube.com/watch?v=ClT5XRDOEIY&index=7&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-8. [Javascript: functions](https://www.youtube.com/watch?v=-o4NCu7v4Ug&index=8&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-9. [Javascript: arrays](https://www.youtube.com/watch?v=ENU7mdIlCFA&index=9&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-10. [Javascript: objects](https://www.youtube.com/watch?v=3otasvikEls&index=10&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-11. [Javascript: string manipulation](https://www.youtube.com/watch?v=XGo2qjc9acU&index=11&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+1. [JavaScript: introduction](https://www.youtube.com/watch?v=j2ppuBwAATg&index=1&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+2. [JavaScript: program flow](https://www.youtube.com/watch?v=WxRwf5KvNVI&index=2&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+3. [JavaScript: variables & strings](https://www.youtube.com/watch?v=czTWbdwbt7E&index=3&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+4. [JavaScript: numbers](https://www.youtube.com/watch?v=LLAd7PybpdQ&index=4&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+5. [JavaScript: boolean datatypes](https://www.youtube.com/watch?v=tScxERK1fMY&index=5&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+6. [JavaScript: if-statements & boolean logic](https://www.youtube.com/watch?v=4lATbwt87Cs&index=6&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+7. [JavaScript: loops](https://www.youtube.com/watch?v=ClT5XRDOEIY&index=7&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+8. [JavaScript: functions](https://www.youtube.com/watch?v=-o4NCu7v4Ug&index=8&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+9. [JavaScript: arrays](https://www.youtube.com/watch?v=ENU7mdIlCFA&index=9&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+10. [JavaScript: objects](https://www.youtube.com/watch?v=3otasvikEls&index=10&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+11. [JavaScript: string manipulation](https://www.youtube.com/watch?v=XGo2qjc9acU&index=11&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
 
 ## Supplemental links
 
 - **[MDN: Language reference](https://developer.mozilla.org/en/JavaScript)**
-- **[Eloquent Javascript](http://www.amazon.ca/dp/1593272820/)**
-- **[Javascript resources](https://www.javascript.com/resources)**
+- **[Eloquent JavaScript](http://www.amazon.ca/dp/1593272820/)**
+- **[JavaScript resources](https://www.javascript.com/resources)**
 - [A re-introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
-- [Javascript Garden](https://bonsaiden.github.io/JavaScript-Garden/)
+- [JavaScript Garden](https://bonsaiden.github.io/JavaScript-Garden/)
 - [JavaScript and JQuery: Interactive Front-End Web Development](http://www.amazon.ca/dp/1118531647)
-- [ThinkVitamin: Javascript](http://membership.thinkvitamin.com/library/javascript)
-- [Javascript: The Good Parts](http://www.amazon.ca/dp/0596517742/)
+- [ThinkVitamin: JavaScript](http://membership.thinkvitamin.com/library/javascript)
+- [JavaScript: The Good Parts](http://www.amazon.ca/dp/0596517742/)
 - [Codecademy](http://www.codecademy.com/)
-- [WikiBooks: Javascript](http://en.wikibooks.org/wiki/JavaScript/Control_Structures)
+- [WikiBooks: JavaScript](http://en.wikibooks.org/wiki/JavaScript/Control_Structures)
 - [Learn JavaScript and Up Your Photoshop Game](http://blog.teamtreehouse.com/learn-javascript-photoshop-game)
-- [Javascript in one pic](https://github.com/coodict/javascript-in-one-pic)
+- [JavaScript in one pic](https://github.com/coodict/javascript-in-one-pic)

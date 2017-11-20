@@ -2,6 +2,13 @@
 title: "Web browsers"
 tags: "web browsers chrome safari mozilla firefox opera install"
 desc: "Understanding how web browsers work and their features."
+extra_practice:
+  lessons:
+    - title: "Browser testing"
+      url: "/courses/web-dev-1/browser-testing/"
+  activities:
+    - title: "Definition Devastator"
+      url: "definition-devastator"
 ---
 
 Web browsers—complex multi-part pieces of software—are one of the major pieces that make up the backbone of the Internet.
@@ -55,9 +62,9 @@ The browser goes through whole bunch of steps to display a web page on the scree
   <br>[**☛ See Domains & DNS for more details**](/topics/domains/).
 2. It then downloads the HTML file from the server—this is the most important file in a website—it contains everything—and a website is nothing without it.
 3. The browser will then parse the HTML (change the code into something it understands).
-4. After the browser understands the HTML it looks through it for other resources that it needs to display the website: images, CSS, Javascript, etc. It’ll start downloading these.
+4. After the browser understands the HTML it looks through it for other resources that it needs to display the website: images, CSS, JavaScript, etc. It’ll start downloading these.
   <br>(With newer browsers and newer servers this step can be skipped because the server can provide a manifest of all files that need to be downloaded.)
-5. If the browser encounters CSS or Javascript it will pause while the file downloads—these are called blocking resources. The browser cannot display a page until these finish downloading.
+5. If the browser encounters CSS or JavaScript it will pause while the file downloads—these are called blocking resources. The browser cannot display a page until these finish downloading.
 6. After all the blocking resources (CSS, JS) are downloaded, the browser can start rendering (displaying) the page to the screen. It matches together the HTML and CSS to show the page as the designer suggested.
 7. Then, as the rest of the resources finish, like images, fonts, etc. the browser will pop those into place.
 
@@ -67,7 +74,7 @@ Proxy browsers are a slightly different version of a browser—the most famous b
 
 In regular browsers all the stuff above happens directly on the device. But with proxy browsers all the stuff happens on another computer. The server renders and displays the web page then simplifies it into basically a single image and sends that to the device.
 
-This is *amazing* for performance, but we lose some of the fancy interaction—another reason why we shouldn’t rely on Javascript and all the fanciness.
+This is *amazing* for performance, but we lose some of the fancy interaction—another reason why we shouldn’t rely on JavaScript and all the fanciness.
 
 #### Some popular proxy browsers
 
@@ -131,9 +138,9 @@ Here are a list of some possible causes:
 
 - Many images
 - Auto-playing videos or audio
-- Javascript that starts too early
+- JavaScript that starts too early
 - Lots of ads
-- Too much CSS or Javascript
+- Too much CSS or JavaScript
 - Poor caching
 - Loading the website from a slow server
 - Loading the website from around the world

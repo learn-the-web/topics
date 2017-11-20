@@ -5,6 +5,19 @@ desc: "Making our websites more performant with minification, content delivery n
 playlist: PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ
 download: https://github.com/acgd-learn-the-web/advanced-performance-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/advanced-performance-code
+extra_practice:
+  week:
+    title: "Web Dev 5, Week 12"
+    url: "/courses/web-dev-5/week-12/"
+  slides:
+    - title: "Advanced performance"
+      url: "/courses/web-dev-5/advanced-performance/"
+  lessons:
+    - title: "Performance, CloudFlare & web fonts"
+      url: "/courses/web-dev-5/performance-cloudflare-web-fonts/"
+  activities:
+    - title: "Performance Perfector"
+      url: "performance-perfector"
 ---
 
 Performance is one of the most important constraints of web design. There’s lots extra we can do to make our websites super fast and therefore our users super happy.
@@ -154,7 +167,6 @@ There’s a few important things to notice about the embedded SVG:
 - **[FontSquirrel Web Font Generator](http://www.fontsquirrel.com/tools/webfont-generator)**
 - [Instagram and Optimizing Favicons](https://zoompf.com/blog/2012/04/instagram-and-optimizing-favicons)
 - [DataURL.net](http://dataurl.net/#dataurlmaker)
-- [Data URI Converter](https://datauriconverter.appspot.com/)
 - [Image2Base64](http://image2base64.wemakesites.net/)
 - [Base64 File Encoder](http://jpillora.com/base64-encoder/)
 - [Optimizing SVGs in data URIs](http://codepen.io/Tigt/blog/optimizing-svgs-in-data-uris)
@@ -172,7 +184,7 @@ Concatenation is just a fancy word for combining.
 
 ### CSS & JS minification & concatenation
 
-We use these two processes on our CSS and Javascript files. Combine together all our CSS files into one file and strip all the extra stuff to make them download faster. We even combine all our Javascript files together, strip the whitespace, and some minifiers even rename functions to a single letter to save space.
+We use these two processes on our CSS and JavaScript files. Combine together all our CSS files into one file and strip all the extra stuff to make them download faster. We even combine all our JavaScript files together, strip the whitespace, and some minifiers even rename functions to a single letter to save space.
 
 #### CSS minification example
 
@@ -202,7 +214,7 @@ The computer can’t tell the difference between the two pieces of code, and it 
 
 #### JS minification example
 
-Here’s what Javascript might look like before and after minification.
+Here’s what JavaScript might look like before and after minification.
 
 Before:
 
@@ -247,7 +259,7 @@ Minification is a process that shouldn’t be done by hand, but should be automa
 
 #### GUI tools
 
-GUI tools provide an interface where you can drag and drop a project folder. The tool will detect CSS and Javascript files and minify them for you.
+GUI tools provide an interface where you can drag and drop a project folder. The tool will detect CSS and JavaScript files and minify them for you.
 
 Some popular GUI tools are [Prepros](https://prepros.io/) & [CodeKit](http://incident57.com/codekit/).
 
@@ -264,13 +276,13 @@ These minifiers can be run without a task runner, but it’s a much less manual 
 
 ##### Concatenation with Jekyll
 
-If you’re using Jekyll you can use its include system to concatenate CSS and Javascript.
+If you’re using Jekyll you can use its include system to concatenate CSS and JavaScript.
 
 **[☛ Watch a video on concatenating CSS with Jekyll.](https://www.youtube.com/watch?v=H4Fc2xL79nU&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=28)**
 
 #### Automatic minification with CloudFlare
 
-If your CSS and Javascript files are already concatenated, then you can get CloudFlare to automatically minify them for you. This works really well if you’re using Jekyll to combine files.
+If your CSS and JavaScript files are already concatenated, then you can get CloudFlare to automatically minify them for you. This works really well if you’re using Jekyll to combine files.
 
 ![](cloudflare-minify.jpg)
 
@@ -294,7 +306,7 @@ Not only is it extremely important to make our code and resources, like images, 
 
 ### Compress code files
 
-After minifying and concatenating our CSS and Javascript, we can make the download size of the files even smaller by compressing them—basically zipping them. This is a completely automatic process done by the server.
+After minifying and concatenating our CSS and JavaScript, we can make the download size of the files even smaller by compressing them—basically zipping them. This is a completely automatic process done by the server.
 
 *When using GitHub as a host, you’ll have to hook up CloudFlare to get the best compression.*
 
@@ -306,7 +318,7 @@ After minifying and concatenating our CSS and Javascript, we can make the downlo
 
 Another thing you want to set up on your server is proper caching headers. The idea behind caching headers is that they encourage the user’s browser to save a copy of your website on the local computer. You can choose how long the local copy should be kept.
 
-This is really great for CSS and Javascript because each new page the user goes to they don’t have to redownload the CSS, it’s already on their computer.
+This is really great for CSS and JavaScript because each new page the user goes to they don’t have to redownload the CSS, it’s already on their computer.
 
 *When using GitHub as a host, you have no control over this, so hooking up CloudFlare is a great solution.*
 
@@ -364,8 +376,8 @@ With KeyCDN we can either upload our large files to them or host the files on ou
 **Links**
 
 - [Know When to CDN](http://www.kendoui.com/blogs/teamblog/posts/13-11-07/know-when-to-cdn.aspx)
-- **[CloudFlare](https://www.cloudflare.com/)** — also provides security, minification, caching headers
-- **[KeyCDN](https://www.keycdn.com/)**
+- [**CloudFlare**](https://www.cloudflare.com/) — also provides security, minification, caching headers
+- [**KeyCDN**](https://www.keycdn.com/?a=7564) *(Referral link giving you $10 free in credits)*
 - [cdnjs](http://cdnjs.com/)
 - [MaxCDN](http://www.maxcdn.com/)
 - [Coral CDN](http://www.coralcdn.org/)
@@ -404,9 +416,9 @@ Most solutions delay the loading of the fonts and show the default web-safe font
 
 ##### Using Font Face Observer
 
-There’s a great Javascript solution—[Font Face Observer](https://github.com/bramstein/fontfaceobserver)—that can help our websites visually load more quickly by displaying our fallback font while the font is loading then switching into the web font when it’s ready.
+There’s a great JavaScript solution—[Font Face Observer](https://github.com/bramstein/fontfaceobserver)—that can help our websites visually load more quickly by displaying our fallback font while the font is loading then switching into the web font when it’s ready.
 
-To make Font Face Observer work there’s a few things to do. First we download the Javascript file and place it in a `<script>` tag directly at the bottom of our page:
+To make Font Face Observer work there’s a few things to do. First we download the JavaScript file and place it in a `<script>` tag directly at the bottom of our page:
 
 ```html
   <script>
@@ -499,18 +511,18 @@ This isn’t something you really want to do manually, but something you should 
 
 ##### Inlining CSS for single page websites
 
-When you’re creating a single page website it makes total sense to put *all* your CSS and Javascript directly into the page: CSS between `<style>` tags and JS between `<script>` tags. Make sure you completely minify the code before doing so.
+When you’re creating a single page website it makes total sense to put *all* your CSS and JavaScript directly into the page: CSS between `<style>` tags and JS between `<script>` tags. Make sure you completely minify the code before doing so.
 
 [You can see inline CSS in action on my website.](http://thomasjbradley.ca)
 
-### Preventing Javascript from blocking rendering
+### Preventing JavaScript from blocking rendering
 
-Javascript is a blocking resource, it will prevent the browser from displaying the webpage until it has finished downloading and executing. The performance implications of this are that our users may see a blank white webpage, or may not be able to scroll and interact while the Javascript is doing its thing.
+JavaScript is a blocking resource, it will prevent the browser from displaying the webpage until it has finished downloading and executing. The performance implications of this are that our users may see a blank white webpage, or may not be able to scroll and interact while the JavaScript is doing its thing.
 
-There are two good practices we can do to our Javascript to improve rendering time.
+There are two good practices we can do to our JavaScript to improve rendering time.
 
-1. Always put the Javascript at the bottom, immediately above the closing `</body>` tag.
-2. Add the `async` attribute to make the browser download and execute the Javascript in the background.
+1. Always put the JavaScript at the bottom, immediately above the closing `</body>` tag.
+2. Add the `async` attribute to make the browser download and execute the JavaScript in the background.
 
 ```html
   <script src="js/main.min.js" async></script>
@@ -527,7 +539,7 @@ There are a few things that can cause scrolling and performance issues, so be ca
 - `position: fixed` & `background-attachment: fixed` can have major performance issues causing the browser to re-render the whole page every time you scroll.
 - CSS effects: `text-shadow`, `box-shadow` and especially `filter`.
 - Parallax is almost always janky, there is so much changing on the screen every time you scroll browsers have a difficult time keeping up.
-- Javascript waypoints and scrolling based animations can cause problems since Javascript needs to run and calculate every time a person scrolls to check the scroll location.
+- JavaScript waypoints and scrolling based animations can cause problems since JavaScript needs to run and calculate every time a person scrolls to check the scroll location.
 
 There is a fairly new CSS property called `will-change`, it can help with a few of these issues. [Sara Soueidan](https://dev.opera.com/articles/css-will-change-property/) & [Chris Ruppel](https://fourword.fourkitchens.com/article/fix-scrolling-performance-css-will-change-property) both have great articles on `will-change`.
 

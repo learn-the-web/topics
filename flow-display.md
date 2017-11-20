@@ -6,6 +6,24 @@ playlist: PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG
 download: https://github.com/acgd-learn-the-web/flow-display-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/flow-display-code
 cheatsheet: css-layout-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 06"
+    url: "/courses/web-dev-01/week-06/"
+  slides:
+    - title: "Boxes & flows"
+      url: "/courses/web-dev-1/boxes-and-flows/"
+  lessons:
+    - title: "Cards"
+      url: "/courses/web-dev-1/cards/"
+  activities:
+    - title: "Display Dominator"
+      url: "display-dominator"
+  exercises:
+    - title: "Horizontal navigation"
+      url: "/courses/web-dev-1/week-06/#horizontal-nav"
+    - title: "Sections"
+      url: "/courses/web-dev-1/week-06/#sections"
 ---
 
 Browsers use “The Flow” to display elements on the page—understanding flow and display are critical to laying out websites.
@@ -242,7 +260,7 @@ With flexbox you can do lots of different centering and alignment like things. I
 - [**What the flexbox!?**](http://flexbox.io/)
 - [**Flexbox Froggy**](http://flexboxfroggy.com/)
 - [**Test CSS Flexbox Rules Live**](http://flexbox.help/)
-- [CSS Tricks: A Complete Guide to Flexbox](http://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Flexbox in 5 minutes](http://flexboxin5.com/)
 - [Flexbox Adventures](http://chriswrightdesign.com/experiments/flexbox-adventures/)
 - [The Ultimate Flexbox Cheat Sheet](http://www.sketchingwithcss.com/samplechapter/cheatsheet.html)

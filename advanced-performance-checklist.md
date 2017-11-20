@@ -61,9 +61,9 @@ groups:
       - 'Consider putting critical CSS in `<head>`.'
       - 'JS has been concatenated and minified.'
       - 'Put JS `<script>` tags at the bottom, right before the closing `</body>`.'
-      - 'Redundant Javascript has been removed.'
-      - 'Javascript doesn’t cause browser to hang.'
-      - 'Javascript is loaded asynchronously.'
+      - 'Redundant JavaScript has been removed.'
+      - 'JavaScript doesn’t cause browser to hang.'
+      - 'JavaScript is loaded asynchronously.'
       - 'Tracking & ad display scripts are minimum or non-existent.'
 
 
@@ -72,7 +72,7 @@ groups:
       - 'Resources sent in a compressed format.'
       - 'Specify character set for all text-based resources.'
       - 'Proper caching headers sent.'
-      - 'Use a content delivery network (CDN) to serve your images.<br>[CloudFlare](https://www.cloudflare.com/), [KeyCDN](https://www.keycdn.com/), [MaxCDN](http://www.maxcdn.com/)'
+      - 'Use a content delivery network (CDN) to serve your images.<br>[CloudFlare](https://www.cloudflare.com/), [KeyCDN](https://www.keycdn.com/?a=7564), [MaxCDN](http://www.maxcdn.com/)'
       - 'Website hosted on a fast server, ideally with CDN features.'
       - 'Server uses HTTP/2 where possible.'
 ---

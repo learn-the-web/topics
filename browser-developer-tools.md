@@ -3,6 +3,16 @@ title: "Browser developer tools"
 tags: "browser developer tools inspect element google chrome safari firefox opera elements styles"
 desc: "Using the browser’s developer tools to help debug and code a website."
 playlist: PLWjCJDeWfDdenz3Q3vHl6n1b9sXyiBDpl
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 06"
+    url: "/courses/web-dev-1/week-06/"
+  lessons:
+    - title: "Developer tools"
+      url: "/courses/web-dev-1/developer-tools/"
+  activities:
+    - title: "Dev Tool Dynamo"
+      url: "dev-tool-dynamo"
 ---
 
 All modern browser include large suite of tools to help you debug and understand the website you’re creating.

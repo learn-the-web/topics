@@ -57,7 +57,7 @@ groups:
           - '`label="…"` is used as a visible name for the group.'
       - name: '`<output for="…">`'
         details:
-          - 'Represents the result of a calculation performed by Javascript.'
+          - 'Represents the result of a calculation performed by JavaScript.'
           - '`for="…"` is a space-separate list of input `id`s that contributed to the calculation.'
 
   - title: 'Input types'
@@ -182,7 +182,7 @@ groups:
           - '`<input type="number" step="0.1" id="dino">`'
       - name: '`pattern="…"`'
         details:
-          - 'A Javascript regular expression to control what is valid input.'
+          - 'A JavaScript regular expression to control what is valid input.'
           - '`<input type="text" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" id="postal-code">`'
       - name: '`multiple`'
         details:
@@ -236,7 +236,7 @@ groups:
           - 'Style a `number` or `range` when the selected value is outside the `min` and `max`.'
       - name: '`:indeterminate`'
         details:
-          - 'Style a checkbox when its set to an undetermined state by Javascript.'
+          - 'Style a checkbox when its set to an undetermined state by JavaScript.'
 
   - title: 'Examples'
     items:

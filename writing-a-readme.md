@@ -5,6 +5,12 @@ desc: "A quick overview of writing a helpful readme for your web project."
 playlist: PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_
 download: https://github.com/acgd-learn-the-web/writing-a-readme-samples/archive/master.zip
 github: https://github.com/acgd-learn-the-web/writing-a-readme-samples
+extra_practice:
+  exercises:
+    - title: "Pattern library README"
+      url: "/courses/web-dev-4/pattern-library-readme/"
+    - title: "Writing a README"
+      url: "/courses/web-dev-5/writing-a-readme/"
 ---
 
 The readme is one of the most important files in a open project, helping users understand the purpose, whether/how they can use it, and documentation.

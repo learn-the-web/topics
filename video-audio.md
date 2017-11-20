@@ -5,6 +5,19 @@ desc: "Using video & audio on websites and how to properly export the files."
 playlist: PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5
 download: https://github.com/acgd-learn-the-web/video-audio-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/video-audio-code
+extra_practice:
+  week:
+    title: "Web Dev 5, Week 08"
+    url: "/courses/web-dev-5/week-08/"
+  slides:
+    - title: "Video"
+      url: "/courses/web-dev-5/video/"
+  lessons:
+    - title: "Video background"
+      url: "/courses/web-dev-5/video-background/"
+  activities:
+    - title: "Video Venturer"
+      url: "video-venturer"
 ---
 
 Video is extremely popular on the web, using up the majority of total bandwidth consumed.
@@ -97,7 +110,7 @@ The browser will then present its default set of player controls—that you cann
 
 #### Video players
 
-If you want more access to style the controls of the video player try using a Javascript video library, or see about [making your own controls with Javascript](#using-javascript-to-control-video).
+If you want more access to style the controls of the video player try using a JavaScript video library, or see about [making your own controls with JavaScript](#using-javascript-to-control-video).
 
 - [MediaElement.js](http://mediaelementjs.com/)
 - [Video.js](http://www.videojs.com/)
@@ -332,9 +345,9 @@ This chapter would last from the beginning to exactly 10 minutes into the video.
 
 ---
 
-## Using Javascript to control video
+## Using JavaScript to control video
 
-The video (and audio) that you add to your website is completely scriptable with Javascript. What many of the video players above do is write a completely new control interface in Javascript.
+The video (and audio) that you add to your website is completely scriptable with JavaScript. What many of the video players above do is write a completely new control interface in JavaScript.
 
 Let’s start with some basic HTML for our video player:
 
@@ -345,10 +358,10 @@ Let’s start with some basic HTML for our video player:
 
 I’ve intentionally left the `controls` attribute off because I want to make my own play/pause control with the `<button>` tag I added.
 
-Now let’s write some Javascript, we’ll standardize on jQuery, but it’s completely unnecessary to do any of the following functionality.
+Now let’s write some JavaScript, we’ll standardize on jQuery, but it’s completely unnecessary to do any of the following functionality.
 
 ```js
-// We want the raw Javascript version instead of the jQuery version
+// We want the raw JavaScript version instead of the jQuery version
 //   `document.getElementById()` is probably better
 var video = $('#dinos').get(0);
 var $btn = $('#btn-play-pause');
@@ -362,9 +375,9 @@ $btn.on('click', function () {
 });
 ```
 
-There’s a bunch more you can do with Javascript and the `<video>` tag including: changing the play position, muting, changing the play speed etc.
+There’s a bunch more you can do with JavaScript and the `<video>` tag including: changing the play position, muting, changing the play speed etc.
 
-### Javascript hover to play video
+### JavaScript hover to play video
 
 Here’s an example of how to make a video play when you hover over it and stop when you move your mouse away.
 
@@ -376,7 +389,7 @@ Let’s start with the HTML:
 
 *You’ll notice I’ve added the `preload` attribute, to encourage the browser to download the video so it’s ready to play when the user interacts.*
 
-And here’s the Javascript that should do what we want. I’ve made sure to add `focus` and `blur` for accessibility purposes.
+And here’s the JavaScript that should do what we want. I’ve made sure to add `focus` and `blur` for accessibility purposes.
 
 ```js
 var $video = $('#me');
@@ -445,7 +458,7 @@ Not only is it extremely annoying, but imagine how frustrating it must be for pe
 
 Git, and therefore GitHub, are not made for large files, like video and audio. If you accidentally sync a video into your repo you’ll probably jam it up—so just don’t put video files into your repository.
 
-There are different solutions for where to host your video files. The quickest and easiest way is YouTube or Vimeo: bandwidth is free and they give you a complete, functional, well used & tested player, they even automatically switch between SD and HD. But the problem with YouTube & Vimeo is you have to use their player and their embed code, you also lose a lot, practically all, of the Javascript functionality.
+There are different solutions for where to host your video files. The quickest and easiest way is YouTube or Vimeo: bandwidth is free and they give you a complete, functional, well used & tested player, they even automatically switch between SD and HD. But the problem with YouTube & Vimeo is you have to use their player and their embed code, you also lose a lot, practically all, of the JavaScript functionality.
 
 So another solution is to use a separate host for your large files. You could use a traditional, shared host like [SiteGround](https://www.siteground.com/), or a CDN (Content Delivery Network).
 
@@ -453,7 +466,7 @@ So another solution is to use a separate host for your large files. You could us
 
 ### Hosting on a CDN
 
-My suggestion would be to host your video file on a CDN, below is a tutorial using [KeyCDN](https://www.keycdn.com/), but it’s just an example.
+My suggestion would be to host your video file on a CDN, below is a tutorial using [KeyCDN](https://www.keycdn.com/?a=7564)†, but it’s just an example.
 
 After creating an account, create a new zone, specifically a **push zone**.
 
@@ -492,10 +505,12 @@ That’s all. **But make sure never to put large files like video and audio into
 
 **Links**
 
-- **[KeyCDN](https://www.keycdn.com/)** — [Upload data to push zone](https://www.keycdn.com/support/upload-data-to-a-push-zone/)
+- [**KeyCDN**](https://www.keycdn.com/?a=7564)† — [Upload data to push zone](https://www.keycdn.com/support/upload-data-to-a-push-zone/)
 - [Amazon S3](https://aws.amazon.com/s3/)
 - [MaxCDN](http://www.maxcdn.com/)
 - [Wistia](http://wistia.com/)
+
+† *The KeyCDN links are referral links giving you $10 free in credits.*
 
 ---
 
@@ -505,8 +520,8 @@ That’s all. **But make sure never to put large files like video and audio into
 2. [Video & audio: video tag](https://www.youtube.com/watch?v=Tgv57WYPNDo&index=2&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
 3. [Video & audio: responsive video](https://www.youtube.com/watch?v=8EilfQKjW98&index=3&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
 4. [Video & audio: adding tracks to video](https://www.youtube.com/watch?v=sQOMGxN3IkE&index=4&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
-5. [Video & audio: using Javascript to control video](https://www.youtube.com/watch?v=3zwFHA0GWYI&index=5&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
-6. [Video & audio: Javascript hover to play video](https://www.youtube.com/watch?v=KTkkXphS0f4&index=6&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
+5. [Video & audio: using JavaScript to control video](https://www.youtube.com/watch?v=3zwFHA0GWYI&index=5&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
+6. [Video & audio: JavaScript hover to play video](https://www.youtube.com/watch?v=KTkkXphS0f4&index=6&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
 7. [Video & audio: audio tag](https://www.youtube.com/watch?v=rQOUsrpGbx4&index=7&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
 8. [Video & audio: hosting on a content delivery network](https://www.youtube.com/watch?v=OmVlsYFwiSE&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5&index=8)
 

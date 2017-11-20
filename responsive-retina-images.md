@@ -6,6 +6,19 @@ playlist: "PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f"
 download: "https://github.com/acgd-learn-the-web/responsive-retina-images-code/archive/master.zip"
 github: "https://github.com/acgd-learn-the-web/responsive-retina-images-code"
 cheatsheet: images-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 3, Week 04"
+    url: "/courses/web-dev-3/week-04/"
+  slides:
+    - title: "Background & retina images"
+      url: "/courses/web-dev-3/background-retina-images/"
+  lessons:
+    - title: "Retina images"
+      url: "/courses/web-dev-3/retina-images/"
+  exercises:
+    - title: "Retina gallery"
+      url: "/courses/web-dev-3/week-04/#retina-gallery"
 ---
 
 With so many different screen sizes and resolutions we need to prepare our images so they are crisper and clearer and still small to download.

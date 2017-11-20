@@ -53,7 +53,7 @@ baseurl: /your-folder-on-github
 
 **Links**
 
-- [**☛ Setting up GitHub Pages Reference**](/topics/github-pages/)
+- [**☛ Setting up GitHub Pages Reference**](/topics/version-control-github/#setting-up-hosting-with-github-pages)
 - [Jekyll Docs: Directory structure](http://jekyllrb.com/docs/structure/)
 - [Jekyll Docs: Configuration](http://jekyllrb.com/docs/configuration/)
 
@@ -94,7 +94,7 @@ _site
 
 Commit it into your repository and Git will safely ignore the `_site` folder from now on.
 
-[**☛ Read more about .gitignore.**](/topics/version-control/#ignoring-files)
+[**☛ Read more about .gitignore.**](/topics/version-control-github/#ignoring-files)
 
 ---
 

@@ -8,7 +8,27 @@ github: https://github.com/acgd-learn-the-web/modules-code
 cheatsheet: modulifier-cheat-sheet
 tool:
   name: Modulifier
-  url: https://modulifier.web-dev.tools
+  url: "https://modulifier.web-dev.tools"
+extra_practice:
+  week:
+    title: "Web Dev 2, Week 07"
+    url: "/courses/web-dev-2/week-07/"
+  slides:
+    - title: "Modular CSS"
+      url: "/courses/web-dev-2/modular-css/"
+  lessons:
+    - title: "Button systems"
+      url: "/courses/web-dev-2/buttons-systems/"
+  activities:
+    - title: "Module Mogul"
+      url: "module-mogul"
+  exercises:
+    - title: "Embed containers"
+      url: "/courses/web-dev-2/week-07/#embed-containers"
+    - title: "Icons"
+      url: "/courses/web-dev-2/week-07/#icons"
+    - title: "List groups"
+      url: "/courses/web-dev-2/week-07/#list-groups"
 ---
 
 Thinking modularly in CSS allows us to create more reusable CSS. And allows us to really reduce our duplication making our code more maintainable.
@@ -201,4 +221,4 @@ You probably don’t want to write all these same CSS patterns, or try and find 
 - [The Flag Object](http://csswizardry.com/2013/05/the-flag-object/)
 - [CSS Wizardry: CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines)
 - [Responsive Images: How to Prevent Reflow](http://andmag.se/2012/10/responsive-images-how-to-prevent-reflow/)
-- [Back to the :roots](http://simurai.com/blog/2015/09/09/back-to-the-roots/)
+- [Back to the :roots](http://simurai.com/blog/2015/09/09/back-to-the-roots)

@@ -6,6 +6,19 @@ playlist: PLWjCJDeWfDddFOJYmcgNnUIhUHcsNEBTd
 download: https://github.com/acgd-learn-the-web/search-engine-optimization-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/search-engine-optimization-code
 checklist: seo-checklist
+extra_practice:
+  week:
+    title: "Web Dev 5, Week 07"
+    url: "/courses/web-dev-5/week-07/"
+  slides:
+    - title: "SEO & metadata"
+      url: "/courses/web-dev-5/seo-metadata/"
+  lessons:
+    - title: "Robot Parts Co."
+      url: "/courses/web-dev-5/robot-parts-co/"
+  activities:
+    - title: "Search Seer"
+      url: "search-seer"
 ---
 
 Search engine optimization is important for all websites so that they’ll show up in search results.
@@ -29,7 +42,7 @@ When search engines spider your website they base the search results on specific
 - **Links to your site from reputable sources**: the more incoming links from good, real sources, the better.
 - **Clean, meaningful URLs & filenames**: the words in URLs are extremely important.
 - **Older domains**: brand new domains have less power than domains that have existed for a while.
-- **Visible to search engines without barriers**: public, not behind a sign-in, not hidden by Javascript.
+- **Visible to search engines without barriers**: public, not behind a sign-in, not hidden by JavaScript.
 - **Metadata**: enhanced semantics, rich information.
   [☛ Learn more about metadata.](/topics/metadata-enhanced-semantics/)
 - **Mobile friendliness:** if your website is responsive and mobile friendly it will get better rankings.
@@ -232,7 +245,7 @@ There are extensions you can get for your browser that highlight what websites h
 
 **Links**
 
-- [Robots.txt Spec](http://robotstxt.org/)
+- [Robots.txt Spec](http://www.robotstxt.org/)
 - [Robots Exclusion Standard](http://en.wikipedia.org/wiki/Robots_exclusion_standard)
 - [Humans.txt Spec](http://humanstxt.org/)
 
@@ -256,24 +269,25 @@ There are extensions you can get for your browser that highlight what websites h
 
 - **[Web Developers SEO Cheat Sheet](http://moz.com/blog/the-web-developers-seo-cheat-sheet-2013-edition)**
 - [Google: Search Engine Optimization Starter Guide](https://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
-- [Common Sense SEO Checklist](http://css-tricks.com/common-sense-seo-checklist/)
+- [Common Sense SEO Checklist](https://css-tricks.com/common-sense-seo-checklist/)
 - [SEO Fundamentals for Web Designers](http://webdesign.tutsplus.com/sessions/seo-fundamentals-for-web-designers/)
 - [Designers SEO Checklist](http://webdesign.tutsplus.com/articles/seo-articles/seo-checklist/)
 - [The Beginners Guide to SEO](http://www.seomoz.org/beginners-guide-to-seo)
-- [Thoughts on SEO (39:46)](http://css-tricks.com/video-screencasts/83-thoughts-on-seo/)
+- [Thoughts on SEO (39:46)](https://css-tricks.com/video-screencasts/83-thoughts-on-seo/)
 - [New SEO process](http://www.seomoz.org/blog/the-new-seo-process-quit-being-kanye)
 - [Writing useful page titles](http://www.456bereastreet.com/archive/201102/writing_useful_page_titles/)
 - [SEO Strategies for Designers](http://www.sitepoint.com/seo-strategies-designers-part-2/)
 - [Duplicate Content Penalty](http://www.webdesignfromscratch.com/seo/google-duplicate-content-penalty/)
 - [SEO Checklist 2015](http://onlinemarketinginct.com/2015/05/09/seo-checklist-2015/)
 - [SEO Cheat Sheet](https://moz.com/blog/seo-cheat-sheet)
+- [HEAD](https://gethead.info/)
 
 ### Tools
 
 - **[HTML5 Outliner](http://gsnedders.html5.org/outliner/)**
 - [HTML5 Outliner Chrome Extension](https://chrome.google.com/webstore/detail/afoibpobokebhgfnknfndkgemglggomo)
 - **[Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php)** (Also good for checking accessibility)
-- **[Google Search Engine Results Previewer](http://seo-website-designer.com/Google-SERP-Emulator)**
+- **[Google Search Engine Results Previewer](http://www.serpsimulator.com/)**
 - [Keyword Frequency Counter](http://www.yellowpipe.com/yis/tools/wordcount/index.php)
 - [Keyword Density Analyzer](http://tools.seobook.com/general/keyword-density/)
 - [Complete List of Best SEO-Tools by Smashing Magazine](http://www.smashingmagazine.com/2006/09/22/complete-list-of-best-seo-tools/)

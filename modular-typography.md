@@ -8,7 +8,29 @@ github: https://github.com/acgd-learn-the-web/modular-typography-code
 cheatsheet: typografier-cheat-sheet
 tool:
   name: Typografier
-  url: https://typografier.web-dev.tools
+  url: "https://typografier.web-dev.tools"
+extra_practice:
+  week:
+    title: "Web Dev 2, Week 04"
+    url: "/courses/web-dev-2/week-04/"
+  slides:
+    - title: "Modular type"
+      url: "/courses/web-dev-2/modular-type/"
+  lessons:
+    - title: "Using a type system"
+      url: "/courses/web-dev-2/using-a-type-system/"
+  activities:
+    - title: "Type Trasher"
+      url: "type-trasher"
+  exercises:
+    - title: "Section"
+      url: "/courses/web-dev-2/week-04/#section"
+    - title: "Banner"
+      url: "/courses/web-dev-2/week-04/#banner"
+    - title: "Trendy fruit"
+      url: "/courses/web-dev-2/week-05/#trendy-fruit"
+    - title: "Content page"
+      url: "/courses/web-dev-2/week-05/#content-page"
 ---
 
 Creating a modular typography system in CSS creates an extremely reusable font-size system with a harmonious vertical rhythm.
@@ -285,7 +307,7 @@ When starting a new website it’s best to first consider the typography. I gene
 
 **Sample styleguides**
 
-- <http://paulrobertlloyd.com/about/styleguide/>
+- <https://paulrobertlloyd.com/styleguide>
 - <http://barebones.paulrobertlloyd.com/_styleguide.php>
 - <http://clearleft.com/styleguide/>
 

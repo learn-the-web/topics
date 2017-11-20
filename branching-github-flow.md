@@ -3,6 +3,10 @@ title: "Branching & GitHub Flow"
 tags: "github hosting system branches master gh pages flow issues pull requests"
 desc: "Understanding the GitHub Flow when using branches and pull requests with your team."
 video: 2M16faxEQsg
+extra_practice:
+  activities:
+    - title: "Git Graduator"
+      url: "git-graduator"
 ---
 
 Think about how you generally work on some code. You write some code then decide you want to try something else, so you make a copy, maybe you name it `version-2`. Then you decide you want to try something else, you copy and name it `version-3`.

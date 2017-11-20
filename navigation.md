@@ -5,6 +5,20 @@ desc: "Different navigation styles for small screen websites and how to code the
 playlist: PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr
 download: https://github.com/acgd-learn-the-web/navigation-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/navigation-code
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 07"
+    url: "/courses/web-dev-1/week-07/"
+  slides:
+    - title: "Link patterns"
+      url: "/courses/web-dev-1/link-patterns/"
+  exercises:
+    - title: "Navigation highlight"
+      url: "/courses/web-dev-1/week-07/#navigation-highlight"
+    - title: "Button styles"
+      url: "/courses/web-dev-1/week-07/#button-styles"
+    - title: "Link card"
+      url: "/courses/web-dev-1/week-07/#link-card"
 ---
 
 There are many styles for small screen navigation depending on the amount of items in the navigation.

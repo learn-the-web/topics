@@ -3,6 +3,10 @@ title: "Using paths & folders"
 tags: "paths folders directories directory link css image source href"
 desc: "Understanding how your computer, browsers and the web read paths .to different files"
 cheatsheet: naming-paths-cheat-sheet
+extra_practice:
+  activities:
+    - title: "Path Paladin"
+      url: "path-paladin"
 ---
 
 As a developer you need to become intimately familiar with how the directory system works.

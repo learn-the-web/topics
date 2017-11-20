@@ -6,6 +6,21 @@ playlist: PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX
 download: https://github.com/acgd-learn-the-web/markdown-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/markdown-code
 cheatsheet: markdown-yaml-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 4, Week 04"
+    url: "/courses/web-dev-4/week-04/"
+  slides:
+    - title: "Markdown & YAML"
+      url: "/courses/web-dev-4/markdown-yaml/"
+  activities:
+    - title: "Markdown Manipulator"
+      url: "markdown-manipulator"
+  exercises:
+    - title: "Pattern library README"
+      url: "/courses/web-dev-4/pattern-library-readme/"
+    - title: "Writing a README"
+      url: "/courses/web-dev-5/writing-a-readme/"
 ---
 
 Markdown is a lightweight syntax of markup for plain text documents. It allows us to add semantics and style to our documents without overpowering them with code and angle brackets.

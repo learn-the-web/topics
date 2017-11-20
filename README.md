@@ -2,7 +2,7 @@
 
 The written tutorials and video links for all the content.
 
-### [☛ Tutorials & videos](http://learn-the-web.algonquindesign.ca/)
+### [☛ Tutorials & videos](https://learn-the-web.algonquindesign.ca/)
 
 ---
 

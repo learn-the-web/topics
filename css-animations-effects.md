@@ -6,9 +6,33 @@ playlist: PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm
 download: https://github.com/acgd-learn-the-web/css-animations-effects-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/css-animations-effects-code
 cheatsheet: css-animations-effects-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 3, Week 05"
+    url: "/courses/web-dev-3/week-05/"
+  slides:
+    - title: "Transforms & transitions"
+      url: "/courses/web-dev-3/transforms-transitions/"
+    - title: "CSS animations"
+      url: "/courses/web-dev-3/css-animations/"
+  activities:
+    - title: "Effect Effector"
+      url: "effect-effector"
+  lessons:
+    - title: "Fancy hover boxes"
+      url: "/courses/web-dev-3/fancy-hover-boxes/"
+    - title: "Animated clock"
+      url: "/courses/web-dev-3/animated-clock/"
+  exercises:
+    - title: "Interactive polaroids"
+      url: "/courses/web-dev-3/week-05/#interactive-polaroids"
+    - title: "But ’em buttons"
+      url: "/courses/web-dev-3/week-05/#but-em-buttons"
+    - title: "Frozen—not in time"
+      url: "/courses/web-dev-3/week-06/#frozen-not-in-time"
 ---
 
-Different interaction methods for websites (without Javascript) and triggering animations and transitions with those interactions.
+Different interaction methods for websites (without JavaScript) and triggering animations and transitions with those interactions.
 
 ---
 
@@ -102,7 +126,7 @@ The syntax for multiple transitions is the same, just separate each new transiti
 - [MDN: Transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 - [MDN: Timing function](https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function)
 - [Can I Use: Transitions](http://caniuse.com/#feat=css-transitions)
-- [CSS Tricks: Transition](http://css-tricks.com/almanac/properties/t/transition/)
+- [CSS Tricks: Transition](https://css-tricks.com/almanac/properties/t/transition/)
 - [All you need to know about CSS Transitions](http://blog.alexmaccaw.com/css-transitions)
 - [Hover.css](https://ianlunn.github.io/Hover/)
 
@@ -140,7 +164,7 @@ Now box will be styled with a background colour whenever the URL matches it’s 
 
 - [MDN: target](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)
 - [Can I Use: target](http://caniuse.com/#feat=css-sel3)
-- [CSS Tricks: target](http://css-tricks.com/on-target/)
+- [CSS Tricks: target](https://css-tricks.com/on-target/)
 - [CSS :target](http://davidwalsh.name/css-target)
 
 ---
@@ -238,7 +262,7 @@ Since CSS transforms are so new they still need a few vendor prefixes, so you’
 
 - [MDN: Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 - [Can I Use: Transform](http://caniuse.com/#feat=transforms2d)
-- [CSS Tricks: Transform](http://css-tricks.com/almanac/properties/t/transform/)
+- [CSS Tricks: Transform](https://css-tricks.com/almanac/properties/t/transform/)
 - [Animation Using CSS Transforms](http://www.the-art-of-web.com/css/css-animation/)
 
 ---
@@ -425,8 +449,8 @@ Maybe though we want the animation to only fade using 5 different shades of oran
 - [MDN: Animation](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations)
 - [MDN: Keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
 - [Can I Use: CSS Animations](http://caniuse.com/#feat=css-animation)
-- [CSS Tricks: Animation](http://css-tricks.com/almanac/properties/a/animation/)
-- [CSS Tricks: Animation Tricks](http://css-tricks.com/css-animation-tricks/)
+- [CSS Tricks: Animation](https://css-tricks.com/almanac/properties/a/animation/)
+- [CSS Tricks: Animation Tricks](https://css-tricks.com/css-animation-tricks/)
 - [24 Ways: CSS Animations](http://24ways.org/2009/css-animations/)
 - [24 Ways: Flashless Animations](http://24ways.org/2012/flashless-animation/)
 - [CSS Animation for Beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
@@ -496,7 +520,7 @@ One really trendy effect that many websites have been using is parallax: when ce
 
 *I recommend using this effect sparingly—as with all effects.*
 
-Often this effect is created using Javascript—and Javascript does have the benefit of more control. But we can actually create the effect using just CSS in modern browsers.
+Often this effect is created using JavaScript—and JavaScript does have the benefit of more control. But we can actually create the effect using just CSS in modern browsers.
 
 The trick to the effect is to use CSS 3D Transforms and perspective.
 
@@ -615,7 +639,7 @@ Specifically these properties would be good to move into a media query:
 - `transform-style: preserve-3d`
 - and all the movement/calculations for `.back` and `.front`
 
-**[☛ There are a few changes when using it with Javascript Waypoints](/topics/javascript-effects/#waypoints-and-parallax)**
+**[☛ There are a few changes when using it with JavaScript Waypoints](/topics/javascript-effects/#waypoints-and-parallax)**
 
 **Links**
 
@@ -623,7 +647,7 @@ Specifically these properties would be good to move into a media query:
 - [Pure CSS Parallax Websites](http://keithclark.co.uk/articles/pure-css-parallax-websites/)
 - [Can I Use: 3D transforms](http://caniuse.com/#feat=transforms3d)
 
-**Javascript libraries**
+**JavaScript libraries**
 
 - [jQuery ScrollPath](http://joelb.me/scrollpath/)
 - [jQuery-Parallax](https://github.com/IanLunn/jQuery-Parallax)

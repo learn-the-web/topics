@@ -1,7 +1,7 @@
 ---
 title: "Document object model (DOM)"
 tags: "javascript html elements tags manipulate document object model jquery events click propagation delegation classes forms html"
-desc: "Understanding how Javascript interfaces and manipulates with HTML."
+desc: "Understanding how JavaScript interfaces and manipulates with HTML."
 playlist: PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y
 download: https://github.com/acgd-learn-the-web/dom-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/dom-code
@@ -9,19 +9,19 @@ cheatsheet: javascript-cheat-sheet
 checklist: javascript-checklist
 ---
 
-The DOM—Document Object Model—is the system that Javascript uses to interact with HTML. The DOM is really Javascript’s representation of your HTML document that can be fully manipulated.
+The DOM—Document Object Model—is the system that JavaScript uses to interact with HTML. The DOM is really JavaScript’s representation of your HTML document that can be fully manipulated.
 
 ---
 
-## Plain Javascript vs. jQuery
+## Plain JavaScript vs. jQuery
 
-With Javascript in the browser, Javascript’s primary purpose is to manipulate HTML, respond to user events, and manage data.
+With JavaScript in the browser, JavaScript’s primary purpose is to manipulate HTML, respond to user events, and manage data.
 
-You can use either plain Javascript or jQuery with you’re developing your website. jQuery doesn’t replace Javascript, you’ll still end up using all of your Javascript knowledge, jQuery just extends and simplifies some of the Javascript tasks.
+You can use either plain JavaScript or jQuery with you’re developing your website. jQuery doesn’t replace JavaScript, you’ll still end up using all of your JavaScript knowledge, jQuery just extends and simplifies some of the JavaScript tasks.
 
 ### Including jQuery
 
-jQuery is simple to use on your website, you just have to include the jQuery Javascript file and you’ll inherit all of jQuery’s functionality.
+jQuery is simple to use on your website, you just have to include the jQuery JavaScript file and you’ll inherit all of jQuery’s functionality.
 
 1. You can download the jQuery file from the website and put it in your `js` folder
 2. You can use a content delivery network, CDN, to include jQuery
@@ -34,7 +34,7 @@ jQuery is simple to use on your website, you just have to include the jQuery Jav
 </html>
 ```
 
-*Make sure you put jQuery before your own Javascript file.*
+*Make sure you put jQuery before your own JavaScript file.*
 
 **Links**
 
@@ -44,15 +44,15 @@ jQuery is simple to use on your website, you just have to include the jQuery Jav
 
 ## Selecting HTML elements
 
-Since much of what you want to do with Javascript is manipulate HTML, you first need to select the elements using Javascript.
+Since much of what you want to do with JavaScript is manipulate HTML, you first need to select the elements using JavaScript.
 
-Selecting elements in Javascript is really simple if you know how to select things in CSS—it uses the exact same selector system.
+Selecting elements in JavaScript is really simple if you know how to select things in CSS—it uses the exact same selector system.
 
 *It’s helpful, when beginning, to pick one method, plain JS or jQuery, when selecting HTML elements.*
 
 ### Selecting with plain JS
 
-There are a bunch of different functions for selecting things in plain Javascript.
+There are a bunch of different functions for selecting things in plain JavaScript.
 
 - `document.getElementById('thing')` — will select an element with the id of `thing`
 - `document.getElementsByTagName('div')` — select all the `div` elements on the page
@@ -70,7 +70,7 @@ Here’s a couple of examples:
 </div>
 ```
 
-When selecting things in Javascript it’s a good idea to put the selection into a variable because selecting things causes a performance hit, while reading a variable is fast.
+When selecting things in JavaScript it’s a good idea to put the selection into a variable because selecting things causes a performance hit, while reading a variable is fast.
 
 ```js
 // Get the single <h1>
@@ -98,11 +98,11 @@ for (i = 0; i < thePTags.length; i++) {
 
 - [MDN: document.querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelector)
 - [MDN: document.querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/document.querySelectorAll)
-- [CSS Tricks: Loop querySelectorAll matches](http://css-tricks.com/snippets/javascript/loop-queryselectorall-matches/)
+- [CSS Tricks: Loop querySelectorAll matches](https://css-tricks.com/snippets/javascript/loop-queryselectorall-matches/)
 
 ### Selecting with jQuery
 
-With jQuery, selecting things is the same as plain Javascript: it uses CSS selectors.
+With jQuery, selecting things is the same as plain JavaScript: it uses CSS selectors.
 
 *If you select something using plain JS, you can’t use jQuery functions without selecting it with jQuery. If you select something with jQuery, you can’t use plain JS functions.*
 
@@ -130,7 +130,7 @@ $thePTags.each(function (i) {
 });
 ```
 
-*When naming variables in Javascript that contain jQuery objects and collections, it’s common convention to start their name with a `$`.*
+*When naming variables in JavaScript that contain jQuery objects and collections, it’s common convention to start their name with a `$`.*
 
 **Links**
 
@@ -142,11 +142,11 @@ $thePTags.each(function (i) {
 
 ## Listening to events
 
-When writing Javascript, responding to events is a big part of what your code does. Your code can either respond to user-triggered events or browser-triggered events.
+When writing JavaScript, responding to events is a big part of what your code does. Your code can either respond to user-triggered events or browser-triggered events.
 
 ### Events in plain JS
 
-After selecting an element in Javascript we can listen to events on that element, like a click.
+After selecting an element in JavaScript we can listen to events on that element, like a click.
 
 ```js
 var btn = document.querySelector('.btn');
@@ -158,7 +158,7 @@ btn.addEventListener('click', function () {
 
 #### The event object
 
-When an event function is executed, Javascript passes an argument to the function called the `EventObject`.
+When an event function is executed, JavaScript passes an argument to the function called the `EventObject`.
 
 The EventObject houses a bunch of important functions and information about the event that was just executed.
 
@@ -194,7 +194,7 @@ $('html').on('keydown', function (e) {
 
 ### Event propagation
 
-Events follow a propagation in Javascript that includes the capture phase: starting at the `<html>` element and working down the children until it hits the element; then the bubbling phase that goes backwards up the parents of the element. *On each element in the capturing and bubbling phase an event is fired.*
+Events follow a propagation in JavaScript that includes the capture phase: starting at the `<html>` element and working down the children until it hits the element; then the bubbling phase that goes backwards up the parents of the element. *On each element in the capturing and bubbling phase an event is fired.*
 
 **Capturing phase:**
 
@@ -257,13 +257,13 @@ $('.dinos').on('click', 'li', function () {
 
 ## Manipulating classes
 
-When manipulating CSS from Javascript it’s very easy to just add the styles directly into the CSS. But from a maintainability & collaboration perspective it’s good to not cross the streams: keep HTML in HTML, CSS in CSS, and only JS in JS.
+When manipulating CSS from JavaScript it’s very easy to just add the styles directly into the CSS. But from a maintainability & collaboration perspective it’s good to not cross the streams: keep HTML in HTML, CSS in CSS, and only JS in JS.
 
-It’s best practice to just add and remove classes on elements: CSS classes are the contract between your Javascript and your HTML/CSS. *The CSS can deal only with styling and the JS only deals with activating that CSS.*
+It’s best practice to just add and remove classes on elements: CSS classes are the contract between your JavaScript and your HTML/CSS. *The CSS can deal only with styling and the JS only deals with activating that CSS.*
 
 ### Naming conventions
 
-When using classes specifically for Javascript it’s best practice to prepend them with `js-`, so everybody is clear on their purpose.
+When using classes specifically for JavaScript it’s best practice to prepend them with `js-`, so everybody is clear on their purpose.
 
 ```css
 .js-active {
@@ -277,7 +277,7 @@ When using classes specifically for Javascript it’s best practice to prepend t
 
 ### Class manipulation with plain JS
 
-There are two ways to manipulate classes in plain Javascript: `className` and `classList`. Using `className` is more direct and will work in every browser, but isn’t convenient. Using `classList` is much simpler but is only supported in newer browsers.
+There are two ways to manipulate classes in plain JavaScript: `className` and `classList`. Using `className` is more direct and will work in every browser, but isn’t convenient. Using `classList` is much simpler but is only supported in newer browsers.
 
 `className` is a string that represents all the contents of the `class=""` attribute—so we need to manipulate it like a standard string.
 
@@ -311,7 +311,7 @@ btn.classList.contains('js-highlight');
 
 ### Class manipulation with jQuery
 
-Class manipulation in jQuery is very similar to `classList`, in fact `classList` as inspired by jQuery and other Javascript libraries.
+Class manipulation in jQuery is very similar to `classList`, in fact `classList` as inspired by jQuery and other JavaScript libraries.
 
 ```js
 var $btn = $('.btn');
@@ -377,13 +377,13 @@ $first.remove();
 $dinos.html('<li>Humans</li><li>Birds</li>');
 ```
 
-*All of the above stuff can be done with plain Javascript but in a more round-about way.*
+*All of the above stuff can be done with plain JavaScript but in a more round-about way.*
 
 ---
 
 ## Form data
 
-Working with forms is very common when it comes to Javascript applications.
+Working with forms is very common when it comes to JavaScript applications.
 
 ### Form submission event
 
@@ -464,13 +464,13 @@ $('.dinos').val(); // trex
 
 ## Video list
 
-1. [Javascript DOM: selecting HTML elements](https://www.youtube.com/watch?v=q7nSkqmNpMY&index=1&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-2. [Javascript DOM: events](https://www.youtube.com/watch?v=YMrUgX2G1dc&index=2&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-3. [Javascript DOM: stopping default events](https://www.youtube.com/watch?v=SjwoFeklLPo&index=3&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-4. [Javascript DOM: manipulating classes](https://www.youtube.com/watch?v=lU-JdTK6wAE&index=4&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-5. [Javascript DOM: manipulating HTML](https://www.youtube.com/watch?v=0m5ytkr25ug&index=5&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-6. [Javascript DOM: form data & events](https://www.youtube.com/watch?v=akNM35dRVGQ&index=6&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-7. [Javascript DOM: event delegation](https://www.youtube.com/watch?v=JStineSts7s&index=7&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
+1. [JavaScript DOM: selecting HTML elements](https://www.youtube.com/watch?v=q7nSkqmNpMY&index=1&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
+2. [JavaScript DOM: events](https://www.youtube.com/watch?v=YMrUgX2G1dc&index=2&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
+3. [JavaScript DOM: stopping default events](https://www.youtube.com/watch?v=SjwoFeklLPo&index=3&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
+4. [JavaScript DOM: manipulating classes](https://www.youtube.com/watch?v=lU-JdTK6wAE&index=4&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
+5. [JavaScript DOM: manipulating HTML](https://www.youtube.com/watch?v=0m5ytkr25ug&index=5&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
+6. [JavaScript DOM: form data & events](https://www.youtube.com/watch?v=akNM35dRVGQ&index=6&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
+7. [JavaScript DOM: event delegation](https://www.youtube.com/watch?v=JStineSts7s&index=7&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
 
 ## Supplemental links
 

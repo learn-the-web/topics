@@ -4,6 +4,24 @@ tags: "performance speed images web page test page speed yslow cost download tim
 desc: "Making the fastest website possible and understanding what impacts the speed of your website."
 playlist: PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD
 checklist: performance-checklist
+extra_practice:
+  week:
+    title: "Web Dev 3, Week 12"
+    url: "/courses/web-dev-3/week-12/"
+  slides:
+    - title: "Performance"
+      url: "/courses/web-dev-3/performance/"
+  activities:
+    - title: "Performance Prognosticator"
+      url: "performance-prognosticator"
+  lessons:
+    - title: "Checking performance"
+      url: "/courses/web-dev-3/checking-performance/"
+  exercises:
+    - title: "Fastness fixer"
+      url: "/courses/web-dev-3/week-12/#fastness-fixer"
+    - title: "This site ain’t no sloth"
+      url: "/courses/web-dev-3/week-12/#this-site-aint-no-sloth"
 ---
 
 Making your website fast is extremely important for usability and probably one of *the* most important design considerations for the web.
@@ -74,7 +92,6 @@ Another popular tool is [Google’s Page Speed](https://developers.google.com/sp
 - [Yahoo YSlow](http://yslow.org/)
 - [Pingdom Website Speed Test](http://tools.pingdom.com/fpt/)
 - [What Does My Site Cost?](http://whatdoesmysitecost.com/)
-- [Speedgun.io](http://speedgun.io/)
 - [CSS Stats](http://cssstats.com/)
 - [SpeedCurve](https://speedcurve.com/)
 - [Calibre](https://calibreapp.com/)

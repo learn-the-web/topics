@@ -4,6 +4,13 @@ tags: "github issues labels descriptions project management problems help"
 desc: "What GitHub Issues do for use and how to use them for getting feedback, tracking progress, and more."
 video: yAPSbIHcDTw
 cheatsheet: markdown-yaml-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 03"
+    url: "/courses/web-dev-1/week-03/"
+  lessons:
+    - title: "Create a tagged issue"
+      url: "/courses/web-dev-1/create-tagged-issue/"
 ---
 
 GitHub Issues is a simple tool that allows you to track your progress, keep a task list, collect feedback, and report bugs for your GitHub hosted project.

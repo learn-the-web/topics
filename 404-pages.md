@@ -2,6 +2,16 @@
 title: "404 pages"
 tags: "404 500 error pages not found codes github apache"
 desc: "Creating fun and engaging not found pages to help and engage users."
+extra_practice:
+  week:
+    title: "Web Dev 5, Week 14"
+    url: "/courses/web-dev-5/week-14/"
+  slides:
+    - title: "Great 404 pages"
+      url: "/courses/web-dev-5/great-404-pages/"
+  activities:
+    - title: "HTTP Hoodwinker"
+      url: "http-hoodwinker"
 ---
 
 A 404 error occurs when a page cannot be found on a web server.

@@ -6,6 +6,24 @@ playlist: PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR
 download: https://github.com/acgd-learn-the-web/tables-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/tables-code
 cheatsheet: tables-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 2, Week 10"
+    url: "/courses/web-dev-2/week-10/"
+  slides:
+    - title: "Tables"
+      url: "/courses/web-dev-2/tables/"
+  lessons:
+    - title: "Data table"
+      url: "/courses/web-dev-2/data-table/"
+  activities:
+    - title: "Table Tabulator"
+      url: "table-tabulator"
+  exercises:
+    - title: "Events calendar"
+      url: "/courses/web-dev-2/week-10/#events-calendar"
+    - title: "More than just datum"
+      url: "/courses/web-dev-2/week-10/#more-than-just-datum"
 ---
 
 HTML has the ability to make complex data tables—with a little extra care they can be completely accessible.

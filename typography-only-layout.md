@@ -17,13 +17,13 @@ Looking at designing beautiful typography for a page containing the content of a
 This layout and series of videos combine together all these different lessons—so they should be watched first:
 
 1. [Using CSS](/topics/using-css/)
-2. [CSS indentation](http://learn-the-web.algonquindesign.ca/topics/css-indentation/)
-3. [Basic typography](http://learn-the-web.algonquindesign.ca/topics/basic-typography/)
-4. [Using Google Fonts](http://learn-the-web.algonquindesign.ca/topics/google-fonts/)
-5. [Browser developer tools](http://learn-the-web.algonquindesign.ca/topics/browser-developer-tools/)
-6. [Browser testing](http://learn-the-web.algonquindesign.ca/topics/browser-testing/)
-7. [Everything is a box](http://learn-the-web.algonquindesign.ca/topics/box-model/)
-8. [Flow & display](http://learn-the-web.algonquindesign.ca/topics/flow-display/)
+2. [CSS indentation](https://learn-the-web.algonquindesign.ca/topics/css-indentation/)
+3. [Basic typography](https://learn-the-web.algonquindesign.ca/topics/basic-typography/)
+4. [Using Google Fonts](https://learn-the-web.algonquindesign.ca/topics/google-fonts/)
+5. [Browser developer tools](https://learn-the-web.algonquindesign.ca/topics/browser-developer-tools/)
+6. [Browser testing](https://learn-the-web.algonquindesign.ca/topics/browser-testing/)
+7. [Everything is a box](https://learn-the-web.algonquindesign.ca/topics/box-model/)
+8. [Flow & display](https://learn-the-web.algonquindesign.ca/topics/flow-display/)
 
 ---
 

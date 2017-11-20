@@ -6,6 +6,30 @@ playlist: PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM
 download: https://github.com/acgd-learn-the-web/advanced-svg-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/advanced-svg-code
 cheatsheet: svg-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 3, Week 07"
+    url: "/courses/web-dev-3/week-07/"
+  slides:
+    - title: "Advanced SVG"
+      url: "/courses/web-dev-3/advanced-svg/"
+    - title: "SVG icons"
+      url: "/courses/web-dev-3/svg-icons/"
+  activities:
+    - title: "SVG synthesizer"
+      url: "svg-synthesizer"
+  lessons:
+    - title: "SVG smiley face"
+      url: "/courses/web-dev-3/svg-smiley-face/"
+    - title: "Using SVG icons"
+      url: "/courses/web-dev-3/using-svg-icons/"
+  exercises:
+    - title: "Interactive SVG"
+      url: "/courses/web-dev-3/week-07/#interactive-svg"
+    - title: "SVG line drawing"
+      url: "/courses/web-dev-3/week-07/#svg-line-drawing"
+    - title: "SVG icon sets"
+      url: "/courses/web-dev-3/week-08/#svg-icon-sets"
 ---
 
 Scalable vector graphics are amazing for creating graphics on the web because they can be embedded into HTML and treated like actual HTML elements.

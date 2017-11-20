@@ -6,6 +6,21 @@ playlist: PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph
 download: https://github.com/acgd-learn-the-web/image-formats-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/image-formats-code
 cheatsheet: images-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 3, Week 03"
+    url: "/courses/web-dev-3/week-03/"
+  slides:
+    - title: "Preparing images"
+      url: "/courses/web-dev-3/preparing-images/"
+  lessons:
+    - title: "Exporting from Photoshop"
+      url: "/courses/web-dev-3/exporting-from-photoshop"
+    - title: "Exporting from Illustrator"
+      url: "/courses/web-dev-3/exporting-from-illustrator"
+  exercises:
+    - title: "Production prepping & compression"
+      url: "/courses/web-dev-3/week-03/#production-prepping-compression"
 ---
 
 There are a few types of images that can be used on the web: JPGs, PNGs, SVGs, favicons, and GIFs.
@@ -214,11 +229,11 @@ After you’ve converted to the ICO, trash the PNG files—it’s the ICO we nee
 
 It’s suggested you put the favicon right in the root of your website, `http://domain.ca/favicon.ico`, because browsers will look for it there by default.
 
-If, for some reason, you can’t put it there you can use the `<link>` tag to include it.
+If, for some reason, you can’t put it there (like you’re website is hosed inside a folder) you can use the `<link>` tag to include it.
 
 ```html
 <!-- This is optional; it’s better to put the icon at the root of your domain. -->
-<link href="img/favicon.ico" rel="shortcut icon">
+<link href="favicon.ico" rel="shortcut icon">
 ```
 
 ### Platform specific favicons
@@ -235,8 +250,8 @@ These icons are generally always PNGs.
 
 I usually only make two icons but you could end up making many, many more.
 
-- **favicon-144.png** — 144×144 (transparent); for Microsoft.
-- **favicon-152.png** — 152×152; for Apple/Android.
+- **favicon-196.png** — 196×196; for Apple/Android.
+- **favicon-144.png** — 144×144 (transparent); for Microsoft. (*Very, very optional.*)
 
 #### Platform specific meta tags
 
@@ -244,7 +259,8 @@ After saving the icons (and of course smushing them) you’ll need to link them 
 
 ```html
 <meta name="application-name" content="Your Site Name">
-<link rel="apple-touch-icon-precomposed" href="/favicon-152.png">
+<link rel="apple-touch-icon" href="/favicon-196.png">
+<!-- Optional Microsoft Phone stuff -->
 <meta name="msapplication-TileImage" content="/favicon-144.png">
 <meta name="msapplication-TileColor" content="#ef0303">
 ```
@@ -257,7 +273,8 @@ After saving the icons (and of course smushing them) you’ll need to link them 
 - [X Icon Editor](http://xiconeditor.com/)
 - [Apple Touch Icons](http://mathiasbynens.be/notes/touch-icons)
 - [Windows 8 Tile Icons](http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8)
-- [Favico.js](http://lab.ejci.net/favico.js/) — Manipulate favicons with Javascript
+- [HEAD](http://gethead.info/)
+- [Favico.js](http://lab.ejci.net/favico.js/) — Manipulate favicons with JavaScript
 
 ---
 

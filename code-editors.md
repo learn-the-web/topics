@@ -3,14 +3,27 @@ title: "Code editors"
 tags: "code text editors atom sublime install configuration options settings"
 desc: "Setting up and choosing a code editor."
 cheatsheet: keyboard-shortcut-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 02"
+    url: "/courses/web-dev-1/week-02/"
+  activities:
+    - title: "Keyboard Commander"
+      url: "keyboard-commander"
+    - title: "Character Classifier"
+      url: "character-classifier"
+  lessons:
+    - title: "Set up Atom"
+      url: "/courses/web-dev-1/set-up-your-code-editor/"
+    - title: "Set up Sublime Text"
+      url: "/topics/sublime-text/"
+    - title: "Using your code editor"
+      url: "/courses/web-dev-1/using-your-code-editor/"
 ---
 
 Choosing a code editor is a highly personal choice—choose the one that you like the most.
 
 *It’s usually a good idea to download your code editor and use it for a little while before making a decision.*
-
-- **[☛ Atom setup guide](/courses/web-dev-1/set-up-your-code-editor/)**
-- **[☛ Sublime Text setup guide](/topics/sublime-text/)**
 
 ---
 
@@ -79,12 +92,11 @@ A proper code editor will provide a bunch of features to help you write and see 
 
 ## Others you may like
 
+- [BBEdit](http://www.barebones.com/products/bbedit/) (paid)<br>
+  Been around for a very long time, has some amazing text processing capabilities, not as modern looking as others.<br>
+
 - [Textmate 2](http://macromates.com/) (free, right now)<br>
   Going through a revival, decent community, may have to eventually pay.
 
 - [Coda](https://www.panic.com/coda/) (paid)<br>
   Simple, made by a great company, specifically targeted at web development, some good designer focused tools.
-
-- [BBEdit](http://www.barebones.com/products/bbedit/) (paid)<br>
-  Been around for a very long time, has some amazing text processing capabilities, not as modern looking as others.<br>
-  (Has a free version with some of the same functionality: [TextWrangler](http://www.barebones.com/products/textwrangler/).)

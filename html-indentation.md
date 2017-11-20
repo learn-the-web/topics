@@ -5,6 +5,13 @@ desc: "The proper method for indenting HTML to make it understandable by you and
 playlist: PLWjCJDeWfDdey4UwR8TkNLt6VZ2hlWyo-
 download: https://github.com/acgd-learn-the-web/html-indentation-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/html-indentation-code
+extra_practice:
+  activities:
+    - title: "Ingenious Indentor"
+      url: "ingenious-indentor"
+  exercises:
+    - title: "HTML validation fixes"
+      url: "/courses/web-dev-1/week-04/#html-validation-fixes"
 ---
 
 Indentation is a helpful practice when writing code—indentation is for developers, not for computers.

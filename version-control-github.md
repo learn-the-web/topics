@@ -4,6 +4,19 @@ tags: "version control history undo saving github use committing syncing undo sa
 desc: "Understanding the value of version control and how it helps us and using GitHub to store the code’s history and synchronize."
 playlist: PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ
 cheatsheet: commit-message-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 03"
+    url: "/courses/web-dev-1/week-03/"
+  slides:
+    - title: "Version control & GitHub"
+      url: "/courses/web-dev-1/version-control-github/"
+  activities:
+    - title: "Commit Connoisseur"
+      url: "commit-connoisseur"
+  lessons:
+    - title: "Website on GitHub"
+      url: "/courses/web-dev-1/website-on-github/"
 ---
 
 Version control is something all developers & designers should become intimately familiar with. It allows us to track changes in our code, over time, and rollback to older versions if we mess up.

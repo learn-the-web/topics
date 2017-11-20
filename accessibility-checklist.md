@@ -27,7 +27,7 @@ groups:
       - 'Elements appear in the same location on every page visually and code-wise.'
       - 'Colour is not used as the sole method of conveying information.'
       - 'Links are distinguished from surrounding text with more than colour.'
-      - 'Colour contrast issues have been resolved.<br>[Color Oracle](http://colororacle.org/)'
+      - 'Colour contrast issues have been resolved.<br>[Sim Daltonism](https://michelf.ca/projects/sim-daltonism/)'
       - 'Website is readable and functional with a range of font sizes: 2 bigger, 2 smaller.'
       - 'Line-length is not too long.'
       - 'Justified text isn’t used, or used extremely sparingly.'
@@ -39,7 +39,7 @@ groups:
       - 'Hit areas, links & buttons, are big enough for thumbs and users with difficulty using the mouse.'
       - 'Properly implemented skip links.<br>[Skip links](/topics/accessibility#skip-links)'
       - 'Correct elements have WAI-ARIA landmark roles.<br>[Landmark roles](/topics/accessibility#wai-aria-roles)'
-      - 'Appropriate elements have ARIA attributes.<br>[Javascript & accessibility](/topics/javascript-accessibility/)'
+      - 'Appropriate elements have ARIA attributes.<br>[JavaScript & accessibility](/topics/javascript-accessibility/)'
       - 'Animations can be stopped.'
       - 'No presentational elements are read by accessibility tools.'
       - 'Timed functionality can be controlled.'
@@ -55,12 +55,26 @@ groups:
 
   - title: 'Testing'
     items:
-      - 'Tested with many users of different needs.'
-      - 'Validated with an accessibility validator.<br>[AccessLint](http://www.accesslint.com/)'
+      - '**Tested with many users of different needs.**'
+      - 'Validated with an accessibility validator.<br>*(Google Chrome Accessibility Developer Tools)*'
       - 'Has been tested with screen readers.<br>[VoiceOver](/topics/accessibility#voice-over)'
       - 'Tested with images disabled.'
       - 'Tested with CSS disabled.'
       - 'Tested with keyboard only.'
-      - 'Tested with a text-only browser.<br>[Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php)'
+      - 'Tested with a screen magnifier.'
+      - 'Tested with a text-only browser.<br>[Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php) Use W3M to testing.'
+
+  - title: 'VoiceOver shortcuts'
+    notCheckList: true
+    items:
+      - '`⌘ F5` — Turn VoiceOver on/off'
+      - '`⌃` — Pause VoiceOver'
+      - '`⌃⌥ →` — Move to next item'
+      - '`⌃⌥ ←` — Move to previous item'
+      - '`⌃⌥ U` — Open the rotor (Use arrow keys to navigate)'
+      - '`⌃⌥⌘ H` — Next heading (+ `Shift` for previous)'
+      - '`⌃⌥⌘ L` — Next link'
+      - '`⌃⌥⌘ G` — Next graphic'
+      - '`⌃⌥⌘ X` — Next list'
 
 ---

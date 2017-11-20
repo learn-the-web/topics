@@ -91,7 +91,7 @@ Inside this folder create 4 more directories: `assets`, `content`, `design`, `pr
 
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - Compressed & smushed images
 - If it doesn’t go on GitHub, it doesn’t go in this folder
 
@@ -116,7 +116,7 @@ Inside this folder create 4 more directories: `assets`, `content`, `design`, `pr
 
 **Files ON GitHub:**
 
-- Anything text-based: HTML, CSS, Javascript, SVG, plain text, Markdown
+- Anything text-based: HTML, CSS, JavaScript, SVG, plain text, Markdown
 - Compressed & smushed images: JPGs, PNGs, GIFs
 
 **Files NOT ON GitHub:**

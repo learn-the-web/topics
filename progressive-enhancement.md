@@ -5,6 +5,16 @@ desc: "Looking at how the web is not within our control and how we can make our 
 playlist: PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ
 download: https://github.com/acgd-learn-the-web/progressive-enhancement-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/progressive-enhancement-code
+extra_practice:
+  week:
+    title: "Web Dev 5, Week 13"
+    url: "/courses/web-dev-5/week-13/"
+  slides:
+    - title: "PE & a11y"
+      url: "/courses/web-dev-5/pe-a11y/"
+  lessons:
+    - title: "Lazy-loading images"
+      url: "/courses/web-dev-5/lazy-loading-images/"
 ---
 
 It’s our job, as web designers and developers, to accommodate as many possible uncertainties and allow our content to be consumed by anybody, anywhere, anytime.
@@ -33,7 +43,7 @@ There is very little we know about our users and a lot we don’t know:
 - We don’t know the mindset of our users;
 - And we don’t know what abilities our users have.
 
-(From: [CSS-Tricks: What We Don’t Know](http://css-tricks.com/14664-what-we-dont-know/).)
+(From: [CSS-Tricks: What We Don’t Know](https://css-tricks.com/what-we-dont-know/).)
 
 All we know is that our users are human (unless they’re robots.)
 
@@ -57,15 +67,15 @@ Here’s a big checklist of things to consider when developing your website. The
 - ❏ What if the browser is smaller? Or bigger?
 - ❏ What if they’re using only a keyboard?
 - ❏ What if they’re using a touch device?
-- ❏ What if Javascript is disabled?
-- ❏ What if there’s a Javascript error and it doesn’t run?
+- ❏ What if JavaScript is disabled?
+- ❏ What if there’s a JavaScript error and it doesn’t run?
 - ❏ What if the Internet connection is slow?
 - ❏ What if the user prints out the website?
 - ❏ What if your user isn’t giving their full attention?
 - ❏ What if there is double the amount of content on the page?
 - ❏ What if your content is consumed on another website?
 
-**Most of all, test in as many browsers as you can—especially with Javascript off.**
+**Most of all, test in as many browsers as you can—especially with JavaScript off.**
 
 **Links**
 
@@ -78,13 +88,53 @@ Here’s a big checklist of things to consider when developing your website. The
 
 Browsers are not a single platform, each browser supports a different set of features. Often one set of features will work great in one browser but not in another browser and we need to have different CSS for different scenarios.
 
-### Modernizr
+### Detecting in CSS
 
-[Modernizr](http://modernizr.com/) is a popular Javascript solution that detects CSS, HTML & Javascript features. There are two different ways to use it: through CSS classes or through the Javascript interface.
+There’s a native feature detection CSS function that we can use in browsers—the `@supports` declaration:
+
+```css
+@supports (transform-style: preserve-3d) {
+  /* Put your parallax code in here */
+}
+```
+
+You can put practically any property and value into the brackets and the browser will detect it’s existence.
+
+You can combine multiple properties together with `and`:
+
+```css
+@supports (display: flex) and (filter: grayscale(100%)) {
+  /* When flexbox & filter are supported */
+}
+```
+
+There’s also a `not` operator for negating properties:
+
+```css
+@supports (display: flex) and (not (display: grid)) {
+  /* When flexbox is supported but grid is not */
+}
+```
+
+**[See the @supports availability on Can I Use.](http://caniuse.com/#feat=css-supports-api)**
+
+### Detection with JavaScript
+
+In JavaScript we can access CSS’s `@supports` functionality (using the same syntax) like so:
+
+```js
+if (CSS.supports('(transform-style: preserve-3d)')) {
+
+}
+```
+
+#### Modernizr
+
+[Modernizr](http://modernizr.com/) is a popular JavaScript solution that detects CSS, HTML & JavaScript features. There are two different ways to use it: through CSS classes or through the JavaScript interface.
 
 1. On the Modernizr website, configure what features you want to test on the download page.
 2. Generate your version of Modernizr.
-3. Put the Javascript you get into a file named `modernizr.min.js` and include it on your website.
+3. Put the JavaScript you get into a file named `modernizr.min.js` and include it on your website.
 
 When it comes to Modernizr, it’s often best to put it in the `<head>` of your HTML file. That’s usually a performance no-no because it pauses rendering in the browser. In the case of Modernizr we don’t want the website rendered until after Modernizr has run.
 
@@ -117,31 +167,17 @@ h1 {
 }
 ```
 
-#### Modernizr Javascript conditionals
+#### Modernizr JavaScript conditionals
 
-We can also use Modernizr in our Javascript code with the `Modernizr` object.
+We can also use Modernizr in our JavaScript code with the `Modernizr` object.
 
-In our Javascript we could write something like this:
+In our JavaScript we could write something like this:
 
 ```js
 if (!Modernizr.csstransforms) {
   /* Do something when CSS transforms aren’t supported */
 }
 ```
-
-### Detecting without Javascript
-
-There’s a new CSS property that we can use in some browsers—eventually it will be a very powerful solution.
-
-We can use native feature detection using the `@supports` declaration:
-
-```css
-@supports (transform-style: preserve-3d) {
-  /* Put your parallax code in here */
-}
-```
-
-**[See the @supports availability on Can I Use.](http://caniuse.com/#feat=css-supports-api)**
 
 **Links**
 
@@ -152,21 +188,21 @@ We can use native feature detection using the `@supports` declaration:
 
 ## Modern browsers only
 
-Sometimes we only want to target our Javascript at fairly modern browsers. We should detect each Javascript feature before we use them to confirm the browser has the abilities we need.
+Sometimes we only want to target our JavaScript at fairly modern browsers. We should detect each JavaScript feature before we use them to confirm the browser has the abilities we need.
 
-*That doesn’t mean the website becomes unusable without Javascript, just that users can still access all the information but with a different user experience.*
+*That doesn’t mean the website becomes unusable without JavaScript, just that users can still access all the information but with a different user experience.*
 
 ### Cutting the mustard
 
-The [BBC](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) came up with a technique they call “Cutting the Mustard”: if the browser doesn’t cut the mustard it doesn’t get the Javascript.
+The [BBC](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard) came up with a technique they call “Cutting the Mustard”: if the browser doesn’t cut the mustard it doesn’t get the JavaScript.
 
-In the BBC article they choose to test for three major features: `querySelector`, `localStorage` & `addEventListener`. We can test these in Javascript and keep the results in a variable:
+In the BBC article they choose to test for three major features: `querySelector`, `localStorage` & `addEventListener`. We can test these in JavaScript and keep the results in a variable:
 
 ```js
 var cutsTheMustard = ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window);
 ```
 
-Then using an if-statement we can load our Javascript file if the browser passes the test:
+Then using an if-statement we can load our JavaScript file if the browser passes the test:
 
 ```js
 var js;
@@ -179,7 +215,7 @@ if (cutsTheMustard) {
 }
 ```
 
-*This is a very, very basic Javascript script loader, check out the links for a few more below.*
+*This is a very, very basic JavaScript script loader, check out the links for a few more below.*
 
 **Links**
 
@@ -196,20 +232,20 @@ if (cutsTheMustard) {
 
 ---
 
-## Javascript on & off
+## JavaScript on & off
 
-When Javascript is off we don’t need to provide an identical experience for the user—we just need to make sure the content is available.
+When JavaScript is off we don’t need to provide an identical experience for the user—we just need to make sure the content is available.
 
 ### Progressively enhanced tabs
 
-For tabs, as an example, the non-Javascript experience would just be a list with internal links that jump down to the appropriate pieces of content. There are no visual tabs but a list of content where each of the tab panels are always visible.
+For tabs, as an example, the non-JavaScript experience would just be a list with internal links that jump down to the appropriate pieces of content. There are no visual tabs but a list of content where each of the tab panels are always visible.
 
-When the Javascript executes, it builds the tab interface back up, triggering the appropriate CSS, adding the ARIA attributes, and making the tabs function as we’re used to.
+When the JavaScript executes, it builds the tab interface back up, triggering the appropriate CSS, adding the ARIA attributes, and making the tabs function as we’re used to.
 
-We don’t need to have the ARIA attributes on the default non-JS version because ARIA is primarily for interactions built with Javascript.
+We don’t need to have the ARIA attributes on the default non-JS version because ARIA is primarily for interactions built with JavaScript.
 
 - [See working progressively enhanced tabs.](http://demos.learn-the-web.algonquindesign.ca/progressive-enhancement/tabs.html)
-  *Make sure to test with Javascript turned off.*
+  *Make sure to test with JavaScript turned off.*
 - [Browse commented progressively enhancement tabs code.](https://github.com/acgd-learn-the-web/progressive-enhancement-code/blob/gh-pages/js/tabs.js)
 
 ---
@@ -228,11 +264,11 @@ We don’t need to have the ARIA attributes on the default non-JS version becaus
 - [Wikpedia: Progressive enhancement](https://en.wikipedia.org/wiki/Progressive_enhancement)
 - [Designing with Progressive Enhancement](https://www.filamentgroup.com/dwpe/) & [Code samples](https://www.filamentgroup.com/dwpe/code/)
 - [The True Cost of Progressive Enhancement](http://blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement/)
-- [Pragmatic progressive enhancement - why you should bother with it](http://icant.co.uk/articles/pragmatic-progressive-enhancement/)
+- [Pragmatic progressive enhancement - why you should bother with it](https://christianheilmann.com/2008/05/06/pragmatic-progressive-enhancement/)
 - [Gov.uk: Progressive enhancement](https://www.gov.uk/service-manual/making-software/progressive-enhancement.html)
 - [Understanding Progressive Enhancement](http://alistapart.com/article/understandingprogressiveenhancement)
 - [Progressive Enhancement 101: Overview and Best Practices](http://sixrevisions.com/web-development/progressive-enhancement/)
-- [The Real Progressive Enhancement](http://adamsilver.io/articles/the-real-progressive-enhancement/)
+- [The Real Progressive Enhancement](https://adamsilver.io/articles/the-real-progressive-enhancement)
 - [The design of datalist](https://adactio.com/journal/4272)
 - [Progressive Enhancement: Zed’s Dead, Baby](http://tomdale.net/2013/09/progressive-enhancement-is-dead/)
 - [Design Consistency for the Responsive Web](https://docs.google.com/presentation/d/10xurAtRO5tCN4UjqbgbBnASXlVYsX-wul9A3w3-FfBc/edit?pli=1)

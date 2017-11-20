@@ -3,6 +3,10 @@ title: "Using Google Fonts"
 tags: "google web custom fonts link use"
 desc: "Including a custom, non-standard web font on your website using Google Fonts."
 video: JuwYg_54b6c
+extra_practice:
+  lessons:
+    - title: "Dinosaur designs"
+      url: "/courses/web-dev-1/dinosaur-designs/"
 ---
 
 Google Fonts is a free service provided by Google that allows us to use some really nice type families on your websites.

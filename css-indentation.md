@@ -5,6 +5,10 @@ desc: "The proper method for indenting CSS to make it understandable by you and 
 playlist: PLWjCJDeWfDdcYd1EDEy4HPi7Mjiv8Tmyr
 download: https://github.com/acgd-learn-the-web/css-indentation-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/css-indentation-code
+extra_practice:
+  exercises:
+    - title: "CSS validation fixes"
+      url: "/courses/web-dev-1/week-05/#css-validation-fixes"
 ---
 
 Indentation is a helpful practice when writing code—indentation is for developers, not for computers.
@@ -231,4 +235,4 @@ html {
 - [Code Guide](http://codeguide.co/)
 - [Trello CSS Guide](https://gist.github.com/bobbygrace/9e961e8982f42eb91b80)
 - [Idiomatic CSS](https://github.com/necolas/idiomatic-css)
-- [Google HTML/CSS Style Guide](https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)

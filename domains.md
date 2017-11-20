@@ -3,6 +3,23 @@ title: "Domains & DNS"
 tags: "domains dns tld ca com internet web ip works a ns mx cname email hover fastmail github cloudflare apex"
 desc: "Understanding domains and the DNS system and setting up a custom domain for your website."
 playlist: PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p
+extra_practice:
+  week:
+    title: "Web Dev 5, Week 03"
+    url: "/courses/web-dev-5/week-03/"
+  slides:
+    - title: "Domains & DNS"
+      url: "/courses/web-dev-5/domains-dns/"
+    - title: "Email account types"
+      url: "/courses/web-dev-5/email-account-types/"
+  lessons:
+    - title: "Buying a domain & email"
+      url: "/courses/web-dev-5/buying-a-domain-and-email/"
+    - title: "Hosting setup"
+      url: "/courses/web-dev-5/hosting-setup/"
+  activities:
+    - title: "Domain Destroyer"
+      url: "domain-destroyer"
 ---
 
 The Internet is a distributed system of interconnected computers throughout the world.
@@ -48,7 +65,7 @@ After you type the domain into your browser and go your computer starts making a
   **IP address of the website host is called the `A` record.**
 3. When your computer gets the IP address it connects directly to the host computer and requests to see the website.
 4. The host/web-server will then return the `index.html` file for the website you requested.
-  Your browser will then start requesting all the other resources of your website like CSS, images, Javascript, etc.
+  Your browser will then start requesting all the other resources of your website like CSS, images, JavaScript, etc.
   If those resources are located on another domain the whole process starts all over again at step 1.
 
 #### Authoritative name server
@@ -100,7 +117,7 @@ Though we generally call it “buying” a domain you aren’t technically *buyi
 
 ### Buying e-mail service with FastMail
 
-There are lots of different e-mail providers and hosts often provide e-mail exchange also. But it’s best to purchase your e-mail from another provider. I often buy my e-mail services from [FastMail](https://www.fastmail.com/).
+There are lots of different e-mail providers and hosts often provide e-mail exchange also. But it’s best to purchase your e-mail from another provider. I often buy my e-mail services from [FastMail](https://www.fastmail.com/?STKI=12009945)†.
 
 *Make sure your e-mail provider supports custom domains—FastMail only supports this in their more expensive packages. ([The standard package works great!](https://www.fastmail.com/signup/))*
 
@@ -138,7 +155,7 @@ Using GitHub as a static web host is simple, integrates with our processes—and
 
 ### Recommended e-mail providers
 
-- [FastMail](https://www.fastmail.com/)
+- [FastMail](https://www.fastmail.com/?STKI=12009945)†
 - [Google Apps for Work](http://www.google.com/work/apps/business/)
 - [Rackspace](http://www.rackspace.com/email-hosting/webmail/)
 - [MailRoute](http://mailroute.net/) (strong spam protection)
@@ -154,3 +171,7 @@ Using GitHub as a static web host is simple, integrates with our processes—and
 ### Security & performance
 
 - [CloudFlare](https://www.cloudflare.com/)
+
+---
+
+*† The FastMail links are referral links, from me, that will get you 10% off your first year.*

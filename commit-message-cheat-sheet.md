@@ -42,5 +42,6 @@ groups:
           - '“Remove the last section.”'
       - name: '*Example imperative verbs*'
         details:
-          - '“Fix”, “Change”, “Add”, “Remove”, “Test”, “Amend”, “Calculate”, “Correct”, “Finish”, “Disable”, “Darken”, “Lighten”, “Format”, “Extract”, “Improve”, “Implement”, “Push”'
+          - '“Fix”, “Change”, “Add”, “Remove”, “Test”, “Amend”, “Calculate”, “Correct”, “Finish”, “Disable”, “Darken”, “Lighten”, “Format”, “Extract”, “Improve”, “Push”'
+          - '[*See the list of imperative verbs Markbot uses*](https://github.com/thomasjbradley/markbot/blob/master/app/checks/git/best-practices/verb-white-list.json)'
 ---

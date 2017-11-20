@@ -6,6 +6,13 @@ playlist: PLWjCJDeWfDdfL6qRH1A04rcGe624fTeCS
 download: https://github.com/acgd-learn-the-web/writing-for-the-web-samples/archive/master.zip
 github: https://github.com/acgd-learn-the-web/writing-for-the-web-samples
 checklist: writing-checklist
+extra_practice:
+  week:
+    title: "Web Dev 5, Week 04"
+    url: "/courses/web-dev-5/week-04/"
+  exercises:
+    - title: "Writing a README"
+      url: "/courses/web-dev-5/writing-a-readme/"
 ---
 
 The words you choose for your design are equally—if not more—important than the colours and layout of your design. Without words your website isn’t understandable.

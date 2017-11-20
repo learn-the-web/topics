@@ -6,6 +6,19 @@ playlist: PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx
 download: https://github.com/acgd-learn-the-web/metadata-enhanced-semantics-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/metadata-enhanced-semantics-code
 checklist: seo-checklist
+extra_practice:
+  week:
+    title: "Web Dev 5, Week 07"
+    url: "/courses/web-dev-5/week-07/"
+  slides:
+    - title: "SEO & metadata"
+      url: "/courses/web-dev-5/seo-metadata/"
+  lessons:
+    - title: "Portfolio MicroData"
+      url: "/courses/web-dev-5/portfolio-microdata/"
+  activities:
+    - title: "Search Seer"
+      url: "search-seer"
 ---
 
 There are a bunch of standards to enhance the semantics of our websites. Search engines look for these semantics, infer information from them, and adapt their search results to them. Also, when people link to your website from social media sites you can provide defaults for the displayed content.
@@ -216,6 +229,8 @@ Relationships can be defined in HTML using the `rel` attribute. These relationsh
 <a href="/files/download.pdf" download="Download.pdf" rel="enclosure">Download Now!</a>
 <!-- Linking to the `license` for this document -->
 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">License</a>
+<!-- For advertiser or untrusted links -->
+<a href="http://badwebsite.thing" rel="nofollow">Advertiser</a>
 ```
 
 **Links**
@@ -241,7 +256,7 @@ Four tags are required to support the Open Graph Protocol:
 ```html
 <head>
   ⋮
-  <meta property="og:type" content="article">
+  <meta property="og:type" content="website">
   <meta property="og:title" content="Title of this page, same as title tag">
   <meta property="og:url" content="http://fullurl.com/to-this/page/">
   <!-- Image dimensions: minimum 200x200; recommended 1500x1500 -->
@@ -281,6 +296,7 @@ The default card is the “summary” card; it requires four tags:
 <head>
   ⋮
   <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@yourtwitterhandle">
   <meta name="twitter:title" content="Title of this page, same as title tag">
   <meta name="twitter:url" content="http://fullurl.com/to-this/page/">
   <meta name="twitter:description" content="Description of this page, same as meta description">
@@ -290,13 +306,37 @@ The default card is the “summary” card; it requires four tags:
 </head>
 ```
 
-There are many optional tags for larger images and different types of content like: [photos](https://dev.twitter.com/docs/cards/types/photo-card), [galleries](https://dev.twitter.com/docs/cards/types/gallery-card), [apps](https://dev.twitter.com/docs/cards/types/app-card), [media](https://dev.twitter.com/docs/cards/types/player-card), and [products](https://dev.twitter.com/docs/cards/types/product-card).
+There are many optional tags for larger images and different types of content like: [photos](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image), [apps](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/app-card), and [media](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card).
 
 **Links**
 
-- [Twitter Card Documentation](https://dev.twitter.com/docs/cards)
-- [Markup Reference](https://dev.twitter.com/docs/cards/markup-reference)
-- [Twitter Card Validator](https://dev.twitter.com/docs/cards/validation/validator)
+- [Twitter Card Documentation](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary)
+- [Markup Reference](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup)
+
+---
+
+## Geotagging
+
+With a few more meta tags in our HTML we can specify a location for what the website represents on Earth—it’s great for stores and websites that represent physical locations.
+
+```html
+<head>
+  ⋮
+  <!-- The longitude and latitude of the location -->
+  <meta name="ICBM" content="45.416667,-75.7">
+  <meta name="geo.position" content="45.416667;-75.7">
+  <!-- The country and province/state -->
+  <meta name="geo.region" content="ca-on">
+  <!-- The town or city of the location -->
+  <meta name="geo.placename" content="Ottawa">
+  ⋮
+</head>
+```
+
+**Links**
+
+- [ICBM address](https://en.wikipedia.org/wiki/ICBM_address#Modern_use)
+- [Geotagging](https://en.wikipedia.org/wiki/Geotagging#HTML_pages)
 
 ---
 
@@ -308,3 +348,7 @@ There are many optional tags for larger images and different types of content li
 4. [Metadata: mapping Schema.org to JSON-LD](https://www.youtube.com/watch?v=s81d0PxMjlc&index=4&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx)
 5. [Metadata: Linking two JSON-LD chunks](https://www.youtube.com/watch?v=IeAVWa_-4zE&index=5&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx)
 6. [Metadata: social meta tags](https://www.youtube.com/watch?v=xxk21IhoSdU&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx&index=6)
+
+## Supplemental links
+
+- [HEAD](https://gethead.info/)

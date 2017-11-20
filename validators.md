@@ -3,9 +3,18 @@ title: "Validators"
 tags: "html css javascript validators checkers test w3c confirm semantics standards"
 desc: "Using different validation tools to check for common errors in your code."
 playlist: PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM
+extra_practice:
+  activities:
+    - title: "Validation Verifier"
+      url: "validation-verifier"
+  exercises:
+    - title: "HTML validation fixes"
+      url: "/courses/web-dev-1/week-04/#html-validation-fixes"
+    - title: "CSS validation fixes"
+      url: "/courses/web-dev-1/week-05/#css-validation-fixes"
 ---
 
-Validating our HTML, CSS, and Javascript is helpful for finding bugs as well has helping make sure it will render more consistently in all browsers.
+Validating our HTML, CSS, and JavaScript is helpful for finding bugs as well has helping make sure it will render more consistently in all browsers.
 
 ---
 
@@ -101,9 +110,9 @@ Then, armed with this information we can help make our CSS better by: combining 
 
 ---
 
-## Validating Javascript
+## Validating JavaScript
 
-Validating Javascript, also called linting, allows us to find major bugs in our code, or things that often cause weirdness.
+Validating JavaScript, also called linting, allows us to find major bugs in our code, or things that often cause weirdness.
 
 There are two major linters: JS Hint & JS Lint:
 
@@ -134,4 +143,4 @@ You can configure the linting, for instance to allow jQuery by pressing the “C
 
 1. [Validation: HTML and CSS](https://www.youtube.com/watch?v=79qAXqE3Qz8&index=1&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM)
 2. [Validation: CSS linting & stats](https://www.youtube.com/watch?v=LN5P4SrRgeE&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=2)
-3. [Validation: Javascript](https://www.youtube.com/watch?v=4vXx5gClY6c&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=3)
+3. [Validation: JavaScript](https://www.youtube.com/watch?v=4vXx5gClY6c&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=3)

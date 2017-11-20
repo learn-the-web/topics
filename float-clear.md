@@ -6,6 +6,23 @@ playlist: PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0
 download: https://github.com/acgd-learn-the-web/float-clear-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/float-clear-code
 cheatsheet: css-layout-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 08"
+    url: "/courses/web-dev-1/week-08/"
+  slides:
+    - title: "Float & clear"
+      url: "/courses/web-dev-1/float-clear"
+  lessons:
+    - title: "Learning float & clear"
+      url: "/courses/web-dev-1/learning-float-and-clear/"
+  exercises:
+    - title: "Header icons"
+      url: "/courses/web-dev-1/week-08/#header-icons"
+    - title: "Typographic insets"
+      url: "/courses/web-dev-1/week-08/#typographic-insets"
+    - title: "Columns of cards"
+      url: "/courses/web-dev-1/week-08/#columns-of-cards"
 ---
 
 Floats and clearing are used to allow text to wrap around an object. With more complex usage, floats can be used to create complex layouts, including columns and grids.

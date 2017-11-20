@@ -6,6 +6,24 @@ playlist: PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS
 download: https://github.com/acgd-learn-the-web/using-css-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/using-css-code
 cheatsheet: css-selectors-units-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 05"
+    url: "/courses/web-dev-1/week-05/"
+  slides:
+    - title: "CSS introduction"
+      url: "/courses/web-dev-1/css-introduction/"
+  lessons:
+    - title: "Dinosaur designs"
+      url: "/courses/web-dev-1/dinosaur-designs/"
+  activities:
+    - title: "Selector Surgeon"
+      url: "selector-surgeon"
+  exercises:
+    - title: "Use all the selectors"
+      url: "/courses/web-dev-1/week-05/#use-all-the-selectors"
+    - title: "Stylish beets"
+      url: "/courses/web-dev-1/week-05/#stylish-beets"
 ---
 
 Covering creating Cascading Style Sheets, attaching them to your HTML, and basic targeting and styling of websites.
@@ -229,9 +247,9 @@ ul li:nth-child(4) {}
 **Links**
 
 - **[MDN: CSS selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)**
-- [CSS Tricks: How nth-child Works](http://css-tricks.com/how-nth-child-works/)
+- [CSS Tricks: How nth-child Works](https://css-tricks.com/how-nth-child-works/)
 - [SitePoint: Understanding :nth-child Pseudo-class Expressions](http://www.sitepoint.com/web-foundations/understanding-nth-child-pseudo-class-expressions/)
-- **[The CSS3 :nth-child Calculator](http://nth-calculator.com/)**
+- **[Nth-child tester](https://css-tricks.com/examples/nth-child-tester/)**
 - [Nth Master](http://nthmaster.com/)
 
 ---

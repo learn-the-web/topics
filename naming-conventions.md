@@ -3,6 +3,10 @@ title: "Naming conventions"
 tags: "naming conventions lower case dashes no spaces underscore folders files structure"
 desc: "Writing the proper file name for consistency on the web."
 cheatsheet: naming-paths-cheat-sheet
+extra_practice:
+  activities:
+    - title: "Naming Conventioneer"
+      url: "naming-conventioneer"
 ---
 
 When coding websites there’s a restriction on how we must name our files and folders.

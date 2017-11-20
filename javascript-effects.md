@@ -1,19 +1,19 @@
 ---
-title: "Javascript effects"
+title: "JavaScript effects"
 tags: "javascript effects scrolling transitions animations end events waypoints smooth scroll manipulating svg"
-desc: "Using Javascript to trigger and create lots of effects on a website like animations and scrolling effects."
+desc: "Using JavaScript to trigger and create lots of effects on a website like animations and scrolling effects."
 playlist: PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_
 download: https://github.com/acgd-learn-the-web/javascript-effects-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-effects-code
 ---
 
-Common Javascript effects used on websites: triggering animations, scrolling effects, smooth scrolling, and waypoints.
+Common JavaScript effects used on websites: triggering animations, scrolling effects, smooth scrolling, and waypoints.
 
 ---
 
 ## Triggering CSS animations
 
-CSS animations can be triggered by Javascript simply by storing the `animation` property in a class.
+CSS animations can be triggered by JavaScript simply by storing the `animation` property in a class.
 
 ```css
 .box {
@@ -29,7 +29,7 @@ CSS animations can be triggered by Javascript simply by storing the `animation` 
 }
 ```
 
-In our Javascript all we have to do is assign the appropriate class to the element:
+In our JavaScript all we have to do is assign the appropriate class to the element:
 
 ```js
 var $box = $('.box');
@@ -56,7 +56,7 @@ We can also trigger transitions by setting them up in the default state for the 
 }
 ```
 
-All the Javascript needs to do is add the `js-box-fade` class, then the `transition` will just automatically trigger.
+All the JavaScript needs to do is add the `js-box-fade` class, then the `transition` will just automatically trigger.
 
 ### Listening for animations to end
 
@@ -84,7 +84,7 @@ $box.on('webkitAnimationEnd animationend', function () {
 
 ### Transition end
 
-We can, of course, also listen for transition end, with the `transitionend` event. The Javascript code is exactly the same as for animations:
+We can, of course, also listen for transition end, with the `transitionend` event. The JavaScript code is exactly the same as for animations:
 
 ```js
 var $box = $('.box');
@@ -101,9 +101,9 @@ $box.on('transitionend', function () {
 - [Animating List Items](https://cssanimation.rocks/list-items/)
 - [Animate.css](http://daneden.github.io/animate.css/)
 
-### Javascript animation libraries
+### JavaScript animation libraries
 
-For more complex animations and interactions there’s a bunch of Javascript libraries to help out.
+For more complex animations and interactions there’s a bunch of JavaScript libraries to help out.
 
 - **[GSAP](http://greensock.com/gsap)**
 - [Velocity.js](http://julian.com/research/velocity/)
@@ -113,7 +113,7 @@ For more complex animations and interactions there’s a bunch of Javascript lib
 
 ## Scrolling animations
 
-With Javascript we can detect lots of things happening to the browser, specifically what happens to the window.
+With JavaScript we can detect lots of things happening to the browser, specifically what happens to the window.
 
 The browser window fires a bunch of events that we can listen to. The ones I use most often are `resize` and `scroll`.
 
@@ -161,7 +161,7 @@ First include that script on your page, either by downloading it or using a cont
 </html>
 ```
 
-In our Javascript we can now detect when an element scrolls to the top of the page.
+In our JavaScript we can now detect when an element scrolls to the top of the page.
 
 ```js
 var $img = $('.thing');
@@ -242,7 +242,7 @@ Finally, we just have to change the `context` that Waypoints uses to monitor scr
 var $img = $('.thing');
 
 $img.waypoint(function () {
-  // Javascript stuff here
+  // JavaScript stuff here
 }, { context: '.wrapper' }); // Change the context to `.wrapper`
 ```
 
@@ -288,7 +288,7 @@ The HTML setup is no different than normal HTML with internal links:
 <section id="meat-eaters"></section>
 ```
 
-In our Javascript, we only need one line of code:
+In our JavaScript, we only need one line of code:
 
 ```js
 $('.nav').localScroll();
@@ -300,7 +300,7 @@ $('.nav').localScroll();
 
 If we want to use smooth scrolling and [**☛ CSS Parallax**](/topics/css-animations-effects/#parallax) together, there’s just a few minor changes we have to make.
 
-In our Javascript we have to target a new element as the scrollable:
+In our JavaScript we have to target a new element as the scrollable:
 
 ```js
 $('.nav').localScroll({
@@ -317,7 +317,7 @@ $('.nav').localScroll({
 
 ## Manipulating SVG
 
-With our SVG embedded directly in HTML we can treat the elements like any other HTML element and manipulate them with Javascript.
+With our SVG embedded directly in HTML we can treat the elements like any other HTML element and manipulate them with JavaScript.
 
 ```xml
 <div class="graphic">
@@ -327,7 +327,7 @@ With our SVG embedded directly in HTML we can treat the elements like any other 
 </div>
 ```
 
-Then, in Javascript, we can select and manipulate the elements. Here’s an example with jQuery:
+Then, in JavaScript, we can select and manipulate the elements. Here’s an example with jQuery:
 
 ```js
 var $myRect = $('.my-rect');
@@ -336,7 +336,7 @@ $myRect.css('fill', '#000');
 
 ### Triggering SVG animations & transitions
 
-Since we can apply transitions and animations to our SVGs, we can also trigger them using Javascript.
+Since we can apply transitions and animations to our SVGs, we can also trigger them using JavaScript.
 
 First we need to set up our CSS, something like this:
 
@@ -379,7 +379,7 @@ We can do exactly the same thing with transitions, treating SVG no differently t
 
 ### SVG manipulation libraries
 
-For more complex SVG animations and manipulations there’s a bunch of Javascript libraries to help out.
+For more complex SVG animations and manipulations there’s a bunch of JavaScript libraries to help out.
 
 - **[Snap.svg](http://snapsvg.io/)**
 - [SVG.js](http://www.svgjs.com/)
@@ -390,12 +390,12 @@ For more complex SVG animations and manipulations there’s a bunch of Javascrip
 
 ## Video list
 
-1. [Javascript effects: triggering animations](https://www.youtube.com/watch?v=8NcbPhLulas&index=1&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
-2. [Javascript effects: listening for the animation to end](https://www.youtube.com/watch?v=Ja0YxV-DCsE&index=2&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
-3. [Javascript effects: scrolling animations](https://www.youtube.com/watch?v=nhHqiGCG10E&index=3&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
-4. [Javascript effects: waypoints](https://www.youtube.com/watch?v=5hPVpVtgle4&index=4&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
-5. [Javascript effects: smooth scrolling](https://www.youtube.com/watch?v=OkmwkrSEBMo&index=5&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
-6. [Javascript effects: trigger animations & transitions on SVGs](https://www.youtube.com/watch?v=HFdvTWVBplA&index=6&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
+1. [JavaScript effects: triggering animations](https://www.youtube.com/watch?v=8NcbPhLulas&index=1&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
+2. [JavaScript effects: listening for the animation to end](https://www.youtube.com/watch?v=Ja0YxV-DCsE&index=2&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
+3. [JavaScript effects: scrolling animations](https://www.youtube.com/watch?v=nhHqiGCG10E&index=3&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
+4. [JavaScript effects: waypoints](https://www.youtube.com/watch?v=5hPVpVtgle4&index=4&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
+5. [JavaScript effects: smooth scrolling](https://www.youtube.com/watch?v=OkmwkrSEBMo&index=5&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
+6. [JavaScript effects: trigger animations & transitions on SVGs](https://www.youtube.com/watch?v=HFdvTWVBplA&index=6&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
 
 ## Supplemental links
 

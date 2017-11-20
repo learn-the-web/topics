@@ -6,6 +6,16 @@ playlist: PLWjCJDeWfDdfzjgthWhvHOxyvFZDCp_2L
 download: https://github.com/acgd-learn-the-web/yaml-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/yaml-code
 cheatsheet: markdown-yaml-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 4, Week 04"
+    url: "/courses/web-dev-4/week-04/"
+  slides:
+    - title: "Markdown & YAML"
+      url: "/courses/web-dev-4/markdown-yaml/"
+  activities:
+    - title: "YAML Yodeller"
+      url: "yaml-yodeller"
 ---
 
 Yet Another Markup Language (YAML) is a way to create structured text and data—often used for generating websites and configuration.
@@ -20,8 +30,8 @@ When using a system like [☛ Jekyll](/topics/jekyll/), YAML can bet used for ex
 
 A couple examples:
 
-- [This tutorial uses YAML, see the source code](https://github.com/acgd-learn-the-web/topics/blob/master/yaml/index.md)
-- [The Markdown & YAML cheat sheet is written in YAML, see the code](https://github.com/acgd-learn-the-web/topics/blob/master/markdown-yaml-cheat-sheet/index.md)
+- [This tutorial uses YAML, see the source code](https://raw.githubusercontent.com/acgd-learn-the-web/topics/master/yaml.md)
+- [The Markdown & YAML cheat sheet is written in YAML, see the code](https://raw.githubusercontent.com/acgd-learn-the-web/topics/master/markdown-yaml-cheat-sheet.md)
 
 ---
 
@@ -37,8 +47,8 @@ YAML is for structuring data and information using systems like objects and arra
 
 The data of YAML has two main structures:
 
-- **objects:** like `<dl>` elements in HTML, or `{}` objects in Javascript
-- **arrays:** like `<ul>` elements in HTML, or `[]` arrays in Javascript
+- **objects:** like `<dl>` elements in HTML, or `{}` objects in JavaScript
+- **arrays:** like `<ul>` elements in HTML, or `[]` arrays in JavaScript
 
 ## Objects
 

@@ -1,8 +1,8 @@
 ---
 layout: cheatsheet
-title: "Javascript cheat sheet"
+title: "JavaScript cheat sheet"
 tags: "javascript app code cheat sheet"
-desc: "A cheat sheet for Javascript code, syntax and common application development techniques."
+desc: "A cheat sheet for JavaScript code, syntax and common application development techniques."
 
 groups:
   - title: 'Syntax'
@@ -214,7 +214,7 @@ groups:
           - "`children(selector)` — find specific child elements."
           - "`siblings(selector)` — find specific siblings."
           - "`eq(index)` — get the element by its index."
-          - "`get()` — get the raw Javascript element."
+          - "`get()` — get the raw JavaScript element."
           - |
             &nbsp;
 

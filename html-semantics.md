@@ -7,6 +7,28 @@ download: https://github.com/acgd-learn-the-web/html-semantics-code/archive/mast
 github: https://github.com/acgd-learn-the-web/html-semantics-code
 cheatsheet: html-semantics-cheat-sheet
 checklist: html-semantics-checklist
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 04"
+    url: "/courses/web-dev-1/week-04/"
+  slides:
+    - title: "HTML introduction"
+      url: "/courses/web-dev-1/html-introduction/"
+  lessons:
+    - title: "HTML document setup"
+      url: "/courses/web-dev-1/html-document-setup/"
+  activities:
+    - title: "Semantics Soothsayer"
+      url: "semantics-soothsayer"
+  exercises:
+    - title: "Masthead semantics"
+      url: "/courses/web-dev-1/week-04/#masthead-semantics"
+    - title: "Content semantics"
+      url: "/courses/web-dev-1/week-04/#content-semantics"
+    - title: "HTML writer"
+      url: "/courses/web-dev-2/week-01/#html-writer"
+    - title: "Me-oh-my HTML"
+      url: "/courses/web-dev-3/week-02/#me-oh-my-html"
 ---
 
 HTML (Hypertext Markup Language) is the coding language used to describe the content of websites.

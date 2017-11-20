@@ -64,7 +64,7 @@ groups:
       - 'Yandex'
       - 'Windows Phone IE'
       - 'Kindle Browser, black & white e-ink'
-      - 'Lynx, text only browser'
+      - 'W3M, text only browser'
       - 'Blackberry browser'
       - 'Firefox Mobile'
       - 'Symbian browser, older Nokia phones'

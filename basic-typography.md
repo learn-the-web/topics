@@ -6,6 +6,22 @@ playlist: PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG
 download: https://github.com/acgd-learn-the-web/basic-typography-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/basic-typography-code
 cheatsheet: web-typography-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 05"
+    url: "/courses/web-dev-1/week-05/"
+  slides:
+    - title: "CSS introduction"
+      url: "/courses/web-dev-1/css-introduction/"
+  lessons:
+    - title: "Dinosaur designs"
+      url: "/courses/web-dev-1/dinosaur-designs/"
+  activities:
+    - title: "Em Enforcer"
+      url: "em-enforcer"
+  exercises:
+    - title: "Stylish beets"
+      url: "/courses/web-dev-1/week-05/#stylish-beets"
 ---
 
 CSS provides lots of control over typography on your website—here’s some of the basics.

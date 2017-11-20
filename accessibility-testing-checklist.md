@@ -22,7 +22,7 @@ groups:
     items:
       - 'No images'
       - 'No CSS'
-      - 'No Javascript'
+      - 'No JavaScript'
       - 'No sound'
       - 'No mouse (AKA keyboard access)'
 
@@ -31,7 +31,6 @@ groups:
       - 'VoiceOver (on your Mac)'
       - '[Sim Daltonism](https://michelf.ca/projects/sim-daltonism/)'
       - '[Web Developer Toolbar](http://chrispederick.com/work/web-developer/)'
-      - '[AccessLint](http://www.accesslint.com/)'
       - '[Chrome Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)'
       - '[Check My Colours](http://www.checkmycolours.com/)'
       - '[Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php)'

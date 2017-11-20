@@ -2,9 +2,19 @@
 title: "The Open Web"
 tags: "open web development standards agreement browsers urls hyperlinks internet domain dns ip address url server host http html css javascript layers"
 desc: "A quick introduction to the Open Web."
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 02"
+    url: "/courses/web-dev-1/week-02/"
+  slides:
+    - title: "The Open Web"
+      url: "/courses/web-dev-1/the-open-web/"
+  activities:
+    - title: "Acronym Annihilator"
+      url: "acronym-annihilator"
 ---
 
-The [web is an agreement](http://www.flickr.com/photos/psd/1805709102/) made up of various different components and standards and people.
+The [web is an agreement](https://www.flickr.com/photos/psd/1805709102/) made up of various different components and standards and people.
 
 > The web is agreement. Web standards are agreements we use every day.
 > [Jeremy Keith](https://twitter.com/zeldman/status/100950760807870464)
@@ -40,7 +50,7 @@ For a website to be true, it must follow three simple rules:
 - `W3C` — The World Wide Web Consortium: a group of companies and individuals who work on standardizing all the web technologies.
 - `HTML` — Hypertext Markup Language: the coding language used to describe the content on all webpages.
 - `CSS` — Cascading Style Sheets: the coding language used to describe how websites look.
-- `Javascript` — The programming language used to add extra interactivity to websites.
+- `JavaScript` — The programming language used to add extra interactivity to websites.
 
 ---
 
@@ -50,7 +60,7 @@ One of the primary principles of the web is openness and transparency. Tim Berne
 
 Every website relies on open source code, open technologies, and as web designers we strive to keep all our knowledge completely open and transparent.
 
-**The source code for every website is always visible through developer tools: all their HTML, CSS, and Javascript.**
+**The source code for every website is always visible through developer tools: all their HTML, CSS, and JavaScript.**
 
 **Links**
 
@@ -81,4 +91,3 @@ All a website needs is good content, the HTML, everything else just improves the
 ## Supplemental links
 
 - [Principles of web development](https://vasilis.nl/nerd/principles-web-development/)
-- [Shape of the Web](https://shapeoftheweb.mozilla.org/)

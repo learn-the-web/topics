@@ -45,6 +45,7 @@ groups:
       - 'Has appropriate enhanced semantics.<br>[Metadata](/topics/metadata-enhanced-semantics#structured-data), [Google Rich Snippets](http://www.google.com/webmasters/tools/richsnippets), [Schema.org](http://schema.org)'
       - 'Has social relationships on appropriate `<a>` tags.'
       - 'Has all the social media meta tags.<br>[Social media tags](/topics/metadata-enhanced-semantics#social-semantics)'
+      - 'Has all the geotagging metadata tags.<br>[Geotagging](/topics/metadata-enhanced-semantics#geotagging)'
       - 'Add `rel="nofollow"` to paid/untrusted links.'
 
   - title: 'Analytics & monitoring'

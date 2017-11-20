@@ -8,7 +8,27 @@ github: https://github.com/acgd-learn-the-web/grids-code
 cheatsheet: gridifier-cheat-sheet
 tool:
   name: Gridifier
-  url: https://gridifier.web-dev.tools
+  url: "https://gridifier.web-dev.tools"
+extra_practice:
+  week:
+    title: "Web Dev 2, Week 02"
+    url: "/courses/web-dev-2/week-02/"
+  slides:
+    - title: "Grid systems"
+      url: "/courses/web-dev-2/grid-systems/"
+  lessons:
+    - title: "Using Gridifier"
+      url: "/courses/web-dev-2/using-gridifier/"
+  activities:
+    - title: "Grid Genius"
+      url: "grid-genius"
+  exercises:
+    - title: "Grid layout"
+      url: "/courses/web-dev-2/week-02/#grid-layout"
+    - title: "Hot grid-dle"
+      url: "/courses/web-dev-2/week-03/#hot-grid-dle"
+    - title: "Grid-ception"
+      url: "/courses/web-dev-2/week-03/#grid-ception"
 ---
 
 Making flexible and responsive grids using HTML & CSS to simplify & systemize the creation of responsive websites.

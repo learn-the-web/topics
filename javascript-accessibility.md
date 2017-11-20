@@ -1,39 +1,39 @@
 ---
-title: "Javascript & accessibility"
+title: "JavaScript & accessibility"
 tags: "javascript animations events common components tabs toggle panels buttons lightbox accessibility focus keyboard wai aria"
-desc: "Looking at common Javascript patterns & components and how we can make them more accessible."
+desc: "Looking at common JavaScript patterns & components and how we can make them more accessible."
 playlist: PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow
 download: https://github.com/acgd-learn-the-web/javascript-accessibility-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-accessibility-code
 ---
 
-Javascript isn’t inherently inaccessible, but without a little bit of care the code we write can disrupt accessibility features built into the browser.
+JavaScript isn’t inherently inaccessible, but without a little bit of care the code we write can disrupt accessibility features built into the browser.
 
 ---
 
-## Javascript isn’t inaccessible
+## JavaScript isn’t inaccessible
 
-Adding Javascript code to your website doesn’t make the website inaccessible, but the code you write can make it inaccessible.
+Adding JavaScript code to your website doesn’t make the website inaccessible, but the code you write can make it inaccessible.
 
-Browsers have lots of accessibility tools built into them, and since Javascript gives us so much control we can interfere with those tools.
+Browsers have lots of accessibility tools built into them, and since JavaScript gives us so much control we can interfere with those tools.
 
-When we code controls with Javascript that aren’t built into the browser, like tabs and sliders, we just need to be careful to present the correct semantics and accessibility features to the user: feedback, keyboard controls, etc.
+When we code controls with JavaScript that aren’t built into the browser, like tabs and sliders, we just need to be careful to present the correct semantics and accessibility features to the user: feedback, keyboard controls, etc.
 
 ### Proper semantics
 
-Proper semantics are important for writing Javascript because those elements have accessibility features built into them.
+Proper semantics are important for writing JavaScript because those elements have accessibility features built into them.
 
-- If you’re creating a clickable button, that requires Javascript to function use a `<button>` tag: the button tag announces itself as a button, has keyboard controls, and more.
-- If you’re creating a feature that refers to a resource on the current page or another page, use an `<a>` tag: it has keyboard controls; and if the Javascript fails to execute, the link will still do its default action.
+- If you’re creating a clickable button, that requires JavaScript to function use a `<button>` tag: the button tag announces itself as a button, has keyboard controls, and more.
+- If you’re creating a feature that refers to a resource on the current page or another page, use an `<a>` tag: it has keyboard controls; and if the JavaScript fails to execute, the link will still do its default action.
 - Don’t add click events to generic elements like a `<div>`: you technically can make a `<div>` clickable, but it doesn’t have any accessibility features like keyboard focus, or indications that it’s clickable in the accessibility tools.
   If you really must use a generic element add the appropriate ARIA properties like `role="button"` and make sure to code all the keyboard access features too.
 - Use the browser’s default controls first: if it works like a checkbox, use a checkbox; if it works similar to the `<details>` element, use that instead.
 
 ### Progressive enhancement
 
-Progressive enhancement is the idea that we should build our websites with the understanding that everybody’s situation is different: they may have an older browser, they may have Javascript disabled, they may have a poor Internet connection. Each of these concerns may cause a problem in our website.
+Progressive enhancement is the idea that we should build our websites with the understanding that everybody’s situation is different: they may have an older browser, they may have JavaScript disabled, they may have a poor Internet connection. Each of these concerns may cause a problem in our website.
 
-*So don’t rely on Javascript working. Built your website first in a simple manner and build Javascript on top.*
+*So don’t rely on JavaScript working. Built your website first in a simple manner and build JavaScript on top.*
 
 **[☛ See the tutorial on progressive enhancement.](/topics/progressive-enhancement/)**
 
@@ -60,7 +60,7 @@ The final solution may look something like this:
 
 ### Accessible toggle panels
 
-Making toggle panels is Javascript in fairly simple, [you can see the toggle panel code here](/topics/javascript-components/#toggle-panels).
+Making toggle panels is JavaScript in fairly simple, [you can see the toggle panel code here](/topics/javascript-components/#toggle-panels).
 
 But we still need to make them a little more accessible, we need to adjust the HTML a little by adding some ARIA attributes.
 
@@ -76,7 +76,7 @@ But we still need to make them a little more accessible, we need to adjust the H
 - `aria-controls` — points to the ID of the `<div>` that this button changes.
 - `aria-hidden` — defines that the content inside this element shouldn’t be accessible to tools at this point.
 
-Then, we need to make some slight adjustments to our Javascript to change those attributes when the button is clicked:
+Then, we need to make some slight adjustments to our JavaScript to change those attributes when the button is clicked:
 
 ```js
 var $btn = $('.btn');
@@ -132,7 +132,7 @@ There’s quite a bunch extra in the code above, here’s what we did:
 - `role="tabpanel"` — tells the browser that this isn’t just a `<div>` but a piece of tabbed content.
 - `aria-hidden` — defines whether the tab is currently visible or not; you could use this to style the tab instead of the `hidden` attribute.
 
-Now with the ARIA attributes in place we need to adjust our Javascript a little bit.
+Now with the ARIA attributes in place we need to adjust our JavaScript a little bit.
 
 ```js
 var $tabs = $('.tabs');
@@ -178,11 +178,11 @@ All the above changes work fairly well, but there’s lots more we can do to mak
 
 ## Video list
 
-1. [Javascript accessibility: proper semantics](https://www.youtube.com/watch?v=9bdHbANEZgM&index=1&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
-2. [Javascript accessibility: proper labels](https://www.youtube.com/watch?v=UcNJzL2BbRE&index=2&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
-3. [Javascript accessibility: making toggle panels](https://www.youtube.com/watch?v=w7S4YOC5YSQ&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow&index=3)
-4. [Javascript accessibility: making tabs](https://www.youtube.com/watch?v=G-0JAU0iEY4&index=4&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
-5. [Javascript accessibility: tab keyboard controls](https://www.youtube.com/watch?v=NWs0FwgrXaU&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow&index=5)
+1. [JavaScript accessibility: proper semantics](https://www.youtube.com/watch?v=9bdHbANEZgM&index=1&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
+2. [JavaScript accessibility: proper labels](https://www.youtube.com/watch?v=UcNJzL2BbRE&index=2&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
+3. [JavaScript accessibility: making toggle panels](https://www.youtube.com/watch?v=w7S4YOC5YSQ&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow&index=3)
+4. [JavaScript accessibility: making tabs](https://www.youtube.com/watch?v=G-0JAU0iEY4&index=4&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
+5. [JavaScript accessibility: tab keyboard controls](https://www.youtube.com/watch?v=NWs0FwgrXaU&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow&index=5)
 
 ## Supplemental links
 

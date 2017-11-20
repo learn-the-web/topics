@@ -6,6 +6,10 @@ playlist: PLWjCJDeWfDdeEM254gHVHz26yswh59Hih
 download: https://github.com/acgd-learn-the-web/box-model-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/box-model-code
 cheatsheet: boxes-borders-cheat-sheet
+extra_practice:
+  slides:
+    - title: "Boxes & flows"
+      url: "/courses/web-dev-1/boxes-and-flows"
 ---
 
 Every single thing you target with CSS, every single HTML element, is a box. The boxes line up beside each other, above each other, and below each other.

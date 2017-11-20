@@ -6,9 +6,27 @@ playlist: PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY
 download: https://github.com/acgd-learn-the-web/forms-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/forms-code
 cheatsheet: forms-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 2, Week 09"
+    url: "/courses/web-dev-2/week-09/"
+  slides:
+    - title: "Forms"
+      url: "/courses/web-dev-2/forms/"
+  lessons:
+    - title: "Contact form"
+      url: "/courses/web-dev-2/contact-form/"
+  activities:
+    - title: "Form Finalizer"
+      url: "form-finalizer"
+  exercises:
+    - title: "Registration form"
+      url: "/courses/web-dev-2/week-09/#registration-form"
+    - title: "Volunteer form"
+      url: "/courses/web-dev-2/week-09/#volunteer-form"
 ---
 
-Making forms in HTML isn’t too complex but without a backend server language like PHP or Python (or maybe a little Javascript) we can’t actually do anything with the form itself.
+Making forms in HTML isn’t too complex but without a backend server language like PHP or Python (or maybe a little JavaScript) we can’t actually do anything with the form itself.
 
 ---
 
@@ -236,7 +254,7 @@ All forms need to have buttons otherwise the form’s information can’t be sen
 </form>
 ```
 
-Most often the button’s type should be set to “submit”. But if you don’t want it to submit the form and control the button with Javascript, leave the `type` attribute off.
+Most often the button’s type should be set to “submit”. But if you don’t want it to submit the form and control the button with JavaScript, leave the `type` attribute off.
 
 ---
 

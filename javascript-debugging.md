@@ -1,33 +1,33 @@
 ---
-title: "Javascript debugging"
+title: "JavaScript debugging"
 tags: "javascript debugging jshint eslint jslint developer tools inspect element console log"
-desc: "Some simple techniques to debug Javascript code in your browser."
+desc: "Some simple techniques to debug JavaScript code in your browser."
 playlist: PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk
 download: https://github.com/acgd-learn-the-web/javascript-debugging-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-debugging-code
 ---
 
-Broken code can be a nightmare, but there are lots of tools to help us debug our Javascript issues, many built into the browser.
+Broken code can be a nightmare, but there are lots of tools to help us debug our JavaScript issues, many built into the browser.
 
 ---
 
 ## Browser developer tools
 
-The developer tools built into your browser provide lots of features to help you debug your Javascript code.
+The developer tools built into your browser provide lots of features to help you debug your JavaScript code.
 
 ### Web console
 
-The first thing that’s helpful is the Console. In the console tab you can see error messages from your Javascript code and what line that error was found.
+The first thing that’s helpful is the Console. In the console tab you can see error messages from your JavaScript code and what line that error was found.
 
 ![](console-error.jpg)
 
 #### Console command line
 
-Also, at the bottom of the console you can type Javascript and have it executed immediately within the scope of your code. You can use this to make quick tests on your code or to debug what certain things are.
+Also, at the bottom of the console you can type JavaScript and have it executed immediately within the scope of your code. You can use this to make quick tests on your code or to debug what certain things are.
 
 ![](console-command-line.jpg)
 
-*The console command line has access to all your functions and all the Javascript included on your website.*
+*The console command line has access to all your functions and all the JavaScript included on your website.*
 
 ### Commenting out pieces of code
 
@@ -85,7 +85,7 @@ There’s a few other functions within `console` that do slightly different thin
 
 The browser developer tools have a series of more advanced debugging tools that allow us to closely monitor and explore the code as it’s executing.
 
-#### Setting breakpoints in Javascript
+#### Setting breakpoints in JavaScript
 
 First we go to the debugger and find the line of code that’s causing us problems, or maybe a little before it. Clicking on the line number will create a breakpoint. Next time when the Javascirpt is executed it will stop at that point and we can explore what’s happening in our program.
 
@@ -93,7 +93,7 @@ First we go to the debugger and find the line of code that’s causing us proble
 
 #### Exploring variables
 
-When the code is paused at the breakpoint and we can explore the different variables and values of what the Javascript currently understands.
+When the code is paused at the breakpoint and we can explore the different variables and values of what the JavaScript currently understands.
 
 - Move your mouse over each different piece of code to inspect it
 - Look in the side panel for a list of different piece of code
@@ -121,24 +121,24 @@ When using large frameworks and libraries in our code we often don’t want to i
 
 ## Validation
 
-Validation is a helpful way to find issues in your Javascript code—you can validate your Javascript using a few online tools̋.
+Validation is a helpful way to find issues in your JavaScript code—you can validate your JavaScript using a few online tools̋.
 
-**[☛ Check out the Javascript validation tutorial.](/validation/#javascript)**
+**[☛ Check out the JavaScript validation tutorial.](/topics/validators/#validating-javascript)**
 
 ---
 
 ## Video list
 
-1. [Javascript debugging: console](https://www.youtube.com/watch?v=7EoLvH7roYc&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk&index=1)
-2. [Javascript debugging: commenting out code](https://www.youtube.com/watch?v=oUW1e6g1oNc&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk&index=2)
-3. [Javascript debugging: breaking & stepping](https://www.youtube.com/watch?v=5m9Kfwx0rMs&index=3&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk)
+1. [JavaScript debugging: console](https://www.youtube.com/watch?v=7EoLvH7roYc&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk&index=1)
+2. [JavaScript debugging: commenting out code](https://www.youtube.com/watch?v=oUW1e6g1oNc&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk&index=2)
+3. [JavaScript debugging: breaking & stepping](https://www.youtube.com/watch?v=5m9Kfwx0rMs&index=3&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk)
 
 ## Supplemental links
 
 - [Firefox: Web console](https://developer.mozilla.org/en-US/docs/Tools/Web_Console)
 - [Firefox: Debugger](https://developer.mozilla.org/en-US/docs/Tools/Debugger)
 - [Firefox: Console API](https://developer.mozilla.org/en-US/docs/Web/API/console)
-- [Chrome: Debugging Javascript](https://developer.chrome.com/devtools/docs/javascript-debugging)
+- [Chrome: Debugging JavaScript](https://developer.chrome.com/devtools/docs/javascript-debugging)
 - [Chrome: Console API Reference](https://developer.chrome.com/devtools/docs/console-api)
 - [A Re-introduction to the Chrome Developer Tools](http://paulirish.com/2011/a-re-introduction-to-the-chrome-developer-tools/)
 - [JavaScript Debugging Tips and Tricks](http://www.zsoltnagy.eu/javascript-debugging-tips-and-tricks/)

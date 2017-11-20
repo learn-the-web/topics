@@ -97,7 +97,7 @@ A/B testing or split testing is a way to get data on which of two different desi
 - **[A List Apart: A Primer on A/B Testing](http://alistapart.com/article/a-primer-on-a-b-testing)**
 - [The Complete Guide to A/B Testing](https://visualwebsiteoptimizer.com/ab-testing/)
 - [Smashing Magazine: The Ultimate Guide To A/B Testing](http://www.smashingmagazine.com/2010/06/24/the-ultimate-guide-to-a-b-testing/)
-- [What is A/B Testing?](https://www.optimizely.com/ab-testing)
+- [What is A/B Testing?](https://www.optimizely.com/optimization-glossary/ab-testing/)
 - [5 Mistakes You Should Avoid When A/B Testing Your Designs](http://sixrevisions.com/usability/ab-testing-mistakes/)
 
 ---
@@ -111,6 +111,6 @@ There are a few very popular extensions to block trackers and encourage security
 - [Privacy Badger](https://www.eff.org/privacybadger)
 - [HTTPS Everywhere](https://www.eff.org/https-everywhere)
 - uBlock Origin — [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [Ghostery](https://www.ghostery.com/en/)
+- [Ghostery](https://www.ghostery.com/)
 - [Ad Block Plus](https://adblockplus.org/)
 - [No Script](https://noscript.net/)

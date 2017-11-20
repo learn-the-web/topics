@@ -6,6 +6,34 @@ playlist: PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7
 download: https://github.com/acgd-learn-the-web/accessibility-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/accessibility-code
 checklist: accessibility-checklist
+extra_practice:
+  week:
+    title: "Web Dev 2, Week 11"
+    url: "/courses/web-dev-2/week-11/"
+  slides:
+    - title: "Accessibility"
+      url: "/courses/web-dev-2/accessibility/"
+    - title: "Using VoiceOver"
+      url: "/courses/web-dev-3/using-voiceover/"
+  lessons:
+    - title: "Basic accessibility"
+      url: "/courses/web-dev-2/basic-accessibility/"
+    - title: "Using a11y tools"
+      url: "/courses/web-dev-3/using-a11y-tools/"
+  activities:
+    - title: "Accessibility Atomizer"
+      url: "accessibility-atomizer"
+    - title: "Accessibility Adapter"
+      url: "accessibility-adapter"
+  exercises:
+    - title: "Accessibility fixer-upper"
+      url: "/courses/web-dev-2/week-11/#accessibility-fixer-upper"
+    - title: "All the humans"
+      url: "/courses/web-dev-2/week-11/#all-the-humans"
+    - title: "More than just colours"
+      url: "/courses/web-dev-2/week-11/#more-than-just-colours"
+    - title: "Only keyboards allowed"
+      url: "/courses/web-dev-3/week-11/#only-keyboards-allowed"
 ---
 
 The Open Web is an amazingly empowering platform for every human being. It’s our job as web developers to make it work for everyone.
@@ -74,7 +102,7 @@ Generally considered something that affects a person’s brain, e.g. dyslexia, m
 
 The Accessible Rich Internet Application specification defines whole bunch of roles and attributes that can be assigned to HTML elements to help them be understood.
 
-We may make tabs in HTML with lists and divs, and they may look like tabs, but to accessibility tools like screen readers they’re just lists and divs. ARIA allows us to turn them into functional and understandable tabs with a few extra properties & some Javascript.
+We may make tabs in HTML with lists and divs, and they may look like tabs, but to accessibility tools like screen readers they’re just lists and divs. ARIA allows us to turn them into functional and understandable tabs with a few extra properties & some JavaScript.
 
 ### Landmark roles
 
@@ -144,7 +172,7 @@ It is best to keep that information visible on the screen, but if you must hide 
 
 There’s a similar ARIA property: `aria-describedby`—the difference is that `aria-details` allows multiple HTML elements that are navigable where `describedby` will mash all the elements into a single sentence stream.
 
-**[☛ Check out the tutorial on Javascript for more ARIA examples.](/topics/javascript-accessibility/)**
+**[☛ Check out the tutorial on JavaScript for more ARIA examples.](/topics/javascript-accessibility/)**
 
 **Links**
 
@@ -218,7 +246,7 @@ There are a few things that you should check on every website—at least—to he
 1. Bump the font-size up and down to make sure the layout doesn’t break: at least 2 sizes up and 2 sizes down; to make sure you site works with different default styles.
 2. Disabled images and see what happens to the layout without them.
 3. Disable the CSS to get an idea of what content is available to screen readers.
-4. Check the website with [Color Oracle](http://colororacle.org/) to look for colour blindness related issues.
+4. Check the website with [Sim Daltonism](https://michelf.ca/projects/sim-daltonism/) to look for colour blindness related issues.
 5. Run your website through one or all of the validators.
 6. Check all the pages with a screen reader like [VoiceOver](#voiceover).
 
@@ -227,11 +255,10 @@ There are a few things that you should check on every website—at least—to he
 **Tools**
 
 - [Web Developer Toolbar](http://chrispederick.com/work/web-developer/)
-- [Color Oracle](http://colororacle.org/)
+- [Sim Daltonism](https://michelf.ca/projects/sim-daltonism/)
 
 **Validators**
 
-- [**AccessLint**](http://www.accesslint.com/)
 - [Tenon.io](http://www.tenon.io/)
 - [Wave by WebAim](http://wave.webaim.org/)
 - [A11y](https://a11y-app.herokuapp.com/)
@@ -265,7 +292,7 @@ Here’s some shortcut keys for using VoiceOver:
 - `Control` — Pause VoiceOver
 - `Control + Option + Right Arrow` — Move to next item
 - `Control + Option + Left Arrow` — Move to previous item
-- `Control + Option + U` — Open the rotor
+- `Control + Option + U` — Open the rotor (Use arrow keys to navigate)
 - `Control + Option + Command + H` — Next heading (+ `Shift` for previous)
 - `Control + Option + Command + L` — Next link
 - `Control + Option + Command + G` — Next graphic
@@ -348,7 +375,6 @@ Here’s some shortcut keys for using VoiceOver:
 
 - **[Color Contrast Analyser](http://www.paciellogroup.com/resources/contrastAnalyser)**
 - **[Contrast Ratio](http://leaverou.github.io/contrast-ratio/)**
-- [**AccessLint**](http://www.accesslint.com/)
 - [Tenon.io](http://www.tenon.io/)
 - [HTML5 Outliner](http://gsnedders.html5.org/outliner/)
 - [HTML5 Outliner Chrome Extension](https://chrome.google.com/webstore/detail/afoibpobokebhgfnknfndkgemglggomo)
@@ -360,7 +386,6 @@ Here’s some shortcut keys for using VoiceOver:
 
 - [WCAG 2.0](http://www.w3.org/TR/WCAG20/)
 - [WAI-ARIA](http://www.w3.org/TR/wai-aria-1.1/)
-- [ARIA in HTML](https://specs.webplatform.org/html-aria/webspecs/master/)
 
 ### Checklists
 

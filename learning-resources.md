@@ -11,10 +11,10 @@ Here’s a quick list of web development learning resources—by no way is it ex
 ## Resources
 
 - [Mozilla Developer Network](https://developer.mozilla.org/)
-	- [HTML Reference](https://developer.mozilla.org/en/HTML/Element)
-	- [CSS Reference](https://developer.mozilla.org/en/CSS_Reference)
+  - [HTML Reference](https://developer.mozilla.org/en/HTML/Element)
+  - [CSS Reference](https://developer.mozilla.org/en/CSS_Reference)
 - [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum)
-- [CSS Tricks Almanac](http://css-tricks.com/almanac/)
+- [CSS Tricks Almanac](https://css-tricks.com/almanac/)
 - [Dev.Opera](http://dev.opera.com/)
 - [HTML Dog](http://htmldog.com/)
 - [HTML5 Doctor](http://html5doctor.com)

@@ -1,7 +1,7 @@
 ---
-title: "Common Javascript components"
+title: "Common JavaScript components"
 tags: "javascript common components tabs toggle panels buttons lightbox data filter"
-desc: "Creating common Javascript webpage components like tabs, lightboxes, and panels."
+desc: "Creating common JavaScript webpage components like tabs, lightboxes, and panels."
 playlist: PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI
 download: https://github.com/acgd-learn-the-web/javascript-components-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/javascript-components-code
@@ -47,8 +47,8 @@ Looks at using a `<select>` element to picking specific pieces of information ou
 
 ## Video list
 
-1. [Javascript components: toggle panels](https://www.youtube.com/watch?v=tAmM6B7KkbQ&index=1&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
-2. [Javascript components: tabs](https://www.youtube.com/watch?v=kjL_HM08CcA&index=2&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
-3. [Javascript components: lightbox](https://www.youtube.com/watch?v=ucLr525mX60&index=3&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
-4. [Javascript components: lightbox data](https://www.youtube.com/watch?v=7O-iK_D0H4w&index=4&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
-5. [Javascript components: data filter](https://www.youtube.com/watch?v=CJbr44MmvXY&index=5&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
+1. [JavaScript components: toggle panels](https://www.youtube.com/watch?v=tAmM6B7KkbQ&index=1&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
+2. [JavaScript components: tabs](https://www.youtube.com/watch?v=kjL_HM08CcA&index=2&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
+3. [JavaScript components: lightbox](https://www.youtube.com/watch?v=ucLr525mX60&index=3&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
+4. [JavaScript components: lightbox data](https://www.youtube.com/watch?v=7O-iK_D0H4w&index=4&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
+5. [JavaScript components: data filter](https://www.youtube.com/watch?v=CJbr44MmvXY&index=5&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)

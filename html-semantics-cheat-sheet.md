@@ -404,7 +404,7 @@ groups:
       - name: '`<button>`'
         details:
           - 'Represents a interactive, clickable button.'
-          - 'Should be used in forms and with Javascript.'
+          - 'Should be used in forms and with JavaScript.'
           - '*Do not use to link to another page—use the `<a>` tag.*'
       - name: '`<wbr>`'
         details:

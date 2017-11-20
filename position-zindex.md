@@ -6,6 +6,23 @@ playlist: PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP
 download: https://github.com/acgd-learn-the-web/position-zindex-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/position-zindex-code
 cheatsheet: css-layout-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 09"
+    url: "/courses/web-dev-1/week-09/"
+  slides:
+    - title: "Position & z-index"
+      url: "/courses/web-dev-1/position-zindex/"
+  lessons:
+    - title: "Making an image card"
+      url: "/courses/web-dev-1/making-an-image-card/"
+  exercises:
+    - title: "Hero banner"
+      url: "/courses/web-dev-1/week-09/#hero-banner"
+    - title: "Call to ation banner"
+      url: "/courses/web-dev-1/week-09/#call-to-action-banner"
+    - title: "Expoding robot head"
+      url: "/courses/web-dev-1/week-09/#exploding-robot-head"
 ---
 
 Position allows us to move elements around on the screen and bypass the browser’s flow.

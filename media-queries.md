@@ -6,6 +6,34 @@ playlist: PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI
 download: https://github.com/acgd-learn-the-web/media-queries-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/media-queries-code
 cheatsheet: screen-sizes-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 1, Week 11"
+    url: "/courses/web-dev-1/week-11/"
+  slides:
+    - title: "Media queries"
+      url: "/courses/web-dev-1/media-queries/"
+  lessons:
+    - title: "Responsive navigation"
+      url: "/courses/web-dev-1/responsive-navigation/"
+  activities:
+    - title: "Media query manager"
+      url: "media-query-manager"
+  exercises:
+    - title: "Hide & show responsively"
+      url: "/courses/web-dev-1/week-11/#hide-show-responsively"
+    - title: "Responsive typography"
+      url: "/courses/web-dev-1/week-11/#responsive-typography"
+    - title: "Responsive icon cards"
+      url: "/courses/web-dev-1/week-11/#responsive-icon-cards"
+    - title: "Image grid"
+      url: "/courses/web-dev-1/week-12/#image-grid"
+    - title: "Responsive header"
+      url: "/courses/web-dev-1/week-12/#responsive-header"
+    - title: "Responsive section"
+      url: "/courses/web-dev-1/week-12/#responsive-section"
+    - title: "Responsive image & caption"
+      url: "/courses/web-dev-1/week-13/#responsive-image-caption"
 ---
 
 Media queries are the backbone of responsive web design, allowing us to change our layouts and designs based on the browser.
@@ -180,7 +208,7 @@ We’ve concentrated mostly on `min-width` but there’s lots of other variables
 @media (pointer: fine) { … } /* Has a mouse */
 @media (pointer: course) { … } /* Touch with thick thumbs */
 @media (hover: hover) { … } /* Can hover with a mouse */
-@media (scripting: enabled) { … } /* Whether Javascript is available or not */
+@media (scripting: enabled) { … } /* Whether JavaScript is available or not */
 ```
 
 **Links**
@@ -458,7 +486,6 @@ The `@page` declaration allows us to target different aspects of the page.
 - [Luke W: Multi-Device Layout Patterns](http://www.lukew.com/ff/entry.asp?1514)
 - [Luke W: Off Canvas Multi-Device Layouts](http://www.lukew.com/ff/entry.asp?1569)
 - [Webdesign.Tuts+: Life Beyond 960px: Designing for Large Screens](http://webdesign.tutsplus.com/articles/general/life-beyond-960px-designing-for-large-screens/)
-- [Smart Phone vs. TV Size Comparison](http://www.flickr.com/photos/bruce-lawson/6714342003/)
 - [Opera Dev: Creating Web Content for TV](http://dev.opera.com/articles/view/creating-web-content-for-tv/)
 - [Google: Design for TV](https://developers.google.com/tv/web/docs/design_for_tv)
 - [The Immoble Web](https://speakerdeck.com/grigs/the-immobile-web)

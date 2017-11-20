@@ -6,6 +6,22 @@ playlist: PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7
 download: https://github.com/acgd-learn-the-web/using-images-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/using-images-code
 cheatsheet: images-cheat-sheet
+extra_practice:
+  week:
+    title: "Web Dev 3, Week 04"
+    url: "/courses/web-dev-3/week-04/"
+  slides:
+    - title: "Background & retina images"
+      url: "/courses/web-dev-3/background-retina-images/"
+  activities:
+    - title: "Alt attributer"
+      url: "alt-attributer"
+  lessons:
+    - title: "Background images"
+      url: "/courses/web-dev-3/background-images/"
+  exercises:
+    - title: "Leafy decorations"
+      url: "/courses/web-dev-3/week-04/#leafy-decorations"
 ---
 
 Images are a very critical part of modern web design—and there’s lots of different way to use and generate images on websites.

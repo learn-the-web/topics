@@ -49,6 +49,15 @@ groups:
             margin-top: .875em;
             margin-bottom: 0;
             ```
+      - name: '*negative margins*'
+        details:
+          - 'Because margins are outside of a box they can actually have negative numbers.'
+          - 'Instead of pushing other boxes away, negative margins pull the box in a specific direction.'
+          - |
+            ```css
+            margin-left: -5rem;
+            ```
+          - 'Will pull the box to the left by `5em` and can cause elements to overlap.'
       - name: '`padding`'
         details:
           - 'Create space inside the box, pushing text away from the edge.'

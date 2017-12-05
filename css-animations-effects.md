@@ -639,7 +639,7 @@ Specifically these properties would be good to move into a media query:
 - `transform-style: preserve-3d`
 - and all the movement/calculations for `.back` and `.front`
 
-**[☛ There are a few changes when using it with JavaScript Waypoints](/topics/javascript-effects/#waypoints-and-parallax)**
+**[☛ There are a few changes when using it with JavaScript Waypoints](/topics/javascript-jquery-effects/#waypoints-and-parallax)**
 
 **Links**
 

@@ -18,8 +18,8 @@ extra_practice:
   lessons:
     - title: "Basic accessibility"
       url: "/courses/web-dev-2/basic-accessibility/"
-    - title: "Using a11y tools"
-      url: "/courses/web-dev-3/using-a11y-tools/"
+    - title: "Using a11y testing tools"
+      url: "/courses/web-dev-3/using-a11y-testing-tools/"
   activities:
     - title: "Accessibility Atomizer"
       url: "accessibility-atomizer"
@@ -172,7 +172,7 @@ It is best to keep that information visible on the screen, but if you must hide 
 
 There’s a similar ARIA property: `aria-describedby`—the difference is that `aria-details` allows multiple HTML elements that are navigable where `describedby` will mash all the elements into a single sentence stream.
 
-**[☛ Check out the tutorial on JavaScript for more ARIA examples.](/topics/javascript-accessibility/)**
+**[☛ Check out the tutorial on JavaScript for more ARIA examples.](/topics/javascript-jquery-accessibility/)**
 
 **Links**
 

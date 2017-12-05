@@ -39,7 +39,7 @@ groups:
       - 'Hit areas, links & buttons, are big enough for thumbs and users with difficulty using the mouse.'
       - 'Properly implemented skip links.<br>[Skip links](/topics/accessibility#skip-links)'
       - 'Correct elements have WAI-ARIA landmark roles.<br>[Landmark roles](/topics/accessibility#wai-aria-roles)'
-      - 'Appropriate elements have ARIA attributes.<br>[JavaScript & accessibility](/topics/javascript-accessibility/)'
+      - 'Appropriate elements have ARIA attributes.<br>[JavaScript, jQuery & accessibility](/topics/javascript-jquery-accessibility/)'
       - 'Animations can be stopped.'
       - 'No presentational elements are read by accessibility tools.'
       - 'Timed functionality can be controlled.'

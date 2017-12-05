@@ -18,7 +18,7 @@ extra_practice:
       url: "/courses/web-dev-2/modular-css/"
   lessons:
     - title: "Button systems"
-      url: "/courses/web-dev-2/buttons-systems/"
+      url: "/courses/web-dev-2/button-systems/"
   activities:
     - title: "Module Mogul"
       url: "module-mogul"

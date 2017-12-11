@@ -1,5 +1,5 @@
 ---
-title: "Common JavaScript +jQuery components"
+title: "Common JavaScript + jQuery components"
 tags: "javascript jquery common components tabs toggle panels buttons lightbox data filter"
 desc: "Creating common JavaScript webpage components like tabs, lightboxes, and panels with the help of jQuery."
 playlist: PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI

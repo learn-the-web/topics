@@ -5,7 +5,7 @@ desc: "Understanding how web browsers work and their features."
 extra_practice:
   lessons:
     - title: "Browser testing"
-      url: "/courses/web-dev-1/browser-testing/"
+      url: "/courses/shared/browser-testing/"
   activities:
     - title: "Definition Devastator"
       url: "definition-devastator"

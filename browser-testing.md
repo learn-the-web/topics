@@ -7,7 +7,7 @@ checklist: browser-testing-checklist
 extra_practice:
   lessons:
     - title: "Browser testing"
-      url: "/courses/web-dev-1/browser-testing/"
+      url: "/courses/shared/browser-testing/"
   activities:
     - title: "Browser Buster"
       url: "browser-buster"

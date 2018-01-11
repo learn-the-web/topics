@@ -83,13 +83,13 @@ groups:
       - name: '`⌘⇧G`'
         details:
           - 'Find previous matching item.'
-      - name: '`⌘→`'
+      - name: '`⌘➔`'
         details:
           - 'Move to the end of the line.'
       - name: '`⌘←`'
         details:
           - 'Move to the start of the line.'
-      - name: '`⌥→`'
+      - name: '`⌥➔`'
         details:
           - 'Move to the next word.'
       - name: '`⌥←`'

@@ -69,7 +69,7 @@ groups:
     items:
       - '`⌘ F5` — Turn VoiceOver on/off'
       - '`⌃` — Pause VoiceOver'
-      - '`⌃⌥ →` — Move to next item'
+      - '`⌃⌥ ➔` — Move to next item'
       - '`⌃⌥ ←` — Move to previous item'
       - '`⌃⌥ U` — Open the rotor (Use arrow keys to navigate)'
       - '`⌃⌥⌘ H` — Next heading (+ `Shift` for previous)'

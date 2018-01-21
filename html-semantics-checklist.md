@@ -10,7 +10,7 @@ groups:
       - 'The `<html>` tag has a correct `lang` attribute.'
       - 'Includes `<meta charset="utf-8">` immediately after `<head>`.'
       - 'Includes `<title>`.'
-      - 'The `<title>` is unique for every page—and isn’t “Untitled”̦.'
+      - 'The `<title>` is unique for every page—and isn’t “Untitled”.'
       - 'The `<title>` comes after `<meta charset>`.'
       - 'CSS files are inside the `<head>`, after the `<title>`.'
       - 'Contains the meta viewport tag.'

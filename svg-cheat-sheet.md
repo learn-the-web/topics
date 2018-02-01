@@ -37,7 +37,7 @@ groups:
             ```
           - 'Start every URL with the DataURL scheme: `data:image/svg+xml;charset=utf8,`'
           - 'The `<` must be escaped with `%3C`'
-          - 'The `%3E` must be escaped with `%3E`'
+          - 'The `>` must be escaped with `%3E`'
           - 'The `#` must be escaped with `%23`'
           - The `"` must be replaced with `'`
       - name: '*View box*'

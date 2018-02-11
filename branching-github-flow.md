@@ -7,6 +7,12 @@ extra_practice:
   activities:
     - title: "Git Graduator"
       url: "git-graduator"
+  slides:
+    - title: "Many people, one codebase"
+      url: "/courses/web-dev-6/many-people-one-codebase/"
+  lessons:
+    - title: "Branch & pull request"
+      url: "/courses/web-dev-6/branch-and-pull-request/"
 ---
 
 Think about how you generally work on some code. You write some code then decide you want to try something else, so you make a copy, maybe you name it `version-2`. Then you decide you want to try something else, you copy and name it `version-3`.
@@ -14,6 +20,14 @@ Think about how you generally work on some code. You write some code then decide
 Now you have a litter of different files for different features you’ve tried out.
 
 **Git branching solves this problem by providing a clean way to make copies of your code to work on a specific feature.**
+
+---
+
+## Working smoothly with teams
+
+### Branches for every feature
+
+### Code reviews for everybody
 
 ---
 

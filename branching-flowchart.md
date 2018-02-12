@@ -20,6 +20,7 @@ tasks:
       Make a new branch specifically for this feature, named after the task & Issue.
       <br>`⌘⇧N`
   - title: "Write code & commit regularly"
+    repeat: true
     desc: |
       Write code and commit regularly. Be sure to follow the [Git commit best practices](/topics/commit-message-cheat-sheet). *It’s okay if the commits are incomplete because we’re coding on a separate branch it’s not going to affect the live website.*
       <br>`⌘ Return`
@@ -47,6 +48,7 @@ tasks:
       - If the code is good, write a nice, positive message.
   - title: "Make more commits"
     optional: true
+    repeat: true
     desc: |
       If the pull request was rejected, you (as the original author), must fix the code and create new commits. *You do not have to create a new branch, work on the same branch until this pull request is resolved.*
   - title: "Merge pull request & delete branch"

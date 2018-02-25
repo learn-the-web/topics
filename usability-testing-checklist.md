@@ -74,59 +74,61 @@ sections:
         width: 'full'
         items:
           - |
-            <table>
-              <tr>
-                <th scope="row" colspan="3" rowspan="2" class="valign-bottom"><label for="task">Task</label></th>
-                <td scope="row" colspan="9" rowspan="2" class="valign-bottom"><input id="task"></td>
-                <th scope="row" colspan="3"><label for="project">Project</label></th>
-                <td colspan="9"><input id="project"></td>
-              </tr>
-              <tr>
-                <th scope="row" colspan="3"><label for="facilitator">Facilitator</label></th>
-                <td colspan="9"><input id="facilitator"></td>
-              </tr>
-            </table>
+            <div class="table-wrapper scrollable">
+              <table>
+                <tr>
+                  <th scope="row" colspan="3" rowspan="2" class="valign-bottom"><label for="task">Task</label></th>
+                  <td scope="row" colspan="9" rowspan="2" class="valign-bottom"><input id="task"></td>
+                  <th scope="row" colspan="3"><label for="project">Project</label></th>
+                  <td colspan="9"><input id="project"></td>
+                </tr>
+                <tr>
+                  <th scope="row" colspan="3"><label for="facilitator">Facilitator</label></th>
+                  <td colspan="9"><input id="facilitator"></td>
+                </tr>
+              </table>
 
-            <table>
-              <thead>
-                <tr>
-                  <th scope="row">№</th>
-                  <th colspan="6" scope="row" id="table-user">User</th>
-                  <th colspan="13" scope="row" id="table-observations">Facilitator observations</th>
-                  <th colspan="13" scope="row" id="table-feedback">Participant feedback</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="col">1</th>
-                  <td colspan="6"><textarea aria-labelledby="table-user"></textarea></td>
-                  <td colspan="13"><textarea aria-labelledby="table-observations"></textarea></td>
-                  <td colspan="13"><textarea aria-labelledby="table-feedback"></textarea></td>
-                </tr>
-                <tr>
-                  <th scope="col">2</th>
-                  <td colspan="6"><textarea aria-labelledby="table-user"></textarea></td>
-                  <td colspan="13"><textarea aria-labelledby="table-observations"></textarea></td>
-                  <td colspan="13"><textarea aria-labelledby="table-feedback"></textarea></td>
-                </tr>
-                <tr>
-                  <th scope="col">3</th>
-                  <td colspan="6"><textarea aria-labelledby="table-user"></textarea></td>
-                  <td colspan="13"><textarea aria-labelledby="table-observations"></textarea></td>
-                  <td colspan="13"><textarea aria-labelledby="table-feedback"></textarea></td>
-                </tr>
-                <tr>
-                  <th scope="col">4</th>
-                  <td colspan="6"><textarea aria-labelledby="table-user"></textarea></td>
-                  <td colspan="13"><textarea aria-labelledby="table-observations"></textarea></td>
-                  <td colspan="13"><textarea aria-labelledby="table-feedback"></textarea></td>
-                </tr>
-                <tr>
-                  <th scope="col">5</th>
-                  <td colspan="6"><textarea aria-labelledby="table-user"></textarea></td>
-                  <td colspan="13"><textarea aria-labelledby="table-observations"></textarea></td>
-                  <td colspan="13"><textarea aria-labelledby="table-feedback"></textarea></td>
-                </tr>
-              </tbody>
-            </table>
+              <table>
+                <thead>
+                  <tr>
+                    <th scope="row">№</th>
+                    <th colspan="6" scope="row" id="table-user">User</th>
+                    <th colspan="13" scope="row" id="table-observations">Facilitator observations</th>
+                    <th colspan="13" scope="row" id="table-feedback">Participant feedback</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="col">1</th>
+                    <td colspan="6"><textarea aria-labelledby="table-user"></textarea></td>
+                    <td colspan="13"><textarea aria-labelledby="table-observations"></textarea></td>
+                    <td colspan="13"><textarea aria-labelledby="table-feedback"></textarea></td>
+                  </tr>
+                  <tr>
+                    <th scope="col">2</th>
+                    <td colspan="6"><textarea aria-labelledby="table-user"></textarea></td>
+                    <td colspan="13"><textarea aria-labelledby="table-observations"></textarea></td>
+                    <td colspan="13"><textarea aria-labelledby="table-feedback"></textarea></td>
+                  </tr>
+                  <tr>
+                    <th scope="col">3</th>
+                    <td colspan="6"><textarea aria-labelledby="table-user"></textarea></td>
+                    <td colspan="13"><textarea aria-labelledby="table-observations"></textarea></td>
+                    <td colspan="13"><textarea aria-labelledby="table-feedback"></textarea></td>
+                  </tr>
+                  <tr>
+                    <th scope="col">4</th>
+                    <td colspan="6"><textarea aria-labelledby="table-user"></textarea></td>
+                    <td colspan="13"><textarea aria-labelledby="table-observations"></textarea></td>
+                    <td colspan="13"><textarea aria-labelledby="table-feedback"></textarea></td>
+                  </tr>
+                  <tr>
+                    <th scope="col">5</th>
+                    <td colspan="6"><textarea aria-labelledby="table-user"></textarea></td>
+                    <td colspan="13"><textarea aria-labelledby="table-observations"></textarea></td>
+                    <td colspan="13"><textarea aria-labelledby="table-feedback"></textarea></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 ---

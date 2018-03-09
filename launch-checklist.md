@@ -6,6 +6,7 @@ desc: "A checklist of things to check on your website before you launch it, for 
 
 groups:
   - title: 'Content & usability'
+    full: usability-testing-checklist
     items:
       - 'All text is free from spelling and grammar errors.'
       - 'There’s no placeholder text or images on the website.'
@@ -30,6 +31,7 @@ groups:
     items:
       - 'All forms function properly, the `action` pointing to the proper location.'
       - 'Forms have proper input types.'
+      - 'All forms have appropriate error messages.'
       - 'All forms have a submit button.'
       - 'Forms have a proper completion message.'
       - 'All inputs have an associated `<label>`.'

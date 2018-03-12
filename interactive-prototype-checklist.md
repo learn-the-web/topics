@@ -36,6 +36,7 @@ groups:
       - 'Separates HTML chunks into reusable patterns.'
       - 'Uses modular CSS effectively.'
       - 'Effectively uses CSS classes to avoid CSS duplication.'
+      - 'Effectively uses CSS variables to help maintainability.'
       - 'Separates CSS styles into reusable patterns.'
       - 'Separates CSS styles into different files for maintainability.'
       - 'Effectively uses Jekyll.'

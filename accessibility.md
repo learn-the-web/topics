@@ -5,6 +5,7 @@ desc: "Making our website work well for every human being regardless of their ab
 playlist: PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7
 download: https://github.com/acgd-learn-the-web/accessibility-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/accessibility-code
+cheatsheet: accessibility-cheat-sheet
 checklist: accessibility-checklist
 extra_practice:
   week:
@@ -65,6 +66,7 @@ Visual impairments are issues that affect eyes, e.g. blindness, partial or full;
 - Test for colour blindness related issues
 - Make sure the website works well with screen readers
 - Use proper alt attributes
+- Don’t autoplay any sound
 
 ### Mobility and dexterity
 
@@ -83,6 +85,8 @@ Impairments that affect a person’s ability to hear, e.g. deafness, partial dea
 **Things we can do**
 
 - Provide text captions and subtitles
+- Don’t rely on sound for indicators.
+- Don’t autoplay any sound
 
 ### Cognitive
 
@@ -95,6 +99,7 @@ Generally considered something that affects a person’s brain, e.g. dyslexia, m
 - Make the text easily scannable
 - Clearly mark links
 - Use lots of images and graphics
+- Don’t autoplay any sound
 
 ---
 
@@ -106,7 +111,7 @@ We may make tabs in HTML with lists and divs, and they may look like tabs, but t
 
 ### Landmark roles
 
-Adding ARIA landmark roles to your website is a great way to provide navigational landmarks for people using accessibility tools like screen readers. With roles people using screen readers can jump directly to specific locations on the website.
+Adding ARIA landmark roles to your website is a great way to provide navigational landmarks for people using accessibility tools like screen readers. With roles, people using screen readers can jump directly to specific locations on the website.
 
 The major landmark roles for websites are:
 
@@ -124,6 +129,8 @@ Here’s an example of adding the landmark role to the masthead:
   <strong>Accessible Website</strong>
 </header>
 ```
+
+**Every piece of content on a page should be contained within one of these landmark roles.**
 
 ### Properties
 
@@ -220,6 +227,12 @@ Skip links are just standard internal links that jump down to a specific point o
 ⋮
 
 <main role="main" id="main">
+```
+
+To help make the content focusable more easily it’s also helpful at add `tabindex` to the skip link element:
+
+```html
+<main role="main" id="main" tabindex="0">
 ```
 
 Most often designers like to hide them but they must be hidden in an accessible manner. Hidden by default but when focused, shown again.

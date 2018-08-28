@@ -4,6 +4,10 @@ title: "Accessibility checklist"
 tags: "accessibility humans impairments universal design checklist"
 desc: "A checklist for double checking the accessibility features of your website."
 
+related:
+  - title: "Accessibility cheat sheet"
+    url: accessibility-cheat-sheet
+
 groups:
   - title: 'Content'
     items:
@@ -38,7 +42,7 @@ groups:
       - 'All appropriate elements are accessible by keyboard—website includes focus styles.<br>[Focus styles](/topics/accessibility#focus-styles)'
       - 'Hit areas, links & buttons, are big enough for thumbs and users with difficulty using the mouse.'
       - 'Properly implemented skip links.<br>[Skip links](/topics/accessibility#skip-links)'
-      - 'Correct elements have WAI-ARIA landmark roles.<br>[Landmark roles](/topics/accessibility#wai-aria-roles)'
+      - 'Call content on the page is contained within WAI-ARIA landmark roles.<br>[Landmark roles](/topics/accessibility#wai-aria-roles)'
       - 'Appropriate elements have ARIA attributes.<br>[JavaScript, jQuery & accessibility](/topics/javascript-jquery-accessibility/)'
       - 'Animations can be stopped.'
       - 'No presentational elements are read by accessibility tools.'

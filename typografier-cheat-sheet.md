@@ -45,6 +45,7 @@ groups:
       - name: '`.micro`'
         details:
           - 'Two sizes smaller than the body copy.'
+          - 'There’s even two smaller sizes: `.nano` & `.pico`'
 
   - title: 'Spacing'
     items:

@@ -91,7 +91,7 @@ So we could create grid units with full bleed images.
 ```html
 ⋮
 <div class="unit">
-  <img src="http://placehold.it/500x500" alt="">
+  <img src="https://placehold.it/500x500" alt="">
 </div>
 ⋮
 ```

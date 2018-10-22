@@ -111,7 +111,6 @@ groups:
       - name: '`vertical-align: middle`'
         details:
           - 'Works only on `display: inline` & `inline-block` elements.'
-          - '*Must be applied to the parent element.*'
           - |
             ```html
             <ul>
@@ -121,12 +120,9 @@ groups:
             ```
           - |
             ```css
-            ul {
-              vertical-align: middle;
-            }
-
             ul li {
               display: inline-block;
+              vertical-align: middle;
             }
             ```
       - name: '*Centering absolute*'

@@ -2,7 +2,7 @@
 title: "Flexbox"
 tags: "css advanced layout flexbox align content justify vertical"
 desc: "Learn how to use the flexbox layout system to create more advanced layouts with columns and alignments."
-playlist:
+playlist: PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq
 download: https://github.com/acgd-learn-the-web/flexbox/archive/master.zip
 github: https://github.com/acgd-learn-the-web/flexbox
 cheatsheet: flexbox-cheat-sheet
@@ -434,12 +434,11 @@ And the last little bit is to choose what element will expand to fill the spaceâ
 
 ## Video list
 
-- [Flexbox: flex containers]()
-- [Flexbox: justify & align]()
-- [Flexbox: vertical & wrapping]()
-- [Flexbox: horizontal navigation]()
-- [Flexbox: columns]()
-- [Flexbox: equal height content]()
+- [Flexbox: introduction](https://www.youtube.com/watch?v=mQ1iWdfzvgA&index=1&list=PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq)
+- [Flexbox: wrapping rows](https://www.youtube.com/watch?v=An-FI9TKkqY&index=2&list=PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq)
+- [Flexbox: direction](https://www.youtube.com/watch?v=ff0T4kz4qDc&index=3&list=PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq)
+- [Flexbox: horizontal navigation](https://www.youtube.com/watch?v=b9siX4lCs_o&index=4&list=PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq)
+- [Flexbox: columns](https://www.youtube.com/watch?v=P2oSp_N-I7s&list=PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq&index=5)
 
 ## Supplemental links
 
@@ -456,6 +455,7 @@ And the last little bit is to choose what element will expand to fill the spaceâ
 - [Understanding Flexbox: Everything you need to know](https://medium.freecodecamp.org/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af)
 - [The Ultimate Guide to Flexboxâ€Šâ€”â€ŠLearning Through Examples](https://medium.freecodecamp.org/the-ultimate-guide-to-flexbox-learning-through-examples-8c90248d4676)
 - [Flexbox: How Big Is That Flexible Box?](https://www.smashingmagazine.com/2018/09/flexbox-sizing-flexible-box/)
+- [Flexbox use cases](https://www.smashingmagazine.com/2018/10/flexbox-use-cases/)
 - [Flexbox guides on MDN](https://hacks.mozilla.org/2018/01/new-flexbox-guides-on-mdn/)
 - [Laying Out A Flexible Future For Web Design With Flexbox Best Practices](https://www.smashingmagazine.com/2015/08/flexible-future-for-web-design-with-flexbox/)
 - [Almost complete guide to flexbox (without flexbox)](https://kyusuf.com/post/almost-complete-guide-to-flexbox-without-flexbox)

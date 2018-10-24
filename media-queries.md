@@ -472,9 +472,9 @@ The `@page` declaration allows us to target different aspects of the page.
 ## Video list
 
 1. [Media queries: introduction](https://www.youtube.com/watch?v=X8sUiRemgqU&index=1&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI)
-2. [Media queries: columns](https://www.youtube.com/watch?v=pSbNxyHeioA&index=2&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI)
+2. [Media queries: columns](https://www.youtube.com/watch?v=jaDUeYStknE&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=2)
 3. [Media queries: banner](https://www.youtube.com/watch?v=n2LxnjT68gc&index=3&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI)
-4. [Media queries: toggle navigation](https://www.youtube.com/watch?v=ifhppwLzXwI&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=4)
+4. [Media queries: toggle navigation](https://www.youtube.com/watch?v=VkgWRpq8nCE&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=4)
 5. [Media queries: flowing text into columns](https://www.youtube.com/watch?v=eZcFsGoeQyU&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=5)
 6. [Media queries: no media queries](https://www.youtube.com/watch?v=ig9pueXrl3o&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=6)
 7. [Media queries: print styles](https://www.youtube.com/watch?v=krZXeORLXtM&list=PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI&index=7)

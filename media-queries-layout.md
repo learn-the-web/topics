@@ -6,6 +6,8 @@ playlist: PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7
 download: https://github.com/acgd-learn-the-web/media-queries-layout-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/media-queries-layout-code
 livewebsite: media-queries-layout
+alert: |
+  This tutorial uses some outdated code, specifically `float`, using flexbox or grids would be a better, more up-to-date solution to the layouts.
 ---
 
 Video playlist walking you through manipulating a website with media queries.

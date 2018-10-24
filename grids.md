@@ -49,15 +49,15 @@ We have one element, the “row”, that surrounds a bunch of other elements, th
 </div>
 ```
 
-Within CSS, we can then float of each of the units to fit beside each other.
+Within CSS, we can then use flexbox to arrange the units to fit beside each other. We probably want to include `flex-wrap` to allow for more responsive grids.
 
 ```css
 .grid {
-  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .unit {
-  float: left;
   /* The width is set to 33% because we want to fit three columns in our row. */
   width: 33.3333%;
 }
@@ -141,10 +141,6 @@ Each class represents the width the `<div>` will be in at each different screen 
 In our CSS we would then create these classes and style them within different media queries.
 
 ```css
-.unit {
-  float: left;
-}
-
 .unit-s-1 {
   width: 100%;
 }
@@ -175,14 +171,6 @@ Following the mobile-first approach we set the small sized units outside media q
 As the screen changes size the units will fall into place beside each other or stack depending on the available screen space.
 
 I like to work in fractions for my grid sizes because, to me, it makes the most sense online. Lots of other designers like to use a set number of columns, like 12. But to me, I would never need 12 columns on a mobile screen so it doesn’t make sense.
-
-### Flexbox grid systems
-
-The grid system above uses `float` to get the units beside each other, but this isn’t as flexible as other layout methods.
-
-Using `display: inline-block` gives a little bit more flexibility, especially for vertical alignment of units, but adds extra spaces between units.
-
-So, in modern browsers, `display: flex`, aka: flexbox, is the best solution. It gives us lots of control over the placement of our units both horizontally and vertically. Many modern grid systems use a combination of flexbox with a fallback of inline-block of float.
 
 ---
 

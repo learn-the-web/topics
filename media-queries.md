@@ -263,23 +263,29 @@ I’ve found a few media query em sizes have popped up over and over again when 
 Lets start with a basic, stacked navigation:
 
 ```html
-<nav>
-  <ul class="nav">
-    <li><a href="#">Terrestrial planets</a></li>
-    <li><a href="#">Gas giants</a></li>
-    <li><a href="#">Dwarf planets</a></li>
-    <li><a href="#">Asteroids</a></li>
-  </ul>
-</nav>
+<header>
+  <h1>Celestial objects</h1>
+  <nav>
+    <ul class="nav">
+      <li><a href="#">Terrestrial planets</a></li>
+      <li><a href="#">Gas giants</a></li>
+      <li><a href="#">Dwarf planets</a></li>
+      <li><a href="#">Asteroids</a></li>
+    </ul>
+  </nav>
+</header>
 ```
 
 The CSS for our basic navigation might look something like this:
 
 ```css
+header {
+  background-color: #000;
+}
+
 .nav {
   margin: 0;
   padding: 0;
-  background-color: #000;
   list-style-type: none;
 }
 
@@ -301,11 +307,8 @@ The above navigation works well for small screens, but on medium screens it gets
 @media only screen and (min-width: 38em) {
 
   .nav {
-    text-align: center;
-  }
-
-  .nav li {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
   }
 
 }
@@ -313,19 +316,14 @@ The above navigation works well for small screens, but on medium screens it gets
 
 So now, on our medium screen, the navigation is horizontal, all on one line.
 
-Then, maybe on large screens we decide it should be in its own column, off to the left, so we can adjust it again with another media query.
+Then, maybe on large screens we decide it should be off to the right, beside the `<h1>` logo on a single row, so we can adjust it again with another media query.
 
 ```css
 @media only screen and (min-width: 60em) {
 
-  .nav {
-    float: left;
-    width: 20%;
-  }
-
-  .nav li {
-    /* Re-set the display setting to overwrite the 38em MQ */
-    display: block;
+  header {
+    display: flex;
+    justify-content: space-between;
   }
 
 }

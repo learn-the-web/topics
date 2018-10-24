@@ -6,6 +6,8 @@ playlist: PLWjCJDeWfDdcei65OaWx1yn6Oc8wIyyyz
 download: https://github.com/acgd-learn-the-web/small-screen-layout-code/archive/gh-pages.zip
 github: https://github.com/acgd-learn-the-web/small-screen-layout-code
 livewebsite: small-screen-layout
+alert: |
+  This tutorial uses some outdated code, specifically `float`, using flexbox or grids would be a better, more up-to-date solution to the layouts.
 ---
 
 Video playlist walking you through creating a basic, small-screen website using all the techniques so far: semantics, typography, box model, float & position.

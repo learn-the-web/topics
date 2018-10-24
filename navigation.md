@@ -159,11 +159,14 @@ The footer-anchor pattern for navigation puts the navigation at the bottom, then
 
 ![](grid.png)
 
-The grid pattern is a way to use up less space at the top of the page for your navigation. All we do is float the list items beside each other to form a grid.
+The grid pattern is a way to use up less space at the top of the page for your navigation. All we do is use flexbox to get the list items beside each other to form a grid.
 
 ```css
+.nav {
+  display: flex;
+}
+
 .nav li {
-  float: left;
   width: 50%;
 }
 ```

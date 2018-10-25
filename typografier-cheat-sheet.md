@@ -116,4 +116,36 @@ groups:
           - 'Sets the `max-width` of an element to `36em`—which is a fairly good line-length for text content.'
           - 'There’s also `.max-length-no-center` that doesn’t add the `auto` left & right margins.'
 
+  - title: 'Icons'
+    notes: |
+      These must be used in connection with the [Modulifier icon classes](/topics/modulifier-cheat-sheet/#icons).
+    items:
+      - name: '`.i-1`'
+        details:
+          - 'An icon that’s width & height are the same size of the current line-height.'
+      - name: '`.i-3-4`'
+        details:
+          - 'An icon that’s width & height are ¾ the size of the current line-height.'
+      - name: '`.i-1-2`'
+        details:
+          - 'An icon that’s width & height are ½ the size of the current line-height.'
+      - name: '`.i-1-4`'
+        details:
+          - 'An icon that’s width & height are ¼ the size of the current line-height.'
+      - name: '`.i-1-8`'
+        details:
+          - 'An icon that’s width & height are ⅛ the size of the current line-height.'
+      - name: '`.i-1-1-2`, `.i-3-2`'
+        details:
+          - 'An icon that’s width & height are 1½ the size of the current line-height.'
+      - name: '`.i-1-1-4`, `.i-5-4`'
+        details:
+          - 'An icon that’s width & height are 1¼ the size of the current line-height.'
+      - name: '`.i-1-3-4`, `.i-7-4`'
+        details:
+          - 'An icon that’s width & height are 1¾ the size of the current line-height.'
+      - name: '`.i-2`'
+        details:
+          - 'An icon that’s width & height are twice the size of the current line-height.'
+
 ---

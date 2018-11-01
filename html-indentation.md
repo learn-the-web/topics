@@ -60,7 +60,7 @@ We don’t always have to indent child elements if the line is understandable.
     <li><a href="#">Omnivorous dinosaurs</a></li>
     <li><a href="#">Carnivorous dinosaurs</a></li>
   </ul>
-</ul>
+</nav>
 ```
 
 But, you could write this another way, if it makes more sense for you:

@@ -80,9 +80,13 @@ groups:
         details:
           - |
             ```html
+            <!-- .ico should have 16, 32, 48 px sizes -->
             <link href="/favicon.ico" rel="shortcut icon">
+            <link href="/favicon-196.png" rel="icon" type="image/png">
+
+            <!-- Very optional -->
             <meta name="application-name" content="Your Site Name">
-            <link rel="apple-touch-icon-precomposed" href="/favicon-152.png">
+            <link rel="apple-touch-icon-precomposed" href="/favicon-196.png">
             <meta name="msapplication-TileImage" content="/favicon-144.png">
             <meta name="msapplication-TileColor" content="#ef0303">
             ```

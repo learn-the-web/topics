@@ -236,6 +236,14 @@ If, for some reason, you can’t put it there (like you’re website is hosed in
 <link href="favicon.ico" rel="shortcut icon">
 ```
 
+### Larger favicons
+
+Many devices like to use larger favicons, for bookmarks, or homescreens. So we generally also include an image that’s `196×196` pixels.
+
+```html
+<link rel="icon" type="image/png" href="/favicon-196.png">
+```
+
 ### Platform specific favicons
 
 Some platforms have their own favicons used in other locations:
@@ -245,6 +253,8 @@ Some platforms have their own favicons used in other locations:
 - etc.
 
 These icons are generally always PNGs.
+
+**There are countless platform-specific favicon formats and can get completely, ridiculously out-of-hand.** I try to keep things simple with the `.ico` and a single, large `.png`. But if you want more specific icons, here are some important ones.
 
 #### Platform specific image dimensions
 
@@ -259,7 +269,8 @@ After saving the icons (and of course smushing them) you’ll need to link them 
 
 ```html
 <meta name="application-name" content="Your Site Name">
-<link rel="apple-touch-icon" href="/favicon-196.png">
+<!-- For Apple & Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/favicon-196.png">
 <!-- Optional Microsoft Phone stuff -->
 <meta name="msapplication-TileImage" content="/favicon-144.png">
 <meta name="msapplication-TileColor" content="#ef0303">
@@ -287,6 +298,8 @@ Animation alone isn’t generally a good reason to use a GIF, [**☛ try using C
 GIF animations shine for complex, traditional, frame-by-frame animations, while SVG & CSS animations are much more straight-forward.
 
 Photoshop has the ability to animate GIFs using the “Timeline” window.
+
+**Still, in many cases, GIFs are still not great.** They have big memory and performance implications and looping `.mp4` videos are much better.
 
 ---
 

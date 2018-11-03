@@ -231,7 +231,7 @@ The `z-index` is a number, with no unit, that controls the layer. The higher the
 3. [Posiiton: planet list](https://www.youtube.com/watch?v=LU3BkaRVf_8&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=3)
 4. [Position: layering with z-index](https://www.youtube.com/watch?v=6VK4KLW0gS8&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=4)
 5. [Position: hero banner](https://www.youtube.com/watch?v=3MpEnd_rRuY&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=5)
-6. [Position: position and float](https://www.youtube.com/watch?v=wydLbIagYsI&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=6)
+6. [Position: position and flexbox](https://www.youtube.com/watch?v=CLCV4KSNClg&index=6&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP)
 
 ## Supplemental links
 

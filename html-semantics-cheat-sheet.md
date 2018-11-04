@@ -141,6 +141,21 @@ groups:
               <dd>4 tonnes</dd>
             </dl>
             ```
+      - name: '`<menu>`'
+        details:
+          - 'For semantically marking up a web application’s toolbar of buttons.'
+          - 'The `<menu>` tag also uses `<li>` tags inside—one for each toolbar button.'
+          - 'You may still have to remove the bullets.'
+      - name: '*Menu toolbar list*'
+        details:
+          - |
+            ```html
+            <menu>
+              <li><button>Like</button></li>
+              <li><button>Share</button></li>
+              <li><button>Comment</button></li>
+            </menu>
+            ```
 
   - title: 'Text'
     items:
@@ -157,6 +172,10 @@ groups:
         details:
           - 'Content headings, each a sub-heading of the one above.'
           - 'The `<h2>` is a sub-heading of `<h1>`, `<h3>` a sub-heading of `<h2>`, etc.'
+      - name: '`<hgroup>`'
+        details:
+          - 'Allows you to group multiple headings together and have them semantically treated as a single heading.'
+          - 'It’s primary purpose is for subheadings.'
       - name: '`<p>`'
         details:
           - 'A generic paragraph of text.'
@@ -218,7 +237,6 @@ groups:
       - name: '`<address>`'
         details:
           - 'Contact information, email, tel, postal address, etc.'
-      - name: ''
       - name: '*Blockquotes*'
         details:
           - |
@@ -244,6 +262,27 @@ groups:
           - |
             ```html
             <p>Launchpad 39A owned by <del datetime="2014-04-14">NASA</del> <ins datetime="2014-04-14">SpaceX</ins></p>
+            ```
+      - name: '*Heading groups*'
+        details:
+          - |
+            ```html
+            <hgroup>
+              <h1>Star Wars</h1>
+              <h2>The Empire Strikes Back</h2>
+            </hgroup>
+            ```
+      - name: '*Abbreviations*'
+        details:
+          - |
+            ```html
+            <abbr title="Star Trek: The Wrath of Khan">ST:TWOK</abbr>
+            ```
+      - name: '*Other languages*'
+        details:
+          - |
+            ```html
+            <i lang="fr">Bonjour</i>
             ```
 
   - title: 'Images & media'

@@ -152,6 +152,12 @@ groups:
                 "email": "primeminister@canada.ca",
                 "tel": "+16139416900",
                 "website": "http://canada.ca/"
+                "sameAs": [
+                  "https://www.facebook.com/sir_john_a_macdonald",
+                  "https://www.youtube.com/channel/sir_john_a_macdonald"
+                  "https://www.instagram.com/sir_john_a_macdonald/",
+                  "https://twitter.com/sir_john_a_macdonald",
+                ]
               }
             </script>
             ```

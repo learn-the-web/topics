@@ -164,6 +164,7 @@ The grid pattern is a way to use up less space at the top of the page for your n
 ```css
 .nav {
   display: flex;
+  flex-wrap: wrap; /* Allow the items to be on many lines */
 }
 
 .nav li {

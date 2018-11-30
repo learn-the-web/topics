@@ -245,7 +245,7 @@ Relationships can be defined in HTML using the `rel` attribute. These relationsh
 
 ### Open Graph
 
-The Open Graph Protocol can be used to extract information from your website when a user links to it. It’s used by Facebook, Google+, Pinterest and more.
+The Open Graph Protocol can be used to extract information from your website when a user links to it. It’s used by Facebook, Instagram, LinkedIn, Pinterest and more.
 
 ![](facebook-open-graph.jpg)
 

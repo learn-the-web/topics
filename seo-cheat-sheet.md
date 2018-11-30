@@ -62,7 +62,8 @@ groups:
           - '[See more social relationships](http://microformats.org/wiki/existing-rel-values)'
       - name: '*Social media metadata*'
         details:
-          - '**Facebook Open Graph**'
+          - '**Open Graph**'
+          - 'Used by Facebook, Instagram, Pinterest, LinkedIn, etc.'
           - 'Add into `<head>` on every page'
           - |
             ```html

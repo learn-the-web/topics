@@ -28,8 +28,8 @@ groups:
   - title: 'Operating systems'
     note: 'Test browsers in all OSes'
     items:
-      - 'Windows'
       - 'MacOS'
+      - 'Windows'
       - 'Linux'
       - 'Android OS'
       - 'iOS'
@@ -57,16 +57,17 @@ groups:
       - 'iOS Safari, *one version behind*'
       - 'Android browser, *current version*'
       - 'Android browser, *one version behind*'
+      - 'Firefox Mobile (Android)'
 
   - title: 'Less common browsers'
+    note: 'Some are extremely popular outside North America'
     items:
-      - 'UC Browser (extremely common in China)'
+      - 'UC Browser'
       - 'Yandex'
       - 'Windows Phone IE'
       - 'Kindle Browser, black & white e-ink'
       - 'W3M, text only browser'
       - 'Blackberry browser'
-      - 'Firefox Mobile'
       - 'Symbian browser, older Nokia phones'
 
 ---

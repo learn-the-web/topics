@@ -18,7 +18,7 @@ This layout and series of videos combine together all these different lessons—
 
 1. [All devices setup](/topics/all-devices-setup/)
 2. [Media queries](/topics/media-queries/)
-4. [Grids](/topics/grids/)
+4. [Flexbox grids](/topics/flexbox-grids/)
 3. [Modular typography](/topics/modular-typography/)
 5. [Modules](/topics/modules/)
 

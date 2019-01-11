@@ -607,24 +607,39 @@ groups:
           - '*686 days*'
       - name: '*Period of days, hours*'
         details:
-          - 'Format: `PddDhhH`'
-          - 'Example: `P686D23H`'
+          - 'Format: `PddDThhH`'
+          - 'Example: `P686DT23H`'
           - '*686 days, 23 hours*'
       - name: '*Period of days, hours, minutes*'
         details:
-          - 'Format: `PddDhhHmmM`'
-          - 'Example: `P686D23H18M`'
+          - 'Format: `PddDThhHmmM`'
+          - 'Example: `P686DT23H18M`'
           - '*686 days, 23 hours, 18 minutes*'
       - name: '*Period of days, hours, minutes, seconds*'
         details:
-          - 'Format: `PddDhhHmmMssS`'
-          - 'Example: `P686D23H18M14S`'
+          - 'Format: `PddDThhHmmMssS`'
+          - 'Example: `P686DT23H18M14S`'
           - '*686 days, 23 hours, 18 minutes, 14 seconds*'
       - name: '*Period of days, hours, minutes, seconds, milliseconds*'
         details:
-          - 'Format: `PddDhhHmmMss.sssS`'
-          - 'Example: `P686D23H18M14.400S`'
+          - 'Format: `PddDThhHmmMss.sssS`'
+          - 'Example: `P686DT23H18M14.400S`'
           - '*686 days, 23 hours, 18 minutes, 14 seconds, 400 milliseconds*'
+      - name: '*Period of hours*'
+        details:
+          - 'Format: `PThhH`'
+          - 'Example: `PT23H`'
+          - '*23 hours*'
+      - name: '*Period of minutes*'
+        details:
+          - 'Format: `PTmmM`'
+          - 'Example: `PT18M`'
+          - '*18 minutes*'
+      - name: '*Period of minutes, seconds*'
+        details:
+          - 'Format: `PTmmMssS`'
+          - 'Example: `PT18M14S`'
+          - '*18 minutes, 14 seconds*'
       - name: '*Exact date example*'
         details:
           - |
@@ -635,7 +650,7 @@ groups:
         details:
           - |
             ```html
-            <time datetime="P365D6H8M">Earth’s orbital period</time>
+            <time datetime="P365DT6H8M">Earth’s orbital period</time>
             ```
       - name: '*Range of time periods*'
         details:

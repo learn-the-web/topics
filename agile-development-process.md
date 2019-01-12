@@ -2,6 +2,7 @@
 title: "Agile development process"
 tags: "agile software development process teams evolve self organizing project management"
 desc: "A quick overview of the agile software development process and the ideas we can apply to school team projects."
+checklist: sprint-checklist
 ---
 
 Agile is a fairly popular system for planning software. It can be very strict in following a rigorous rhythm but for our projects we’re going to keep it a little loose and look at only some important aspects with the whole Agile Manifesto.

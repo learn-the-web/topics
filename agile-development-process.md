@@ -93,7 +93,7 @@ We can use GitHub as a tool to help organize our Agile development:
 - Labels for organization
 - Assign talented people to tasks
 
-[**☛ Explore GitHub for project management in depth**](/topics/github-for-project-management/)
+[**☛ Explore GitHub for project management in depth**](/topics/using-github-for-project-management/)
 
 ---
 

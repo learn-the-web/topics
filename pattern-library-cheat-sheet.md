@@ -179,6 +179,7 @@ groups:
               --font-primary: Georgia, serif;
               --font-secondary: "Sarabun", sans-serif;
               --font-accent: "Abril Fatface", serif;
+            }
             ```
       - name: '*Logos*'
         details:

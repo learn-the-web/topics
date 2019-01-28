@@ -15,35 +15,56 @@ groups:
             xcode-select --install
             /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
             brew install ruby
-            gem install jekyll
+            echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+            ```
+          - 'Then open your repo in Terminal, from GitHub Desktop: `Repository > Open in Terminal`'
+          - |
+            ```
+            bundle init
+            ```
+          - 'Open the new `Gemfile`, add the following line:'
+          - |
+            ```ruby
+            gem "jekyll"
+            ```
+          - 'Pop back to Terminal, type:'
+          - |
+            ```
+            bundle install
             ```
           - '[**☛ Jekyll installation.**](/topics/jekyll-installation/)'
       - name: '*Starting & stopping*'
         details:
           - 'First, open your Jekyll folder in Terminal using the GitHub app shortcut—``⌃` ``'
-          - '*Start Jekyll:*'
+          - '**Start Jekyll:**'
           - |
             ```
-            jekyll serve --watch --baseurl=""
+            bundle exec jekyll serve
             ```
           - '*View your website in a browser:*'
           - |
             ```
-            http://127.0.0.1:4000/
+            http://localhost:4000/
             ```
-          - '*Stop Jekyll:*'
+          - '**Stop Jekyll:**'
           - |
             ```
             Control + C
             Or just quit Terminal.
             ```
           - '[**☛ Jekyll terminal guide.**](/topics/jekyll-terminal-guide/)'
+          - 'If hosting on GitHub, don’t forget `baseurl`'
+          - |
+            ```
+            bundle exec jekyll serve --baseurl=""
+            ```
       - name: '*Setting up Jekyll*'
         details:
           - 'Inside your folder you need to create the `_config.yml` file.'
           - |
             ```yaml
             permalink: pretty
+            # Add the baseurl if hosting on GitHub
             baseurl: /your-folder-on-github
             ```
           - '*Sample folder setup:*'
@@ -71,21 +92,37 @@ groups:
     items:
       - name: '*Linking pages*'
         details:
-          - 'With `permalink: pretty` turned on the `.html` extension can be left off URLs—but `{{site.baseurl}}` should be added.'
+          - 'With `permalink: pretty` turned on the `.html` extension can be left off URLs.'
+          - '*All links & hrefs & srcs should always start with a forward slash: `/`'
+          - |
+            ```html
+            <a href="/plant-eaters/">Plant eaters</a>
+            ```
+          - 'Don’t forget to add `{{site.baseurl}}` when hosting on GitHub.'
           - |
             ```html
             <a href="{{site.baseurl}}/plant-eaters/">Plant eaters</a>
             ```
       - name: '*Connecting CSS*'
         details:
-          - 'Link CSS files like normal, except make sure to add `{{site.baseurl}}`'
+          - 'Link CSS files like normal, be sure to start with a `/`'
+          - |
+            ```html
+            <link href="/css/main.css" rel="stylesheet">
+            ```
+          - 'Or for GitHub Pages folder hosting:'
           - |
             ```html
             <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
             ```
       - name: '*Linking images*'
         details:
-          - 'Link images like normal, except make sure to add `{{site.baseurl}}`'
+          - 'Link images like normal, make sure to start with a `/`'
+          - |
+            ```html
+            <img src="/images/trex.jpg" alt="">
+            ```
+          - 'Or for GitHub Pages folder hosting:'
           - |
             ```html
             <img src="{{site.baseurl}}/images/trex.jpg" alt="">
@@ -154,7 +191,7 @@ groups:
           - 'Use an if-statement inside the `<a>` tag to add the `.current` class.'
           - |
             ```html
-            <a href="{{site.baseurl}}/plant-eaters/" {% if page.url == '/plant-eaters/' %} class="current" {% endif %}>Plant eaters</a>
+            <a href="/plant-eaters/" {% if page.url == '/plant-eaters/' %} class="current" {% endif %}>Plant eaters</a>
             ```
 
   - title: 'Data, includes & posts'
@@ -224,7 +261,7 @@ groups:
             <ul>
               {% for post in site.posts %}
                 <li>
-                  <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+                  <a href="{{post.url}}">{{post.title}}</a>
                   <p>{{post.excerpt}}</p>
                 </li>
               {% endfor %}

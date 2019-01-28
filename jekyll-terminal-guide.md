@@ -26,12 +26,14 @@ In the GitHub application, click `Repository > Open in Terminal`.
 When in Terminal, type the following command:
 
 ```bash
-jekyll serve --watch --baseurl=""
+bundle exec jekyll serve
 ```
 
 ![](start.jpg)
 
 Jekyll will now be available in your browser at the following URL: **<http://127.0.0.1:4000>**.
+
+**Alternatively you can use: <http://localhost:4000> (`127.0.0.1` & `localhost`) are interchangeable.**
 
 You can see the address Jekyll provides in the Terminal, under the “Server Address” entry:
 

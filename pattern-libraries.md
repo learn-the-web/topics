@@ -6,6 +6,7 @@ playlist: PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0
 download: https://github.com/acgd-learn-the-web/jekyll-patternbot-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/jekyll-patternbot-code/
 livewebsite: https://stoic-engelbart-a37d1e.netlify.com/pattern-library/
+cheatsheet: pattern-library-cheat-sheet
 ---
 
 Pattern libraries—or style guides—are a great tool when working on teams. We can communicate documentation of all the different website components, show how & when to use them and really see an overview of what’s available to build out a website.

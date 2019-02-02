@@ -6,6 +6,7 @@ playlist: PLWjCJDeWfDddFOJYmcgNnUIhUHcsNEBTd
 download: https://github.com/acgd-learn-the-web/search-engine-optimization-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/search-engine-optimization-code
 checklist: seo-checklist
+cheatsheet: seo-cheat-sheet
 extra_practice:
   week:
     title: "Web Dev 5, Week 07"

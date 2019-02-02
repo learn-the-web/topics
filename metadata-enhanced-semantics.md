@@ -6,6 +6,7 @@ playlist: PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx
 download: https://github.com/acgd-learn-the-web/metadata-enhanced-semantics-code/archive/master.zip
 github: https://github.com/acgd-learn-the-web/metadata-enhanced-semantics-code
 checklist: seo-checklist
+cheatsheet: seo-cheat-sheet
 extra_practice:
   week:
     title: "Web Dev 5, Week 07"

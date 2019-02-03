@@ -3,6 +3,7 @@ title: "Branching & GitHub Flow"
 tags: "github hosting system branches master gh pages flow issues pull requests"
 desc: "Understanding the GitHub Flow when using branches and pull requests with your team."
 video: 2M16faxEQsg
+flowchart: branching-flowchart
 extra_practice:
   activities:
     - title: "Git Graduator"
@@ -25,9 +26,31 @@ Now you have a litter of different files for different features you’ve tried o
 
 ## Working smoothly with teams
 
+Branches help facilitate working on teams a little better, because we can have a pristine version of the website: `master` and then we work on separate branches.
+
+Most often, on teams, we protect the `master` branch: the prevent erroneous commits going onto `master`—which also means they will go onto the live website.
+
+- `master` is the exact replica of what’s online.
+- Only approved code should be put onto `master` because it will show on the website for real users.
+- We don’t directly commit to `master` because we want our code vetted before launching to users.
+
 ### Branches for every feature
 
+Each new feature we want to add to our website get its own branch. **When a feature is complete the branch is discarded & not used again.** Of course it’s important to merge the code into master first.
+
+We can even use branches for testing something out, if it fails, we can just discard the branch and we don’t accidentally affect the live website.
+
+#### Branches for bug fixes
+
+Even a small typo or bug fix will get its own branch. Creating a pull request for a small typo is a little annoying, yes, but it keeps us all accountable for changes that get deployed to the live website.
+
 ### Code reviews for everybody
+
+As part of working on teams it’s always important that we get our code reviewed by our peers.
+
+As part of GitHub’s systems we can prevent code from showing on our `master` branch until it has been approved by someone else. It makes everyone accountable for what’s on the live website—and helps us improve by getting our code looked at by others.
+
+[**☛ Follow a step-by-step lesson on setting up your repository.**](/courses/web-dev-6/github-project-setup/)
 
 ---
 
@@ -35,63 +58,20 @@ Now you have a litter of different files for different features you’ve tried o
 
 There’s a process called GitHub Flow that’s very popular for working on teams.
 
-The idea is that your `master` branch should never be coded on directly. Instead you should create a new branch for each feature you’re adding.
+The process follows these steps:
 
-When you are satisfied with your changes you sync to GitHub, make a pull request, get feedback and merge.
+1. Pull `master` to your computer to get the newest version
+2. Make a new branch, from `master`, naming it after the new feature
+3. Make lots of commits
+4. Publish the branch to GitHub & make a pull request
+5. Get a teammate to approve or reject the code
+6. If changes are needed make more commits to the branch
+7. After approval the branch gets merged into `master`
+8. Your local branch can be deleted and `master` pulled again
 
-### 1. Make a new branch in the GitHub app
+[**☛ See the branching flowchart for a more detailed explanation.**](/topics/branching-flowchart/)
 
-![](create.jpg)
-
-### 2. Publish the branch
-
-![](publish.jpg)
-
-### 3. Add new features to your code and commit regularly
-
-![](commit.jpg)
-
-### 4. Sync the branch to GitHub
-
-![](sync-up.jpg)
-
-### 5. Press the compare & review button
-
-![](compare-review.jpg)
-
-### 6. Select the new branch
-
-![](choose-branch.jpg)
-
-### 7. Create a pull request
-
-![](pull-request.jpg)
-![](send-pull-request.jpg)
-
-### 8. Request feedback
-
-![](get-feedback.jpg)
-
-### 9. Merge the new branch with master
-
-![](merge.jpg)
-![](confirm-merge.jpg)
-
-### 10. Delete the branch
-
-![](delete-remote.jpg)
-
-### 11. In the GitHub app, switch to master
-
-![](switch-branch.jpg)
-
-### 12. Sync
-
-![](sync-down.jpg)
-
-### 13. Delete the local branch
-
-![](delete-local.jpg)
+[**☛ Follow a step-by-step branching lesson.**](/courses/web-dev-6/branch-and-pull-request/)
 
 ---
 

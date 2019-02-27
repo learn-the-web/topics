@@ -544,7 +544,7 @@ Some characters cannot be written in the text content of HTML because the charac
 <p>600 &lt; 601 = yes</p>
 <strong>Big &amp; hairy</strong>
 <!-- The unit will never break away from the numbers -->
-<p>0.9856&nbps;au</p>
+<p>0.9856&nbsp;au</p>
 ```
 
 ---

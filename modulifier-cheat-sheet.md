@@ -299,6 +299,15 @@ groups:
   - title: 'Positioning'
     note: 'These classes are brute force and not responsive, if you use left, the element will always be floated left.'
     items:
+      - name: '`.flex-row`'
+        details:
+          - 'Convert the element into a Flexbox container.'
+      - name: '`.flex-justify`'
+        details:
+          - 'Turn on Flexbox’s `justify-content: space-between` property.'
+      - name: '`.flex-align-center`'
+        details:
+          - 'Turn on Flexbox’s `align-items: center` property.'
       - name: '`.clearfix`'
         details:
           - 'A class that can be used on floating wrappers to trigger a clear fix.'

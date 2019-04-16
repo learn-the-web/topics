@@ -186,7 +186,7 @@ Some browser vendors even have platform feature lists, here’s a few of those:
 
 Sometimes—though it should be avoided as much as possible—you have to write different code to work around bugs in a specific browser.
 
-First always try to work around it so that it works in all browsers before writing browser specific code. *Try to avoid detecting the browser directly, instead try to detect the feature of bug.*
+First always try to work around it so that it works in all browsers before writing browser specific code. *Try to avoid detecting the browser directly, instead try to detect the feature or bug.*
 
 #### Vendor prefixes
 

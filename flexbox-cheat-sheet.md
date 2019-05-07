@@ -134,7 +134,7 @@ groups:
     items:
       - name: '`flex-basis`'
         details:
-          - 'Similar to `width` and `height` but will become the the size of the element cannot be determined, it will instead become the size of the content.'
+          - 'Similar to `width` and `height` but not a guaranteed size: it can adjust up or down within the flex-parent to make sure the elements fit. It’s more like a suggestion.'
           - |
             ```css
             .stego {

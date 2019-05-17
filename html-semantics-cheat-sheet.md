@@ -94,7 +94,7 @@ groups:
       - name: '`<li>`'
         details:
           - 'A single list item.'
-          - 'Must be inside a `<ul>` or `<ol>`.'
+          - 'Must be inside a `<ul>`, `<ol>` or `<menu>`.'
           - 'Can have most other elements inside it.'
       - name: '`<dl>`'
         details:

@@ -267,7 +267,7 @@ With HTML you can link e-mail addresses and telephone numbers using alternative 
 - For e-mails use `mailto:` — this will open the user’s default e-mail client and start a new message.
 - For phone numbers use `tel:` — on mobile phones this will start dialing the number.
 
-Here’s how to link and e-mail address:
+Here’s how to link an e-mail address:
 
 ```html
 <a href="mailto:dinos@extinct.com">dinos@extinct.com</a>

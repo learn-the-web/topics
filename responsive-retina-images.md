@@ -212,15 +212,15 @@ We can also provide different resolutions of all the images inside the `<picture
 
 ```html
 <picture>
-  <source media="(min-width: 60em)" srcset="large.jpg 2x, large.jpg 1x">
-  <source media="(min-width: 38em)" srcset="medium.jpg 2x, medium.jpg 1x">
-  <img src="small.jpg" srcset="small.jpg 2x, small.jpg 1x" alt="A giant squid swimming deep in the sea">
+  <source media="(min-width: 60em)" srcset="large-@2x.jpg 2x, large.jpg 1x">
+  <source media="(min-width: 38em)" srcset="medium-@2x.jpg 2x, medium.jpg 1x">
+  <img src="small.jpg" srcset="small-@2x.jpg 2x, small.jpg 1x" alt="A giant squid swimming deep in the sea">
 </picture>
 ```
 
 Notice we now include multiple images in each `srcset` attribute. The difference in this case is we don’t specify the pixel width of the image, instead we specify the resolution denoted with the `x`.
 
-So for each image with have an original resolution, like `large.jpg 1x` and a high/double resolution, like `large.jpg 2x`
+So for each image with have an original resolution, like `large.jpg 1x` and a high/double resolution, like `large-@2x.jpg 2x`
 
 ### Alternative text
 
@@ -252,7 +252,7 @@ For background images in CSS, we can use a media query for detecting hi-res scre
 @media (min-resolution: 144dpi) {
 
   .icon {
-    background-image: url("../images/icon-2x.png");
+    background-image: url("../images/icon@2x.png");
     background-size: 32px 32px;
   }
 

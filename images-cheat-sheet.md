@@ -116,9 +116,9 @@ groups:
           - |
             ```html
             <picture>
-              <source media="(min-width: 60em)" srcset="large-2x.jpg 2x, large.jpg 1x">
-              <source media="(min-width: 35em)" srcset="medium-2x.jpg 2x, medium.jpg 1x">
-              <img src="small.jpg" srcset="small-2x.jpg 2x, small.jpg 1x" alt="A giant squid swimming deep in the sea">
+              <source media="(min-width: 60em)" srcset="large@2x.jpg 2x, large.jpg 1x">
+              <source media="(min-width: 35em)" srcset="medium@2x.jpg 2x, medium.jpg 1x">
+              <img src="small.jpg" srcset="small@2x.jpg 2x, small.jpg 1x" alt="A giant squid swimming deep in the sea">
             </picture>
             ```
 

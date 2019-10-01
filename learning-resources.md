@@ -29,6 +29,7 @@ Here’s a quick list of web development learning resources—by no way is it ex
 - [Codecademy](http://www.codecademy.com/)
 - [Treehouse](http://teamtreehouse.com/)
 - [Tuts+](http://tutsplus.com/)
+- [Udemy](https://www.udemy.com/topic/front-end-web-development/free/)
 
 ---
 

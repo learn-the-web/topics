@@ -59,7 +59,7 @@ groups:
           - '*Add a fairly current Ruby version number, like:*'
           - |
             ```
-            2.3.5
+            2.6.2
             ```
           - '**Make sure everything’s committed.**'
           - 'Create an account on [Netlify](https://www.netlify.com/), using your GitHub account.'

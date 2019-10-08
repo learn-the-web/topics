@@ -224,6 +224,7 @@ Git branching solves this problem by providing a clean way to make copies of you
 
 ## Supplemental links
 
+- [**How to Write a Git Commit Message**](https://chris.beams.io/posts/git-commit/)
 - [Git + GitHub](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
 - [Replacing FTP with Git + GitHub](https://www.youtube.com/watch?v=24NGu1vGBiw)
 - [GitHub Guides](https://www.youtube.com/user/GitHubGuides)

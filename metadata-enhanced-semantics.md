@@ -246,7 +246,7 @@ Relationships can be defined in HTML using the `rel` attribute. These relationsh
 
 ### Open Graph
 
-The Open Graph Protocol can be used to extract information from your website when a user links to it. It’s used by Facebook, Instagram, LinkedIn, Pinterest and more.
+The Open Graph Protocol can be used to extract information from your website when a user links to it. It’s used by Facebook, Twitter, Instagram, LinkedIn, Pinterest and more.
 
 ![](facebook-open-graph.jpg)
 
@@ -266,6 +266,8 @@ Four tags are required to support the Open Graph Protocol:
   <meta property="og:site_name" content="Name of your website">
   <!-- `og:description` is also optional, but could easily be filled with the meta description -->
   <meta property="og:description" content="Description of this page, same as meta description">
+  <!-- `og:locale` is the language of the website -->
+  <meta property="og:locale" content="en_CA">
   ⋮
 </head>
 ```
@@ -291,18 +293,15 @@ Twitter Cards allow designers to attach supplemental information to tweets when 
 
 *You can control the information in the Twitter Card box using the Twitter meta tags.*
 
-The default card is the “summary” card; it requires four tags:
+**By default the OpenGraph data will be used.** But there are a few extra Twitter tags that should be included.
+
+The default card is the “summary” card:
 
 ```html
 <head>
   ⋮
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@yourtwitterhandle">
-  <meta name="twitter:title" content="Title of this page, same as title tag">
-  <meta name="twitter:url" content="http://fullurl.com/to-this/page/">
-  <meta name="twitter:description" content="Description of this page, same as meta description">
-  <!-- The image should be 120x120 pixels in dimension -->
-  <meta name="twitter:image" content="http://fullurl.com/to-this/image.jpg">
   ⋮
 </head>
 ```
@@ -324,8 +323,8 @@ With a few more meta tags in our HTML we can specify a location for what the web
 <head>
   ⋮
   <!-- The longitude and latitude of the location -->
-  <meta name="ICBM" content="45.416667,-75.7">
-  <meta name="geo.position" content="45.416667;-75.7">
+  <meta name="ICBM" content="45.41117,-75.69812">
+  <meta name="geo.position" content="45.41117;-75.69812">
   <!-- The country and province/state -->
   <meta name="geo.region" content="ca-on">
   <!-- The town or city of the location -->

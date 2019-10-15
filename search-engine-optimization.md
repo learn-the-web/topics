@@ -226,6 +226,7 @@ The robots.txt file that I use in almost all my websites looks like this:
 Sitemap: https://example.ca/sitemap.xml
 
 User-Agent: *
+Disallow:
 ```
 
 I’m specifically not disallowing anything from search engines.
@@ -252,9 +253,11 @@ There are extensions you can get for your browser that highlight what websites h
 
 **Example humans.txt files**
 
-- [Disqus](http://disqus.com/humans.txt)
-- [Google](http://www.google.com/humans.txt)
-- [GitHub](https://github.com/humans.txt)
+- [Google](https://www.google.com/humans.txt)
+- [Disqus](https://disqus.com/humans.txt)
+- [New York Times](http://www.nytimes.com/humans.txt)
+- [Netflix](https://www.netflix.com/humans.txt)
+- [Basecamp](https://basecamp.com/humans.txt)
 
 ---
 

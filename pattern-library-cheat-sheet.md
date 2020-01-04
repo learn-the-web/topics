@@ -290,6 +290,10 @@ groups:
               layouts:
                 default: |
                   To be used for every page, contains the masthead and footer.
+              # Explain when to use Jekyll includes
+              includes:
+                contact-details: |
+                  To be used for showing author contact details.
             ```
       - name: '*Pattern documentation*'
         details:
@@ -321,6 +325,8 @@ groups:
                 width: 400
                 # Add padding around the pattern to help it display
                 padding: 3em
+                # Add a minimum height to the pattern’s display
+                height: 400
                 # Specify the Jekyll include fields
                 fields:
                   # The name of the field for Jekyll

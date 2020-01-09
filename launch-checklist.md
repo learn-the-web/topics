@@ -62,7 +62,7 @@ groups:
       - 'HTML is valid.<br>[W3C HTML Validator](http://validator.w3.org/)'
       - 'CSS is valid.<br>[W3C CSS Validator](http://jigsaw.w3.org/css-validator/), [CSS Lint](http://csslint.net/)'
       - 'Validated for internationalization & world readiness.<br>[W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)'
-      - 'Many and high quality commit messages.<br>[Commit message cheat sheet](http://localhost:4000/topics/commit-message-cheat-sheet/)'
+      - 'Many and high quality commit messages.<br>[Commit message cheat sheet](/topics/commit-message-cheat-sheet/)'
 
   - title: 'Browser testing'
     full: browser-testing-checklist

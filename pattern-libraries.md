@@ -234,13 +234,151 @@ If you have an icon spritesheet name the file `icons.svg` and plop it into your 
 
 ## Patterns
 
-### Configuring patterns
+The main purpose of Patternbot is to create a pattern library. And Patternbot helps out with that by finding your components and displaying them in an interface.
 
-### Patterns inside patterns
+First create a folder named `_patterns`. Inside that folder create as many folders as you want—each folder representing a group of related patterns.
 
-### Datasets
+![](patterns-folder.jpg)
+
+Each folder is a new *pattern group* with lots of *patterns* within. Inside your pattern folder you can add HTML files & CSS files.
+
+- Each individual HTML file will show up in your pattern library as a single pattern to use.
+- The CSS files will be automatically combined into your mega `main.css`
+
+*Generally we have 1 CSS file & many HTML files.*
+
+### Making a pattern
+
+Inside the pattern HTML file you write **only** the HTML for the pattern itself. Don’t put the `<!DOCTYPE>`, don’t put `<head>`, don’t put `<body>`—and no CSS.
+
+For a button your pattern HTML might look like this:
+
+```html
+<a class="btn" href="#">Visit the Dino Park</a>
+```
+
+**And that’s all.**
+
+A card might look like this:
+
+```html
+<div class="card">
+  <img src="/images/cards/brontosaurus.jpg" alt="">
+  <h2>Brontosaurus</h2>
+  <p>A popular long-necked dinosaur.</p>
+</div>
+```
+
+### Styling patterns
+
+Using the pattern specific CSS file, like `_patterns/cards/cards.css`, you can write CSS specifically targeted at that single pattern.
+
+```css
+.card {
+  border: 3px solid var(--color-primary-dark);
+}
+```
+
+- Be careful to only write CSS specific to that pattern
+- You can use your variables defined in `theme.css`
+
+#### Never target a tag directly
+
+**Inside your pattern CSS files never target and HTML tag directly—make heavy use of classes.** Because the website creates one large CSS file, essentially all CSS technically affects all patterns.
+
+```css
+h2 { /* Don’t do this in pattern CSS files! */
+  color: red;
+}
+```
+
+**Don’t do this!** It would change every `<h2>` in every pattern. The only place it’s safe—and expected—to target tags directly is inside your `theme.css`
 
 ### Using patterns
+
+After you’ve created patterns you can use them in other places: pages, layouts—even other patterns.
+
+Patternbot will give you a little snippet of code that you can copy-and-paste.
+
+```liquid
+{% raw %}{% pattern buttons/basic %}{% endraw %}
+```
+
+This is essentially a Jekyll include, but looking directly inside the `_pattern` folder. The above snippet will look in `_patterns/buttons/` for an HTML file named `basic.html`
+
+You can use this snippet of code within other patterns too! Maybe I want a button within my card, I could do this:
+
+```html
+<div class="card">
+  <img src="/images/cards/brontosaurus.jpg" alt="">
+  <h2>Brontosaurus</h2>
+  <p>A popular long-necked dinosaur.</p>
+  {% raw %}{% pattern buttons/basic %}{% endraw %}
+</div>
+```
+
+Our card would then go find the button pattern and insert it. Sharing the HTML and preventing us from duplicating our code.
+
+### Changing pattern information
+
+Quite often we want to be able to change information within our patterns. For buttons we want the text to change & the URL to change.
+
+Within the pattern HTML we can add placeholders for things we want to be changeable using some Jekyll syntax.
+
+```html
+<a class="btn" href="{% raw %}{{include.url}}{% endraw %}">{% raw %}{{include.text}}{% endraw %}</a>
+```
+
+There are two place holders in this pattern:
+
+- `{% raw %}{{include.url}}{% endraw %}` will fill in the `href` attribute
+- `{% raw %}{{include.text}}{% endraw %}` will fill in the button’s text
+
+If we look back at our card example now, we can configure what the button says & where it goes.
+
+```html
+<div class="card">
+  <img src="/images/cards/brontosaurus.jpg" alt="">
+  <h2>Brontosaurus</h2>
+  <p>A popular long-necked dinosaur.</p>
+  {% raw %}{% pattern buttons/basic url="/bronto" text="See Brontosaurus" %}{% endraw %}
+</div>
+```
+
+Inside the `{% raw %}{% pattern %}{% endraw %}` tag we can add attributes—just like HTML—to pass information into the pattern.
+
+- `url="/bronto"` would insert into the `{% raw %}{{include.url}}{% endraw %}` placeholder
+- `text="See Brontosaurus"` would insert into the `{% raw %}{{include.text}}{% endraw %}` placeholder
+
+#### Documenting the pattern
+
+Now that we have placeholders within our pattern we want to document that within our pattern library to help other developers and designers understand how to use the pattern.
+
+Add a new file into the pattern folder named `config.yml`, for example, our buttons: `_patterns/buttons/config.yml`
+
+Inside the `config.yml` file we can add some information:
+
+```yml
+patterns:
+  basic:
+    fields:
+      - name: 'url'
+        type: 'url'
+        example: '/dinosaurs'
+      - name: 'text'
+        type: 'string'
+        example: '/See all dinosaurs'
+```
+
+Inside a `patterns` entry make a new entry named exactly after the HTML document (without the `.html`). The another sub-entry named `fields`
+
+We can then list out the `fields`—aka placeholders—specifying:
+
+- `name` — the name of the placeholder, the bit that comes after `include.`
+- `type` — the kind of information that it’s expecting
+- `example` — an example of the kind of information (Patternbot will also use this to display in the component library)
+
+[**☛ See the Patternbot cheat sheet for all the options**](/topics/pattern-library-cheat-sheet/)
 
 ---
 

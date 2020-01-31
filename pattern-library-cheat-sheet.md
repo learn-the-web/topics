@@ -267,6 +267,7 @@ groups:
               colors:
                 background: "--color-neutral"
                 accent: "--color-primary"
+                sidebar: "--color-secondary"
                 patterns:
                   brand.logos: "--color-primary-dark"
                   grids.grid-sizes: "--color-secondary"

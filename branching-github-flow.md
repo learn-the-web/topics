@@ -70,6 +70,7 @@ The process follows these steps:
 8. Your local branch can be deleted and `master` pulled again
 
 [**☛ See the branching flowchart for a more detailed explanation.**](/topics/branching-flowchart/)
+[**☛ Learn how to update your code after branching.**](/topics/updating-from-master-flowchart/)
 
 [**☛ Follow a step-by-step branching lesson.**](/courses/web-dev-6/branch-and-pull-request/)
 

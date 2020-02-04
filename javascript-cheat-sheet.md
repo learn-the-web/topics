@@ -202,8 +202,8 @@ groups:
           - "`before(value)` — add new HTML outside the element, before it."
           - "`after(value)` — add new HTML outside the element, after it."
           - "`remove()` — delete the element from the page."
-          - "`show()` — set an element’s `dislplay` property to make it visible—use with caution."
-          - "`hide()` — set `dislplay: none`—use with caution."
+          - "`show()` — set an element’s `display` property to make it visible—use with caution."
+          - "`hide()` — set `display: none`—use with caution."
       - name: '*Traversals*'
         details:
           - "`each(function)` — loop over all the selected elements."

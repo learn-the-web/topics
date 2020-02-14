@@ -586,6 +586,7 @@ If the collection is set to output we can add layouts and everything else we’r
 
 - [Jekyll Documentation](http://jekyllrb.com/)
 - [Jekyll Setting Up on GitHub Pages](http://jekyllrb.com/docs/github-pages/)
+- [**Awesome Jekyll Plugins**](https://github.com/planetjekyll/awesome-jekyll-plugins)
 - [Shopify: Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
 - [Shopify: Liquid Basics](http://docs.shopify.com/themes/liquid-basics)
 - [CloudCannon Jekyll Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)

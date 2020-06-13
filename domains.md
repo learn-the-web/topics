@@ -32,7 +32,7 @@ Each computer as an address, know as an IP Address, but mostly humans want somet
 
 Domains, like `google.com` or `algonquindesign.ca`, are just for humans so we can more easily remember where a website is.
 
-But computers don’t necessarily care about domains, they care about IP address, which are the actual locations/names of the computers connected to The Internet. *Every single computer connected to the Internet has a unique IP address.*
+But computers don’t necessarily care about domains, they care about IP address, which are the actual locations/names of the computers connected to The Internet. _Every single computer connected to the Internet has a unique IP address._
 
 An IP address looks something like this: `192.168.1.0` or `2001:0db8:85a3:0000:0000:8a2e:0370:7334`—which aren’t terribly memorable for regular mortals. Whereas, domains like `github.com` are much more memorable.
 
@@ -58,15 +58,15 @@ There’s a direct connection between a domain and it’s associated IP address.
 After you type the domain into your browser and go your computer starts making a bunch of really quick requests (less than 100 ms):
 
 1. Your computer connects to a DNS server, requesting DNS information for the domain you typed in.
-  Your computer already knows the IP address to at least one DNS server because your Internet provider sent it to your computer.
+   Your computer already knows the IP address to at least one DNS server because your Internet provider sent it to your computer.
 2. The DNS will then send back the IP address of the computer that hosts the website to your computer, if it knows it.
-  If it doesn’t know the IP address it will send your computer the IP address of another name server that might know.
-  The loop continues until your computer has the IP address of the host.
-  **IP address of the website host is called the `A` record.**
+   If it doesn’t know the IP address it will send your computer the IP address of another name server that might know.
+   The loop continues until your computer has the IP address of the host.
+   **IP address of the website host is called the `A` record.**
 3. When your computer gets the IP address it connects directly to the host computer and requests to see the website.
 4. The host/web-server will then return the `index.html` file for the website you requested.
-  Your browser will then start requesting all the other resources of your website like CSS, images, JavaScript, etc.
-  If those resources are located on another domain the whole process starts all over again at step 1.
+   Your browser will then start requesting all the other resources of your website like CSS, images, JavaScript, etc.
+   If those resources are located on another domain the whole process starts all over again at step 1.
 
 #### Authoritative name server
 
@@ -109,9 +109,9 @@ The only real downside of separating domains and hosting is a slight loss in con
 
 ### Buying a domain on Hover
 
-The first step in the whole process is buying a domain. I usually buy my domains from [Hover](https://www.hover.com/).
+The first step in the whole process is buying a domain. I usually buy my domains from [Hover](https://hover.com/J2Frl31i)†.
 
-Though we generally call it “buying” a domain you aren’t technically *buying* it, but *leasing* it for a certain amount of time, usually a year. *And every year you have to pay for it again.*
+Though we generally call it “buying” a domain you aren’t technically _buying_ it, but _leasing_ it for a certain amount of time, usually a year. _And every year you have to pay for it again._
 
 [**☛ Follow the Hover setup lesson.**](/courses/web-dev-5/buying-a-domain-and-email/)
 
@@ -119,7 +119,7 @@ Though we generally call it “buying” a domain you aren’t technically *buyi
 
 There are lots of different e-mail providers and hosts often provide e-mail exchange also. But it’s best to purchase your e-mail from another provider. I often buy my e-mail services from [FastMail](https://www.fastmail.com/?STKI=12009945)†.
 
-*Make sure your e-mail provider supports custom domains—FastMail only supports this in their more expensive packages. ([The standard package works great!](https://www.fastmail.com/signup/))*
+_Make sure your e-mail provider supports custom domains—FastMail only supports this in their more expensive packages. ([The standard package works great!](https://www.fastmail.com/?STKI=12009945))†_
 
 [**☛ Follow the FastMail setup lesson.**](/courses/web-dev-5/buying-a-domain-and-email/#step-5)
 
@@ -150,7 +150,7 @@ Using GitHub as a static web host is simple, integrates with our processes—and
 
 ### Recommended registrars
 
-- [Hover](https://www.hover.com/)
+- [Hover](https://hover.com/J2Frl31i)†
 - [Gandi](http://www.gandi.net/)
 
 ### Recommended e-mail providers
@@ -174,4 +174,4 @@ Using GitHub as a static web host is simple, integrates with our processes—and
 
 ---
 
-*† The FastMail links are referral links, from me, that will get you 10% off your first year.*
+_† The FastMail links are referral links, from me, that will get you 10% off your first year. The Hover links are referral links, from me, that will get you \$2 off your first domain._

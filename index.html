@@ -5,19 +5,28 @@ title: "Topics"
 desc: "Learn to develop amazing websites by following this complete series of tutorials and videos."
 priority: 1
 toc:
-  setup:
+  the-open-web:
     - slug: the-open-web
     - slug: web-browsers
     - slug: using-urls
       indent: 1
       highlight: true
+    - slug: domains
+      highlight: true
+    - slug: history-of-the-web
+    - slug: security
+      disabled: true
+
+  setup:
+    - slug: computer-shortcuts
+      disabled: true
+    - slug: keyboard-shortcut-cheat-sheet
+      indent: 1
+      cheatsheet: true
     - slug: code-editors
     - slug: snippets-cheat-sheet
       cheatsheet: true
       indent: 1
-    - slug: keyboard-shortcut-cheat-sheet
-      indent: 1
-      cheatsheet: true
     - slug: code-character-cheat-sheet
       indent: 1
       cheatsheet: true
@@ -37,7 +46,13 @@ toc:
       checklist: true
       highlight: true
 
-  web-dev-1:
+  content:
+    - slug: writing-for-the-web
+    - slug: writing-checklist
+      indent: 1
+      checklist: true
+    - slug: information-architecture
+      disabled: true
     - slug: html-semantics
       highlight: true
     - slug: html-indentation
@@ -50,6 +65,51 @@ toc:
       indent: 1
     - slug: marking-up-a-webpage
       fullsite: true
+    - slug: tables
+    - slug: tables-cheat-sheet
+      cheatsheet: true
+      indent: 1
+    - slug: search-engine-optimization
+    - slug: metadata-enhanced-semantics
+      indent: 1
+    - slug: analytics-monitoring
+      indent: 1
+    - slug: seo-cheat-sheet
+      cheatsheet: true
+      indent: 1
+    - slug: seo-checklist
+      checklist: true
+      indent: 1
+    - slug: video-audio
+    - slug: forms
+    - slug: forms-cheat-sheet
+      cheatsheet: true
+      indent: 1
+
+  a11y:
+    - slug: content-accessibility
+      disabled: true
+    - slug: content-accessibility-cheat-sheet
+      disabled: true
+      indent: 1
+    - slug: accessibility-for-design
+      disabled: true
+    - slug: accessibility
+      highlight: true
+    - slug: accessibility-cheat-sheet
+      cheatsheet: true
+      indent: 1
+    - slug: accessibility-checklist
+      checklist: true
+      indent: 1
+    - slug: accessibility-testing-checklist
+      checklist: true
+      indent: 1
+    - slug: accessibility-of-animations-effects
+    - slug: screen-reader-cheat-sheet
+      disabled: true
+
+  typography:
     - slug: using-css
     - slug: css-indentation
       indent: 1
@@ -65,9 +125,14 @@ toc:
     - slug: web-typography-checklist
       checklist: true
       indent: 1
+    - slug: typography-only-layout
+      indent: 1
+      fullsite: true
     - slug: browser-developer-tools
     - slug: validators
       highlight: true
+
+  layout:
     - slug: box-model
     - slug: boxes-borders-cheat-sheet
       cheatsheet: true
@@ -76,9 +141,6 @@ toc:
       disabled: true
     - slug: flow-display
       indent: 1
-    - slug: typography-only-layout
-      indent: 1
-      fullsite: true
     - slug: float-clear
       indent: 1
     - slug: flexbox
@@ -99,6 +161,45 @@ toc:
       indent: 1
       cheatsheet: true
     - slug: navigation
+    - slug: before-after
+    - slug: advanced-css-only-interactions
+      disabled: true
+    - slug: homepage-checklist
+      highlight: true
+      checklist: true
+
+  images:
+    - slug: organization
+    - slug: image-formats
+    - slug: using-images
+      indent: 1
+    - slug: responsive-retina-images
+      indent: 1
+    - slug: images-cheat-sheet
+      cheatsheet: true
+      indent: 1
+    - slug: css-animations-effects
+    - slug: css-animations-effects-cheat-sheet
+      cheatsheet: true
+      indent: 1
+    - slug: advanced-svg
+    - slug: svg-cheat-sheet
+      cheatsheet: true
+      indent: 1
+      highlight: true
+    - slug: performance
+      highlight: true
+    - slug: performance-checklist
+      checklist: true
+      indent: 1
+    - slug: advanced-performance
+    - slug: advanced-performance-checklist
+      checklist: true
+      indent: 1
+    - slug: from-wireframe-to-website
+      fullsite: true
+
+  many-screens:
     - slug: small-screen-layout
       fullsite: true
     - slug: all-devices-setup
@@ -114,11 +215,9 @@ toc:
       indent: 1
       highlight: true
       checklist: true
-    - slug: homepage-checklist
-      highlight: true
-      checklist: true
+    - slug: progressive-enhancement
 
-  web-dev-2:
+  libraries:
     - slug: flexbox-grids
     - slug: gridifier
       tool: "https://gridifier.web-dev.tools"
@@ -153,55 +252,8 @@ toc:
       indent: 1
     - slug: modular-layout
       fullsite: true
-    - slug: forms
-    - slug: forms-cheat-sheet
-      cheatsheet: true
-      indent: 1
-    - slug: tables
-    - slug: tables-cheat-sheet
-      cheatsheet: true
-      indent: 1
-    - slug: accessibility
-      highlight: true
-    - slug: accessibility-cheat-sheet
-      cheatsheet: true
-      indent: 1
-    - slug: accessibility-checklist
-      checklist: true
-      indent: 1
-    - slug: accessibility-testing-checklist
-      checklist: true
-      indent: 1
 
-  web-dev-3:
-    - slug: organization
-    - slug: image-formats
-    - slug: using-images
-      indent: 1
-    - slug: responsive-retina-images
-      indent: 1
-    - slug: images-cheat-sheet
-      cheatsheet: true
-      indent: 1
-    - slug: before-after
-    - slug: css-animations-effects
-    - slug: css-animations-effects-cheat-sheet
-      cheatsheet: true
-      indent: 1
-    - slug: advanced-svg
-    - slug: svg-cheat-sheet
-      cheatsheet: true
-      indent: 1
-      highlight: true
-    - slug: performance
-      highlight: true
-    - slug: performance-checklist
-      checklist: true
-      indent: 1
-    - slug: from-wireframe-to-website
-      fullsite: true
-
-  web-dev-4:
+  design-systems:
     - slug: pattern-library-timeline
       highlight: true
       flowchart: true
@@ -230,45 +282,11 @@ toc:
     - slug: markdown-yaml-cheat-sheet
       cheatsheet: true
     - slug: writing-a-readme
-    - slug: advanced-css-only-interactions
-      disabled: true
     - slug: github-repository-setup-for-teams
       disabled: true
     - slug: branching-github-flow
 
-  web-dev-5:
-    - slug: portfolio-timeline
-      highlight: true
-      flowchart: true
-    - slug: domains
-      highlight: true
-    - slug: writing-for-the-web
-    - slug: writing-checklist
-      indent: 1
-      checklist: true
-    - slug: search-engine-optimization
-    - slug: metadata-enhanced-semantics
-      indent: 1
-    - slug: analytics-monitoring
-      indent: 1
-    - slug: seo-cheat-sheet
-      cheatsheet: true
-      indent: 1
-    - slug: seo-checklist
-      checklist: true
-      indent: 1
-    - slug: video-audio
-    - slug: advanced-performance
-    - slug: advanced-performance-checklist
-      checklist: true
-      indent: 1
-    - slug: progressive-enhancement
-    - slug: 404-pages
-    - slug: launch-checklist
-      highlight: true
-      checklist: true
-
-  web-dev-6:
+  teams:
     - slug: agile-development-process
     - slug: sprint-checklist
       checklist: true
@@ -314,34 +332,25 @@ toc:
       fullsite: true
 
   whats-next:
+    - slug: portfolio-timeline
+      highlight: true
+      flowchart: true
+    - slug: launch-checklist
+      highlight: true
+      checklist: true
+    - slug: 404-pages
     - slug: licenses-copyright
       highlight: true
-    - slug: history-of-the-web
     - slug: learning-resources
     - slug: blogs-companies-people
       indent: 1
     - slug: staying-up-to-date
       indent: 1
       highlight: true
-    - slug: security
-      disabled: true
     - slug: email-newsletters
       disabled: true
     - slug: efficiency-tools
       disabled: true
     - slug: css-preprocessors
       disabled: true
-
-    # - slug: php
-    #   title: "PHP"
-    #   disabled: true
-    #   tags: "php includes headers footers database contact forms emails"
-    #   desc: "A quick introduction to PHP and how to use it for your website."
-
-    # - slug: wordpress
-    #   title: "WordPress"
-    #   disabled: true
-    #   tags: "wordpress custom theme blog php setup content management system database"
-    #   desc: "A quick introduction to setting up a custom WordPress theme for a client."
-
 ---

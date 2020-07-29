@@ -1,5 +1,48 @@
 ---
+layout: cheatsheet
 title: "Screen reader cheat sheet"
 tags: "screen reader jaws nvda chromevox accessibility humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers VoiceOver braille"
 desc: "A quick overview of keyboard shortcuts for using the screen reader on your computer."
+
+groups:
+  - title: "VoiceOver shortcuts"
+    notes: |
+      See Apple’s documentation for more details: <a href="https://help.apple.com/voiceover/mac/">https://help.apple.com/voiceover/mac/</a>
+    items:
+      - name: "`⌘ F5`"
+        details: "Turn VoiceOver on/off"
+      - name: "`⌃`"
+        details: "Pause VoiceOver speaking"
+      - name: "`⌃⌥ →`"
+        details: "Move to next item"
+      - name: "`⌃⌥ ←`"
+        details: "Move to previous item"
+      - name: "`⌃⌥⇧ ↓`"
+        details: "Start interacting with an item"
+      - name: "`⌃⌥⇧ ↑`"
+        details: "Stop interacting with an item"
+      - name: "`⌃⌥ U`"
+        details: "Open the rotor (Use arrow keys to navigate)"
+      - name: "`⌃⌥⌘ H`"
+        details: "Next heading (+ `⇧` for previous)"
+      - name: "`⌃⌥⌘ L`"
+        details: "Next link"
+      - name: "`⌃⌥⌘ G`"
+        details: "Next graphic"
+      - name: "`⌃⌥⌘ X`"
+        details: "Next list"
+      - name: "`⌃⌥T`"
+        details: "Speak text attributes"
+      - name: "`⌃⌥⇧ U`"
+        details: "Read a link URL"
+      - name: "`⌃⌥⇧ I`"
+        details: "Read webpage statistics"
+      - name: "`⌃⌥H H`"
+        details: "Open the Commands menu"
+      - name: "`⌃⌥⇧ F`"
+        details: "Open the Find Commands menu"
+      - name: "`⌃⌥⇧ D`"
+        details: "Move to the desktop"
+      - name: "`⌃⌥ M`"
+        details: "Move to the menu bar"
 ---

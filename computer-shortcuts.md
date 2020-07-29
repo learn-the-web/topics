@@ -316,8 +316,19 @@ As a web designer you’ll spend a significant amount of time in your browser. T
 
 ## Supplemental links
 
+### For code editors
+
 - [Atom Keyboard Shortcuts](https://github.com/nwinkler/atom-keyboard-shortcuts)
 - [Atom Editor Keyboard Shortcut Cheat Sheet](https://www.bugsnag.com/blog/atom-editor-cheat-sheet)
 - [Visual Studio Code Key Bindings](https://duckduckgo.com/?q=visual+studio+code+keyboard+shortcuts&ia=cheatsheet&atb=v223-1&iax=1)
 - [Atom Vim-mode Plus](https://github.com/t9md/atom-vim-mode-plus)
 - [Vim key bindings for VSCode](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+
+### Helpful apps
+
+- [Alfred](https://www.alfredapp.com/)
+- [Shortcat](https://shortcatapp.com/)
+- [Contexts](https://contexts.co/)
+- [Marta](https://marta.yanex.org/)
+- [Karabiner Elements](https://karabiner-elements.pqrs.org/)
+- [Hammerspoon](https://www.hammerspoon.org/)

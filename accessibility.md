@@ -45,7 +45,7 @@ The Open Web is an amazingly empowering platform for every human being. It’s o
 
 **Accessibility is about every human—not just extreme cases.** Sometimes it’s easier to think in terms of extremes because it gives us a goal, but making our website work better for extremes also makes it work better for everybody else.
 
-The great thing about the web and computers is that they empower everybody. *It’s our goal to help every human accomplish what they want on our website, regardless of their physical, mental, or technological capabilities.*
+The great thing about the web and computers is that they empower everybody. _It’s our goal to help every human accomplish what they want on our website, regardless of their physical, mental, or technological capabilities._
 
 ---
 
@@ -103,158 +103,11 @@ Generally considered something that affects a person’s brain, e.g. dyslexia, m
 
 ---
 
-## WAI-ARIA roles & properties
-
-The Accessible Rich Internet Application specification defines whole bunch of roles and attributes that can be assigned to HTML elements to help them be understood.
-
-We may make tabs in HTML with lists and divs, and they may look like tabs, but to accessibility tools like screen readers they’re just lists and divs. ARIA allows us to turn them into functional and understandable tabs with a few extra properties & some JavaScript.
-
-### Landmark roles
-
-Adding ARIA landmark roles to your website is a great way to provide navigational landmarks for people using accessibility tools like screen readers. With roles, people using screen readers can jump directly to specific locations on the website.
-
-The major landmark roles for websites are:
-
-- `banner` — for defining an element as the masthead, added to the primary `<header>`.
-- `navigation` — for defining an element as the primary navigation, added the the top `<nav>`.
-- `search` — for defining an element as being the search field, usually added to a `<div>` surround your search `<form>`.
-- `main` — for defining an element as being the main content of the page, same as the `<main>` element, and added to the `<main>`.
-- `complementary` — for defining an element as being content related to the primary content, usually added to an `<aside>`.
-- `contentinfo` — for defining an element as information about the content: e.g. copyright, terms, privacy policy, usually added to a `<footer>`.
-
-Here’s an example of adding the landmark role to the masthead:
-
-```html
-<header role="banner">
-  <strong>Accessible Website</strong>
-</header>
-```
-
-**Every piece of content on a page should be contained within one of these landmark roles.**
-
-### Properties
-
-You can use the ARIA properties to help define extra information about your content so that accessibility tools can more fully understand it.
-
-#### Labeling links
-
-Here’s an example: you have a list of blog posts on your page and they all have a “Read more” link. Since all the links say the same thing they aren’t good for accessibility because, by themselves, they don’t mean anything.
-
-Ideally you could change the link to say something else, by adding the title of the blog post in, like “Read more about of Extinct Animals”. This can become a little visually cumbersome on the page, so we can use ARIA to provide that information without it being visual.
-
-Add the `aria-label` attribute to the item to give it a non-visual label that can be used by accessibility tools, like screen readers that will announce the information.
-
-```html
-<ul>
-  <li>
-    <h2>…</h2>
-    <p>…</p>
-    <a href="…" aria-label="Read more about of Extinct Animals">Read more</a>
-  </li>
-  ⋮
-</ul>
-```
-
-#### Extended descriptions for images
-
-Often there’s complex graphics on your page that need accessible descriptions. The `alt` doesn’t provide a place for complex descriptions, only short overviews.
-
-As an example, say you have an infographic on your website. First, if it can be done in HTML & CSS with real text do that. If it must be a raster image, then use `aria-details` to write HTML describing the content of the image.
-
-```html
-<img aria-details="#infographic-desc" src="big-complex-infographic.jpg" alt="">
-
-<div id="infographic-desc">
-  <h2>All about dinosaurs</h2>
-  <h3>Meat eaters</h3>
-  <ul>
-    <li>…</li>
-    ⋮
-</div>
-```
-
-The `aria-details` attribute can point to a location on the current page or a location on another page.
-
-It is best to keep that information visible on the screen, but if you must hide it the `hidden` attribute should work okay.
-
-There’s a similar ARIA property: `aria-describedby`—the difference is that `aria-details` allows multiple HTML elements that are navigable where `describedby` will mash all the elements into a single sentence stream.
-
-**[☛ Check out the tutorial on JavaScript for more ARIA examples.](/topics/javascript-jquery-accessibility/)**
-
-**Links**
-
-- **[UX accessibility with aria-label](https://dev.opera.com/articles/ux-accessibility-aria-label/)**
-- [Periodic Table of ARIA 1.0 attributes](https://dylanb.github.io/periodic-aria-attributes.html)
-- [Periodic Table of ARIA 1.0 Roles](https://dylanb.github.io/periodic-aria-roles.html)
-- [WAI-ARIA: An introduction to Accessible Rich Internet Applications](https://patrickhlauke.github.io/aria/presentation/)
-- [WAI-ARIA](http://www.w3.org/TR/wai-aria-1.1/)
-- [Using WAI-ARIA Landmarks](http://www.paciellogroup.com/blog/2013/02/using-wai-aria-landmarks-2013/)
-- [Connect with aria-describedby](http://www.last-child.com/accessible-infographics/infographics-aria-describedby/)
-- [On HTML belts and ARIA braces](http://html5doctor.com/on-html-belts-and-aria-braces/)
-- [MDN: An overview of accessible web applications and widgets](https://developer.mozilla.org/en-US/docs/Web/Accessibility/An_overview_of_accessible_web_applications_and_widgets)
-- [Where to Put Your Search Role](http://adrianroselli.com/2015/08/where-to-put-your-search-role.html)
-- [WAI-ARIA Screen Reader Compatibility](http://www.powermapper.com/tests/screen-readers/aria/index.html)
-
----
-
-## Keyboard focus styles
-
-Not everybody is capable of using a mouse, or even chooses not to use a mouse. But they still need to be able to navigate your website—and keep their position.
-
-Focus styles highlight the currently selected element on screen so it’s recognizable as keyboard focused control.
-
-*It’s important to not remove the keyboard focus rectangle from links, but it can be styled for better contrast or to match your website.*
-
-```css
-a:focus {
-  outline: 3px solid #000;
-}
-```
-
-*But don’t ever write `outline: none;` on the `:focus` state—it’s an extremely important feature for keyboard users.*
-
----
-
-## Skip links
-
-It’s a good idea to add skip links to a website for jumping over the navigation to the main content. Or adding a skip link to jump from the bottom to the top of the website.
-
-Skip links are just standard internal links that jump down to a specific point of a page.
-
-```html
-<a href="#main">Jump to main content</a>
-
-⋮
-
-<main role="main" id="main">
-```
-
-To help make the content focusable more easily it’s also helpful at add `tabindex` to the skip link element:
-
-```html
-<main role="main" id="main" tabindex="0">
-```
-
-Most often designers like to hide them but they must be hidden in an accessible manner. Hidden by default but when focused, shown again.
-
-```css
-.skip-links a {
-  position: absolute;
-  top: -3em;
-}
-
-.skip-links a:focus {
-  top: 0;
-}
-```
-
----
-
 ## Tools
 
 There are a few things that you should check on every website—at least—to help with accessibility.
 
-*The tools are still no replacement for proper user and accessibility testing.*
+_The tools are still no replacement for proper user and accessibility testing._
 
 1. Bump the font-size up and down to make sure the layout doesn’t break: at least 2 sizes up and 2 sizes down; to make sure you site works with different default styles.
 2. Disabled images and see what happens to the layout without them.

@@ -6,6 +6,10 @@ cheatsheet: accessibility-cheat-sheet
 checklist: accessibility-checklist
 ---
 
+So much of the Web is made up of content & text. We need to work to help that content & text be available and accessible to all humans to use our website. With a few key considerations the text can work for everbody.
+
+---
+
 ## Language
 
 One of the most important things you can do to your website to enhance accessibility it to use plain, simple language.

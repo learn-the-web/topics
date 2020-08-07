@@ -3,7 +3,39 @@ layout: cheatsheet
 title: "CSS grids"
 tags: "css advanced layout grids align content justify vertical units two dimensional"
 desc: "Explore the advanced CSS grid layout system that helps create complex full-page layouts for responsive websites."
+# playlist: @TODO
+# cheatsheet: css-grid-cheat-sheet
 ---
+
+---
+
+## 2D
+
+## Terminology
+
+## Defining rows & columns
+
+### Repeats
+
+### Intrinsic layouts
+
+## Defining areas
+
+## Moving elements
+
+### Move by line number
+
+### Move by area name
+
+### Alignment
+
+### Overlapping
+
+## Grids inside grids
+
+## Display content
+
+## Developer tools
 
 ---
 

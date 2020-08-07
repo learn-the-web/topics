@@ -4,6 +4,7 @@ tags: "accessibility humans impairments visual mobility dexterity auditory cogni
 desc: "Making our content work well for every human being regardless of their abilities."
 cheatsheet: accessibility-cheat-sheet
 checklist: accessibility-checklist
+# playlist: @TODO
 ---
 
 So much of the Web is made up of content & text. We need to work to help that content & text be available and accessible to all humans to use our website. With a few key considerations the text can work for everbody.
@@ -158,6 +159,22 @@ When describing the image you should think about what content is most helpful fo
 - Is the photo meant to highlight a point? Write just the point, e.g. “Classic painting showing the triangle composition”
 - Is the graphic a chart? Describe the purpose of the chart, e.g. “A bar graph representing the orbital periods of planets in the Solar System”
 - Does the graphic not add any relevant information? Then it should be in your CSS. If that’s not possible, leave the `alt` empty, `<img alt="">`
+
+### Decorative images
+
+Images should always have an `alt` attribute—unless they’re purely for decoration. If the image doesn’t contribute to the content make the alt attribute empty.
+
+```html
+<img src="swirls.jpg" alt="">
+```
+
+For even better accessibility, consider adding an ARIA role to the image to completely hide it from a screen reader.
+
+```html
+<img src="swirls.jpg" alt="" role="presentation">
+```
+
+*If we add `role="presentation"` to our images they will be completely ignored by screen readers.*
 
 **Links**
 

@@ -2,6 +2,7 @@
 title: "Information architecture"
 tags: "content organization prioritization site maps storyboards wireframes visualizations information architecture"
 desc: "Before writing any code for your website you need to get the content organized & prioritized."
+# playlist: @TODO
 ---
 
 Part of making amazing & useful websites is planning and organzing the content in a way that’s logical & user friendly. There are lots of tools to help us understand & organize our content for the web.
@@ -108,6 +109,24 @@ More complex sitemaps show multiple levels of structure, interlinking & repeated
 **Links**
 
 - [Web Style Guide: Site structure](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
+
+---
+
+## Wireframe
+
+A wireframe is a simple illustration that shows the basic layout of your website. Usually just boxes & text.
+
+It’s also really helpful to combine wireframes with content prioritization to help understand what parts of the website are more important than others.
+
+![](basic-wireframe.png)
+
+*This wireframe describes the layout for the homepage of a website.* Using our content prioritzation method you can tell which parts are more important based on the darkness of their box colour.
+
+I like to use real text, as much as possible in the wireframe—but it remains grey boxes.
+
+
+
+**Ususally you do wireframes for each of the different screen sizes you’re designing for: small, medium & large.**
 
 ---
 

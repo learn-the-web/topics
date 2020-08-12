@@ -4,7 +4,9 @@ tags: "accessibility humans impairments visual mobility dexterity auditory cogni
 desc: "Making our website design work well for every human being regardless of their abilities."
 cheatsheet: accessibility-cheat-sheet
 checklist: accessibility-checklist
-# playlist: @TODO
+playlist: PLWjCJDeWfDdfiCvl5eMR7xZt85dMiOzzF
+download: https://github.com/acgd-learn-the-web/accessibility-code/archive/master.zip
+github: https://github.com/acgd-learn-the-web/accessibility-code
 ---
 
 Accessibility is important: not only because its the law, but because we care. Not everybody access The Web or uses computers the same way you do. We don’t want the thing we create to prevent them from completing their task.
@@ -248,5 +250,6 @@ Most often designers like to hide them but they must be hidden in an accessible 
 
 ## Video list
 
-1. [Accessibility: skip links](https://www.youtube.com/watch?v=UnEItq289lU&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=5)
-1. [Accessibility: tools to help find issues](https://www.youtube.com/watch?v=xpqPctbDhnc&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=6)
+1. [Accessibility for design: skip links](https://www.youtube.com/watch?v=UnEItq289lU&list=PLWjCJDeWfDdfiCvl5eMR7xZt85dMiOzzF&index=2&t=0s)
+1. [Accessibility for design: focus styles](https://www.youtube.com/watch?v=js9yaVtV04E&list=PLWjCJDeWfDdfiCvl5eMR7xZt85dMiOzzF&index=3&t=0s)
+1. [Accessibility for design: tools to help find issues](https://www.youtube.com/watch?v=xpqPctbDhnc&list=PLWjCJDeWfDdfiCvl5eMR7xZt85dMiOzzF&index=4&t=0s)

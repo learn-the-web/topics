@@ -2,7 +2,9 @@
 title: "Accessibility of animations & effects"
 tags: "accessibility animations effects prefers reduced motion humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers VoiceOver braille"
 desc: "Help everyone get the most out of your website by providing the best experience regardless of ability."
-# playlist: @TODO
+playlist: PLWjCJDeWfDdcwx31JOv2GdvCeqqXrUnvK
+download: https://github.com/acgd-learn-the-web/accessibility-code/archive/master.zip
+github: https://github.com/acgd-learn-the-web/accessibility-code
 ---
 
 Animations & effects can really make a web design sing. But they can also be detrimental to lots of people.
@@ -110,3 +112,5 @@ There are some other, newer preferences we’ll be able to detect in the our web
 ---
 
 ## Video list
+
+- [Accessibility of animations & effects: Preferences](https://www.youtube.com/watch?v=4i7EG01xBHQ&list=PLWjCJDeWfDdcwx31JOv2GdvCeqqXrUnvK&index=2&t=0s)

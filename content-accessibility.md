@@ -4,7 +4,9 @@ tags: "accessibility humans impairments visual mobility dexterity auditory cogni
 desc: "Making our content work well for every human being regardless of their abilities."
 cheatsheet: accessibility-cheat-sheet
 checklist: accessibility-checklist
-# playlist: @TODO
+playlist: PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm
+download: https://github.com/acgd-learn-the-web/accessibility-code/archive/master.zip
+github: https://github.com/acgd-learn-the-web/accessibility-code
 ---
 
 So much of the Web is made up of content & text. We need to work to help that content & text be available and accessible to all humans to use our website. With a few key considerations the text can work for everbody.
@@ -366,8 +368,8 @@ Screen readers might say:
 
 ## Video list
 
-1. [Accessibility: ARIA landmark roles](https://www.youtube.com/watch?v=o4xHfi4t9S0&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=1)
-1. [Accessibility: labeling links](https://www.youtube.com/watch?v=QLfn-uABjuU&index=2&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7)
-1. [Accessibility: extended descriptions for images](https://www.youtube.com/watch?v=JhcqN5fDy8k&index=3&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7)
-1. [Accessibility: validators](https://www.youtube.com/watch?v=FOVKDAt8-oI&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=7)
-1. [Accessibility: VoiceOver](https://www.youtube.com/watch?v=G-EsQ_VHtVM&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=8)
+1. [Content accessibility: ARIA landmark roles](https://www.youtube.com/watch?v=o4xHfi4t9S0&list=PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm&index=2&t=0s)
+1. [Content accessibility: labeling links](https://www.youtube.com/watch?v=QLfn-uABjuU&list=PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm&index=3&t=44s)
+1. [Content accessibility: extended descriptions for images](https://www.youtube.com/watch?v=JhcqN5fDy8k&list=PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm&index=4&t=0s)
+1. [Content accessibility: validators](https://www.youtube.com/watch?v=FOVKDAt8-oI&list=PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm&index=5&t=0s)
+1. [Content accessibility: VoiceOver](https://www.youtube.com/watch?v=G-EsQ_VHtVM&list=PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm&index=6&t=0s)

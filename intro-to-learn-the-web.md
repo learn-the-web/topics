@@ -2,7 +2,7 @@
 title: "Introduction to Learn the Web"
 desc: "Follow along with a quick overview of the features of Learn the Web & how to find things."
 tags: "learn the web weekly dashboard topics articles lessons cheat sheets checklists activities exercises help issues problems teachers schedule marking scheme"
-# playlist: @TODO
+playlist: PLWjCJDeWfDdcQrEgIgi9f-_bx_sbAqiHx
 ---
 
 Learn the Web contains all the materials, all the information, all the videos—everything you’ll need to succeed this term.
@@ -98,4 +98,4 @@ Clicking that button will get you to a big list where you can see all the cheat 
 
 ## Video list
 
-- [Intro to Learn the Web]()
+- [Introduction to Learn the Web](https://www.youtube.com/watch?v=GrcSlpuPerc&list=PLWjCJDeWfDdcQrEgIgi9f-_bx_sbAqiHx&index=2&t=0s)

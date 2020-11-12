@@ -127,7 +127,7 @@ p {
 
 ### Font sizing units: rem vs. em vs. px
 
-There are lost of different units to use while choosing a font-size—pixels are the easiest to understand but not the most accessible for users.
+There are lots of different units to use while choosing a font-size—pixels are the easiest to understand but not the most accessible for users.
 
 One important fact to remember about designing on the web is that many things are just recommendations—especially font sizes. Browsers provide a way for users to adjust the default font size of text: if users prefer bigger fonts they can change it, if users prefer smaller fonts they can change it.
 
@@ -155,7 +155,7 @@ Rems and ems are a great solution that allow relative font sizes. They are basic
 2. If we then set `font-size: 3rem` on the `div`, the inner `p` tag will now be different, larger: `base-font-size × 3 (from the div) × 2`
 3. But if I change the font size on all `p` tags to `2rem` then the inner `p` tag will be exactly `2rem` and will not compound on the parent’s font size.
 
-*So, overall, I usually use `rem` when sizing fonts because it’s the easiest to keep consistent.*
+_So, overall, I usually use `rem` when sizing fonts because it’s the easiest to keep consistent._
 
 ---
 
@@ -206,7 +206,7 @@ a:active {
 - `:focus` — for styling the link when the keyboard has tab-focused it
 - `:active` — for styling the link when the mouse button is pressed down on it
 
-*It’s important that these link states go in this direction: link, visited, hover, focus, active. There’s a fun a mnemonic to remember the order: “Lord Vader’s Handle Formerly Anakin”.*
+_It’s important that these link states go in this direction: link, visited, hover, focus, active. There’s a fun a mnemonic to remember the order: “Lord Vader’s Handle Formerly Anakin”._
 
 **Links**
 
@@ -224,7 +224,8 @@ When we create lists in HTML the brower applies default CSS to them:
 But, those are just the defaults and we can completely overwrite those bullets and numbers with the `list-style-type` property.
 
 ```css
-ul, ol {
+ul,
+ol {
   list-style-type: decimal; /* Simple numbers (1, 2, 3, etc.) */
   list-style-type: lower-alpha; /* Lowercase letters (a, b, c, d, etc.) */
   list-style-type: lower-roman; /* Lowercase Roman numerals (i, ii, iii, etc.) */
@@ -246,7 +247,7 @@ ul, ol {
 
 Beyond the core web fonts for font family we can use custom typefaces that get downloaded to our computers and used to display the website.
 
-*The fonts must be properly licensed for the web—the ones installed currently on your computer are not.*
+_The fonts must be properly licensed for the web—the ones installed currently on your computer are not._
 
 There are lots of different services for Web Fonts—Google Fonts is a simple one to start with and uses open fonts that are licensed for any situation.
 

@@ -430,7 +430,7 @@ h1 {
 }
 ```
 
-Remember that grid works only on immediate child elements. With the example above, we cannot actually move hte `<h1>` onto the body tag’s grid because it’s within the `<main>` tag. Only the `<main>` tag can be put onto the grid.
+Remember that grid works only on immediate child elements. With the example above, we cannot actually move the `<h1>` onto the body tag’s grid because it’s within the `<main>` tag. Only the `<main>` tag can be put onto the grid.
 
 But if we add this:
 

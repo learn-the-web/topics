@@ -275,7 +275,6 @@ There are lots of different services for Web Fonts—Google Fonts is a simple on
 ## Supplemental links
 
 - **[Five simple steps to better typography](http://www.markboulton.co.uk/journal/five-simple-steps-to-better-typography)**
-- **[The State of Web Type](http://stateofwebtype.com/)**
 - [The Elements of Typographic Style Applied to the Web](http://webtypography.net/)
 - [CSS Typography: The Basics](http://sixrevisions.com/css/css-typography-01/)
 - [Common fonts to all versions of Windows & Mac equivalents](http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html)

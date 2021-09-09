@@ -65,7 +65,7 @@ groups:
           - 'Reorder a single child element within the flex flow. *Negative numbers allowed.*'
           - |
             ```css
-            .tricera {
+            .stega {
               /* Move an element to the start */
               order: -1;
             }
@@ -109,8 +109,8 @@ groups:
           - '**`align-self`** — is a similar property, but allows you to target a single child element, instead of all of the children.'
           - |
             ```css
-            .bronto {
-              /* Force .bronto to be at the bottom */
+            .stega {
+              /* Force .stega to be at the bottom */
               flex-direction: row;
               align-self: flex-end;
             }
@@ -137,7 +137,7 @@ groups:
           - 'Similar to `width` and `height` but not a guaranteed size: it can adjust up or down within the flex-parent to make sure the elements fit. It’s more like a suggestion.'
           - |
             ```css
-            .stego {
+            .stega {
               /* Same size as the content */
               flex-basis: content;
             }
@@ -154,11 +154,11 @@ groups:
           - 'Without `flex-grow` all elements will be allotted the same amount of space.'
           - |
             ```css
-            .bronto {
+            .bronto, .tricera {
               /* Gets 1 piece of the space */
               flex-grow: 1;
             }
-            .stego {
+            .stega {
               /* Gets 2 pieces of the space */
               flex-grow: 2;
             }
@@ -170,10 +170,9 @@ groups:
           - 'If there isn’t enough space available the element will remove allotments against this multiplier.'
           - |
             ```css
-            .tricera {
+            .stega {
               flex-shrink: 2;
             }
             ```
           - '![](flex-shrink.png)'
 ---
-

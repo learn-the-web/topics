@@ -65,7 +65,7 @@ groups:
           - 'Reorder a single child element within the flex flow. *Negative numbers allowed.*'
           - |
             ```css
-            .tricera {
+            .stega {
               /* Move an element to the start */
               order: -1;
             }
@@ -176,4 +176,3 @@ groups:
             ```
           - '![](flex-shrink.png)'
 ---
-

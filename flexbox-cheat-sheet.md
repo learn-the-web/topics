@@ -137,7 +137,7 @@ groups:
           - 'Similar to `width` and `height` but not a guaranteed size: it can adjust up or down within the flex-parent to make sure the elements fit. It’s more like a suggestion.'
           - |
             ```css
-            .stego {
+            .stega {
               /* Same size as the content */
               flex-basis: content;
             }
@@ -158,7 +158,7 @@ groups:
               /* Gets 1 piece of the space */
               flex-grow: 1;
             }
-            .stego {
+            .stega {
               /* Gets 2 pieces of the space */
               flex-grow: 2;
             }
@@ -170,7 +170,7 @@ groups:
           - 'If there isn’t enough space available the element will remove allotments against this multiplier.'
           - |
             ```css
-            .tricera {
+            .stega {
               flex-shrink: 2;
             }
             ```

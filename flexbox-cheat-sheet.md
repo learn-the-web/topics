@@ -109,8 +109,8 @@ groups:
           - '**`align-self`** — is a similar property, but allows you to target a single child element, instead of all of the children.'
           - |
             ```css
-            .bronto {
-              /* Force .bronto to be at the bottom */
+            .stega {
+              /* Force .stega to be at the bottom */
               flex-direction: row;
               align-self: flex-end;
             }

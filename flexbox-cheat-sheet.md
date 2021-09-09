@@ -154,7 +154,7 @@ groups:
           - 'Without `flex-grow` all elements will be allotted the same amount of space.'
           - |
             ```css
-            .bronto {
+            .bronto, .tricera {
               /* Gets 1 piece of the space */
               flex-grow: 1;
             }

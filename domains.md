@@ -14,7 +14,7 @@ extra_practice:
       url: "/courses/web-dev-5/email-account-types/"
   lessons:
     - title: "Buying a domain & email"
-      url: "/courses/web-dev-5/buying-a-domain-and-email/"
+      url: "/courses/web-dev-5/buying-domain-hosting-setup/"
     - title: "Hosting setup"
       url: "/courses/web-dev-5/hosting-setup/"
   activities:
@@ -113,7 +113,7 @@ The first step in the whole process is buying a domain. I usually buy my domains
 
 Though we generally call it “buying” a domain you aren’t technically _buying_ it, but _leasing_ it for a certain amount of time, usually a year. _And every year you have to pay for it again._
 
-[**☛ Follow the Hover setup lesson.**](/courses/web-dev-5/buying-a-domain-and-email/)
+[**☛ Follow the Hover setup lesson.**](/courses/web-dev-5/buying-domain-hosting-setup/)
 
 ### Buying e-mail service with FastMail
 
@@ -121,13 +121,13 @@ There are lots of different e-mail providers and hosts often provide e-mail exch
 
 _Make sure your e-mail provider supports custom domains—FastMail only supports this in their more expensive packages. ([The standard package works great!](https://www.fastmail.com/?STKI=12009945))†_
 
-[**☛ Follow the FastMail setup lesson.**](/courses/web-dev-5/buying-a-domain-and-email/#step-5)
+[**☛ Follow the FastMail setup lesson.**](/courses/web-dev-5/buying-an-email-address/)
 
 ### Hosting on GitHub
 
 Using GitHub as a static web host is simple, integrates with our processes—and it’s free.
 
-[**☛ Follow the hosting lesson.**](/courses/web-dev-5/hosting-setup/)
+[**☛ Follow the hosting lesson.**](/courses/web-dev-1/website-on-github/)
 
 ---
 

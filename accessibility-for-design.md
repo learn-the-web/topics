@@ -197,7 +197,7 @@ If you want to hide something from *everybody* do one of these two things:
 }
 ```
 
-*Both `[hidden]` and `display: none` will comlpetely hide something—from sited users & from screen readers.*
+*Both `[hidden]` and `display: none` will comlpetely hide something—from sighted users & from screen readers.*
 
 Sometimes you want to hide something only from visual users, in that case we need some special CSS: the `.visually-hidden` class:
 

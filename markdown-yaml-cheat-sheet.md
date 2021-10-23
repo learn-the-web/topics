@@ -172,7 +172,7 @@ groups:
             ```yaml
             name_meaning: "tyrant & lizard"
             ```
-          - In all the previous examples the quotes aren’t really necessary. But I find myself almost always adding them for clarity and to prevent myself from having to think about whether I need to escape the or not.
+          - In all the previous examples the quotes aren’t really necessary. But I find myself almost always adding them for clarity and to prevent myself from having to think about whether I need to escape them or not.
       - name: '`>` — Folded text block'
         details:
           - 'Start with a greater than, and indent the next lines.'

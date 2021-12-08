@@ -32,7 +32,7 @@ groups:
       - '[Sim Daltonism](https://michelf.ca/projects/sim-daltonism/)'
       - '[Web Developer Toolbar](http://chrispederick.com/work/web-developer/)'
       - '[Chrome Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)'
-      - '[Check My Colours](http://www.checkmycolours.com/)'
+      - '[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)'
       - '[Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php)'
       - '[WebAIM](http://wave.webaim.org/)'
 

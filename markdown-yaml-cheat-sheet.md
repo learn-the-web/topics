@@ -59,7 +59,7 @@ groups:
             2. List item two
               1. Sub list item one
             ```
-      - name: '`[]()` — Link'
+      - name: '`[](){}` — Link'
         details:
           - '`[]` — link text inside square brackets.'
           - '`()` — link URL inside round brackets.'

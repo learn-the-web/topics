@@ -63,20 +63,22 @@ groups:
         details:
           - '`[]` — link text inside square brackets.'
           - '`()` — link URL inside round brackets.'
+          - '`{}` — link class inside round brackets.'
           - |
             ```markdown
-            [Dinosuars](https://en.wikipedia.org/wiki/Dinosaurs)
+            [Dinosuars](https://en.wikipedia.org/wiki/Dinosaurs){.Dinosaurs}
 
             The [New Horizons](http://pluto.jhuapl.edu/) space probe took photos of Pluto.
             ```
-      - name: '`![]()` — Image'
+      - name: '`![](){}` — Image'
         details:
           - 'Start with an exclamation point.'
           - '`[]` — alt text inside square brackets.'
           - '`()` — image URL inside round brackets.'
+          - '`{}` — class text inside round brackets.'
           - |
             ```markdown
-            ![True colour composite of Pluto](true-colour-pluto.jpg)
+            ![True colour composite of Pluto](true-colour-pluto.jpg){.true .colour .pluto}
             ```
       - name: '`---` — Horizontal rule'
         details:

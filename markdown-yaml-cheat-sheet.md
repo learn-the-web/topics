@@ -39,6 +39,13 @@ groups:
             ```markdown
             **Some** of these **words** are bold.
             ```
+      - name: '`~~` — Delete'
+        details:
+          - 'Wrap the words in double tilde.'
+          - |
+            ```markdown
+            Some of these ~~words~~ are deleted.
+            ```
       - name: '`-` — Unordered list'
         details:
           - 'Start each line with a dash and a space.'
@@ -66,7 +73,7 @@ groups:
           - '`{}` — link class inside round brackets.'
           - |
             ```markdown
-            [Dinosuars](https://en.wikipedia.org/wiki/Dinosaurs){.Dinosaurs}
+            [Dinosuars](https://en.wikipedia.org/wiki/Dinosaurs){:.Dinosaurs}
 
             The [New Horizons](http://pluto.jhuapl.edu/) space probe took photos of Pluto.
             ```
@@ -78,7 +85,7 @@ groups:
           - '`{}` — class text inside round brackets.'
           - |
             ```markdown
-            ![True colour composite of Pluto](true-colour-pluto.jpg){.true .colour .pluto}
+            ![True colour composite of Pluto](true-colour-pluto.jpg){:.true .colour .pluto}
             ```
       - name: '`---` — Horizontal rule'
         details:

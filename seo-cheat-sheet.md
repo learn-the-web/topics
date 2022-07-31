@@ -136,7 +136,7 @@ groups:
           - 'Separate from the HTML code, at the bottom in a `<script>` tag'
           - |
             ```html
-            <script type="application/jd+json">
+            <script type="application/ld+json">
               {
                 "@context": "https://schema.org",
                 "@type": "Person",
@@ -152,12 +152,12 @@ groups:
                 },
                 "email": "primeminister@canada.ca",
                 "tel": "+16139416900",
-                "website": "http://canada.ca/"
+                "website": "http://canada.ca/",
                 "sameAs": [
                   "https://www.facebook.com/sir_john_a_macdonald",
-                  "https://www.youtube.com/channel/sir_john_a_macdonald"
+                  "https://www.youtube.com/channel/sir_john_a_macdonald",
                   "https://www.instagram.com/sir_john_a_macdonald/",
-                  "https://twitter.com/sir_john_a_macdonald",
+                  "https://twitter.com/sir_john_a_macdonald"
                 ]
               }
             </script>

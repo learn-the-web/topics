@@ -3,8 +3,8 @@ title: "Everything is a box"
 tags: "box model width height margin padding border collapsing box background colour radius shadow"
 desc: "Understanding that everything in a website is a box and how to manipulate that box."
 playlist: PLWjCJDeWfDdeEM254gHVHz26yswh59Hih
-download: https://github.com/acgd-learn-the-web/box-model-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/box-model-code
+download: https://github.com/ltw-learn-the-web/box-model-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/box-model-code
 cheatsheet: boxes-borders-cheat-sheet
 extra_practice:
   slides:
@@ -33,8 +33,8 @@ The box model is the name of part of the layout system browsers use when renderi
 
 The `margin` and `padding` properties are used to put space around your box, either outside the box or inside the box.
 
-- `margin` — adds spacing outside of the box, pushing other boxes away
-- `padding` — adds spacing inside the box, pushing the content away from the border; the background colour is visible within the padding
+- `margin` — adds spacing outside of the box, pushing other boxes away
+- `padding` — adds spacing inside the box, pushing the content away from the border; the background colour is visible within the padding
 
 ```css
 div {
@@ -125,15 +125,15 @@ div {
 You’ll grow an intuition as to when to use each unit, but here are a couple of ideas:
 
 - `%` — use percents for elements that should grow with the size of the browser, e.g columns, images
-- `em` — use ems for elements that should grow with the size of the text, e.g. line-lengths
+- `em` — use ems for elements that should grow with the size of the text, e.g. line-lengths
 - `px` — use pixels for things that should never change size, e.g. logos, icons
 
 #### Minimum & maximum values
 
 For both width and height we can provide minimum and maximum values instead of fixed values.
 
-- `min-width` — force the box to be at least this wide, but can grow wider
-- `min-height` — force the box to be at least this tall, but can grow taller
+- `min-width` — force the box to be at least this wide, but can grow wider
+- `min-height` — force the box to be at least this tall, but can grow taller
 - `max-width` — force the box to never exceed this width, but can get narrower than it
 - `max-height` — force the box to never exceed this height, but can get shorter than it
 
@@ -229,7 +229,7 @@ header {
 ```
 
 - `width` — a measurement to describe the thickness of the border
-- `style` — what kind of border: `solid`, `dashed`, `dotted`, `double`, etc.
+- `style` — what kind of border: `solid`, `dashed`, `dotted`, `double`, etc.
 - `color` — any colour for the border, including semi-transparent ones
 
 If you want to style a specific side of a border, you can target it directly with `border-top`, `border-bottom`, `border-left`, `border-right`.
@@ -271,8 +271,8 @@ a {
 
 You could also specify the `border-radius` in other units:
 
-- `em` — the border radius would change with the font size
-- `%` — of the box itself: using 50% would make a circle/oval
+- `em` — the border radius would change with the font size
+- `%` — of the box itself: using 50% would make a circle/oval
 
 If you want to specify only certain corners, add more values, like `margin` and `padding`:
 
@@ -303,11 +303,11 @@ div {
 
 When specifying `box-shadow` there’s four values to write out:
 
-- `horizontal offset` — how far to shift the shadow left and right: positive numbers move right, negative move left
-- `vertical offset` — how far to shift the shadow up and down: positive numbers move down, negative move up
-- `blur radius` — how blurry the edge of the shadow will be, the bigger the number the lighter the shadow; `0` would make a crisp edge
-- `spread` — *(optional);* how much bigger the shadow is than the box
-- `color` — any colour you want, including semi-transparency
+- `horizontal offset` — how far to shift the shadow left and right: positive numbers move right, negative move left
+- `vertical offset` — how far to shift the shadow up and down: positive numbers move down, negative move up
+- `blur radius` — how blurry the edge of the shadow will be, the bigger the number the lighter the shadow; `0` would make a crisp edge
+- `spread` — *(optional);* how much bigger the shadow is than the box
+- `color` — any colour you want, including semi-transparency
 
 ```css
 div {

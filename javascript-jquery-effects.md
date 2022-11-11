@@ -3,8 +3,8 @@ title: "JavaScript + jQuery effects"
 tags: "javascript jquery effects scrolling transitions animations end events waypoints smooth scroll manipulating svg"
 desc: "Using JavaScript and jQuery to trigger and create lots of effects on a website like animations and scrolling effects."
 playlist: PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_
-download: https://github.com/acgd-learn-the-web/javascript-jquery-effects-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/javascript-jquery-effects-code
+download: https://github.com/ltw-learn-the-web/javascript-jquery-effects-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/javascript-jquery-effects-code
 ---
 
 Common JavaScript + jQuery effects used on websites: triggering animations, scrolling effects, smooth scrolling, and waypoints.

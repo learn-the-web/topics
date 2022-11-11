@@ -53,8 +53,8 @@ groups:
           - '`Math.round()` — round the number to an integer.'
           - '`Math.ceil()` — round the number up.'
           - '`Math.floor()` — round the number down.'
-          - '`document.documentElement.clientWidth` — the width of the viewport.'
-          - '`document.documentElement.clientHeight` — the height of the viewport.'
+          - '`document.documentElement.clientWidth` — the width of the viewport.'
+          - '`document.documentElement.clientHeight` — the height of the viewport.'
           - |
             &nbsp;
 
@@ -89,19 +89,19 @@ groups:
             ```
       - name: '*Strings*'
         details:
-          - '`+` — combine (concatenate) strings together.'
-          - '`length` — count how many characters are in the string.'
-          - '`toUpperCase()` — convert all the letters to upper case.'
-          - '`toLowerCase()` — convert all the letters to lower case.'
-          - '`slice(from, to)` — get a chunk of text up to a specific point.'
-          - '`substr(from, length)` — get a chunk from the text of a specific length.'
-          - "`replace('…', '…')` — change one or more instances to something else."
-          - "`split('…')` — create an array by breaking the string on a specific character."
-          - '`trim()` — remove spaces at the start and end.'
+          - '`+` — combine (concatenate) strings together.'
+          - '`length` — count how many characters are in the string.'
+          - '`toUpperCase()` — convert all the letters to upper case.'
+          - '`toLowerCase()` — convert all the letters to lower case.'
+          - '`slice(from, to)` — get a chunk of text up to a specific point.'
+          - '`substr(from, length)` — get a chunk from the text of a specific length.'
+          - "`replace('…', '…')` — change one or more instances to something else."
+          - "`split('…')` — create an array by breaking the string on a specific character."
+          - '`trim()` — remove spaces at the start and end.'
       - name: '*Arrays*'
         details:
           - '`things[1]` — get a specific item from the array.'
-          - '`length` — count how many items are in the array.'
+          - '`length` — count how many items are in the array.'
           - '`push(…)` — add to the end of the array.'
           - '`pop()` — remove from the end of the array.'
           - '`unshift(…)` — add to the start of the array.'

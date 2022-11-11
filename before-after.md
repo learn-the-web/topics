@@ -3,8 +3,8 @@ title: "Before & after pseudo elements"
 tags: "before after pseudo elements content hidden bullets quotations marks clearfix border box "
 desc: "Understanding the hidden before and after pseudo elements, how to style them, and what they’re helpful for."
 playlist: PLWjCJDeWfDddMjtm6wwgpUMYZZC0I9xZz
-download: https://github.com/acgd-learn-the-web/before-after-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/before-after-code
+download: https://github.com/ltw-learn-the-web/before-after-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/before-after-code
 ---
 
 Every HTML element in the code is actually composed of 3 separate elements—two of them are just hidden by default.

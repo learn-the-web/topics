@@ -106,7 +106,7 @@ groups:
               align-items: stretch;
             }
             ```
-          - '**`align-self`** — is a similar property, but allows you to target a single child element, instead of all of the children.'
+          - '**`align-self`** — is a similar property, but allows you to target a single child element, instead of all of the children.'
           - |
             ```css
             .stega {

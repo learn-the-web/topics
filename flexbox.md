@@ -3,8 +3,8 @@ title: "Flexbox"
 tags: "css advanced layout flexbox align content justify vertical"
 desc: "Learn how to use the flexbox layout system to create more advanced layouts with columns and alignments."
 playlist: PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq
-download: https://github.com/acgd-learn-the-web/flexbox/archive/master.zip
-github: https://github.com/acgd-learn-the-web/flexbox
+download: https://github.com/ltw-learn-the-web/flexbox/archive/master.zip
+github: https://github.com/ltw-learn-the-web/flexbox
 cheatsheet: flexbox-cheat-sheet
 extra_practice:
   week:
@@ -159,10 +159,10 @@ We can distribute the elements along the axis that the flex items are arranged u
 
 There are a few different ways to use `justify-content`:
 
-- `flex-start` — the default position
-- `flex-end` — the opposite location of `flex-start`
-- `center` — move all the items into the center of the arrangement
-- `space-between` — makes the elements touch the start & end edges of the flex container then evenly distributes the space between the elements.
+- `flex-start` — the default position
+- `flex-end` — the opposite location of `flex-start`
+- `center` — move all the items into the center of the arrangement
+- `space-between` — makes the elements touch the start & end edges of the flex container then evenly distributes the space between the elements.
 - `space-around` — adds equal space on both sides of the elements to space them out, unfortunately this doubles the spaces in the center of the elements from what’s on the edges.
 
 ![](justify-content.png)
@@ -183,10 +183,10 @@ That’s a complicated way to saying that we can arrange elements against each o
 
 There are a few different ways to use `align-items`:
 
-- `flex-start` — the default position
-- `flex-end` — the opposite location of `flex-start`
+- `flex-start` — the default position
+- `flex-end` — the opposite location of `flex-start`
 - `center` — align the items against their centres, adjusting for their different dimensions
-- `stretch` — force the elements to be the same size
+- `stretch` — force the elements to be the same size
 
 ![](align-items.png)
 

@@ -16,7 +16,7 @@ groups:
 
             And another paragraph of text.
             ```
-      - name: '`#` — Headings'
+      - name: '`#` — Headings'
         details:
           - 'Start each heading with one or more hashes, followed by a space.'
           - |
@@ -25,21 +25,21 @@ groups:
             ## Heading level 2
             ### Heading level 3
             ```
-      - name: '`*` — Italic'
+      - name: '`*` — Italic'
         details:
           - 'Wrap the words in single asterisks.'
           - |
             ```markdown
             Some of *these* words *are* italic.
             ```
-      - name: '`**` — Bold'
+      - name: '`**` — Bold'
         details:
           - 'Wrap the words in double asterisks.'
           - |
             ```markdown
             **Some** of these **words** are bold.
             ```
-      - name: '`-` — Unordered list'
+      - name: '`-` — Unordered list'
         details:
           - 'Start each line with a dash and a space.'
           - 'Indent before the dash for nested lists.'
@@ -49,7 +49,7 @@ groups:
             - List item 2
               - Sub list item 1
             ```
-      - name: '`1.` — Ordered list'
+      - name: '`1.` — Ordered list'
         details:
           - 'Start each line with a number, period & space.'
           - 'Indent before the number for nested lists.'
@@ -59,7 +59,7 @@ groups:
             2. List item two
               1. Sub list item one
             ```
-      - name: '`[]()` — Link'
+      - name: '`[]()` — Link'
         details:
           - '`[]` — link text inside square brackets.'
           - '`()` — link URL inside round brackets.'
@@ -69,7 +69,7 @@ groups:
 
             The [New Horizons](http://pluto.jhuapl.edu/) space probe took photos of Pluto.
             ```
-      - name: '`![]()` — Image'
+      - name: '`![]()` — Image'
         details:
           - 'Start with an exclamation point.'
           - '`[]` — alt text inside square brackets.'
@@ -78,21 +78,21 @@ groups:
             ```markdown
             ![True colour composite of Pluto](true-colour-pluto.jpg)
             ```
-      - name: '`---` — Horizontal rule'
+      - name: '`---` — Horizontal rule'
         details:
           - 'Three consecutive dashes on a single line.'
           - |
             ```markdown
             ---
             ```
-      - name: '<code>`</code> — Inline code'
+      - name: '<code>`</code> — Inline code'
         details:
           - 'Surround code inside other text with single backticks.'
           - |
             ```markdown
             The `<h1>` tag is the most important content on the page.
             ```
-      - name: '<code>```</code> — Code block'
+      - name: '<code>```</code> — Code block'
         details:
           - 'Start a line with three backticks to make a code block.'
           - 'End the code block with three more backticks on their own line.'
@@ -111,7 +111,7 @@ groups:
             }
             ```
             </code></pre>
-      - name: '`- [ ]` — Task list'
+      - name: '`- [ ]` — Task list'
         details:
           - 'Non standard. Start a list and used square brackets with a space to denote a task.'
           - |
@@ -129,7 +129,7 @@ groups:
   - title: 'YAML'
     note: 'Always indent with two spaces.'
     items:
-      - name: '`term: value` — Objects'
+      - name: '`term: value` — Objects'
         details:
           - 'Start with a term, no spaces, followed by a colon and a space.'
           - |

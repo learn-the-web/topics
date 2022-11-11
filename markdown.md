@@ -3,8 +3,8 @@ title: "Markdown"
 tags: "markdown processor html headings daring fireball john gruber commonmark"
 desc: "Understanding the Markdown markup language that’s used in many locations including GitHub."
 playlist: PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX
-download: https://github.com/acgd-learn-the-web/markdown-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/markdown-code
+download: https://github.com/ltw-learn-the-web/markdown-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/markdown-code
 cheatsheet: markdown-yaml-cheat-sheet
 extra_practice:
   week:

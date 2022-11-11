@@ -3,8 +3,8 @@ title: "JavaScript debugging"
 tags: "javascript debugging jshint eslint jslint developer tools inspect element console log"
 desc: "Some simple techniques to debug JavaScript code in your browser."
 playlist: PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk
-download: https://github.com/acgd-learn-the-web/javascript-debugging-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/javascript-debugging-code
+download: https://github.com/ltw-learn-the-web/javascript-debugging-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/javascript-debugging-code
 ---
 
 Broken code can be a nightmare, but there are lots of tools to help us debug our JavaScript issues, many built into the browser.
@@ -33,8 +33,8 @@ Also, at the bottom of the console you can type JavaScript and have it executed 
 
 One quick way to debug code is to comment out lines of code. Commenting out helps you pinpoint specific problems or helps you disable lines you know for sure are working.
 
-- `//` — double slashes for single line comments
-- `/*  */` — slash-star star-slash for multi-line comments
+- `//` — double slashes for single line comments
+- `/*  */` — slash-star star-slash for multi-line comments
 
 ### Console logging
 
@@ -71,15 +71,15 @@ if (planet == 'Uranus') {
 
 There’s a few other functions within `console` that do slightly different things:
 
-- `console.warn('…')` — same as `log` but with a little warning icon
+- `console.warn('…')` — same as `log` but with a little warning icon
 - `console.error('…')` — similar to `log` but also displays a list of each step of execution taken, called a stack trace
-- `console.assert(boolean, '…')` — write a message to the console if the first argument is `false`
-- `console.count('…')` — display a count of how many times this line was executed
-- `console.dir(object)` — display all the properties of an object
-- `console.group()` — start a grouping of console messages
-- `console.groupEnd()` — end the console messages group
-- `console.time('…')` — start a timer, specifying a label
-- `console.timeEnd('…')` — end the timer, displaying the execution time in the console; must specify the same label
+- `console.assert(boolean, '…')` — write a message to the console if the first argument is `false`
+- `console.count('…')` — display a count of how many times this line was executed
+- `console.dir(object)` — display all the properties of an object
+- `console.group()` — start a grouping of console messages
+- `console.groupEnd()` — end the console messages group
+- `console.time('…')` — start a timer, specifying a label
+- `console.timeEnd('…')` — end the timer, displaying the execution time in the console; must specify the same label
 
 ### Breakpoints & stepping
 
@@ -106,9 +106,9 @@ If we want to move onto the next line of code we can click one of these buttons:
 
 ![](debugger-buttons.jpg)
 
-- **Step over** — will advance to the next line of code in the same function
-- **Step into** — will advance to the next line, if the next line is a function it will enter it
-- **Step out** — will exit the current function and advance
+- **Step over** — will advance to the next line of code in the same function
+- **Step into** — will advance to the next line, if the next line is a function it will enter it
+- **Step out** — will exit the current function and advance
 
 #### Stopping the debugger from entering files
 

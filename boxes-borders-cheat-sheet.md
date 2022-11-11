@@ -12,9 +12,9 @@ groups:
         details:
           - '![An illustration of the box-model properties](box-model.svg)'
           - 'Starting at the content and working out:'
-          - '• `padding` — space between the content & box edge; `background-color` fills behind this space.'
-          - '• `border` — line around the edge of the box.'
-          - '• `margin` — space outside the box, pushing other boxes away; can see through margin to what’s behind.'
+          - '• `padding` — space between the content & box edge; `background-color` fills behind this space.'
+          - '• `border` — line around the edge of the box.'
+          - '• `margin` — space outside the box, pushing other boxes away; can see through margin to what’s behind.'
       - name: '*Margin & padding number order*'
         details:
           - '![An illustration of the margin/padding value system](margin-padding-order.svg)'

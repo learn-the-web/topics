@@ -3,8 +3,8 @@ title: "Advanced SVG"
 tags: "writing advance svg embedding html hover transition animation mask filter pattern text webfonts gradients icons symbols"
 desc: "Writing and using SVG in more complex scenarios with animations, transitions, and other effects."
 playlist: PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM
-download: https://github.com/acgd-learn-the-web/advanced-svg-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/advanced-svg-code
+download: https://github.com/ltw-learn-the-web/advanced-svg-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/advanced-svg-code
 cheatsheet: svg-cheat-sheet
 extra_practice:
   week:
@@ -88,9 +88,9 @@ Here’s a **circle**:
 </svg>
 ```
 
-- `cx` — centre x coordinate
-- `cy` — centre y coordinate
-- `r` — radius
+- `cx` — centre x coordinate
+- `cy` — centre y coordinate
+- `r` — radius
 
 We can use CSS in our SVG, but the [properties are just a little different](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute).
 
@@ -562,8 +562,8 @@ If you are embedding the SVG into your website we want to be able to provide a t
 
 Inside the SVG element, at the top, we can add two new elements to describe the contents of the image:
 
-- `<title>` — A short description of the image contents.
-- `<desc>` — A longer, in-depth explanation of the image contents.
+- `<title>` — A short description of the image contents.
+- `<desc>` — A longer, in-depth explanation of the image contents.
 
 ```xml
 <svg width="500" height="200" viewBox="0 0 500 200">
@@ -616,7 +616,7 @@ If you are using the SVG `<text>` element inside your embedded SVG, but don’t 
 - [**CSS-Tricks: How to Scale SVG**](https://css-tricks.com/scale-svg/)
 - [**CSS-Tricks: A Compendium of SVG Information**](https://css-tricks.com/mega-list-svg-information/)
 - [**MDN: SVG**](https://developer.mozilla.org/en-US/docs/Web/SVG)
-- [SVG on the web — A Practical Guide](https://svgontheweb.com/)
+- [SVG on the web — A Practical Guide](https://svgontheweb.com/)
 - [Tips for Creating Accessible SVG](http://www.sitepoint.com/tips-accessible-svg/)
 - [The SVG Canvas, Coordinate System, And Viewport](http://www.vanseodesign.com/web-design/svg-viewport/)
 - [The 4 Slice Scaling Technique for SVG](http://w3.eleqtriq.com/2014/02/the-4-slice-scaling-technique-for-svg/)

@@ -17,8 +17,8 @@ groups:
       - name: '`<th scope="…">`'
         details:
           - 'Defines a heading cell to label a row or column.'
-          - '`scope="row"` — for row labels.'
-          - '`scope="col"` — for column labels.'
+          - '`scope="row"` — for row labels.'
+          - '`scope="col"` — for column labels.'
       - name: '`<td>`'
         details:
           - 'Defines a single piece of data in the table—a cell.'

@@ -3,8 +3,8 @@ title: "Small screen layout"
 tags: "full small screen layout display box float position columns"
 desc: "A walk-through creating a complete, small screen website."
 playlist: PLWjCJDeWfDdcei65OaWx1yn6Oc8wIyyyz
-download: https://github.com/acgd-learn-the-web/small-screen-layout-code/archive/gh-pages.zip
-github: https://github.com/acgd-learn-the-web/small-screen-layout-code
+download: https://github.com/ltw-learn-the-web/small-screen-layout-code/archive/gh-pages.zip
+github: https://github.com/ltw-learn-the-web/small-screen-layout-code
 livewebsite: small-screen-layout
 alert: |
   This tutorial uses some outdated code, specifically `float`, using flexbox or grids would be a better, more up-to-date solution to the layouts.

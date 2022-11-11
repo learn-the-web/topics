@@ -3,8 +3,8 @@ title: "Document object model (DOM)"
 tags: "javascript html elements tags manipulate document object model jquery events click propagation delegation classes forms html"
 desc: "Understanding how JavaScript interfaces and manipulates with HTML."
 playlist: PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y
-download: https://github.com/acgd-learn-the-web/dom-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/dom-code
+download: https://github.com/ltw-learn-the-web/dom-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/dom-code
 cheatsheet: javascript-cheat-sheet
 checklist: javascript-checklist
 ---
@@ -55,9 +55,9 @@ Selecting elements in JavaScript is really simple if you know how to select thin
 There are a bunch of different functions for selecting things in plain JavaScript.
 
 - `document.getElementById('thing')` — will select an element with the id of `thing`
-- `document.getElementsByTagName('div')` — select all the `div` elements on the page
-- `document.getElementsByClassName('thang')` — select all the elements with the class of `thang`
-- `document.querySelector('.thang')` — will select the first element with the class of `thang`; you can put any CSS selector in there and it will work
+- `document.getElementsByTagName('div')` — select all the `div` elements on the page
+- `document.getElementsByClassName('thang')` — select all the elements with the class of `thang`
+- `document.querySelector('.thang')` — will select the first element with the class of `thang`; you can put any CSS selector in there and it will work
 - `document.querySelectorAll('.thang')` — will select all the elements with the class of `thang`; you can put any CSS selector in there and it will work
 
 Here’s a couple of examples:
@@ -107,7 +107,7 @@ With jQuery, selecting things is the same as plain JavaScript: it uses CSS selec
 *If you select something using plain JS, you can’t use jQuery functions without selecting it with jQuery. If you select something with jQuery, you can’t use plain JS functions.*
 
 - `$('#thing')` — will select an element with the ID of `thing`
-- `$('div')` — select all the `div` elements on the page
+- `$('div')` — select all the `div` elements on the page
 - `$('.thang')` — will select all the elements with the class of `thang`
 
 #### Looping over collections in jQuery
@@ -279,7 +279,7 @@ When using classes specifically for JavaScript it’s best practice to prepend t
 
 There are two ways to manipulate classes in plain JavaScript: `className` and `classList`. Using `className` is more direct and will work in every browser, but isn’t convenient. Using `classList` is much simpler but is only supported in newer browsers.
 
-`className` is a string that represents all the contents of the `class=""` attribute—so we need to manipulate it like a standard string.
+`className` is a string that represents all the contents of the `class=""` attribute—so we need to manipulate it like a standard string.
 
 ```js
 var btn = document.querySelector('.btn');
@@ -341,8 +341,8 @@ When manipulating HTML the [**☛ parent-child relationship**](/topics/html-sema
 
 There are a bunch of different functions to manipulate HTML using jQuery.
 
-- `.append()` — will add HTML inside, after all the other children
-- `.prepend()` — will add HTML inside, before all the other children
+- `.append()` — will add HTML inside, after all the other children
+- `.prepend()` — will add HTML inside, before all the other children
 - `.before()` — will add HTML outside, before the element
 - `.after()` — will add HTML outside, after the element
 - `.remove()` — will completely delete the element

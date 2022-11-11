@@ -3,8 +3,8 @@ title: "Pattern libraries"
 tags: "css style guides pattern library libraries templates themes tiles components modules systems mood boards"
 desc: "A quick tutorial on making pattern libraries & component systems for websites with a bunch of helpful links."
 playlist: PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0
-download: https://github.com/acgd-learn-the-web/jekyll-patternbot-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/jekyll-patternbot-code/
+download: https://github.com/ltw-learn-the-web/jekyll-patternbot-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/jekyll-patternbot-code/
 livewebsite: https://stoic-engelbart-a37d1e.netlify.com/pattern-library/
 cheatsheet: pattern-library-cheat-sheet
 ---
@@ -168,7 +168,7 @@ patternbot:
 ```
 
 - `title` — allows us to change the title at the top of the pattern library
-- `description` — allows us to change the introduction paragraph
+- `description` — allows us to change the introduction paragraph
 
 ### Interface colours
 
@@ -182,7 +182,7 @@ patternbot:
 ```
 
 - `background` — configures the background colour of the whole document from the default of white
-- `accent` — instead of using `--color-primary` as the heading & accent colour for the interface
+- `accent` — instead of using `--color-primary` as the heading & accent colour for the interface
 
 *Variable names work. But do just plain old hex-colours.*
 
@@ -374,9 +374,9 @@ Inside a `patterns` entry make a new entry named exactly after the HTML document
 
 We can then list out the `fields`—aka placeholders—specifying:
 
-- `name` — the name of the placeholder, the bit that comes after `include.`
+- `name` — the name of the placeholder, the bit that comes after `include.`
 - `type` — the kind of information that it’s expecting
-- `example` — an example of the kind of information (Patternbot will also use this to display in the component library)
+- `example` — an example of the kind of information (Patternbot will also use this to display in the component library)
 
 [**☛ See the Patternbot cheat sheet for all the options**](/topics/pattern-library-cheat-sheet/)
 

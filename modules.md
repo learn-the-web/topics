@@ -3,8 +3,8 @@ title: "Modules"
 tags: "modules object oriented css reuse list group buttons icons media object embed containers bem smacss oocss"
 desc: "Abstractions for common website patterns that can be reused in many situations."
 playlist: PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa
-download: https://github.com/acgd-learn-the-web/modules-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/modules-code
+download: https://github.com/ltw-learn-the-web/modules-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/modules-code
 cheatsheet: modulifier-cheat-sheet
 tool:
   name: Modulifier
@@ -167,11 +167,11 @@ If you have a [modular type system](https://typografier.web-dev.tools) you can u
 
 ## Common website modules
 
-- **[List group](http://demos.learn-the-web.algonquindesign.ca/modules/list-group.html)**: vertical & horizontal lists.
-- **[Buttons](http://demos.learn-the-web.algonquindesign.ca/modules/buttons.html)**: small, medium, large, alternative, [buttons + modular typography](http://demos.learn-the-web.algonquindesign.ca/modules/buttons-modular-type.html).
-- **[Icons](http://demos.learn-the-web.algonquindesign.ca/modules/icons.html)**: different sizes, stacked, inline, image replacement.
-- **[Media object](http://demos.learn-the-web.algonquindesign.ca/modules/media-object.html)**: flexible image size, embeddable, with list group, stacked, reversed.
-- **[Embed containers](http://demos.learn-the-web.algonquindesign.ca/modules/embed.html)**: for flexible images and videos, with specific aspect ratios—to prevent layout reflow after the image loads.
+- **[List group](https://demos.learntheweb.courses/modules/list-group.html)**: vertical & horizontal lists.
+- **[Buttons](https://demos.learntheweb.courses/modules/buttons.html)**: small, medium, large, alternative, [buttons + modular typography](https://demos.learntheweb.courses/modules/buttons-modular-type.html).
+- **[Icons](https://demos.learntheweb.courses/modules/icons.html)**: different sizes, stacked, inline, image replacement.
+- **[Media object](https://demos.learntheweb.courses/modules/media-object.html)**: flexible image size, embeddable, with list group, stacked, reversed.
+- **[Embed containers](https://demos.learntheweb.courses/modules/embed.html)**: for flexible images and videos, with specific aspect ratios—to prevent layout reflow after the image loads.
 
 *The `common.css` file used in the examples and videos could be replaced by your modular typography `typography.css` file for better results.*
 

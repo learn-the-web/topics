@@ -15,15 +15,15 @@ The major ideas behind the Agile Manifesto are evolution and collaboration. Resp
 
 - **Early & continuous development** — release the software early, getting new features out as soon as they’re ready, constantly updating and maintaining the software.
 
-- **Continuously working with customers** — favour communication with customers & clients on a near-daily basis, solve problems together and adapt the project as requirements change.
+- **Continuously working with customers** — favour communication with customers & clients on a near-daily basis, solve problems together and adapt the project as requirements change.
 
-- **Evolving requirements & welcome to changes** — accept that the software requirements are not fixed and will change while development continues, evolve and adapt to the constantly changing requirements.
+- **Evolving requirements & welcome to changes** — accept that the software requirements are not fixed and will change while development continues, evolve and adapt to the constantly changing requirements.
 
-- **Efficient communication** — favour face-to-face communication when possible, especially when brainstorming features and organizing work terms.
+- **Efficient communication** — favour face-to-face communication when possible, especially when brainstorming features and organizing work terms.
 
-- **Self-organization & reflection** — teams should self organize, appointing the best to lead and after each work session should reflect on their accomplishments & failures.
+- **Self-organization & reflection** — teams should self organize, appointing the best to lead and after each work session should reflect on their accomplishments & failures.
 
-- **Simplicity, excellence, sustainable** — try to keep the project simple & excellently crafted, but at a rate that is sustainable and continuous, small, well-done changes on a regular basis.
+- **Simplicity, excellence, sustainable** — try to keep the project simple & excellently crafted, but at a rate that is sustainable and continuous, small, well-done changes on a regular basis.
 
 ---
 

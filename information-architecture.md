@@ -28,13 +28,13 @@ A simple content inventory might look something like this:
 
 The headings help us understand the content & its purpose on our website:
 
-- **Title** — What’s the name of the content? What is the content subject?
-- **Type** — The kind of content it is: article, image, blog post, social post, etc.
-- **URL** — The content’s URL on the website
-- **Person** — The person responsible for maintaing the content
-- **Status** — Is the content ready to be used? Does it need work?
-- **Location** — Where can the content be found in your organization? CMS, network drive, server, etc.
-- **Keywords** — Keywords the content contributes to your website
+- **Title** — What’s the name of the content? What is the content subject?
+- **Type** — The kind of content it is: article, image, blog post, social post, etc.
+- **URL** — The content’s URL on the website
+- **Person** — The person responsible for maintaing the content
+- **Status** — Is the content ready to be used? Does it need work?
+- **Location** — Where can the content be found in your organization? CMS, network drive, server, etc.
+- **Keywords** — Keywords the content contributes to your website
 
 **The content inventory should be a living document—at least at the beginning—always changing and being updated as you understand the content better.**
 
@@ -65,22 +65,22 @@ There are lots of different styles of content prioritization—my personal favor
 
 ![](content-prioritization.png)
 
-- Black — is the heaviest colour, therefore most important
+- Black — is the heaviest colour, therefore most important
 - Shades of grey — darker is more important, lighter is less important
-- White — is very light looking, therefore lease important
+- White — is very light looking, therefore lease important
 
 The other really popular method is just numbering. Something like:
 
-- 1 — Search
-- 1 — Navigation
-- 2 — New
-- 2 — Restock
-- 3 — Popular
-- 3 — Award winning
-- 4 — Shipping
-- 4 — Wishlist
-- 5 — About
-- 5 — Branding
+- 1 — Search
+- 1 — Navigation
+- 2 — New
+- 2 — Restock
+- 3 — Popular
+- 3 — Award winning
+- 4 — Shipping
+- 4 — Wishlist
+- 5 — About
+- 5 — Branding
 
 **Content prioritization is a valuable tool when we do the visual design for our website.** It helps us understand how the size of the content. Whether the content shoudld be highlighted. If the content should be near the top. *More important content should be more obvious on our webpages.*
 

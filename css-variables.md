@@ -3,8 +3,8 @@ title: "CSS variables"
 tags: "css variables custom properties maintenance reusuability root var colours fonts"
 desc: "Using CSS variables & custom properties to generate more maintainable colour and font systems."
 playlist: PLWjCJDeWfDdcFjcJzZ8jEkIcQdzpV6AbJ
-download: https://github.com/acgd-learn-the-web/css-variables-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/css-variables-code
+download: https://github.com/ltw-learn-the-web/css-variables-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/css-variables-code
 ---
 
 CSS variables give us lots of flexibility within our code, allow us to reduce duplication and enforce standards while still sitting within CSS’s cascade.

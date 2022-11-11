@@ -110,7 +110,7 @@ There are a few very popular extensions to block trackers and encourage security
 
 - [Privacy Badger](https://www.eff.org/privacybadger)
 - [HTTPS Everywhere](https://www.eff.org/https-everywhere)
-- uBlock Origin — [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- uBlock Origin — [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 - [Ghostery](https://www.ghostery.com/)
 - [Ad Block Plus](https://adblockplus.org/)
 - [No Script](https://noscript.net/)

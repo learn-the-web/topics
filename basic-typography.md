@@ -3,8 +3,8 @@ title: "Basic typography"
 tags: "typography styling font family weight style bold italic size line-height text decoration transform uppercase lowercase align center right left indent shadow rems px links colour list style type web fonts custom fonts google"
 desc: "Understanding how to style and format text on a website."
 playlist: PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG
-download: https://github.com/acgd-learn-the-web/basic-typography-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/basic-typography-code
+download: https://github.com/ltw-learn-the-web/basic-typography-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/basic-typography-code
 cheatsheet: web-typography-cheat-sheet
 extra_practice:
   week:
@@ -122,7 +122,7 @@ p {
 - `text-decoration` — add line-decorations: `none`, `underline`, `line-through`, `overline`
   The only things in a website that should be underlined are links.
 - `text-align` — alignment of the text: `left`, `center` (American spelling), `right`, `justify`
-- `text-indent` — indent the first line of text like traditionally printed materials
+- `text-indent` — indent the first line of text like traditionally printed materials
 - `text-shadow` — adding a shadow to the text: specified like this: `text-shadow: horizontal-offset vertical-offset blur-radius colour`
 
 ### Font sizing units: rem vs. em vs. px
@@ -200,11 +200,11 @@ a:active {
 }
 ```
 
-- `:link` — for styling the default link state
-- `:visited` — for styling the link after it’s been visited by the user
-- `:hover` — for styling the link when the mouse is sitting over it
-- `:focus` — for styling the link when the keyboard has tab-focused it
-- `:active` — for styling the link when the mouse button is pressed down on it
+- `:link` — for styling the default link state
+- `:visited` — for styling the link after it’s been visited by the user
+- `:hover` — for styling the link when the mouse is sitting over it
+- `:focus` — for styling the link when the keyboard has tab-focused it
+- `:active` — for styling the link when the mouse button is pressed down on it
 
 _It’s important that these link states go in this direction: link, visited, hover, focus, active. There’s a fun a mnemonic to remember the order: “Lord Vader’s Handle Formerly Anakin”._
 
@@ -256,7 +256,7 @@ There are lots of different services for Web Fonts—Google Fonts is a simple on
 **Links**
 
 - **[Google Fonts](http://www.google.com/fonts)**
-- **[Font Squirrel](http://www.fontsquirrel.com/)** — has a great font generator and packaging tool
+- **[Font Squirrel](http://www.fontsquirrel.com/)** — has a great font generator and packaging tool
 - [Adobe Typekit](https://typekit.com/)
 
 ---

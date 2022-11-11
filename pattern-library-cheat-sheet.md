@@ -138,9 +138,9 @@ groups:
               └ theme.css
               └ main.css
             ```
-          - '`modules.css` — will show different features & classes from [Modulifier](https://modulifier.web-dev.tools/).'
-          - '`grid.css` — will show different sizes & classes from [Gridifier](https://gridifier.web-dev.tools/).'
-          - '`type.css` — will show different sizes & classes from [Typografier](https://typografier.web-dev.tools/).'
+          - '`modules.css` — will show different features & classes from [Modulifier](https://modulifier.web-dev.tools/).'
+          - '`grid.css` — will show different sizes & classes from [Gridifier](https://gridifier.web-dev.tools/).'
+          - '`type.css` — will show different sizes & classes from [Typografier](https://typografier.web-dev.tools/).'
           - '**`main.css`** — used to combine all the CSS together, like this:'
           - |
             ```css

@@ -3,8 +3,8 @@ title: "Jekyll"
 tags: "jekyll layouts templates header footer github combine separate"
 desc: "Reducing code duplication in website by using templates and layouts with Jekyll."
 playlist: PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-
-download: https://github.com/acgd-learn-the-web/jekyll-code/archive/gh-pages.zip
-github: https://github.com/acgd-learn-the-web/jekyll-code
+download: https://github.com/ltw-learn-the-web/jekyll-code/archive/gh-pages.zip
+github: https://github.com/ltw-learn-the-web/jekyll-code
 livewebsite: jekyll
 cheatsheet: jekyll-cheat-sheet
 ---

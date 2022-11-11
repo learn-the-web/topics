@@ -3,8 +3,8 @@ title: "Advanced performance"
 tags: "advanced performance css minification combine performance content delivery network cloudflare security"
 desc: "Making our websites more performant with minification, content delivery networks, and other optimizations."
 playlist: PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ
-download: https://github.com/acgd-learn-the-web/advanced-performance-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/advanced-performance-code
+download: https://github.com/ltw-learn-the-web/advanced-performance-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/advanced-performance-code
 extra_practice:
   week:
     title: "Web Dev 5, Week 12"
@@ -81,7 +81,7 @@ This one has a blurred background—102 KB.
 Since favicons are automatically requested on every website there’s a few things you can do to increase their performance.
 
 1. **Make sure it exists** — the browser will automatically request it, so if it doesn’t exist there will still be a delay while attempting to fetch it.
-2. **Smush the PNGs first** — before creating the final `.ico` file make sure to run you favicon PNGs through ImageOptim. And ideally you should be able to run them through ImageAlpha to compress the images even further.
+2. **Smush the PNGs first** — before creating the final `.ico` file make sure to run you favicon PNGs through ImageOptim. And ideally you should be able to run them through ImageAlpha to compress the images even further.
 
 ### Embed single-use SVGs
 
@@ -454,7 +454,7 @@ Next up we write a little script that checks if the font has finished loading. W
 </html>
 ```
 
-*If you have more than one font weight or style you’ll need a slightly more advanced script. [See the font face observer script for this website with multiple weights and styles.](https://github.com/acgd-learn-the-web/acgd-learn-the-web.github.io/blob/master/_includes/alegreya-observer.js)*
+*If you have more than one font weight or style you’ll need a slightly more advanced script. [See the font face observer script for this website with multiple weights and styles.](https://github.com/ltw-learn-the-web/ltw-learn-the-web.github.io/blob/master/_includes/alegreya-observer.js)*
 
 After that’s in place, we just need to adjust our CSS a little bit to display fallback font first:
 
@@ -492,8 +492,8 @@ There are lots of great features of fonts that we can use on the web but each ne
 
 Consider how important these features are before implementing them.
 
-- `hyphens` — causes rendering lag because the browser has to calculate where all the hyphens should be and re-layout the content—every time the page loads or screen resizes.
-- `text-rendering: optimizeLegibility` — adds a bunch of features like ligatures and hyphens to your text but currently has abysmal performance on browsers, so be very careful.
+- `hyphens` — causes rendering lag because the browser has to calculate where all the hyphens should be and re-layout the content—every time the page loads or screen resizes.
+- `text-rendering: optimizeLegibility` — adds a bunch of features like ligatures and hyphens to your text but currently has abysmal performance on browsers, so be very careful.
 
 #### Inlining critical CSS
 
@@ -549,8 +549,8 @@ Since the web is a big place with many different devices, there’s lots of devi
 
 There are a few things to consider that can cause these problems:
 
-- **Oversized images** — large images, much bigger than the device, cause memory problems because they need to be shrunk down to display on the screen, but are still too big for the device.
-- **Data URIs** — can cause processor lag because they have to be decompressed and re-generated into their original format.
+- **Oversized images** — large images, much bigger than the device, cause memory problems because they need to be shrunk down to display on the screen, but are still too big for the device.
+- **Data URIs** — can cause processor lag because they have to be decompressed and re-generated into their original format.
 - **Lots of unnecessary downloads, trackers, etc.** — the more you use the network on the device the more battery is consumed, the more memory is used, etc. Be careful.
 
 **Links**

@@ -117,8 +117,8 @@ Validating JavaScript, also called linting, allows us to find major bugs in our 
 There are two major linters: JS Hint & JS Lint:
 
 - **[JS Hint](http://jshint.com/)** — isn’t too strict and has lots of configurable options.
-- [ESLint](http://eslint.org/) — newer, becoming more popular.
-- [JS Lint](http://jslint.com/) — is extremely strict, it will hurt your feelings.
+- [ESLint](http://eslint.org/) — newer, becoming more popular.
+- [JS Lint](http://jslint.com/) — is extremely strict, it will hurt your feelings.
 
 To use JS Hint, go to the website and select all the code on the left side. Paste your code in and it will automatically be validated. You can even make changes right then to pass the linting tests then copy and paste the code back into your website.
 

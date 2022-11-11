@@ -27,9 +27,9 @@ Version control is something all developers & designers should become intimately
 
 There are a whack load of different version control solutions. In this program there are three major ones you’ll be working with:
 
-- *GitHub* — for code, text files, small images
-- *Dropbox* — for big files, Creative Suite
-- *InVision* — for UX files, wireframes, prototypes
+- *GitHub* — for code, text files, small images
+- *Dropbox* — for big files, Creative Suite
+- *InVision* — for UX files, wireframes, prototypes
 
 ---
 
@@ -100,7 +100,7 @@ When we get to the new repository page there’s a few fields to complete.
 
 ![](repo-new.jpg)
 
-- **Repository name** — create a unique name for the repo, make sure it follows the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions).
+- **Repository name** — create a unique name for the repo, make sure it follows the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions).
 - **Description** — come up with a short description describing the purpose of the project.
 - **Public/Private** — choose “Public” because we don’t have a paid accounts.
 - **Initialize this repository with a README** — always make sure this is enabled.

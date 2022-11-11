@@ -38,8 +38,8 @@ For a website to be true, it must follow three simple rules:
 - `Internet` — A globally connected series of computers that runs lots of services including the Web, e-mail, chat, etc.
 - `Web, WWW` — The World Wide Web: a document and application service built with standardized technologies, allowing computers to share open information.
 - `DNS` — Domain Name System: a system that allows humans to find computers on the Internet by changing the human-readable URL into a machine readable IP address.
-- `Domain` — The human readable name of a website, or the name/address of a computer connected to the Web. *(algonquindesign.ca, github.com)*
-- `TLD` — Top Level Domain: the last part of a domain, found at the end, often used to describe the purpose or location of the domain: “.com”, “.ca”, “.edu”, etc.
+- `Domain` — The human readable name of a website, or the name/address of a computer connected to the Web. *(learntheweb.courses, github.com)*
+- `TLD` — Top Level Domain: the last part of a domain, found at the end, often used to describe the purpose or location of the domain: “.com”, “.ca”, “.edu”, etc.
 - `HTTP(S)` — Hypertext Transfer Protocol: the communication protocol that computers use to talk to each other on the Web. `HTTPS` is the encrypted version of the communication protocol.
 - `Server` — A computer connected to the Internet that contains lots of functionality to run Internet services and send websites.
 - `Host` — Pretty much the same as a server, but more targeted at consumers, a place to put your website online.

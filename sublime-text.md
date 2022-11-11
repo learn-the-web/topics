@@ -2,8 +2,8 @@
 title: "Sublime Text"
 desc: "Set up the Sublime Text editor, configure some default settings, and install packages for the most efficiency."
 tags: "code editor sublime text configure preferences settings defaults install packages"
-download: https://github.com/acgd-learn-the-web/sublime-text-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/sublime-text-code
+download: https://github.com/ltw-learn-the-web/sublime-text-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/sublime-text-code
 cheatsheet: snippets-cheat-sheet
 ---
 
@@ -58,7 +58,7 @@ Sublime Text > Preferences > Settings - User
 
 To save time and have Sublime Text set up quickly, copy these settings and overwrite everything in your user settings.
 
-**[☛ User settings](https://github.com/acgd-learn-the-web/sublime-text-code/archive/master.zip)**
+**[☛ User settings](https://github.com/ltw-learn-the-web/sublime-text-code/archive/master.zip)**
 
 **Just copy and paste those settings into  your `Settings - User` file, overwriting everything that’s in there.**
 
@@ -88,10 +88,10 @@ Below is a list of packages I would recommend you install into Sublime Text:
 - **EasyMotion** — a quick way to jump to different locations on screen
 - **EditorConfig** — for matching other designers’ coding standards
 - **Emmet** — quick way to write HTML, using CSS selectors
-- **jQuery** — better jQuery syntax highlighting
+- **jQuery** — better jQuery syntax highlighting
 - **Liquid** — to syntax highlight the Jekyll template tags
 - **Markdown Extended** — to syntax highlight our Markdown+YAML files
-- **Placeholders** — lorem-ipsum generation with HTML tags
+- **Placeholders** — lorem-ipsum generation with HTML tags
 - **SideBarEnhancements** — adds new features when right clicking on files in the sidebar, including `Open in Browser`
 - **SublimeCodeIntel** — more auto-completion for lots of different languages
 - **WordCount** — shows a word count in the bottom left of the status line

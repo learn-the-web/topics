@@ -17,7 +17,7 @@ When coding websites there’s a restriction on how we must name our files and f
 
 When it comes to the web we have a few very specific rules for naming *every single file and folder* in our website.
 
-1. **All lowercase** — all files & folder must us only lowercase characters.
+1. **All lowercase** — all files & folder must us only lowercase characters.
   This includes extensions, like .jpg, .png, etc.
 
 2. **No spaces** — no spaces allowed anywhere in file & folder names.

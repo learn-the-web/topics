@@ -3,8 +3,8 @@ title: "HTML semantics"
 tags: "html semantics meaning purpose tags elements syntax document body head setup headings paragraphs unordered ordered lists internal jump links images figures captions break horizontal rule"
 desc: "Writing HTML by choosing the most appropriate tag for the content."
 playlist: PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1
-download: https://github.com/acgd-learn-the-web/html-semantics-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/html-semantics-code
+download: https://github.com/ltw-learn-the-web/html-semantics-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/html-semantics-code
 cheatsheet: html-semantics-cheat-sheet
 checklist: html-semantics-checklist
 extra_practice:
@@ -49,10 +49,10 @@ When writing HTML, the tags used to define the purpose of the text follow a spec
 
 ![](html-tag-parts.png)
 
-- `element` — the combination of an open tag, the content, and a close tag
+- `element` — the combination of an open tag, the content, and a close tag
 - `open tag` — the part to an element that defines where this type of content starts
 - `close tag` — the part of an element that defines where this type of content ends
-- `attribute` — a piece of metadata that isn’t usually visible in the browser but defines extra information about the element
+- `attribute` — a piece of metadata that isn’t usually visible in the browser but defines extra information about the element
 
 ## HTML document setup
 
@@ -74,9 +74,9 @@ Here’s what an empty HTML document looks like:
 ```
 
 - `<!DOCTYPE html>` — The first line of every HTML document should be the doctype. It tells the browser that you’re writing modern HTML.
-- `<html>` — Wraps the whole HTML file, everything goes inside it.
-- `<head>` — Stuff that doesn’t necessarily show on the screen, but controls and defines the HTML document.
-- `<meta>` — Used to tell the browser what kind of characters are used in your document. `utf-8` allows many languages in the world.
+- `<html>` — Wraps the whole HTML file, everything goes inside it.
+- `<head>` — Stuff that doesn’t necessarily show on the screen, but controls and defines the HTML document.
+- `<meta>` — Used to tell the browser what kind of characters are used in your document. `utf-8` allows many languages in the world.
 - `<title>` — The piece of text that’s shown in the tab of your browser. Also shown in search results as the link.
 - `<body>` — Not the body of the website, but the body of the HTML document. Everything rendered on the screen in a website goes in here.
 
@@ -89,8 +89,8 @@ Here’s what an empty HTML document looks like:
 When referring to elements in HTML we talk about them in a parent-child relationship style.
 
 - **parent** — the element that surrounds this element
-- **child** — the element inside this element, also called a **descendant**
-- **sibling** — the element beside this element
+- **child** — the element inside this element, also called a **descendant**
+- **sibling** — the element beside this element
 
 ```html
 <!-- <main> is the parent of <h1>, <p> and <dl> -->
@@ -116,7 +116,7 @@ When referring to elements in HTML we talk about them in a parent-child relation
 
 Each HTML elements as a very specific purpose, here’s a bunch of them.
 
-- `<p>` — paragraph, for defining a chunck of text.
+- `<p>` — paragraph, for defining a chunck of text.
 
 ### Headings
 
@@ -155,13 +155,13 @@ An outline of your document with headings might look like this:
 
 ### Lists
 
-- `<ul>` — unordered list, for when the items inside the list don’t have an order, or the order isn’t important.
-- `<ol>` — ordered list, for when the items inside the list have an order, or the order is important. Alphabetical, chronological, best to worst.
+- `<ul>` — unordered list, for when the items inside the list don’t have an order, or the order isn’t important.
+- `<ol>` — ordered list, for when the items inside the list have an order, or the order is important. Alphabetical, chronological, best to worst.
 - `<dl>` — description list, when the content of the list has a “term” and a “definition”, like a dictionary.
 
 When writing lists, we have to specifically tell the browser how many items are in the list.
 
-- `<li>` — list item, the tag used to specify a single item in the list
+- `<li>` — list item, the tag used to specify a single item in the list
 
 ```html
 <ul>
@@ -173,8 +173,8 @@ When writing lists, we have to specifically tell the browser how many items are 
 
 The description list is a little different because it needs a tag for the “term” and the “definition”.
 
-- `<dt>` — description term
-- `<dd>` — description… description
+- `<dt>` — description term
+- `<dd>` — description… description
 
 ```html
 <dl>
@@ -206,8 +206,8 @@ One extra feature that description lists have that `<ul>` tags and `<ol>` tags d
 ### Quotes, citations, sources
 
 - `<q>` — quote, for marking up quotes embedded in other things like paragraphs. Often just using quote marks is good enough.
-- `<blockquote>` — for large, stand alone quotes
-- `<cite>` — for marking the source of the quote
+- `<blockquote>` — for large, stand alone quotes
+- `<cite>` — for marking the source of the quote
 
 When marking up blockquotes, the recommended syntax is this:
 
@@ -222,9 +222,9 @@ The `<footer>` is used to denote that the source of the quote is less important 
 
 ### Phrasing elements
 
-- `<em>` — for emphasizing text, like is spoken word, to make some words more important
-- `<strong>` — for even more emphasis than `<em>`
-- `<i>` — for language elements: text in another language, ship names, sarcasm, irony, movie titles, TV show titles
+- `<em>` — for emphasizing text, like is spoken word, to make some words more important
+- `<strong>` — for even more emphasis than `<em>`
+- `<i>` — for language elements: text in another language, ship names, sarcasm, irony, movie titles, TV show titles
 - `<b>` — for keywords; is the word important while searching for the website?
 
 **Links**
@@ -233,7 +233,7 @@ The `<footer>` is used to denote that the source of the quote is less important 
 
 ### Links
 
-- `<a>` — anchor, for hyperlinks, to link to another page
+- `<a>` — anchor, for hyperlinks, to link to another page
 
 When adding a link to your site you need to specify where to link to, that’s where we use an attribute.
 
@@ -264,7 +264,7 @@ Then, in the `<a>` tag we link directly to the ID:
 
 With HTML you can link e-mail addresses and telephone numbers using alternative schemes.
 
-- For e-mails use `mailto:` — this will open the user’s default e-mail client and start a new message.
+- For e-mails use `mailto:` — this will open the user’s default e-mail client and start a new message.
 - For phone numbers use `tel:` — on mobile phones this will start dialing the number.
 
 Here’s how to link an e-mail address:
@@ -297,7 +297,7 @@ It’s usually best to put the number in the international format, starting with
 
 Images in websites are not embedded in the website, but linked to by the HTML document.
 
-- `<img>` — the image tag, to link to an image file so the browser could download it.
+- `<img>` — the image tag, to link to an image file so the browser could download it.
 
 Images need two attributes to specify extra details about the image: the location of the image and the alternative content.
 
@@ -336,10 +336,10 @@ When you have a `<figcaption>`, the alt attribute can be left empty if the capti
 
 ### Document elements
 
-- `<header>` — for more important information, like the masthead of the website, where the name and logo and navigation are
+- `<header>` — for more important information, like the masthead of the website, where the name and logo and navigation are
 - `<nav>` — navigation, defining the navigation of the website
-- `<footer>` — for less important information, like the footer of the website, usually includes the copyright statement, social icons, etc.
-- `<main>` — for defining the primary content
+- `<footer>` — for less important information, like the footer of the website, usually includes the copyright statement, social icons, etc.
+- `<main>` — for defining the primary content
 - `<aside>` — for secondary information, stuff that’s not required to understand the primary content, like sidebars, pull quotes, etc.
 
 ```html
@@ -372,7 +372,7 @@ When you have a `<figcaption>`, the alt attribute can be left empty if the capti
 
 ### Sections & articles
 
-- `<section>` — for grouping content together that has a heading—there’s no point using a section if it doesn’t have a unique heading
+- `<section>` — for grouping content together that has a heading—there’s no point using a section if it doesn’t have a unique heading
 - `<article>` — for independent content, stuff that can be removed from this website and would still be understandable, like blog posts & products
 
 #### Headers & footers in sections & articles
@@ -424,7 +424,7 @@ You can put `<header>` and `<footer>` and `<main>` elements inside `<article>` t
 
 There are two elements in HTML that don’t add meaning to the content, but can be used as styling hooks, if need to group things together when creating your layout.
 
-- `<div>` — a meaningless group, has restrictions on what elements it can go inside
+- `<div>` — a meaningless group, has restrictions on what elements it can go inside
 - `<span>` — small runs of meaningless text
 
 ```html
@@ -534,10 +534,10 @@ The Brontosaurus <data value="15">weighed 15 tonnes</data> & was <data value="22
 
 Some characters cannot be written in the text content of HTML because the characters are reserved for the HTML syntax.
 
-- `&gt;` — for making greater than symbols
-- `&lt;` — for making less than symbols
-- `&amp;` — for writing ampersands
-- `&nbsp;` — to put a space between words that will never break or word wrap
+- `&gt;` — for making greater than symbols
+- `&lt;` — for making less than symbols
+- `&amp;` — for writing ampersands
+- `&nbsp;` — to put a space between words that will never break or word wrap
 
 ```html
 <p>10 &gt; 9 = yes</p>

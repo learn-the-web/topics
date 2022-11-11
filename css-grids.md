@@ -3,8 +3,8 @@ title: "CSS grids"
 tags: "css advanced layout grids align content justify vertical units two dimensional"
 desc: "Explore the advanced CSS grid layout system that helps create complex full-page layouts for responsive websites."
 playlist: PLWjCJDeWfDdcvWL7lBKwB7P7vtL-02kiC
-download: https://github.com/acgd-learn-the-web/css-grids-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/css-grids-code
+download: https://github.com/ltw-learn-the-web/css-grids-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/css-grids-code
 cheatsheet: css-grid-cheat-sheet
 ---
 
@@ -26,12 +26,12 @@ We can explicitly specify columns and rows but the browser will also do some mag
 
 There are a few key terms we need to know for working with grids.
 
-1. **Line** — The horizontal or vertical breaks within a grid structure.
-2. **Cell** — The box surrounded by multiple grid lines.
-3. **Track** — A grouping of grid cells.
-4. **Column** — A grouping of grid cells on the vertical axis.
-5. **Row** — A grouping of grid cells on the horizontal axis.
-6. **Area** — A bundle of vertical and/or horizontal grid cells.
+1. **Line** — The horizontal or vertical breaks within a grid structure.
+2. **Cell** — The box surrounded by multiple grid lines.
+3. **Track** — A grouping of grid cells.
+4. **Column** — A grouping of grid cells on the vertical axis.
+5. **Row** — A grouping of grid cells on the horizontal axis.
+6. **Area** — A bundle of vertical and/or horizontal grid cells.
 
 ---
 
@@ -250,12 +250,12 @@ dl > div:nth-child(3) {
 
 All of these properties do things:
 
-- `justify-content` — align all the cells horizontally in the grid together
-- `justify-items` — align things horizontally within their grid area
-- `align-content` — align all the cells vertically in the grid together
-- `align-items` — align things vertically within their grid area
-- `place-content` — does both `justify` & `align` at the same time
-- `place-items` — does both `justify` & `align` at the same time
+- `justify-content` — align all the cells horizontally in the grid together
+- `justify-items` — align things horizontally within their grid area
+- `align-content` — align all the cells vertically in the grid together
+- `align-items` — align things vertically within their grid area
+- `place-content` — does both `justify` & `align` at the same time
+- `place-items` — does both `justify` & `align` at the same time
 
 ---
 
@@ -382,8 +382,8 @@ This one line gives us a flexible layout that adapts to the available space & ch
 Let’s break down the components a little bit:
 
 - `repeat` — Do this sizing many times
-- `auto-fit` — Automatically scale the elements up as necessary
-- `minmax` — The minimum size is `15rem` & the maximum size is `1fr`
+- `auto-fit` — Automatically scale the elements up as necessary
+- `minmax` — The minimum size is `15rem` & the maximum size is `1fr`
 
 There is one small problem, looking at the smallest screen-size we can see that the text is getting cut off.
 

@@ -3,8 +3,8 @@ title: "Position & z-index"
 tags: "position z index in front behind absolute static relative fixed top left bottom right coordinates"
 desc: "Learning how to layer elements on top of each other and control their layering."
 playlist: PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP
-download: https://github.com/acgd-learn-the-web/position-zindex-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/position-zindex-code
+download: https://github.com/ltw-learn-the-web/position-zindex-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/position-zindex-code
 cheatsheet: css-layout-cheat-sheet
 extra_practice:
   week:
@@ -35,10 +35,10 @@ Position allows us to move elements around on the screen and bypass the browser�
 
 The `position` property has a few different values, each doing something slightly different to the element in relation to the flow of the browser:
 
-- `static` — the default, what all elements are before changing the position
-- `relative` — slight adjustments within the flow & coordinate system reset
-- `absolute` — complete removal from the flow, movement with the coordinate system
-- `fixed` — complete removal from the flow, attached to the window, doesn’t move when the browser scrolls
+- `static` — the default, what all elements are before changing the position
+- `relative` — slight adjustments within the flow & coordinate system reset
+- `absolute` — complete removal from the flow, movement with the coordinate system
+- `fixed` — complete removal from the flow, attached to the window, doesn’t move when the browser scrolls
 
 ![](static-default.png)
 
@@ -73,9 +73,9 @@ So, often when using `absolute` it’s necessary to add a `width` to the element
 When using `position: absolute`, the primary reason is to be able to position something using the coordinate system. The coordinate system is based on the following properties:
 
 - `top` — move the element down from the top, can use negative numbers
-- `bottom` — move the element up from the bottom, can use negative numbers
-- `left` — move the element in from the left, can use negative numbers
-- `right` — move the element in from the right, can use negative numbers
+- `bottom` — move the element up from the bottom, can use negative numbers
+- `left` — move the element in from the left, can use negative numbers
+- `right` — move the element in from the right, can use negative numbers
 
 ![](coordinates.png)
 

@@ -3,8 +3,8 @@ title: "From wireframe to website"
 tags: "full website wireframe mockup production assets exporting saving save for web images layouts"
 desc: "A full small screen website creation walk-through starting with a wireframe."
 playlist: PLWjCJDeWfDdfoSnpsDRhTgz6VrVPvYqvR
-download: https://github.com/acgd-learn-the-web/from-wireframe-to-website-code/archive/gh-pages.zip
-github: https://github.com/acgd-learn-the-web/from-wireframe-to-website-code
+download: https://github.com/ltw-learn-the-web/from-wireframe-to-website-code/archive/gh-pages.zip
+github: https://github.com/ltw-learn-the-web/from-wireframe-to-website-code
 livewebsite: from-wireframe-to-website
 ---
 

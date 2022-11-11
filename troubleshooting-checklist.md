@@ -70,6 +70,6 @@ groups:
       - "Is your email address saved in the preferences? Check `Preferences > Git`"
       - "Are you viewing the right folder? Go to `Repository > Show in Finder`"
       - "Is the Git repo in the trash? Go to `Repository > Show in Finder`"
-      - "Did you fork the original assignment repo? Go to `Repository > Repository Settings…`; is the Algonquin Web Dev username (acgd-webdev-*) in the “Remote” URL?"
+      - "Did you fork the original assignment repo? Go to `Repository > Repository Settings…`; is the Web Dev username (ltw-webdev-*) in the “Remote” URL?"
       - "Did you submit your GitHub username at the start of the year for the grade submission to work? Ask [Thomas](mailto:thomas@learntheweb.courses) for confirmation."
 ---

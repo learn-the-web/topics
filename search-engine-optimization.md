@@ -3,8 +3,8 @@ title: "Search engine optimization"
 tags: "search engine optimization honest seo content tags meta description keywords sitemap robots humans txt"
 desc: "Making sure your website shows up well in search results."
 playlist: PLWjCJDeWfDddFOJYmcgNnUIhUHcsNEBTd
-download: https://github.com/acgd-learn-the-web/search-engine-optimization-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/search-engine-optimization-code
+download: https://github.com/ltw-learn-the-web/search-engine-optimization-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/search-engine-optimization-code
 checklist: seo-checklist
 cheatsheet: seo-cheat-sheet
 extra_practice:
@@ -56,7 +56,7 @@ Certain tags in your HTML content carry more weight than others, so be sure to p
 1. `<title>` — the most important for keywords, also visible as the link on search results.
 2. `<meta name="description">` — sometimes used for keywords, other times not; also often used as the description in search results, but if the search engine deems it’s inappropriate something else will be used.
 3. `<h1>`, `<h2>`, `<h3>`, etc. — very important for keywords.
-4. First line of the first `<p>…</p>` — can be used for the description in search results.
+4. First line of the first `<p>…</p>` — can be used for the description in search results.
 5. `<a>` — search engines look for keywords to apply to your site as well as the site you are linking to.
 6. `<img alt="">` — Alt attributes are how search engines classify images.
 7. `<strong>`, `<em>`.
@@ -69,11 +69,11 @@ The content displayed on the search results page comes from a few different plac
 
 ![](search-results.jpg)
 
-1. **The big link** — this is the `<title>` tag of your website, so make sure it counts.
-2. **The description** — comes either from your `meta description` or the first line of your first paragraph.
+1. **The big link** — this is the `<title>` tag of your website, so make sure it counts.
+2. **The description** — comes either from your `meta description` or the first line of your first paragraph.
 3. **The URL** — is the URL of your website, keywords count.
 4. **Extra navigation** — you have no control over these, the search engine will add them if it likes.
-5. **Extra metadata** — is controlled by the extra metadata you add to your website.
+5. **Extra metadata** — is controlled by the extra metadata you add to your website.
   [☛ Learn more about metadata.](/topics/metadata-enhanced-semantics/)
 
 ---
@@ -184,7 +184,7 @@ After you’ve set up your sitemap.xml file, some search engines like Google & B
 
 Two other files that are very useful are targeted at robots (search engines) and humans.
 
-- `robots.txt` — used to block search engines from seeing parts of your site; includes a reference to the `sitemap.xml` file
+- `robots.txt` — used to block search engines from seeing parts of your site; includes a reference to the `sitemap.xml` file
 - `humans.txt` — a way to show who created the site, what tools where used, resources, and references
 
 **The robots.txt file and humans.txt file should be at the root of your domain:**
@@ -239,8 +239,8 @@ The humans.txt file is optional. It’s a place to write about who created the w
 
 Since it’s targeted at human beings there isn’t any specific format, but looking at the standard there are a few sections that are recommended.
 
-- **Team** — a list of people who are involved, emails, locations, etc.
-- **Thanks** — where you can credit assets used in your website: icons, stock photos, etc.
+- **Team** — a list of people who are involved, emails, locations, etc.
+- **Thanks** — where you can credit assets used in your website: icons, stock photos, etc.
 - **Technology** — where you can list the tools and technology you used in creating the site.
 
 There are extensions you can get for your browser that highlight what websites have a humans.txt file: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/humanstxt/), [Chrome](https://chrome.google.com/webstore/detail/humanstxt/pocdghmbbodjiclginddlaimdaholhfk).

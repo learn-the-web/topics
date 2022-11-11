@@ -3,8 +3,8 @@ title: "Video & audio"
 tags: "video audio web tag element export save formats hover source mp4 webm ogg mp3"
 desc: "Using video & audio on websites and how to properly export the files."
 playlist: PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5
-download: https://github.com/acgd-learn-the-web/video-audio-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/video-audio-code
+download: https://github.com/ltw-learn-the-web/video-audio-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/video-audio-code
 extra_practice:
   week:
     title: "Web Dev 5, Week 08"
@@ -64,8 +64,8 @@ After you have your video compressed in the right format, it’s really easy to 
 
 There are two tags we need to embed video on our website:
 
-- `<video>` — the wrapper, with attributes to adjust functionality.
-- `<source>` — used to present a video format.
+- `<video>` — the wrapper, with attributes to adjust functionality.
+- `<source>` — used to present a video format.
 
 A simple example of embedding a video on a website looks like this:
 
@@ -162,13 +162,13 @@ The format of the hash follows this convention:
 
 Some examples:
 
-- `#t=10,20` — start at 10 seconds, end at 20 seconds.
+- `#t=10,20` — start at 10 seconds, end at 20 seconds.
 - `#t=,40` — start at the beginning, play until 40 seconds.
 - `#t=60` — start at 60 seconds, play to the end.
 
 You can even specify the time in `hours:minutes:seconds`:
 
-- `#t=,2:58:00` — start at the beginning, play until 2 hours, 58 minutes in.
+- `#t=,2:58:00` — start at the beginning, play until 2 hours, 58 minutes in.
 
 ---
 
@@ -230,10 +230,10 @@ We just need to add a `<track>` element to the `<video>` tag that points to the 
 
 There are a few important attributes to look at:
 
-- `src="…"` — is a URL that points the text file for this track.
-- `kind="…"` — what kind of track it is: `subtitles`, `captions`, `descriptions`, `chapters` or `metadata`.
-- `srclang="…"` — the language of the content in the track.
-- `label="…"` — what the user will see in the interface describing this track.
+- `src="…"` — is a URL that points the text file for this track.
+- `kind="…"` — what kind of track it is: `subtitles`, `captions`, `descriptions`, `chapters` or `metadata`.
+- `srclang="…"` — the language of the content in the track.
+- `label="…"` — what the user will see in the interface describing this track.
 
 ### Subtitle tracks
 
@@ -274,9 +274,9 @@ It’s possible to style the tracks, especially subtitles and captions. Try to a
 
 Some of the basic things you can change are the following:
 
-- `<b>` — to add bold text.
-- `<i>` — to add italic text.
-- `<u>` — to add underlined text.
+- `<b>` — to add bold text.
+- `<i>` — to add italic text.
+- `<u>` — to add underlined text.
 - `<c.my-class>` — to add a class.
 
 Some examples:
@@ -425,10 +425,10 @@ The `<audio>` tag is almost identical to the `<video>` tag. Here’s what a basi
 
 The audio tag has many of the same attributes as the video tag, here’s a list of what you can use:
 
-- `controls` — displays the browser’s default playback controls.
-- `muted` — whether it should be audible or silent.
-- `loop` — whether the sounds should be looped or not.
-- `volume="…"` — to set the volume of the sound: `0.0` is silent, `1.0` is the loudest, the sounds natural volume.
+- `controls` — displays the browser’s default playback controls.
+- `muted` — whether it should be audible or silent.
+- `loop` — whether the sounds should be looped or not.
+- `volume="…"` — to set the volume of the sound: `0.0` is silent, `1.0` is the loudest, the sounds natural volume.
 
 ### Audio formats
 
@@ -474,8 +474,8 @@ After creating an account, create a new zone, specifically a **push zone**.
 
 There’s a few things to fill out:
 
-- “Zone name” — set that to whatever you want, maybe the name of your project.
-- “Zone type” — set it “push”.
+- “Zone name” — set that to whatever you want, maybe the name of your project.
+- “Zone type” — set it “push”.
 - Check “Show Advanced Features”.
 - Set “SPDY” to “Enabled”.
 - Set “SSL” to “Shared”.
@@ -505,7 +505,7 @@ That’s all. **But make sure never to put large files like video and audio into
 
 **Links**
 
-- [**KeyCDN**](https://www.keycdn.com/?a=7564)† — [Upload data to push zone](https://www.keycdn.com/support/upload-data-to-a-push-zone/)
+- [**KeyCDN**](https://www.keycdn.com/?a=7564)† — [Upload data to push zone](https://www.keycdn.com/support/upload-data-to-a-push-zone/)
 - [Amazon S3](https://aws.amazon.com/s3/)
 - [MaxCDN](http://www.maxcdn.com/)
 - [Wistia](http://wistia.com/)

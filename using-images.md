@@ -3,8 +3,8 @@ title: "Using images"
 tags: "using images figures captions background foreground url aspect ratio size attachment repeat multiple linear radial repeating gradients sprites replacement hide text patterns border images"
 desc: "Different ways to use images in a website including foreground and background images."
 playlist: PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7
-download: https://github.com/acgd-learn-the-web/using-images-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/using-images-code
+download: https://github.com/ltw-learn-the-web/using-images-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/using-images-code
 cheatsheet: images-cheat-sheet
 extra_practice:
   week:
@@ -213,10 +213,10 @@ By default the background image will try to form a pattern by repeating itself b
 
 To control the patterning effect of the background image you can use `background-repeat`:
 
-- `no-repeat` — shut off repeating, showing the image only once
-- `repeat-x` — pattern only horizontally
-- `repeat-y` — pattern only vertically
-- `repeat` — the default, pattern both horizontally and verticallly
+- `no-repeat` — shut off repeating, showing the image only once
+- `repeat-x` — pattern only horizontally
+- `repeat-y` — pattern only vertically
+- `repeat` — the default, pattern both horizontally and verticallly
 
 ```css
 body {
@@ -242,9 +242,9 @@ The `background-position` allows us to control where in the element the image is
 
 *When defining `background-position` we must always specify the horizontal & vertical positions—***horizontal first, vertical second.**
 
-- `keywords` — move the the element to specific set points: `top`, `bottom`, `left`, `right`, `center`
+- `keywords` — move the the element to specific set points: `top`, `bottom`, `left`, `right`, `center`
 - `%` — align the images point at that percentage to the element’s point at that percentage—`keywords` just map to percentages
-- `px`, `em`, `rem` — always start in the top-left corner of the image and the element
+- `px`, `em`, `rem` — always start in the top-left corner of the image and the element
 
 ```css
 body {
@@ -290,10 +290,10 @@ The CSS `background-size` property allows us to scale the image.
 ![](size.png)
 
 - `cover` — scale the image to fill the whole element
-- `contain` — scale the image so all of it is visible in the element
-- `auto` — maintain the aspect ratio when scaling
-- `%` — scale the image based on the element its inside
-- `px`, `em`, `rem` — scale the image to a fixed measurement
+- `contain` — scale the image so all of it is visible in the element
+- `auto` — maintain the aspect ratio when scaling
+- `%` — scale the image based on the element its inside
+- `px`, `em`, `rem` — scale the image to a fixed measurement
 
 **Just like background position we must style first the horizontal size then the vertical size.** Or we can use a couple keywords for scaling.
 
@@ -324,8 +324,8 @@ div {
 
 Background attachment allows us to control how the image scrolls: either it scrolls with the page, or stays in place:
 
-- `fixed` — image doesn’t move when scrolling the page
-- `scroll` — default, the image moves with the element its inside
+- `fixed` — image doesn’t move when scrolling the page
+- `scroll` — default, the image moves with the element its inside
 
 ```css
 body {
@@ -381,14 +381,14 @@ The gradient direction is specified similarly to `background-position`.
 
 ![](gradients.png)
 
-- `to left` — completely flat, starting at the right and moving to the left
-- `to right bottom` — starting in the left-top corner and moving to the right-bottom
-- `to bottom` — straight up and down
+- `to left` — completely flat, starting at the right and moving to the left
+- `to right bottom` — starting in the left-top corner and moving to the right-bottom
+- `to bottom` — straight up and down
 
 The direction can also be written using degrees
 
-- `45deg` — a 45° angled gradient
-- `-12deg` — a -13° angled gradient
+- `45deg` — a 45° angled gradient
+- `-12deg` — a -13° angled gradient
 
 ```css
 body {

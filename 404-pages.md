@@ -40,7 +40,7 @@ Here’s some examples of how that may happen:
 
 ### Other common error codes
 
-- `401 Unauthorized` — the page can only be accessed by authorized users
+- `401 Unauthorized` — the page can only be accessed by authorized users
 - `500 Internal Server Error` — The server is having some issues
 
 ---

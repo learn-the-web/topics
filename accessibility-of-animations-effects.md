@@ -3,8 +3,8 @@ title: "Accessibility of animations & effects"
 tags: "accessibility animations effects prefers reduced motion humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers VoiceOver braille"
 desc: "Help everyone get the most out of your website by providing the best experience regardless of ability."
 playlist: PLWjCJDeWfDdcwx31JOv2GdvCeqqXrUnvK
-download: https://github.com/acgd-learn-the-web/accessibility-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/accessibility-code
+download: https://github.com/ltw-learn-the-web/accessibility-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/accessibility-code
 ---
 
 Animations & effects can really make a web design sing. But they can also be detrimental to lots of people.
@@ -106,8 +106,8 @@ In CSS, we can detect the preference for reduced motion with a media query too:
 
 There are some other, newer preferences we’ll be able to detect in the our websites soon:
 
-- `prefers-contrast` — Determine if a high-contrast interface is requested
-- `prefers-reduced-transparency` — Determine if a reduced use of transparency is requested
+- `prefers-contrast` — Determine if a high-contrast interface is requested
+- `prefers-reduced-transparency` — Determine if a reduced use of transparency is requested
 
 ---
 

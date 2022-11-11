@@ -3,8 +3,8 @@ title: "Writing for the Web"
 tags: "writing web why short length style keywords personality emotion connection adaptive content"
 desc: "Understanding how people read on the web and how to write text for better connections."
 playlist: PLWjCJDeWfDdfL6qRH1A04rcGe624fTeCS
-download: https://github.com/acgd-learn-the-web/writing-for-the-web-samples/archive/master.zip
-github: https://github.com/acgd-learn-the-web/writing-for-the-web-samples
+download: https://github.com/ltw-learn-the-web/writing-for-the-web-samples/archive/master.zip
+github: https://github.com/ltw-learn-the-web/writing-for-the-web-samples
 checklist: writing-checklist
 extra_practice:
   week:
@@ -150,7 +150,7 @@ The content inventory might include the following headings:
 - Owner
 - Status
 
-**[See a sample content inventory.](https://github.com/acgd-learn-the-web/writing-for-the-web-samples/blob/master/content-inventory-sample.csv)**
+**[See a sample content inventory.](https://github.com/ltw-learn-the-web/writing-for-the-web-samples/blob/master/content-inventory-sample.csv)**
 
 ### Interfaces in text
 

@@ -3,8 +3,8 @@ title: "Using CSS"
 tags: "using css link targeting selecting elements children multiple naming classes ids colours transparency rgba hsla units rems px vh vw"
 desc: "Adding and writing CSS to design a website."
 playlist: PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS
-download: https://github.com/acgd-learn-the-web/using-css-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/using-css-code
+download: https://github.com/ltw-learn-the-web/using-css-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/using-css-code
 cheatsheet: css-selectors-units-cheat-sheet
 extra_practice:
   week:
@@ -55,9 +55,9 @@ In the `head` of the HTML document, add a `link` tag:
 
 The `link` element is used to associate different types of documents to your HTML, primarily CSS, but also blog feeds, help documents, licenses, etc.
 
-- `href` — this attribute is used to point to the location of the CSS file.
+- `href` — this attribute is used to point to the location of the CSS file.
   *The path to the CSS file must point into the correct folder.*
-- `rel` — this attribute is used to define this item as a `stylesheet`.
+- `rel` — this attribute is used to define this item as a `stylesheet`.
 
 ## Anatomy of CSS
 
@@ -65,11 +65,11 @@ The parts of CSS are very simple, but allow complex designs.
 
 ![](css-parts.png)
 
-- `rule set` — a grouping of CSS styles that design a certain set of elements
-- `declaration` — a single line of CSS that adds some design
-- `selector` — the targeted item in your HTML document to design
-- `property` — the type of design you want to add, like `color`, `border`
-- `value` — how to change the design property
+- `rule set` — a grouping of CSS styles that design a certain set of elements
+- `declaration` — a single line of CSS that adds some design
+- `selector` — the targeted item in your HTML document to design
+- `property` — the type of design you want to add, like `color`, `border`
+- `value` — how to change the design property
 
 **Links**
 
@@ -379,7 +379,7 @@ h1 {
 
 CSS provides a bunch of different units for sizes and lengths, e.g. `width: 100px;`
 
-- **px** — pixels
+- **px** — pixels
   `100px` is exactly 100 pixels in all situations
 
 - **em** — based on the font-size of the parent (or current element)

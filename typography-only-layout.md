@@ -3,8 +3,8 @@ title: "Typography-only layout"
 tags: "typography web design css font border background colour"
 desc: "A complete website layout looking at designing only the typography and ignoring images."
 playlist: PLWjCJDeWfDdczBWwsw9CjC9RkfocxKDy_
-download: https://github.com/acgd-learn-the-web/typography-only-layout-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/typography-only-layout-code
+download: https://github.com/ltw-learn-the-web/typography-only-layout-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/typography-only-layout-code
 livewebsite: typography-only-layout
 ---
 
@@ -17,13 +17,13 @@ Looking at designing beautiful typography for a page containing the content of a
 This layout and series of videos combine together all these different lessons—so they should be watched first:
 
 1. [Using CSS](/topics/using-css/)
-2. [CSS indentation](https://learn-the-web.algonquindesign.ca/topics/css-indentation/)
-3. [Basic typography](https://learn-the-web.algonquindesign.ca/topics/basic-typography/)
-4. [Using Google Fonts](https://learn-the-web.algonquindesign.ca/topics/google-fonts/)
-5. [Browser developer tools](https://learn-the-web.algonquindesign.ca/topics/browser-developer-tools/)
-6. [Browser testing](https://learn-the-web.algonquindesign.ca/topics/browser-testing/)
-7. [Everything is a box](https://learn-the-web.algonquindesign.ca/topics/box-model/)
-8. [Flow & display](https://learn-the-web.algonquindesign.ca/topics/flow-display/)
+2. [CSS indentation](https://learntheweb.courses/topics/css-indentation/)
+3. [Basic typography](https://learntheweb.courses/topics/basic-typography/)
+4. [Using Google Fonts](https://learntheweb.courses/topics/google-fonts/)
+5. [Browser developer tools](https://learntheweb.courses/topics/browser-developer-tools/)
+6. [Browser testing](https://learntheweb.courses/topics/browser-testing/)
+7. [Everything is a box](https://learntheweb.courses/topics/box-model/)
+8. [Flow & display](https://learntheweb.courses/topics/flow-display/)
 
 ---
 

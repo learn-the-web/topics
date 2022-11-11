@@ -3,8 +3,8 @@ title: "Interactive wireframes"
 tags: "full website interactive wireframes prototypes grids modular typography"
 desc: "A full website walk-through creating interactive wireframes or prototypes."
 playlist: PLWjCJDeWfDdeeD7gMjX8VTj-y6EFRMlkA
-download: https://github.com/acgd-learn-the-web/interactive-wireframes-code/archive/gh-pages.zip
-github: https://github.com/acgd-learn-the-web/interactive-wireframes-code
+download: https://github.com/ltw-learn-the-web/interactive-wireframes-code/archive/gh-pages.zip
+github: https://github.com/ltw-learn-the-web/interactive-wireframes-code
 livewebsite: interactive-wireframes
 ---
 

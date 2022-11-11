@@ -3,8 +3,8 @@ title: "Forms"
 tags: "forms contact input text user entry textarea button submit radio select"
 desc: "Creating forms for collecting user data like contact forms."
 playlist: PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY
-download: https://github.com/acgd-learn-the-web/forms-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/forms-code
+download: https://github.com/ltw-learn-the-web/forms-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/forms-code
 cheatsheet: forms-cheat-sheet
 extra_practice:
   week:
@@ -74,16 +74,16 @@ There are lots of different input types to use in forms—the default is text.
 <input type="text">
 ```
 
-- `number` — for accepting numbers
+- `number` — for accepting numbers
 - `email` — for accepting valid e-mail addresses
-- `url` — for valid website URLs
+- `url` — for valid website URLs
 - `password` — masks the text that’s being entered with bullets
-- `tel` — for telephone numbers
-- `time` — for accepting time: hours, minutes, seconds
-- `date` — for accepting dates; a calendar picker
-- `range` — for selecting from a range of numbers
-- `color` — for picking a specific colour
-- `file` — for allowing the upload of files
+- `tel` — for telephone numbers
+- `time` — for accepting time: hours, minutes, seconds
+- `date` — for accepting dates; a calendar picker
+- `range` — for selecting from a range of numbers
+- `color` — for picking a specific colour
+- `file` — for allowing the upload of files
 - `search` — for specifying the input as a search field
 
 Some examples:
@@ -317,7 +317,7 @@ The services work really well for simple information collection, but aren’t gr
 
 **Form services**
 
-- **[Formspree](https://formspree.io/)** — [Quick Tip: Add a Formspree Form to Your Static Sites](http://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870)
+- **[Formspree](https://formspree.io/)** — [Quick Tip: Add a Formspree Form to Your Static Sites](http://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870)
 - [Woofoo](https://www.wufoo.com/)
 - [JotForms](https://www.jotform.com/)
 

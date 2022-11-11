@@ -3,8 +3,8 @@ title: "CSS indentation"
 tags: "css indentation tabs spaces hierarchy vertical alignment monospace fonts"
 desc: "The proper method for indenting CSS to make it understandable by you and your team."
 playlist: PLWjCJDeWfDdcYd1EDEy4HPi7Mjiv8Tmyr
-download: https://github.com/acgd-learn-the-web/css-indentation-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/css-indentation-code
+download: https://github.com/ltw-learn-the-web/css-indentation-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/css-indentation-code
 extra_practice:
   exercises:
     - title: "CSS validation fixes"

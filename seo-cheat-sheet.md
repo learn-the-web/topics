@@ -58,7 +58,7 @@ groups:
           - '• `rel="external"` — When a link points to another website'
           - '• `rel="enclosure"` — When a link points to a download'
           - '• `rel="license"` — When a link points to the license file'
-          - '• `rel="nofollow"` — When search engines should ignore the link for rankings'
+          - '• `rel="nofollow"` — When search engines should ignore the link for rankings'
           - '[See more social relationships](http://microformats.org/wiki/existing-rel-values)'
       - name: '*Social media metadata*'
         details:

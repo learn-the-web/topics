@@ -57,7 +57,7 @@ Having a website over HTTPS is almost always better—[**☛ Learn more about HT
 ![https://duckduckgo.com](https.jpg)
 ![https://learn-the-web.algonquincollege.ca](https-2.jpg)
 
-*URLs with HTTPS, like `https://duckduckgo.com` and `https://learn-the-web.algonquincollege.ca`, are encrypted for your protection.*
+*URLs with HTTPS, like `https://duckduckgo.com` and `https://learntheweb.courses`, are encrypted for your protection.*
 
 ![https://github.com](https-company.jpg)
 

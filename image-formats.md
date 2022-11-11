@@ -3,8 +3,8 @@ title: "Images for the web"
 tags: "images web jpeg png svg gif saving exporting save for web compression smushing optimization performance speed filesize imageoptim alpha favicons download"
 desc: "What images formats can be used on the web and how to properly export them."
 playlist: PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph
-download: https://github.com/acgd-learn-the-web/image-formats-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/image-formats-code
+download: https://github.com/ltw-learn-the-web/image-formats-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/image-formats-code
 cheatsheet: images-cheat-sheet
 extra_practice:
   week:
@@ -91,9 +91,9 @@ Then changing the properties for the most optimal & compatible output:
 - “Styling” — “Presentation Attributes”
 - “Font” — “Convert to Outlines”
 - “Images” — “Link”
-- “Object IDs” — “Layer Names”
-- “Decimal” — 1
-- “Minify” — checked
+- “Object IDs” — “Layer Names”
+- “Decimal” — 1
+- “Minify” — checked
 - Make sure “Responsive” is <strong>not</strong> checked (for better browser support)
 
 Now we’re ready to export:
@@ -116,7 +116,7 @@ Now we’re ready to export:
       <ul>
         <li>“CSS Properties” — <code>Style Elements</code></li>
         <li>Un-check “Include Unused Graphic Styles”</li>
-        <li>“Decimal Places” — 1</li>
+        <li>“Decimal Places” — 1</li>
         <li>Make sure “Responsive” is <strong>not</strong> checked (for better browser support)</li>
       </ul>
     </li>
@@ -209,7 +209,7 @@ Favicons are a great way to include your brand in the tab of the browser. They a
 There are different file formats needed to make favicons:
 
 1. `.ico` — used in the tab and a few other places
-2. `.png` — used in more specialized places like bookmarks
+2. `.png` — used in more specialized places like bookmarks
 
 ### Making an ICO file
 
@@ -285,7 +285,7 @@ After saving the icons (and of course smushing them) you’ll need to link them 
 - [Apple Touch Icons](http://mathiasbynens.be/notes/touch-icons)
 - [Windows 8 Tile Icons](http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8)
 - [HEAD](http://gethead.info/)
-- [Favico.js](http://lab.ejci.net/favico.js/) — Manipulate favicons with JavaScript
+- [Favico.js](http://lab.ejci.net/favico.js/) — Manipulate favicons with JavaScript
 
 ---
 
@@ -320,7 +320,7 @@ Smushing will reduce the size of images without reducing their quality.
 
 *All images should be exported from Photoshop with “Save for Web”, then run through a smusher.*
 
-- `PNGs` & `JPGs` — should be run through [ImageOptim](http://imageoptim.com/)
+- `PNGs` & `JPGs` — should be run through [ImageOptim](http://imageoptim.com/)
 - `SVGs` — should be run through [Spritebot](https://github.com/thomasjbradley/spritebot)
 
 ### JPG optimization techniques
@@ -336,10 +336,10 @@ Smushing will reduce the size of images without reducing their quality.
 **Links**
 
 - [**ImageOptim**](http://imageoptim.com/) — compresses all raster images without compromising quality (Mac)
-- [**Spritebot**](https://github.com/thomasjbradley/spritebot) — removes extraneous code and whitespace from SVGs to save on filesize
+- [**Spritebot**](https://github.com/thomasjbradley/spritebot) — removes extraneous code and whitespace from SVGs to save on filesize
 - [ImageAlpha](http://pngmini.com/) — compresses PNGs by allowing you to reduce the number of colours in the image (Mac)
-- [FileOptimizer](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer) — compresses PNGs ony (Windows)
-- [SVGOMG](https://jakearchibald.github.io/svgomg/)** — removes extraneous code and whitespace from SVGs to save on filesize
+- [FileOptimizer](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer) — compresses PNGs ony (Windows)
+- [SVGOMG](https://jakearchibald.github.io/svgomg/)** — removes extraneous code and whitespace from SVGs to save on filesize
 - [JpegMini](http://www.jpegmini.com/) — paid (Mac, Windows)
 
 ---

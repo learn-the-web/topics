@@ -3,8 +3,8 @@ title: "All devices setup"
 tags: "all devices setup meta viewport width device width initial scale border box"
 desc: "Setting up a website so it works well on any Web connected device."
 playlist: PLWjCJDeWfDdfU7nLY0WOFXq3Q7n5ZyEuZ
-download: https://github.com/acgd-learn-the-web/all-devices-setup-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/all-devices-setup-code
+download: https://github.com/ltw-learn-the-web/all-devices-setup-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/all-devices-setup-code
 extra_practice:
   week:
     title: "Web Dev 1, Week 11"

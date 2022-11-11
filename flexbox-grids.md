@@ -3,8 +3,8 @@ title: "Flexbox grids"
 tags: "grids flexbox modular columns rows units responsive web design screens adjustments"
 desc: "Creating and using a modular, responsive grid system on a website to simplify layout."
 playlist: PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60
-download: https://github.com/acgd-learn-the-web/flexbox-grids-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/flexbox-grids-code
+download: https://github.com/ltw-learn-the-web/flexbox-grids-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/flexbox-grids-code
 cheatsheet: gridifier-cheat-sheet
 tool:
   name: Gridifier

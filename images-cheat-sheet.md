@@ -172,8 +172,8 @@ groups:
             background-repeat: space;
             background-repeat: round;
             ```
-          - '`background-repeat: space` — do not crop the image, but put space around the repeated ones.'
-          - '`background-repeat: round` — scale the image up so there’s always a full version, no cropping.'
+          - '`background-repeat: space` — do not crop the image, but put space around the repeated ones.'
+          - '`background-repeat: round` — scale the image up so there’s always a full version, no cropping.'
           - '*Or, use horizontal & vertical values like* `background-position`'
           - |
             ```css
@@ -308,8 +308,8 @@ groups:
             /* Round horizontally, space vertically */
             border-image-repeat: round space;
             ```
-          - '`border-image-repeat: space` — do not crop the slice, but put space around the repeated ones.'
-          - '`border-image-repeat: round` — scale the slice up so there’s always a full version, no cropping.'
+          - '`border-image-repeat: space` — do not crop the slice, but put space around the repeated ones.'
+          - '`border-image-repeat: round` — scale the slice up so there’s always a full version, no cropping.'
       - name: '`border-image-width`'
         details:
           - 'The border image width will automatically scale to the width of the `border`'

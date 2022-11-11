@@ -3,8 +3,8 @@ title: "Media queries"
 tags: "media query queries responsive web design em based larger screens adjustments"
 desc: "Understanding how to manipulate a website to display differently on different screen sizes."
 playlist: PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI
-download: https://github.com/acgd-learn-the-web/media-queries-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/media-queries-code
+download: https://github.com/ltw-learn-the-web/media-queries-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/media-queries-code
 cheatsheet: screen-sizes-cheat-sheet
 extra_practice:
   week:
@@ -243,10 +243,10 @@ One great accessibility benefit of em-based media queries is that if our user ha
 
 I’ve found a few media query em sizes have popped up over and over again when designing websites.
 
-- `25em` — small screens, about 400px
-- `38em` — medium screens, about 650px
-- `60em` — large screens, about 980px
-- `90em` — extra large screens, about 1500px
+- `25em` — small screens, about 400px
+- `38em` — medium screens, about 650px
+- `60em` — large screens, about 980px
+- `90em` — extra large screens, about 1500px
 
 *That doesn’t mean these are the only sizes I use, but these are often what I’d call the “major” breakpoints.*
 
@@ -417,9 +417,9 @@ Some things to consider:
 
 There’s a bunch of CSS properties that only work when a website is printed:
 
-- `page-break-inside` — whether or not to put a page break inside something; `auto`, `avoid`.
-- `page-break-before` — whether a page break should exist before something; `always`, `avoid`.
-- `page-break-after` — whether a page break should exist after something; `always`, `avoid`.
+- `page-break-inside` — whether or not to put a page break inside something; `auto`, `avoid`.
+- `page-break-before` — whether a page break should exist before something; `always`, `avoid`.
+- `page-break-after` — whether a page break should exist after something; `always`, `avoid`.
 
 ### Showing hyperlink URLs
 

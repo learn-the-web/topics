@@ -49,10 +49,10 @@ groups:
           - 'Pressing `1` while still holding `⌘` will show all the windows open for that app.'
       - name: '``⌘` ``'
         details:
-          — 'Will cycle forwards through the last viewed windows in this application.'
+          — 'Will cycle forwards through the last viewed windows in this application.'
       - name: '``⌘⇧` ``'
         details:
-          — 'Will cycle backwards through the last viewed windows.'
+          — 'Will cycle backwards through the last viewed windows.'
 
   - title: 'Text'
     items:

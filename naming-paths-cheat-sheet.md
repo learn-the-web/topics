@@ -24,18 +24,18 @@ groups:
           - 'Underscores (`_`) are also acceptable.'
       - name: '*Good examples*'
         details:
-          - '`index.html` — all lowercase.'
-          - '`t-rex.png` — no spaces, dashes separating words.'
+          - '`index.html` — all lowercase.'
+          - '`t-rex.png` — no spaces, dashes separating words.'
           - '`dragon-1.jpg` — only letters, numbers & dashes.'
       - name: '*Bad examples*'
         details:
-          - '`Index.html` — capital letters used.'
-          - '`t rex.png` — space in filename.'
+          - '`Index.html` — capital letters used.'
+          - '`t rex.png` — space in filename.'
           - '`dragon’s egg.jpg` — apostrophe is a non-standard character.'
       - name: '*Be careful*'
         details:
-          - '`dragon.JPG` — some programs like to use uppercase extensions—*change them to lowercase*.'
-          - '`full-site.tar.gz` — multiple extensions are okay.'
+          - '`dragon.JPG` — some programs like to use uppercase extensions—*change them to lowercase*.'
+          - '`full-site.tar.gz` — multiple extensions are okay.'
           - '`_archive` — underscores are fine, but try to avoid them.'
 
   - title: 'Paths & folders'

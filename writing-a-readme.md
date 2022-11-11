@@ -3,8 +3,8 @@ title: "Writing a readme"
 tags: "writing project readme .md markdown commonmark github plain text"
 desc: "A quick overview of writing a helpful readme for your web project."
 playlist: PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_
-download: https://github.com/acgd-learn-the-web/writing-a-readme-samples/archive/master.zip
-github: https://github.com/acgd-learn-the-web/writing-a-readme-samples
+download: https://github.com/ltw-learn-the-web/writing-a-readme-samples/archive/master.zip
+github: https://github.com/ltw-learn-the-web/writing-a-readme-samples
 extra_practice:
   exercises:
     - title: "Pattern library README"
@@ -27,14 +27,14 @@ Readmes are almost always plain-text files, and **[☛ Markdown](/topics/markdow
 
 ### What to include
 
-- **Title** — at the very top, in a heading, try to make it descriptive and unique
-- **Version** — the current version of your project, preferably using [Semantic versioning](#semantic-versioning)
-- **Description & motivation** — share your vision, *why* you made it, its purpose
-- **Installation instructions** — how to get it up and running, dependencies, examples, etc.
-- **Use instructions, quick start documentation & troubleshooting** — descriptive examples *with code*, obvious, concise, common problems and gotchas, etc.
-- **Demos** — links to live examples if possible
-- **Contributors & how to get involved** — who is involved & contact information, how others can contribute, report bugs, feature requests
-- **License** — copyright and licensing information, link to license file, bibliographic entries for other sources used, etc.
+- **Title** — at the very top, in a heading, try to make it descriptive and unique
+- **Version** — the current version of your project, preferably using [Semantic versioning](#semantic-versioning)
+- **Description & motivation** — share your vision, *why* you made it, its purpose
+- **Installation instructions** — how to get it up and running, dependencies, examples, etc.
+- **Use instructions, quick start documentation & troubleshooting** — descriptive examples *with code*, obvious, concise, common problems and gotchas, etc.
+- **Demos** — links to live examples if possible
+- **Contributors & how to get involved** — who is involved & contact information, how others can contribute, report bugs, feature requests
+- **License** — copyright and licensing information, link to license file, bibliographic entries for other sources used, etc.
 
 ### Semantic versioning
 
@@ -136,12 +136,12 @@ Somethings consider adding to your change log:
 - A version number for each release and whether the project follows [Semantic Versioning](#semantic-versioning) or not
 - Links to important sections an out to issues, documentation, etc.
 - Each version entry should contain this information:
-  - “Added” — new features added to the project
+  - “Added” — new features added to the project
   - “Changed” — existing functionality that is different from the earlier version
   - “Deprecated” — features that exist but should no longer be used
   - “Removed” — any deprecated features removed in this release
-  - “Fixed” — any bugs that have been fixed
-  - “Security” — any issues related to security or what new security features exist
+  - “Fixed” — any bugs that have been fixed
+  - “Security” — any issues related to security or what new security features exist
 
 **Links**
 

@@ -50,10 +50,10 @@ Most of the developer tools are fairly similar to each other and many of them ha
 
 The interface is built on many different tabs, these are the most commonly used ones:
 
-- **Elements** — viewing, editing and manipulating the HTML and CSS
-- **Network** — seeing what files are downloaded when viewing the website
-- **Resources** — more in-depth information on each of the files
-- **Console** — where error messages are shown
+- **Elements** — viewing, editing and manipulating the HTML and CSS
+- **Network** — seeing what files are downloaded when viewing the website
+- **Resources** — more in-depth information on each of the files
+- **Console** — where error messages are shown
 
 ### Moving tools to the right
 

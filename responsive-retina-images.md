@@ -3,8 +3,8 @@ title: "Responsive & retina images"
 tags: "responsive retina hi dpi compression compressive save for web double size source sets picture source jpeg png svg images"
 desc: "Lots of different techniques to properly set up images for responsive & retina screens."
 playlist: "PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f"
-download: "https://github.com/acgd-learn-the-web/responsive-retina-images-code/archive/master.zip"
-github: "https://github.com/acgd-learn-the-web/responsive-retina-images-code"
+download: "https://github.com/ltw-learn-the-web/responsive-retina-images-code/archive/master.zip"
+github: "https://github.com/ltw-learn-the-web/responsive-retina-images-code"
 cheatsheet: images-cheat-sheet
 extra_practice:
   week:
@@ -127,7 +127,7 @@ There are attributes—`srcset` & `sizes`—on the `<img>` tag that allow us to 
 The use-case for the `<img>` tag with these new attributes is to provide **different resolutions of the exact same image** and the browser will pick the one that best fits the screen.
 
 - `srcset` — allows us to define all the different possible sizes of images, and their native pixel width (like from Photoshop). *It’s best to start at the largest and go backwards.*
-- `sizes` — allows us to define how much of the screen width the image will take up at different media queries. Think of it like media queries specifically for the individual image. *It’s best to start at the largest size and go downwards.*
+- `sizes` — allows us to define how much of the screen width the image will take up at different media queries. Think of it like media queries specifically for the individual image. *It’s best to start at the largest size and go downwards.*
 
 *Both of these attributes must be coded.*
 

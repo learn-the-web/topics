@@ -35,11 +35,11 @@ The problem with using a plain-text editor is that they aren’t optimized for w
 
 A proper code editor will provide a bunch of features to help you write and see code more efficiently.
 
-- **Line numbers** — automatic numbering for lines of code
-- **Syntax highlighting** — colouring of different keywords to help understanding
-- **Indentation assistance** — helping you indent and align the code for easier reading
-- **Auto-completion** — automatically add and complete code for you and show suggestions
-- **Multiple file interface** — having more than one file open at a time
+- **Line numbers** — automatic numbering for lines of code
+- **Syntax highlighting** — colouring of different keywords to help understanding
+- **Indentation assistance** — helping you indent and align the code for easier reading
+- **Auto-completion** — automatically add and complete code for you and show suggestions
+- **Multiple file interface** — having more than one file open at a time
 - **Quick movement** — moving within files quickly and opening/closing files quickly
 
 ### Important settings to consider

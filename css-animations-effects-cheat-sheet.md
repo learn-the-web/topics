@@ -248,7 +248,7 @@ groups:
             ```
       - name: '`animation: wiggle 1s linear infinite`'
         details:
-          - '`infinite` — Animation iteration count: loop the animation keyframes infinite number of times.'
+          - '`infinite` — Animation iteration count: loop the animation keyframes infinite number of times.'
           - 'Use a number to choose how many interations.'
           - |
             ```css
@@ -263,7 +263,7 @@ groups:
             ```
       - name: '`animation: wiggle 1s linear alternate`'
         details:
-          - '`alternate` — Animation direction: play the keyframes forwards then backwards.'
+          - '`alternate` — Animation direction: play the keyframes forwards then backwards.'
           - 'Directions: `normal`, `reverse`, `alternate`, `alternate-reverse`'
           - |
             ```css
@@ -273,7 +273,7 @@ groups:
             ```
       - name: '`animation: wiggle 1s linear forwards`'
         details:
-          - '`forwards` — Animation fill mode: keep the animation on its last frame when complete.'
+          - '`forwards` — Animation fill mode: keep the animation on its last frame when complete.'
           - 'Modes: `forwards`, `backwards`'
           - |
             ```css

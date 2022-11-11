@@ -84,19 +84,19 @@ After you’ve selected the lines, copy the URL and paste it into the issue.
 
 If you’d like to get feedback from someone specific when writing the issue, you can mention them by their GitHub username.
 
-`@` — type an @-symbol followed by their username. If they’re already part of the repository it will autocomplete.
+`@` — type an @-symbol followed by their username. If they’re already part of the repository it will autocomplete.
 
 ### Referring to another issue
 
 If you’d like to refer to another issue, maybe because it’s related or similar, GitHub will put references at the bottom of the issues.
 
-`#` — type a #-symbol followed by the issue’s ID number. GitHub will actually autocomplete all other issues in the repository.
+`#` — type a #-symbol followed by the issue’s ID number. GitHub will actually autocomplete all other issues in the repository.
 
 ### Adding emoji to issues
 
 Emoji can be a helpful way to specify human emotions in your GitHub Issues.
 
-`:` — type a colon and all of GitHub’s emoji will autocomplete.
+`:` — type a colon and all of GitHub’s emoji will autocomplete.
 
 ---
 

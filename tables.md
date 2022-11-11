@@ -3,8 +3,8 @@ title: "Tables"
 tags: "table chart cells rows columns headings border captions"
 desc: "Creating tables and charts on a website for displaying data."
 playlist: PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR
-download: https://github.com/acgd-learn-the-web/tables-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/tables-code
+download: https://github.com/ltw-learn-the-web/tables-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/tables-code
 cheatsheet: tables-cheat-sheet
 extra_practice:
   week:
@@ -111,9 +111,9 @@ So, in HTML, a simplified version of the above table would look like this:
 </table>
 ```
 
-- `<table>` — wraps around all the information in the chart.
-- `<tr>` — denotes a single row, no cell (`<td>`) can be outside of a row.
-- `<td>` — represents the actual data, a cell, they must be inside a row.
+- `<table>` — wraps around all the information in the chart.
+- `<tr>` — denotes a single row, no cell (`<td>`) can be outside of a row.
+- `<td>` — represents the actual data, a cell, they must be inside a row.
 
 ---
 
@@ -152,7 +152,7 @@ To label the direction, we use the `scope` attribute:
 
 We can merge cells in columns and rows and a combination of both. In the table above we can see that “Name”, “Period”, & “Discovery” are all merged vertically and “Sizes” is merged horizontally.
 
-- `colspan` — allows us to merge cells together accross columns horizontally
+- `colspan` — allows us to merge cells together accross columns horizontally
 - `rowspan` — allows us to merge cells together across rows vertically
 
 *The number of cells in each row and column should always add up to the same amount.*
@@ -193,7 +193,7 @@ When we have more than one row representing the headers or rows that represent t
 
 - `<thead>` — groups a bunch of rows together making them represent the “header” of the table.
 - `<tbody>` — groups a bunch of rows together making them represent the “main contenț” of the table.
-- `<tfoot>` — groups a bunch of rows together making them represent the “footer” or “totals” of the table.
+- `<tfoot>` — groups a bunch of rows together making them represent the “footer” or “totals” of the table.
 
 *All these elements must have `<tr>` tags inside them—they are not a replacement for rows.*
 

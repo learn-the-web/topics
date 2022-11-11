@@ -30,7 +30,7 @@ Each computer as an address, know as an IP Address, but mostly humans want somet
 
 ## Domains & IPs
 
-Domains, like `google.com` or `algonquindesign.ca`, are just for humans so we can more easily remember where a website is.
+Domains, like `google.com` or `learntheweb.courses`, are just for humans so we can more easily remember where a website is.
 
 But computers don’t necessarily care about domains, they care about IP address, which are the actual locations/names of the computers connected to The Internet. _Every single computer connected to the Internet has a unique IP address._
 
@@ -41,8 +41,8 @@ So the purpose of the Domain Name System (DNS) is to map domains to IP address a
 A simple example of DNS records might look like this:
 
 ```
-algonquindesign.ca.        A    192.168.0.1
-mail.algonquindesign.ca.   MX   192.168.0.2
+learntheweb.courses.        A    192.168.0.1
+mail.learntheweb.courses.   MX   192.168.0.2
 ```
 
 There’s a direct connection between a domain and it’s associated IP address.

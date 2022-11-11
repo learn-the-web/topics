@@ -3,8 +3,8 @@ title: "Accessibility"
 tags: "accessibility humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers VoiceOver braille"
 desc: "Making our website work well for every human being regardless of their abilities."
 playlist: PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7
-download: https://github.com/acgd-learn-the-web/accessibility-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/accessibility-code
+download: https://github.com/ltw-learn-the-web/accessibility-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/accessibility-code
 cheatsheet: accessibility-cheat-sheet
 checklist: accessibility-checklist
 extra_practice:
@@ -155,13 +155,13 @@ VoiceOver is the screen reader built into Apple’s operating systems, both desk
 Here’s some shortcut keys for using VoiceOver:
 
 - `Command + F5` — Turn VoiceOver on/off
-- `Control` — Pause VoiceOver
+- `Control` — Pause VoiceOver
 - `Control + Option + Right Arrow` — Move to next item
 - `Control + Option + Left Arrow` — Move to previous item
 - `Control + Option + U` — Open the rotor (Use arrow keys to navigate)
 - `Control + Option + Command + H` — Next heading (+ `Shift` for previous)
 - `Control + Option + Command + L` — Next link
-- `Control + Option + Command + G` — Next graphic
+- `Control + Option + Command + G` — Next graphic
 - `Control + Option + Command + X` — Next list
 
 **Links**

@@ -3,8 +3,8 @@ title: "CSS animations & effects"
 tags: "css animations effects transitions transform rotate skew translate target step keyframes webkit vendor prefixes parallax scrolling"
 desc: "Adding more pizazz a website with animations, transitions, and effects."
 playlist: PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm
-download: https://github.com/acgd-learn-the-web/css-animations-effects-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/css-animations-effects-code
+download: https://github.com/ltw-learn-the-web/css-animations-effects-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/css-animations-effects-code
 cheatsheet: css-animations-effects-cheat-sheet
 extra_practice:
   week:
@@ -200,7 +200,7 @@ There’s a whole bunch of different functions to manipulate the elements:
   transform: translate(200px, 0) /* moves right 200px, doesn’t move down */
   ```
 
-- `scale(size)` — grow or shrink the element; negative numbers okay; also: `scaleX()`, `scaleY()`
+- `scale(size)` — grow or shrink the element; negative numbers okay; also: `scaleX()`, `scaleY()`
 
   ```css
   transform: scale(1.5, 2) /* scale horizontal 1.5x and vertically 2x */
@@ -352,10 +352,10 @@ animation: animation-name length timing-function;
   - `ease-in` — the animation starts slowly and speeds up over time
   - `ease-out` — the animation starts quickly and slows down over time
   - `ease-in-out` — the animation starts slowly, speeds up, and slows down
-  - `steps()` — choose how many frames—[look below for using steps](#step-based-animations)
+  - `steps()` — choose how many frames—[look below for using steps](#step-based-animations)
   - *refer to the links below for more timing functions*
-- `fill-mode` — (optional) what the animation should do before or after executing: `forwards` will make the animation stay on its last keyframe
-- `direction` — (optional) direction order of the animation: `reverse` will go from “100%” back to “0%” keyframes, `alternate` will go forwards then reverse
+- `fill-mode` — (optional) what the animation should do before or after executing: `forwards` will make the animation stay on its last keyframe
+- `direction` — (optional) direction order of the animation: `reverse` will go from “100%” back to “0%” keyframes, `alternate` will go forwards then reverse
 - *refer to the links below for all the other values*
 
 Optionally, at the end of the animatoiin a `iteration-count` can be added, this is how many times the browser will execute the animation.
@@ -510,7 +510,7 @@ Or for animations, they would need to be written like this:
 
 **Links**
 
-- **[Autoprefixer](https://github.com/postcss/autoprefixer)** — Use Autoprefixer, a plugin in your code editor, to automatically add/remove the appropriate vendor prefixes.
+- **[Autoprefixer](https://github.com/postcss/autoprefixer)** — Use Autoprefixer, a plugin in your code editor, to automatically add/remove the appropriate vendor prefixes.
 
 ---
 

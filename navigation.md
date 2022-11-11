@@ -3,8 +3,8 @@ title: "Navigation"
 tags: "navigation styles links multiple pages highlight current page inline list footer anchor grid toggle drop down menu navigation"
 desc: "Different navigation styles for small screen websites and how to code them."
 playlist: PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr
-download: https://github.com/acgd-learn-the-web/navigation-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/navigation-code
+download: https://github.com/ltw-learn-the-web/navigation-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/navigation-code
 extra_practice:
   week:
     title: "Web Dev 1, Week 07"

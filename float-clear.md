@@ -3,8 +3,8 @@ title: "Float & clear"
 tags: "float clear text wrap clearfix columns overflow hidden scrollbars"
 desc: "Understanding how float allows text to wrap around elements and advanced uses for float."
 playlist: PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0
-download: https://github.com/acgd-learn-the-web/float-clear-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/float-clear-code
+download: https://github.com/ltw-learn-the-web/float-clear-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/float-clear-code
 cheatsheet: css-layout-cheat-sheet
 extra_practice:
   slides:
@@ -12,7 +12,7 @@ extra_practice:
       url: "/courses/web-dev-1/float-clear"
   exercises:
     - title: "Typographic insets"
-      url: "https://github.com/acgd-webdev-1/typographic-insets"
+      url: "https://github.com/ltw-webdev-1/typographic-insets"
 ---
 
 Floats and clearing are used to allow text to wrap around an object. With more complex usage, floats can be used to create complex layouts, including columns and grids.
@@ -25,8 +25,8 @@ The primary purpose of the `float` property is to allow text to wrap around anot
 
 ![](float.png)
 
-- `float: left` — move the element to the left, allowing text to wrap on the right side
-- `float: right` — move the element to the right, allowing text to wrap on the left side
+- `float: left` — move the element to the left, allowing text to wrap on the right side
+- `float: right` — move the element to the right, allowing text to wrap on the left side
 - `float: none` — would turn floating off
 
 If you want to push the text away from the floated element, `margin` will work well:
@@ -102,9 +102,9 @@ Floating only allows the text inside elements to wrap around another element. Bu
 
 Float has a companion property that allows us to force an element underneath other floated elements: `clear`.
 
-- `clear: left` — go below all left floated elements
-- `clear: right` — go below all right floated elements
-- `clear: both` — go below all floated elements
+- `clear: left` — go below all left floated elements
+- `clear: right` — go below all right floated elements
+- `clear: both` — go below all floated elements
 
 In the example above, if we applied `clear: left` to the second paragraph it would now fall below the floated image.
 

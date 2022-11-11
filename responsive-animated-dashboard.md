@@ -3,8 +3,8 @@ title: "Responsive animated dashboard"
 tags: "full website responsive javascript dashboard animations transitions effects svg"
 desc: "Walking through creating a complex, responsive, interactive, and animated dashboard interface."
 playlist: PLWjCJDeWfDdceXtH4ZLTh0v4AbP3g2msI
-download: https://github.com/acgd-learn-the-web/responsive-animated-dashboard-code/archive/gh-pages.zip
-github: https://github.com/acgd-learn-the-web/responsive-animated-dashboard-code
+download: https://github.com/ltw-learn-the-web/responsive-animated-dashboard-code/archive/gh-pages.zip
+github: https://github.com/ltw-learn-the-web/responsive-animated-dashboard-code
 livewebsite: responsive-animated-dashboard
 ---
 

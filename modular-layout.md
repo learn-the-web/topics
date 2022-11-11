@@ -3,8 +3,8 @@ title: "Modular website layout"
 tags: "full website modular layout grids typography modules embed"
 desc: "Creating a full modular website with grids, typography, and reusable modules."
 playlist: PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany
-download: https://github.com/acgd-learn-the-web/modular-layout-code/archive/gh-pages.zip
-github: https://github.com/acgd-learn-the-web/modular-layout-code
+download: https://github.com/ltw-learn-the-web/modular-layout-code/archive/gh-pages.zip
+github: https://github.com/ltw-learn-the-web/modular-layout-code
 livewebsite: modular-layout
 ---
 

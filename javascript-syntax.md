@@ -3,8 +3,8 @@ title: "JavaScript syntax"
 tags: "javascript introduction syntax flow comments variables strings numbers booleans arrays objects functions arguments if statement for while foreach loops switch debugging"
 desc: "Looking at understanding how to write JavaScript code."
 playlist: PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU
-download: https://github.com/acgd-learn-the-web/javascript-intro-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/javascript-intro-code
+download: https://github.com/ltw-learn-the-web/javascript-intro-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/javascript-intro-code
 cheatsheet: javascript-cheat-sheet
 checklist: javascript-checklist
 ---
@@ -59,10 +59,10 @@ With camel case, we mash words together without separators, but use capitalizati
 
 Some examples:
 
-- `solarSystem` — starts with a lowercase, then each word has capital
-- `thisVariableIsReallyLong` — each new word has a capital letter
+- `solarSystem` — starts with a lowercase, then each word has capital
+- `thisVariableIsReallyLong` — each new word has a capital letter
 - `isHuman` — with booleans, often the word `is` is used at the start
-- `ImportantThing` — when the first letter is capitalized, it’s called “Upper Camel Case”
+- `ImportantThing` — when the first letter is capitalized, it’s called “Upper Camel Case”
 
 ---
 

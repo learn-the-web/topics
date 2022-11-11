@@ -3,8 +3,8 @@ title: "JavaScript, jQuery & accessibility"
 tags: "javascript jquery animations events common components tabs toggle panels buttons lightbox accessibility focus keyboard wai aria"
 desc: "Looking at common JavaScript patterns & components and how we can make them more accessible."
 playlist: PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow
-download: https://github.com/acgd-learn-the-web/javascript-jquery-accessibility-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/javascript-jquery-accessibility-code
+download: https://github.com/ltw-learn-the-web/javascript-jquery-accessibility-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/javascript-jquery-accessibility-code
 ---
 
 JavaScript isn’t inherently inaccessible, but without a little bit of care the code we write can disrupt accessibility features built into the browser.
@@ -73,8 +73,8 @@ But we still need to make them a little more accessible, we need to adjust the H
 ```
 
 - `aria-expanded` — defines whether the panel is currently open or closed.
-- `aria-controls` — points to the ID of the `<div>` that this button changes.
-- `aria-hidden` — defines that the content inside this element shouldn’t be accessible to tools at this point.
+- `aria-controls` — points to the ID of the `<div>` that this button changes.
+- `aria-hidden` — defines that the content inside this element shouldn’t be accessible to tools at this point.
 
 Then, we need to make some slight adjustments to our JavaScript to change those attributes when the button is clicked:
 
@@ -124,13 +124,13 @@ For the HTML we’ll start by adding some ARIA attributes:
 
 There’s quite a bunch extra in the code above, here’s what we did:
 
-- `role="tablist"` — tells the browser that this isn’t an ordinary list, but instead a list of tabs.
-- `role="presentation"` — reminds the user that these aren’t list items, because they’re part of the tab list.
-- `role="tab"` — tells the browser that this isn’t a link anymore, but instead a tab.
-- `aria-controls` — connects the tab link to the `<div>` using its ID.
-- `aria-selected` — defines whether the tab is the currently visible one or not; you could use this to style the tab instead of a class.
-- `role="tabpanel"` — tells the browser that this isn’t just a `<div>` but a piece of tabbed content.
-- `aria-hidden` — defines whether the tab is currently visible or not; you could use this to style the tab instead of the `hidden` attribute.
+- `role="tablist"` — tells the browser that this isn’t an ordinary list, but instead a list of tabs.
+- `role="presentation"` — reminds the user that these aren’t list items, because they’re part of the tab list.
+- `role="tab"` — tells the browser that this isn’t a link anymore, but instead a tab.
+- `aria-controls` — connects the tab link to the `<div>` using its ID.
+- `aria-selected` — defines whether the tab is the currently visible one or not; you could use this to style the tab instead of a class.
+- `role="tabpanel"` — tells the browser that this isn’t just a `<div>` but a piece of tabbed content.
+- `aria-hidden` — defines whether the tab is currently visible or not; you could use this to style the tab instead of the `hidden` attribute.
 
 Now with the ARIA attributes in place we need to adjust our JavaScript a little bit.
 
@@ -168,7 +168,7 @@ All the above changes work fairly well, but there’s lots more we can do to mak
   2. Using the `left` and `right` arrow keys they can switch tabs.
   3. Pressing `tab` again will focus the content of the visible tab.
 
-[☛ Browse the accessible tab code to see the result.](https://github.com/acgd-learn-the-web/javascript-jquery-accessibility-code)
+[☛ Browse the accessible tab code to see the result.](https://github.com/ltw-learn-the-web/javascript-jquery-accessibility-code)
 
 **Links**
 

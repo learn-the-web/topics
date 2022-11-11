@@ -14,7 +14,7 @@ groups:
           - '`120%` for extra large screens.'
       - name: '`1.3` – `1.5`'
         details:
-          - '**Body line-height** — looser on the web.'
+          - '**Body line-height** — looser on the web.'
           - '`1.3` for small screens.'
           - '`1.4` for medium screens.'
           - '`1.5` for large screens.'

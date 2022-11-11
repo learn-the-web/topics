@@ -3,8 +3,8 @@ title: "Progressive enhancement"
 tags: "progressive enhancement graceful degradation internet web download failure older browser testing user font size print disabled"
 desc: "Looking at how the web is not within our control and how we can make our websites work."
 playlist: PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ
-download: https://github.com/acgd-learn-the-web/progressive-enhancement-code/archive/master.zip
-github: https://github.com/acgd-learn-the-web/progressive-enhancement-code
+download: https://github.com/ltw-learn-the-web/progressive-enhancement-code/archive/master.zip
+github: https://github.com/ltw-learn-the-web/progressive-enhancement-code
 extra_practice:
   week:
     title: "Web Dev 5, Week 13"
@@ -244,9 +244,9 @@ When the JavaScript executes, it builds the tab interface back up, triggering th
 
 We don’t need to have the ARIA attributes on the default non-JS version because ARIA is primarily for interactions built with JavaScript.
 
-- [See working progressively enhanced tabs.](http://demos.learn-the-web.algonquindesign.ca/progressive-enhancement/tabs.html)
+- [See working progressively enhanced tabs.](https://demos.learntheweb.courses/progressive-enhancement/tabs.html)
   *Make sure to test with JavaScript turned off.*
-- [Browse commented progressively enhancement tabs code.](https://github.com/acgd-learn-the-web/progressive-enhancement-code/blob/gh-pages/js/tabs.js)
+- [Browse commented progressively enhancement tabs code.](https://github.com/ltw-learn-the-web/progressive-enhancement-code/blob/gh-pages/js/tabs.js)
 
 ---
 
@@ -262,7 +262,7 @@ We don’t need to have the ARIA attributes on the default non-JS version becaus
 - [This is still a motherfucking website.](http://bettermotherfuckingwebsite.com/)
 - [Best mother fucking website.](https://bestmotherfucking.website/)
 - [Wikpedia: Progressive enhancement](https://en.wikipedia.org/wiki/Progressive_enhancement)
-- [Designing with Progressive Enhancement](https://www.filamentgroup.com/dwpe/) & [Code samples](https://www.filamentgroup.com/dwpe/code/)
+- [Designing with Progressive Enhancement](https://www.filamentgroup.com/dwpe/) & [Code samples](https://www.filamentgroup.com/dwpe/code/)
 - [The True Cost of Progressive Enhancement](http://blog.easy-designs.net/archives/the-true-cost-of-progressive-enhancement/)
 - [Pragmatic progressive enhancement - why you should bother with it](https://christianheilmann.com/2008/05/06/pragmatic-progressive-enhancement/)
 - [Gov.uk: Progressive enhancement](https://www.gov.uk/service-manual/making-software/progressive-enhancement.html)

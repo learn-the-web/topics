@@ -246,7 +246,7 @@ groups:
     items:
       - name: '*Smushy text*'
         details:
-          - 'The letters of the text look all smushed together — this is caused by text being inside `.grid` but not inside `.unit`.'
+          - 'The letters of the text look all smushed together — this is caused by text being inside `.grid` but not inside `.unit`.'
           - '![](smushy-text.svg)'
           - |
             ```html

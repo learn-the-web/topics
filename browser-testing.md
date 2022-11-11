@@ -58,14 +58,14 @@ So, when it comes to mobile browsers test in as many operating systems, as many 
 
 Here’s a few of the major mobile browsers and operating systems:
 
-- **Chrome** — Android; uses Blink.
-- **Android browser** — Android; uses Webkit.
-- **Safari** — iOS; uses Webkit.
-- **Firebox Mobile** — Android; uses Gecko.
-- **Internet Explorer** — Windows Phone; uses Trident.
-- **Opera Mobile** — Android; uses Blink.
-- **BlackBerry browser** — BlackBerry; uses Webkit.
-- **Symbian browser** — Nokia; uses Webkit.
+- **Chrome** — Android; uses Blink.
+- **Android browser** — Android; uses Webkit.
+- **Safari** — iOS; uses Webkit.
+- **Firebox Mobile** — Android; uses Gecko.
+- **Internet Explorer** — Windows Phone; uses Trident.
+- **Opera Mobile** — Android; uses Blink.
+- **BlackBerry browser** — BlackBerry; uses Webkit.
+- **Symbian browser** — Nokia; uses Webkit.
 
 #### Proxy browsers
 
@@ -78,7 +78,7 @@ Proxy browsers are great on slow and unreliable network speeds, but they have mu
 There’s two really popular proxy browsers in the world:
 
 - **[Opera Mini](http://www.opera.com/mobile/mini)** — most popular mobile browser in the world; multi-platform; uses Presto.
-- **[UC Browser](http://www.ucweb.com/)** — extremely popular in China & India; multi-platform; uses Webkit.
+- **[UC Browser](http://www.ucweb.com/)** — extremely popular in China & India; multi-platform; uses Webkit.
 
 ---
 
@@ -110,8 +110,8 @@ Microsoft even provides a [screenshot service](http://dev.modern.ie/tools/screen
 
 There are two ways to test Edge & IE on your Mac:
 
-1. [Use Virtual Machines](http://dev.modern.ie/tools/vms/) — most reliable, but huge download size.
-2. [Use BrowserStack](https://www.browserstack.com/test-on-microsoft-edge-browser#live-cloud) — not as fast, but quick to set up.
+1. [Use Virtual Machines](http://dev.modern.ie/tools/vms/) — most reliable, but huge download size.
+2. [Use BrowserStack](https://www.browserstack.com/test-on-microsoft-edge-browser#live-cloud) — not as fast, but quick to set up.
 
 #### Edge & IE virtual machines
 
@@ -173,8 +173,8 @@ We want to make sure that our users can access all the same information, but not
 
 It’s hard to tell what features are supported by what browsers, but there a few really good resources:
 
-- **[Can I Use](http://caniuse.com/)** — a huge library of features and what browsers support those features.
-- [Mozilla Developer Documentation](https://developer.mozilla.org/) — at the bottom of every element, property, function, etc. is a table of browser support.
+- **[Can I Use](http://caniuse.com/)** — a huge library of features and what browsers support those features.
+- [Mozilla Developer Documentation](https://developer.mozilla.org/) — at the bottom of every element, property, function, etc. is a table of browser support.
 
 Some browser vendors even have platform feature lists, here’s a few of those:
 
@@ -195,10 +195,10 @@ Some CSS properties have to be written multiple times to support all browsers. B
 Here are the common prefixes you’ll run into:
 
 - `-webkit-` — Webkit, Blink rendering engines.
-- `-moz-` — Gecko (Mozilla) rendering engines.
-- `-ms-` — Trident (Microsoft) rendering engine.
+- `-moz-` — Gecko (Mozilla) rendering engines.
+- `-ms-` — Trident (Microsoft) rendering engine.
   *Won’t exist in Microsoft Edge.*
-- `-o-` — Presto (Opera) rendering engine.
+- `-o-` — Presto (Opera) rendering engine.
   *Only applies to Opera Mini.*
 
 **When writing vendor prefixes it’s extremely important to put the property without the vendor prefix last.** Because the non-vendor prefixed version is the one released to the public, not the beta testing version. If you put the vendor prefixed version last then the browser will use an older, buggy version of its code.

@@ -48,7 +48,7 @@ groups:
             ```html
             <a id="top" href="#top">Top</a>
             ```
-      - name: '`Space` — Descendant'
+      - name: '`Space` — Descendant'
         details:
           - 'Select an element that’s a descendant of another element.'
           - |
@@ -84,7 +84,7 @@ groups:
             h1 ~ p {}
             dd ~ dt {}
             ```
-      - name: '`[]` — Attribute'
+      - name: '`[]` — Attribute'
         details:
           - 'Select an element by it’s attribute.'
           - 'Good for styling links differently if they’re external.'

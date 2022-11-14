@@ -2,7 +2,7 @@
 title: "Computer shortcuts"
 tags: "accessibility humans computers shortcuts keyboards efficiency"
 desc: "As you get more familiar with your computer you’re going to want to do things more quickly: learn about common computer shortcuts & how to leverage your keyboard."
-playlist: PLWjCJDeWfDdchRXZ_Khx_uyIzwzgWKm4T
+playlist: computer-shortcuts
 cheatsheet: keyboard-shortcut-cheat-sheet
 ---
 
@@ -309,10 +309,10 @@ As a web designer you’ll spend a significant amount of time in your browser. T
 
 ## Video list
 
-1. [Computer shortcuts: Navigating applications ](https://www.youtube.com/watch?v=q0aMS_xKOR0&list=PLWjCJDeWfDdchRXZ_Khx_uyIzwzgWKm4T&index=2&t=0s)
-1. [Computer shortcuts: Navigating text](https://www.youtube.com/watch?v=yiS1XgZiAb8&list=PLWjCJDeWfDdchRXZ_Khx_uyIzwzgWKm4T&index=3&t=0s)
-1. [Computer shortcuts: Manipulating files & folders](https://www.youtube.com/watch?v=-2mz8Tp7ha0&list=PLWjCJDeWfDdchRXZ_Khx_uyIzwzgWKm4T&index=4&t=0s)
-1. [Computer shortcuts: Browser shortcuts](https://www.youtube.com/watch?v=Yl3Dn-lhbzE&list=PLWjCJDeWfDdchRXZ_Khx_uyIzwzgWKm4T&index=5&t=0s)
+1. [Computer shortcuts: Navigating applications](https://videos.learntheweb.courses/playlists/computer-shortcuts/#1-applications)
+1. [Computer shortcuts: Navigating text](https://videos.learntheweb.courses/playlists/computer-shortcuts/#2-text-movement)
+1. [Computer shortcuts: Manipulating files & folders](https://videos.learntheweb.courses/playlists/computer-shortcuts/#3-files)
+1. [Computer shortcuts: Browser shortcuts](https://videos.learntheweb.courses/playlists/computer-shortcuts/#4-browser)
 
 ## Supplemental links
 

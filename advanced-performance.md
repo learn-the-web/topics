@@ -2,9 +2,9 @@
 title: "Advanced performance"
 tags: "advanced performance css minification combine performance content delivery network cloudflare security"
 desc: "Making our websites more performant with minification, content delivery networks, and other optimizations."
-playlist: PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ
-download: https://github.com/ltw-learn-the-web/advanced-performance-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/advanced-performance-code
+playlist: advanced-performance
+download: https://github.com/learn-the-web/advanced-performance-code/archive/master.zip
+github: https://github.com/learn-the-web/advanced-performance-code
 extra_practice:
   week:
     title: "Web Dev 5, Week 12"
@@ -454,7 +454,7 @@ Next up we write a little script that checks if the font has finished loading. W
 </html>
 ```
 
-*If you have more than one font weight or style you’ll need a slightly more advanced script. [See the font face observer script for this website with multiple weights and styles.](https://github.com/ltw-learn-the-web/ltw-learn-the-web.github.io/blob/master/_includes/alegreya-observer.js)*
+*If you have more than one font weight or style you’ll need a slightly more advanced script. [See the font face observer script for this website with multiple weights and styles.](https://github.com/learn-the-web/learn-the-web.github.io/blob/master/_includes/alegreya-observer.js)*
 
 After that’s in place, we just need to adjust our CSS a little bit to display fallback font first:
 
@@ -581,14 +581,13 @@ There are a few things to consider that can cause these problems:
 
 ## Video list
 
-1. [Advanced performance: ImageAlpha + PNG-8](https://www.youtube.com/watch?v=DvALia-wU5k&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=1)
-2. [Advanced performance: blurring JPGs](https://www.youtube.com/watch?v=P2WFfpWIlGU&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=2)
-3. [Advanced performance: optimizing favicons](https://www.youtube.com/watch?v=9llDkAYTju4&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=3)
-4. [Advanced performance: sub-setting fonts](https://www.youtube.com/watch?v=CVTt4msJVXM&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=4)
-5. [Advanced performance: delaying font rendering](https://www.youtube.com/watch?v=B-J5IEjilO0&index=5&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ)
-6. [Advanced performance: data URIs](https://www.youtube.com/watch?v=pzNGhDD-1QU&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=6)
-7. [Advanced performance: SVG data URIs](https://www.youtube.com/watch?v=Np7TnNlRSFE&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=7)
-8. [Advanced performance: CloudFlare settings](https://www.youtube.com/watch?v=mb6q-MG8LWs&list=PLWjCJDeWfDdfmwQEiq7uyItB0c47y2inQ&index=8)
+1. [Advanced performance: ImageAlpha + PNG-8](https://videos.learntheweb.coures/playlists/advanced-performance/#1-png-8)
+2. [Advanced performance: blurring JPGs](https://videos.learntheweb.coures/playlists/advanced-performance/#2-blur-jpg)
+3. [Advanced performance: optimizing favicons](https://videos.learntheweb.coures/playlists/advanced-performance/#3-favicon)
+4. [Advanced performance: sub-setting fonts](https://videos.learntheweb.coures/playlists/advanced-performance/#4-sub-set)
+5. [Advanced performance: data URIs](https://videos.learntheweb.coures/playlists/advanced-performance/#5-data-uris)
+6. [Advanced performance: SVG data URIs](https://videos.learntheweb.coures/playlists/advanced-performance/#6-svg-data-uri)
+7. [Advanced performance: CloudFlare settings](https://videos.learntheweb.coures/playlists/advanced-performance/#7-cloudflare)
 
 ## Supplemental links
 

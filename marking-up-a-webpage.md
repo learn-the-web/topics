@@ -3,8 +3,8 @@ title: "Marking up a webpage"
 tags: "full html semantics website webpage header footer navigation main"
 desc: "Create a full single webpage using only HTML."
 playlist: PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg
-download: https://github.com/ltw-learn-the-web/marking-up-a-webpage-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/marking-up-a-webpage-code
+download: https://github.com/learn-the-web/marking-up-a-webpage-code/archive/master.zip
+github: https://github.com/learn-the-web/marking-up-a-webpage-code
 livewebsite: marking-up-a-webpage
 ---
 

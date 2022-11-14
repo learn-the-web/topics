@@ -3,8 +3,8 @@ title: "JavaScript syntax"
 tags: "javascript introduction syntax flow comments variables strings numbers booleans arrays objects functions arguments if statement for while foreach loops switch debugging"
 desc: "Looking at understanding how to write JavaScript code."
 playlist: PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU
-download: https://github.com/ltw-learn-the-web/javascript-intro-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/javascript-intro-code
+download: https://github.com/learn-the-web/javascript-intro-code/archive/master.zip
+github: https://github.com/learn-the-web/javascript-intro-code
 cheatsheet: javascript-cheat-sheet
 checklist: javascript-checklist
 ---

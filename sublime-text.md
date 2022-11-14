@@ -2,8 +2,8 @@
 title: "Sublime Text"
 desc: "Set up the Sublime Text editor, configure some default settings, and install packages for the most efficiency."
 tags: "code editor sublime text configure preferences settings defaults install packages"
-download: https://github.com/ltw-learn-the-web/sublime-text-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/sublime-text-code
+download: https://github.com/learn-the-web/sublime-text-code/archive/master.zip
+github: https://github.com/learn-the-web/sublime-text-code
 cheatsheet: snippets-cheat-sheet
 ---
 
@@ -58,7 +58,7 @@ Sublime Text > Preferences > Settings - User
 
 To save time and have Sublime Text set up quickly, copy these settings and overwrite everything in your user settings.
 
-**[☛ User settings](https://github.com/ltw-learn-the-web/sublime-text-code/archive/master.zip)**
+**[☛ User settings](https://github.com/learn-the-web/sublime-text-code/archive/master.zip)**
 
 **Just copy and paste those settings into  your `Settings - User` file, overwriting everything that’s in there.**
 

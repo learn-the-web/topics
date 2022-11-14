@@ -2,7 +2,7 @@
 title: "Browser testing"
 tags: "mozilla firefox opera safari google chrome microsoft internet explorer ios safari android mini windows phone browser testing"
 desc: "Testing your website in the myriad of browsers that are connected to the web."
-playlist: PLWjCJDeWfDddYntDUSf_kMRzIfHceWpVv
+playlist: browser-testing
 checklist: browser-testing-checklist
 extra_practice:
   lessons:
@@ -252,7 +252,7 @@ Now we can use the IE only CSS file for fixes specifically targeted at older ver
 
 ## Video list
 
-- [Browser testing](https://www.youtube.com/watch?v=jvv-AfFfLZc&index=1&list=PLWjCJDeWfDddYntDUSf_kMRzIfHceWpVv)
+- [Browser testing](https://videos.learntheweb.courses/playlists/browser-testing/#1-browser-testing)
 
 ## Supplemental links
 

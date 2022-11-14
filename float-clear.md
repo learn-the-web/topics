@@ -3,8 +3,8 @@ title: "Float & clear"
 tags: "float clear text wrap clearfix columns overflow hidden scrollbars"
 desc: "Understanding how float allows text to wrap around elements and advanced uses for float."
 playlist: PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0
-download: https://github.com/ltw-learn-the-web/float-clear-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/float-clear-code
+download: https://github.com/learn-the-web/float-clear-code/archive/master.zip
+github: https://github.com/learn-the-web/float-clear-code
 cheatsheet: css-layout-cheat-sheet
 extra_practice:
   slides:

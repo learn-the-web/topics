@@ -3,8 +3,8 @@ title: "Responsive & retina images"
 tags: "responsive retina hi dpi compression compressive save for web double size source sets picture source jpeg png svg images"
 desc: "Lots of different techniques to properly set up images for responsive & retina screens."
 playlist: "PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f"
-download: "https://github.com/ltw-learn-the-web/responsive-retina-images-code/archive/master.zip"
-github: "https://github.com/ltw-learn-the-web/responsive-retina-images-code"
+download: "https://github.com/learn-the-web/responsive-retina-images-code/archive/master.zip"
+github: "https://github.com/learn-the-web/responsive-retina-images-code"
 cheatsheet: images-cheat-sheet
 extra_practice:
   week:

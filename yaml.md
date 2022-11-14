@@ -3,8 +3,8 @@ title: "YAML"
 tags: "yaml markdown markup language processor jekyll"
 desc: "Understanding YAML, another markup language, that’s great for structured content."
 playlist: PLWjCJDeWfDdfzjgthWhvHOxyvFZDCp_2L
-download: https://github.com/ltw-learn-the-web/yaml-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/yaml-code
+download: https://github.com/learn-the-web/yaml-code/archive/master.zip
+github: https://github.com/learn-the-web/yaml-code
 cheatsheet: markdown-yaml-cheat-sheet
 extra_practice:
   week:
@@ -30,8 +30,8 @@ When using a system like [☛ Jekyll](/topics/jekyll/), YAML can bet used for ex
 
 A couple examples:
 
-- [This tutorial uses YAML, see the source code](https://raw.githubusercontent.com/ltw-learn-the-web/topics/master/yaml.md)
-- [The Markdown & YAML cheat sheet is written in YAML, see the code](https://raw.githubusercontent.com/ltw-learn-the-web/topics/master/markdown-yaml-cheat-sheet.md)
+- [This tutorial uses YAML, see the source code](https://raw.githubusercontent.com/learn-the-web/topics/master/yaml.md)
+- [The Markdown & YAML cheat sheet is written in YAML, see the code](https://raw.githubusercontent.com/learn-the-web/topics/master/markdown-yaml-cheat-sheet.md)
 
 ---
 

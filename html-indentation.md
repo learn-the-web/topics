@@ -3,8 +3,8 @@ title: "HTML indentation"
 tags: "html indentation tabs spaces hierarchy vertical alignment monospace fonts"
 desc: "The proper method for indenting HTML to make it understandable by you and your team."
 playlist: PLWjCJDeWfDdey4UwR8TkNLt6VZ2hlWyo-
-download: https://github.com/ltw-learn-the-web/html-indentation-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/html-indentation-code
+download: https://github.com/learn-the-web/html-indentation-code/archive/master.zip
+github: https://github.com/learn-the-web/html-indentation-code
 extra_practice:
   activities:
     - title: "Ingenious Indentor"

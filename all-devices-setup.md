@@ -2,9 +2,9 @@
 title: "All devices setup"
 tags: "all devices setup meta viewport width device width initial scale border box"
 desc: "Setting up a website so it works well on any Web connected device."
-playlist: PLWjCJDeWfDdfU7nLY0WOFXq3Q7n5ZyEuZ
-download: https://github.com/ltw-learn-the-web/all-devices-setup-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/all-devices-setup-code
+playlist: all-devices-setup
+download: https://github.com/learn-the-web/all-devices-setup-code/archive/master.zip
+github: https://github.com/learn-the-web/all-devices-setup-code
 extra_practice:
   week:
     title: "Web Dev 1, Week 11"
@@ -116,7 +116,7 @@ The most common normalizer is [Normalize.css](https://necolas.github.io/normaliz
 
 ## Video list
 
-1. [All devices setup](https://www.youtube.com/watch?v=nbqnFZFQxd0&list=PLWjCJDeWfDdfU7nLY0WOFXq3Q7n5ZyEuZ&index=1)
+1. [All devices setup](https://videos.learntheweb.courses/playlists/all-devices-setup/#all-devices-setup)
 
 ## Supplemental links
 

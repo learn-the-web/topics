@@ -3,8 +3,8 @@ title: "Forms"
 tags: "forms contact input text user entry textarea button submit radio select"
 desc: "Creating forms for collecting user data like contact forms."
 playlist: PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY
-download: https://github.com/ltw-learn-the-web/forms-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/forms-code
+download: https://github.com/learn-the-web/forms-code/archive/master.zip
+github: https://github.com/learn-the-web/forms-code
 cheatsheet: forms-cheat-sheet
 extra_practice:
   week:

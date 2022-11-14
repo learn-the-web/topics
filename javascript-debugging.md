@@ -3,8 +3,8 @@ title: "JavaScript debugging"
 tags: "javascript debugging jshint eslint jslint developer tools inspect element console log"
 desc: "Some simple techniques to debug JavaScript code in your browser."
 playlist: PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk
-download: https://github.com/ltw-learn-the-web/javascript-debugging-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/javascript-debugging-code
+download: https://github.com/learn-the-web/javascript-debugging-code/archive/master.zip
+github: https://github.com/learn-the-web/javascript-debugging-code
 ---
 
 Broken code can be a nightmare, but there are lots of tools to help us debug our JavaScript issues, many built into the browser.

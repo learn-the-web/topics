@@ -3,8 +3,8 @@ title: "Typography-only layout"
 tags: "typography web design css font border background colour"
 desc: "A complete website layout looking at designing only the typography and ignoring images."
 playlist: PLWjCJDeWfDdczBWwsw9CjC9RkfocxKDy_
-download: https://github.com/ltw-learn-the-web/typography-only-layout-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/typography-only-layout-code
+download: https://github.com/learn-the-web/typography-only-layout-code/archive/master.zip
+github: https://github.com/learn-the-web/typography-only-layout-code
 livewebsite: typography-only-layout
 ---
 

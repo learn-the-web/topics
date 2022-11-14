@@ -3,8 +3,8 @@ title: "Position & z-index"
 tags: "position z index in front behind absolute static relative fixed top left bottom right coordinates"
 desc: "Learning how to layer elements on top of each other and control their layering."
 playlist: PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP
-download: https://github.com/ltw-learn-the-web/position-zindex-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/position-zindex-code
+download: https://github.com/learn-the-web/position-zindex-code/archive/master.zip
+github: https://github.com/learn-the-web/position-zindex-code
 cheatsheet: css-layout-cheat-sheet
 extra_practice:
   week:

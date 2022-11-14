@@ -3,8 +3,8 @@ title: "Using CSS"
 tags: "using css link targeting selecting elements children multiple naming classes ids colours transparency rgba hsla units rems px vh vw"
 desc: "Adding and writing CSS to design a website."
 playlist: PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS
-download: https://github.com/ltw-learn-the-web/using-css-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/using-css-code
+download: https://github.com/learn-the-web/using-css-code/archive/master.zip
+github: https://github.com/learn-the-web/using-css-code
 cheatsheet: css-selectors-units-cheat-sheet
 extra_practice:
   week:

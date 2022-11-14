@@ -3,8 +3,8 @@ title: "Search engine optimization"
 tags: "search engine optimization honest seo content tags meta description keywords sitemap robots humans txt"
 desc: "Making sure your website shows up well in search results."
 playlist: PLWjCJDeWfDddFOJYmcgNnUIhUHcsNEBTd
-download: https://github.com/ltw-learn-the-web/search-engine-optimization-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/search-engine-optimization-code
+download: https://github.com/learn-the-web/search-engine-optimization-code/archive/master.zip
+github: https://github.com/learn-the-web/search-engine-optimization-code
 checklist: seo-checklist
 cheatsheet: seo-cheat-sheet
 extra_practice:

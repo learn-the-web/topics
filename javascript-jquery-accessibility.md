@@ -3,8 +3,8 @@ title: "JavaScript, jQuery & accessibility"
 tags: "javascript jquery animations events common components tabs toggle panels buttons lightbox accessibility focus keyboard wai aria"
 desc: "Looking at common JavaScript patterns & components and how we can make them more accessible."
 playlist: PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow
-download: https://github.com/ltw-learn-the-web/javascript-jquery-accessibility-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/javascript-jquery-accessibility-code
+download: https://github.com/learn-the-web/javascript-jquery-accessibility-code/archive/master.zip
+github: https://github.com/learn-the-web/javascript-jquery-accessibility-code
 ---
 
 JavaScript isn’t inherently inaccessible, but without a little bit of care the code we write can disrupt accessibility features built into the browser.
@@ -168,7 +168,7 @@ All the above changes work fairly well, but there’s lots more we can do to mak
   2. Using the `left` and `right` arrow keys they can switch tabs.
   3. Pressing `tab` again will focus the content of the visible tab.
 
-[☛ Browse the accessible tab code to see the result.](https://github.com/ltw-learn-the-web/javascript-jquery-accessibility-code)
+[☛ Browse the accessible tab code to see the result.](https://github.com/learn-the-web/javascript-jquery-accessibility-code)
 
 **Links**
 

@@ -2,8 +2,8 @@
 title: "JavaScript templates"
 tags: "javascript templates mustache handlebars separate separation concerns external html"
 desc: "Separating the HTML and JavaScript by using templates."
-download: https://github.com/ltw-learn-the-web/javascript-templates-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/javascript-templates-code
+download: https://github.com/learn-the-web/javascript-templates-code/archive/master.zip
+github: https://github.com/learn-the-web/javascript-templates-code
 ---
 
 Separating our HTML from our JavaScript into small reusable pieces.

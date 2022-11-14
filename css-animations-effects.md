@@ -2,9 +2,9 @@
 title: "CSS animations & effects"
 tags: "css animations effects transitions transform rotate skew translate target step keyframes webkit vendor prefixes parallax scrolling"
 desc: "Adding more pizazz a website with animations, transitions, and effects."
-playlist: PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm
-download: https://github.com/ltw-learn-the-web/css-animations-effects-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/css-animations-effects-code
+playlist: css-animations-effects
+download: https://github.com/learn-the-web/css-animations-effects-code/archive/master.zip
+github: https://github.com/learn-the-web/css-animations-effects-code
 cheatsheet: css-animations-effects-cheat-sheet
 extra_practice:
   week:
@@ -703,18 +703,18 @@ This will fade between grey-scale and colour and adjust the contrast over `.3s` 
 
 ## Video list
 
-1. [Animations & effects: basic transitions](https://www.youtube.com/watch?v=mYW7PPO81gk&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=1)
-2. [Animations & effects: target](https://www.youtube.com/watch?v=Fnhw6hz7AUA&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=2)
-3. [Animations & effects: transforms](https://www.youtube.com/watch?v=n7b1_-Av2Dc&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=3)
-4. [Animations & effects: sliding caption](https://www.youtube.com/watch?v=zKvLy9nehoI&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=4)
-5. [Animations & effects: hover box](https://www.youtube.com/watch?v=6LOoKJNbEZI&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=5)
-6. [Animations & effects: basic animations](https://www.youtube.com/watch?v=wK_UFBZgSMk&index=6&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
-7. [Animations & effects: keyframe-based animations](https://www.youtube.com/watch?v=nG8hOT1TL8I&index=7&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
-8. [Animations & effects: sprite-based animations](https://www.youtube.com/watch?v=oY3p-Rrl9Hg&index=8&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
-9. [Animations & effects: vendor prefixes](https://www.youtube.com/watch?v=C5eDPR3pANQ&index=9&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
-10. [Animations & effects: hero banner](https://www.youtube.com/watch?v=AgBCH0-K124&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=10)
-11. [Animations & effects: parallax](https://www.youtube.com/watch?v=n9zLJ0I8Djk&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=11)
-12. [Animations & effects: CSS filters](https://www.youtube.com/watch?v=sUlOVKzz_x8&index=12&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+1. [Animations & effects: basic transitions](https://videos.learntheweb.courses/playlists/animations-effects/#1-basic-transitions)
+2. [Animations & effects: target](https://videos.learntheweb.courses/playlists/animations-effects/#2-traget)
+3. [Animations & effects: transforms](https://videos.learntheweb.courses/playlists/animations-effects/#3-transforms)
+4. [Animations & effects: sliding caption](https://videos.learntheweb.courses/playlists/animations-effects/#4-figure-caption)
+5. [Animations & effects: hover box](https://videos.learntheweb.courses/playlists/animations-effects/#5-hover-box)
+6. [Animations & effects: basic animations](https://videos.learntheweb.courses/playlists/animations-effects/#6-basic-animations)
+7. [Animations & effects: keyframe-based animations](https://videos.learntheweb.courses/playlists/animations-effects/#7-keyframes)
+8. [Animations & effects: sprite-based animations](https://videos.learntheweb.courses/playlists/animations-effects/#8-steps)
+9. [Animations & effects: vendor prefixes](https://videos.learntheweb.courses/playlists/animations-effects/#9-vendor-prefixes)
+10. [Animations & effects: hero banner](https://videos.learntheweb.courses/playlists/animations-effects/#10-hero-banner)
+11. [Animations & effects: parallax](https://videos.learntheweb.courses/playlists/animations-effects/#12-filters)
+12. [Animations & effects: CSS filters](https://videos.learntheweb.courses/playlists/animations-effects/#13-a11y-effects)
 
 ## Supplemental links
 

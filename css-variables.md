@@ -2,9 +2,9 @@
 title: "CSS variables"
 tags: "css variables custom properties maintenance reusuability root var colours fonts"
 desc: "Using CSS variables & custom properties to generate more maintainable colour and font systems."
-playlist: PLWjCJDeWfDdcFjcJzZ8jEkIcQdzpV6AbJ
-download: https://github.com/ltw-learn-the-web/css-variables-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/css-variables-code
+playlist: css-variables
+download: https://github.com/learn-the-web/css-variables-code/archive/master.zip
+github: https://github.com/learn-the-web/css-variables-code
 ---
 
 CSS variables give us lots of flexibility within our code, allow us to reduce duplication and enforce standards while still sitting within CSS’s cascade.
@@ -237,10 +237,10 @@ But that’s just a quick example, you could use it for animations, transitions,
 
 ## Video list
 
-- [CSS variables: making variables](https://www.youtube.com/watch?v=ylq9BR0lK70&list=PLWjCJDeWfDdcFjcJzZ8jEkIcQdzpV6AbJ&t=0s&index=2)
-- [CSS variables: using the cascade](https://www.youtube.com/watch?v=vIitq8IJbHY&list=PLWjCJDeWfDdcFjcJzZ8jEkIcQdzpV6AbJ&t=0s&index=3)
-- [CSS variables: inside media queries](https://www.youtube.com/watch?v=tDT7BGyPU2I&list=PLWjCJDeWfDdcFjcJzZ8jEkIcQdzpV6AbJ&t=0s&index=4)
-- [CSS variables: inside SVG spritesheets](https://www.youtube.com/watch?v=HmqCCHxVJyA&list=PLWjCJDeWfDdcFjcJzZ8jEkIcQdzpV6AbJ&t=0s&index=5)
+- [CSS variables: making variables](https://videos.learntheweb.courses/playlists/css-variables/#1-intro)
+- [CSS variables: using the cascade](https://videos.learntheweb.courses/playlists/css-variables/#2-cascade)
+- [CSS variables: inside media queries](https://videos.learntheweb.courses/playlists/css-variables/#3-mq)
+- [CSS variables: inside SVG spritesheets](https://videos.learntheweb.courses/playlists/css-variables/#4-svg)
 
 ## Supplemental links
 

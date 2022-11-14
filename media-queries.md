@@ -3,8 +3,8 @@ title: "Media queries"
 tags: "media query queries responsive web design em based larger screens adjustments"
 desc: "Understanding how to manipulate a website to display differently on different screen sizes."
 playlist: PLWjCJDeWfDdeinzeLY9NvJxOaCR_inrTI
-download: https://github.com/ltw-learn-the-web/media-queries-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/media-queries-code
+download: https://github.com/learn-the-web/media-queries-code/archive/master.zip
+github: https://github.com/learn-the-web/media-queries-code
 cheatsheet: screen-sizes-cheat-sheet
 extra_practice:
   week:

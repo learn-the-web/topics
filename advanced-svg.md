@@ -2,9 +2,9 @@
 title: "Advanced SVG"
 tags: "writing advance svg embedding html hover transition animation mask filter pattern text webfonts gradients icons symbols"
 desc: "Writing and using SVG in more complex scenarios with animations, transitions, and other effects."
-playlist: PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM
-download: https://github.com/ltw-learn-the-web/advanced-svg-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/advanced-svg-code
+playlist: advanced-svg
+download: https://github.com/learn-the-web/advanced-svg-code/archive/master.zip
+github: https://github.com/learn-the-web/advanced-svg-code
 cheatsheet: svg-cheat-sheet
 extra_practice:
   week:
@@ -594,22 +594,21 @@ If you are using the SVG `<text>` element inside your embedded SVG, but don’t 
 
 ## Video list
 
-1. [Advanced SVG: writing SVG code](https://www.youtube.com/watch?v=q_3Q9HHcXuA&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=1&t=68s)
-2. [Advanced SVG: optimizing & cleaning](https://www.youtube.com/watch?v=QgOWqHF6SYU&index=2&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM)
-3. [Advanced SVG: attributes & CSS](https://www.youtube.com/watch?v=EEtnu8OMD3o&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=3)
-4. [Advanced SVG: transitions](https://www.youtube.com/watch?v=vwIVdI3WMIc&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=4)
-5. [Advanced SVG: transform origin with pixels](https://www.youtube.com/watch?v=AcdOzdoB390&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=5)
-6. [Advanced SVG: animations](https://www.youtube.com/watch?v=8s70jpw5B5c&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=6)
-7. [Advanced SVG: masking images](https://www.youtube.com/watch?v=y8NvpFfdprM&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=7)
-8. [Advanced SVG: text & web fonts](https://www.youtube.com/watch?v=UKXRwuXd7rA&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=8)
-9. [Advanced SVG: masking text](https://www.youtube.com/watch?v=B5ol4ss-mi4&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=9)
-10. [Advanced SVG: gradients on text](https://www.youtube.com/watch?v=xgZkRVCS07Q&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=10)
-11. [Advanced SVG: textures on text](https://www.youtube.com/watch?v=lSNnVbfvJJ0&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=11)
-12. [Advanced SVG: icons](https://www.youtube.com/watch?v=EhNHe-f0LBI&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=12)
-13. [Advanced SVG: icon symbols](https://www.youtube.com/watch?v=BO13gECyiuE&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=13)
-14. [Advanced SVG: icon sprite sheets](https://www.youtube.com/watch?v=NI-qGP5m-6M&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM&index=14)
-15. [Advanced SVG: accessibility](https://www.youtube.com/watch?v=BieUh304KDA&index=15&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM)
-16. [<del>Advanced SVG: optimizing with SVGOMG</del>](https://www.youtube.com/watch?v=aVcs-zQ1q4U&index=16&list=PLWjCJDeWfDdeYtU0NMvYvfqqFA1Jsh3NM)
+1. [Advanced SVG: writing SVG code](https://videos.learntheweb.courses/playlists/advanced-svg/#1-writing-svg-code)
+2. [Advanced SVG: optimizing & cleaning](https://videos.learntheweb.courses/playlists/advanced-svg/#2-cleaning-svg-code)
+3. [Advanced SVG: attributes & CSS](https://videos.learntheweb.courses/playlists/advanced-svg/#3-svg-attributes-css-overwrite)
+4. [Advanced SVG: transitions](https://videos.learntheweb.courses/playlists/advanced-svg/#4-svg-transitions)
+5. [Advanced SVG: transform origin with pixels](https://videos.learntheweb.courses/playlists/advanced-svg/#5-svg-transform-origin)
+6. [Advanced SVG: animations](https://videos.learntheweb.courses/playlists/advanced-svg/#6-svg-animations)
+7. [Advanced SVG: masking images](https://videos.learntheweb.courses/playlists/advanced-svg/#7-masks)
+8. [Advanced SVG: text & web fonts](https://videos.learntheweb.courses/playlists/advanced-svg/#8-text)
+9. [Advanced SVG: masking text](https://videos.learntheweb.courses/playlists/advanced-svg/#9-text-mask)
+10. [Advanced SVG: gradients on text](https://videos.learntheweb.courses/playlists/advanced-svg/#10-text-gradient)
+11. [Advanced SVG: textures on text](https://videos.learntheweb.courses/playlists/advanced-svg/#11-text-texture)
+12. [Advanced SVG: icons](https://videos.learntheweb.courses/playlists/advanced-svg/#12-svg-icons)
+13. [Advanced SVG: icon symbols](https://videos.learntheweb.courses/playlists/advanced-svg/#13-svg-icon-symbols)
+14. [Advanced SVG: icon sprite sheets](https://videos.learntheweb.courses/playlists/advanced-svg/#14-svg-icons-sprite-sheet)
+15. [Advanced SVG: accessibility](https://videos.learntheweb.courses/playlists/advanced-svg/#15-accessibility)
 
 ## Supplemental links
 

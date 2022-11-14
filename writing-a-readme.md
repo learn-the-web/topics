@@ -3,8 +3,8 @@ title: "Writing a readme"
 tags: "writing project readme .md markdown commonmark github plain text"
 desc: "A quick overview of writing a helpful readme for your web project."
 playlist: PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_
-download: https://github.com/ltw-learn-the-web/writing-a-readme-samples/archive/master.zip
-github: https://github.com/ltw-learn-the-web/writing-a-readme-samples
+download: https://github.com/learn-the-web/writing-a-readme-samples/archive/master.zip
+github: https://github.com/learn-the-web/writing-a-readme-samples
 extra_practice:
   exercises:
     - title: "Pattern library README"

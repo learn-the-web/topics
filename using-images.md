@@ -3,8 +3,8 @@ title: "Using images"
 tags: "using images figures captions background foreground url aspect ratio size attachment repeat multiple linear radial repeating gradients sprites replacement hide text patterns border images"
 desc: "Different ways to use images in a website including foreground and background images."
 playlist: PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7
-download: https://github.com/ltw-learn-the-web/using-images-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/using-images-code
+download: https://github.com/learn-the-web/using-images-code/archive/master.zip
+github: https://github.com/learn-the-web/using-images-code
 cheatsheet: images-cheat-sheet
 extra_practice:
   week:

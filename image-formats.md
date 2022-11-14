@@ -3,8 +3,8 @@ title: "Images for the web"
 tags: "images web jpeg png svg gif saving exporting save for web compression smushing optimization performance speed filesize imageoptim alpha favicons download"
 desc: "What images formats can be used on the web and how to properly export them."
 playlist: PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph
-download: https://github.com/ltw-learn-the-web/image-formats-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/image-formats-code
+download: https://github.com/learn-the-web/image-formats-code/archive/master.zip
+github: https://github.com/learn-the-web/image-formats-code
 cheatsheet: images-cheat-sheet
 extra_practice:
   week:

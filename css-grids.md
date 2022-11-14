@@ -2,9 +2,9 @@
 title: "CSS grids"
 tags: "css advanced layout grids align content justify vertical units two dimensional"
 desc: "Explore the advanced CSS grid layout system that helps create complex full-page layouts for responsive websites."
-playlist: PLWjCJDeWfDdcvWL7lBKwB7P7vtL-02kiC
-download: https://github.com/ltw-learn-the-web/css-grids-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/css-grids-code
+playlist: css-grids
+download: https://github.com/learn-the-web/css-grids-code/archive/master.zip
+github: https://github.com/learn-the-web/css-grids-code
 cheatsheet: css-grid-cheat-sheet
 ---
 
@@ -464,13 +464,13 @@ When you’re in the Web Inspector—it shows a little “grid” button beside 
 
 ## Video list
 
-- [CSS grids: Setup](https://www.youtube.com/watch?v=FyIy_asBTQA&list=PLWjCJDeWfDdcvWL7lBKwB7P7vtL-02kiC&index=2&t=0s)
-- [CSS grids: Developer tools](https://www.youtube.com/watch?v=Y6klKXOCwVk&list=PLWjCJDeWfDdcvWL7lBKwB7P7vtL-02kiC&index=3&t=0s)
-- [CSS grids: Moving elements](https://www.youtube.com/watch?v=btu7eus_XzQ&list=PLWjCJDeWfDdcvWL7lBKwB7P7vtL-02kiC&index=4&t=0s)
-- [CSS grids: Grid areas](https://www.youtube.com/watch?v=NdLEWEzS1lQ&list=PLWjCJDeWfDdcvWL7lBKwB7P7vtL-02kiC&index=5&t=0s)
-- [CSS grids: Overlapping elements](https://www.youtube.com/watch?v=asF6BQIJHSo&list=PLWjCJDeWfDdcvWL7lBKwB7P7vtL-02kiC&index=6&t=0s)
-- [CSS grids: Media queries](https://www.youtube.com/watch?v=ekzpudeR1tc&list=PLWjCJDeWfDdcvWL7lBKwB7P7vtL-02kiC&index=7&t=0s)
-- [CSS grids: Auto-fit](https://www.youtube.com/watch?v=Xk200TIb6TA&list=PLWjCJDeWfDdcvWL7lBKwB7P7vtL-02kiC&index=8&t=0s)
+- [CSS grids: Setup](https://videos.learntheweb.courses/playlists/css-grids/#1-setup.mp4)
+- [CSS grids: Developer tools](https://videos.learntheweb.courses/playlists/css-grids/#2-dev-tools.mp4)
+- [CSS grids: Moving elements](https://videos.learntheweb.courses/playlists/css-grids/#3-moving.mp4)
+- [CSS grids: Grid areas](https://videos.learntheweb.courses/playlists/css-grids/#4-areas.mp4)
+- [CSS grids: Overlapping elements](https://videos.learntheweb.courses/playlists/css-grids/#5-overlapping.mp4)
+- [CSS grids: Media queries](https://videos.learntheweb.courses/playlists/css-grids/#6-media-queries.mp4)
+- [CSS grids: Auto-fit](https://videos.learntheweb.courses/playlists/css-grids/#7-auto-fit.mp4)
 
 ## Supplemental links
 

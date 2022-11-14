@@ -3,8 +3,8 @@ title: "Flow & display"
 tags: "browser flow layout display inline block hiding elements tags centering horizontal stacked flexbox"
 desc: "Understanding and using the flow system that a browser uses to lay out a website."
 playlist: PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG
-download: https://github.com/ltw-learn-the-web/flow-display-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/flow-display-code
+download: https://github.com/learn-the-web/flow-display-code/archive/master.zip
+github: https://github.com/learn-the-web/flow-display-code
 cheatsheet: css-layout-cheat-sheet
 extra_practice:
   week:

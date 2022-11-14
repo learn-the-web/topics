@@ -3,8 +3,8 @@ title: "Modules"
 tags: "modules object oriented css reuse list group buttons icons media object embed containers bem smacss oocss"
 desc: "Abstractions for common website patterns that can be reused in many situations."
 playlist: PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa
-download: https://github.com/ltw-learn-the-web/modules-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/modules-code
+download: https://github.com/learn-the-web/modules-code/archive/master.zip
+github: https://github.com/learn-the-web/modules-code
 cheatsheet: modulifier-cheat-sheet
 tool:
   name: Modulifier

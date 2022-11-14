@@ -3,8 +3,8 @@ title: "Progressive enhancement"
 tags: "progressive enhancement graceful degradation internet web download failure older browser testing user font size print disabled"
 desc: "Looking at how the web is not within our control and how we can make our websites work."
 playlist: PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ
-download: https://github.com/ltw-learn-the-web/progressive-enhancement-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/progressive-enhancement-code
+download: https://github.com/learn-the-web/progressive-enhancement-code/archive/master.zip
+github: https://github.com/learn-the-web/progressive-enhancement-code
 extra_practice:
   week:
     title: "Web Dev 5, Week 13"
@@ -246,7 +246,7 @@ We don’t need to have the ARIA attributes on the default non-JS version becaus
 
 - [See working progressively enhanced tabs.](https://demos.learntheweb.courses/progressive-enhancement/tabs.html)
   *Make sure to test with JavaScript turned off.*
-- [Browse commented progressively enhancement tabs code.](https://github.com/ltw-learn-the-web/progressive-enhancement-code/blob/gh-pages/js/tabs.js)
+- [Browse commented progressively enhancement tabs code.](https://github.com/learn-the-web/progressive-enhancement-code/blob/gh-pages/js/tabs.js)
 
 ---
 

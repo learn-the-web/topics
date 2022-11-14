@@ -3,8 +3,8 @@ title: "Pattern libraries"
 tags: "css style guides pattern library libraries templates themes tiles components modules systems mood boards"
 desc: "A quick tutorial on making pattern libraries & component systems for websites with a bunch of helpful links."
 playlist: PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0
-download: https://github.com/ltw-learn-the-web/jekyll-patternbot-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/jekyll-patternbot-code/
+download: https://github.com/learn-the-web/jekyll-patternbot-code/archive/master.zip
+github: https://github.com/learn-the-web/jekyll-patternbot-code/
 livewebsite: https://stoic-engelbart-a37d1e.netlify.com/pattern-library/
 cheatsheet: pattern-library-cheat-sheet
 ---

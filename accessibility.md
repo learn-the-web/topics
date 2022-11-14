@@ -2,9 +2,9 @@
 title: "Accessibility"
 tags: "accessibility humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers VoiceOver braille"
 desc: "Making our website work well for every human being regardless of their abilities."
-playlist: PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7
-download: https://github.com/ltw-learn-the-web/accessibility-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/accessibility-code
+playlist: accessibility
+download: https://github.com/learn-the-web/accessibility-code/archive/master.zip
+github: https://github.com/learn-the-web/accessibility-code
 cheatsheet: accessibility-cheat-sheet
 checklist: accessibility-checklist
 extra_practice:
@@ -175,14 +175,14 @@ Here’s some shortcut keys for using VoiceOver:
 
 ## Video list
 
-1. [Accessibility: ARIA landmark roles](https://www.youtube.com/watch?v=o4xHfi4t9S0&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=1)
-2. [Accessibility: labeling links](https://www.youtube.com/watch?v=QLfn-uABjuU&index=2&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7)
-3. [Accessibility: extended descriptions for images](https://www.youtube.com/watch?v=JhcqN5fDy8k&index=3&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7)
-4. [Accessibility: focus styles](https://www.youtube.com/watch?v=js9yaVtV04E&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=4)
-5. [Accessibility: skip links](https://www.youtube.com/watch?v=UnEItq289lU&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=5)
-6. [Accessibility: tools to help find issues](https://www.youtube.com/watch?v=xpqPctbDhnc&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=6)
-7. [Accessibility: validators](https://www.youtube.com/watch?v=FOVKDAt8-oI&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=7)
-8. [Accessibility: VoiceOver](https://www.youtube.com/watch?v=G-EsQ_VHtVM&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=8)
+1. [Accessibility: ARIA landmark roles](https://videos.learntheweb.courses/playlists/accessibility/#1-aria-roles)
+2. [Accessibility: labeling links](https://videos.learntheweb.courses/playlists/accessibility/#2-aria-label)
+3. [Accessibility: extended descriptions for images](https://videos.learntheweb.courses/playlists/accessibility/#3-aria-describedat)
+4. [Accessibility: focus styles](https://videos.learntheweb.courses/playlists/accessibility/#4-focus-styles)
+5. [Accessibility: skip links](https://videos.learntheweb.courses/playlists/accessibility/#5-skip-links)
+6. [Accessibility: tools to help find issues](https://videos.learntheweb.courses/playlists/accessibility/#6-tools)
+7. [Accessibility: validators](https://videos.learntheweb.courses/playlists/accessibility/#7-validators)
+8. [Accessibility: VoiceOver](https://videos.learntheweb.courses/playlists/accessibility/#8-voiceover)
 
 ## Supplemental links
 

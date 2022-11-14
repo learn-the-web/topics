@@ -3,8 +3,8 @@ title: "Flexbox"
 tags: "css advanced layout flexbox align content justify vertical"
 desc: "Learn how to use the flexbox layout system to create more advanced layouts with columns and alignments."
 playlist: PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq
-download: https://github.com/ltw-learn-the-web/flexbox/archive/master.zip
-github: https://github.com/ltw-learn-the-web/flexbox
+download: https://github.com/learn-the-web/flexbox/archive/master.zip
+github: https://github.com/learn-the-web/flexbox
 cheatsheet: flexbox-cheat-sheet
 extra_practice:
   week:

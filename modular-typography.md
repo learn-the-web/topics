@@ -3,8 +3,8 @@ title: "Modular typography"
 tags: "modular typography baseline vertical rhythm gutter island push pad kilo mega giga tera yotta zetta"
 desc: "Creating and using a modular typography system on a website for consistent alignment."
 playlist: PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l
-download: https://github.com/ltw-learn-the-web/modular-typography-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/modular-typography-code
+download: https://github.com/learn-the-web/modular-typography-code/archive/master.zip
+github: https://github.com/learn-the-web/modular-typography-code
 cheatsheet: typografier-cheat-sheet
 tool:
   name: Typografier
@@ -303,7 +303,7 @@ A few of the most common ones are:
 
 When starting a new website it’s best to first consider the typography. I generally like to style all the typography related elements to create a mini styleguide.
 
-**[See some sample HTML for a type style guide.](https://github.com/ltw-learn-the-web/modular-typography-code/blob/master/type-styleguide.html)**
+**[See some sample HTML for a type style guide.](https://github.com/learn-the-web/modular-typography-code/blob/master/type-styleguide.html)**
 
 **Sample styleguides**
 

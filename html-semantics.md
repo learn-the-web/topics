@@ -3,8 +3,8 @@ title: "HTML semantics"
 tags: "html semantics meaning purpose tags elements syntax document body head setup headings paragraphs unordered ordered lists internal jump links images figures captions break horizontal rule"
 desc: "Writing HTML by choosing the most appropriate tag for the content."
 playlist: PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1
-download: https://github.com/ltw-learn-the-web/html-semantics-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/html-semantics-code
+download: https://github.com/learn-the-web/html-semantics-code/archive/master.zip
+github: https://github.com/learn-the-web/html-semantics-code
 cheatsheet: html-semantics-cheat-sheet
 checklist: html-semantics-checklist
 extra_practice:

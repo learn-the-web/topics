@@ -2,8 +2,8 @@
 title: "Staying up to date"
 tags: "up to date feeds email newsletters blogs tutorials rss save for later bookmarks twitter"
 desc: "How to keep your knowledge current with feeds, newsletters, and blogs."
-download: https://github.com/ltw-learn-the-web/staying-up-to-date-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/staying-up-to-date-code
+download: https://github.com/learn-the-web/staying-up-to-date-code/archive/master.zip
+github: https://github.com/learn-the-web/staying-up-to-date-code
 ---
 
 When it comes to web development things change quickly—extremely quickly.
@@ -43,7 +43,7 @@ I use the web application as a syncing system for the applications, and the appl
 
 Linked below is a starting list of websites to subscribe to—I’ve culled through my list and picked the most appropriate feeds for web and graphic designers.
 
-[**⬇ Download feed list**](https://github.com/ltw-learn-the-web/staying-up-to-date-code/archive/master.zip)
+[**⬇ Download feed list**](https://github.com/learn-the-web/staying-up-to-date-code/archive/master.zip)
 
 *You can import this list into any feed reader application you choose.*
 

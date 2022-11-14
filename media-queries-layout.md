@@ -3,8 +3,8 @@ title: "Media queries layout"
 tags: "full website media queries responsive web design em screens adjustments"
 desc: "Creating a full, multi-screen website using media queries."
 playlist: PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7
-download: https://github.com/ltw-learn-the-web/media-queries-layout-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/media-queries-layout-code
+download: https://github.com/learn-the-web/media-queries-layout-code/archive/master.zip
+github: https://github.com/learn-the-web/media-queries-layout-code
 livewebsite: media-queries-layout
 alert: |
   This tutorial uses some outdated code, specifically `float`, using flexbox or grids would be a better, more up-to-date solution to the layouts.

@@ -3,8 +3,8 @@ title: "Before & after pseudo elements"
 tags: "before after pseudo elements content hidden bullets quotations marks clearfix border box "
 desc: "Understanding the hidden before and after pseudo elements, how to style them, and what they’re helpful for."
 playlist: PLWjCJDeWfDddMjtm6wwgpUMYZZC0I9xZz
-download: https://github.com/ltw-learn-the-web/before-after-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/before-after-code
+download: https://github.com/learn-the-web/before-after-code/archive/master.zip
+github: https://github.com/learn-the-web/before-after-code
 ---
 
 Every HTML element in the code is actually composed of 3 separate elements—two of them are just hidden by default.
@@ -170,10 +170,10 @@ blockquote::after {
 
 ## Video list
 
-1. [Before & after: the hidden elements](https://www.youtube.com/watch?v=hv2j8NZRCzo&index=1&list=PLWjCJDeWfDddMjtm6wwgpUMYZZC0I9xZz)
-2. [Before & after: custom bullets](https://www.youtube.com/watch?v=BmMj3ss2tY8&index=2&list=PLWjCJDeWfDddMjtm6wwgpUMYZZC0I9xZz)
-3. [Before & after: quotation marks](https://www.youtube.com/watch?v=H47TgxyBnAU&index=3&list=PLWjCJDeWfDddMjtm6wwgpUMYZZC0I9xZz)
-4. [Before & after: decorations](https://www.youtube.com/watch?v=WiaIBC7xszw&index=4&list=PLWjCJDeWfDddMjtm6wwgpUMYZZC0I9xZz)
+1. [Before & after: the hidden elements](https://videos.learntheweb.courses/playlists/before-after/#1-intro)
+2. [Before & after: custom bullets](https://videos.learntheweb.courses/playlists/before-after/#2-custom-bullets)
+3. [Before & after: quotation marks](https://videos.learntheweb.courses/playlists/before-after/#3-quote-marks)
+4. [Before & after: decorations](https://videos.learntheweb.courses/playlists/before-after/#4-decorations)
 
 ## Supplemental links
 

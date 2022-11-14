@@ -5,8 +5,8 @@ desc: "Making our content work well for every human being regardless of their ab
 cheatsheet: accessibility-cheat-sheet
 checklist: accessibility-checklist
 playlist: PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm
-download: https://github.com/ltw-learn-the-web/accessibility-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/accessibility-code
+download: https://github.com/learn-the-web/accessibility-code/archive/master.zip
+github: https://github.com/learn-the-web/accessibility-code
 ---
 
 So much of the Web is made up of content & text. We need to work to help that content & text be available and accessible to all humans to use our website. With a few key considerations the text can work for everbody.

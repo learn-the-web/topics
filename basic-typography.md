@@ -2,9 +2,9 @@
 title: "Basic typography"
 tags: "typography styling font family weight style bold italic size line-height text decoration transform uppercase lowercase align center right left indent shadow rems px links colour list style type web fonts custom fonts google"
 desc: "Understanding how to style and format text on a website."
-playlist: PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG
-download: https://github.com/ltw-learn-the-web/basic-typography-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/basic-typography-code
+playlist: basic-typography
+download: https://github.com/learn-the-web/basic-typography-code/archive/master.zip
+github: https://github.com/learn-the-web/basic-typography-code
 cheatsheet: web-typography-cheat-sheet
 extra_practice:
   week:
@@ -263,14 +263,14 @@ There are lots of different services for Web Fonts—Google Fonts is a simple on
 
 ## Video list
 
-1. [Basic typography: family and size](https://www.youtube.com/watch?v=BuL2GjDx9fA&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=1)
-2. [Basic typography: weight, style, line height](https://www.youtube.com/watch?v=eirNBsaxLZ8&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=2)
-3. [Basic typography: font shorthand](https://www.youtube.com/watch?v=sas2NtB4FQo&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=3)
-4. [Basic typography: rem vs. em vs. px](https://www.youtube.com/watch?v=vy-lRUMpEOs&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=4)
-5. [Basic typography: decorative text](https://www.youtube.com/watch?v=JO6J2ta9isE&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=5)
-6. [Basic typography: styling links](https://www.youtube.com/watch?v=8JKPUPSJ-G8&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=6)
-7. [Basic typography: styling lists](https://www.youtube.com/watch?v=gYZ2jflYozI&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=7)
-8. [Basic typography: custom typefaces with web fonts](https://www.youtube.com/watch?v=JuwYg_54b6c&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=8)
+1. [Basic typography: family and size](https://videos.learntheweb.courses/playlists/basic-typopgrahy/#1-font-family-size)
+2. [Basic typography: weight, style, line height](https://videos.learntheweb.courses/playlists/basic-typopgrahy/#2-font-weight-style-line-height)
+3. [Basic typography: font shorthand](https://videos.learntheweb.courses/playlists/basic-typopgrahy/#3-font-shorthand)
+4. [Basic typography: rem vs. em vs. px](https://videos.learntheweb.courses/playlists/basic-typopgrahy/#4-rem-em-px)
+5. [Basic typography: decorative text](https://videos.learntheweb.courses/playlists/basic-typopgrahy/#5-text-shadow-decoration-transform)
+6. [Basic typography: styling links](https://videos.learntheweb.courses/playlists/basic-typopgrahy/#6-links)
+7. [Basic typography: styling lists](https://videos.learntheweb.courses/playlists/basic-typopgrahy/#7-lists)
+8. [Basic typography: custom typefaces with web fonts](https://videos.learntheweb.courses/playlists/basic-typopgrahy/#8-web-fonts)
 
 ## Supplemental links
 

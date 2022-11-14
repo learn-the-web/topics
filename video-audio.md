@@ -3,8 +3,8 @@ title: "Video & audio"
 tags: "video audio web tag element export save formats hover source mp4 webm ogg mp3"
 desc: "Using video & audio on websites and how to properly export the files."
 playlist: PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5
-download: https://github.com/ltw-learn-the-web/video-audio-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/video-audio-code
+download: https://github.com/learn-the-web/video-audio-code/archive/master.zip
+github: https://github.com/learn-the-web/video-audio-code
 extra_practice:
   week:
     title: "Web Dev 5, Week 08"

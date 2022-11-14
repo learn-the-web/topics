@@ -5,8 +5,8 @@ desc: "Making our website design work well for every human being regardless of t
 cheatsheet: accessibility-cheat-sheet
 checklist: accessibility-checklist
 playlist: PLWjCJDeWfDdfiCvl5eMR7xZt85dMiOzzF
-download: https://github.com/ltw-learn-the-web/accessibility-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/accessibility-code
+download: https://github.com/learn-the-web/accessibility-code/archive/master.zip
+github: https://github.com/learn-the-web/accessibility-code
 ---
 
 Accessibility is important: not only because its the law, but because we care. Not everybody access The Web or uses computers the same way you do. We don’t want the thing we create to prevent them from completing their task.

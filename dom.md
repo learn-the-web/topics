@@ -3,8 +3,8 @@ title: "Document object model (DOM)"
 tags: "javascript html elements tags manipulate document object model jquery events click propagation delegation classes forms html"
 desc: "Understanding how JavaScript interfaces and manipulates with HTML."
 playlist: PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y
-download: https://github.com/ltw-learn-the-web/dom-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/dom-code
+download: https://github.com/learn-the-web/dom-code/archive/master.zip
+github: https://github.com/learn-the-web/dom-code
 cheatsheet: javascript-cheat-sheet
 checklist: javascript-checklist
 ---

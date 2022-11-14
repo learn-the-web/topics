@@ -3,8 +3,8 @@ title: "Metadata & enhanced semantics"
 tags: "metadata enhanced semantics structured rich snippets search engine optimization microdata microformats rdfa schema org social semantics facebook twitter pinterest open graph"
 desc: "Extra semantics for website to help with SEO and display properly in social media platforms."
 playlist: PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx
-download: https://github.com/ltw-learn-the-web/metadata-enhanced-semantics-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/metadata-enhanced-semantics-code
+download: https://github.com/learn-the-web/metadata-enhanced-semantics-code/archive/master.zip
+github: https://github.com/learn-the-web/metadata-enhanced-semantics-code
 checklist: seo-checklist
 cheatsheet: seo-cheat-sheet
 extra_practice:
@@ -71,7 +71,7 @@ There are a few attributes to understand form the Microdata specification:
 - `itemscope` — defines the HTML element that surrounds all the content related to the item.
 - `itemprop` — defines a single piece on content for the item.
 
-**[☛ Browse the code to see a recipe.](https://github.com/ltw-learn-the-web/metadata-enhanced-semantics-code)**
+**[☛ Browse the code to see a recipe.](https://github.com/learn-the-web/metadata-enhanced-semantics-code)**
 
 **Links**
 

@@ -3,8 +3,8 @@ title: "Tables"
 tags: "table chart cells rows columns headings border captions"
 desc: "Creating tables and charts on a website for displaying data."
 playlist: PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR
-download: https://github.com/ltw-learn-the-web/tables-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/tables-code
+download: https://github.com/learn-the-web/tables-code/archive/master.zip
+github: https://github.com/learn-the-web/tables-code
 cheatsheet: tables-cheat-sheet
 extra_practice:
   week:

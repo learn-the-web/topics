@@ -2,9 +2,9 @@
 title: "Everything is a box"
 tags: "box model width height margin padding border collapsing box background colour radius shadow"
 desc: "Understanding that everything in a website is a box and how to manipulate that box."
-playlist: PLWjCJDeWfDdeEM254gHVHz26yswh59Hih
-download: https://github.com/ltw-learn-the-web/box-model-code/archive/master.zip
-github: https://github.com/ltw-learn-the-web/box-model-code
+playlist: box-model
+download: https://github.com/learn-the-web/box-model-code/archive/master.zip
+github: https://github.com/learn-the-web/box-model-code
 cheatsheet: boxes-borders-cheat-sheet
 extra_practice:
   slides:
@@ -334,11 +334,11 @@ div {
 
 ## Video list
 
-1. [Box model: margin & padding](https://www.youtube.com/watch?v=1PxUbAFQKoY&index=1&list=PLWjCJDeWfDdeEM254gHVHz26yswh59Hih)
-2. [Box model: collapsing top & bottom margins](https://www.youtube.com/watch?v=4nGZ8OULcY0&index=2&list=PLWjCJDeWfDdeEM254gHVHz26yswh59Hih)
-3. [Box model: width and height](https://www.youtube.com/watch?v=VEWSy3Gjybo&index=3&list=PLWjCJDeWfDdeEM254gHVHz26yswh59Hih)
-4. [Box model: adjusting layout math with border box](https://www.youtube.com/watch?v=jG9sDpBJfqY&index=4&list=PLWjCJDeWfDdeEM254gHVHz26yswh59Hih)
-5. [Box model: box decorations](https://www.youtube.com/watch?v=MGCbRH8gpQ0&index=5&list=PLWjCJDeWfDdeEM254gHVHz26yswh59Hih)
+1. [Box model: margin & padding](https://videos.learntheweb.courses/playlists/box-model/#1-margin-padding)
+2. [Box model: collapsing top & bottom margins](https://videos.learntheweb.courses/playlists/box-model/#2-margin-collapse)
+3. [Box model: width and height](https://videos.learntheweb.courses/playlists/box-model/#3-width-height)
+4. [Box model: adjusting layout math with border box](https://videos.learntheweb.courses/playlists/box-model/#4-border-box)
+5. [Box model: box decorations](https://videos.learntheweb.courses/playlists/box-model/#5-border-box-shadow)
 
 ## Supplemental links
 

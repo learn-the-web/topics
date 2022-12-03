@@ -2,9 +2,9 @@
 title: "Content accessibility"
 tags: "accessibility humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers VoiceOver braille"
 desc: "Making our content work well for every human being regardless of their abilities."
+playlist: content-accessibility
 cheatsheet: accessibility-cheat-sheet
 checklist: accessibility-checklist
-playlist: PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm
 download: https://github.com/learn-the-web/accessibility-code/archive/master.zip
 github: https://github.com/learn-the-web/accessibility-code
 ---
@@ -368,8 +368,8 @@ Screen readers might say:
 
 ## Video list
 
-1. [Content accessibility: ARIA landmark roles](https://www.youtube.com/watch?v=o4xHfi4t9S0&list=PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm&index=2&t=0s)
-1. [Content accessibility: labeling links](https://www.youtube.com/watch?v=QLfn-uABjuU&list=PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm&index=3&t=44s)
-1. [Content accessibility: extended descriptions for images](https://www.youtube.com/watch?v=JhcqN5fDy8k&list=PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm&index=4&t=0s)
-1. [Content accessibility: validators](https://www.youtube.com/watch?v=FOVKDAt8-oI&list=PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm&index=5&t=0s)
-1. [Content accessibility: VoiceOver](https://www.youtube.com/watch?v=G-EsQ_VHtVM&list=PLWjCJDeWfDdel1BwdvxtNH-HCPOIO4lnm&index=6&t=0s)
+1. [Content accessibility: ARIA landmark roles](https://videos.learntheweb.courses/playlists/content-accessibility#1-aria-roles)
+1. [Content accessibility: Labeling links](https://videos.learntheweb.courses/playlists/content-accessibility#2-aria-label)
+1. [Content accessibility: Extended descriptions for images](https://videos.learntheweb.courses/playlists/content-accessibility#3-aria-describedat)
+1. [Content accessibility: Validators](https://videos.learntheweb.courses/playlists/content-accessibility#4-validators)
+1. [Content accessibility: VoiceOver](https://videos.learntheweb.courses/playlists/content-accessibility#5-voiceover)

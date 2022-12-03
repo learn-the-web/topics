@@ -703,18 +703,19 @@ This will fade between grey-scale and colour and adjust the contrast over `.3s` 
 
 ## Video list
 
-1. [Animations & effects: basic transitions](https://videos.learntheweb.courses/playlists/animations-effects/#1-basic-transitions)
-2. [Animations & effects: target](https://videos.learntheweb.courses/playlists/animations-effects/#2-traget)
-3. [Animations & effects: transforms](https://videos.learntheweb.courses/playlists/animations-effects/#3-transforms)
-4. [Animations & effects: sliding caption](https://videos.learntheweb.courses/playlists/animations-effects/#4-figure-caption)
-5. [Animations & effects: hover box](https://videos.learntheweb.courses/playlists/animations-effects/#5-hover-box)
-6. [Animations & effects: basic animations](https://videos.learntheweb.courses/playlists/animations-effects/#6-basic-animations)
-7. [Animations & effects: keyframe-based animations](https://videos.learntheweb.courses/playlists/animations-effects/#7-keyframes)
-8. [Animations & effects: sprite-based animations](https://videos.learntheweb.courses/playlists/animations-effects/#8-steps)
-9. [Animations & effects: vendor prefixes](https://videos.learntheweb.courses/playlists/animations-effects/#9-vendor-prefixes)
-10. [Animations & effects: hero banner](https://videos.learntheweb.courses/playlists/animations-effects/#10-hero-banner)
-11. [Animations & effects: parallax](https://videos.learntheweb.courses/playlists/animations-effects/#12-filters)
-12. [Animations & effects: CSS filters](https://videos.learntheweb.courses/playlists/animations-effects/#13-a11y-effects)
+1. [Animations & effects: Basic transitions](https://videos.learntheweb.courses/playlists/animations-effects/#1-basic-transitions)
+2. [Animations & effects: Target](https://videos.learntheweb.courses/playlists/animations-effects/#2-traget)
+3. [Animations & effects: Transforms](https://videos.learntheweb.courses/playlists/animations-effects/#3-transforms)
+4. [Animations & effects: Sliding caption](https://videos.learntheweb.courses/playlists/animations-effects/#4-figure-caption)
+5. [Animations & effects: Hover box](https://videos.learntheweb.courses/playlists/animations-effects/#5-hover-box)
+6. [Animations & effects: Basic animations](https://videos.learntheweb.courses/playlists/animations-effects/#6-basic-animations)
+7. [Animations & effects: Keyframe-based animations](https://videos.learntheweb.courses/playlists/animations-effects/#7-keyframes)
+8. [Animations & effects: Sprite-based animations](https://videos.learntheweb.courses/playlists/animations-effects/#8-steps)
+9. [Animations & effects: Vendor prefixes](https://videos.learntheweb.courses/playlists/animations-effects/#9-vendor-prefixes)
+10. [Animations & effects: Hero banner](https://videos.learntheweb.courses/playlists/animations-effects/#10-hero-banner)
+11. [Animations & effects: Parallax](https://videos.learntheweb.courses/playlists/animations-effects/#11-parallax)
+12. [Animations & effects: CSS filters](https://videos.learntheweb.courses/playlists/animations-effects/#12-filters)
+12. [Animations & effects: Accessibility](https://videos.learntheweb.courses/playlists/animations-effects/#13-a11y-effects)
 
 ## Supplemental links
 

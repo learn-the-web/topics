@@ -464,13 +464,13 @@ When you’re in the Web Inspector—it shows a little “grid” button beside 
 
 ## Video list
 
-- [CSS grids: Setup](https://videos.learntheweb.courses/playlists/css-grids/#1-setup.mp4)
-- [CSS grids: Developer tools](https://videos.learntheweb.courses/playlists/css-grids/#2-dev-tools.mp4)
-- [CSS grids: Moving elements](https://videos.learntheweb.courses/playlists/css-grids/#3-moving.mp4)
-- [CSS grids: Grid areas](https://videos.learntheweb.courses/playlists/css-grids/#4-areas.mp4)
-- [CSS grids: Overlapping elements](https://videos.learntheweb.courses/playlists/css-grids/#5-overlapping.mp4)
-- [CSS grids: Media queries](https://videos.learntheweb.courses/playlists/css-grids/#6-media-queries.mp4)
-- [CSS grids: Auto-fit](https://videos.learntheweb.courses/playlists/css-grids/#7-auto-fit.mp4)
+- [CSS grids: Setup](https://videos.learntheweb.courses/playlists/css-grids/#1-setup)
+- [CSS grids: Developer tools](https://videos.learntheweb.courses/playlists/css-grids/#2-dev-tools)
+- [CSS grids: Moving elements](https://videos.learntheweb.courses/playlists/css-grids/#3-moving)
+- [CSS grids: Grid areas](https://videos.learntheweb.courses/playlists/css-grids/#4-areas)
+- [CSS grids: Overlapping elements](https://videos.learntheweb.courses/playlists/css-grids/#5-overlapping)
+- [CSS grids: Media queries](https://videos.learntheweb.courses/playlists/css-grids/#6-media-queries)
+- [CSS grids: Auto-fit](https://videos.learntheweb.courses/playlists/css-grids/#7-auto-fit)
 
 ## Supplemental links
 

@@ -2,7 +2,7 @@
 title: "Flow & display"
 tags: "browser flow layout display inline block hiding elements tags centering horizontal stacked flexbox"
 desc: "Understanding and using the flow system that a browser uses to lay out a website."
-playlist: PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG
+playlist: flow-display
 download: https://github.com/learn-the-web/flow-display-code/archive/master.zip
 github: https://github.com/learn-the-web/flow-display-code
 cheatsheet: css-layout-cheat-sheet
@@ -281,10 +281,10 @@ With flexbox you can do lots of different centering and alignment like things. I
 
 ## Video list
 
-1. [Flow & display: introduction](https://www.youtube.com/watch?v=FwQo2P7L9bw&list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG&index=1)
-2. [Flow & display: details list](https://www.youtube.com/watch?v=-HeiRd22Tcg&list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG&index=2)
-3. [Flow & display: horizontal navigation](https://www.youtube.com/watch?v=sxO32mTbfUo&list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG&index=3)
-4. [Flow & display: centering elements](https://www.youtube.com/watch?v=QA5CiOm92Qg&list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG&index=4)
+1. [Flow & display: Introduction](https://videos.learntheweb.courses/playlists/flow-display/#1-flow-display)
+2. [Flow & display: Details list](https://videos.learntheweb.courses/playlists/flow-display/#2-details-list)
+3. [Flow & display: Horizontal navigation](https://videos.learntheweb.courses/playlists/flow-display/#3-horizontal-nav)
+4. [Flow & display: Centering elements](https://videos.learntheweb.courses/playlists/flow-display/#4-centering)
 
 ## Supplemental links
 

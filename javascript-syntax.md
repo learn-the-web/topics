@@ -2,7 +2,7 @@
 title: "JavaScript syntax"
 tags: "javascript introduction syntax flow comments variables strings numbers booleans arrays objects functions arguments if statement for while foreach loops switch debugging"
 desc: "Looking at understanding how to write JavaScript code."
-playlist: PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU
+playlist: javascript-syntax
 download: https://github.com/learn-the-web/javascript-intro-code/archive/master.zip
 github: https://github.com/learn-the-web/javascript-intro-code
 cheatsheet: javascript-cheat-sheet
@@ -739,17 +739,17 @@ In JavaScript, not all instructions require a semicolon (;) at the end of the st
 
 ## Video list
 
-1. [JavaScript: introduction](https://www.youtube.com/watch?v=j2ppuBwAATg&index=1&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-2. [JavaScript: program flow](https://www.youtube.com/watch?v=WxRwf5KvNVI&index=2&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-3. [JavaScript: variables & strings](https://www.youtube.com/watch?v=czTWbdwbt7E&index=3&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-4. [JavaScript: numbers](https://www.youtube.com/watch?v=LLAd7PybpdQ&index=4&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-5. [JavaScript: boolean datatypes](https://www.youtube.com/watch?v=tScxERK1fMY&index=5&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-6. [JavaScript: if-statements & boolean logic](https://www.youtube.com/watch?v=4lATbwt87Cs&index=6&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-7. [JavaScript: loops](https://www.youtube.com/watch?v=ClT5XRDOEIY&index=7&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-8. [JavaScript: functions](https://www.youtube.com/watch?v=-o4NCu7v4Ug&index=8&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-9. [JavaScript: arrays](https://www.youtube.com/watch?v=ENU7mdIlCFA&index=9&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-10. [JavaScript: objects](https://www.youtube.com/watch?v=3otasvikEls&index=10&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
-11. [JavaScript: string manipulation](https://www.youtube.com/watch?v=XGo2qjc9acU&index=11&list=PLWjCJDeWfDdcKlUX7kWCdphdZkSOOlOFU)
+1. [JavaScript: Introduction](https://videos.learntheweb.courses/playlists/javascript-syntax/#1-intro-connect)
+2. [JavaScript: Program flow](https://videos.learntheweb.courses/playlists/javascript-syntax/#2-program-flow)
+3. [JavaScript: Variables & strings](https://videos.learntheweb.courses/playlists/javascript-syntax/#3-variables-strings)
+4. [JavaScript: Numbers](https://videos.learntheweb.courses/playlists/javascript-syntax/#4-numbers)
+5. [JavaScript: Boolean datatypes](https://videos.learntheweb.courses/playlists/javascript-syntax/#5-boolean)
+6. [JavaScript: If-statements & boolean logic](https://videos.learntheweb.courses/playlists/javascript-syntax/#6-if-statements)
+7. [JavaScript: Loops](https://videos.learntheweb.courses/playlists/javascript-syntax/#7-loops)
+8. [JavaScript: Functions](https://videos.learntheweb.courses/playlists/javascript-syntax/#8-functions)
+9. [JavaScript: Arrays](https://videos.learntheweb.courses/playlists/javascript-syntax/#9-arrays)
+10. [JavaScript: Objects](https://videos.learntheweb.courses/playlists/javascript-syntax/#10-objects)
+11. [JavaScript: String manipulation](https://videos.learntheweb.courses/playlists/javascript-syntax/#11-string-manipulation)
 
 ## Supplemental links
 

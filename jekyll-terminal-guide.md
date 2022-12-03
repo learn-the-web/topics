@@ -2,7 +2,8 @@
 title: "Jekyll terminal guide"
 tags: "jekyll terminal command line serve watch base url"
 desc: "A guide to Jekyll’s terminal commands on your Mac."
-video: Vvh-PWMOf4g
+playlist: jekyll
+video: 5-jekyll-start-stop
 ---
 
 Jekyll is a command line tool so we have to use the Terminal application on our computer to start, stop, and run Jekyll.
@@ -55,4 +56,4 @@ In Terminal, you can press the following shortcut key: `Control+C`
 
 ## Video list
 
-- [Jekyll: starting and stopping](https://www.youtube.com/watch?v=Vvh-PWMOf4g&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-&index=4)
+- [Jekyll: Starting and stopping](https://videos.learntheweb.courses/playlists/jekyll/#5-jekyll-start-stop)

@@ -2,7 +2,7 @@
 title: "Modules"
 tags: "modules object oriented css reuse list group buttons icons media object embed containers bem smacss oocss"
 desc: "Abstractions for common website patterns that can be reused in many situations."
-playlist: PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa
+playlist: modules
 download: https://github.com/learn-the-web/modules-code/archive/master.zip
 github: https://github.com/learn-the-web/modules-code
 cheatsheet: modulifier-cheat-sheet
@@ -200,19 +200,19 @@ You probably don’t want to write all these same CSS patterns, or try and find 
 
 ## Video list
 
-1. [Modules: list group](https://www.youtube.com/watch?v=Kcd1742iCVA&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=1)
-2. [Modules: buttons](https://www.youtube.com/watch?v=u4yYGmI2-Qk&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=2)
-3. [Modules: making modular icons](https://www.youtube.com/watch?v=s8198ThMOgA&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=6)
-4. [Modules: combining the icons and the list group](https://www.youtube.com/watch?v=zfUErXraYCc&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=7)
-5. [Modules: icon image replacement](https://www.youtube.com/watch?v=bv6OQ6X5xWY&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=8)
-6. [Modules: media object](https://www.youtube.com/watch?v=bE0VpK1SjUc&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=3)
-7. [Modules: combining the media object and the list group](https://www.youtube.com/watch?v=V4QQFVa2Dok&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=4)
-8. [Modules: media object alternatives](https://www.youtube.com/watch?v=TTTrGPlIBJ8&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=5)
-9. [Modules: embed containers](https://www.youtube.com/watch?v=UQLq8w_gOv0&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=10)
-10. [Modules: embedding videos responsively](https://www.youtube.com/watch?v=noEcV1AFY-g&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=11)
-11. [Modules: embed containers with figures](https://www.youtube.com/watch?v=9tbM8i9K6lw&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=12)
-12. [Modules: combining buttons with modular typography](https://www.youtube.com/watch?v=z01-pDAd0HA&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=13)
-13. [Modules: using Modulifier](https://www.youtube.com/watch?v=LJ5wz0dPis0&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=13)
+1. [Modules: List group](https://videos.learntheweb.courses/playlists/modules/#1-list-group)
+2. [Modules: Buttons](https://videos.learntheweb.courses/playlists/modules/#2-buttons)
+3. [Modules: Making modular icons](https://videos.learntheweb.courses/playlists/modules/#3-icons)
+4. [Modules: Combining the icons and the list group](https://videos.learntheweb.courses/playlists/modules/#4-icons-inline)
+5. [Modules: Icon image replacement](https://videos.learntheweb.courses/playlists/modules/#5-icons-image-replacement)
+6. [Modules: Media object](https://videos.learntheweb.courses/playlists/modules/#6-media-object)
+7. [Modules: Combining the media object and the list group](https://videos.learntheweb.courses/playlists/modules/#7-media-object-list-group)
+8. [Modules: Media object alternatives](https://videos.learntheweb.courses/playlists/modules/#8-media-object-alternative)
+9. [Modules: Embed containers](https://videos.learntheweb.courses/playlists/modules/#9-embed-img)
+10. [Modules: Embedding videos responsively](https://videos.learntheweb.courses/playlists/modules/#10-embed-video)
+11. [Modules: Embed containers with figures](https://videos.learntheweb.courses/playlists/modules/#11-embed-figure)
+12. [Modules: Combining buttons with modular typography](https://videos.learntheweb.courses/playlists/modules/#12-buttons-typography)
+13. [Modules: Using Modulifier](https://videos.learntheweb.courses/playlists/modules/#13-modulifier)
 
 ## Supplemental links
 

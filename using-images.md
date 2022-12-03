@@ -2,7 +2,7 @@
 title: "Using images"
 tags: "using images figures captions background foreground url aspect ratio size attachment repeat multiple linear radial repeating gradients sprites replacement hide text patterns border images"
 desc: "Different ways to use images in a website including foreground and background images."
-playlist: PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7
+playlist: using-images
 download: https://github.com/learn-the-web/using-images-code/archive/master.zip
 github: https://github.com/learn-the-web/using-images-code
 cheatsheet: images-cheat-sheet
@@ -672,18 +672,18 @@ This will produce and *amazing* rainbow gradient that goes from left to right ar
 
 ## Video list
 
-1. [Using images: HTML image tags](https://www.youtube.com/watch?v=xVv3SHU_l1o&index=1&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-2. [Using images: alt attributes](https://www.youtube.com/watch?v=xcWwcTRS79s&index=2&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-3. [Using images: figures](https://www.youtube.com/watch?v=X-uIMl8V6kg&index=3&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-4. [Using images: background images](https://www.youtube.com/watch?v=pF-AeeBIvzo&index=4&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-5. [Using images: multiple background images](https://www.youtube.com/watch?v=dt6Af0V-Xxw&index=5&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-6. [Using images: gradients](https://www.youtube.com/watch?v=d6cYf6qXHBQ&index=6&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-7. [Using images: CSS sprites](https://www.youtube.com/watch?v=nm8D1tTs5bY&index=7&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-8. [Using images: changing image on hover](https://www.youtube.com/watch?v=zoLaoLGblzc&index=8&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-9. [Using images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&index=9&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-10. [Using images: patterns](https://www.youtube.com/watch?v=Oo1FhkvshRo&index=10&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-11. [Using images: border images](https://www.youtube.com/watch?v=NL0jcXvm454&index=11&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-12. [Using images: gradient border image](https://www.youtube.com/watch?v=EjuXJ0TsXQk&index=12&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-13. [Using images: creating a button](https://www.youtube.com/watch?v=pIDLkglb_WE&index=13&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-14. [Using images: hero banner with background images](https://www.youtube.com/watch?v=RBxtA5ZM1MY&index=14&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
-15. [Using images: improving the toggle nav](https://www.youtube.com/watch?v=B15cheIlUZ0&index=15&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+1. [Using images: HTML image tags](https://videos.learntheweb.courses/playlists/using-images/#1-img-tags)
+2. [Using images: Alt attributes](https://videos.learntheweb.courses/playlists/using-images/#2-alt-attributes)
+3. [Using images: Figures](https://videos.learntheweb.courses/playlists/using-images/#3-figures)
+4. [Using images: Background images](https://videos.learntheweb.courses/playlists/using-images/#4-bg-images)
+5. [Using images: Multiple background images](https://videos.learntheweb.courses/playlists/using-images/#5-multiple-bg-images)
+6. [Using images: Gradients](https://videos.learntheweb.courses/playlists/using-images/#6-gradients)
+7. [Using images: CSS sprites](https://videos.learntheweb.courses/playlists/using-images/#7-css-sprites)
+8. [Using images: Changing image on hover](https://videos.learntheweb.courses/playlists/using-images/#8-sprite-hover)
+9. [Using images: Image replacement](https://videos.learntheweb.courses/playlists/using-images/#9-image-replacement)
+10. [Using images: Patterns](https://videos.learntheweb.courses/playlists/using-images/#10-patterns)
+11. [Using images: Border images](https://videos.learntheweb.courses/playlists/using-images/#11-border-image)
+12. [Using images: Gradient border image](https://videos.learntheweb.courses/playlists/using-images/#12-border-image-gradient)
+13. [Using images: Creating a button](https://videos.learntheweb.courses/playlists/using-images/#13-button)
+14. [Using images: Hero banner with background images](https://videos.learntheweb.courses/playlists/using-images/#14-hero-banner)
+15. [Using images: Improving the toggle nav](https://videos.learntheweb.courses/playlists/using-images/#15-toggle-nav)

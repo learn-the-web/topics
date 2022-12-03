@@ -2,7 +2,7 @@
 title: "Tables"
 tags: "table chart cells rows columns headings border captions"
 desc: "Creating tables and charts on a website for displaying data."
-playlist: PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR
+playlist: tables
 download: https://github.com/learn-the-web/tables-code/archive/master.zip
 github: https://github.com/learn-the-web/tables-code
 cheatsheet: tables-cheat-sheet
@@ -342,12 +342,12 @@ Tables can be embedded inside of other tables, specifically inside another `<td>
 
 ## Video list
 
-1. [Tables: rows and columns](https://www.youtube.com/watch?v=XG_RicH7TLY&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=1)
-2. [Tables: headings](https://www.youtube.com/watch?v=6PZAfgb2ApU&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=2)
-3. [Tables: merging cells with colspan and rowspan](https://www.youtube.com/watch?v=6TaHiaYzvgc&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=3)
-4. [Tables: headers, body, footers](https://www.youtube.com/watch?v=e7R3ljHNG8M&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=4)
-5. [Tables: styling](https://www.youtube.com/watch?v=I-UhJyQ7oR4&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=5)
-6. [Tables: other elements in cells](https://www.youtube.com/watch?v=4w-XTc93r8c&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=6)
+1. [Tables: Rows and columns](https://videos.learntheweb.courses/playlists/tables/#1-rows-and-columns)
+2. [Tables: Headings](https://videos.learntheweb.courses/playlists/tables/#2-headings)
+3. [Tables: Merging cells with colspan and rowspan](https://videos.learntheweb.courses/playlists/tables/#3-merging-cells)
+4. [Tables: Headers, body, footers](https://videos.learntheweb.courses/playlists/tables/#4-headers-body-footers)
+5. [Tables: Styling](https://videos.learntheweb.courses/playlists/tables/#5-styling)
+6. [Tables: Other elements in cells](https://videos.learntheweb.courses/playlists/tables/#6-other-elements)
 
 ## Supplemental links
 

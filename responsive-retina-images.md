@@ -2,7 +2,7 @@
 title: "Responsive & retina images"
 tags: "responsive retina hi dpi compression compressive save for web double size source sets picture source jpeg png svg images"
 desc: "Lots of different techniques to properly set up images for responsive & retina screens."
-playlist: "PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f"
+playlist: responsive-retina-images
 download: "https://github.com/learn-the-web/responsive-retina-images-code/archive/master.zip"
 github: "https://github.com/learn-the-web/responsive-retina-images-code"
 cheatsheet: images-cheat-sheet
@@ -273,11 +273,11 @@ For background images in CSS, we can use a media query for detecting hi-res scre
 
 ## Video list
 
-1. [Responsive & retina images: compressive JPGs](https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f&index=1)
-2. [Responsive & retina images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f&index=2)
-3. [Responsive & retina images: image source sets](https://www.youtube.com/watch?v=ujYiX0WniCo&index=3&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f)
-4. [Responsive & retina images: picture tag](https://www.youtube.com/watch?v=RpLaWykM1dA&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f&index=4)
-5. [Responsive & retina images: retina-ready picture tag](https://www.youtube.com/watch?v=Y_0jKzPFNiw&list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f&index=5)
+1. [Responsive & retina images: Compressive JPGs](https://videos.learntheweb.courses/playlists/responsive-retina-images/#1-compressive-jpgs)
+2. [Responsive & retina images: Multi-resolution PNGs](https://videos.learntheweb.courses/playlists/responsive-retina-images/#2-multi-resolution-pngs)
+3. [Responsive & retina images: Image source sets](https://videos.learntheweb.courses/playlists/responsive-retina-images/#3-img-srcset)
+4. [Responsive & retina images: Picture tag](https://videos.learntheweb.courses/playlists/responsive-retina-images/#4-picture)
+5. [Responsive & retina images: Retina-ready picture tag](https://videos.learntheweb.courses/playlists/responsive-retina-images/#5-picture-retina)
 
 ## Supplemental links
 

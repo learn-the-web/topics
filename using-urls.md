@@ -2,7 +2,7 @@
 title: "Using URLs"
 tags: "urls addresses web paths"
 desc: "Understanding and using URLs in the web browser for faster navigation."
-playlist: PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn
+playlist: using-urls
 extra_practice:
   activities:
     - title: "URL Explorer"
@@ -140,11 +140,11 @@ Often the search results page is also visible in the URL, here’s an example of
 
 ## Video list
 
-1. [Using URLs: HTTPS](https://www.youtube.com/watch?v=Iqg75AviCMk&index=1&list=PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn)
-2. [Using URLs: paths](https://www.youtube.com/watch?v=aImZR5IjDMI&list=PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn&index=2)
-3. [Using URLs: hashes](https://www.youtube.com/watch?v=mtEYBoXKnKE&list=PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn&index=3)
-4. [Using URLs: query strings](https://www.youtube.com/watch?v=ukUu5LFE66A&list=PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn&index=4)
-5. [Using URLs: keyboard shortcuts](https://www.youtube.com/watch?v=WIUrrp5KkCo&list=PLWjCJDeWfDdd95etxxAqsXPHKhfqyx0Cn&index=5)
+1. [Using URLs: HTTPS](https://videos.learntheweb.courses/playlists/using-urls/#1-https)
+2. [Using URLs: Paths](https://videos.learntheweb.courses/playlists/using-urls/#2-paths)
+3. [Using URLs: Hashes](https://videos.learntheweb.courses/playlists/using-urls/#3-hashes)
+4. [Using URLs: Query strings](https://videos.learntheweb.courses/playlists/using-urls/#4-query-strings)
+5. [Using URLs: Keyboard shortcuts](https://videos.learntheweb.courses/playlists/using-urls/#5-keyboard-shortcuts)
 
 ## Supplemental links
 

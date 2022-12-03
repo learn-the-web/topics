@@ -2,7 +2,7 @@
 title: "GitHub Issues"
 tags: "github issues labels descriptions project management problems help"
 desc: "What GitHub Issues do for use and how to use them for getting feedback, tracking progress, and more."
-video: yAPSbIHcDTw
+playlist: github-issues
 cheatsheet: markdown-yaml-cheat-sheet
 extra_practice:
   week:
@@ -192,9 +192,9 @@ Every member can even check off the task item when complete and the issue will b
 
 ## Video list
 
-1. [GitHub: using Issues](https://www.youtube.com/watch?v=yAPSbIHcDTw&index=8&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
-2. [GitHub: enabling the Issues tab](https://www.youtube.com/watch?v=vTULg-7xycs&index=9&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
-3. [GitHub: task, labels & milestones](https://www.youtube.com/watch?v=ukYSRu4k0gs&index=10&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+1. [GitHub: Using Issues](https://videos.learntheweb.courses/playlists/github-issues/#1-issues)
+2. [GitHub: Enabling the Issues tab](https://videos.learntheweb.courses/playlists/github-issues/#2-issues-turn-on)
+3. [GitHub: Task, labels & milestones](https://videos.learntheweb.courses/playlists/github-issues/#3-tasks-labels-milestones)
 
 ## Supplemental links
 

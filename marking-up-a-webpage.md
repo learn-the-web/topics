@@ -2,7 +2,7 @@
 title: "Marking up a webpage"
 tags: "full html semantics website webpage header footer navigation main"
 desc: "Create a full single webpage using only HTML."
-playlist: PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg
+playlist: marking-up-a-webpage
 download: https://github.com/learn-the-web/marking-up-a-webpage-code/archive/master.zip
 github: https://github.com/learn-the-web/marking-up-a-webpage-code
 livewebsite: marking-up-a-webpage
@@ -23,16 +23,16 @@ This website combines together all the knowledge and skill from the following le
 
 ## Video list
 
-1. [Marking up a webpage: boilerplate](https://www.youtube.com/watch?v=Vq9wKIXM1XA&index=1&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg)
-2. [Marking up a webpage: masthead](https://www.youtube.com/watch?v=3BYItKc0D-w&index=2&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg)
-3. [Marking up a webpage: banner & intro](https://www.youtube.com/watch?v=-DZVJKtGLJM&index=3&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg)
-4. [Marking up a webpage: products section](https://www.youtube.com/watch?v=v_JvNdxTkn8&index=4&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg)
-5. [Marking up a webpage: recipes section](https://www.youtube.com/watch?v=hGpJMN2OuS0&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg&index=5)
-6. [Marking up a webpage: footer](https://www.youtube.com/watch?v=Ih9Ln5WFMC4&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg&index=6)
-7. [Marking up a webpage: recipe page](https://www.youtube.com/watch?v=9iEWS3k3w_I&index=7&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg)
-8. [Marking up a webpage: recipe header](https://www.youtube.com/watch?v=JIAAySpQmkM&index=8&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg)
-9. [Marking up a webpage: recipe details](https://www.youtube.com/watch?v=Z39q-cd7qmw&index=9&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg)
-10. [Marking up a webpage: recipe nutritional info](https://www.youtube.com/watch?v=67Cr5elLKZw&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg&index=10)
-11. [Marking up a webpage: recipe ingredients](https://www.youtube.com/watch?v=wTC5U_Spi0g&index=11&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg)
-12. [Marking up a webpage: recipe directions](https://www.youtube.com/watch?v=wD2anJGqSIk&index=12&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg)
-13. [Marking up a webpage: recipe comments](https://www.youtube.com/watch?v=7ydWw6xsOCI&index=13&list=PLWjCJDeWfDdcpKELIHijtJzWsPC9dZ6Mg)
+1. [Marking up a webpage: Boilerplate](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#1-boilerplate)
+2. [Marking up a webpage: Masthead](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#2-masthead)
+3. [Marking up a webpage: Banner & intro](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#3-banner-intro)
+4. [Marking up a webpage: Products section](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#4-products)
+5. [Marking up a webpage: Recipes section](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#5-recipes)
+6. [Marking up a webpage: Footer](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#6-footer)
+7. [Marking up a webpage: Recipe page](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#7-recipe-page)
+8. [Marking up a webpage: Recipe header](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#8-recipe-header)
+9. [Marking up a webpage: Recipe details](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#9-recipe-details)
+10. [Marking up a webpage: Recipe nutritional info](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#10-recipe-nutrition)
+11. [Marking up a webpage: Recipe ingredients](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#11-ingredients)
+12. [Marking up a webpage: Recipe directions](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#12-recipe-directions)
+13. [Marking up a webpage: Recipe comments](https://videos.learntheweb.courses/playlists/marking-up-a-webpage/#13-recipe-comments)

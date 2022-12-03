@@ -2,7 +2,7 @@
 title: "Website file organization"
 tags: "on off github assets production design content www version control dropbox invision"
 desc: "How to organize all the different files associated with websites."
-playlist: PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx
+playlist: organization
 ---
 
 Below is a way to organize your website & production files in a logical manner that’s appropriate for GitHub.
@@ -170,4 +170,4 @@ This isn’t a perfect folder structure, but it works for me.
 
 ## Video list
 
-1. [Organizing web files](https://www.youtube.com/watch?v=V3xDoXeq0ic&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx&index=1)
+1. [Organizing web files](https://videos.learntheweb.courses/playlists/organization/#1-folder-organization)

@@ -2,9 +2,9 @@
 title: "Accessibility for design"
 tags: "accessibility humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers VoiceOver braille"
 desc: "Making our website design work well for every human being regardless of their abilities."
+playlist: accessibility-for-design
 cheatsheet: accessibility-cheat-sheet
 checklist: accessibility-checklist
-playlist: PLWjCJDeWfDdfiCvl5eMR7xZt85dMiOzzF
 download: https://github.com/learn-the-web/accessibility-code/archive/master.zip
 github: https://github.com/learn-the-web/accessibility-code
 ---
@@ -250,6 +250,6 @@ Most often designers like to hide them but they must be hidden in an accessible 
 
 ## Video list
 
-1. [Accessibility for design: skip links](https://www.youtube.com/watch?v=UnEItq289lU&list=PLWjCJDeWfDdfiCvl5eMR7xZt85dMiOzzF&index=2&t=0s)
-1. [Accessibility for design: focus styles](https://www.youtube.com/watch?v=js9yaVtV04E&list=PLWjCJDeWfDdfiCvl5eMR7xZt85dMiOzzF&index=3&t=0s)
-1. [Accessibility for design: tools to help find issues](https://www.youtube.com/watch?v=xpqPctbDhnc&list=PLWjCJDeWfDdfiCvl5eMR7xZt85dMiOzzF&index=4&t=0s)
+1. [Accessibility for design: Skip links](https://videos.learntheweb.courses/playlists/accessibility-for-design/#1-skip-links)
+1. [Accessibility for design: Focus styles](https://videos.learntheweb.courses/playlists/accessibility-for-design/#2-focus-styles)
+1. [Accessibility for design: Tools to help find issues](https://videos.learntheweb.courses/playlists/accessibility-for-design/#3-tools)

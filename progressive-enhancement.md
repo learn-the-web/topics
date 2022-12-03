@@ -2,7 +2,7 @@
 title: "Progressive enhancement"
 tags: "progressive enhancement graceful degradation internet web download failure older browser testing user font size print disabled"
 desc: "Looking at how the web is not within our control and how we can make our websites work."
-playlist: PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ
+playlist: progressive-enhancement
 download: https://github.com/learn-the-web/progressive-enhancement-code/archive/master.zip
 github: https://github.com/learn-the-web/progressive-enhancement-code
 extra_practice:
@@ -252,9 +252,9 @@ We don’t need to have the ARIA attributes on the default non-JS version becaus
 
 ## Video list
 
-1. [Progressive enhancement: detecting CSS features](https://www.youtube.com/watch?v=DHpr10QSEcg&list=PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ&index=1)
-2. [Progressive enhancement: cutting the mustard](https://www.youtube.com/watch?v=zbMJtxDD-4I&list=PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ&index=2)
-3. [Progressive enhancement: tabs](https://www.youtube.com/watch?v=22v5nl4lFok&index=3&list=PLWjCJDeWfDdfJs0Bd7oIVrPn6ealKYgZQ)
+1. [Progressive enhancement: Detecting CSS features](https://videos.learntheweb.courses/playlists/progressive-enhancement/#1-modernizr)
+2. [Progressive enhancement: Cutting the mustard](https://videos.learntheweb.courses/playlists/progressive-enhancement/#2-cut-the-mustard)
+3. [Progressive enhancement: Tabs](https://videos.learntheweb.courses/playlists/progressive-enhancement/#3-js-tabs)
 
 ## Supplemental links
 

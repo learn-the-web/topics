@@ -2,7 +2,7 @@
 title: "Common JavaScript + jQuery components"
 tags: "javascript jquery common components tabs toggle panels buttons lightbox data filter"
 desc: "Creating common JavaScript webpage components like tabs, lightboxes, and panels with the help of jQuery."
-playlist: PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI
+playlist: javascript-jquery-components
 download: https://github.com/learn-the-web/javascript-jquery-components-code/archive/master.zip
 github: https://github.com/learn-the-web/javascript-jquery-components-code
 ---
@@ -47,8 +47,8 @@ Looks at using a `<select>` element to picking specific pieces of information ou
 
 ## Video list
 
-1. [JavaScript + jQuery components: toggle panels](https://www.youtube.com/watch?v=tAmM6B7KkbQ&index=1&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
-2. [JavaScript + jQuery components: tabs](https://www.youtube.com/watch?v=kjL_HM08CcA&index=2&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
-3. [JavaScript + jQuery components: lightbox](https://www.youtube.com/watch?v=ucLr525mX60&index=3&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
-4. [JavaScript + jQuery components: lightbox data](https://www.youtube.com/watch?v=7O-iK_D0H4w&index=4&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
-5. [JavaScript + jQuery components: data filter](https://www.youtube.com/watch?v=CJbr44MmvXY&index=5&list=PLWjCJDeWfDdcSMT35eNewEh3YyrKYVmeI)
+1. [JavaScript + jQuery components: Toggle panels](https://videos.learntheweb.courses/playlists/javascript-jquery-components/#1-panel)
+2. [JavaScript + jQuery components: Tabs](https://videos.learntheweb.courses/playlists/javascript-jquery-components/#2-tabs)
+3. [JavaScript + jQuery components: Lightbox](https://videos.learntheweb.courses/playlists/javascript-jquery-components/#3-lightbox)
+4. [JavaScript + jQuery components: Lightbox data](https://videos.learntheweb.courses/playlists/javascript-jquery-components/#4-lightbox-data)
+5. [JavaScript + jQuery components: Data filter](https://videos.learntheweb.courses/playlists/javascript-jquery-components/#5-data-filter)

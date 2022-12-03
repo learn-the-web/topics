@@ -2,7 +2,7 @@
 title: "Flexbox grids"
 tags: "grids flexbox modular columns rows units responsive web design screens adjustments"
 desc: "Creating and using a modular, responsive grid system on a website to simplify layout."
-playlist: PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60
+playlist: flexbox-grids
 download: https://github.com/learn-the-web/flexbox-grids-code/archive/master.zip
 github: https://github.com/learn-the-web/flexbox-grids-code
 cheatsheet: gridifier-cheat-sheet
@@ -207,12 +207,12 @@ A few of the most common ones are:
 
 ## Video list
 
-1. [Flexbox grids: flexible grids](https://www.youtube.com/watch?v=sYASH-3iGNQ&t=0s&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
-2. [Flexbox grids: responsive grids](https://www.youtube.com/watch?v=FOLRicY70lE&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&t=0s&index=2)
-3. [Flexbox grids: hiding units on different screen sizes](https://www.youtube.com/watch?v=9Y8IyXFqbNU&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=3)
-4. [Flexbox grids: simplifying fractions for unit sizes](https://www.youtube.com/watch?v=BNFKLqYl8rU&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=4)
-5. [Flexbox grids: pushing units aside using offsets](https://www.youtube.com/watch?v=kVMdNbrHgbQ&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=5)
-6. [Flexbox grids: grids inside grids](https://www.youtube.com/watch?v=hpwjNC4Eo-U&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=6)
+1. [Flexbox grids: Flexible grids](https://videos.learntheweb.courses/playlists/flexbox-grids/#1-flexible-grids)
+2. [Flexbox grids: Responsive grids](https://videos.learntheweb.courses/playlists/flexbox-grids/#2-responsive-grids)
+3. [Flexbox grids: Hiding units on different screen sizes](https://videos.learntheweb.courses/playlists/flexbox-grids/#3-hidden)
+4. [Flexbox grids: Simplifying fractions for unit sizes](https://videos.learntheweb.courses/playlists/flexbox-grids/#4-simplifying-fractions)
+5. [Flexbox grids: Pushing units aside using offsets](https://videos.learntheweb.courses/playlists/flexbox-grids/#5-offsets)
+6. [Flexbox grids: Grids inside grids](https://videos.learntheweb.courses/playlists/flexbox-grids/#6-grids-inside-grids)
 
 ## Supplemental links
 

@@ -2,7 +2,7 @@
 title: "Document object model (DOM)"
 tags: "javascript html elements tags manipulate document object model jquery events click propagation delegation classes forms html"
 desc: "Understanding how JavaScript interfaces and manipulates with HTML."
-playlist: PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y
+playlist: dom
 download: https://github.com/learn-the-web/dom-code/archive/master.zip
 github: https://github.com/learn-the-web/dom-code
 cheatsheet: javascript-cheat-sheet
@@ -464,13 +464,13 @@ $('.dinos').val(); // trex
 
 ## Video list
 
-1. [JavaScript DOM: selecting HTML elements](https://www.youtube.com/watch?v=q7nSkqmNpMY&index=1&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-2. [JavaScript DOM: events](https://www.youtube.com/watch?v=YMrUgX2G1dc&index=2&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-3. [JavaScript DOM: stopping default events](https://www.youtube.com/watch?v=SjwoFeklLPo&index=3&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-4. [JavaScript DOM: manipulating classes](https://www.youtube.com/watch?v=lU-JdTK6wAE&index=4&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-5. [JavaScript DOM: manipulating HTML](https://www.youtube.com/watch?v=0m5ytkr25ug&index=5&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-6. [JavaScript DOM: form data & events](https://www.youtube.com/watch?v=akNM35dRVGQ&index=6&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-7. [JavaScript DOM: event delegation](https://www.youtube.com/watch?v=JStineSts7s&index=7&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
+1. [JavaScript DOM: Selecting HTML elements](https://videos.learntheweb.courses/playlists/dom/#1-selecting-elements)
+2. [JavaScript DOM: Events](https://videos.learntheweb.courses/playlists/dom/#2-events)
+3. [JavaScript DOM: Stopping default events](https://videos.learntheweb.courses/playlists/dom/#3-event-propagation)
+4. [JavaScript DOM: Manipulating classes](https://videos.learntheweb.courses/playlists/dom/#4-manipulating-classes)
+5. [JavaScript DOM: Manipulating HTML](https://videos.learntheweb.courses/playlists/dom/#5-manipulating-html)
+6. [JavaScript DOM: Form data & events](https://videos.learntheweb.courses/playlists/dom/#6-forms)
+7. [JavaScript DOM: Event delegation](https://videos.learntheweb.courses/playlists/dom/#7-event-delegation)
 
 ## Supplemental links
 

@@ -2,6 +2,7 @@
 title: "JavaScript templates"
 tags: "javascript templates mustache handlebars separate separation concerns external html"
 desc: "Separating the HTML and JavaScript by using templates."
+playlist: javascript-templates
 download: https://github.com/learn-the-web/javascript-templates-code/archive/master.zip
 github: https://github.com/learn-the-web/javascript-templates-code
 ---
@@ -55,6 +56,6 @@ $('body').html(rendered);
 
 ## Video list
 
-1. [JavaScript DOM: templates](https://www.youtube.com/watch?v=3EJ3rf-Yk0g&index=7&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-2. [JavaScript DOM: templates & forms](https://www.youtube.com/watch?v=xQ-Y3APkbvQ&index=8&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
-3. [JavaScript DOM: event delegation](https://www.youtube.com/watch?v=cWTI3er8EKI&index=9&list=PLWjCJDeWfDdexVfek9nZEdmbyBL6_yP6Y)
+1. [JavaScript DOM: Templates](https://videos.learntheweb.courses/playlists/javascript-templates/#1-templates)
+2. [JavaScript DOM: Templates & forms](https://videos.learntheweb.courses/playlists/javascript-templates/#2-templates-forms)
+3. [JavaScript DOM: Event delegation](https://videos.learntheweb.courses/playlists/javascript-templates/#3-event-delegation)

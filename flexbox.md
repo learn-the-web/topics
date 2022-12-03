@@ -2,7 +2,7 @@
 title: "Flexbox"
 tags: "css advanced layout flexbox align content justify vertical"
 desc: "Learn how to use the flexbox layout system to create more advanced layouts with columns and alignments."
-playlist: PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq
+playlist: flexbox
 download: https://github.com/learn-the-web/flexbox/archive/master.zip
 github: https://github.com/learn-the-web/flexbox
 cheatsheet: flexbox-cheat-sheet
@@ -434,11 +434,11 @@ And the last little bit is to choose what element will expand to fill the spaceâ
 
 ## Video list
 
-- [Flexbox: introduction](https://www.youtube.com/watch?v=mQ1iWdfzvgA&index=1&list=PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq)
-- [Flexbox: wrapping rows](https://www.youtube.com/watch?v=An-FI9TKkqY&index=2&list=PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq)
-- [Flexbox: direction](https://www.youtube.com/watch?v=ff0T4kz4qDc&index=3&list=PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq)
-- [Flexbox: horizontal navigation](https://www.youtube.com/watch?v=b9siX4lCs_o&index=4&list=PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq)
-- [Flexbox: columns](https://www.youtube.com/watch?v=P2oSp_N-I7s&list=PLWjCJDeWfDdcae7fPzpUclV89TYFOa2Vq&index=5)
+- [Flexbox: Introduction](https://videos.learntheweb.courses/playlists/flexbox/#1-introduction)
+- [Flexbox: Wrapping rows](https://videos.learntheweb.courses/playlists/flexbox/#2-flex-wrap)
+- [Flexbox: Direction](https://videos.learntheweb.courses/playlists/flexbox/#3-flex-direction)
+- [Flexbox: Horizontal navigation](https://videos.learntheweb.courses/playlists/flexbox/#4-flex-nav)
+- [Flexbox: Columns](https://videos.learntheweb.courses/playlists/flexbox/#5-flex-columns)
 
 ## Supplemental links
 

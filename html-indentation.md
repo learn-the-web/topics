@@ -2,7 +2,7 @@
 title: "HTML indentation"
 tags: "html indentation tabs spaces hierarchy vertical alignment monospace fonts"
 desc: "The proper method for indenting HTML to make it understandable by you and your team."
-playlist: PLWjCJDeWfDdey4UwR8TkNLt6VZ2hlWyo-
+playlist: html-indentation
 download: https://github.com/learn-the-web/html-indentation-code/archive/master.zip
 github: https://github.com/learn-the-web/html-indentation-code
 extra_practice:
@@ -222,10 +222,10 @@ Very often a space will be shown as a tiny dot & tabs will be shown and little a
 
 ## Video list
 
-1. [HTML indentation: how to indent](https://www.youtube.com/watch?v=FV2td6KJNVA&index=1&list=PLWjCJDeWfDdey4UwR8TkNLt6VZ2hlWyo-)
-2. [HTML indentation: spacing & comments](https://www.youtube.com/watch?v=9cCKhhmUppo&index=2&list=PLWjCJDeWfDdey4UwR8TkNLt6VZ2hlWyo-)
-3. [HTML indentation: attribute ordering](https://www.youtube.com/watch?v=CisOD-PXTKU&index=3&list=PLWjCJDeWfDdey4UwR8TkNLt6VZ2hlWyo-)
-4. [HTML indentation: tabs vs. spaces](https://www.youtube.com/watch?v=ee1Ox3zbKZs&list=PLWjCJDeWfDdey4UwR8TkNLt6VZ2hlWyo-&index=4)
+1. [HTML indentation: How to indent](https://videos.learntheweb.courses/playlists/html-indentation/#1-intro)
+2. [HTML indentation: Spacing & comments](https://videos.learntheweb.courses/playlists/html-indentation/#2-spacing-comments)
+3. [HTML indentation: Attribute ordering](https://videos.learntheweb.courses/playlists/html-indentation/#3-order-attributes)
+4. [HTML indentation: Tabs vs. spaces](https://videos.learntheweb.courses/playlists/html-indentation/#4-tabs-spaces)
 
 ## Supplemental links
 

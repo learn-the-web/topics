@@ -2,7 +2,7 @@
 title: "Writing for the Web"
 tags: "writing web why short length style keywords personality emotion connection adaptive content"
 desc: "Understanding how people read on the web and how to write text for better connections."
-playlist: PLWjCJDeWfDdfL6qRH1A04rcGe624fTeCS
+playlist: writing-for-the-web
 download: https://github.com/learn-the-web/writing-for-the-web-samples/archive/master.zip
 github: https://github.com/learn-the-web/writing-for-the-web-samples
 checklist: writing-checklist
@@ -256,9 +256,9 @@ An example sitemap in Markdown using nested lists:
 
 ## Video list
 
-1. [Writing for the web: using computer speaking for proofing](https://www.youtube.com/watch?v=ZDnK_RjA094&list=PLWjCJDeWfDdfL6qRH1A04rcGe624fTeCS&index=1)
-2. [Writing for the web: writing an interface](https://www.youtube.com/watch?v=uYSyiZaiG6w&list=PLWjCJDeWfDdfL6qRH1A04rcGe624fTeCS&index=2)
-3. [Writing for the web: content templates](https://www.youtube.com/watch?v=5Dj-37aSrj8&list=PLWjCJDeWfDdfL6qRH1A04rcGe624fTeCS&index=3)
+1. [Writing for the web: Using computer speaking for proofing](https://videos.learntheweb.courses/playlists/writing-for-the-web/#1-computer-reading)
+2. [Writing for the web: Writing an interface](https://videos.learntheweb.courses/playlists/writing-for-the-web/#2-writing-first)
+3. [Writing for the web: Content templates](https://videos.learntheweb.courses/playlists/writing-for-the-web/#3-content-templates)
 
 ## Supplemental links
 

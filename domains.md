@@ -2,7 +2,7 @@
 title: "Domains & DNS"
 tags: "domains dns tld ca com internet web ip works a ns mx cname email hover fastmail github cloudflare apex"
 desc: "Understanding domains and the DNS system and setting up a custom domain for your website."
-playlist: PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p
+playlist: domains
 extra_practice:
   week:
     title: "Web Dev 5, Week 03"
@@ -133,7 +133,7 @@ Using GitHub as a static web host is simple, integrates with our processes—and
 
 ## Video list
 
-1. [Domains & DNS: how the web works](https://www.youtube.com/watch?v=rE7BjLw1UxY&list=PLWjCJDeWfDdeLUNoXWyskKFbw2P-C0p0p&index=1)
+1. [Domains & DNS: How the web works](https://videos.learntheweb.courses/playlists/domains/#1-how-the-web-works)
 
 ## Supplemental links
 

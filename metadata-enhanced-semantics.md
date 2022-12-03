@@ -2,7 +2,7 @@
 title: "Metadata & enhanced semantics"
 tags: "metadata enhanced semantics structured rich snippets search engine optimization microdata microformats rdfa schema org social semantics facebook twitter pinterest open graph"
 desc: "Extra semantics for website to help with SEO and display properly in social media platforms."
-playlist: PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx
+playlist: metadata-enhanced-semantics
 download: https://github.com/learn-the-web/metadata-enhanced-semantics-code/archive/master.zip
 github: https://github.com/learn-the-web/metadata-enhanced-semantics-code
 checklist: seo-checklist
@@ -342,12 +342,12 @@ With a few more meta tags in our HTML we can specify a location for what the web
 
 ## Video list
 
-1. [Metadata: marking up a person](https://www.youtube.com/watch?v=pjihcrIsX3k&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx&index=1)
-2. [Metadata: relationships](https://www.youtube.com/watch?v=7k5ZT7iak6M&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx&index=2)
-3. [Metadata: JSON-LD creative work](https://www.youtube.com/watch?v=PUIn2ts1X8o&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx&index=3)
-4. [Metadata: mapping Schema.org to JSON-LD](https://www.youtube.com/watch?v=s81d0PxMjlc&index=4&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx)
-5. [Metadata: Linking two JSON-LD chunks](https://www.youtube.com/watch?v=IeAVWa_-4zE&index=5&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx)
-6. [Metadata: social meta tags](https://www.youtube.com/watch?v=xxk21IhoSdU&list=PLWjCJDeWfDddQbBTg_lCnXyexfJpUvXDx&index=6)
+1. [Metadata: Marking up a person](https://videos.learntheweb.courses/playlists/metadata-enhanced-semantics/#1-person)
+2. [Metadata: Relationships](https://videos.learntheweb.courses/playlists/metadata-enhanced-semantics/#2-rel)
+3. [Metadata: JSON-LD creative work](https://videos.learntheweb.courses/playlists/metadata-enhanced-semantics/#3-json-ld-creative-work)
+4. [Metadata: Mapping Schema.org to JSON-LD](https://videos.learntheweb.courses/playlists/metadata-enhanced-semantics/#4-json-ld-mapping)
+5. [Metadata: Linking two JSON-LD chunks](https://videos.learntheweb.courses/playlists/metadata-enhanced-semantics/#5-json-ld-linking)
+6. [Metadata: Social meta tags](https://videos.learntheweb.courses/playlists/metadata-enhanced-semantics/#6-social)
 
 ## Supplemental links
 

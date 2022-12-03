@@ -2,7 +2,7 @@
 title: "Using CSS"
 tags: "using css link targeting selecting elements children multiple naming classes ids colours transparency rgba hsla units rems px vh vw"
 desc: "Adding and writing CSS to design a website."
-playlist: PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS
+playlist: using-css
 download: https://github.com/learn-the-web/using-css-code/archive/master.zip
 github: https://github.com/learn-the-web/using-css-code
 cheatsheet: css-selectors-units-cheat-sheet
@@ -405,13 +405,13 @@ CSS provides a bunch of different units for sizes and lengths, e.g. `width: 100p
 
 ## Video list
 
-1. [Using CSS: attaching a CSS file](https://www.youtube.com/watch?v=TCTOxnP-KTk&index=1&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-2. [Using CSS: targeting HTML elements](https://www.youtube.com/watch?v=tkhyrBugWfI&index=2&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-3. [Using CSS: targeting multiple elements at once](https://www.youtube.com/watch?v=bdtBivwSoqQ&index=3&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-4. [Using CSS: styling child elements](https://www.youtube.com/watch?v=QMUyscA0mYI&index=4&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-5. [Using CSS: naming and classes](https://www.youtube.com/watch?v=HQBBQzPSmlM&index=5&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-6. [Using CSS: styling an element by its number](https://www.youtube.com/watch?v=GRK70oscYIA&index=6&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-7. [Using CSS: specifying colours in CSS](https://www.youtube.com/watch?v=TbM-kMiC-vg&index=7&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+1. [Using CSS: Attaching a CSS file](https://videos.learntheweb.courses/playlists/using-css/#1-attaching-a-css-file)
+2. [Using CSS: Targeting HTML elements](https://videos.learntheweb.courses/playlists/using-css/#2-targeting-by-element)
+3. [Using CSS: Targeting multiple elements at once](https://videos.learntheweb.courses/playlists/using-css/#3-multiple-targets-cascade)
+4. [Using CSS: Styling child elements](https://videos.learntheweb.courses/playlists/using-css/#4-descendent-child)
+5. [Using CSS: Naming and classes](https://videos.learntheweb.courses/playlists/using-css/#5-classes)
+6. [Using CSS: Styling an element by its number](https://videos.learntheweb.courses/playlists/using-css/#6-styling-by-number)
+7. [Using CSS: Specifying colours in CSS](https://videos.learntheweb.courses/playlists/using-css/#7-colours)
 
 ## Supplemental links
 

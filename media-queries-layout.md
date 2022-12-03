@@ -2,7 +2,7 @@
 title: "Media queries layout"
 tags: "full website media queries responsive web design em screens adjustments"
 desc: "Creating a full, multi-screen website using media queries."
-playlist: PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7
+playlist: media-queries-layout
 download: https://github.com/learn-the-web/media-queries-layout-code/archive/master.zip
 github: https://github.com/learn-the-web/media-queries-layout-code
 livewebsite: media-queries-layout
@@ -27,8 +27,8 @@ This website combines together all the knowledge and skill from the following le
 
 ## Video list
 
-1. [Media queries layout: navigation](https://www.youtube.com/watch?v=h3NDW1K2MzE&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=1)
-2. [Media queries layout: text and images](https://www.youtube.com/watch?v=t8rVXUb_IEA&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=2)
-3. [Media queries layout: statistics](https://www.youtube.com/watch?v=JTjFCQVdUaw&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=3)
-4. [Media queries layout: footer](https://www.youtube.com/watch?v=666RguQaq2k&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=4)
-5. [Media queries layout: larger screens](https://www.youtube.com/watch?v=Q-XS4dmQrK4&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=5)
+1. [Media queries layout: Navigation](https://videos.learntheweb.courses/playlists/media-queries-layout/#1-nav)
+2. [Media queries layout: Text and images](https://videos.learntheweb.courses/playlists/media-queries-layout/#2-text-images)
+3. [Media queries layout: Statistics](https://videos.learntheweb.courses/playlists/media-queries-layout/#3-stats)
+4. [Media queries layout: Footer](https://videos.learntheweb.courses/playlists/media-queries-layout/#4-footer)
+5. [Media queries layout: Larger screens](https://videos.learntheweb.courses/playlists/media-queries-layout/#5-larger-screens)

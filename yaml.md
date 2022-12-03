@@ -2,7 +2,7 @@
 title: "YAML"
 tags: "yaml markdown markup language processor jekyll"
 desc: "Understanding YAML, another markup language, that’s great for structured content."
-playlist: PLWjCJDeWfDdfzjgthWhvHOxyvFZDCp_2L
+playlist: yaml
 download: https://github.com/learn-the-web/yaml-code/archive/master.zip
 github: https://github.com/learn-the-web/yaml-code
 cheatsheet: markdown-yaml-cheat-sheet
@@ -172,9 +172,9 @@ This data can then be used in lots of applications, including Jekyll.
 
 ## Video list
 
-1. [YAML: syntax basics](https://www.youtube.com/watch?v=W3tQPk8DNbk&list=PLWjCJDeWfDdfzjgthWhvHOxyvFZDCp_2L&index=1)
-2. [YAML: text blocks](https://www.youtube.com/watch?v=m-rRIsuekBw&list=PLWjCJDeWfDdfzjgthWhvHOxyvFZDCp_2L&index=2)
-3. [YAML: Markdown front matter](https://www.youtube.com/watch?v=GOcgJgrxeJ4&list=PLWjCJDeWfDdfzjgthWhvHOxyvFZDCp_2L&index=3)
+1. [YAML: Syntax basics](https://videos.learntheweb.courses/playlists/yaml/#1-basics)
+2. [YAML: Text blocks](https://videos.learntheweb.courses/playlists/yaml/#2-text-blocks)
+3. [YAML: Markdown front matter](https://videos.learntheweb.courses/playlists/yaml/#3-yaml-markdown)
 
 ## Supplemental links
 

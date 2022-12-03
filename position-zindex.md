@@ -2,7 +2,7 @@
 title: "Position & z-index"
 tags: "position z index in front behind absolute static relative fixed top left bottom right coordinates"
 desc: "Learning how to layer elements on top of each other and control their layering."
-playlist: PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP
+playlist: position-zindex
 download: https://github.com/learn-the-web/position-zindex-code/archive/master.zip
 github: https://github.com/learn-the-web/position-zindex-code
 cheatsheet: css-layout-cheat-sheet
@@ -226,12 +226,12 @@ The `z-index` is a number, with no unit, that controls the layer. The higher the
 
 ## Video list
 
-1. [Position: introduction](https://www.youtube.com/watch?v=jVWnfwOZPDI&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=1)
-2. [Position: polariod](https://www.youtube.com/watch?v=kNJuF4aVHEA&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=2)
-3. [Posiiton: planet list](https://www.youtube.com/watch?v=LU3BkaRVf_8&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=3)
-4. [Position: layering with z-index](https://www.youtube.com/watch?v=6VK4KLW0gS8&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=4)
-5. [Position: hero banner](https://www.youtube.com/watch?v=3MpEnd_rRuY&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP&index=5)
-6. [Position: position and flexbox](https://www.youtube.com/watch?v=CLCV4KSNClg&index=6&list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP)
+1. [Position: Introduction](https://videos.learntheweb.courses/playlists/position-zindex/#1-position)
+2. [Position: Polariod](https://videos.learntheweb.courses/playlists/position-zindex/#2-polaroid)
+3. [Posiiton: Planet list](https://videos.learntheweb.courses/playlists/position-zindex/#3-planet-list)
+4. [Position: Layering with z-index](https://videos.learntheweb.courses/playlists/position-zindex/#4-z-index)
+5. [Position: Hero banner](https://videos.learntheweb.courses/playlists/position-zindex/#5-hero-banner)
+6. [Position: Position and flexbox](https://videos.learntheweb.courses/playlists/position-zindex/#6-position-flexbox)
 
 ## Supplemental links
 

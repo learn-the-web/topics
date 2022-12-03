@@ -2,7 +2,7 @@
 title: "Pattern libraries"
 tags: "css style guides pattern library libraries templates themes tiles components modules systems mood boards"
 desc: "A quick tutorial on making pattern libraries & component systems for websites with a bunch of helpful links."
-playlist: PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0
+playlist: pattern-libraries
 download: https://github.com/learn-the-web/jekyll-patternbot-code/archive/master.zip
 github: https://github.com/learn-the-web/jekyll-patternbot-code/
 livewebsite: https://stoic-engelbart-a37d1e.netlify.com/pattern-library/
@@ -398,24 +398,24 @@ Make a new folder named `sample-pages` and drop some HTML files in there—the n
 
 ## Video list
 
-- [Jekyll + Patternbot: installation & setup](https://www.youtube.com/watch?v=Vptn8zl0gXY&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=2&t=0s)
-- [Jekyll + Patternbot: hosting on Netlify](https://www.youtube.com/watch?v=OAEntDQoXp4&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=3&t=0s)
-- [Jekyll + Patternbot: starting & stopping](https://www.youtube.com/watch?v=DJT1rvCbBKw&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=4&t=2s)
-- [Jekyll + Patternbot: theme colours](https://www.youtube.com/watch?v=ARF3TfYLX20&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=5&t=0s)
-- [Jekyll + Patternbot: theme fonts](https://www.youtube.com/watch?v=7XuDk8WqG4M&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=6&t=3s)
-- [Jekyll + Patternbot: Web Dev Tools](https://www.youtube.com/watch?v=FtbzdKzj6B0&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=7&t=0s)
-- [Jekyll + Patternbot: basic theme styles](https://www.youtube.com/watch?v=1W2ERDOUiz0&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=8&t=0s)
-- [Jekyll + Patternbot: CSS utility classes](https://www.youtube.com/watch?v=VjHqyXvsALc&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=9&t=0s)
-- [Jekyll + Patternbot: design customization](https://www.youtube.com/watch?v=VgcOBkLj4Zw&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=10&t=0s)
-- [Jekyll + Patternbot: rationales](https://www.youtube.com/watch?v=DPEnBjY15QU&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=11&t=0s)
-- [Jekyll + Patternbot: logos](https://www.youtube.com/watch?v=_ufPySL7d3c&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=12&t=0s)
-- [Jekyll + Patternbot: icons](https://www.youtube.com/watch?v=LytJfBk94a4&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=13&t=0s)
-- [Jekyll + Patternbot: simple pattern](https://www.youtube.com/watch?v=itzCGl2gS2c&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=14&t=0s)
-- [Jekyll + Patternbot: pattern config](https://www.youtube.com/watch?v=AuZ6lowg0MQ&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=15&t=0s)
-- [Jekyll + Patternbot: patterns inside patterns](https://www.youtube.com/watch?v=kGWFTSX-E2s&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=16&t=0s)
-- [Jekyll + Patternbot: layouts](https://www.youtube.com/watch?v=KcScysgw2yU&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=17&t=0s)
-- [Jekyll + Patternbot: datasets](https://www.youtube.com/watch?v=LigllyxKYuE&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=18&t=0s)
-- [Jekyll + Patternbot: sample pages](https://www.youtube.com/watch?v=fqqid3NV3Gs&list=PLWjCJDeWfDdcEBngBwpB8F7wtjZ12PIy0&index=19&t=0s)
+- [Jekyll + Patternbot: Installation & setup](https://videos.learntheweb.courses/playlists/pattern-libraries/#1-install-setup)
+- [Jekyll + Patternbot: Hosting on Netlify](https://videos.learntheweb.courses/playlists/pattern-libraries/#2-hosting)
+- [Jekyll + Patternbot: Starting & stopping](https://videos.learntheweb.courses/playlists/pattern-libraries/#3-start-stop)
+- [Jekyll + Patternbot: Theme colours](https://videos.learntheweb.courses/playlists/pattern-libraries/#4-theme-colors)
+- [Jekyll + Patternbot: Theme fonts](https://videos.learntheweb.courses/playlists/pattern-libraries/#5-theme-fonts)
+- [Jekyll + Patternbot: Web Dev Tools](https://videos.learntheweb.courses/playlists/pattern-libraries/#6-web-dev-tools)
+- [Jekyll + Patternbot: Basic theme styles](https://videos.learntheweb.courses/playlists/pattern-libraries/#7-basic-theme-styles)
+- [Jekyll + Patternbot: CSS utility classes](https://videos.learntheweb.courses/playlists/pattern-libraries/#8-utilities)
+- [Jekyll + Patternbot: Design customization](https://videos.learntheweb.courses/playlists/pattern-libraries/#9-design-customization)
+- [Jekyll + Patternbot: Rationales](https://videos.learntheweb.courses/playlists/pattern-libraries/#10-rationales)
+- [Jekyll + Patternbot: Logos](https://videos.learntheweb.courses/playlists/pattern-libraries/#11-logos)
+- [Jekyll + Patternbot: Icons](https://videos.learntheweb.courses/playlists/pattern-libraries/#12-icons)
+- [Jekyll + Patternbot: Simple pattern](https://videos.learntheweb.courses/playlists/pattern-libraries/#13-buttons)
+- [Jekyll + Patternbot: Pattern config](https://videos.learntheweb.courses/playlists/pattern-libraries/#14-pattern-config)
+- [Jekyll + Patternbot: Patterns inside patterns](https://videos.learntheweb.courses/playlists/pattern-libraries/#15-layouts)
+- [Jekyll + Patternbot: Layouts](https://videos.learntheweb.courses/playlists/pattern-libraries/#16-patterns-inside-patterns)
+- [Jekyll + Patternbot: Datasets](https://videos.learntheweb.courses/playlists/pattern-libraries/#17-datasets)
+- [Jekyll + Patternbot: Sample pages](https://videos.learntheweb.courses/playlists/pattern-libraries/#18-sample-pages)
 
 ## Supplemental links
 

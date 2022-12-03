@@ -2,7 +2,7 @@
 title: "Markdown"
 tags: "markdown processor html headings daring fireball john gruber commonmark"
 desc: "Understanding the Markdown markup language that’s used in many locations including GitHub."
-playlist: PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX
+playlist: markdown
 download: https://github.com/learn-the-web/markdown-code/archive/master.zip
 github: https://github.com/learn-the-web/markdown-code
 cheatsheet: markdown-yaml-cheat-sheet
@@ -162,12 +162,12 @@ And finally, GitHub supports task lists in Markdown files using the following fo
 
 ## Video list
 
-1. [Markdown: applications](https://www.youtube.com/watch?v=a7RYPhsj1Js&index=1&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
-2. [Markdown: syntax basics](https://www.youtube.com/watch?v=0_tO8HgJiLQ&index=2&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
-3. [Markdown: inserting links](https://www.youtube.com/watch?v=0aJCGOxeHVk&index=3&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
-4. [Markdown: inserting images](https://www.youtube.com/watch?v=afFb_DcBBdA&index=4&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
-5. [Markdown: inserting code samples](https://www.youtube.com/watch?v=6nxjPtXHOYo&index=5&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
-6. [Markdown: task lists](https://www.youtube.com/watch?v=-JB6KEUj7tY&index=6&list=PLWjCJDeWfDdeCy2wlIbAVfY4dLJx58ghX)
+1. [Markdown: Applications](https://videos.learntheweb.courses/playlists/markdown/#1-apps)
+2. [Markdown: Syntax basics](https://videos.learntheweb.courses/playlists/markdown/#2-syntax-basics)
+3. [Markdown: Inserting links](https://videos.learntheweb.courses/playlists/markdown/#3-links)
+4. [Markdown: Inserting images](https://videos.learntheweb.courses/playlists/markdown/#4-images)
+5. [Markdown: Inserting code samples](https://videos.learntheweb.courses/playlists/markdown/#5-code-samples)
+6. [Markdown: Task lists](https://videos.learntheweb.courses/playlists/markdown/#6-task-lists)
 
 ## Supplemental links
 

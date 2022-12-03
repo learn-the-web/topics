@@ -2,7 +2,7 @@
 title: "Typography-only layout"
 tags: "typography web design css font border background colour"
 desc: "A complete website layout looking at designing only the typography and ignoring images."
-playlist: PLWjCJDeWfDdczBWwsw9CjC9RkfocxKDy_
+playlist: typography-only-layout
 download: https://github.com/learn-the-web/typography-only-layout-code/archive/master.zip
 github: https://github.com/learn-the-web/typography-only-layout-code
 livewebsite: typography-only-layout
@@ -29,9 +29,9 @@ This layout and series of videos combine together all these different lessons—
 
 ## Video list
 
-1. [Typography-only layout: semantics](https://www.youtube.com/watch?v=zsmQ5Kh-wO8&list=PLWjCJDeWfDdczBWwsw9CjC9RkfocxKDy_&index=1)
-2. [Typography-only layout: masthead](https://www.youtube.com/watch?v=Q82zxQAja0k&index=2&list=PLWjCJDeWfDdczBWwsw9CjC9RkfocxKDy_)
-3. [Typography-only layout: body content](https://www.youtube.com/watch?v=ZpjBxInONhg&index=3&list=PLWjCJDeWfDdczBWwsw9CjC9RkfocxKDy_)
-4. [Typography-only layout: footer](https://www.youtube.com/watch?v=FmyZh0EwUQw&index=4&list=PLWjCJDeWfDdczBWwsw9CjC9RkfocxKDy_)
-5. [Typography-only layout: line length](https://www.youtube.com/watch?v=Gh5i9J0G23Q&list=PLWjCJDeWfDdczBWwsw9CjC9RkfocxKDy_&index=5)
-6. [Typography-only layout: traditional styling](https://www.youtube.com/watch?v=yOOxGjkpaGk&index=6&list=PLWjCJDeWfDdczBWwsw9CjC9RkfocxKDy_)
+1. [Typography-only layout: Semantics](https://videos.learntheweb.courses/playlists/typography-only-layout/#1-semantics)
+2. [Typography-only layout: Masthead](https://videos.learntheweb.courses/playlists/typography-only-layout/#2-masthead)
+3. [Typography-only layout: Body content](https://videos.learntheweb.courses/playlists/typography-only-layout/#3-body)
+4. [Typography-only layout: Footer](https://videos.learntheweb.courses/playlists/typography-only-layout/#4-footer)
+5. [Typography-only layout: Line length](https://videos.learntheweb.courses/playlists/typography-only-layout/#5-line-length)
+6. [Typography-only layout: Traditional styling](https://videos.learntheweb.courses/playlists/typography-only-layout/#6-traditional)

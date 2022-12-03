@@ -2,7 +2,7 @@
 title: "Images for the web"
 tags: "images web jpeg png svg gif saving exporting save for web compression smushing optimization performance speed filesize imageoptim alpha favicons download"
 desc: "What images formats can be used on the web and how to properly export them."
-playlist: PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph
+playlist: image-formats
 download: https://github.com/learn-the-web/image-formats-code/archive/master.zip
 github: https://github.com/learn-the-web/image-formats-code
 cheatsheet: images-cheat-sheet
@@ -346,12 +346,12 @@ Smushing will reduce the size of images without reducing their quality.
 
 ## Video links
 
-1. [Image formats: saving SVGs](https://www.youtube.com/watch?v=Wz3Fe8eXMOg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1)
-2. [Image formats: saving JPGs](https://www.youtube.com/watch?v=xTAgM3tZ72A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2)
-3. [Image formats: saving PNGs](https://www.youtube.com/watch?v=NOduAdEq3-8&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3)
-4. [Image formats: smushing raster graphics](https://www.youtube.com/watch?v=9QH685VbL8U&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4)
-5. [Image formats: smushing SVGs](https://www.youtube.com/watch?v=jW3EyNa_9Uc&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
-6. [Image formats: favicons](https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=6)
+1. [Image formats: Saving SVGs](https://videos.learntheweb.courses/playlists/image-formats/#1-svgs)
+2. [Image formats: Saving JPGs](https://videos.learntheweb.courses/playlists/image-formats/5-sv#2-jpgs)
+3. [Image formats: Saving PNGs](https://videos.learntheweb.courses/playlists/image-formats/4-smushing-raste#3-pngs)
+4. [Image formats: Smushing raster graphics](https://videos.learntheweb.courses/playlists/image-formats/#4-smushing-raster-graphics)
+5. [Image formats: Smushing SVGs](https://videos.learntheweb.courses/playlists/image-formats/#5-svg-smush)
+6. [Image formats: Favicons](https://videos.learntheweb.courses/playlists/image-formats/#6-favicons)
 
 ## Supplemental links
 

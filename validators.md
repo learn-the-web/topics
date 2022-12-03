@@ -2,7 +2,7 @@
 title: "Validators"
 tags: "html css javascript validators checkers test w3c confirm semantics standards"
 desc: "Using different validation tools to check for common errors in your code."
-playlist: PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM
+playlist: validators
 extra_practice:
   activities:
     - title: "Validation Verifier"
@@ -141,6 +141,6 @@ You can configure the linting, for instance to allow jQuery by pressing the “C
 
 ## Video list
 
-1. [Validation: HTML and CSS](https://www.youtube.com/watch?v=79qAXqE3Qz8&index=1&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM)
-2. [Validation: CSS linting & stats](https://www.youtube.com/watch?v=LN5P4SrRgeE&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=2)
-3. [Validation: JavaScript](https://www.youtube.com/watch?v=4vXx5gClY6c&list=PLWjCJDeWfDde7UgEiXizAqpQE1DDzt8RM&index=3)
+1. [Validation: HTML and CSS](https://videos.learntheweb.courses/playlists/validators/#1-validation)
+2. [Validation: CSS linting & stats](https://videos.learntheweb.courses/playlists/validators/#2-css-lint-stats)
+3. [Validation: JavaScript](https://videos.learntheweb.courses/playlists/validators/#3-js-linting)

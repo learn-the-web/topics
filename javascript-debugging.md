@@ -2,7 +2,7 @@
 title: "JavaScript debugging"
 tags: "javascript debugging jshint eslint jslint developer tools inspect element console log"
 desc: "Some simple techniques to debug JavaScript code in your browser."
-playlist: PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk
+playlist: javascript-debugging
 download: https://github.com/learn-the-web/javascript-debugging-code/archive/master.zip
 github: https://github.com/learn-the-web/javascript-debugging-code
 ---
@@ -129,9 +129,9 @@ Validation is a helpful way to find issues in your JavaScript code—you can val
 
 ## Video list
 
-1. [JavaScript debugging: console](https://www.youtube.com/watch?v=7EoLvH7roYc&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk&index=1)
-2. [JavaScript debugging: commenting out code](https://www.youtube.com/watch?v=oUW1e6g1oNc&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk&index=2)
-3. [JavaScript debugging: breaking & stepping](https://www.youtube.com/watch?v=5m9Kfwx0rMs&index=3&list=PLWjCJDeWfDdeVVOm7HffeuE9XC9qEbrxk)
+1. [JavaScript debugging: Console](https://videos.learntheweb.courses/playlists/javascript-debugging/#1-console)
+2. [JavaScript debugging: Commenting out code](https://videos.learntheweb.courses/playlists/javascript-debugging/#2-commenting)
+3. [JavaScript debugging: Breaking & stepping](https://videos.learntheweb.courses/playlists/javascript-debugging/#3-debugger)
 
 ## Supplemental links
 

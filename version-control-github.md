@@ -2,7 +2,7 @@
 title: "Version control & GitHub"
 tags: "version control history undo saving github use committing syncing undo saving history messages descriptions application"
 desc: "Understanding the value of version control and how it helps us and using GitHub to store the code’s history and synchronize."
-playlist: PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ
+playlist: version-control-github
 cheatsheet: commit-message-cheat-sheet
 extra_practice:
   week:
@@ -209,16 +209,16 @@ Git branching solves this problem by providing a clean way to make copies of you
 
 ## Video list
 
-1. [GitHub: setting up & creating projects](https://www.youtube.com/watch?v=IG8_1W0a28E&index=1&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
-2. [GitHub: setting up hosting with GitHub Pages](https://www.youtube.com/watch?v=RhJm_0AhGNY&index=2&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
-3. [GitHub: committing syncing](https://www.youtube.com/watch?v=efhMTzUNpNE&index=3&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
-4. [GitHub: syncing remote edits](https://www.youtube.com/watch?v=CvnkvoUkkLU&index=4&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
-5. [GitHub: ignoring files from your project](https://www.youtube.com/watch?v=EwJ34o31yHw&index=5&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
-6. [GitHub: branching and merging](https://www.youtube.com/watch?v=2M16faxEQsg&index=6&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
-7. [GitHub: handling conflicts with team members](https://www.youtube.com/watch?v=tEXAI4Mek0g&index=7&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
-8. [GitHub: using Issues](https://www.youtube.com/watch?v=yAPSbIHcDTw&index=8&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
-9. [GitHub: enabling the Issues tab](https://www.youtube.com/watch?v=vTULg-7xycs&index=9&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
-10. [GitHub: task, labels & milestones](https://www.youtube.com/watch?v=ukYSRu4k0gs&index=10&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+1. [GitHub: Setting up & creating projects](https://videos.learntheweb.courses/playlists/version-control-github/#1-set-up)
+2. [GitHub: Setting up hosting with GitHub Pages](https://videos.learntheweb.courses/playlists/version-control-github/#2-hosting)
+3. [GitHub: Committing syncing](https://videos.learntheweb.courses/playlists/version-control-github/#3-commit-sync)
+4. [GitHub: Syncing remote edits](https://videos.learntheweb.courses/playlists/version-control-github/#4-pull)
+5. [GitHub: Ignoring files from your project](https://videos.learntheweb.courses/playlists/version-control-github/#5-gitignore)
+6. [GitHub: Branching and merging](https://videos.learntheweb.courses/playlists/version-control-github/#6-branching)
+7. [GitHub: Handling conflicts with team members](https://videos.learntheweb.courses/playlists/version-control-github/#7-conflicts)
+8. [GitHub: Using Issues](https://videos.learntheweb.courses/playlists/version-control-github/#8-issues)
+9. [GitHub: Enabling the Issues tab](https://videos.learntheweb.courses/playlists/version-control-github/#9-issues-turn-on)
+10. [GitHub: Task, labels & milestones](https://videos.learntheweb.courses/playlists/version-control-github/#10-tasks-labels-milestones)
 
 ---
 

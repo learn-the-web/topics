@@ -2,7 +2,7 @@
 title: "Navigation"
 tags: "navigation styles links multiple pages highlight current page inline list footer anchor grid toggle drop down menu navigation"
 desc: "Different navigation styles for small screen websites and how to code them."
-playlist: PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr
+playlist: navigation
 download: https://github.com/learn-the-web/navigation-code/archive/master.zip
 github: https://github.com/learn-the-web/navigation-code
 extra_practice:
@@ -240,12 +240,12 @@ We probably want to style the navigate button a little more with images, etc. Ch
 
 ## Video list
 
-1. [Navigation: inline list](https://www.youtube.com/watch?v=OmfcLL8qGO8&index=1&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
-2. [Navigation: linking multiple pages](https://www.youtube.com/watch?v=ZeMMvgCR7aU&index=2&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
-3. [Navigation: highlighting the current page](https://www.youtube.com/watch?v=l9niaFJh8Gs&index=3&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
-4. [Navigation: footer anchor pattern](https://www.youtube.com/watch?v=iExUQXBvars&index=4&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
-5. [Navigation: grid pattern](https://www.youtube.com/watch?v=Ei_Qs8KmvF4&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr&index=4)
-6. [Navigation: toggle pattern](https://www.youtube.com/watch?v=02K9uz0wJLE&index=6&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
+1. [Navigation: Inline list](https://videos.learntheweb.courses/playlists/navigation/#1-inline-list)
+2. [Navigation: Linking multiple pages](https://videos.learntheweb.courses/playlists/navigation/#2-linking-pages)
+3. [Navigation: Highlighting the current page](https://videos.learntheweb.courses/playlists/navigation/#3-highlight-current-page)
+4. [Navigation: Footer anchor pattern](https://videos.learntheweb.courses/playlists/navigation/#4-footer-anchor)
+5. [Navigation: Grid pattern](https://videos.learntheweb.courses/playlists/navigation/#5-grid-navigation)
+6. [Navigation: Toggle pattern](https://videos.learntheweb.courses/playlists/navigation/#6-toggle-nav)
 
 ## Supplemental links
 

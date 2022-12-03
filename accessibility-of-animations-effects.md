@@ -2,7 +2,7 @@
 title: "Accessibility of animations & effects"
 tags: "accessibility animations effects prefers reduced motion humans impairments visual mobility dexterity auditory cognitive color blindness memory deafness transcript captions wai aria landmark roles skip links focus styles tools total validator screen readers VoiceOver braille"
 desc: "Help everyone get the most out of your website by providing the best experience regardless of ability."
-playlist: PLWjCJDeWfDdcwx31JOv2GdvCeqqXrUnvK
+playlist: accessibility-of-animation-effects
 download: https://github.com/learn-the-web/accessibility-code/archive/master.zip
 github: https://github.com/learn-the-web/accessibility-code
 ---
@@ -113,4 +113,4 @@ There are some other, newer preferences we’ll be able to detect in the our web
 
 ## Video list
 
-- [Accessibility of animations & effects: Preferences](https://www.youtube.com/watch?v=4i7EG01xBHQ&list=PLWjCJDeWfDdcwx31JOv2GdvCeqqXrUnvK&index=2&t=0s)
+- [Accessibility of animations & effects: User preferences](https://videos.learntheweb.courses/playlists/accessibility-of-animation-effects/#1-user-prefs)

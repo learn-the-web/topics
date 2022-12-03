@@ -116,7 +116,7 @@ The most common normalizer is [Normalize.css](https://necolas.github.io/normaliz
 
 ## Video list
 
-1. [All devices setup](https://videos.learntheweb.courses/playlists/all-devices-setup/#all-devices-setup)
+1. [All devices setup](https://videos.learntheweb.courses/playlists/all-devices-setup/#1-all-devices-setup)
 
 ## Supplemental links
 

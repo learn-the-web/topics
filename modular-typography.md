@@ -2,7 +2,7 @@
 title: "Modular typography"
 tags: "modular typography baseline vertical rhythm gutter island push pad kilo mega giga tera yotta zetta"
 desc: "Creating and using a modular typography system on a website for consistent alignment."
-playlist: PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l
+playlist: modular-typography
 download: https://github.com/learn-the-web/modular-typography-code/archive/master.zip
 github: https://github.com/learn-the-web/modular-typography-code
 cheatsheet: typografier-cheat-sheet
@@ -315,10 +315,10 @@ When starting a new website it’s best to first consider the typography. I gene
 
 ## Video list
 
-1. [Modular typography: creating a type scale](https://www.youtube.com/watch?v=dYp7WM8x4uI&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=1)
-2. [Modular typography: creating reusable classes](https://www.youtube.com/watch?v=AJLPiTIOgAk&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=2)
-3. [Modular typography: vertical rhythm](https://www.youtube.com/watch?v=sZWLyQwDw7Q&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=3)
-4. [Modular typography: classes for consistent spacing](https://www.youtube.com/watch?v=FNxwjMcCcBI&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=4)
-5. [Modular typography: brand fonts and colours](https://www.youtube.com/watch?v=8IZLqReXREY&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=5)
-6. [Modular typography: examples of use](https://www.youtube.com/watch?v=ZJQi5_te2-I&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=6)
-7. [Modular typography: bigger fonts on bigger screens](https://www.youtube.com/watch?v=xW7zJKUDl58&index=7&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l)
+1. [Modular typography: Creating a type scale](https://videos.learntheweb.courses/playlists/modular-typography/#1-type-scale)
+2. [Modular typography: Creating reusable classes](https://videos.learntheweb.courses/playlists/modular-typography/#2-reusable-classes)
+3. [Modular typography: Vertical rhythm](https://videos.learntheweb.courses/playlists/modular-typography/#3-vertical-rhythm)
+4. [Modular typography: Classes for consistent spacing](https://videos.learntheweb.courses/playlists/modular-typography/#4-spacer-classes)
+5. [Modular typography: Brand fonts and colours](https://videos.learntheweb.courses/playlists/modular-typography/#5-brand)
+6. [Modular typography: Examples of use](https://videos.learntheweb.courses/playlists/modular-typography/#6-using-type-system)
+7. [Modular typography: Bigger fonts on bigger screens](https://videos.learntheweb.courses/playlists/modular-typography/#7-bigger-fonts-on-bigger-screens)

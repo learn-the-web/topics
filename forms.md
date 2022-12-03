@@ -2,7 +2,7 @@
 title: "Forms"
 tags: "forms contact input text user entry textarea button submit radio select"
 desc: "Creating forms for collecting user data like contact forms."
-playlist: PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY
+playlist: forms
 download: https://github.com/learn-the-web/forms-code/archive/master.zip
 github: https://github.com/learn-the-web/forms-code
 cheatsheet: forms-cheat-sheet
@@ -325,11 +325,11 @@ The services work really well for simple information collection, but aren’t gr
 
 ## Video list
 
-1. [Forms: introduction](https://www.youtube.com/watch?v=UoSh5xoz6fg&index=1&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
-2. [Forms: contact form](https://www.youtube.com/watch?v=GCeKgnALJGs&index=2&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
-3. [Forms: styling](https://www.youtube.com/watch?v=RYRU0NCWLCk&index=3&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
-4. [Forms: input types](https://www.youtube.com/watch?v=8pITd2_bgso&index=4&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
-5. [Forms: checkboxes, radio buttons & fieldsets](https://www.youtube.com/watch?v=GtWZUoGZN4U&index=5&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
+1. [Forms: Introduction](https://videos.learntheweb.courses/playlists/forms/#1-intro)
+2. [Forms: Contact form](https://videos.learntheweb.courses/playlists/forms/#2-contact-form)
+3. [Forms: Styling](https://videos.learntheweb.courses/playlists/forms/#3-styling)
+4. [Forms: Input types](https://videos.learntheweb.courses/playlists/forms/#4-input-types)
+5. [Forms: Checkboxes, radio buttons & fieldsets](https://videos.learntheweb.courses/playlists/forms/#5-checkboxes-radios-fieldsets)
 
 ## Supplemental links
 

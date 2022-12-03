@@ -2,7 +2,8 @@
 title: "Install Jekyll on older Macs"
 tags: "jekyll sudo gem installation terminal command line mac"
 desc: "A quick start guide to installing Jekyll on your Mac when you have OS X 10.8 and below."
-video: IINPHVVrF5Q
+playlist: jekyll
+video: 2-installation-older-mac-os
 ---
 
 This is for installing Jekyll on older versions of MacOS, specifically 10.8 and below.
@@ -59,4 +60,4 @@ sudo gem install jekyll
 
 ## Video list
 
-- [Jekyll: installation (older versions of Mac OS X)](https://www.youtube.com/watch?v=IINPHVVrF5Q&index=2&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-)
+- [Jekyll: Installation on older MacOS](https://videos.learntheweb.courses/playlists/jekyll/#2-installation-older-mac-os)

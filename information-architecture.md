@@ -2,7 +2,7 @@
 title: "Information architecture"
 tags: "content organization prioritization site maps storyboards wireframes visualizations information architecture"
 desc: "Before writing any code for your website you need to get the content organized & prioritized."
-playlist: PLWjCJDeWfDdeFopRMOmbYAnpTSDwVNMrh
+playlist: information-architecture
 ---
 
 Part of making amazing & useful websites is planning and organzing the content in a way that’s logical & user friendly. There are lots of tools to help us understand & organize our content for the web.
@@ -132,7 +132,7 @@ I like to use real text, as much as possible in the wireframe—but it remains g
 
 ## Video list
 
-- [Information architecture: Overview](https://www.youtube.com/watch?v=WJktVBgkvPo&list=PLWjCJDeWfDdeFopRMOmbYAnpTSDwVNMrh&index=2&t=0s)
+- [Information architecture: IA overview](https://videos.learntheweb.courses/playlists/information-architecture/#ia-overview)
 
 ## Supplemental links
 

@@ -2,7 +2,8 @@
 title: "Using Google Fonts"
 tags: "google web custom fonts link use"
 desc: "Including a custom, non-standard web font on your website using Google Fonts."
-video: JuwYg_54b6c
+playlist: basic-typography
+video: 8-web-fonts
 extra_practice:
   lessons:
     - title: "Dinosaur designs"
@@ -55,4 +56,4 @@ It’s a normal `link` tag but it loads a CSS file from Google’s servers inste
 
 ## Video links
 
-1. [Basic typography: custom typefaces with web fonts](https://www.youtube.com/watch?v=JuwYg_54b6c&list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG&index=8)
+1. [Basic typography: Custom typefaces with web fonts](https://videos.learntheweb.courses/playlists/basic-typography/#8-web-fonts)

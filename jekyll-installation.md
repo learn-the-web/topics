@@ -2,7 +2,8 @@
 title: "Jekyll installation"
 tags: "jekyll sudo gem installation terminal command line mac"
 desc: "A quick start guide to installing Jekyll on your Mac."
-video: oiNVQ9Zjy4o
+playlist: jekyll
+video: 1-installation
 lesson: "/courses/web-dev-4/install-more-developer-tools/"
 ---
 
@@ -136,4 +137,4 @@ bundle install
 
 ## Video list
 
-- [Jekyll: installation](https://www.youtube.com/watch?v=oiNVQ9Zjy4o&index=1&list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-)
+- [Jekyll: Installation](https://videos.learntheweb.courses/playlists/jekyll/#1-installation)

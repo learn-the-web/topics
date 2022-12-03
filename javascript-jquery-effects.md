@@ -2,7 +2,7 @@
 title: "JavaScript + jQuery effects"
 tags: "javascript jquery effects scrolling transitions animations end events waypoints smooth scroll manipulating svg"
 desc: "Using JavaScript and jQuery to trigger and create lots of effects on a website like animations and scrolling effects."
-playlist: PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_
+playlist: javascript-jquery-effects
 download: https://github.com/learn-the-web/javascript-jquery-effects-code/archive/master.zip
 github: https://github.com/learn-the-web/javascript-jquery-effects-code
 ---
@@ -390,12 +390,12 @@ For more complex SVG animations and manipulations there’s a bunch of JavaScrip
 
 ## Video list
 
-1. [JavaScript + jQuery effects: triggering animations](https://www.youtube.com/watch?v=8NcbPhLulas&index=1&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
-2. [JavaScript + jQuery effects: listening for the animation to end](https://www.youtube.com/watch?v=Ja0YxV-DCsE&index=2&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
-3. [JavaScript + jQuery effects: scrolling animations](https://www.youtube.com/watch?v=nhHqiGCG10E&index=3&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
-4. [JavaScript + jQuery effects: waypoints](https://www.youtube.com/watch?v=5hPVpVtgle4&index=4&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
-5. [JavaScript + jQuery effects: smooth scrolling](https://www.youtube.com/watch?v=OkmwkrSEBMo&index=5&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
-6. [JavaScript + jQuery effects: trigger animations & transitions on SVGs](https://www.youtube.com/watch?v=HFdvTWVBplA&index=6&list=PLWjCJDeWfDdfAAbxA-H5XHQlGoLICyHe_)
+1. [JavaScript + jQuery effects: Triggering animations](https://videos.learntheweb.courses/playlists/javascript-jquery-effects/#1-triggering-animations)
+2. [JavaScript + jQuery effects: Listening for the animation to end](https://videos.learntheweb.courses/playlists/javascript-jquery-effects/#2-animation-end-event)
+3. [JavaScript + jQuery effects: Scrolling animations](https://videos.learntheweb.courses/playlists/javascript-jquery-effects/#3-scrolling-animation)
+4. [JavaScript + jQuery effects: Waypoints](https://videos.learntheweb.courses/playlists/javascript-jquery-effects/#4-waypoints)
+5. [JavaScript + jQuery effects: Smooth scrolling](https://videos.learntheweb.courses/playlists/javascript-jquery-effects/#5-smooth-scrolling)
+6. [JavaScript + jQuery effects: Trigger animations & transitions on SVGs](https://videos.learntheweb.courses/playlists/javascript-jquery-effects/#6-trigger-svg)
 
 ## Supplemental links
 

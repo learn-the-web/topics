@@ -2,7 +2,8 @@
 title: "Branching & GitHub Flow"
 tags: "github hosting system branches master gh pages flow issues pull requests"
 desc: "Understanding the GitHub Flow when using branches and pull requests with your team."
-video: 2M16faxEQsg
+playlist: version-control-github
+video: 6-branching
 flowchart: branching-flowchart
 extra_practice:
   activities:
@@ -78,7 +79,7 @@ The process follows these steps:
 
 ## Video list
 
-1. [GitHub: branching and merging](https://www.youtube.com/watch?v=2M16faxEQsg&index=6&list=PLWjCJDeWfDdcj8_NSNFfsbHrjCfetYJWJ)
+1. [GitHub: Branching and merging](https://videos.learntheweb.courses/playlists/version-control-github/#6-branching)
 
 ## Supplemental links
 

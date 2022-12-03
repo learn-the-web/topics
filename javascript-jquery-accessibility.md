@@ -2,7 +2,7 @@
 title: "JavaScript, jQuery & accessibility"
 tags: "javascript jquery animations events common components tabs toggle panels buttons lightbox accessibility focus keyboard wai aria"
 desc: "Looking at common JavaScript patterns & components and how we can make them more accessible."
-playlist: PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow
+playlist: javascript-jquery-accessibility
 download: https://github.com/learn-the-web/javascript-jquery-accessibility-code/archive/master.zip
 github: https://github.com/learn-the-web/javascript-jquery-accessibility-code
 ---
@@ -178,11 +178,11 @@ All the above changes work fairly well, but there’s lots more we can do to mak
 
 ## Video list
 
-1. [JavaScript + jQuery accessibility: proper semantics](https://www.youtube.com/watch?v=9bdHbANEZgM&index=1&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
-2. [JavaScript + jQuery accessibility: proper labels](https://www.youtube.com/watch?v=UcNJzL2BbRE&index=2&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
-3. [JavaScript + jQuery accessibility: making toggle panels](https://www.youtube.com/watch?v=w7S4YOC5YSQ&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow&index=3)
-4. [JavaScript + jQuery accessibility: making tabs](https://www.youtube.com/watch?v=G-0JAU0iEY4&index=4&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow)
-5. [JavaScript + jQuery accessibility: tab keyboard controls](https://www.youtube.com/watch?v=NWs0FwgrXaU&list=PLWjCJDeWfDde1J-VhslLYYlKUJUHpm-Ow&index=5)
+1. [JavaScript + jQuery accessibility: Proper semantics](https://videos.learntheweb.courses/playlists/javascript-jquery-accessibility/#1-semantics)
+2. [JavaScript + jQuery accessibility: Proper labels](https://videos.learntheweb.courses/playlists/javascript-jquery-accessibility/#2-aria-label)
+3. [JavaScript + jQuery accessibility: Making toggle panels](https://videos.learntheweb.courses/playlists/javascript-jquery-accessibility/#3-toggle-panels)
+4. [JavaScript + jQuery accessibility: Making tabs](https://videos.learntheweb.courses/playlists/javascript-jquery-accessibility/#4-tabs)
+5. [JavaScript + jQuery accessibility: Tab keyboard controls](https://videos.learntheweb.courses/playlists/javascript-jquery-accessibility/#5-tab-keyboard)
 
 ## Supplemental links
 

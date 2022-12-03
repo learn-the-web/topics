@@ -2,7 +2,7 @@
 title: "Performance"
 tags: "performance speed images web page test page speed yslow cost download time mobile friendly validation"
 desc: "Making the fastest website possible and understanding what impacts the speed of your website."
-playlist: PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD
+playlist: performance
 checklist: performance-checklist
 extra_practice:
   week:
@@ -164,11 +164,11 @@ There’s a bunch more you can do to make your website super fast.
 
 ## Video list
 
-1. [Performance: browser developer tools](https://www.youtube.com/watch?v=8OGVUvrInWo&index=1&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)
-2. [Performance: online tools](https://www.youtube.com/watch?v=ifMHChSpZfE&index=2&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)
-3. [Performance: images](https://www.youtube.com/watch?v=bfkwvwK28Vs&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD&index=3)
-4. [Performance: code](https://www.youtube.com/watch?v=fMJIgVrceUQ&index=4&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)
-5. [Performance: fonts](https://www.youtube.com/watch?v=wPKu4l9hWCE&index=5&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)
+1. [Performance: Browser developer tools](https://videos.learntheweb.courses/playlists/performance/#1-developer-tools)
+2. [Performance: Online tools](https://videos.learntheweb.courses/playlists/performance/#2-online-tools)
+3. [Performance: Images](https://videos.learntheweb.courses/playlists/performance/#3-images)
+4. [Performance: Code](https://videos.learntheweb.courses/playlists/performance/#4-code)
+5. [Performance: Fonts](https://videos.learntheweb.courses/playlists/performance/#5-fonts)
 
 ## Supplemental links
 

@@ -2,7 +2,7 @@
 title: "Video & audio"
 tags: "video audio web tag element export save formats hover source mp4 webm ogg mp3"
 desc: "Using video & audio on websites and how to properly export the files."
-playlist: PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5
+playlist: video-audio
 download: https://github.com/learn-the-web/video-audio-code/archive/master.zip
 github: https://github.com/learn-the-web/video-audio-code
 extra_practice:
@@ -516,14 +516,14 @@ That’s all. **But make sure never to put large files like video and audio into
 
 ## Video list
 
-1. [Video & audio: video formats](https://www.youtube.com/watch?v=QsTeuAp9le4&index=1&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
-2. [Video & audio: video tag](https://www.youtube.com/watch?v=Tgv57WYPNDo&index=2&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
-3. [Video & audio: responsive video](https://www.youtube.com/watch?v=8EilfQKjW98&index=3&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
-4. [Video & audio: adding tracks to video](https://www.youtube.com/watch?v=sQOMGxN3IkE&index=4&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
-5. [Video & audio: using JavaScript to control video](https://www.youtube.com/watch?v=3zwFHA0GWYI&index=5&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
-6. [Video & audio: JavaScript hover to play video](https://www.youtube.com/watch?v=KTkkXphS0f4&index=6&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
-7. [Video & audio: audio tag](https://www.youtube.com/watch?v=rQOUsrpGbx4&index=7&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5)
-8. [Video & audio: hosting on a content delivery network](https://www.youtube.com/watch?v=OmVlsYFwiSE&list=PLWjCJDeWfDdcZsS2hq2chXDoZTSUpcKl5&index=8)
+1. [Video & audio: Video formats](https://videos.learntheweb.courses/playlists/video-audio/#1-export)
+2. [Video & audio: Video tag](https://videos.learntheweb.courses/playlists/video-audio/#2-video-tag)
+3. [Video & audio: Responsive video](https://videos.learntheweb.courses/playlists/video-audio/#3-responsive)
+4. [Video & audio: Adding tracks to video](https://videos.learntheweb.courses/playlists/video-audio/#4-tracks)
+5. [Video & audio: Using JavaScript to control video](https://videos.learntheweb.courses/playlists/video-audio/#5-video-js)
+6. [Video & audio: JavaScript hover to play video](https://videos.learntheweb.courses/playlists/video-audio/#6-hover)
+7. [Video & audio: Audio tag](https://videos.learntheweb.courses/playlists/video-audio/#7-audio-tag)
+8. [Video & audio: Hosting on a content delivery network](https://videos.learntheweb.courses/playlists/video-audio/#8-cdn)
 
 ## Supplemental links
 

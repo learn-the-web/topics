@@ -2,7 +2,7 @@
 title: "Search engine optimization"
 tags: "search engine optimization honest seo content tags meta description keywords sitemap robots humans txt"
 desc: "Making sure your website shows up well in search results."
-playlist: PLWjCJDeWfDddFOJYmcgNnUIhUHcsNEBTd
+playlist: search-engine-optimization
 download: https://github.com/learn-the-web/search-engine-optimization-code/archive/master.zip
 github: https://github.com/learn-the-web/search-engine-optimization-code
 checklist: seo-checklist
@@ -263,11 +263,11 @@ There are extensions you can get for your browser that highlight what websites h
 
 ## Video list
 
-1. [SEO: where search engine results come from](https://www.youtube.com/watch?v=bpE-bIX1z9M&index=1&list=PLWjCJDeWfDddFOJYmcgNnUIhUHcsNEBTd)
-2. [SEO: important content](https://www.youtube.com/watch?v=OaWvHoj7HXo&index=2&list=PLWjCJDeWfDddFOJYmcgNnUIhUHcsNEBTd)
-3. [SEO: title tag formula](https://www.youtube.com/watch?v=EXB0dEACACE&index=3&list=PLWjCJDeWfDddFOJYmcgNnUIhUHcsNEBTd)
-4. [SEO: sitemap.xml](https://www.youtube.com/watch?v=_CKevzKuZLc&index=4&list=PLWjCJDeWfDddFOJYmcgNnUIhUHcsNEBTd)
-5. [SEO: robots.txt & humans.txt](https://www.youtube.com/watch?v=Y7uaHd-KrvU&index=5&list=PLWjCJDeWfDddFOJYmcgNnUIhUHcsNEBTd)
+1. [SEO: Where search engine results come from](https://videos.learntheweb.courses/playlists/search-engine-optimization/#1-where-results-come-from)
+2. [SEO: Important content](https://videos.learntheweb.courses/playlists/search-engine-optimization/#2-important-tags)
+3. [SEO: Title tag formula](https://videos.learntheweb.courses/playlists/search-engine-optimization/#3-title-formula)
+4. [SEO: sitemap.xml](https://videos.learntheweb.courses/playlists/search-engine-optimization/#4-sitemap)
+5. [SEO: robots.txt & humans.txt](https://videos.learntheweb.courses/playlists/search-engine-optimization/#5-robots-humans)
 
 ## Supplemental links
 

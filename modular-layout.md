@@ -2,7 +2,7 @@
 title: "Modular website layout"
 tags: "full website modular layout grids typography modules embed"
 desc: "Creating a full modular website with grids, typography, and reusable modules."
-playlist: PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany
+playlist: modular-layout
 download: https://github.com/learn-the-web/modular-layout-code/archive/gh-pages.zip
 github: https://github.com/learn-the-web/modular-layout-code
 livewebsite: modular-layout
@@ -34,10 +34,10 @@ I created a tool called [Modulifier]() after recording these videos. It would dr
 
 ## Video list
 
-1. [Modular layouts: masthead](https://www.youtube.com/watch?v=BmlM9xEzxKE&list=PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany&index=1)
-2. [Modular layouts: panorama](https://www.youtube.com/watch?v=ZhYZODS3Mks&list=PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany&index=2)
-3. [Modular layouts: overview section](https://www.youtube.com/watch?v=bFYYhpuv8i0&list=PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany&index=3)
-4. [Modular layouts: moons](https://www.youtube.com/watch?v=Mn6nvo0biOw&list=PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany&index=4)
-5. [Modular layouts: news](https://www.youtube.com/watch?v=0UoIgFa6wqQ&list=PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany&index=5)
-6. [Modular layouts: footer](https://www.youtube.com/watch?v=9UYmPshSN3s&list=PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany&index=6)
-7. [Modular layouts: final details](https://www.youtube.com/watch?v=LL90Ej0XpFo&list=PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany&index=7)
+1. [Modular layouts: Masthead](https://videos.learntheweb.courses/playlists/modular-layout/#1-masthead)
+2. [Modular layouts: Panorama](https://videos.learntheweb.courses/playlists/modular-layout/#2-panorama)
+3. [Modular layouts: Overview section](https://videos.learntheweb.courses/playlists/modular-layout/#3-overview)
+4. [Modular layouts: Moons](https://videos.learntheweb.courses/playlists/modular-layout/#4-moons)
+5. [Modular layouts: News](https://videos.learntheweb.courses/playlists/modular-layout/#5-news)
+6. [Modular layouts: Footer](https://videos.learntheweb.courses/playlists/modular-layout/#6-footer)
+7. [Modular layouts: Final details](https://videos.learntheweb.courses/playlists/modular-layout/#7-final-details)

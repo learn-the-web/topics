@@ -2,7 +2,7 @@
 title: "Writing a readme"
 tags: "writing project readme .md markdown commonmark github plain text"
 desc: "A quick overview of writing a helpful readme for your web project."
-playlist: PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_
+playlist: writing-a-readme
 download: https://github.com/learn-the-web/writing-a-readme-samples/archive/master.zip
 github: https://github.com/learn-the-web/writing-a-readme-samples
 extra_practice:
@@ -151,9 +151,9 @@ Somethings consider adding to your change log:
 
 ## Video list
 
-1. [Writing a readme: writing a readme](https://www.youtube.com/watch?v=RZ5vduluea4&index=1&list=PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_)
-2. [Writing a readme: adding a license](https://www.youtube.com/watch?v=gJZGLZSzP_I&index=2&list=PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_)
-3. [Writing a readme: creating a change log](https://www.youtube.com/watch?v=y6hVxxi-DnY&index=3&list=PLWjCJDeWfDdeFtHCKhhjdgiYFdPT8mvh_)
+1. [Writing a readme: Writing a readme](https://videos.learntheweb.courses/playlists/writing-a-readme/#1-basics)
+2. [Writing a readme: Adding a license](https://videos.learntheweb.courses/playlists/writing-a-readme/#2-license)
+3. [Writing a readme: Creating a change log](https://videos.learntheweb.courses/playlists/writing-a-readme/#3-changelog)
 
 ## Supplemental links
 

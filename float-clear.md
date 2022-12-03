@@ -2,7 +2,7 @@
 title: "Float & clear"
 tags: "float clear text wrap clearfix columns overflow hidden scrollbars"
 desc: "Understanding how float allows text to wrap around elements and advanced uses for float."
-playlist: PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0
+playlist: float-clear
 download: https://github.com/learn-the-web/float-clear-code/archive/master.zip
 github: https://github.com/learn-the-web/float-clear-code
 cheatsheet: css-layout-cheat-sheet
@@ -293,10 +293,10 @@ p {
 
 ## Video list
 
-1. [Float & clear: introduction](https://www.youtube.com/watch?v=fXbxt09eHj8&list=PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0&index=1)
-2. [Float & clear: wrapped image](https://www.youtube.com/watch?v=6YqFoNHdOPM&list=PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0&index=2)
-3. [Float & clear: definition list](https://www.youtube.com/watch?v=FTlb4PzwvH8&list=PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0&index=3)
-4. [Float & clear: columns](https://www.youtube.com/watch?v=ZbWpuW9wXK0&list=PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0&index=4)
+1. [Float & clear: Introduction](https://videos.learntheweb.courses/playlists/float-clear/#1-float-clear)
+2. [Float & clear: Wrapped image](https://videos.learntheweb.courses/playlists/float-clear/#2-wrapped-image)
+3. [Float & clear: Definition list](https://videos.learntheweb.courses/playlists/float-clear/#3-definition-list)
+4. [Float & clear: Columns](https://videos.learntheweb.courses/playlists/float-clear/#4-columns)
 
 ## Supplemental links
 

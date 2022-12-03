@@ -2,7 +2,7 @@
 title: "Browser developer tools"
 tags: "browser developer tools inspect element google chrome safari firefox opera elements styles"
 desc: "Using the browser’s developer tools to help debug and code a website."
-playlist: PLWjCJDeWfDdenz3Q3vHl6n1b9sXyiBDpl
+playlist: browser-developer-tools
 extra_practice:
   week:
     title: "Web Dev 1, Week 06"
@@ -137,7 +137,7 @@ The **Resources** tab is helpful because it gives you more details about each of
 
 ## Video list
 
-1. [Tools: Browser developer tools](https://www.youtube.com/watch?v=09XV2psDAZ4&list=PLWjCJDeWfDdenz3Q3vHl6n1b9sXyiBDpl&index=1)
+1. [Tools: Browser developer tools](https://videos.learntheweb.courses/playlists/browser-developer-tools/#1-developer-tools)
 
 ## Supplemental links
 
